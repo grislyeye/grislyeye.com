@@ -1,8 +1,12 @@
 @import "fonts";
+@import "media_queries";
+@import "node_modules/skeleton-css/css/normalize";
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700);
 
 body {
   background: black;
   color: white;
+  font-family: 'Alegreya', serif;
 }
 
 h1,
@@ -10,6 +14,7 @@ h2,
 h3,
 h4 {
   font-family: "Andada SC", serif;
+  color: red;
 }
 
 nav a {
@@ -17,12 +22,45 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 nav h2 {
   font-size: 4em;
+  font-weight: bold;
 }
 
 nav #logo {
   height: 1.5em;
   vertical-align: middle;
   margin: 0.2em;
+}
+
+@media ($small) {
+
+  nav #logo {
+    height: 3em;
+    display: block;
+    margin: 0 auto;
+  }
+
+  nav h2 {
+    font-size: 2em;
+    display: block;
+    text-align: center;
+  }
+
+}
+
+@media ($medium) {
+  h2 {
+    text-align: center;
+  }
+}
+
+footer {
+  font-size: smaller;
+  color: gray;
 }

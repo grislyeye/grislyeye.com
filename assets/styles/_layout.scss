@@ -1,0 +1,5 @@
+@import "node_modules/skeleton-css/css/skeleton";
+
+header, article, main, footer {
+  @extend .container;
+}
