@@ -1,5 +1,6 @@
 @import "fonts";
 @import "media_queries";
+@import "icons";
 @import "node_modules/skeleton-css/css/normalize";
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700);
 
@@ -38,6 +39,16 @@ nav #logo {
   margin: 0.2em;
 }
 
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 0.25em;
+}
+
 @media ($small) {
 
   nav #logo {
@@ -58,9 +69,19 @@ nav #logo {
   h2 {
     text-align: center;
   }
+
+  nav .links {
+    display: none;
+  }
 }
 
 footer {
   font-size: smaller;
   color: gray;
+}
+
+@media ($small) {
+  footer {
+    font-size: 1em;
+  }
 }

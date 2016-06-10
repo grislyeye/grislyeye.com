@@ -1,0 +1,18 @@
+@import "node_modules/font-awesome/scss/variables";
+$fa-font-path: "vendor/font-awesome/fonts";
+@import "node_modules/font-awesome/scss/font-awesome";
+
+@mixin icon {
+  @extend .fa;
+  @extend .fa-lg;
+}
+
+i.twitter {
+  @include icon;
+  @extend .fa-twitter;
+}
+
+i.googleplus {
+  @include icon;
+  @extend .fa-google-plus-square;
+}

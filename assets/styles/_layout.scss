@@ -1,5 +1,22 @@
 @import "node_modules/skeleton-css/css/skeleton";
+@import "node_modules/compass-mixins/lib/compass/css3/flexbox";
+@import "media_queries";
 
 header, article, main, footer {
   @extend .container;
+}
+
+body > header > nav {
+  @include display-flex;
+  @include flex-direction(row);
+  @include flex-wrap(nowrap);
+  @include justify-content(space-between);
+  @include align-items(flex-start);
+  padding-top: 0.5em;
+}
+
+@media ($medium) {
+  body > header > nav {
+    display: block;
+  }
 }

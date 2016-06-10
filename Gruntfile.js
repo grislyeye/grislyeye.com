@@ -134,7 +134,7 @@ module.exports = function (grunt) {
           destPrefix: 'dist/vendor'
         },
         files: {
-          'js/jquery/jquery.js': 'jquery/dist/jquery.min.js'
+          'font-awesome/fonts': 'font-awesome/fonts'
         }
       }
     },

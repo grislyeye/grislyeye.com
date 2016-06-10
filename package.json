@@ -2,9 +2,10 @@
   "name": "grislyeye.com",
   "version": "0.1.0",
   "dependencies": {
-    "jquery": "^2.2.0"
+    "font-awesome": "^4.6.3"
   },
   "devDependencies": {
+    "compass-mixins": "^0.12.10",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.0.0",
