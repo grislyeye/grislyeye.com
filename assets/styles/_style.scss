@@ -19,32 +19,32 @@ h4 {
   color: red;
 }
 
-nav a {
+body > header a {
   color: white;
   text-decoration: none;
 }
 
-nav a:hover {
+body > header a:hover {
   color: white;
   text-decoration: none;
 }
 
-nav h2 {
+body > header h1 {
   font-size: 4em;
   font-weight: bold;
 }
 
-nav #logo {
+body > header #logo {
   height: 1.5em;
   vertical-align: middle;
   margin: 0.2em;
 }
 
-nav ul {
+body > header nav ul {
   list-style: none;
 }
 
-nav ul li {
+body > header nav ul li {
   display: inline-block;
   font-size: 1.5em;
   margin: 0.25em;
@@ -52,13 +52,13 @@ nav ul li {
 
 @media ($small) {
 
-  nav #logo {
+  body > header #logo {
     height: 3em;
     display: block;
     margin: 0 auto;
   }
 
-  nav h2 {
+  body > header h1 {
     font-size: 2em;
     display: block;
     text-align: center;
@@ -71,8 +71,22 @@ nav ul li {
     text-align: center;
   }
 
-  nav .links {
+  body > header nav .links {
     display: none;
+  }
+}
+
+article img {
+  width: 80%;
+  margin-bottom: 2.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media ($medium) {
+  article img {
+    width: 100%;
   }
 }
 

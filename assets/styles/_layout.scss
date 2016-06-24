@@ -6,7 +6,7 @@ header, article, main, footer {
   @extend .container;
 }
 
-body > header > nav {
+body > header {
   @include display-flex;
   @include flex-direction(row);
   @include flex-wrap(nowrap);
@@ -17,20 +17,6 @@ body > header > nav {
 
 @media ($medium) {
   body > header > nav {
-    display: block;
-  }
-}
-
-article img {
-  width: 80%;
-  margin-bottom: 2.5rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media ($medium) {
-  article img {
-    width: 100%;
+    display: none;
   }
 }
