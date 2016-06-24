@@ -55,20 +55,24 @@ body > header nav ul.links li {
 @media ($small) {
 
   body > header #logo {
-    height: 3em;
     display: block;
     margin: 0 auto;
   }
 
-  body > header h1 {
+  body > header h1.title {
     font-size: 2em;
-    display: block;
-    text-align: center;
   }
 
 }
 
 @media ($medium) {
+
+  body > header h1.title {
+    font-size: 3em;
+    display: block;
+    text-align: center;
+  }
+
   h2 {
     text-align: center;
   }
