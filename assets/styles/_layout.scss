@@ -8,11 +8,15 @@ header, article, main, footer {
 
 body > header {
   @include display-flex;
-  @include flex-direction(row);
+  @include flex-direction(column);
   @include flex-wrap(nowrap);
   @include justify-content(space-between);
   @include align-items(flex-start);
   padding-top: 0.5em;
+}
+
+body > header > nav {
+  @include align-self(flex-end);
 }
 
 @media ($medium) {

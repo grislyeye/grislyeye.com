@@ -29,9 +29,10 @@ body > header a:hover {
   text-decoration: none;
 }
 
-body > header h1 {
+body > header h1.title {
   font-size: 4em;
   font-weight: bold;
+  margin: .4em 0;
 }
 
 body > header #logo {
@@ -40,11 +41,12 @@ body > header #logo {
   margin: 0.2em;
 }
 
-body > header nav ul {
+body > header nav ul.links {
   list-style: none;
+  margin-top: 2rem;
 }
 
-body > header nav ul li {
+body > header nav ul.links li {
   display: inline-block;
   font-size: 1.5em;
   margin: 0.25em;
