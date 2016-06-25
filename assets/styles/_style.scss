@@ -31,8 +31,10 @@ body > header a:hover {
 
 body > header h1.title {
   font-size: 4em;
-  font-weight: bold;
-  margin: .4em 0;
+  font-weight: bold;//
+//  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
 
 body > header #logo {
@@ -60,7 +62,7 @@ body > header nav ul.links li {
   }
 
   body > header h1.title {
-    font-size: 2em;
+    font-size: 1em;
   }
 
 }

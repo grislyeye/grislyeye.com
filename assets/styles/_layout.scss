@@ -15,6 +15,10 @@ body > header {
   padding-top: 0.5em;
 }
 
+body > header > .title {
+  @include align-self(center);
+}
+
 body > header > nav {
   @include align-self(flex-end);
 }
