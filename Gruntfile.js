@@ -164,8 +164,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-npmcopy');
   grunt.loadNpmTasks('grunt-postcss');
-  grunt.loadNpmTasks('grunt-html5-validate');
 
-  grunt.registerTask('default', ['postcss', 'copy', 'html5validate', 'sass', 'cssmin', 'imagemin', 'npmcopy']);
+  grunt.registerTask('default', ['postcss', 'copy', 'sass', 'cssmin', 'imagemin', 'npmcopy']);
   grunt.registerTask('run', ['clean', 'default', 'connect', 'watch']);
 };
