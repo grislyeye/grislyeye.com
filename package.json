@@ -19,7 +19,7 @@
     "grunt-sass": "^1.1.0",
     "node-sass": "^3.13.0",
     "skeleton-css": "^2.0.4",
-    "stylelint": "^6.2.2"
+    "stylelint": "^7.6.0"
   },
   "scripts": {
     "build": "grunt",
