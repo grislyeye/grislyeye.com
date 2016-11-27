@@ -109,3 +109,23 @@ footer {
     font-size: 1em;
   }
 }
+
+#mc_embed_signup {
+
+  background:#000;
+  clear:left;
+
+  form {
+
+    input[type='email'] {
+      color: black;
+      font-family: 'Alegreya', serif;
+    }
+
+    .button {
+      background: red;
+    }
+
+  }
+
+}
