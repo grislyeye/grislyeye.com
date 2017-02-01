@@ -49,6 +49,7 @@ module.exports = function (grunt) {
         files: [
           {
             expand: true,
+            follow: true,
             cwd: 'bower_components/',
             src: ['**'],
             dest: 'dist/vendor/'

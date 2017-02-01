@@ -28,3 +28,36 @@ body > header > nav {
     display: none;
   }
 }
+
+.stat-block {
+  position: relative;
+}
+
+.stat-block img.background {
+  width: 100%;
+  z-index: -1;
+  position: relative;
+}
+
+.stat-block dnd-stat-block {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media ($medium) {
+
+  .stat-block {
+    position: static;
+  }
+
+  .stat-block img.background {
+    display: none;
+  }
+
+  .stat-block dnd-stat-block {
+    position: static;
+  }
+
+}
+

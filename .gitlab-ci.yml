@@ -7,6 +7,8 @@ cache:
 pages:
   script:
   - npm install
+  - npm install -g bower
+  - bower install --allow-root
   - npm run build
   - mv dist public
   artifacts:

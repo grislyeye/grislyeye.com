@@ -1,10 +1,11 @@
 {
   "name": "grislyeye.com",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "dependencies": {
     "font-awesome": "^4.6.3"
   },
   "devDependencies": {
+    "bower": "^1.8.0",
     "compass-mixins": "^0.12.10",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
@@ -26,6 +27,8 @@
     "watch": "grunt watch",
     "deploy": "grunt deploy",
     "clean": "grunt clean",
-    "start": "grunt run"
+    "start": "grunt run",
+    "postinstall": "bower install",
+    "postupdate": "bower update"
   }
 }
