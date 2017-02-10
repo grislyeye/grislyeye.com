@@ -27,14 +27,6 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     copy: {
-      main: {
-        files: [
-          {
-            src: 'index.html',
-            dest: 'dist/index.html'
-          }
-        ]
-      },
       assets: {
         files: [
           {
@@ -62,9 +54,9 @@ module.exports = function (grunt) {
       options: {
         livereload: true
       },
-      html: {
-        files: ['index.html'],
-        tasks: ['copy:main']
+      metalsmith: {
+        files: ['helpers/**', 'posts/**', 'layouts/**', "metalsmith.json"],
+        tasks: ['shell:metalsmith']
       },
       sass: {
         files: ['main.scss', 'assets/styles/**'],
@@ -153,6 +145,12 @@ module.exports = function (grunt) {
 
     html5validate: {
       src: 'dist/*.html'
+    },
+
+    shell: {
+      metalsmith: {
+        command: "metalsmith"
+      }
     }
   });
 
@@ -165,7 +163,8 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-npmcopy');
   grunt.loadNpmTasks('grunt-postcss');
+  grunt.loadNpmTasks('grunt-shell');
 
-  grunt.registerTask('default', ['postcss', 'copy', 'sass', 'cssmin', 'imagemin', 'npmcopy']);
+  grunt.registerTask('default', ['shell:metalsmith', 'postcss', 'copy', 'sass', 'cssmin', 'imagemin', 'npmcopy']);
   grunt.registerTask('run', ['clean', 'default', 'connect', 'watch']);
 };

@@ -61,3 +61,20 @@ body > header > nav {
 
 }
 
+article {
+  margin: 0;
+  width: 100%;
+}
+
+article header {
+  margin: 0;
+}
+
+#playtest {
+  margin-bottom: 1em;
+}
+
+#playtest .content {
+  padding-top: 1em;
+  @extend .container;
+}

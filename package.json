@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "dependencies": {
     "font-awesome": "^4.6.3"
   },
@@ -18,6 +18,16 @@
     "grunt-npmcopy": "^0.1.0",
     "grunt-postcss": "^0.8.0",
     "grunt-sass": "^2.0.0",
+    "grunt-shell": "^2.1.0",
+    "handlebars": "^4.0.6",
+    "metalsmith": "^2.1.0",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-layouts": "^1.6.4",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-path": "^0.2.0",
+    "metalsmith-publish": "^0.1.4",
+    "metalsmith-register-helpers": "^0.2.0",
     "node-sass": "^4.5.0",
     "skeleton-css": "^2.0.4",
     "stylelint": "^7.6.0"

@@ -1,0 +1,32 @@
+{
+  "source": "./posts",
+  "destination": "./dist",
+  "clean": false,
+  "metadata": {
+    "title": "Grey Area",
+    "description": "Ricardo's thoughts & feels about tech"
+  },
+  "plugins": {
+    "metalsmith-register-helpers": {
+      "directory": "helpers/"
+    },
+    "metalsmith-ignore": [
+      "posts/index.md"
+    ],
+    "metalsmith-markdown": {},
+    "metalsmith-path": {},
+    "metalsmith-publish": {},
+    "metalsmith-collections": {
+      "articles": {
+        "pattern": "*.md",
+        "sortBy": "date",
+        "reverse": true
+      }
+    },
+    "metalsmith-layouts": {
+      "engine": "handlebars",
+      "directory": "layouts",
+      "partials": "layouts/partials"
+    }
+  }
+}

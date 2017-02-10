@@ -19,6 +19,15 @@ h4 {
   color: red;
 }
 
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  font-family: "Andada SC", serif;
+  color: red;
+  text-decoration: none;
+}
+
 body > header a {
   color: white;
   text-decoration: none;
@@ -31,8 +40,7 @@ body > header a:hover {
 
 body > header h1.title {
   font-size: 4em;
-  font-weight: bold;//
-//  line-height: 1.25;
+  font-weight: bold;
   margin-top: 0;
   margin-bottom: 2rem;
 }
@@ -112,7 +120,6 @@ footer {
 
 #mc_embed_signup {
 
-  background:#000;
   clear:left;
 
   form {
@@ -128,4 +135,18 @@ footer {
 
   }
 
+}
+
+#playtest {
+  background: white;
+  width: 100%;
+  color: black;
+}
+
+#playtest strong {
+  color: red;
+}
+
+#playtest h1, #playtest h2, #playtest h3 {
+  text-align: center;
 }
