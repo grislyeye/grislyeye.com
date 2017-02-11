@@ -75,4 +75,7 @@ id: vermus-preview-1
     </actions>
 
   </dnd-stat-block>
+
 </div>
+
+<p>Art credit: <a href="http://acrossthepond-art.tumblr.com/">George Howard</a></p>
