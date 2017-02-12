@@ -2,7 +2,7 @@
 @import "node_modules/compass-mixins/lib/compass/css3/flexbox";
 @import "media_queries";
 
-header, article, main, footer {
+body > header, article, main, footer {
   @extend .container;
 }
 
@@ -84,4 +84,3 @@ table td.number, th.number {
   padding-right: 1em;
   text-align: center;
 }
-
