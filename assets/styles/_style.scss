@@ -150,3 +150,31 @@ footer {
 #playtest h1, #playtest h2, #playtest h3 {
   text-align: center;
 }
+
+.illustration {
+  width: 50%;
+  max-width: 400px;
+  float: left;
+  padding-right: 1em;
+}
+
+.illustration p.caption {
+  font-size: smaller;
+  font-style: italic;
+}
+
+.illustration img {
+  width: 100%;
+}
+
+@media ($small) {
+
+  .illustration {
+    width: 100%;
+  }
+
+}
+
+ul, ol {
+  padding-left: 2em;
+}
