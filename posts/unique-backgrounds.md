@@ -44,7 +44,7 @@ id: unique-backgrounds
 
 <p>The unique far traveller represents a character that hails from distant lands where magic yet lingers, strange arts are practiced and mysterious gods still make their presence known.</p>
 
-<p>You do not gain the All Eyes On You feature if you take Far Traveller as a unique background. Instead, you must take the Strange Custom unique flaw, as described below.</p>
+<p>You do not gain the All Eyes On You feature if you take far traveller as a unique background. Instead, you must take the Strange Custom unique flaw, as described below.</p>
 
 <p>You may now choose from the following options at character creation:</p>
 
