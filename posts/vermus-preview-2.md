@@ -78,7 +78,7 @@ id: vermus-preview-1
           <em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or becomes infected with a temporary, random effect from the diseased bite. The effect begins at start of the target's turn and lasts until the start of its next turn. Roll 1d6 to determine the effect.
 
           <ul>
-            <li>**1.** <strong>Rabid.</strong> The target becomes rabid and uses any actions it has this turn to make melee attacks against its nearest ally.</li>
+            <li><strong>1. Rabid.</strong> The target becomes rabid and uses any actions it has this turn to make melee attacks against its nearest ally.</li>
             <li><strong>2. Paralysed.</strong> The target becomes paralysed.</li> 
             <li><strong>3-5. Blood Poisoned.</strong> The target becomes poisoned and takes 1d4 poison damage.</li>
             <li><strong>6. Blinded.</strong> The target becomes blinded.</li>
