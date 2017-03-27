@@ -182,3 +182,36 @@ ul, ol {
 .content strong {
   color: red;
 }
+
+.content dl dt {
+  float: left;
+  clear: left;
+  margin-left: 2.5rem;
+  margin-right: 5px;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+  line-spacing: 1em;
+}
+
+.content dl dd {
+  margin-left: 0px;
+  margin-bottom: 2.5rem;
+}
+
+.content table caption {
+  font-variant: small-caps;
+  font-weight: bold;
+  color: red;
+  text-align: left;
+  font-size: larger;
+}
+
+.content dl dd dl {
+  margin-top: 1em;
+}
+
+.content dl dd dl dt {
+  font-weight: normal;
+  color: white;
+}
