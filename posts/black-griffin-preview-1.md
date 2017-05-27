@@ -1,0 +1,73 @@
+---
+title: Black Griffin Faction
+date: 2017-05-30
+collection: articles
+layout: post.html
+id: black-griffin-preview-1
+---
+<img src="/images/black-griffin.png" style="max-width: 400px; float: right">
+
+<p>The Company of the Black Griffin (often just called &#39;Griffin Company&#39;) is a mercenary army commanded by the ageing Captain Larke. For a century now it has journeyed east, seeking fortune and glory.</p>
+
+<p><strong><em>Mercenaries, Travellers and Misfits.</em></strong> The main body of the Company is composed of traditional, military forces. Here you will find regiments of cavalry and infantry. Over its century-long journey it has gathered (and lost) troops from lands across the world and it has a fairly cosmopolitan mix of peoples.</p>
+
+<p>Captain Larke also likes to keep around <q>specialists</q> for... sensitive missions. Amidst the ranks you&#39;ll also find war witches, spies, burglars and other misfits.</p>
+
+<p><strong><em>United by a Charter.</em></strong> The Company Charter is an ancient document that outlines the bylaws and core mission of the Company, as well as including a lengthy history of its decades-long migration east. Walter the Scribe (and penny-pinching bursar) keeps the Charter updated with it&#39;s current travels. The Charter is a massive collection of notes, torn scraps, scrolls and other miscellany collected over the years, all bound in black leather into a rough tome.</p>
+
+<p><strong><em>Black Griffin Crest.</em></strong> Members of Griffin Company are known by their crest worn on the shoulder and on shields: a rampant, black griffin on a gold background.</p>
+
+<h4>Beliefs and Goals</h4>
+
+<p><strong>For Honour.</strong> Always fight with honour, or at least the appearance of honour (Lawful... ish)</p>
+
+<p><strong>For Gold.</strong> We fight for a reason and that reason is gold! (Neutral)</p>
+
+<h4>Missions</h4>
+
+<p>Typical missions involve:</p>
+
+<p><strong>Deserters Wanted Dead or Alive</strong> Desertion is the worst crime a mercenary can commit. All company members have a mandate to kill or capture deserters if they find them. Black Griffin commanders will frequently send out small parties of <q>fetches</q> (company bounty hunters) to bring them to justice.</p>
+
+<p><strong>New Contracts</strong> Contracts are the lifeblood of the company and characters that get clients to sign them are accorded immense respect.</p>
+
+<p><strong>New Recruits</strong> Hmmmm... actually, recruits are the lifeblood of the company and characters that get new recruits to sign up are accorded immense respect.</p>
+</div>
+
+<table>
+<thead>
+  <tr>
+    <th class="number">Renown</th>
+    <th class="text">Rank</th>
+    <th class="text">Perks</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+    <td class="number">0</td>
+    <td class="text">Private</td>
+    <td class="text"><strong>Camp Followers.</strong> You have contacts in the seedy underbelly of the camp allowing you to obtain illicit goods and services. When you&#39;re back at a Black Griffin encampment you can purchase fenced or black market goods and other, dubious services.</td>
+  </tr>
+  <tr>
+    <td class="number">3</td>
+    <td class="text">Corporal</td>
+    <td class="text"><strong>Command.</strong> You gain advantage on intimidation checks against Company mercenaries of lower rank.</td>
+  </tr>
+  <tr>
+    <td class="number">10</td>
+    <td class="text">Sergeant</td>
+    <td class="text"><strong>Guard Retinue.</strong> You are accompanied by a small retinue of four <strong>guard</strong> followers (page 347 of the <em>Monster Manual</em>)  for protection.</td>
+  </tr>
+  <tr>
+    <td class="number">25</td>
+    <td class="text">Lieutenant</td>
+    <td class="text"><strong>Veteran Retinue.</strong> Your guard retinue is replaced with two <strong>veteran</strong> followers (page 350 of the <em>Monster Manual</em>).</td>
+  </tr>
+  <tr>
+    <td class="number">50</td>
+    <td class="text">Captain</td>
+    <td class="text"><strong>The Chancellor's Sword.</strong> As commander of the Company you may wield <em>the chancellor's sword</em>, which is otherwise identical to a <em>defender</em>.</td>
+  </tr>
+</tbody>
+</table>
