@@ -15,6 +15,8 @@ id: black-griffin-campaign
 
 <p>If you'd like to join apply on Roll20:</p>
 
-<button><a href="https://app.roll20.net/lfg/listing/78977/black-griffin" target="_blank">Apply</a></button>
+<form method="get" action="https://app.roll20.net/lfg/listing/78977/black-griffin" target="_blank">
+  <button>Apply</button>
+</form>
 
 <p>If you just want to lurk we'll also be posting campaign updates on our Twitter feed under the <a href="https://twitter.com/hashtag/blackgriffinrpg">#blackgriffinrpg</a> hashtag.</p>
