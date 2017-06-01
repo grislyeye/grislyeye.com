@@ -11,13 +11,10 @@ id: black-griffin-campaign
 
 <p>You will start the campaign as mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, you have been placed on punishment duty as company <em>fetches</em>: bounty hunters charged with capture of deserters for trial.</p>
 
-<p>As players you'll get access to some of our pre-release material. Plus <strong>free</strong> copies of final products you playtest with. playtest credits.</p>
+<p>As playtesters you'll get access to pre-release Grisly Eye Games material. Plus <strong>free</strong> copies of final products you playtest. With playtest credits!</p>
 
-<p>If you'd like to join <a href="mailto:info@grislyeye.com?subject=[blackgriffin] Application">email us</a> with the following information:</p>
+<p>If you'd like to join apply on Roll20:</p>
 
-<ul>
-  <li>A short introduction about yourself and your roleplaying experience.</li>
-  <li>A couple of lines about the character you'd like to play.</li>
-</ul>
+<button><a href="https://app.roll20.net/lfg/listing/78977/black-griffin" target="_blank">Apply</a></button>
 
 <p>If you just want to lurk we'll also be posting campaign updates on our Twitter feed under the <a href="https://twitter.com/hashtag/blackgriffinrpg">#blackgriffinrpg</a> hashtag.</p>

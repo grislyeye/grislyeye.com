@@ -129,10 +129,32 @@ footer {
       font-family: 'Alegreya', serif;
     }
 
-    .button {
-      background: red;
-    }
+  }
 
+}
+
+.button {
+  background-color: red !important;
+}
+
+button {
+  background-color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.content button {
+  color: white;
+  font-size: 0.8em;
+  border: 0px none #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+
+  a {
+    text-decoration: none;
+    color: white;
   }
 
 }
