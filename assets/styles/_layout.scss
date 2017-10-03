@@ -80,6 +80,10 @@ article header {
   @extend .container;
 }
 
+.content table td {
+  padding-right: 1em;
+}
+
 table td.number, th.number {
   padding-left: 1em;
   padding-right: 1em;
