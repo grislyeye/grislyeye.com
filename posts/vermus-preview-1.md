@@ -10,71 +10,61 @@ id: vermus-preview-1
 <div class="stat-block" style="min-height: 640px">
   <img src="images/vermus.png" class="background">
 
-  <dnd-stat-block id="vermus" str="7" dex="16" con="8" int="8" wis="12" cha="8">
-    <header>
-      <h1>Vermus</h1>
-      <p>Small humanoid (vermus), chaotic neutral</p>
-    </header>
+  <vellum-stat-block class="stat-block" id="vermus" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
 
-    <combat-stats>
-      <dl>
-        <dt>Armor Class</dt><dd>15 (leather armor)</dd>
-        <dt>Hit Points</dt><dd>6 (2d6 - 1)</dd>
-        <dt>Speed</dt><dd>30 ft.</dd>
-      </dl>
-    </combat-stats>
+    <dl>
+      <dt>Name</dt><dd itemprop="name">Vermus</dd>
+      <dt>Size</dt><dd itemprop="size">Small</dd>
+      <dt>Type</dt><dd itemprop="type">humanoid (vermus)</dd>
+      <dt>Alignment</dt><dd itemprop="alignment">chaotic neutral</dd>
 
-    <attributes>
-      <dl>
-        <dt>STR</dt><dd>7 (-2)</dd>
-        <dt>DEC</dt><dd>16 (+3)</dd>
-        <dt>CON</dt><dd>8 (-1)</dd>
-        <dt>INT</dt><dd>8 (-1)</dd>
-        <dt>WIS</dt><dd>12 (+1)</dd>
-        <dt>CHA</dt><dd>8 (-1)</dd>
-      </dl>
-    </attributes>
+      <dt>Armor Class</dt><dd itemprop="ac">15 (leather armor)</dd>
+      <dt>Hit Points</dt><dd><span itemprop="hp">6</span> (<span itemprop="hitDie">2d6 + 1</span>)</dd>
+      <dt>Speed</dt><dd itemprop="speeds">30 ft.</dd>
 
-    <stats>
-      <dl>
-        <dt>Saving Throws</dt><dd>Cons +1</dd>
-        <dt>Skills</dt><dd>Sleight of Hand +5, Stealth +5</dd>
-        <dt>Senses</dt><dd>darkvision 60 ft., passive Perception 14</dd>
-        <dt>Languages</dt><dd>Common</dd>
-        <dt>Challenge</dt><dd>1/4 (50 XP)</dd>
-      </dl>
-    </stats>
+      <dt>Strength</dt><dd itemprop="str">7</dd>
+      <dt>Dexterity</dt><dd itemprop="dex">16</dd>
+      <dt>Constitution</dt><dd itemprop="con">8</dd>
+      <dt>Intelligence</dt><dd itemprop="int">8</dd>
+      <dt>Wisdom</dt><dd itemprop="wis">12</dd>
+      <dt>Charisma</dt><dd itemprop="cha">8</dd>
 
-    <special-traits>
+      <dt>Saving Throws</dt><dd itemprop="savingThrows">Cons +1</dd>
+      <dt>Skills</dt><dd itemprop="skills">Sleight of Hand +5</dd>
+      <dt>Skills</dt><dd itemprop="skills">Stealth +5</dd>
+      <dt>Senses</dt><dd itemprop="senses">darkvision 60 ft.</dd>
+      <dt>Senses</dt><dd itemprop="senses">passive Perception 14</dd>
+      <dt>Languages</dt><dd itemprop="languages">Common</dd>
+      <dt>Challenge</dt><dd itemprop="cr">1/4</dd>
+      <dt>XP</dt><dd itemprop="xp">50</dd>
 
-      <dl>
-        <dt>Keen Smell.</dt>
-        <dd>Vermus have advantage on Wisdom (Perception) checks that rely on smell.</dd>
-      </dl>
+    </dl>
 
-      <dl>
-        <dt>Squirm.</dt>
-        <dd>Vermus can crawl through spaces much smaller than their size (2 ft. or larger) and can pass through the space of any Medium or larger creature as though they were Tiny.</dd>
-      </dl>
+    <ol>
 
-      <dl>
-        <dt>Swarm Tactics.</dt>
-        <dd>Up to two vermus allies can occupy the same space. The vermus has advantage on an attack roll if it is in a space occupied by another vermus and the vermus ally isn't incapacitated.</dd>
-      </dl>
+      <li itemprop="specialTraits" itemscope>
+        <span itemprop="name">Keen Smell</span>
+        <span itemprop="description">Vermus have advantage on Wisdom (Perception) checks that rely on smell.</span>
+      </li>
 
-    </special-traits>
+      <li itemprop="specialTraits" itemscope>
+        <span itemprop="name">Squirm</span>
+        <span itemprop="description">Vermus can crawl through spaces much smaller than their size (2 ft. or larger) and can pass through the space of any Medium or larger creature as though they were Tiny.</span>
+      </li>
 
-    <actions>
-      <h2>Actions</h2>
+      <li itemprop="specialTraits" itemscope>
+        <span itemprop="name">Swarm Tactics</span>
+        <span itemprop="description">Up to two vermus allies can occupy the same space. The vermus has advantage on an attack roll if it is in a space occupied by another vermus and the vermus ally isn't incapacitated.</span>
+      </li>
 
-      <dl>
-        <dt>Knife.</dt>
-        <dd><em>Melee or Ranged Weapon Attack:</em> +4 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage.</dd>
-      </dl>
+      <li itemprop="actions" itemscope>
+        <span itemprop="name">Knife</span>
+        <span><data itemprop="type" value="melee-or-ranged-attack">Melee or Ranged Weapon Attack</data>: <span itemprop="bonus">+4</span> to hit, reach <span itemprop="reach">reach 5 ft. or range 20/60 ft.</span>, <span itemprop="target">one target</span>. Hit: <span itemprop="damage">4 (1d4 + 2)</span> <span itemprop="damageType">piercing</span> damage.
+      </li>
 
-    </actions>
+    </ol>
 
-  </dnd-stat-block>
+  </vellum-stat-block>
 
 </div>
 

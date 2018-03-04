@@ -1,0 +1,29 @@
+vellum-stat-block {
+  font-family: 'Alegreya', serif;
+  font-size: 11pt;
+
+  color: white;
+  background-color: black;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+  width: auto;
+  max-width: 400px;
+  line-height: 1.2;
+
+  --stat-block-header-color: red;
+  --stat-block-heading-font-family: 'Alegreya', serif;
+  --stat-block-divider-color: red;
+  --stat-block-two-column-width: 19cm;
+  --stat-block-two-column-column-width: 300px;
+  --stat-block-bar-background: white;
+  --stat-block-bar-border: white;
+  --stat-block-border-color: white;
+}
+
+vellum-stat-block h1, h2 {
+  text-align: left;
+  font-variant: small-caps;
+  text-transform: none;
+}
