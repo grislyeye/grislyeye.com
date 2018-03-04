@@ -45,6 +45,22 @@ body > header > nav {
   right: 0;
 }
 
+.stat-block-left {
+  position: relative;
+}
+
+.stat-block-left img.background {
+  width: 100%;
+  z-index: -1;
+  position: relative;
+}
+
+.stat-block-left vellum-stat-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 @media ($medium) {
 
   .stat-block {
@@ -59,6 +75,17 @@ body > header > nav {
     position: static;
   }
 
+  .stat-block-left {
+    position: static;
+  }
+
+  .stat-block-left img.background {
+    display: none;
+  }
+
+  .stat-block-left vellum-stat-block {
+    position: static;
+  }
 }
 
 article {
