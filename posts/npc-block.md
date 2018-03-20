@@ -41,4 +41,4 @@ id: npc-block
 
 <p>I also think some of the terminology could be refined. For example, not all mysterious elements of an NPC might be <q>Secrets</q>. And <q>Escalations</q> is a terrible word. Maybe <q>Deeds</q> would be better?</p>
 
-<p>If you have any suggestions on how to improve the NPC block let me know on <a href="https://twitter.com/grislyeye/status/976127610890653696">Twitter</a> or <a href="https://www.reddit.com/r/UnearthedArcana/comments/85tqi8/proof_of_concept_stat_block_for_npcs/">Reddit</a>.</p>
+<p>If you have any suggestions on how to improve the NPC block let me know on <a href="https://twitter.com/grislyeye/status/976139172267397120">Twitter</a> or <a href="https://www.reddit.com/r/UnearthedArcana/comments/85tqi8/proof_of_concept_stat_block_for_npcs/">Reddit</a>.</p>
