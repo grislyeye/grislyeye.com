@@ -16,3 +16,8 @@ i.googleplus {
   @include icon;
   @extend .fa-google-plus-square;
 }
+
+i.facebook {
+  @include icon;
+  @extend .fa-facebook;
+}
