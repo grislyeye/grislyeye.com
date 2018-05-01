@@ -28,7 +28,7 @@ id: thieves-council-preview
 
 <p><strong><em>Thieves' Sign and Mark.</em></strong> Council members can make themselves known to each other by a discreet Thieves Cant hand sign. Council safe houses and hangouts are also marked with a special Thieves' Mark.</p>
 
-<h2>Beliefs and Goals</h2>
+<h3>Beliefs and Goals</h3>
 
 <p>While it might seem absurd for criminals to abide by a set of laws, the <q>Thieves Code</q> plays an important role in keeping the peace (somewhat) between thieves. and prevents crime from getting out of hand and attracting the attention of the authorities and irate mobs</p>
 
