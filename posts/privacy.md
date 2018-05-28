@@ -1,5 +1,5 @@
 ---
-layout: post.html
+layout: page.html
 title: Privacy Policy
 ---
 <p>At Grisly Eye Games we're committed to protecting your privacy. This Privacy Policy describes how your personal information is collected, used, and shared when you visit https://grislyeye.com (the “Site”).</p>
