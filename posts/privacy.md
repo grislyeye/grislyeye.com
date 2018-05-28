@@ -22,8 +22,6 @@ title: Privacy Policy
 
 <p>We use the Device Information that we collect to help us optimise our Site (for example, by generating analytics about how our customers browse and interact with the Site).</p>
 
-<p>Additionally, you can opt out of some of these services by visiting the Digital Advertising Alliance’s opt-out portal at:  http://optout.aboutads.info/.</p>
-
 <h3>Do Not Track</h3>
 
 <p>As part of our commitment to your privacy we do not collect any information about you if we receive a Do Not Track signal from your browser.</p>
