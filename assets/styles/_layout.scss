@@ -29,6 +29,12 @@ body > header > nav {
   }
 }
 
+.content header {
+  h1, h2, h3, h4, h5 {
+    margin-bottom: 0;
+  }
+}
+
 .stat-block {
   position: relative;
 }

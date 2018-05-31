@@ -22,13 +22,15 @@
   <main>
     {{#if articles }}
     {{#each articles }}
-    <article id="{{ id }}" class="content">
+    <article id="{{ id }}">
 
       <header>
         <h2><a href="/{{ path }}">{{ title }}</a></h2>
       </header>
 
-      {{{ content path }}}
+      <div class="content">
+        {{{ content path }}}
+      </div>
 
     </article>
     {{/each}}
