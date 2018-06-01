@@ -24,7 +24,7 @@ title: Privacy Policy
 
 <h3>Do Not Track</h3>
 
-<p>As part of our commitment to your privacy we do not collect any information about you if we receive a Do Not Track signal from your browser.</p>
+<p>Please note that we do not alter our Site’s data collection and use practices when we see a Do Not Track signal from your browser.</p>
 
 <h3>Your Rights</h3>
 
