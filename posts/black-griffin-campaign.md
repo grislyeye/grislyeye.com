@@ -9,7 +9,7 @@ id: black-griffin-campaign
 
 <p>We're looking for imaginative players to join my official, playtest campaign, <em>Black Griffin</em>. This will be a <strong>play-by-chat only</strong> game using 5th edition <em>Dungeons &amp; Dragons</em>. Games will start at 4pm GMT (negotiable) on Sundays. The setting is low-magic grimdark. Sorry, no elf or wizard characters unless you have a <a href="unique-backgrounds.html">unique background</a>.</p>
 
-<p>You will start the campaign as mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, you have been placed on punishment duty as company <em>fetches</em>: bounty hunters charged with capture of deserters for trial.</p>
+<p>You will start the campaign as mercenaries in the employ of the infamous [Company of the Black Griffin](black-griffin-preview-1.html). Lowly even for sellswords, you have been placed on punishment duty as company <em>fetches</em>: bounty hunters charged with capture of deserters for trial.</p>
 
 <p>As playtesters you'll get access to pre-release Grisly Eye Games material. Plus <strong>free</strong> copies of final products you playtest. With playtest credits!</p>
 
