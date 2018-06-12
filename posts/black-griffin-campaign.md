@@ -15,7 +15,7 @@ id: black-griffin-campaign
 
 <p>If you'd like to join apply on Roll20:</p>
 
-<form method="get" action="https://app.roll20.net/lfg/listing/78977/black-griffin" target="_blank">
+<form method="get" action="https://app.roll20.net/lfg/listing/87470/black-griffin" target="_blank">
   <button>Apply</button>
 </form>
 
