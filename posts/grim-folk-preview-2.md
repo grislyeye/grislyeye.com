@@ -1,0 +1,120 @@
+---
+title: The Grim Preview
+date: 2018-06-26
+collection: articles
+layout: post.html
+id: grim-folk-preview-2
+---
+<p>This is our second preview of <q>**The Grim**</q>, a darker take on humanity as presented in the official material. Previously we published our variant human race, the <a href="grim-folk.html">Grim Folk</a>. This week, we're publishing a new background: the Bailiff.</p>
+
+<div class="illustration" style="max-width: 350px;">
+  <img src="images/bailiff.jpg">
+  <p class="caption">A detail from A Friend's Advice by Thomas Campion, early 17th century. Possibly 1609. </p>
+</div>
+
+<h3 id="bailiff">Background: Bailiff</h3>
+
+<p>You were a bailiff, constable or lawman. A proctor for the courts, your temple or the nobles. It was your duty to arrest criminals, collect taxes and execute warrants. You might've been a member of the city watch, religious police, a warden or even a tax collector.</p>
+
+<p><strong>Skill Proficiencies:</strong> Investigation, Intimidation</p>
+
+<p><strong>Tool Proficiencies:</strong> <a href="torture.html">Torturer's tools</a>, vehicles (land)</p>
+
+<p><strong>Equipment:</strong> A badge or warrant denoting your authority, a bag of caltrops, 5 manacles, a signal whistle, torturer's tools, a set of common clothes and a belt pouch containing 10 gp.</p>
+
+<h4 id="bailiff-authority">Feature: Authority</h4>
+
+<p>Your commands carry the power of your lord, lady or temple. You can invoke your authority to exert influence over commoners you encounter within your jurisdiction. You can use this power to make arrests and commandeer simple equipment and horses for temporary use.</p>
+
+<h4>Suggested Characteristics</h4>
+
+<p>The life of a bailiff is a hard life of violence. Enemies are easily made, and sometimes it is very like war. Use the personality trait and flaw tables for the Soldier from the <em>Player's Handbook</em>, modifying the entries where appropriate to suit your identity as a bailiff. Otherwise, use the following tables for your ideal and bond.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th class="number">d6</th>
+      <th>Ideal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="number">1</td>
+      <td><strong>Power.</strong> The word of my lord/lady/god is law. (Lawful)</td>
+    </tr>
+    <tr>
+      <td class="number">2</td>
+      <td><strong>Corruption.</strong> Justice is for those who can offer the greatest bribe. (Evil)</td>
+    </tr>
+    <tr>
+      <td class="number">3</td>
+      <td><strong>Order.</strong> The law must be followed to the letter. (Lawful)</td>
+    </tr>
+      <td class="number">4</td>
+      <td><strong>Cynicism.</strong> The worst of humanity always wins out. (Neutral)</td>
+    </tr>
+    <tr>
+      <td class="number">5</td>
+      <td><strong>Impunity.</strong> The law is for the weak, the strong make their own rules. (Evil)</td>
+    </tr>
+    <tr>
+      <td class="number">6</td>
+      <td><strong>Fairness.</strong> The law is there to protect the weak and most vulnerable. (Good)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th class="number">d6</th>
+      <th>Bond</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="number">1</td>
+      <td>I'm still looking for the one criminal who got away.</td>
+    </tr>
+    <tr>
+      <td class="number">2</td>
+      <td>I have made a powerful enemy in the criminal underworld through my dedication to the law.</td>
+    </tr>
+    <tr>
+      <td class="number">3</td>
+      <td>I obey my lord/lady in all things.</td>
+    </tr>
+    <tr>
+      <td class="number">4</td>
+      <td>A particular type of crime (player chooses) disgusts me and I prosecute it with greater fervour.</td>
+    </tr>
+    <tr>
+      <td class="number">5</td>
+      <td>I trust my fellow lawman with my life, and I always return that trust.</td>
+    </tr>
+    <tr>
+      <td class="number">6</td>
+      <td>I became a bailiff to take down corruption within the city watch.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="bounty-hunter">Variant Bailiff: Bounty Hunter</h4>
+
+<p>You made your living hunting down outlaws, deserters and escaped convicts for gold. Your work often took you across national boundaries, into strange lands and dangerous territories.</p>
+
+<p>If you decide you were a bounty hunter, you may can choose the Fearful Reputation feature (see sidebar) instead of the Authority feature.</p>
+
+<h4 id="executioner">Variant Bailiff: Executioner</h4>
+
+<p>You were one of the men and women tasked with dealing out the ultimate punishment: death.</p>
+
+<p>If you decide your duties as a bailiff included work as an executioner, you may can choose the Fearful Reputation feature (see sidebar) instead of the Authority feature. You can replace the signal whistle in your equipment package with a black executioner's mask.</p>
+
+<aside class="aside">
+  <h5>Variant Feature: Fearsome Reputation</h5>
+
+  <p>If your character has a bailiff background, you may select this background feature instead of Authority</p>
+
+  <p>Your reputation precedes you. No matter where you go, people are afraid of you because of your reputation, particularly criminals. People are more likely to get out of your way, and minor criminals, such as pickpockets, muggers or footpads, will not molest you if they know who you are.</p>
+</aside>
