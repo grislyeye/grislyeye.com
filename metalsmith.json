@@ -20,7 +20,8 @@
       "articles": {
         "pattern": "*.md",
         "sortBy": "date",
-        "reverse": true
+        "reverse": true,
+        "limit": 5
       }
     },
     "metalsmith-layouts": {
