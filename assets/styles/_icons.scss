@@ -21,3 +21,8 @@ i.facebook {
   @include icon;
   @extend .fa-facebook;
 }
+
+i.reddit {
+  @include icon;
+  @extend .fa-reddit;
+}
