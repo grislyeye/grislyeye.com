@@ -2,7 +2,7 @@
   "name": "grislyeye.com",
   "version": "1.19.0",
   "dependencies": {
-    "font-awesome": "^4.6.3"
+    "@fortawesome/fontawesome-free": "^5.5.0"
   },
   "devDependencies": {
     "bower": "^1.8.0",
@@ -16,9 +16,8 @@
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-imagemin": "^3.1.0",
     "grunt-contrib-watch": "^1.1.0",
+    "grunt-contrib-less": "^2.0.0",
     "grunt-npmcopy": "^0.1.0",
-    "grunt-postcss": "^0.9.0",
-    "grunt-sass": "^3.0.2",
     "grunt-shell": "^2.1.0",
     "handlebars": "^4.0.12",
     "jstransformer-handlebars": "^1.1.0",
@@ -32,8 +31,7 @@
     "metalsmith-path": "^0.3.1",
     "metalsmith-publish": "^0.1.4",
     "metalsmith-register-helpers": "^0.4.0",
-    "node-sass": "^4.5.0",
-    "skeleton-css": "^2.0.4",
+    "skeleton-less": "^2.0.1",
     "stylelint": "^9.8.0"
   },
   "scripts": {

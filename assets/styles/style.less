@@ -1,8 +1,8 @@
-@import "fonts";
+@import (inline) "fonts.css";
 @import "media_queries";
 @import "icons";
 @import "stat-block";
-@import "node_modules/skeleton-css/css/normalize";
+@import (inline) "node_modules/skeleton-css/css/normalize.css";
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700);
 
 body {
@@ -63,7 +63,7 @@ body > header nav ul.links li {
   margin: 0.25em;
 }
 
-@media ($small) {
+@media (@small) {
 
   body > header #logo {
     display: block;
@@ -76,7 +76,7 @@ body > header nav ul.links li {
 
 }
 
-@media ($medium) {
+@media (@medium) {
 
   body > header h1.title {
     font-size: 3em;
@@ -101,7 +101,7 @@ article img {
   margin-right: auto;
 }
 
-@media ($medium) {
+@media (@medium) {
   article img {
     width: 100%;
   }
@@ -113,7 +113,7 @@ footer {
   text-align: center;
 }
 
-@media ($small) {
+@media (@small) {
   footer {
     font-size: 1em;
   }
@@ -190,7 +190,7 @@ button {
   width: 100%;
 }
 
-@media ($small) {
+@media (@small) {
 
   .illustration {
     width: 100%;
