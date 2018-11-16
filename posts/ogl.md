@@ -1,5 +1,5 @@
 ---
-layout: page.html
+layout: page.hbs
 title: Open Gaming License
 ---
 <P>THIS LICENSE IS APPROVED FOR GENERAL USE.  PERMISSION TO DISTRIBUTE THIS LICENSE

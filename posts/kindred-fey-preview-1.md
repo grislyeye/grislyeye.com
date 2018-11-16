@@ -2,7 +2,7 @@
 title: Fey Race Variant
 date: 2017-03-05
 collection: articles
-layout: post.html
+layout: post.hbs
 id: kindred-fey-preview-1
 ---
 <img src="/images/green-man.png" style="max-width: 300px; float: right">

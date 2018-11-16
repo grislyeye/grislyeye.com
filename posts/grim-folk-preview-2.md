@@ -2,7 +2,7 @@
 title: The Grim Preview
 date: 2018-06-26
 collection: articles
-layout: post.html
+layout: post.hbs
 id: grim-folk-preview-2
 ---
 <p>This is our second preview of <q>**The Grim**</q>, a darker take on humanity as presented in the official material. Previously we published our variant human race, the <a href="grim-folk.html">Grim Folk</a>. This week, we're publishing a new background: the Bailiff.</p>

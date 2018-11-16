@@ -2,7 +2,7 @@
 title: The Vermus
 date: 2017-02-02
 collection: articles
-layout: post.html
+layout: post.hbs
 id: vermus-preview-1
 ---
 <p>The vermus (or <em>ratfolk</em>) are a race of intelligent, rodent-like humanoids that live in the sewers and catacombs of the Undercity. Vermus stand 3-4 feet tall upright, with grey, brown or black pelts, long snouts, dark eyes and long, furless tails. Paranoid and cowardly, they avoid direct confrontation preferring to attack from the shadows.</p>

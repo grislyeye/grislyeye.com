@@ -2,7 +2,7 @@
 title: The Many Preview 1
 date: 2018-03-06
 collection: articles
-layout: post.html
+layout: post.hbs
 id: many-preview-1
 ---
 <p>Halfway decent rules for mass combat is the holy grail for D&amp;D. Our upcoming monograph, <strong>The Many</strong>, will use the rules for swarms from the <em>Monster Manual</em> to simulate battles. This has several advantages over other mass combat systems:</p>

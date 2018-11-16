@@ -2,7 +2,7 @@
 title: Black Griffin Campaign
 date: 2017-03-05
 collection: articles
-layout: post.html
+layout: post.hbs
 id: black-griffin-campaign
 ---
 <img src="/images/black-griffin.png" style="max-width: 400px; float: right">

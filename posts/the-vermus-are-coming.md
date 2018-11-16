@@ -2,7 +2,7 @@
 title: The Vermus Are Coming
 date: 2016-11-29
 collection: articles
-layout: post.html
+layout: post.hbs
 id: the-vermus-are-coming
 ---
 <p>We wanted to share with you some of the early sketches from our upcoming monograph from Grisly Eye Games, <strong>Threats: Vermus</strong>. Our artist, George Howard, is really capturing the wretchedness of the rat men. See what you think:</p>

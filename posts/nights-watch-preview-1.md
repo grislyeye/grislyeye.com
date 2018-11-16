@@ -2,7 +2,7 @@
 title: Nights Watch Faction
 date: 2018-06-12
 collection: articles
-layout: post.html
+layout: post.hbs
 id: nights-watch-preview-1
 ---
 <p>The **Nights Watch** is a new faction I'm playing around with for a future campaign. I like the idea of individuals with shady pasts forced together (as with my current playtest campaign, [Black Griffin](black-griffin-campaign.html)). Nights watchmen have a similar theme, but for more city-based campaigns.</p>

@@ -2,7 +2,7 @@
 title: The Thieves' Council
 date: 2018-05-01
 collection: articles
-layout: post.html
+layout: post.hbs
 id: thieves-council-preview
 ---
 <div class="illustration">

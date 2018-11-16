@@ -2,7 +2,7 @@
 title: Interrogation Skill Challenge
 date: 2018-05-31
 collection: articles
-layout: post.html
+layout: post.hbs
 id: torture
 ---
 <p>A **skill challenge** is a complex type of skill contest, based on the rules from 4th Edition <em>Dungeons &amp; Dragons</em>.</p>

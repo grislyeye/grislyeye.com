@@ -2,7 +2,7 @@
 title: Vermus Wracks
 date: 2017-02-26
 collection: articles
-layout: post.html
+layout: post.hbs
 id: vermus-preview-1
 ---
 <p>Continuing <a href="/vermus-preview-1.html">our series</a> of posts about the vermus, we introduce the wracks:</p>

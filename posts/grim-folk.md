@@ -2,7 +2,7 @@
 title: The Grim Folk
 date: 2017-05-30
 collection: articles
-layout: post.html
+layout: post.hbs
 id: grim-folk
 ---
 <img src="/images/grim-folk.jpg" style="max-width: 400px; float: right">

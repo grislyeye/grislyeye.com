@@ -2,7 +2,7 @@
 title: The Magic Guild
 date: 2017-11-21
 collection: articles
-layout: post.html
+layout: post.hbs
 id: magic-guild-preview
 ---
 <img src="/images/magician.png" style="max-width: 400px; float: right">

@@ -2,7 +2,7 @@
 title: Low Magic Characters
 date: 2017-02-11
 collection: articles
-layout: post.html
+layout: post.hbs
 id: unique-backgrounds
 ---
 <p>These variant, character creation rules are for low magic campaigns where spellcasters and monsters are uncommon and non-human characters with magical abilities are the exception, not the rule.</p>
