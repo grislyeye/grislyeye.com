@@ -15,8 +15,8 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-imagemin": "^3.1.0",
-    "grunt-contrib-watch": "^1.1.0",
     "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-npmcopy": "^0.1.0",
     "grunt-shell": "^2.1.0",
     "handlebars": "^4.0.12",
@@ -31,6 +31,7 @@
     "metalsmith-path": "^0.3.1",
     "metalsmith-publish": "^0.1.4",
     "metalsmith-register-helpers": "^0.4.0",
+    "normalize.css": "^8.0.1",
     "skeleton-less": "^2.0.1",
     "stylelint": "^9.8.0"
   },
