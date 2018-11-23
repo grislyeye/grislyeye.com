@@ -13,7 +13,6 @@
     "tests"
   ],
   "dependencies": {
-    "vellum-stat-block": "^0.4.4",
-    "ga-dnt-analytics": "justinribeiro/ga-dnt-analytics#^2.0.1"
+    "vellum-stat-block": "^0.4.4"
   }
 }
