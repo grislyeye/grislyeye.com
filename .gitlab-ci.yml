@@ -4,11 +4,13 @@ cache:
   paths:
   - node_modules/
 
-pages:
-  script:
+before_script:
   - npm install
   - npm install -g bower
   - bower install --allow-root
+
+pages:
+  script:
   - npm run build
   - mv dist public
   artifacts:
@@ -16,3 +18,7 @@ pages:
     - public
   only:
   - tags
+
+lint:
+  script:
+  - npm run build
