@@ -21,14 +21,13 @@ id: kindred-fey-preview-1
   <dt>Fairy Charm.</dt>
   <dd>
     You have a magical gift. Choose one of the following:
+<dl>
+  <dt>Glamour.</dt> <dd>You can cast the cantrip <em>friends</em> at will without material components. Charisma is your spellcasting ability for it.</dd>
 
-    <dl>
-      <dt>Glamour.</dt> <dd>You can cast the cantrip <em>friends</em> at will without material components. Charisma is your spellcasting ability for it.</dd>
+  <dt>Trickster's Knack.</dt> <dd>You can cast the cantrip <em>minor illusion</em> at will and without material components. Charisma is your spellcasting ability for it.</dd>
 
-      <dt>Trickster's Knack.</dt> <dd>You can cast the cantrip <em>minor illusion</em> at will and without material components. Charisma is your spellcasting ability for it.</dd>
-
-      <dt>Will-o'-the-wisp.</dt> <dd>You can cast the cantrip <em>dancing lights</em> at will and without material components. Charisma is your spellcasting ability for it.</dd>
-    </dl>
+  <dt>Will-o'-the-wisp.</dt> <dd>You can cast the cantrip <em>dancing lights</em> at will and without material components. Charisma is your spellcasting ability for it.</dd>
+</dl>
   </dd>
 
   <dt>Fey Cunning.</dt> <dd>You have advantage on all Intelligence, Wisdom and Charisma saving throws against magic.</dd>
