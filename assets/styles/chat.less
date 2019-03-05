@@ -1,41 +1,50 @@
 .content .chat {
 }
 
-.content .chat aside {
+.content aside.chat {
   float: right;
   font-style: italic;
-}
-
-.content .chat aside:before {
-  content: '*'
+  width: 30%;
+  padding-left: 1em;
+  font-size: 0.8em;
 }
 
 .content .chat dt {
   margin-left: 0;
   width: 5em;
   text-align: right;
+  font-style: normal;
+}
+
+.content dl.chat {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content .chat dt {
+  width: 5em;
 }
 
 .content .chat dd {
   padding-left: 0.5em;
-  border-left: thin solid red;
-  display: flex;
-  justify-content: space-between;
+  width: 80%;
+  border-left: solid thin red;
 }
 
-.content .chat dd aside {
-  width: 50%;
-  padding-left: 1em;
+.content .chat dd p {
+  margin-bottom: 0;
 }
 
-.content .chat .gm {
+.content .chat dd.action p {
+  font-style: italic;
 }
 
-a[data-balloon] {
-  text-decoration: underline;
-  color: white;
+.content .chat dd.action p:before {
+  content: '(';
 }
 
-.content .chat dt a[data-balloon] {
-  color: red;
+.content .chat dd.action p:after {
+  content: ')';
 }
