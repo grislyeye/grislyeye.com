@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "1.21.3",
+  "version": "1.21.4",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.5.0"
   },

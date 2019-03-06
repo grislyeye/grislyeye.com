@@ -1,7 +1,11 @@
 .content .chat {
 }
 
-.content aside.chat {
+.content section.chat > * {
+  width: calc(70% - 1em);
+}
+
+.content .chat aside {
   float: right;
   font-style: italic;
   width: 30%;
@@ -16,7 +20,7 @@
   font-style: normal;
 }
 
-.content dl.chat {
+.content .chat dl {
   display: flex;
   flex-wrap: wrap;
   margin-top: 0;
@@ -29,7 +33,7 @@
 
 .content .chat dd {
   padding-left: 0.5em;
-  width: 80%;
+  width: calc(100% - 6em);
   border-left: solid thin red;
 }
 
@@ -47,4 +51,16 @@
 
 .content .chat dd.action p:after {
   content: ')';
+}
+
+@media (@small) {
+
+  .content section.chat > * {
+    width: 100%;
+  }
+
+  .content .chat aside {
+    display: none;
+  }
+
 }
