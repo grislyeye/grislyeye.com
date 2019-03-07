@@ -58,7 +58,7 @@ id: black-griffin-session-30
   <p>LET'S GET GOING!</p>
 </dd>
 <dt>Orin</dt>
-<dd>
+<dd class="action">
   <p>groans</p>
 </dd>
 </dl>
