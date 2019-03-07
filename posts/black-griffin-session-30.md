@@ -19,7 +19,7 @@ id: black-griffin-session-30
 <p>However, as you relax the rest of the camp is gearing up. The Company's Royalist clients are gathering forces for a push against the Commonwealth.</p>
 
 <aside class="chat">
-  Ric (DM) says <q>Sergeant Agata is the ageing and world-weary commander of the party. Nominally charged with hunting down deserters, Agata and her fetches now finds themselves increasingly involved in the murky world of intrigue and espionage.</q>
+  Ric says <q>Sergeant Agata is the ageing and world-weary commander of the party. Nominally charged with hunting down deserters, Agata and her fetches now finds themselves increasingly involved in the murky world of intrigue and espionage.</q>
 </aside>
 
 <p>You awaken the next morn, ready to report to Agata for your debriefing.</p>
