@@ -220,7 +220,8 @@ id: black-griffin-session-30
 
 <dt>Orin:</dt>
 <dd>
-  <p>She wrote me a letter... <span class="action">pats their pockets looking for it, only to realise it was left in the tent</span></p>
+  <p>She wrote me a letter...</p>
+  <p class="action">pats their pockets looking for it, only to realise it was left in the tent</p>
 </dd>
 
 <dt>Agata</dt>
@@ -276,7 +277,8 @@ id: black-griffin-session-30
 <dl>
 <dt>Orin</dt>
 <dd>
-  <p><span class="action">whips around to look at Ba</span> Don't you dare!</p>
+  <p class="action">whips around to look at Ba</p>
+  <p>Don't you dare!</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
@@ -302,7 +304,8 @@ id: black-griffin-session-30
 <dt>Orin</dt>
 <dd>
   <p>He never believed us.</p>
-  <p><span  class="action">turns back to Agata</span> We appealed to him for help but Ba insisted on secrecy. So he never believed who we are.</p>
+  <p  class="action">turns back to Agata</p>
+  <p>We appealed to him for help but Ba insisted on secrecy. So he never believed who we are.</p>
 </dd>
 
 <dt>Agata</dt>
@@ -317,7 +320,8 @@ id: black-griffin-session-30
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p><span class="action">realises his mistake and sighs</span> So we went to a royal guard we met for aid when we realise we were compromised.</p>
+  <p class="action">realises his mistake and sighs</p>
+  <p>So we went to a royal guard we met for aid when we realise we were compromised.</p>
 </dd>
 
 <dt>Biron</dt>
@@ -389,7 +393,8 @@ id: black-griffin-session-30
 
 <dt>Agata</dt>
 <dd>
-  <p><span class="action">rubs the bridge of her nose and sighs heavily</span> You don't make my job easy.</p>
+  <p class="action">rubs the bridge of her nose and sighs heavily</p>
+  <p>You don't make my job easy.</p>
 </dd>
 
 <dt>Orin</dt>
@@ -598,7 +603,7 @@ I won't make that mistake again.</p>
 <dl>
 <dt>Orin</dt>
 <dd class="action">
-  <p>rolls an Insight check: 5.</p>
+  <p>rolls an Insight check: 5</p>
 </dd>
 
 <dt>Agata</dt>
@@ -699,7 +704,8 @@ I won't make that mistake again.</p>
 
 <dt>Biron</dt>
 <dd>
-  <p><span class="action">rolls his eyes and angrily snarls</span> What’s with all the hiding? That’s what started the mess in Dismas!</p>
+  <p class="action">rolls his eyes and angrily snarls</p>
+  <p>What’s with all the hiding? That’s what started the mess in Dismas!</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
@@ -765,7 +771,8 @@ I won't make that mistake again.</p>
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p><span class="action">turns and heads towards the trader tents</span> I’m going to get some oil and torches. Meet me by the gate if you need to do something.</p>
+  <p><span class="action">turns and heads towards the trader tents</p>
+  <p>I’m going to get some oil and torches. Meet me by the gate if you need to do something.</p>
 </dd>
 
 <dt>Orin</dt>
@@ -808,7 +815,8 @@ I won't make that mistake again.</p>
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p><span class="action">notices the nervousness of the man and smiles widely</span> I need three flasks of oil and ten torches, please.</p>
+  <p class="action">notices the nervousness of the man and smiles widely</p>
+  <p>I need three flasks of oil and ten torches, please.</p>
 </dd>
 
 <dt>The trader</dt>
@@ -830,7 +838,8 @@ I won't make that mistake again.</p>
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p><span class="action">leans in close to the man and eyes him looking for hint of lies and knowing he’s freaking him out asks quietly</span> Do you have anything interesting?</p>
+  <p class="action">leans in close to the man and eyes him looking for hint of lies and knowing he’s freaking him out asks quietly</p>
+  <p>Do you have anything interesting?</p>
 </dd>
 
 <dt>The trader</dt>
@@ -845,12 +854,14 @@ I won't make that mistake again.</p>
 
 <dt>Trader</dt>
 <dd>
-  <p><span class="action">is fairly shaking in his boots now</span> No... sir... I'm a gods fearing man, live by the very word of the Dictum, sir.</p>
+  <p class="action">is fairly shaking in his boots now</p>
+  <p>No... sir... I'm a gods fearing man, live by the very word of the Dictum, sir.</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p><span class="action">eyes him deeply for a moment longer before smiling again</span> Have a wonderful day.</p>
+  <p class="action">eyes him deeply for a moment longer before smiling again</p>
+  <p>Have a wonderful day.</p>
   <p class="action">walks to the gate to meet Orin and Biron</p>
 </dd>
 
@@ -887,7 +898,8 @@ I won't make that mistake again.</p>
 
 <dt>Ba' Raknul</dt>
 <dd>
-  <p><span class="action">pauses a moment and scans around</span> Maybe we should break here... eat and continue more stealthily.</p>
+  <p class="action">pauses a moment and scans around</p>
+  <p>Maybe we should break here... eat and continue more stealthily.</p>
 </dd>
 
 <dt>Orin</dt>
@@ -964,7 +976,7 @@ We should only stay here an hour.</p>
 
 <dt>Orin</dt>
 <dd class="action">
-  <p>nods.</p>
+  <p>nods</p>
   <p>rolls a stealth check: 24</p>
 </dd>
 
@@ -1116,7 +1128,9 @@ We should only stay here an hour.</p>
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p><span class="action">looks over at Biron calling out</span> We'll get read then, I guess <span class="action">and unhooks his bow</span>.</p>
+  <p class="action">looks over at Biron calling out</p>
+  <p>We'll get read then, I guess.</p>
+  <p class="action">unhooks his bow</p>
 </dd>
 
 <dt>Orin</dt>
@@ -1158,16 +1172,12 @@ We should only stay here an hour.</p>
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p>Hence the idea of bait... however <span class="action">loads an arrow</span> we can do this your way if you want</p>
+  <p>Hence the idea of bait... however <span class="action">loads an arrow</span> we can do this your way if you want.</p>
 </dd>
 
 <dt>Biron</dt>
 <dd class="action">
   <p>smiles and nods</p>
-</dd>
-
-<dt>Biron</dt>
-<dd class="action">
   <p>goes to front door and kicks door in hard and bursts in</p>
 </dd>
 
@@ -1203,7 +1213,8 @@ We should only stay here an hour.</p>
 <dt>Biron</dt>
 <dd>
   <p>This happened a while ago.</p>
-  <p><span class="action">steps to the first door on the left</span> You check one of the other doors</p>
+  <p class="action">steps to the first door on the left</p>
+  <p>You check one of the other doors</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
