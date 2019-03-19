@@ -21,7 +21,7 @@ id: black-griffin-session-30
 
 <section class="chat">
 
-<img src="images/black-griffin-encampment.png">
+<img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
 
 <h5>Scene I: The Debriefing</h5>
 
@@ -225,12 +225,8 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Agata</dt>
-<dd class="action">
-  <p>starts sorting through her paperwork, before fishing out a piece of paper and handing it to Ba</p>
-</dd>
-
-<dt>Agata</dt>
 <dd>
+  <p class="action">starts sorting through her paperwork, before fishing out a piece of paper and handing it to Ba</p>
   <p>Take a look at the description of the three individuals in this warrant and tell me... do they remind you of anyone?</p>
 </dd>
 
@@ -947,7 +943,7 @@ We should only stay here an hour.</p>
 
 <p>You break and eat a portion of your rations each, while Orin warily watches the dripping woods about you.</p>
 
-<p>Nothing untoward happens until you finish your dry repast, when you hear a keen, high wailing in the distance, coming from the direction the farm lies in.</p>
+<p>Nothing untoward happens until you finish your dry repast, when you hear a keen, high wailing in the distance, coming from the direction of the farm.</p>
 
 <p>It stops almost as soon as it starts, but you all shudder as though it suddenly got colder.</p>
 
@@ -961,7 +957,7 @@ We should only stay here an hour.</p>
 
 <dt>Ba' Raknul</dt>
 <dd>
-  <p><span class="action">stands again</span> Okay we should go stealthy from here. Orin if you wanna go ahead 30 feet. Tshrow your hand straight up if we're to stop or shout if its bad.</p>
+  <p><span class="action">stands again</span> Okay we should go stealthy from here. Orin if you wanna go ahead 30 feet. Throw your hand straight up if we're to stop or shout if its bad.</p>
 </dd>
 
 <dt>Orin</dt>
@@ -1064,7 +1060,7 @@ We should only stay here an hour.</p>
 </dd>
 </dl>
 
-<p>You get an impression of the internal layout of the farmhouse, and you can see the burned barn. Beyond seems to be some kind of ruins.</p>
+<p>You get an impression of the internal layout of the farmhouse, and you can see the burned barn. Beyond seems to be some kind of ruin.</p>
 
 <p>The door to the farmhouse appears to have been hacked to pieces.</p>
 
@@ -1103,7 +1099,9 @@ We should only stay here an hour.</p>
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p>Orin how do you feel about hiding in the tree there? <span class="action">points to the tree jutting out a bit</span> Good vantage point.</p>
+  <p>Orin how do you feel about hiding in the tree there?</p>
+  <p class="action">points to the tree jutting out a bit</p>
+  <p>Good vantage point.</p>
 </dd>
 
 <dt>Orin</dt>
@@ -1129,7 +1127,7 @@ We should only stay here an hour.</p>
 <dt>Ba'Raknul</dt>
 <dd>
   <p class="action">looks over at Biron calling out</p>
-  <p>We'll get read then, I guess.</p>
+  <p>We'll get ready then, I guess.</p>
   <p class="action">unhooks his bow</p>
 </dd>
 
@@ -1183,7 +1181,7 @@ We should only stay here an hour.</p>
 
 <dt>Ba'Raknul</dt>
 <dd class="action">
-  <p>follows keeping the 10ft distance and arrow ready</p>
+  <p>follows keeping a 10ft distance and arrow ready</p>
 </dd>
 </dl>
 
@@ -1264,7 +1262,7 @@ We should only stay here an hour.</p>
 
 <p>Suddenly outside, Orin hears a rustling from the woods... all about them!</p>
 
-<p>Prowling with deadly intent, wolves creep from the woods.</p>
+<p>Prowling with deadly intent, wolves creep from the trees.</p>
 
 <p>The alpha lets out a clear, mournful howl before the pack runs towards the house and the tree where Orin is!</p>
 
