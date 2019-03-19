@@ -73,7 +73,7 @@ id: black-griffin-session-30
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p>Can’t say I didn’t warn you <span class="action">and carries on</dd></p>
+  <p>Can’t say I didn’t warn you <span class="action">and carries on</span></p>
 </dd>
 
 <dt>Biron</dt>
@@ -249,7 +249,7 @@ id: black-griffin-session-30
 
 <dt>Ba'Raknul</dt>
 <dd class="action">
-  <p>eyes widen at the "DOG"</p>
+  <p>eyes widen at the <q>DOG</q></p>
 </dd>
 
 <dt>Orin</dt>
@@ -421,7 +421,7 @@ id: black-griffin-session-30
 <dt>Orin</dt>
 <dd>
   <p>She was smelly, and also thought we were idiots... or at least too polite for our own good.</p>
-</dt>
+</dd>
 
 <dt>Agata</dt>
 <dd>
@@ -450,9 +450,7 @@ id: black-griffin-session-30
 
 <dt>Agata</dt>
 <dd>
-  <p>It's rather your job to think on your feet in the field, and that's a shame. A physical description would set us all up for life.
-
-The Royalists pay dearly for any information.</p>
+  <p>It's rather your job to think on your feet in the field, and that's a shame. A physical description would set us all up for life. The Royalists pay dearly for any information.</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
@@ -767,7 +765,7 @@ I won't make that mistake again.</p>
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p><span class="action">turns and heads towards the trader tents</p>
+  <p class="action">turns and heads towards the trader tents</p>
   <p>I’m going to get some oil and torches. Meet me by the gate if you need to do something.</p>
 </dd>
 
@@ -872,7 +870,7 @@ I won't make that mistake again.</p>
 </dd>
 </dl>
 
-<img src="images/lively-farm.png">
+<img src="images/lively-farm.png" alt="Preview of Farm Map">
 
 <h5>Scene II: Lively Farm</h5>
 
@@ -1218,7 +1216,7 @@ We should only stay here an hour.</p>
 <dt>Ba'Raknul</dt>
 <dd class="action">
   <p>nods and moves to one of the other doors</p>
-</dd></p>
+</dd>
 
 <dt>Biron</dt>
 <dd class="action">
