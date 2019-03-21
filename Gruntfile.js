@@ -140,6 +140,10 @@ module.exports = function (grunt) {
             'metalsmith-layouts': {
               directory: 'layouts',
               default: 'default.hbs'
+            },
+            'metalsmith-feed': {
+              collection: 'articles',
+              site_url : 'https://grislyeye.com'
             }
           }
         }
