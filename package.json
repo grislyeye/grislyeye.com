@@ -2,7 +2,8 @@
   "name": "grislyeye.com",
   "version": "1.23.0",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.5.0"
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "modern-normalize": "^0.5.0"
   },
   "devDependencies": {
     "bower": "^1.8.0",
@@ -32,7 +33,6 @@
     "metalsmith-path": "^0.3.1",
     "metalsmith-publish": "^0.1.4",
     "metalsmith-register-helpers": "^0.4.0",
-    "normalize.css": "^8.0.1",
     "skeleton-less": "^2.0.1",
     "stylelint": "^9.8.0"
   },
