@@ -39,15 +39,15 @@ id: flawed-magic-items-preview-1
     </tr>
     <tr>
       <td class="number">4-5</td>
-      <td><strong>Charged.</strong> This item is unnaturally charged, sending tingling electric charges across your body. While you wield or wear this item  you are vulnerable to lightening damage.</td>
+      <td><strong>Charged.</strong> This item is unnaturally charged, sending tingling electric charges across your body. While you wield or wear this item you are vulnerable to lightening damage.</td>
     </tr>
     <tr>
       <td class="number">6-7</td>
-      <td><strong>Cold.</strong> While you wield or wear this item you feel unnaturally cold. You are vulnerable to cold damage.</td>
+      <td><strong>Cold.</strong> While you wield or wear this item you feel unnaturally cold and you are vulnerable to cold damage.</td>
     </tr>
     <tr>
       <td class="number">7-8</td>
-      <td><strong>Hot.</strong> While you wield or wear this item you feel unnaturally warm. You are vulnerable to fire damage.</td>
+      <td><strong>Hot.</strong> While you wield or wear this item you feel unnaturally warm and you are vulnerable to fire damage.</td>
     </tr>
     <tr>
       <td class="number">9-10</td>
