@@ -9,6 +9,12 @@ id: black-griffin-session-30
 
 <p>The below is an edited log from of our <q>in-character</q> chat channel. We've added annotations so you can follow what's going on. Please enjoy!</p>
 
+<p>Other campaign diaries can be found here:</p>
+
+<ul>
+  <li><a href="/black-griffin-session-31.html">Session 31</a></li>
+</ul>
+
 <section class="chat">
 
 <h4>Camp Patrol Act I</h4>
