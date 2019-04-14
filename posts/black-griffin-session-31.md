@@ -667,7 +667,7 @@ puts a cloth over the the sword and picks it up, then raises his hand to call Or
 
 <img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
 
-<h5>Scene III: The Infirmiary</h5>
+<h5>Scene III: The Infirmary</h5>
 
 <p>The group makes it back to camp by nightfall and are waved through by the mercenaries on guard at the North Gate. They quickly make their way to the infirmary, which is manned this evening by Vicmas.</p>
 
