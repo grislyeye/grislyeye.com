@@ -6,7 +6,6 @@ layout: post.hbs
 id: black-griffin-session-32
 publish: unlisted
 ---
-
 <p>This is the <em>third</em> campaign diary for my 5th Edition D&amp;D playtest campaign, <strong>Black Griffin</strong>. Black Griffin is a play-by-chat game that runs every week on Roll20. The party are mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, they have been placed on punishment duty as company <q>fetches</q>: bounty hunters charged with capture of deserters for trial.</p>
 
 <p>The below is an edited log from of our <q>in-character</q> chat channel. We've added annotations so you can follow what's going on. Please enjoy!</p>
@@ -32,7 +31,7 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>Begrudgingly, Vicmas sweeps up your gold and his orderlies sweep the boy up and carry him into the the infirmary tent.</p>
+<p>Begrudgingly, Vicmas sweeps up Biron's gold and his orderlies sweep the boy up and carry him into the the infirmary tent.</p>
 
 <p>Within is dark and gloomy. The stench of waste and death lingers and the low sound of groaning and suffering is pervasive.</p>
 
@@ -86,9 +85,9 @@ publish: unlisted
 </dl>
 
 <aside>
-  <p>Chris says <q>Biron found the sword, its his trophy.</q></p>
-  <p>Ric says <q>Very well.</q></p>
-  <p>Chris says <q>You said it seemed, familiar, but I don't know why. So i wanna look at it more.</q></p>
+  <p>Chris says, <q>Biron found the sword, it's his trophy.</q></p>
+  <p>Ric says, <q>Very well.</q></p>
+  <p>Chris says, <q>You said it seemed familiar, but I don&#39;t know why. So I wanna look at it more.</q></p>
 </aside>
 
 <dl>
@@ -109,7 +108,7 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>Something deep within your bowels cringes as you hold the weapon. It is made of some kind of metal, like steel but blackened as if by soot. Its jagged edges bear a cruel, sharp edge and it bears a half-lidded eye on its hilt. The metal seems vaguely familiar to Biron.</p>
+<p>Something deep within Biron&#39;s bowels cringes as he hold the weapon. It is made of some kind of metal, like steel but blackened as if by soot. Its jagged edges bear a cruel, sharp edge and it bears a half-lidded eye on its hilt. The metal seems vaguely familiar to Biron.</p>
 
 <dl>
 <dt>Vicmas</dt>
@@ -138,7 +137,7 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>Biron feels a sudden stab of cold in his hand, like the life being sucked out of him! So fearsome is the shock, you drop the blade on the ground.</p>
+<p>Biron feels a sudden stab of cold in his hand, like the life being sucked out of him! So fearsome is the shock, he drops the blade on the ground.</p>
 
 <dl>
 <dt>Ba'Raknul</dt>
@@ -195,9 +194,9 @@ publish: unlisted
 </dl>
 
 <aside>
-  <p>Ric says <q>Take a level of exhaustion for Biron, please.</q></p>
-  <p>Liam says <q>LOL don’t pick up obviously cursed swords.</q></p>
-  <p>Chris says <q>Biron is finding this out</q></p>
+  <p>Ric says, <q>Take a level of exhaustion for Biron, please.</q></p>
+  <p>Liam says, <q>LOL, don’t pick up obviously cursed swords.</q></p>
+  <p>Chris says, <q>Biron is finding this out.</q></p>
 </aside>
 
 <p>This time, ready for the shock, Biron can just about bear the weapon in his hands, but he feels an impossible weariness about him.</p>
@@ -281,14 +280,14 @@ publish: unlisted
 </dl>
 
 <aside>
-  <p>Ric says <q>You lose your level of exhaustion.</q></p>
-  <p>Chris says <q>Huh? Oh this is gonna be fun.</q></p>
-  <p>Morgan says <q>LOL</q></p>
-  <p>Ric says <q>You have a <em>draining +1 longsword</em>. Please add it to your character sheet.</q></p>
-  <p>Liam says <q>Nice</q></p>
-  <p>Chris says <q>👌</q></p>
-  <p>Morgan says <q>👏</q></p>
-  <p>Ric says <q>A popular choice LOL. I think you can figure out how it works.</q></p>
+  <p>Ric says, <q>You lose your level of exhaustion.</q></p>
+  <p>Chris says, <q>Huh? Oh this is gonna be fun.</q></p>
+  <p>Morgan says, <q>LOL</q></p>
+  <p>Ric says, <q>You have a <em>draining +1 longsword</em>. Please add it to your character sheet.</q></p>
+  <p>Liam says, <q>Nice.</q></p>
+  <p>Chris says, <q>👌</q></p>
+  <p>Morgan says, <q>👏</q></p>
+  <p>Ric says, <q>A popular choice, LOL. I think you can figure out how it works.</q></p>
 </aside>
 
 <p>Instantly the weariness leaves Biron, as does the power.</p>
@@ -296,7 +295,7 @@ publish: unlisted
 <dl>
 <dt>Biron</dt>
 <dd>
-  <p class="action">looks around and suddenly acknowledges what Ba asked him to do. He starts to walk to Agata's tent</p>
+  <p class="action">looks around and suddenly acknowledges what Ba asked him to do. He starts to walk to Agata&#39;s tent</p>
 </dd>
 </dl>
 
@@ -351,7 +350,7 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>It is getting late, past dusk, and your stomachs growl. If you do not make it to the mess "hall" in the next half-hour or so, you'll miss the evening meal.</p>
+<p>It is getting late, past dusk, and Ba and Orin&#39;s stomachs growl. If they do not make it to the mess &quot;hall&quot; in the next half-hour or so, they&#39;ll miss the evening meal.</p>
 
 <dl>
 <dt>Ba'Raknul</dt>
@@ -362,19 +361,19 @@ publish: unlisted
 
 <dt>Orin</dt>
 <dd>
-  <p>Go, eat. I've got a ration in my pack.</p>
+  <p>Go, eat. I&#39;ve got a ration in my pack.</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p class="action">Stands. Just before leaving he places a hand on Orins shoulder.</p>
-  <p>He will be okay... I'll leave him under your watch.</p>
+  <p class="action">stands. Just before leaving he places a hand on Orins shoulder.</p>
+  <p>He will be okay... I&#39;ll leave him under your watch.</p>
   <p>He smiles once more and then heads towards the mess hall.</p>
 </dd>
 
 <dt>Orin</dt>
 <dd>
-  <p>I just don't understand how people end up like that.</p>
+  <p>I just don&#39;t understand how people end up like that.</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
@@ -384,18 +383,18 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>Ba weaves his way through the tents, the smell of fires and pipe smoke drifting in the air. About you mercenaries are filtering back from the mess and chatting amongst themselves as though the evening is about to get started.</p>
+<p>Ba weaves his way through the tents, the smell of fires and pipe smoke drifting in the air. About him mercenaries are filtering back from the mess and chatting amongst themselves as though the evening is about to get started.</p>
 
 <aside>
-  <p>Liam says <q>Do I see any of the musketeers that could train me?</q></p>
-  <p>Ric says <q>A couple in the musketeers' corner.</q></p>
-  <p>Liam says <q>I’m looking mainly for the woman or the guy who doesn’t speak common very well.</q></p>
-  <p>Ric says <q>The musketeers who might train you include: One Eyed John, Lieutenant Freya and Der Vynge.</q></p>
+  <p>Liam says, <q>Do I see any of the musketeers that could train me?</q></p>
+  <p>Ric says, <q>A couple in the musketeers&#39; corner.</q></p>
+  <p>Liam says, <q>I’m looking mainly for the woman or the guy who doesn’t speak common very well.</q></p>
+  <p>Ric says, <q>The musketeers who might train you include: One-Eyed John, Lieutenant Freya, and Der Vynge.</q></p>
 </aside>
 
-<p>Ba reaches the mess as dinner is winding up. There are still a few malingerers sternly eating the modest fare while they swap tales with each other. You are given a bowl of stew, a hunk of bread. You can see several groups of people sitting together. Fetches in one corner. Hyde's fetches nearby, but separate, listening to the toad bloviate to them. Walter's clerks sneaking in to grab some food while the main soldiers are away. Huddles of infantrymen here and there. And, of course, the musketeers sitting in one corner all to themselves</p>
+<p>Ba reaches the mess as dinner is winding up. There are still a few malingerers sternly eating the modest fare while they swap tales with each other. He is given a bowl of stew and a hunk of bread. He can see several groups of people sitting together. Fetches in one corner. Hyde&#39;s fetches nearby, but separate, listening to the toad bloviate to them. Walter&#39;s clerks sneaking in to grab some food while the main soldiers are away. Huddles of infantrymen here and there. And, of course, the musketeers sitting in one corner all to themselves</p>
 
-<p>Where do you sit?</p>
+<p>Where does Ba&#39;Raknul sit?</p>
 
 <dl>
 <dt>Ba'Raknul</dt>
@@ -406,7 +405,7 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>They look at you warily and say nary a word. After a while they get up and leave... Clearly they don't welcome the company of non-musketeers, which includes you, for the time being.</p>
+<p>They look at Ba warily and say nary a word. After a while they get up and leave... Clearly they don&#39;t welcome the company of non-musketeers, which includes Ba, for the time being.</p>
 
 <dl>
 <dt>Ba'Raknul</dt>
@@ -415,7 +414,7 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>Meanwhile, Biron makes his way to Agata's tent. As he goes to enter he is surprised! Loth jumps out, point his silvered sword at Biron's neck.</p>
+<p>Meanwhile, Biron makes his way to Agata&#39;s tent. As he goes to enter he is surprised! Loth jumps out, point his silvered sword at Biron&#39;s neck.</p>
 
 <p>Loth realises who it is and puts the sword down before ushering Biron inside.</p>
 
@@ -437,7 +436,7 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>You find yourself in the familiar confines of Agata's tent, except it seems upturned. Papers cover the floor. Chest are left open and their contents scattered. A slash opens one side of the tent.</p>
+<p>Biron find yourself in the familiar confines of Agata&#39;s tent, except it seems upturned. Papers cover the floor. Chest are left open and their contents scattered. A slash opens one side of the tent.</p>
 
 <dl>
 <dt>Biron</dt>
@@ -447,7 +446,7 @@ publish: unlisted
 
 <dt>Agata</dt>
 <dd>
-  <p>I've been robbed, so it seems!</p>
+  <p>I&#39;ve been robbed, so it seems!</p>
 </dd>
 
 <dt>Biron</dt>
@@ -465,7 +464,7 @@ publish: unlisted
 <dt>Biron</dt>
 <dd>
   <p class="action">pauses a moment and thinks</p>
-  <p>The farm was attacked, people slaughtered. Boy is in Viscus's tent. Maybe same people?</p>
+  <p>The farm was attacked, people slaughtered. Boy is in Viscus&#39;s tent. Maybe same people?</p>
 </dd>
 
 <dt>Agata</dt>
@@ -508,17 +507,17 @@ publish: unlisted
 </dl>
 
 <aside>
-  <p>Chris says <q>Maybe a bit of a stretch but can I insight Loth?</q>
-  <p>Ric says <q>Of course, if you like. Let's say... DC 18</q>
-  <p>Chris rolls 22 for Biron's Wisdom (Insight) check to see if Loth is hiding anything.</p>
-  <p>Chris says <q>KABOOM!</q>
-  <p>Morgan says <q>Nice.</q>
-  <p>Liam says <q>Nice.</q>
-  <p>Ric says <q>Blimey.</q>
-  <p>Liam says <q>Case blown wide open ha ha ha ha.</q>
-  <p>Morgan says <q>LOL</q>
-  <p>Liam says <q>Detective Biron on the case.</q>
-  <p>Chris says <q>Shame, he's not exactly... a chatty guy.</q>
+  <p>Chris says, <q>Maybe a bit of a stretch but can I insight Loth?</q>
+  <p>Ric says, <q>Of course, if you like. Let&#39;s say... DC 18</q>
+  <p>Chris rolls 22 for Biron&#39;s Wisdom (Insight) check to see if Loth is hiding anything.</p>
+  <p>Chris says, <q>KABOOM!</q>
+  <p>Morgan says, <q>Nice.</q>
+  <p>Liam says, <q>Nice.</q>
+  <p>Ric says, <q>Blimey.</q>
+  <p>Liam says, <q>Case blown wide open ha ha ha ha!</q>
+  <p>Morgan says, <q>LOL!</q>
+  <p>Liam says, <q>Detective Biron on the case.</q>
+  <p>Chris says, <q>Shame, he&#39;s not exactly... a chatty guy.</q>
 </aside>
 
 <dl>
@@ -528,7 +527,7 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>Normally unreadable, even Biron can read the genuine concern furrowing Loth's normally smooth brow. If he's guilty of anything, he's hiding it well.</p>
+<p>Normally unreadable, even Biron can read the genuine concern furrowing Loth&#39;s normally smooth brow. If he&#39;s guilty of anything, he&#39;s hiding it well.</p>
 
 <dl>
 <dt>Biron</dt>
@@ -551,7 +550,7 @@ publish: unlisted
   <p>I already debriefed Loth. Black cloaks, bearing the griffin on their arms.</p>
   <p>They could be anyone in the camp.</p>
   <p>Did you think it would be that easy?</p>
-  <p>While you're on patrol, keep your eyes and ears keen.</p>
+  <p>While you&#39;re on patrol, keep your eyes and ears keen.</p>
   <p>Find these spies and bring them.</p>
 </dd>
 
@@ -575,28 +574,28 @@ publish: unlisted
 <dt>Agata</dt>
 <dd>
   <p>Do you think I recall every piece of paper. It matters not. Any scrap here could be nothing... Or could mean victory in the war.</p>
-  <p>This can't happen again.</p>
+  <p>This can&#39;t happen again.</p>
 </dd>
 </dl>
 
 <aside>
-  <p>Chris says <q>This is the most talking Biron has ever done.... it hurts!</q></p>
-  <p>Morgan says <q>What doesn't kill you makes you stronger.</q></p>
-  <p>Chris says <q>He says short and concise things.</q></p>
-  <p>Morgan says <q>I'm sure he's very angry with Ba and Orin for not being there to do the talking 😛</q></p>
-  <p>Chris says <q>He was told to debrief her, cos you didn't go LOL!</q></p>
-  <p>Morgan says <q>Uh oh, there is a grudge forming.</q></p>
-  <p>Chris says <q>Biron has a mixture of feelings towards Orin. Sometimes he thinks they're little more then a common thief and a nuisance. Other times he thinks they're rather skilled.</q></p>
-  <p>Ric says <q>Where do you guys want to meet up?</q></p>
-  <p>Morgan says <q>Probably best to catch up back at the infirmary. I don't think Orin's going to move</q></p>
-  <p>Liam says <q>If Biron makes it to mess hall before it closes then there. But if it shuts before then I will head to the infirmary.</q>
-  <p>Chris says <q>Biron was trying to make this decision. But I think he will be going for food first in a rush and eat while walking.</q></p>
-  <p>Liam says <q>In which case I will see him when he arrives and go to see orin together.</q>
-  <p>Ric says <q>The mess will still be open, although only the dregs of the stew will be available. Where the <em>heaviest</em> scraps sink...</q></p>
-  <p>Chris says <q>Meh, biron is used to animal over fire. im sure bits of a stew will be fine.</q></p>
+  <p>Chris says, <q>This is the most talking Biron has ever done... It hurts!</q></p>
+  <p>Morgan says, <q>What doesn&#39;t kill you makes you stronger.</q></p>
+  <p>Chris says, <q>He says short and concise things.</q></p>
+  <p>Morgan says, <q>I&#39;m sure he&#39;s very angry with Ba and Orin for not being there to do the talking 😛</q></p>
+  <p>Chris says, <q>He was told to debrief her, cos you didn&#39;t go, LOL!</q></p>
+  <p>Morgan says, <q>Uh oh, there&#39;s a grudge forming.</q></p>
+  <p>Chris says, <q>Biron has a mixture of feelings towards Orin. Sometimes he thinks they&#39;re little more then a common thief and a nuisance. Other times he thinks they&#39;re rather skilled.</q></p>
+  <p>Ric says, <q>Where do you guys want to meet up?</q></p>
+  <p>Morgan says, <q>Probably best to catch up back at the infirmary. I don&#39;t think Orin&#39;s going to move.</q></p>
+  <p>Liam says, <q>If Biron makes it to mess hall before it closes, then there. But if it shuts before then I will head to the infirmary.</q>
+  <p>Chris says, <q>Biron was trying to make this decision. But I think he will be going for food first, in a rush, and eat while walking.</q></p>
+  <p>Liam says, <q>In which case I will see him when he arrives and we can go to see Orin together.</q>
+  <p>Ric says, <q>The mess will still be open, although only the dregs of the stew will be available. Where the <em>heaviest</em> scraps sink...</q></p>
+  <p>Chris says, <q>Meh, Biron is used to animal over fire. I&#39;m sure bits of a stew will be fine.</q></p>
 </aside>
 
-<p>Biron's stomach starts to growl in earnest, this is the longest he has spoken or gone without a meal!</p>
+<p>Biron&#39;s stomach starts to growl in earnest, this is the longest he has spoken or gone without a meal!</p>
 
 <dl>
 <dt>Biron</dt>
@@ -645,7 +644,7 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>The men complain that it's been months, even years, since the front with the Commonwealth has moved. They say this grim war is a farce, and the Black Griffins might be camped here for many moons to come.</p>
+<p>The men complain that it&#39;s been months, even years, since the front with the Commonwealth has moved. They say this grim war is a farce, and the Black Griffins might be camped here for many moons to come.</p>
 
 <dl>
 <dt>Biron</dt>
@@ -671,9 +670,9 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>The grim mercenaries around them seem too concerned with their own problems to pay any mind to a couple of wretched fetches. You hear murmurs of how Barnstable has been a waystation for Royalist forces for so long it's growing in size to compare to Dismas. Someone grumbles it even has its own thieves’ council!</p>
+<p>The grim mercenaries around them seem too concerned with their own problems to pay any mind to a couple of wretched fetches. You hear murmurs of how Barnstable has been a waystation for Royalist forces for so long it&#39;s growing in size to compare to Dismas. Someone grumbles it even has its own thieves&#39; council!</p>
 
-<p>Another grumble that if the Commonwealth folk are so cursed as the priests claim, why do they still stand against the righteous forces of the Three Kings.</p>
+<p>Another grumble that if the Commonwealth folk are so cursed as the priests claim, why do they still stand against the righteous forces of the Three Kings?</p>
 
 <p>Perhaps these are just the complaints of folk who have seen too much war.</p>
 
@@ -774,8 +773,8 @@ publish: unlisted
 
 <dt>Biron</dt>
 <dd>
-  <p class="action">snorts but continues to speak very in a hushed voice while keeping watch.</p>
   <p>They're dressed as Black Griffin. A feather was found as well at the scene. They stole some papers.</p>
+  <p class="action">snorts but continues to speak in a very hushed voice while keeping watch.</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
@@ -1043,13 +1042,13 @@ A tired looking Vicmas hurries up to Orin.</p>
 <p>South is the blasted mud and gorse of the front. If this ever was green, the grass and trees here have long gone.</p>
 
 <aside>
-  <p>Ric says <q>Ahem mumble mumble something about splitting the party.</q></p>
-  <p>Chris says <q>LMAO we are close together.</q></p>
-  <p>Liam says <q>But with the barricade between us.</q></p>
-  <p>Morgan says <q>LOL</q></p>
-  <p>Chris says <q>Just two on the inside and one outside.</q></p>
-  <p>Liam says <q>Cos I can jump it.</q></p>
-  <p>Ric says <q>LOL fair enough. Although...</q></p>
+  <p>Ric says, <q>Ahem, mumble mumble something about splitting the party.</q></p>
+  <p>Chris says, <q>LMAO, we are close together.</q></p>
+  <p>Liam says, <q>But with the barricade between us.</q></p>
+  <p>Morgan says, <q>LOL.</q></p>
+  <p>Chris says, <q>Just two on the inside and one outside.</q></p>
+  <p>Liam says, <q>Cos I can jump it.</q></p>
+  <p>Ric says, <q>LOL, fair enough. Although...</q></p>
 </aside>
 
 <dl>
@@ -1092,14 +1091,14 @@ A tired looking Vicmas hurries up to Orin.</p>
 </dl>
 
 <aside>
-  <p>Morgan says <q>Convenient, Ric... very convenient 😛</q></p>
-  <p>Ric says <q>LOL 😛</q></p>
-  <p>Liam says <q>I can take a 20 ft drop no problem.</q></p>
-  <p>Ric says <q>But you have to make a saving throw to move through the ditch, otherwise you are restrained for 1 minute.</q></p>
-  <p>Liam says <q>Hmmm OK.</q></p>
-  <p>Ric says <q>Saving throw on each turn to end the effect. DC 12 Dexterity.</q></p>
-  <p>Liam says <q>Oh no worries. Although a minute. What do you guys think? I am confident Ba can pass that.</q></p>
-  <p>Chris says <q>I'm confident Ba can pass that but one bad roll and you're effectively outta combat.</q></p>
+  <p>Morgan says, <q>Convenient, Ric... very convenient. 😛</q></p>
+  <p>Ric says, <q>LOL. 😛</q></p>
+  <p>Liam says, <q>I can take a 20 ft drop no problem.</q></p>
+  <p>Ric says, <q>But you have to make a saving throw to move through the ditch, otherwise you are restrained for 1 minute.</q></p>
+  <p>Liam says, <q>Hmmm, okay.</q></p>
+  <p>Ric says, <q>Saving throw on each turn to end the effect. DC 12 Dexterity.</q></p>
+  <p>Liam says, <q>Oh no worries. Although, a minute. What do you guys think? I am confident Ba can pass that.</q></p>
+  <p>Chris says, <q>I&#39;m confident Ba can pass that but one bad roll and you&#39;re effectively outta combat.</q></p>
 </aside>
 
 <p>As Biron looks outside the fence, he sees the deep ditches dug in front of the barricades. Another defence, but one that makes it hard to scale the walls. They have been dug all around the camp.</p>
@@ -1155,7 +1154,7 @@ A tired looking Vicmas hurries up to Orin.</p>
 </dl>
 
 <p>The party passes through the fetch camp, where only the hardiest drinkers and gamblers remain. Otherwise, all seems quiet.
-They next past the edges of the east camp. This is where the newer recruits tend to bunk. For this reason it is the rowdiest and most chaotic area of the camp. Drinking and games go on long into the night.</p>
+They next pass the edges of the east camp. This is where the newer recruits tend to bunk. For this reason it is the rowdiest and most chaotic area of the camp. Drinking and games go on long into the night.</p>
 
 <dl>
 <dt>Ba'Raknul</dt>
@@ -1165,15 +1164,15 @@ They next past the edges of the east camp. This is where the newer recruits tend
 </dl>
 
 <aside>
-  <p>Liam says <q>Are we suppose to deal with that?</q></p>
-  <p>Ric says <q>Up to you.</q>
-  <p>Morgan says <q>LOL</q>
-  <p>Chris says <q>I think Biron would call that letting off steam.</q></p>
-  <p>Ric says <q>Heh 'pressing'!</q></p>
-  <p>Morgan says <q>Hey, it's Black Griffin, it's basically prison rules, there are bigger fish to fry than kiss-fighting 😛</q></p>
+  <p>Liam says, <q>Are we suppose to deal with that?</q></p>
+  <p>Ric says, <q>Up to you.</q>
+  <p>Morgan says, <q>LOL.</q>
+  <p>Chris says, <q>I think Biron would call that letting off steam.</q></p>
+  <p>Ric says, <q>Heh, &#39;pressing&#39;!</q></p>
+  <p>Morgan says, <q>Hey, it&#39;s Black Griffin, it&#39;s basically prison rules; there are bigger fish to fry than kiss-fighting. 😛</q></p>
 </aside>
 
-<p>Despite the rowdy noise coming from the thicket of tents and campfires, Orin sees nothing untoward. Well, you do see a couple of mercenaries drunkenly throwing punches at one another before falling about each other kissing and... You get the idea. Another man squats in front of a tent, relieving himself inside.</p>
+<p>Despite the rowdy noise coming from the thicket of tents and campfires, Ba sees nothing untoward. Well, there a couple of mercenaries drunkenly throwing punches at one another before falling about each other kissing and... well. Another man squats in front of a tent, relieving himself inside.</p>
 
 <p>But no enemy soldiers.</p>
 
@@ -1193,7 +1192,7 @@ They next past the edges of the east camp. This is where the newer recruits tend
 </dd>
 </dl>
 
-<p>The party pass the chaos of the east camp and to the open space of the training ground.</p>
+<p>The party passes the chaos of the east camp and into the open space of the training ground.</p>
 
 <dl>
 <dt>Ba'Raknul</dt>
@@ -1289,7 +1288,7 @@ Morgan rolls 23 for Orin to hide in the shadows at the edge of camp.
 </dd>
 </dl>
 
-<p>They surround a couple of young looking mercenaries who they are questioning. Twins, you recognise!</p>
+<p>They surround two young looking mercenaries who they are questioning. Twins, even!</p>
 
 <dl>
 <dt>Bailiff</dt>
