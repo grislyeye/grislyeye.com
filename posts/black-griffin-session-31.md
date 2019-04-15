@@ -10,11 +10,16 @@ id: black-griffin-session-31
 
 <p>The below is an edited log from of our <q>in-character</q> chat channel. We've added annotations so you can follow what's going on. Please enjoy!</p>
 
-<p>Note: the first campaign diary can be found <a href="/black-griffin-session-30.html">here</a>.</p>
-
 <section class="chat">
 
 <img src="images/lively-farm.png" alt="Preview of Farm Map">
+
+<p class=navigation>
+  <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
+  <a href="/black-griffin-session-30.html">&lt;previous</a> |
+  <a href="/black-griffin-session-32.html">next &gt;</a> |
+  <a href="/black-griffin-session-32.html">last &gt;&gt;</a>
+</p>
 
 <h5>Scene II: Lively Farm (Continued)</h5>
 
@@ -1017,6 +1022,13 @@ puts a cloth over the the sword and picks it up, then raises his hand to call Or
 </dd>
 </dl>
 
-</section>
-
 <p>To be continued...</p>
+
+<p class=navigation>
+  <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
+  <a href="/black-griffin-session-30.html">&lt;previous</a> |
+  <a href="/black-griffin-session-32.html">next &gt;</a> |
+  <a href="/black-griffin-session-32.html">last &gt;&gt;</a>
+</p>
+
+</section>

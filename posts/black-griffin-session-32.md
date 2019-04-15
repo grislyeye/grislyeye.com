@@ -10,11 +10,16 @@ publish: unlisted
 
 <p>The below is an edited log from of our <q>in-character</q> chat channel. We've added annotations so you can follow what's going on. Please enjoy!</p>
 
-<p>Note: the second campaign diary can be found <a href="/black-griffin-session-31.html">here</a>.</p>
-
 <section class="chat">
 
 <img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
+
+<p class=navigation>
+  <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
+  <a href="/black-griffin-session-31.html">&lt;previous</a> |
+  next &gt; |
+  last &gt;&gt;
+</p>
 
 <h5>Scene III: The Infirmary (Continued)</h5>
 
@@ -1349,6 +1354,14 @@ Morgan rolls 23 for Orin to hide in the shadows at the edge of camp.
 </dd>
 </dl>
 
+<p>To be continued...</p>
+
+<p class=navigation>
+  <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
+  <a href="/black-griffin-session-31.html">&lt;previous</a> |
+  next &gt; |
+  last &gt;&gt;
+</p>
+
 </section>
 
-<p>To be continued...</p>

@@ -9,13 +9,14 @@ id: black-griffin-session-30
 
 <p>The below is an edited log from of our <q>in-character</q> chat channel. We've added annotations so you can follow what's going on. Please enjoy!</p>
 
-<p>Other campaign diaries can be found here:</p>
-
-<ul>
-  <li><a href="/black-griffin-session-31.html">Session 31</a></li>
-</ul>
-
 <section class="chat">
+
+<p class=navigation>
+  &lt;&lt; first |
+  &lt;previous |
+  <a href="/black-griffin-session-31.html">next &gt;</a> |
+  <a href="/black-griffin-session-32.html">last &gt;&gt;</a>
+</p>
 
 <h4>Camp Patrol Act I</h4>
 
@@ -1277,6 +1278,13 @@ We should only stay here an hour.</p>
 </dd>
 </dl>
 
-</section>
-
 <p>To be continued...</p>
+
+<p class=navigation>
+  &lt;&lt; first |
+  &lt;previous |
+  <a href="/black-griffin-session-31.html">next &gt;</a> |
+  <a href="/black-griffin-session-32.html">last &gt;&gt;</a>
+</p>
+
+</section>
