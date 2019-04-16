@@ -11,14 +11,14 @@ id: black-griffin-session-32
 
 <section class="chat">
 
-<img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
-
 <p class=navigation>
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-31.html">&lt;previous</a> |
   next &gt; |
   last &gt;&gt;
 </p>
+
+<img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
 
 <h5>Scene III: The Infirmary (Continued)</h5>
 

@@ -12,14 +12,14 @@ id: black-griffin-session-31
 
 <section class="chat">
 
-<img src="images/lively-farm.png" alt="Preview of Farm Map">
-
 <p class=navigation>
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-30.html">&lt;previous</a> |
   <a href="/black-griffin-session-32.html">next &gt;</a> |
   <a href="/black-griffin-session-32.html">last &gt;&gt;</a>
 </p>
+
+<img src="images/lively-farm.png" alt="Preview of Farm Map">
 
 <h5>Scene II: Lively Farm (Continued)</h5>
 
