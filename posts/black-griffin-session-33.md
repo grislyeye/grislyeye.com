@@ -28,16 +28,12 @@ publish: unlisted
 <dl>
 <dt>Biron</dt>
 <dd>
-  <p>stands up straight and stares and the Sergeant, head half turned.</p>
+  <p class="action">stands up straight and stares and the Sergeant, head half turned.</p>
 </dd>
 
 <dt>Helia</dt>
 <dd>
   <p class="action">notices Biron for the first time and squares up to him, while giving Ba the side eye.</p>
-</dd>
-
-<dt>Helia</dt>
-<dd>
   <p>We are in the King's lands and the King's Law stands here! I have a warrant to question anyone I please. Speaking of which...
 Do you have a dog?</p>
 </dd>
@@ -45,6 +41,12 @@ Do you have a dog?</p>
 <dt>Biron</dt>
 <dd>
   <p><span class="action">growling</span> Does it look like it?</p>
+</dd>
+
+<dt>Ba'Raknul</dt>
+<dd>
+  <p class="action">smiles.</p>
+  <p><span class="action">calmly</span> I do not own a dog.</p>
 </dd>
 </dl>
 
@@ -54,12 +56,6 @@ Do you have a dog?</p>
 </aside>
 
 <dl>
-<dt>Ba'Raknul</dt>
-<dd>
-  <p class="action">smiles.</p>
-  <p><span class="action">calmly</span> I do not own a dog.</p>
-</dd>
-
 <dt>Helia</dt>
 <dd>
   <p class="action">raises an eyebrow.</p>
