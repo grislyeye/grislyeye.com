@@ -23,7 +23,7 @@ publish: unlisted
 
 <h5>Scene IV: Night 1 (Continued)</h5>
 
-<p>When we last left our misaligned bounty hunters they had just challenged a group of Royalist bailiffs interrogating junior members of our mercenary company.</p>
+<p>When we last left our misaligned bounty hunters they had just challenged a group of Royalist bailiffs interrogating junior members of their mercenary company.</p>
 
 <dl>
 <dt>Biron</dt>
@@ -96,7 +96,7 @@ Do you have a dog?</p>
 
 <dt>Helia</dt>
 <dd>
-  <p class="action">Her eyes narrow.</p>
+  <p class="action">eyes narrow.</p>
   <p>There are witches here too?</p>
 </dd>
 
