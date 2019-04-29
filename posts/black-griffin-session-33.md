@@ -499,12 +499,9 @@ Do you have a dog?</p>
 <dd>
   <p class="action">gives a single nod to Agata and waits for her to leave.</p>
 </dd>
-
-<dt>Agata</dt>
-<dd>
-  <p class="action">storms off into the camp, looking quite the sight in her nightgown and boots.</p>
-</dd>
 </dl>
+
+<p>Agata storms off into the camp, looking quite the sight in her nightgown and boots.</p>
 
 <aside>
   <p>Chris says, <q>Did we have a short or long rest at all?</q></p>
@@ -559,11 +556,11 @@ Do you have a dog?</p>
 </dd>
 </dl>
 
-<p>You move along the perimeter of the North Camp, where the more veteran mercenaries stow.</p>
+<p>The party move along the perimeter of the North Camp, where the more veteran mercenaries stow.</p>
 
 <p>It is a more staid affair than the East Camp; only a few, more grizzled folk smoke pipes, drink camp wine, and swap war stories around fires.</p>
 
-<p>As you pass the northwest wall you come close to the borders of Friar Wood.</p>
+<p>As they pass the northwest wall they approach the borders of Friar Wood.</p>
 
 <aside>
   <p>Chris says, <q>Can I just check to see if there’s anything broken, like branches, etc? People moving through, maybe?</q></p>
