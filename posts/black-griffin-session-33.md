@@ -935,9 +935,7 @@ Used to the bustle of the camp, the quiet is unnerving for Orin and Ba.</p>
   <p>Morgan looks at Chris.</p>
   <p>Chris rolls 12 and 7 for Biron’s hit dice, to regain as many hit points.</p>
   <p>Liam says, <q>I’m all good, got my ki point back.</q></p>
-  <p>Morgan says, <q>I’m already at full everything.</q></p>
-  <p>Ric says, <q>Where do you sit?</q></p>
-  <p>Morgan says, <q>Orin is still asleep, btw.</q></p>
+  <p>Morgan says, <q>I’m already at full everything. Orin is still asleep, btw.</q></p>
   <p>Ric says, <q>Lol, someone should wake them up.</q></p>
 </aside>
 
