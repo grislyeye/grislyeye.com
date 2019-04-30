@@ -1284,7 +1284,7 @@ We should only stay here an hour.</p>
   &lt;&lt; first |
   &lt;previous |
   <a href="/black-griffin-session-31.html">next &gt;</a> |
-  <a href="/black-griffin-session-32.html">last &gt;&gt;</a>
+  <a href="/black-griffin-session-33.html">last &gt;&gt;</a>
 </p>
 
 </section>
