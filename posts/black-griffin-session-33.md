@@ -4,7 +4,6 @@ date: 2019-04-30
 collection: articles
 layout: post.hbs
 id: black-griffin-session-33
-publish: unlisted
 ---
 <p>This is the <em>fourth</em> campaign diary for my 5th Edition D&amp;D playtest campaign, <strong>Black Griffin</strong>. Black Griffin is a play-by-chat game that runs every week on Roll20. The party are mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, they have been placed on punishment duty as company <q>fetches</q>: bounty hunters charged with capture of deserters for trial.</p>
 

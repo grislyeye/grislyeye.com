@@ -14,8 +14,8 @@ id: black-griffin-session-32
 <p class=navigation>
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-31.html">&lt;previous</a> |
-  next &gt; |
-  last &gt;&gt;
+  <a href="/black-griffin-session-33.html">next &gt;</a> |
+  <a href="/black-griffin-session-33.html">last &gt;&gt;</a>
 </p>
 
 <img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">

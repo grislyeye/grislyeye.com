@@ -15,7 +15,7 @@ id: black-griffin-session-30
   &lt;&lt; first |
   &lt;previous |
   <a href="/black-griffin-session-31.html">next &gt;</a> |
-  <a href="/black-griffin-session-32.html">last &gt;&gt;</a>
+  <a href="/black-griffin-session-33.html">last &gt;&gt;</a>
 </p>
 
 <h4>Camp Patrol Act I</h4>
