@@ -1262,10 +1262,12 @@ Morgan rolls 22 for Orin’s Dexterity (Stealth) check to hide.
   <p>Liam rolls 16 for Ba’s Deflect Missiles.</p>
   <p>Liam rolls 21 for Ba to attack with the arrow he caught.</p>
   <p>Ba takes 6 piercing damage from the arrow he didn’t catch.</p>
+  <p class="break"></p>
   <p>Morgan rolls 23 for Orin’s Wisdom (Perception) check to identify the attackers in the shadows.</p>
   <p>Ric says, <q>No need to roll, they gave their hiding place away when they attacked.</q></p>
   <p>Orin rolls 13 for Orin’s Insightful Fighting against Ba’s attacker.</p>
   <p>Ric says, <q>Sorry, it’s too dark to discern anything enough to gain insight.</q></p>
+  <p class="break"></p>
   <p>Chris says, <q>I’ll rage and climb.</q></p>
   <p>Ric says, <q>Okay, so there is a 10ft ditch, then the walls are 15ft tall. Are you jumping over the ditch or from it?</q></p>
   <p>Chris says, <q>Jump over and climb the tower.</q></p>
