@@ -96,53 +96,53 @@ id: harrowed-preview-1
 <p>This variant gives an additional table for lingering injuries for psychic damage. Continue to roll on the old Lingering Injuries table for non-psychic damage.</p>
 
 <table>
-  <caption>Lingering Psychic Injuries</caption>
-  <thead>
-    <tr>
-      <th class="number">d20</th>
-      <th>Psychic Injury</th>
-    </tr>
-  </thead>
+<caption>Lingering Psychic Injuries</caption>
+<thead>
+  <tr>
+    <th class="number">d20</th>
+    <th>Psychic Injury</th>
+  </tr>
+</thead>
 
-  <tbody>
-    <tr>
-      <td class="number">1</td>
-      <td><strong>Mania.</strong> You have advantage on all attack rolls. When you make an attack roll, attack rolls against you have advantage until your next turn.</td>
+<tbody>
+  <tr>
+    <td class="number">1</td>
+    <td><strong>Mania.</strong> You have advantage on all attack rolls. When you make an attack roll, attack rolls against you have advantage until your next turn.</td>
 
-    </tr>
-    <tr>
-      <td class="number">2</td>
-      <td><strong>Panic.</strong> You have disadvantage on all Dexterity attack rolls, saving throws and ability checks.</td>
-    </tr>
-    <tr>
-      <td class="number">3</td>
-      <td><strong>Traumatised.</strong> Your exhaustion is always one level higher.</td>
-    </tr>
-    <tr>
-      <td class="number">4</td>
-      <td><strong>Despair.</strong> You, and any creature within 30 feet of you who can hear and understand you, have  disadvantage on Charisma saving throws.</td>
-    </tr>
-    <tr>
-      <td class="number">5-7</td>
-      <td><strong>Fearful.</strong> You, and any creature within 30 feet of you who can hear and understand you, have disadvantage on Wisdom saving throws.</td>
-    </tr>
-    <tr>
-      <td class="number">8-10</td>
-      <td><strong>Paranoid.</strong> You gain the flaw <q>Trust no-one, <em>they</em> are out to get me.</q> Your speed is halved and you have disadvantage on Wisdom ability checks and saving throws.</td>
-    </tr>
-    <tr>
-      <td class="number">11-13</td>
-      <td><strong>Irrational.</strong> You gain a delusion as a new flaw. You have disadvantage on all Intelligence saving throws and ability checks. Roll on the delusions table, or come up with your own.</td>
-    </tr>
-    <tr>
-      <td class="number">14-16</td>
-      <td><strong>Selfish.</strong> You gain the flaw <q>I cannot stop talking about myself.</q> You have disadvantage on all Charisma ability checks.</td>
-    </tr>
-    <tr>
-      <td class="number">17-20</td>
-      <td><strong>Tick.</strong> You gain a odd as a new personality trait. Roll on the ticks table or create your own tick.</td>
-    </tr>
-  </tbody>
+  </tr>
+  <tr>
+    <td class="number">2</td>
+    <td><strong>Panic.</strong> You have disadvantage on all Dexterity attack rolls, saving throws and ability checks.</td>
+  </tr>
+  <tr>
+    <td class="number">3</td>
+    <td><strong>Traumatised.</strong> Your exhaustion is always one level higher.</td>
+  </tr>
+  <tr>
+    <td class="number">4</td>
+    <td><strong>Despair.</strong> You, and any creature within 30 feet of you who can hear and understand you, have  disadvantage on Charisma saving throws.</td>
+  </tr>
+  <tr>
+    <td class="number">5-7</td>
+    <td><strong>Fearful.</strong> You, and any creature within 30 feet of you who can hear and understand you, have disadvantage on Wisdom saving throws.</td>
+  </tr>
+  <tr>
+    <td class="number">8-10</td>
+    <td><strong>Paranoid.</strong> You gain the flaw <q>Trust no-one, <em>they</em> are out to get me.</q> Your speed is halved and you have disadvantage on Wisdom ability checks and saving throws.</td>
+  </tr>
+  <tr>
+    <td class="number">11-13</td>
+    <td><strong>Irrational.</strong> You gain a delusion as a new flaw. You have disadvantage on all Intelligence saving throws and ability checks. Roll on the delusions table, or come up with your own.</td>
+  </tr>
+  <tr>
+    <td class="number">14-16</td>
+    <td><strong>Selfish.</strong> You gain the flaw <q>I cannot stop talking about myself.</q> You have disadvantage on all Charisma ability checks.</td>
+  </tr>
+  <tr>
+    <td class="number">17-20</td>
+    <td><strong>Tick.</strong> You gain a odd as a new personality trait. Roll on the ticks table or create your own tick.</td>
+  </tr>
+</tbody>
 </table>
 
 <table>
