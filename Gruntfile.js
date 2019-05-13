@@ -148,6 +148,10 @@ module.exports = function (grunt) {
           }
         }
       }
+    },
+
+    htmllint: {
+      all: ['dist/*.html']
     }
   });
 
@@ -160,7 +164,10 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-npmcopy');
   grunt.loadNpmTasks('grunt-metalsmith');
+  grunt.loadNpmTasks('grunt-html');
 
-  grunt.registerTask('default', ['metalsmith:blog', 'copy', 'less', 'cssmin', 'imagemin', 'npmcopy']);
-  grunt.registerTask('run', ['clean', 'default', 'connect', 'watch']);
+  grunt.registerTask('test', ['htmllint'])
+  grunt.registerTask('build', ['metalsmith:blog', 'copy', 'less', 'cssmin', 'imagemin', 'npmcopy']);
+  grunt.registerTask('default', ['build', 'test']);
+  grunt.registerTask('run', ['clean', 'build', 'connect', 'watch']);
 };

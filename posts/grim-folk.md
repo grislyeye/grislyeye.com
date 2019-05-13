@@ -5,7 +5,7 @@ collection: articles
 layout: post.hbs
 id: grim-folk
 ---
-<img src="/images/grim-folk.jpg" style="max-width: 400px; float: right">
+<img src="/images/grim-folk.jpg" style="max-width: 400px; float: right" alt="Grim Folk Illustration">
 
 <p>This is a preview of the <strong>grim folk</strong>, a variant human race for gritty campaigns. The humanity presented here is messy, flawed and fragile, but not necessarily less heroic because of that.</p>
 

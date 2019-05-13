@@ -15,7 +15,7 @@ id: folk-preview-1
 <p>When creating your character, replace step 1 with choosing a background and a folk for your character. An example background and folk are given below:</p>
 
 <div class="illustration" style="max-width: 300px;">
-  <img src="images/grim-folk.jpg">
+  <img src="images/grim-folk.jpg" alt="Grim Folk Illustration">
   <p class="caption">Medieval workers. Created by Beaunier and Mifliez, published on Magasin Pittoresque, Paris, 1844.</p>
 </div>
 
@@ -79,7 +79,7 @@ id: folk-preview-1
   <dd>You gain proficiency with one type of musical instrument. You add double your proficiency bonus to checks you make with it.</dd>
 
   <dt>Distracting Melody.</dt>
-  <dd>While playing a musical instrument you are proficient with, you can try to distract one humanoid you can see who can see and hear you. Make a Charisma (Performance) check contested by the humanoid’s Wisdom (Insight) check. If your check succeeds, you grab the humanoid’s attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing.</p>
+  <dd>While playing a musical instrument you are proficient with, you can try to distract one humanoid you can see who can see and hear you. Make a Charisma (Performance) check contested by the humanoid’s Wisdom (Insight) check. If your check succeeds, you grab the humanoid’s attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing.</dd>
 </dl>
 
 <h4>Speciality: Singer</h4>
@@ -94,5 +94,5 @@ id: folk-preview-1
   <dd>Once you hear a song you never forget it, and can recall and sing it from memory.</dd>
 
   <dt>Minstrel Lore.</dt>
-  <dd>Ancient lore is often passed down through song, and you know more songs than anyone else you know. When making an Intelligence (Religion) or Intelligence (History) check you can instead chose spend 10 minutes singing an appropriate song you recall from your extensive repertoire of rhymes and ballads. When you finish you can make a Performance check instead. You can only do this once per short rest.</p>
+  <dd>Ancient lore is often passed down through song, and you know more songs than anyone else you know. When making an Intelligence (Religion) or Intelligence (History) check you can instead chose spend 10 minutes singing an appropriate song you recall from your extensive repertoire of rhymes and ballads. When you finish you can make a Performance check instead. You can only do this once per short rest.</dd>
 </dl>

@@ -8,7 +8,7 @@ id: nights-watch-preview-1
 <p>The **Nights Watch** is a new faction I'm playing around with for a future campaign. I like the idea of individuals with shady pasts forced together (as with my current playtest campaign, [Black Griffin](black-griffin-campaign.html)). Nights watchmen have a similar theme, but for more city-based campaigns.</p>
 
 <div class="illustration" style="max-width: 300px;">
-  <img src="images/nights-watch.jpg">
+  <img src="images/nights-watch.jpg" alt="Nights Watchmen Illustration">
   <p class="caption">An example of a woodcut <q><a href="http://spitalfieldslife.com/2013/02/21/samuel-pepys-cries-of-london/">Cries of London</a></q>, collected by Samuel Pepys.</p>
 </div>
 

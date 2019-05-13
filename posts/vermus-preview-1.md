@@ -8,7 +8,7 @@ id: vermus-preview-1
 <p>The vermus (or <em>ratfolk</em>) are a race of intelligent, rodent-like humanoids that live in the sewers and catacombs of the Undercity. Vermus stand 3-4 feet tall upright, with grey, brown or black pelts, long snouts, dark eyes and long, furless tails. Paranoid and cowardly, they avoid direct confrontation preferring to attack from the shadows.</p>
 
 <div class="stat-block" style="min-height: 640px">
-  <img src="images/vermus.png" class="background">
+  <img src="images/vermus.png" class="background" alt="Vermus Illustration">
 
   <vellum-stat-block class="stat-block" id="vermus" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
 
@@ -37,7 +37,6 @@ id: vermus-preview-1
       <dt>Languages</dt><dd itemprop="languages">Common</dd>
       <dt>Challenge</dt><dd itemprop="cr">1/4</dd>
       <dt>XP</dt><dd itemprop="xp">50</dd>
-
     </dl>
 
     <ol>
@@ -59,7 +58,7 @@ id: vermus-preview-1
 
       <li itemprop="actions" itemscope>
         <span itemprop="name">Knife</span>
-        <span><data itemprop="type" value="melee-or-ranged-attack">Melee or Ranged Weapon Attack</data>: <span itemprop="bonus">+4</span> to hit, reach <span itemprop="reach">reach 5 ft. or range 20/60 ft.</span>, <span itemprop="target">one target</span>. Hit: <span itemprop="damage">4 (1d4 + 2)</span> <span itemprop="damageType">piercing</span> damage.
+        <data itemprop="type" value="melee-or-ranged-attack">Melee or Ranged Weapon Attack</data>: <span itemprop="bonus">+4</span> to hit, reach <span itemprop="reach">reach 5 ft. or range 20/60 ft.</span>, <span itemprop="target">one target</span>. Hit: <span itemprop="damage">4 (1d4 + 2)</span> <span itemprop="damageType">piercing</span> damage.
       </li>
 
     </ol>

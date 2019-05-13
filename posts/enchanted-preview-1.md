@@ -9,7 +9,7 @@ publish: unpublished
 <p>This article presents a preview of one of the <em>unique backgrounds</em> from our forthcoming monograph, <em>The Enchanted</em>. <a href="unique-backgrounds.html">Unique backgrounds</a> are special backgrounds that allow you to play magical characters in low-magic campaigns. <em>The Enchanted</em> introduces two new, unique backgrounds: The Fey Exile and The Fey-touched.</p>
 
 <div class="illustration" style="max-width: 350px;">
-  <img src="images/fey-exile.jpg">
+  <img src="images/fey-exile.jpg" alt="Fey Exile Illustration">
   <p class="caption">Illustration from the <q>Matem için matem</q>, by Robert Desnos.</p>
 </div>
 

@@ -21,7 +21,7 @@ id: npc-block
 
 <h4>Characteristics</h4>
 
-<p>The NPC block uses the background characteristics (ideals, bonds, flaws, etc.) from the <em>Player's Handbook</em>. These are great for detailing the "obvious" stuff about NPCs. They are displayed first, making it easy for DMs to start playing the character.</li>
+<p>The NPC block uses the background characteristics (ideals, bonds, flaws, etc.) from the <em>Player's Handbook</em>. These are great for detailing the "obvious" stuff about NPCs. They are displayed first, making it easy for DMs to start playing the character.</p>
 
 <h4>Secrets</h4>
 

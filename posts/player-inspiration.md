@@ -6,7 +6,7 @@ layout: post.hbs
 id: player-inspiration
 ---
 <div class="illustration" style="max-width: 300px;">
-  <img src="images/the-star.jpg">
+  <img src="images/the-star.jpg" alt="Inspiration Illustration">
   <p class="caption"><a href="https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck#/media/File:RWS_Tarot_17_Star.jpg">The Star</a> tarot card from the <a href="https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck">Rider-Waite deck</a>. Public domain image.</p>
 </div>
 

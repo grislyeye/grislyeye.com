@@ -6,7 +6,7 @@ layout: post.hbs
 id: thieves-council-preview
 ---
 <div class="illustration">
-  <img src="images/the-pedlar.jpg">
+  <img src="images/the-pedlar.jpg" alt="Thief Illustration">
   <p class="caption">Public Domain image of <q>The Pedlar</q> taken from <a href="http://www.sacred-texts.com/jbh2yr/21790-h.htm">The Dance of Death</a>.</p>
 </div>
 

@@ -8,7 +8,7 @@ id: grim-folk-preview-2
 <p>This is our second preview of <q>**The Grim**</q>, a darker take on humanity as presented in the official material. Previously we published our variant human race, the <a href="grim-folk.html">Grim Folk</a>. This week, we're publishing a new background: the Bailiff.</p>
 
 <div class="illustration" style="max-width: 350px;">
-  <img src="images/bailiff.jpg">
+  <img src="images/bailiff.jpg" alt="Bailiff Illustration">
   <p class="caption">A detail from A Friend's Advice by Thomas Campion, early 17th century. Possibly 1609. </p>
 </div>
 
@@ -50,6 +50,7 @@ id: grim-folk-preview-2
       <td class="number">3</td>
       <td><strong>Order.</strong> The law must be followed to the letter. (Lawful)</td>
     </tr>
+    <tr>
       <td class="number">4</td>
       <td><strong>Cynicism.</strong> The worst of humanity always wins out. (Neutral)</td>
     </tr>

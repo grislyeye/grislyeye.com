@@ -19,7 +19,7 @@ id: torture
 <p>Each challenge lists the checks and spells that can be used, but these are not meant to be exhaustive. Dungeon Masters should encourage players to be creative with the skills and spells they use to overcome the challenge.</p>
 
 <div class="illustration">
-  <img src="images/torture.png">
+  <img src="images/torture.png" alt="Torture Illustration">
   <p class="caption">Public Domain image of mediaeval drawing of execution by sawing in two (from <a href="https://commons.wikimedia.org/wiki/File:Die_Saege.JPG">Wikimedia Commons</a>).</p>
 </div>
 

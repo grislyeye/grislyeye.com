@@ -6,7 +6,7 @@ layout: post.hbs
 id: harrowed-preview-1
 ---
 <div class="illustration">
-  <img src="images/harrowed.jpg">
+  <img src="images/harrowed.jpg" alt="Stress Illustration">
   <p class="caption">Public Domain image taken from Philocothonista, or, The drunkard, opened, dissected, and anatomized, 1635.</p>
 </div>
 

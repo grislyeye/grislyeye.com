@@ -18,7 +18,7 @@ id: many-preview-1
 
 
 <div class="stat-block">
-  <img src="images/infantry.png" class="background" style="height: 640px; width: auto">
+  <img src="images/infantry.png" class="background" style="height: 640px; width: auto" alt="Infantry Illustration">
 
   <vellum-stat-block id="infantry-unit" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
 
@@ -80,7 +80,7 @@ id: many-preview-1
 
 
 <div class="stat-block-left">
-  <img src="images/grim-folk.jpg" class="background" style="height: 600px; width: auto">
+  <img src="images/grim-folk.jpg" class="background" style="height: 600px; width: auto" alt="Commoners Illustration">
   <vellum-stat-block id="commoner-mob" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
 
   <dl>

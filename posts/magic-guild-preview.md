@@ -5,7 +5,7 @@ collection: articles
 layout: post.hbs
 id: magic-guild-preview
 ---
-<img src="/images/magician.png" style="max-width: 400px; float: right">
+<img src="/images/magician.png" style="max-width: 400px; float: right" alt="Magician Illustration">
 
 <p>The Magic Guild is a fraternity of wizards formed to protect the secrets of magic. In exchange for training and access to guild libraries, members are expected to abide by the complex bylaws of the guild.</p>
 

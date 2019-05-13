@@ -5,7 +5,7 @@ collection: articles
 layout: post.hbs
 id: kindred-fey-preview-1
 ---
-<img src="/images/green-man.png" style="max-width: 300px; float: right">
+<img src="/images/green-man.png" style="max-width: 300px; float: right" alt="Fey Illustration">
 
 <p>Most of the non-human races in the <em>Player's Handbook</em> are based on Tolkien's works. The fey as presented here are meant as Pre-Tolkien variants on elves, dwarves, halflings and gnomes for low-magic campaigns. They are based on legends and fairytales (with a bit of artistic license). This preview includes the Fair Folk subrace and other fey subraces will feature in future posts.</p>
 
@@ -76,7 +76,6 @@ id: kindred-fey-preview-1
 </table>
 
 <h4 id="fair-folk">The Fair Folk</h4>
-<!-- [Elves should be wild and regal like stags, swans or eagles] -->
 
 <p>Sometimes called elves or sidhe, the Fair Folk are the minor nobility of the fey, second only to the archfey. Fair folk typically dwell deep in the forests, holding court in secluded glenns or by babbling brooks. Graceful and haughty, with an unearthly beauty, the Fair Folk consider themselves to be superior to humans and other fey.</p>
 

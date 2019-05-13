@@ -38,7 +38,7 @@ id: unique-backgrounds
 <p>This section takes the far traveller background from the <em>Sword Coast Adventurer's Guide</em> and shows how you can adapt it into a unique background. Follow the far traveller background as written, with these changes:</p>
 
 <div class="illustration">
-  <img src="images/far-traveller.png">
+  <img src="images/far-traveller.png" alt="Far Traveller Illustration">
   <p class="caption">Public Domain image of Moorish Noble from Cairo taken from <a href="https://www.bl.uk/collection-items/16th-century-costume-guide">Cesare Vecellio's 16th Century Costume Guide</a>.</p>
 </div>
 

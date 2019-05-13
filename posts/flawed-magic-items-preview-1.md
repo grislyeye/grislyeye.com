@@ -6,7 +6,7 @@ layout: post.hbs
 id: flawed-magic-items-preview-1
 ---
 <div class="illustration" style="max-width: 150px;">
-  <img src="images/potion.png">
+  <img src="images/potion.png" alt="Illustration of Potion">
   <p class="caption">This art is by <a href="https://drivethrurpg.com/product/181517">Daniel F. Walthall</a>, available under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license</a>.</p>
 </div>
 
@@ -53,10 +53,11 @@ id: flawed-magic-items-preview-1
       <td class="number">9-10</td>
       <td><strong>Misfortunate.</strong> While you wield or wear this item you make all saving throws with disadvantage.</td>
     </tr>
+    <tr>
       <td class="number">11</td>
       <td><strong>Draining.</strong> While you wield or wear this item you also gain a level of exhaustion. If you are wielding or wearing this item after a long rest, you gain a level of exhaustion. If you stop wielding or wearing this item you lose this level of exhaustion.</td>
     </tr>
-    </tr>
+    <tr>
       <td class="number">12</td>
       <td><strong>No Flaw.</strong> This item is flawless and otherwise behaves as described.</td>
     </tr>
@@ -84,10 +85,11 @@ id: flawed-magic-items-preview-1
       <td class="number">6-7</td>
       <td><strong>Weakening.</strong> When you drink this potion you must also succeed on a DC 13 Constitution saving throw or become weakened for 1 minute. While weakened you count as one size smaller when determining your carrying capacity and the weight you can push, drag, or lift and you have disadvantage on attack rolls with heavy weapons. At the end of each of your turns, you can repeat the saving throw. If you succeed, you are no longer weakened.</td>
     </tr>
+    <tr>
       <td class="number">8-9</td>
       <td><strong>Draining.</strong> When you drink this potion you also gain a level of exhaustion.</td>
     </tr>
-    </tr>
+    <tr>
       <td class="number">10</td>
       <td><strong>No Flaw.</strong> This potion is flawless and otherwise behaves as described.</td>
     </tr>

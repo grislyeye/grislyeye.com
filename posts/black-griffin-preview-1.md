@@ -5,7 +5,7 @@ collection: articles
 layout: post.hbs
 id: black-griffin-preview-1
 ---
-<img src="/images/black-griffin.png" style="max-width: 400px; float: right">
+<img src="/images/black-griffin.png" style="max-width: 400px; float: right" alt="Black Griffin Symbol">
 
 <p>The Company of the Black Griffin (often just called &#39;Griffin Company&#39;) is a mercenary army commanded by the ageing Captain Larke. For a century now it has journeyed east, seeking fortune and glory.</p>
 
@@ -32,7 +32,6 @@ id: black-griffin-preview-1
 <p><strong>New Contracts</strong> Contracts are the lifeblood of the company and characters that get clients to sign them are accorded immense respect.</p>
 
 <p><strong>New Recruits</strong> Hmmmm... actually, recruits are the lifeblood of the company and characters that get new recruits to sign up are accorded immense respect.</p>
-</div>
 
 <table>
 <thead>

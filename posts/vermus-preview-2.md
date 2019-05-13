@@ -62,11 +62,11 @@ id: vermus-preview-1
 
       <li itemprop="actions" itemscope>
         <span itemprop="name">Bite</span>
-        <span><data itemprop="type" value="melee-attack">Melee Weapon Attack</data>: <span itemprop="bonus">+4</span> to hit, reach <span itemprop="reach">reach 5 ft.</span>, <span itemprop="target">one target</span>. Hit: <span itemprop="damage">4 (1d4 + 2)</span> <span itemprop="damageType">piercing</span> damage <span itemprop="notes">. The target must succeed on a DC 11 Constitution saving throw or becomes infected with a temporary, random effect from the diseased bite. The effect begins at start of the target's turn and lasts until the start of its next turn. Roll 1d6 to determine the effect.</span>
+        <data itemprop="type" value="melee-attack">Melee Weapon Attack</data>: <span itemprop="bonus">+4</span> to hit, reach <span itemprop="reach">reach 5 ft.</span>, <span itemprop="target">one target</span>. Hit: <span itemprop="damage">4 (1d4 + 2)</span> <span itemprop="damageType">piercing</span> damage <span itemprop="notes">. The target must succeed on a DC 11 Constitution saving throw or becomes infected with a temporary, random effect from the diseased bite. The effect begins at start of the target's turn and lasts until the start of its next turn. Roll 1d6 to determine the effect.</span>
 
         <ul>
           <li itemscope itemprop="randomEffects"><strong itemprop="roll">1</strong> <span itemprop="name">Rabid</span> <span itemprop="effect">The target becomes rabid and uses any actions it has this turn to make melee attacks against its nearest ally.</span></li>
-          <li itemscope itemprop="randomEffects"><strong itemprop="roll">2</strong> <span itemprop="name">Paralysed</span> <span itemprop="effect">The target becomes paralysed.</span></li> 
+          <li itemscope itemprop="randomEffects"><strong itemprop="roll">2</strong> <span itemprop="name">Paralysed</span> <span itemprop="effect">The target becomes paralysed.</span></li>
           <li itemscope itemprop="randomEffects"><strong itemprop="roll">3-5</strong> <span itemprop="name">Poisoned</span> <span itemprop="effect">The target becomes poisoned and takes 1d4 poison damage.</span></li>
           <li itemscope itemprop="randomEffects"><strong itemprop="roll">6</strong> <span itemprop="name">Blinded</span> <span itemprop="effect">The target becomes blinded.</span></li>
         </ul>
