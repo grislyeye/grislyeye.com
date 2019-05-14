@@ -351,7 +351,7 @@ Liam rolls 7 for Ba’s Strength (Athletics) check.
 </dd>
 </dl>
 
-<p>With a sharp crack you knock the creature cold!</p>
+<p>With a sharp crack Ba knocks the creature out cold!</p>
 
 <dl>
 <dt>Ba'Raknul</dt>
@@ -537,8 +537,6 @@ Chris rolls 15 for Biron’s Wisdom (Insight) check.
 
 <p>The party proceeds with their patrol, which continues around the perimeter quite without event. As they pass the fetches’ camp on the last circuit of the night, they spy lamplight coming from Agata's tent.</p>
 
-<p>What do you do?</p>
-
 <dl>
 <dt>Ba'Raknul</dt>
 <dd>
@@ -587,8 +585,6 @@ Morgan rolls 27 for Orin’s Dexterity (Stealth) check.
 </dl>
 
 <p>There is further discussion about possible missions for fetches, not including your team. Some being sent across the border into Commonwealth territory.</p>
-
-<p>What do you do?</p>
 
 <dl>
 <dt>Orin</dt>
