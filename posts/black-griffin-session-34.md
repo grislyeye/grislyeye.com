@@ -55,13 +55,16 @@ publish: unlisted
   <p>Liam says, <q>I was under the tower and I’d just thrown an arrow into the tents and heard a squeal.</q></p>
   <p>Morgan says, <q>Orin is hiding in the shadows near where we noticed the trouble. I skipped my last turn without reading an action for strategy’s sake.</q></p>
   <p>Ric says, <q>Okay, with 21 stealth.</q></p>
+  <p class="break"></p>
   <p>Liam rolls 20 for Ba’s kick attack.</p>
   <p>Ba hits the creature for 4 bludgeoning damage.</p>
   <p>Liam rolls 14 for a second kick</p>
   <p>Ba’Raknul hits the creature for 6 bludgeoning damage.</p>
+  <p class="break"></p>
   <p>Morgan says, <q>I’m going to stay put, but ready an action.</q></p>
   <p>Ric says, <q>Trigger?</q></p>
   <p>Morgan says, <q>When Ba attacks one and it remains alive.</q></p>
+  <p class="break"></p>
   <p>Chris says, <q>I’ll take the 1 level of exhaustion for the sword, just so ya know.</q></p>
   <p>Morgan says, <q>At what point does exhaustion affect your movement speed?</q></p>
   <p>Chris says, <q>Err, like 5th? Oh wait, 2nd. It halves. At 5th I’d get 0 movement.</q></p>
@@ -69,8 +72,10 @@ publish: unlisted
   <p>Chris says, <q>Yea.</q></p>
   <p>Chris rolls 14 for Biron’s Longsword of Draining attack.</p>
   <p>Biron hits the creature for 5 slashing damage.</p>
+  <p class="break"></p>
   <p>Morgan rolls 25 for Orin’s shortbow attack against the nearest runner.</p>
   <p>Orin critically hits their sneak attack for 21 piercing damage.</p>
+  <p class="break"></p>
   <p>Ric says, <q>Everyone make a Dexterity Save.</q></p>
   <p>Morgan rolls 8 for Orin’s Dexterity Save.</p>
   <p>Chris rolls 21 for Biron’s Dexterity Save.</p>
@@ -293,6 +298,7 @@ Biron takes 7 slashing damage.
   <p>Liam rolls 23 for Ba’s Strength (Athletics) check to grapple the creature.</p>
   <p>Liam rolls 8 and 15 to attack twice with unarmed strikes. One hits!</p>
   <p>Ba hits the creature for 6 bludgeoning damage.</p>
+  <p class="break"></p>
   <p>Chris rolls 9 for Biron’s Knuckle Dusters attack.</p>
 </aside>
 
@@ -468,6 +474,7 @@ Chris rolls 15 for Biron’s Wisdom (Insight) check.
   <p>Liam says, <q>The command feature gives us advantage, right?</q></p>
   <p>Ric says, <q>It does. so does Biron’s scar!</q></p>
   <p>Chris rolls 17 for Biron’s Charisma (Intimidation) check.</p>
+  <p class="break"></p>
   <p>Ric says, <q>Hmm… I’d prefer we not split the party.</q></p>
   <p>Liam says, <q>I won’t give the bodies to anyone else, okay? Instead of going to Agata, I’ll stay hidden with the bodies ‘til they’re done. In an empty tent, is that okay?</q></p>
   <p>Ric says, <q>In a tent nearby?</q></p>
