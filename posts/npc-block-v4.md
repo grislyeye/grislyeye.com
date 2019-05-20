@@ -22,7 +22,7 @@ publish: unlisted
 
 <p>Keeping combat and roleplaying statistics separate here means we can keep the NPC block short. I'm a big fan of having all the information about an NPC in one place. But stat blocks containing both combat and roleplaying statistics quickly become unwieldy.</p>
 
-<p>The NPC starting <strong>attitude</strong> is a reference to the social interaction rules from chapter 8 of the <em>Dungeon Master's Guide</em>. I use a lot in my own campaigns. You could argue this duplicate the information in alignment. Evil characters would be hostile to good characters, and vice versa. While neutral characters would always be indifferent, and so forth.</p>
+<p>The NPC starting <strong>attitude</strong> is a reference to the social interaction rules from chapter 8 of the <em>Dungeon Master's Guide</em>. I use a lot in my own campaigns. You could argue this duplicates the information in alignment. Evil characters would be hostile to good characters, and vice versa. While neutral characters would always be indifferent, and so forth.</p>
 
 <h4>Description</h4>
 
