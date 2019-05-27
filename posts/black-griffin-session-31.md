@@ -16,7 +16,7 @@ id: black-griffin-session-31
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-30.html">&lt;previous</a> |
   <a href="/black-griffin-session-32.html">next &gt;</a> |
-  <a href="/black-griffin-session-34.html">last &gt;&gt;</a>
+  <a href="/black-griffin-session-35.html">last &gt;&gt;</a>
 </p>
 
 <img src="images/lively-farm.png" alt="Preview of Farm Map">
@@ -1028,7 +1028,7 @@ puts a cloth over the the sword and picks it up, then raises his hand to call Or
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-30.html">&lt;previous</a> |
   <a href="/black-griffin-session-32.html">next &gt;</a> |
-  <a href="/black-griffin-session-34.html">last &gt;&gt;</a>
+  <a href="/black-griffin-session-35.html">last &gt;&gt;</a>
 </p>
 
 </section>
