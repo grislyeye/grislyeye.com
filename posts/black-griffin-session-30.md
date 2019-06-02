@@ -36,30 +36,20 @@ id: black-griffin-session-30
 
 <dl>
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>wakes early enough to finish off his new scar… added to the scars he already has, then heads over to Agata's tent</p>
-</dd>
+<dd class="action">wakes early enough to finish off his new scar… added to the scars he already has, then heads over to Agata's tent</dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>doesn't move or make a sound from within their tent</p>
-</dd>
-</dl>
+<dd class="action">doesn't move or make a sound from within their tent</dd>
 
-<dl>
 <dt>Biron</dt>
-<dd class="action">
-  <p>rolls outta bed and stretches, gets his gear and, with no words, heads straight to Agata's tent</p>
-</dd>
+<dd class="action">rolls outta bed and stretches, gets his gear and, with no words, heads straight to Agata's tent</dd>
 </dl>
 
 <p>The camp is restless as the regulars, artillery and officers prepare to move out. About you men and women are packing equipment, loading carts and moving heavy boxes of weapons.</p>
 
 <dl>
 <dt>Biron</dt>
-<dd class="action">
-  <p>arrives outside Agata's tent, stands up straight and awaits for the other arrivals</p>
-</dd>
+<dd class="action">arrives outside Agata's tent, stands up straight and awaits for the other arrivals</dd>
 </dl>
 
 <aside>
@@ -84,9 +74,7 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>gives single grunt of acknowledgement as Ba arrives but says nothing</p>
-</dd>
+<dd class="action">gives single grunt of acknowledgement as Ba arrives but says nothing</dd>
 </dl>
 
 <aside>
@@ -95,9 +83,7 @@ id: black-griffin-session-30
 
 <dl>
 <dt>Orin</dt>
-<dd class="action">
-  <p>Rolls out of bed still wearing their clothes and boots. They’re confused for a second but decide it's lucky since they don't have to get dressed. Stumbling out of their tent, they try to tuck in their shirt but somehow manage to only make it worse. They circle themself like a dog chasing its tail, trying to figure out what's gone wrong.</p>
-</dd>
+<dd class="action">Rolls out of bed still wearing their clothes and boots. They’re confused for a second but decide it's lucky since they don't have to get dressed. Stumbling out of their tent, they try to tuck in their shirt but somehow manage to only make it worse. They circle themself like a dog chasing its tail, trying to figure out what's gone wrong.</dd>
 </dl>
 
 <aside>
@@ -106,15 +92,13 @@ id: black-griffin-session-30
 
 <dl>
 <dt>Loth</dt>
-<dd class="action">
-  <p>ducks out of Agata's tent, giving Ba and Biron a suspicious eye</p>
+<dd>
+  <p class="action">ducks out of Agata's tent, giving Ba and Biron a suspicious eye</p>
   <p>nods his head, as though to ask what you want</p>
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>stumbles up behind Ba and Biron, wavering and blocking out the sunlight with an arm</p>
-</dd>
+<dd class="action">stumbles up behind Ba and Biron, wavering and blocking out the sunlight with an arm</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -128,13 +112,10 @@ id: black-griffin-session-30
 
 <dl>
 <dt>Biron</dt>
-<dd class="action">
-  <p>rolls his eyes when he sees Orin but still says nothing</p>
-</dd>
+<dd class="action">rolls his eyes when he sees Orin but still says nothing</dd>
 
 <dt>Loth</dt>
-<dd class="action">
-  <p>rolls his eyes and opens the tent for you to enter</p>
+<dd class="action">rolls his eyes and opens the tent for you to enter
 </dd>
 
 <dt>Ba'Raknul</dt>
@@ -150,14 +131,10 @@ id: black-griffin-session-30
 
 <dl>
 <dt>Loth</dt>
-<dd class="action">
-  <p>gives Orin a look of absolute contempt as they pass, his eyes flickering as though he can see something dancing about them</p>
-</dd>
+<dd class="action">gives Orin a look of absolute contempt as they pass, his eyes flickering as though he can see something dancing about them</dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>grunts towards Corporal Loth and follows Ba, steps into Agata's tent and stands up straight and in military style in front of her desk</p>
-</dd>
+<dd class="action">grunts towards Corporal Loth and follows Ba, steps into Agata's tent and stands up straight and in military style in front of her desk</dd>
 </dl>
 
 <p>You enter the now familiar and slightly comforting gloomy and smoke filled interior of Agata's tent.</p>
@@ -181,9 +158,7 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>giggles</p>
-</dd>
+<dd class="action">giggles</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -191,8 +166,7 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>Looks angrily at Orin. Then looks at Ba but stays silent.</p>
+<dd class="action">Looks angrily at Orin. Then looks at Ba but stays silent.
 </dd>
 
 <dt>Orin</dt>
@@ -238,8 +212,7 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>takes it and begins reading</p>
+<dd class="action">takes it and begins reading
 </dd>
 </dl>
 
@@ -255,20 +228,15 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>eyes widen at the <q>DOG</q></p>
-</dd>
+<dd class="action">eyes widen at the <q>DOG</q></dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>tries to hide a giggle behind their sleeve</p>
-</dd>
+<dd class="action">tries to hide a giggle behind their sleeve</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
   <p>River was a traitor</p>
 </dd>
-
 </dl>
 
 <aside>
@@ -285,14 +253,10 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>shows the piece of paper to Orin</p>
-</dd>
+<dd class="action">shows the piece of paper to Orin</dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>grunts but still stands still</p>
-</dd>
+<dd class="action">grunts but still stands still</dd>
 
 <dt>Orin</dt>
 <dd>
@@ -328,9 +292,7 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>looks at Ba slightly angry about the whole situation at Dismas</p>
-</dd>
+<dd class="action">looks at Ba slightly angry about the whole situation at Dismas</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -347,7 +309,7 @@ id: black-griffin-session-30
 <dt>Orin</dt>
 <dd>
   <p>And he STILL thought we were traitors.</p>
-
+</dd>
 
 <dt>Agata</dt>
 <dd>
@@ -375,9 +337,7 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>turns red, not sure whether to laugh or run away</p>
-</dd>
+<dd class="action">turns red, not sure whether to laugh or run away</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -411,9 +371,7 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>listening to his own story the others were saying rolls his own eyes and grunts a little in disbelief</p>
-</dd>
+<dd class="action">listening to his own story the others were saying rolls his own eyes and grunts a little in disbelief</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -446,9 +404,7 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>cringes at the idea</p>
-</dd>
+<dd class="action">cringes at the idea</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -467,9 +423,8 @@ id: black-griffin-session-30
 
 <dt>Orin</dt>
 <dd>
-  <p>I suspected them at first, but they always seemed to check out.
-
-I won't make that mistake again.</p>
+  <p>I suspected them at first, but they always seemed to check out.</p>
+  <p>I won't make that mistake again.</p>
 </dd>
 
 <dt>Agata</dt>
@@ -478,9 +433,7 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>blushes</p>
-</dd>
+<dd class="action">blushes</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -508,9 +461,7 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>growls and blows some air out then again goes back to being quiet</p>
-</dd>
+<dd class="action">growls and blows some air out then again goes back to being quiet</dd>
 
 <dt>Orin</dt>
 <dd>
@@ -525,14 +476,10 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>looks to the left and right quickly and nearly loses their balance</p>
-</dd>
+<dd class="action">looks to the left and right quickly and nearly loses their balance</dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>snarls again</p>
-</dd>
+<dd class="action">snarls again</dd>
 
 <dt>Agata</dt>
 <dd>
@@ -548,9 +495,7 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Agata</dt>
-<dd class="action">
-  <p>picks up another piece of paper</p>
-</dd>
+<dd class="action">picks up another piece of paper</dd>
 
 <dt>Agata</dt>
 <dd>
@@ -564,9 +509,7 @@ I won't make that mistake again.</p>
 
 <dl>
 <dt>Biron</dt>
-<dd class="action">
-  <p>snarls</p>
-</dd>
+<dd class="action">snarls</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -582,14 +525,10 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>nods</p>
-</dd>
+<dd class="action">nods</dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>gives a single grunt and nods</p>
-</dd>
+<dd class="action">gives a single grunt and nods</dd>
 
 <dt>Agata</dt>
 <dd>
@@ -603,9 +542,7 @@ I won't make that mistake again.</p>
 
 <dl>
 <dt>Orin</dt>
-<dd class="action">
-  <p>rolls an Insight check: 5</p>
-</dd>
+<dd class="action">rolls an Insight check: 5</dd>
 
 <dt>Agata</dt>
 <dd>
@@ -613,19 +550,13 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>bows and leaves, waiting for the others outside the tent</p>
-</dd>
+<dd class="action">bows and leaves, waiting for the others outside the tent</dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>follows Ba and walks out silently</p>
-</dd>
+<dd class="action">follows Ba and walks out silently</dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>waits for Orin to exit before beginning to walk back to his tent</p>
-</dd>
+<dd class="action">waits for Orin to exit before beginning to walk back to his tent</dd>
 
 <dt>Orin</dt>
 <dd>
@@ -735,9 +666,7 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>snarls</p>
-</dd>
+<dd class="action">snarls</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -766,9 +695,7 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>growls</p>
-</dd>
+<dd class="action">growls</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -777,14 +704,10 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Orin</dt>
-<dd>
-  <p class="action">stumbles over to their tent to pack their things
-</dd>
+<dd> class="action">stumbles over to their tent to pack their things</dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>already packed, moves towards the gate and waits for the group</p>
-</dd>
+<dd class="action">already packed, moves towards the gate and waits for the group</dd>
 </dl>
 
 <p>Ba'Raknul makes his way south through the camp, past the abandoned manor house the Captain Larke commandeered as his quarters, to the pathway southwards that exits the camp.</p>
@@ -795,9 +718,7 @@ I won't make that mistake again.</p>
 
 <dl>
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>looks around for a general goods trader</p>
-</dd>
+<dd class="action">looks around for a general goods trader</dd>
 </dl>
 
 <p>You see a meek looking man, quite out of place, selling such goods.</p>
@@ -833,9 +754,7 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>The trader</dt>
-<dd class="action">
-  <p>eagerly takes your money, hurriedly handing the items over to you, clearly petrified and only too glad to be done with your business</p>
-</dd>
+<dd class="action">eagerly takes your money, hurriedly handing the items over to you, clearly petrified and only too glad to be done with your business</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -872,9 +791,7 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>Orin is waiting at the gate... sweaty and pale, but ready to go.</p>
-</dd>
+<dd class="action">Orin is waiting at the gate... sweaty and pale, but ready to go.</dd>
 </dl>
 
 <img src="images/lively-farm.png" alt="Preview of Farm Map">
@@ -904,9 +821,7 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>gives the rest an embarrassed look, since they have been ploughing through rations while they walked</p>
-</dd>
+<dd class="action">gives the rest an embarrassed look, since they have been ploughing through rations while they walked</dd>
 
 <dt>Ba' Raknul</dt>
 <dd>
@@ -919,8 +834,7 @@ I won't make that mistake again.</p>
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>stops and starts to make camp</p>
+<dd class="action">stops and starts to make camp
 </dd>
 
 <dt>Orin</dt>
@@ -936,9 +850,7 @@ We should only stay here an hour.</p>
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>searches the horizon for trouble</p>
-</dd>
+<dd class="action">searches the horizon for trouble</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -956,9 +868,7 @@ We should only stay here an hour.</p>
 
 <dl>
 <dt>Biron</dt>
-<dd class="action">
-  <p>jumps to his feet with his axe, sniffs the air, and stares into the blackness</p>
-</dd>
+<dd class="action">jumps to his feet with his axe, sniffs the air, and stares into the blackness</dd>
 
 <dt>Ba' Raknul</dt>
 <dd>
@@ -976,25 +886,19 @@ We should only stay here an hour.</p>
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>nods</p>
-  <p>rolls a stealth check: 24</p>
+<dd>
+  <p class="action">nods</p>
+  <p class="action">rolls a stealth check: 24</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>rolls a stealth check: 9</p>
-</dd>
+<dd class="action">rolls a stealth check: 9</dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>rolls a stealth check: 18</p>
-</dd>
+<dd class="action">rolls a stealth check: 18</dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>Sets off ahead, stepping carefully through the brush. Behind them, Ba and Biron follow.</p>
-</dd>
+<dd class="action">Sets off ahead, stepping carefully through the brush. Behind them, Ba and Biron follow.</dd>
 
 <dt>Biron</dt>
 <dd>
@@ -1006,18 +910,14 @@ We should only stay here an hour.</p>
 
 <dl>
 <dt>Orin</dt>
-<dd class="action">
-  <p>soon comes upon the farm</p>
-</dd>
+<dd class="action">soon comes upon the farm</dd>
 </dl>
 
 <p>All seems quiet.</p>
 
 <dl>
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>waits for Orin’s signal</p>
-</dd>
+<dd class="action">waits for Orin’s signal</dd>
 </dl>
 
 <p>There are very clear signs the farmhouse has been attacked. Walls are fallen and the barn is charred as though someone had tried to burn it down.</p>
@@ -1026,28 +926,22 @@ We should only stay here an hour.</p>
 
 <dl>
 <dt>Orin</dt>
-<dd class="action">
-  <p>raises their hand for the others to stop</p>
-</dd>
+<dd class="action">raises their hand for the others to stop</dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>halts</p>
-</dd>
+<dd class="action">halts</dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>stares around for any movement</p>
-</dd>
+<dd class="action">stares around for any movement</dd>
 </dl>
 
 <p>All is still except for the dripping of water from the trees above.</p>
 
 <dl>
 <dt>Orin</dt>
-<dd class="action">
-  <p>moves quietly about 90 degrees around the farm, looking for details</p>
-  <p>rolls a perception check: 5</p>
+<dd>
+  <p class="action">moves quietly about 90 degrees around the farm, looking for details</p>
+  <p class="action">rolls a perception check: 5</p>
 </dd>
 </dl>
 
@@ -1060,9 +954,7 @@ We should only stay here an hour.</p>
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>climbs a tall tree to see further into the farm's premises.</p>
-</dd>
+<dd class="action">climbs a tall tree to see further into the farm's premises.</dd>
 </dl>
 
 <p>You get an impression of the internal layout of the farmhouse, and you can see the burned barn. Beyond seems to be some kind of ruin.</p>
@@ -1073,8 +965,7 @@ We should only stay here an hour.</p>
 
 <dl>
 <dt>Orin</dt>
-<dd class="action">
-  <p>walks back to the others and describes what they found</p>
+<dd class="action">walks back to the others and describes what they found
 </dd>
 
 <dt>Ba'Raknul</dt>
@@ -1083,9 +974,7 @@ We should only stay here an hour.</p>
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>steps out and moves towards the buildings</p>
-</dd>
+<dd class="action">steps out and moves towards the buildings</dd>
 
 <dt>Orin</dt>
 <dd>
@@ -1093,14 +982,10 @@ We should only stay here an hour.</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>nods in agreement</p>
-</dd>
+<dd class="action">nods in agreement</dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>walks to the building where the sound came from and leans against the wall and listens</p>
-</dd>
+<dd class="action">walks to the building where the sound came from and leans against the wall and listens</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
@@ -1120,9 +1005,7 @@ We should only stay here an hour.</p>
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>calls out</p>
-</dd>
+<dd class="action">calls out</dd>
 
 <dt>Orin</dt>
 <dd>
@@ -1137,9 +1020,7 @@ We should only stay here an hour.</p>
 </dd>
 
 <dt>Orin</dt>
-<dd class="action">
-  <p>rushes quietly to the tree and climbs, knocking an arrow.</p>
-</dd>
+<dd class="action">rushes quietly to the tree and climbs, knocking an arrow.</dd>
 </dl>
 
 <p>As Biron approaches the farmhouse, he spies through the broken door a room that was once a kitchen. It is a a fright, furniture smashed to pieces, cooking utensils scattered everywhere.</p>
@@ -1150,19 +1031,13 @@ We should only stay here an hour.</p>
 
 <dl>
 <dt>Biron</dt>
-<dd class="action">
-  <p>looks over to Ba and gestures with his head to follow</p>
-</dd>
+<dd class="action">looks over to Ba and gestures with his head to follow</dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>moves up on Biron, bow out and ready</p>
-</dd>
+<dd class="action">moves up on Biron, bow out and ready</dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>raises axe and steps towards the crack and listens</p>
-</dd>
+<dd class="action">raises axe and steps towards the crack and listens</dd>
 </dl>
 
 <p>Silent as the grave, nothing stirs.</p>
@@ -1179,15 +1054,13 @@ We should only stay here an hour.</p>
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>smiles and nods</p>
-  <p>goes to front door and kicks door in hard and bursts in</p>
+<dd>
+  <p class="action">smiles and nods</p>
+  <p class="action">goes to front door and kicks door in hard and bursts in</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>follows keeping a 10ft distance and arrow ready</p>
-</dd>
+<dd class="action">follows keeping a 10ft distance and arrow ready</dd>
 </dl>
 
 <p>Biron brushes away what little was left of the door and finds himself in what was once a family kitchen, now in disarray. Everything is broken, blood everywhere but... there are no bodies to be seen.</p>
@@ -1205,9 +1078,7 @@ We should only stay here an hour.</p>
 </dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>checks the soup</p>
-</dd>
+<dd class="action">checks the soup</dd>
 </dl>
 
 <p>It is thin - clearly the Livelys were not doing well - and very cold. It must've been some time since it was cooked.</p>
@@ -1221,18 +1092,13 @@ We should only stay here an hour.</p>
 </dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>nods and moves to one of the other doors</p>
-</dd>
+<dd class="action">nods and moves to one of the other doors</dd>
 
 <dt>Biron</dt>
-<dd class="action">
-  <p>opens door with shield up and axe held high</p>
-</dd>
+<dd class="action">opens door with shield up and axe held high</dd>
 
 <dt>Ba'Raknul</dt>
-<dd class="action">
-  <p>opens simultaneously and draws his arrow</p>
+<dd class="action">opens simultaneously and draws his arrow
 </dd>
 </dl>
 
@@ -1255,13 +1121,12 @@ We should only stay here an hour.</p>
 <dd>
   <p><span class="action">whispers to Biron</span> Clear.</p>
 </dd>
+
 <dt>Biron</dt>
-<dd class="action">
-  <p>grunts</p>
-
-  <p>almost seems disappointed</p>
-
-  <p>steps to next door</p>
+<dd>
+  <p class="action">grunts</p>
+  <p class="action">almost seems disappointed</p>
+  <p class="action">steps to next door</p>
 </dd>
 </dl>
 
@@ -1273,9 +1138,7 @@ We should only stay here an hour.</p>
 
 <dl>
 <dt>Orin</dt>
-<dd class="action">
-  <p>whistles loudly</p>
-</dd>
+<dd class="action">whistles loudly</dd>
 </dl>
 
 <p>To be continued...</p>
