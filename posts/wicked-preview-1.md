@@ -14,7 +14,7 @@ id: wicked-preview-1
   <p class="caption">Cooking witches illustration is public domain via <a href="https://en.wikipedia.org/wiki/Akelarre#/media/File:Cooking_witches.jpg">Wikipedia</a>.</p>
 </figure>
 
-<p>Your patron gives you a magical cauldron of black iron with which you can brew potions. As an action you can use your pact cauldron to give one willing creature you can touch and choose one of the following:</p>
+<p>Your patron gives you a magical cauldron of black iron with which you can brew potions. As an action you can use your pact cauldron to give one willing creature you can touch one of the following benefits:</p>
 
 <ul>
   <li>The creature gains temporary hit points equal to your level + your Charisma modifier. </li>
