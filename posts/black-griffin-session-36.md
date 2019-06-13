@@ -347,7 +347,7 @@ They kick at the dirt floor.</dd>
 
 <aside>
   <p>Chris rolls 13 for Biron’s Initiative.</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Biron takes 3 bludgeoning damage!</p>
 </aside>
 
@@ -611,38 +611,38 @@ Morgan says, “Actually, I think the unit is effectively a swarm-type creature.
   <p>Morgan says, “Orin hasn’t got anything out, they’re being sneaky.”</p>
   <p>Chris says, “Biron would have a torch out.”</p>
   <p>Liam says, “I have a torch.”</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Ric says, “Make stealth checks, please. Anyone carrying a light source is at disadvantage.”</p>
   <p>Morgan rolls 8 for Orin’s Dexterity (Stealth) check.</p>
   <p>Chris rolls 7 for Biron’s Dexterity (Stealth) check.</p>
   <p>Liam rolls 19 for Ba’s Dexterity (Stealth) check.</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Ric says, “Roll initiative.”</p>
   <p>Liam rolls 14 for Ba’s Initiative.</p>
   <p>Morgan rolls 5 for Orin’s Initiative.</p>
   <p>Chris rolls 3 for Biron’s Initiative.</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Ba would have taken 8 piercing damage, but…</p>
   <p>Liam rolls 14 for Ba’s Deflect Missiles feature.</p>
   <p>Liam rolls 15 for Ba’s Deflect Missiles attack.</p>
   <p>The cloaked figure takes 7 piercing damage!</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Ric says, “You are each joined in melee by a cloaked figure. Two more hold back to shoot arrows.”</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Liam rolls 9 for Ba’s Spear attack.</p>
   <p>Liam rolls 18 and 11 for Ba’s Flurry of Blows attack.</p>
   <p>The cloaked figure takes 5 bludgeoning damage!</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Morgan rolls 13 for Orin’s Shortbow attack.</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Morgan says, “Sorry Chris, why would I attack the ones that aren’t engaged in combat with anybody?”</p>
   <p>Chris says, “Biron’s just yelling orders, you can decide otherwise.”</p>
   <p>Morgan says, “I mean, if it’s sensible, I’m all for it.</p>
   <p>Chris says, “My experience, always deal with the ranged people first.”</p>
   <p>Morgan says, “But as is, that would have me doing half damage and provoking them to attack me. I don’t disagree, but Biron or Ba would be better for that.”</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Chris rolls 8 for Biron’s battle-axe attack.</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Ba takes 6 slashing damage!</p>
   <p>Biron takes 4 slashing damage!</p>
   <p>Orin takes 8 slashing damage!</p>
@@ -651,24 +651,24 @@ Morgan says, “Actually, I think the unit is effectively a swarm-type creature.
   <p>Morgan says, “4.”</p>
   <p>Chris says, “Oh wow, how so little?”</p>
   <p>Morgan says, “Level 3 rogue, lol.”</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Liam rolls 21 for Ba’s Spear attack.</p>
   <p>The cloaked figure takes 10 piercing damage!</p>
   <p>Liam rolls 9 for Ba’s unarmed strike.</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Morgan rolls 21 for Orin’s Hide bonus action.</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Chris rolls 20 for Biron’s battle-axe attack.</p>
   <p>The cloaked figure takes 8 slashing damage!</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Biron takes 8 piercing damage!</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Chris rolls 8 for Ba’s Spear attack.</p>
   <p>Chris rolls 12 for Ba’s Unarmed Strike attack.</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Morgan rolls 8 for Orin’s Shortbow attack.</p>
   <p>Morgan rolls 15 for Orin’s Hide bonus action.</p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Chris rolls 21 for Biron’s Grapple attack.</p>
 </aside>
 
