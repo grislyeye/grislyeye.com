@@ -1363,4 +1363,3 @@ Morgan rolls 23 for Orin to hide in the shadows at the edge of camp.
 </p>
 
 </section>
-

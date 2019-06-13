@@ -34,10 +34,6 @@ id: black-griffin-session-34
 
 <p>The party feels a shudder as Biron starts to rage out, as though they were all raging themselves. Arrows continue to shoot out of the shadows at Ba and Biron, but they narrowly dodge out of the way. The party sees three small... creatures with pale skin dodging through the shadows between the tents.</p>
 
-
-<aside>
-</aside>
-
 <dl>
 <dt>Ba'Raknul</dt>
 <dd>
@@ -640,4 +636,3 @@ Morgan rolls 27 for Orin’s Dexterity (Stealth) check.
 </p>
 
 </section>
-

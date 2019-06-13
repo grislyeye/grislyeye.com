@@ -1,8 +1,9 @@
 {
   "name": "grislyeye.com",
-  "version": "1.32.1",
+  "version": "1.32.2",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
+    "markdownlint-cli": "^0.17.0",
     "modern-normalize": "^0.5.0"
   },
   "devDependencies": {
@@ -40,7 +41,7 @@
     "deploy": "grunt deploy",
     "clean": "grunt clean",
     "start": "grunt run",
-    "test": "grunt test",
+    "test": "markdownlint posts/*.md && grunt test",
     "postinstall": "bower install",
     "postupdate": "bower update"
   }

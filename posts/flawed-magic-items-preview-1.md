@@ -23,7 +23,6 @@ id: flawed-magic-items-preview-1
 
 <p>You regain 2d4 + 2 hit points when you drink this potion. You must also succeed on a DC 13 Constitution saving throw or take 1d4 poison damage and become poisoned. At the end of each of your turns, you can repeat the saving throw. If you succeed the poison wears off. The potion’s red liquid glimmers when agitated, with strange green swirls.</p>
 
-
 <table>
   <caption>Magic Armor or Weapon Flaw Table</caption>
   <thead>

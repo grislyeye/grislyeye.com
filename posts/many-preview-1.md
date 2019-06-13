@@ -16,7 +16,6 @@ id: many-preview-1
 
 <p><strong>The Many</strong> will introduce new stat blocks for humanoid <q>swarms</q>, or <em>units</em>. The party could face these units in battle, or command them against opposing forces.</p>
 
-
 <div class="stat-block">
   <img src="images/infantry.png" class="background" style="height: 640px; width: auto" alt="Infantry Illustration">
 
@@ -77,7 +76,6 @@ id: many-preview-1
 
   </vellum-stat-block>
 </div>
-
 
 <div class="stat-block-left">
   <img src="images/grim-folk.jpg" class="background" style="height: 600px; width: auto" alt="Commoners Illustration">

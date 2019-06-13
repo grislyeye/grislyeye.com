@@ -129,4 +129,3 @@ id: thieves-council-preview
     </tr>
   </tbody>
 </table>
-
