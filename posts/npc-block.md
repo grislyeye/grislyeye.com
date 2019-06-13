@@ -9,7 +9,9 @@ id: npc-block
 
 <p>As I work on my own adventure campaign, <strong>Black Griffin</strong>, I started to develop a format for NPCs based on the monster stat block. The stat block is a fantastic piece of design, displaying quite dense information elegantly. Here is my versions of it for NPCs:</p>
 
-<img src="images/npc-block.png" style="max-width: 300px" alt="Example NPC block">
+<figure id="example-npc-block" class="illustration">
+  <img src="images/npc-block.png" alt="Example NPC block">
+</figure>
 
 <p>The NPC block starts with the name of the NPC, followed by a short, physical description of the NPC you can read out to your players. The following sections are based on three most important pieces of information you need (IMHO) when running NPCs:</p>
 

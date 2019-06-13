@@ -11,7 +11,7 @@ id: black-griffin-session-34
 
 <section class="chat">
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-33.html">&lt;previous</a> |
   <a href="/black-griffin-session-35.html">next &gt;</a> |
@@ -157,7 +157,7 @@ With that the party sees two other small creatures sprinting with inhuman speed 
 </dd>
 </dl>
 
-<p>Ba examines Orin's leg: it is bruised and will be colourful come the morn, but they are okay and seem capable of standing up.
+<p>Ba examines Orin's leg: it is bruised and will be colourful come the morn, but they are okay and seem capable of standing up.</p>
 
 <aside>
   <p>Morgan rolls 15 for Orin’s Shortbow attack.</p>
@@ -628,7 +628,7 @@ Morgan rolls 27 for Orin’s Dexterity (Stealth) check.
 
 <p>To be continued...</p>
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-33.html">&lt;previous</a> |
   <a href="/black-griffin-session-35.html">next &gt;</a> |

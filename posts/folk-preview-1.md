@@ -14,7 +14,7 @@ id: folk-preview-1
 
 <p>When creating your character, replace step 1 with choosing a background and a folk for your character. An example background and folk are given below:</p>
 
-<div class="illustration" style="max-width: 300px;">
+<div class="illustration" id="grim-folk-illustration">
   <img src="images/grim-folk.jpg" alt="Grim Folk Illustration">
   <p class="caption">Medieval workers. Created by Beaunier and Mifliez, published on Magasin Pittoresque, Paris, 1844.</p>
 </div>

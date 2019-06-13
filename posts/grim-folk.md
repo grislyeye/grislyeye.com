@@ -5,7 +5,9 @@ collection: articles
 layout: post.hbs
 id: grim-folk
 ---
-<img src="/images/grim-folk.jpg" style="max-width: 400px; float: right" alt="Grim Folk Illustration">
+<figure class="illustration">
+  <img src="/images/grim-folk.jpg" alt="Grim Folk Illustration">
+</figure>
 
 <p>This is a preview of the <strong>grim folk</strong>, a variant human race for gritty campaigns. The humanity presented here is messy, flawed and fragile, but not necessarily less heroic because of that.</p>
 
@@ -26,7 +28,7 @@ id: grim-folk
   Frailty: -2
   Sin: -1
   Versatile: +3
- -->
+-->
 <h4>Grim Folk Traits</h4>
 
 <p>Grim humans traits are the same as the standard human traits in the <em>Player's Guide</em> except where listed here:</p>

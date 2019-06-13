@@ -5,7 +5,7 @@ collection: articles
 layout: post.hbs
 id: flawed-magic-items-preview-1
 ---
-<div class="illustration" style="max-width: 150px;">
+<div class="illustration" id="flawed-potion-illustration">
   <img src="images/potion.png" alt="Illustration of Potion">
   <p class="caption">This art is by <a href="https://drivethrurpg.com/product/181517">Daniel F. Walthall</a>, available under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license</a>.</p>
 </div>

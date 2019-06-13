@@ -2,15 +2,15 @@
 layout: page.hbs
 title: Open Gaming License
 ---
-<P>THIS LICENSE IS APPROVED FOR GENERAL USE.  PERMISSION TO DISTRIBUTE THIS LICENSE
-IS MADE BY WIZARDS OF THE COAST!</P>
+<p>THIS LICENSE IS APPROVED FOR GENERAL USE.  PERMISSION TO DISTRIBUTE THIS LICENSE
+IS MADE BY WIZARDS OF THE COAST!</p>
 
-<P>OPEN GAME LICENSE Version  1.0a</P>
+<p>OPEN GAME LICENSE Version  1.0a</p>
 
-<P>The following text is the property of Wizards of the Coast, Inc. and is
-Copyright 2000 Wizards of the Coast, Inc ("Wizards"). All Rights Reserved.</P>
+<p>The following text is the property of Wizards of the Coast, Inc. and is
+Copyright 2000 Wizards of the Coast, Inc ("Wizards"). All Rights Reserved.</p>
 
-<P>1. Definitions: (a)"Contributors" means the copyright and/or trademark
+<p>1. Definitions: (a)"Contributors" means the copyright and/or trademark
 owners who have contributed Open Game Content; (b)"Derivative Material"
 means copyrighted material including derivative works and translations
 (including into other computer languages), potation, modification,
@@ -41,35 +41,35 @@ or its products or the associated products contributed to the Open Game
 License by the Contributor (g) "Use", "Used" or "Using" means to use,
 Distribute, copy, edit, format, modify, translate and otherwise create
 Derivative Material of Open Game Content. (h) "You" or "Your" means the
-licensee in terms of this agreement.</P>
+licensee in terms of this agreement.</p>
 
-<P>2. The License:  This License applies to any Open Game Content that contains
+<p>2. The License:  This License applies to any Open Game Content that contains
 a notice indicating that the Open Game Content may only be Used under and in
 terms of this License. You must affix such a notice to any Open Game Content
 that you Use. No terms may be added to or subtracted from this License
 except as described by the License itself. No other terms or conditions may
-be applied to any Open Game Content distributed using this License.</P>
+be applied to any Open Game Content distributed using this License.</p>
 
-<P>3.Offer and Acceptance: By Using the Open Game Content You indicate Your
-acceptance of the terms of this License.</P>
+<p>3.Offer and Acceptance: By Using the Open Game Content You indicate Your
+acceptance of the terms of this License.</p>
 
-<P>4. Grant and Consideration: In consideration for agreeing to use this
+<p>4. Grant and Consideration: In consideration for agreeing to use this
 License, the Contributors grant You a perpetual, worldwide, royalty-free,
 non-exclusive license with the exact terms of this License to Use, the Open
-Game Content.</P>
+Game Content.</p>
 
-<P>5.Representation of Authority to Contribute: If You are contributing
+<p>5.Representation of Authority to Contribute: If You are contributing
 original material as Open Game Content, You represent that Your
 Contributions are Your original creation and/or You have sufficient rights
-to grant the rights conveyed by this License.</P>
+to grant the rights conveyed by this License.</p>
 
-<P>6.Notice of License Copyright: You must update the COPYRIGHT NOTICE portion
+<p>6.Notice of License Copyright: You must update the COPYRIGHT NOTICE portion
 of this License to include the exact text of the COPYRIGHT NOTICE of any
 Open Game Content You are copying, modifying or distributing, and You must
 add the title, the copyright date, and the copyright holder's name to the
-COPYRIGHT NOTICE of any original Open Game Content you Distribute.</P>
+COPYRIGHT NOTICE of any original Open Game Content you Distribute.</p>
 
-<P>7. Use of Product Identity:  You agree not to Use any Product Identity,
+<p>7. Use of Product Identity:  You agree not to Use any Product Identity,
 including as an indication as to compatibility, except as expressly licensed
 in another, independent Agreement with the owner of each element of that
 Product Identity.  You agree not to indicate compatibility or
@@ -79,40 +79,40 @@ Agreement with the owner of such Trademark or Registered Trademark. The use of a
 in Open Game Content does not constitute a challenge to the ownership of
 that Product Identity.  The owner of any Product Identity used in Open Game
 Content shall retain all rights, title and interest in and to that Product
-Identity.</P>
+Identity.</p>
 
-<P>8. Identification: If you distribute Open Game Content You must clearly
+<p>8. Identification: If you distribute Open Game Content You must clearly
 indicate which portions of the work that you are distributing are Open Game
-Content.</P>
+Content.</p>
 
-<P>9. Updating the License:  Wizards or its designated Agents may publish
+<p>9. Updating the License:  Wizards or its designated Agents may publish
 updated versions of this License.  You may use any authorized version of
 this License to copy, modify and distribute any Open Game Content originally
-distributed under any version of this License.</P>
+distributed under any version of this License.</p>
 
-<P>10 Copy of this License:  You MUST include a copy of this License with every
-copy of the Open Game Content You Distribute.</P>
+<p>10 Copy of this License:  You MUST include a copy of this License with every
+copy of the Open Game Content You Distribute.</p>
 
-<P>11. Use of Contributor Credits: You may not market or advertise the Open
+<p>11. Use of Contributor Credits: You may not market or advertise the Open
 Game Content using the name of any Contributor unless You have written
-permission from the Contributor to do so.</P>
+permission from the Contributor to do so.</p>
 
-<P>12 Inability to Comply: If it is impossible for You to comply with any of
+<p>12 Inability to Comply: If it is impossible for You to comply with any of
 the terms of this License with respect to some or all of the Open Game
 Content due to statute, judicial order, or governmental regulation then You
-may not Use any Open Game Material so affected.</P>
+may not Use any Open Game Material so affected.</p>
 
-<P>13 Termination: This License will terminate automatically if You fail to
+<p>13 Termination: This License will terminate automatically if You fail to
 comply with all terms herein and fail to cure such breach within 30 days of
 becoming aware of the breach. All sublicenses shall survive the termination
-of this License.</P>
+of this License.</p>
 
-<P>14 Reformation: If any provision of this License is held to be
+<p>14 Reformation: If any provision of this License is held to be
 unenforceable, such provision shall be reformed only to the extent necessary
-to make it enforceable.</P>
+to make it enforceable.</p>
 
-<P>15 COPYRIGHT NOTICE<br>
-Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.</P>
+<p>15 COPYRIGHT NOTICE<br>
+Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.</p>
 
 <p>System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.</p>
 

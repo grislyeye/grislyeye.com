@@ -21,6 +21,7 @@
     "grunt-metalsmith": "^1.0.0",
     "grunt-npmcopy": "^0.2.0",
     "handlebars": "^4.1.2",
+    "htmllint-cli": "0.0.7",
     "jstransformer-handlebars": "^1.1.0",
     "markdownlint-cli": "^0.17.0",
     "metalsmith": "^2.3.0",
@@ -41,7 +42,7 @@
     "deploy": "grunt deploy",
     "clean": "grunt clean",
     "start": "grunt run",
-    "test": "markdownlint posts/*.md && grunt test",
+    "test": "markdownlint posts/*.md && htmllint posts/*.md && grunt test",
     "postinstall": "bower install",
     "postupdate": "bower update"
   }

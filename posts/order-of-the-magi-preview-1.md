@@ -5,7 +5,7 @@ collection: articles
 layout: post.hbs
 id: order-of-the-magi-preview-1
 ---
-<div class="illustration" style="max-width: 200px;">
+<div id="magi-illustration" class="illustration">
   <img src="images/magi.jpg" alt="Magus Illustration">
   <p class="caption"><a href="http://www.pitts.emory.edu/dia/bridge.cfm?ID=108339"><q>A Star Leads the Wise Men</q></a> from the <q>Het Nieuwe Testament</q> by Henricus van den Leemputte, 1646.</p>
 </div>

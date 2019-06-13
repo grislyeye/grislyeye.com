@@ -11,7 +11,7 @@ id: black-griffin-session-35
 
 <section class="chat">
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-34.html">&lt;previous</a> |
   next &gt; |
@@ -501,7 +501,7 @@ It squeals inhuman curses at everyone.</p>
 
 <dl>
 <dt>Biron</dt>
-<dd class="action">pauses a moment and thinks about something before carrying on with his task.</dD>
+<dd class="action">pauses a moment and thinks about something before carrying on with his task.</dd>
 
 <dt>Ba'Raknul</dt>
 <dd class="action">begins stripping the bodies.</dd>
@@ -712,7 +712,7 @@ It squeals inhuman curses at everyone.</p>
 <aside>
   <p>Chris whispers, <q>Can I push Orin in? :D</q></p>
   <p>Ric replies, <q>Ha ha.</q></p>
-  <p class=”break”></p>
+  <p class="break"></p>
   <p>Chris says, <q>Awh! Could we not do a roll to see if they went in?</q></p>
   <p>Morgan says, <q>… no… Sorry, hard limit on swimming in corpses… you weirdo 😉</q></p>
   <p>Chris says, <q>Haha! Well, Orin did say maybe we should cover it. Biron thought it was funny, lol.</q></p>
@@ -1038,7 +1038,7 @@ It squeals inhuman curses at everyone.</p>
 
 <p>To be continued...</p>
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-34.html">&lt;previous</a> |
   next &gt; |

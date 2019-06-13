@@ -7,13 +7,13 @@ id: npc-block-v4
 ---
 <p>This is an update as I continue to iterate on my design for a non-player character stat block format for. As <a href="npc-block.html">previously</a> <a href="https://imgur.com/AAq1F66">discussed</a> <a href="https://imgur.com/a/ehRrxxO?">a few times</a>. Here we have Lyrum, stated up in version 4 of my NPC stat block:</p>
 
-<img src="images/npc-block-v4.png" style="max-width: 300px" alt="Example NPC block version 4.0">
+<img src="images/npc-block-v4.png" alt="Example NPC block version 4.0">
 
 <h4>Header</h4>
 
 <p>As with the monster stat block, the header contains the name and a brief summary of the NPC:</p>
 
-<img src="images/npc-block-v4-header.png" style="max-width: 400px" alt="Example NPC block header, version 4.0">
+<img src="images/npc-block-v4-header.png" alt="Example NPC block header, version 4.0">
 
 <p>Race and alignment are pretty self-explanatory. The NPC header also adds the <strong>stat block</strong> (in bold) and starting <strong>attitude</strong> (in brackets) of the character.</p>
 
@@ -27,7 +27,7 @@ id: npc-block-v4
 
 <p>After the header follows a block of read-aloud text describing the NPC as they might appear to the PCs:</p>
 
-<img src="images/npc-block-v4-description.png" style="max-width: 400px" alt="Example NPC block description, version 4.0">
+<img src="images/npc-block-v4-description.png" alt="Example NPC block description, version 4.0">
 
 <p>This section should also include the all-important <strong>distinctive features</strong> of your NPC. These are the memorable, visual cues that separate them from the (many) other characters in your campaign. This allows your players to place them even if they forget their name (as they often do).</p>
 
@@ -35,7 +35,7 @@ id: npc-block-v4
 
 <p>Following the description are the NPC's personal characteristics:</p>
 
-<img src="images/npc-block-v4-characteristics.png" style="max-width: 400px" alt="Example NPC block characteristics, version 4.0">
+<img src="images/npc-block-v4-characteristics.png" alt="Example NPC block characteristics, version 4.0">
 
 <p><strong>Personality traits</strong> serve two purposes. Firstly, they tell you how to roleplay the character. They can also act as secondary distinctive features (my players never forgot the old wizard who sneezed all the time).</p>
 
@@ -51,7 +51,7 @@ id: npc-block-v4
 
 <p>After the personal characteristics is the <q>Secrets</q> section:</p>
 
-<img src="images/npc-block-v4-secrets.png" style="max-width: 400px" alt="Example NPC block secrets, version 4.0">
+<img src="images/npc-block-v4-secrets.png" alt="Example NPC block secrets, version 4.0">
 
 <p>All good NPCs have something to hide. <strong>Secrets</strong> are the mysterious elements of an NPC: the hidden agendas, shady pasts and foul allegiances. They give an NPC depth and highlight to a DM how they could be used beyond simple interactions.</p>
 
@@ -63,7 +63,7 @@ id: npc-block-v4
 
 <p>Lastly, is the <q>Activities</q> section:</p>
 
-<img src="images/npc-block-v4-activities.png" style="max-width: 400px" alt="Example NPC block activities, version 4.0">
+<img src="images/npc-block-v4-activities.png" alt="Example NPC block activities, version 4.0">
 
 <p><strong>Activities</strong> are the everyday things an NPC might be doing when the party encounters them. For example, the first time the party encounter Lyrum he's having difficulty picking papers off the floor. The party might step in to help, only to irritate him even more. Next time, they find him wandering alone at night, sore with insomnia.</p>
 

@@ -5,7 +5,9 @@ collection: articles
 layout: post.hbs
 id: black-griffin-campaign
 ---
-<img src="/images/black-griffin.png" style="max-width: 400px; float: right" alt="Black Griffin Symbol">
+<figure class="illustration">
+  <img src="/images/black-griffin.png" alt="Black Griffin Symbol">
+</figure>
 
 <p>We're looking for imaginative players to join my official, playtest campaign, <em>Black Griffin</em>. This will be a <strong>play-by-chat only</strong> game using 5th edition <em>Dungeons &amp; Dragons</em>. Games will start at 4pm GMT (negotiable) on Sundays. The setting is low-magic grimdark. Sorry, no elf or wizard characters unless you have a <a href="unique-backgrounds.html">unique background</a>.</p>
 

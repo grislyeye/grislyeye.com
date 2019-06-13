@@ -11,7 +11,7 @@ id: black-griffin-session-32
 
 <section class="chat">
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-31.html">&lt;previous</a> |
   <a href="/black-griffin-session-33.html">next &gt;</a> |
@@ -511,17 +511,17 @@ id: black-griffin-session-32
 </dl>
 
 <aside>
-  <p>Chris says, <q>Maybe a bit of a stretch but can I insight Loth?</q>
-  <p>Ric says, <q>Of course, if you like. Let&#39;s say... DC 18</q>
+  <p>Chris says, <q>Maybe a bit of a stretch but can I insight Loth?</q></p>
+  <p>Ric says, <q>Of course, if you like. Let&#39;s say... DC 18</q></p>
   <p>Chris rolls 22 for Biron&#39;s Wisdom (Insight) check to see if Loth is hiding anything.</p>
-  <p>Chris says, <q>KABOOM!</q>
-  <p>Morgan says, <q>Nice.</q>
-  <p>Liam says, <q>Nice.</q>
-  <p>Ric says, <q>Blimey.</q>
-  <p>Liam says, <q>Case blown wide open ha ha ha ha!</q>
-  <p>Morgan says, <q>LOL!</q>
-  <p>Liam says, <q>Detective Biron on the case.</q>
-  <p>Chris says, <q>Shame, he&#39;s not exactly... a chatty guy.</q>
+  <p>Chris says, <q>KABOOM!</q></p>
+  <p>Morgan says, <q>Nice.</q></p>
+  <p>Liam says, <q>Nice.</q></p>
+  <p>Ric says, <q>Blimey.</q></p>
+  <p>Liam says, <q>Case blown wide open ha ha ha ha!</q></p>
+  <p>Morgan says, <q>LOL!</q></p>
+  <p>Liam says, <q>Detective Biron on the case.</q></p>
+  <p>Chris says, <q>Shame, he&#39;s not exactly... a chatty guy.</q></p>
 </aside>
 
 <dl>
@@ -592,9 +592,9 @@ id: black-griffin-session-32
   <p>Chris says, <q>Biron has a mixture of feelings towards Orin. Sometimes he thinks they&#39;re little more then a common thief and a nuisance. Other times he thinks they&#39;re rather skilled.</q></p>
   <p>Ric says, <q>Where do you guys want to meet up?</q></p>
   <p>Morgan says, <q>Probably best to catch up back at the infirmary. I don&#39;t think Orin&#39;s going to move.</q></p>
-  <p>Liam says, <q>If Biron makes it to mess hall before it closes, then there. But if it shuts before then I will head to the infirmary.</q>
+  <p>Liam says, <q>If Biron makes it to mess hall before it closes, then there. But if it shuts before then I will head to the infirmary.</q></p>
   <p>Chris says, <q>Biron was trying to make this decision. But I think he will be going for food first, in a rush, and eat while walking.</q></p>
-  <p>Liam says, <q>In which case I will see him when he arrives and we can go to see Orin together.</q>
+  <p>Liam says, <q>In which case I will see him when he arrives and we can go to see Orin together.</q></p>
   <p>Ric says, <q>The mess will still be open, although only the dregs of the stew will be available. Where the <em>heaviest</em> scraps sink...</q></p>
   <p>Chris says, <q>Meh, Biron is used to animal over fire. I&#39;m sure bits of a stew will be fine.</q></p>
 </aside>
@@ -1169,8 +1169,8 @@ They next pass the edges of the east camp. This is where the newer recruits tend
 
 <aside>
   <p>Liam says, <q>Are we suppose to deal with that?</q></p>
-  <p>Ric says, <q>Up to you.</q>
-  <p>Morgan says, <q>LOL.</q>
+  <p>Ric says, <q>Up to you.</q></p>
+  <p>Morgan says, <q>LOL.</q></p>
   <p>Chris says, <q>I think Biron would call that letting off steam.</q></p>
   <p>Ric says, <q>Heh, &#39;pressing&#39;!</q></p>
   <p>Morgan says, <q>Hey, it&#39;s Black Griffin, it&#39;s basically prison rules; there are bigger fish to fry than kiss-fighting. 😛</q></p>
@@ -1355,7 +1355,7 @@ Morgan rolls 23 for Orin to hide in the shadows at the edge of camp.
 
 <p>To be continued...</p>
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-31.html">&lt;previous</a> |
   <a href="/black-griffin-session-33.html">next &gt;</a> |

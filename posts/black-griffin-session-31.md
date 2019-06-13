@@ -12,7 +12,7 @@ id: black-griffin-session-31
 
 <section class="chat">
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-30.html">&lt;previous</a> |
   <a href="/black-griffin-session-32.html">next &gt;</a> |
@@ -75,7 +75,7 @@ The other two jump and scratch at the base of the tree, eager to get at Orin's p
   <p>Ric says <q>Chris, please make a DC 12 Dexterity saving throw for Biron.</q></p>
   <p>Chris rolls a 17 to avoid Biron being knocked prone by the wolf’s bite.</p>
   <p>Chris says <q>Are these wolves acting the way normal wolves act? Or are they clearly trained?</q></p>
-  <p>Ric says <q>Biron has encountered wolves before, and these act much as those others. They seem a good deal braver and less cautious though. Perhaps emboldened by stomachs fat off carrion.</q>
+  <p>Ric says <q>Biron has encountered wolves before, and these act much as those others. They seem a good deal braver and less cautious though. Perhaps emboldened by stomachs fat off carrion.</q></p>
 </aside>
 
 <p>The pack seem particularly organised as they swarm around Biron. While one beast feints, another uses the distraction to bite deep into his forearms.
@@ -123,7 +123,7 @@ The other three creatures take the opportunity to pull at the flesh of Biron's a
 
 <aside>
   <p>Chris says, <q>I don't think anyone will blame me for getting higher ground hahaha. Four of these guys halved my health in one turn!</q></p>
-  <p>Ric says, <q>I'll allow you to jump onto the roof of the farmhouse, but its a DC 13 Athletics check</q>
+  <p>Ric says, <q>I'll allow you to jump onto the roof of the farmhouse, but its a DC 13 Athletics check</q></p>
   <p>Chris rolls 24 for Biron's Athletics check to jump onto the farmhouse roof.</p>
   <p>Chris says, <q>Awesome!</q></p>
 </aside>
@@ -206,7 +206,7 @@ The other three creatures take the opportunity to pull at the flesh of Biron's a
 
 <aside>
   <p>Chris says, <q>I'm holding an action to shove the wolf down, which ever one makes it up. I'm just gonna use my shield, that's just for flare! 😄</q></p>
-  <p>Ric says, <q>Make an Athletics check for Biron, please.</q>
+  <p>Ric says, <q>Make an Athletics check for Biron, please.</q></p>
   <p>Chris rolls a 25 for Biron's Athletics check to shove the wolf off the roof.</p>
 </aside>
 
@@ -228,8 +228,8 @@ The other three creatures take the opportunity to pull at the flesh of Biron's a
 </dl>
 
 <aside>
-  <p>Ric says, <q>Ba's turn, but any ranged attacks or Dexterity checks are at disadvantage as the barn shakes.</q>
-  <p>Liam says, <q>Ok.</q>
+  <p>Ric says, <q>Ba's turn, but any ranged attacks or Dexterity checks are at disadvantage as the barn shakes.</q></p>
+  <p>Liam says, <q>Ok.</q></p>
 </aside>
 
 <p>Meanwhile, the wolves at the base of Ba's perch have discovered that the barn isn't as solid as it looks. They are busy digging at the foundations and pulling at the loose boards.</p>
@@ -532,7 +532,7 @@ puts a cloth over the the sword and picks it up, then raises his hand to call Or
 </dd>
 </dl>
 
-<p>As Orin brings the sword closer they hear a strange sound, like a low hum that seems come from inside their head! They recoil slightly.
+<p>As Orin brings the sword closer they hear a strange sound, like a low hum that seems come from inside their head! They recoil slightly.</p>
 
 <dl>
 <dt>Orin</dt>
@@ -989,6 +989,7 @@ puts a cloth over the the sword and picks it up, then raises his hand to call Or
 <dd>
   <p class="action">puts his empty hand out toward Ba</p>
   <p>Well?</p>
+</dd>
 
 <dt>Ba’Raknul</dt>
 <dd>
@@ -1024,7 +1025,7 @@ puts a cloth over the the sword and picks it up, then raises his hand to call Or
 
 <p>To be continued...</p>
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-30.html">&lt;previous</a> |
   <a href="/black-griffin-session-32.html">next &gt;</a> |

@@ -11,7 +11,7 @@ id: black-griffin-session-30
 
 <section class="chat">
 
-<p class=navigation>
+<p class="navigation">
   &lt;&lt; first |
   &lt;previous |
   <a href="/black-griffin-session-31.html">next &gt;</a> |
@@ -704,7 +704,7 @@ id: black-griffin-session-30
 </dd>
 
 <dt>Orin</dt>
-<dd> class="action">stumbles over to their tent to pack their things</dd>
+<dd class="action">stumbles over to their tent to pack their things</dd>
 
 <dt>Biron</dt>
 <dd class="action">already packed, moves towards the gate and waits for the group</dd>
@@ -1106,7 +1106,7 @@ We should only stay here an hour.</p>
   Morgan says <q>I'm imagining some sort of slick crime drama walk through... I half expect Biron to shout 'Clear!'</q>
 </aside>
 
-<p>Biron’s door opens on what appears to be a pantry. Shelves filled with flour, pickles and various herbs. All strangely undisturbed... what kind of looters leave perfectly good food behind?</p><p>
+<p>Biron’s door opens on what appears to be a pantry. Shelves filled with flour, pickles and various herbs. All strangely undisturbed... what kind of looters leave perfectly good food behind?</p>
 
 <p>Meanwhile, Ba opens a door on what must’ve been a bedroom. This room is filled with sacks of wool and feathers all piled up on the floor. Clearly this is where the Livelys must've slept together in one big pile.</p>
 
@@ -1143,7 +1143,7 @@ We should only stay here an hour.</p>
 
 <p>To be continued...</p>
 
-<p class=navigation>
+<p class="navigation">
   &lt;&lt; first |
   &lt;previous |
   <a href="/black-griffin-session-31.html">next &gt;</a> |

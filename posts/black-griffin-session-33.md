@@ -11,7 +11,7 @@ id: black-griffin-session-33
 
 <section class="chat">
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-32.html">&lt;previous</a> |
   <a href="/black-griffin-session-34.html">next &gt;</a> |
@@ -174,7 +174,7 @@ Do you have a dog?</p>
   <p>Morgan says, <q>Orin is going to sneak through the encampment to find Agata.</q></p>
   <p>Liam says, <q>Ah, twinsies!</q></p>
   <p>Morgan says, <q>Lol, let Orin do it, there’s no sense in Orin being backup since this had better not become a fight.</q></p>
-  <p>Liam says, <q>I’ll stay, then.</q>
+  <p>Liam says, <q>I’ll stay, then.</q></p>
 </aside>
 
 <p>The bailiffs behind her draw their swords! One particularly large fellow with black skin growls.</p>
@@ -542,7 +542,8 @@ Do you have a dog?</p>
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p class="action">nods.
+  <p class="action">nods.</p>
+</dd>
 
 <dt>Biron</dt>
 <dd>
@@ -613,11 +614,11 @@ Do you have a dog?</p>
 
 <aside>
   <p>Morgan says, <q>I think the South Gate was also missing some archers?</q></p>
-  <p>Ric says, <q>It was.</q>
-  <p>Morgan says, <q>But not the North Gate?</q>
-  <p>Ric says, <q>No, the North Gate was fully manned.</q>
-  <p>Liam says, <q>Are only the gates manned?</q>
-  <p>Ric says, <q>The north towers are, even the ones not by a gate. But only a couple of the south towers are manned.</q>
+  <p>Ric says, <q>It was.</q></p>
+  <p>Morgan says, <q>But not the North Gate?</q></p>
+  <p>Ric says, <q>No, the North Gate was fully manned.</q></p>
+  <p>Liam says, <q>Are only the gates manned?</q></p>
+  <p>Ric says, <q>The north towers are, even the ones not by a gate. But only a couple of the south towers are manned.</q></p>
 </aside>
 
 <p>The party continues past the North Camp, passing the Infirmary and arriving at the West Gate without event.</p>
@@ -1347,7 +1348,7 @@ Morgan rolls 22 for Orin’s Dexterity (Stealth) check to hide.
 
 <p>To be continued...</p>
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-32.html">&lt;previous</a> |
   <a href="/black-griffin-session-34.html">next &gt;</a> |

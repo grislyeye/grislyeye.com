@@ -12,7 +12,7 @@ publish: unlisted
 
 <section class="chat">
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-34.html">&lt;previous</a> |
   next &gt; |
@@ -863,7 +863,7 @@ Morgan says, “Actually, I think the unit is effectively a swarm-type creature.
 
 <p>To be continued...</p>
 
-<p class=navigation>
+<p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-34.html">&lt;previous</a> |
   next &gt; |
