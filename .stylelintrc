@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "media-feature-name-no-unknown": [ true, {
+      "ignoreMediaFeatureNames": ["@small", "@medium"]
+    }],
+    "selector-type-no-unknown": [ true, {
+      "ignoreTypes": ["vellum-stat-block"]
+    }]
+  }
+}

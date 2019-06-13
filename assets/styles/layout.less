@@ -1,7 +1,10 @@
 @import "node_modules/skeleton-less/less/skeleton";
 @import "media_queries";
 
-body > header, article, main, footer {
+body > header,
+article,
+main,
+footer {
   .container();
 }
 
@@ -28,8 +31,22 @@ body > header > nav {
   }
 }
 
-.content header {
-  h1, h2, h3, h4, h5 {
+article {
+  margin: 0;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+article header {
+  margin: 0;
+}
+
+article .content header {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     margin-bottom: 0;
   }
 }
@@ -67,7 +84,6 @@ body > header > nav {
 }
 
 @media (@medium) {
-
   .stat-block {
     position: static;
   }
@@ -93,16 +109,6 @@ body > header > nav {
   }
 }
 
-article {
-  margin: 0;
-  width: 100%;
-  margin-bottom: 2em;
-}
-
-article header {
-  margin: 0;
-}
-
 .content table td {
   padding-right: 1em;
 }
@@ -111,7 +117,8 @@ article header {
   border-collapse: collapse;
 }
 
-.content table td.number, th.number {
+.content table td.number,
+.content table th.number {
   padding-left: 1em;
   padding-right: 1em;
   text-align: center;

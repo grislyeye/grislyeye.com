@@ -34,7 +34,9 @@
     "metalsmith-markdown": "^1.2.0",
     "metalsmith-path": "^0.3.1",
     "metalsmith-publish": "^0.1.5",
-    "skeleton-less": "^2.0.1"
+    "skeleton-less": "^2.0.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0"
   },
   "scripts": {
     "build": "grunt",
@@ -42,7 +44,7 @@
     "deploy": "grunt deploy",
     "clean": "grunt clean",
     "start": "grunt run",
-    "test": "markdownlint posts/*.md && htmllint posts/*.md && grunt test",
+    "test": "markdownlint posts/*.md && htmllint posts/*.md && stylelint main.less assets/styles/*.less && grunt test",
     "postinstall": "bower install",
     "postupdate": "bower update"
   }
