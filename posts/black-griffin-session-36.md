@@ -438,7 +438,7 @@ As always, Sly Ben and his drunken cohorts hold court outside, lounging around o
 </dd>
 
 <dt>Ba'Raknul</dt>
-<dd>waits patiently, watching Orin for any slips, knowing how sly Ben is.</dd>
+<dd class="action">waits patiently, watching Orin for any slips, knowing how sly Ben is.</dd>
 </dl>
 
 <p>Meanwhile, the boy reappears carrying manacles, which he holds out for Ba to take.</p>
