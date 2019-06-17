@@ -388,7 +388,7 @@ As always, Sly Ben and his drunken cohorts hold court outside, lounging around o
 
 <dl>
 <dt>Sly Ben</dt>
-<dd>Ba! You scabious scoundrel!</dd>
+<dd>Ba! You scabrous scoundrel!</dd>
 
 <dt>Orin</dt>
 <dd class="action">nods at Sly's mates with familiarity.</dd>
