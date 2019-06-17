@@ -52,7 +52,7 @@ publish: unlisted
 <dd>You will double patrols with these forces to prevent further sabotage until we can understand the nature of what we're up against.</dd>
 
 <dt>Biron</dt>
-<dd class="action">looks over to the light infantry and snorts.</dd>
+<dd class="action">looks over to the private and snorts.</dd>
 
 <dt>Agata</dt>
 <dd>Any questions?</dd>
@@ -68,7 +68,7 @@ publish: unlisted
 </dl>
 
 <aside>
-Ric whispers, “Biron and Ba notices that Agata now has a filthy copy of the Dictum, the Holy Book of the Mother and Father, open on her desk.”
+Ric whispers, “Biron and Ba notice that Agata now has a filthy copy of the Dictum, the Holy Book of the Mother and Father, open on her desk.”
 </aside>
 
 <dl>
@@ -87,14 +87,13 @@ Anything is possible, which is exactly why I have no idea if that is true or not
 
 <dt>Ba’Raknul</dt>
 <dd>
-  <p>I think the common folk see and hear way more than we do... Everywhere I have gone on missions the commoners, whether enemy or bystander, knew of strange creatures or ‘myths’.</p>
-  <p>I wouldn’t put it past someone like sparrow to even trick these creatures into working for them.</p>
+  <p>I think the common folk see and hear way more than we do... Everywhere I have gone on missions the commoners, whether enemy or bystander, knew of strange creatures or ‘myths’. I wouldn’t put it past someone like Sparrow to even trick these creatures into working for them.</p>
   <p>A well placed lie or false information leaves us a target, which is good for them however you slice it.</p>
 </dd>
 
 <dt>Biron</dt>
 <dd>
-  <p class="action">growls</p>
+  <p class="action">growls.</p>
   <p>The beasts die like any man. We kill them and move on.</p>
 </dd>
 
@@ -105,7 +104,7 @@ Anything is possible, which is exactly why I have no idea if that is true or not
 <dd>
   <p class="action">snarls at Orin.</p>
   <p>We have been given a job. Lets move on with it.</p>
-  <p>He returns to his upright, face forward position.</p>
+  <p class="action">He returns to his upright, face forward position.</p>
 </dd>
 
 <dt>Orin</dt>
@@ -134,10 +133,7 @@ Anything is possible, which is exactly why I have no idea if that is true or not
 <dd class="action">fidgets with the cork on their wineskin.</dd>
 
 <dt>Ba’Raknul</dt>
-<dd>
-  <p>I would speculate we are seeing them now because they’re nearly ready to do something big.</p>
-  <p>Big enough that revealing themselves is no longer an issue.</p>
-</dd>
+<dd>I would speculate we are seeing them now because they’re nearly ready to do something big. Big enough that revealing themselves is no longer an issue.</dd>
 
 <dt>Biron</dt>
 <dd>
@@ -158,10 +154,7 @@ Anything is possible, which is exactly why I have no idea if that is true or not
 <dd>It’s possible.</dd>
 
 <dt>Ba'Raknul</dt>
-<dd>
-  <p>They may speak a way we don’t hear.</p>
-  <p>You remember Old Spit?</p>
-</dd>
+<dd>>They may speak a way we don’t hear. You remember Old Spit?</dd>
 
 <dt>Biron</dt>
 <dd>
@@ -182,7 +175,7 @@ Anything is possible, which is exactly why I have no idea if that is true or not
 <dd>
   <p>Those...</p>
   <p class="action">They swallow hard.</p>
-  <p>...rats... were smart, you could see it in the way they fought us.</p>
+  <p>...rats... they were smart, you could see it in the way they fought us.</p>
 </dd>
 
 <dt>Biron</dt>
@@ -195,16 +188,18 @@ Anything is possible, which is exactly why I have no idea if that is true or not
 <dd>That’s not it Orin. It listened to our words. They’re not as dumb as you are thinking.</dd>
 
 <dt>Biron</dt>
-<dd class="action">steps towards the light infantry men and looks over them all, ignoring the child like rambling of Orin.</dd>
+<dd class="action">steps towards the light infantry private, looking him over, ignoring the child like rambling of Orin.</dd>
 
 <dt>Orin</dt>
-<dd>Maybe. Maybe they have an intelligent caste... maybe they fart fairy dust. This is all just speculation anyway.
-They kick at the dirt floor.</dd>
+<dd>
+  <p>Maybe. Maybe they have an intelligent caste... maybe they fart fairy dust. This is all just speculation anyway.</p>
+  <p class="action">They kick at the dirt floor.</p>
+</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>
   <p class="action">sighs.</p>
-  <p class="action">He gives the new men a solid looking over.</p>
+  <p class="action">He gives the new man a solid looking over.</p>
   <p>In any case we should get moving... I would like to talk to these guys before we start... learn their skill and how best to deploy.</p>
 </dd>
 
@@ -259,7 +254,7 @@ They kick at the dirt floor.</dd>
   <p>Ric says, <q>Yep, standing three wide and two deep.</q></p>
 </aside>
 
-<p>Outside the party finds the unit of privates they have been given command over standing to attention. Like most mercenaries, they’re a bit shabby round the edges and green in the tooth (one woman cannot be older than 16 summers), but they are armed and trained.</p>
+<p>Outside, the private leads the party to the unit they have been given command over. The six light infantry stand to attention and like most mercenaries, they’re a bit shabby round the edges and green in the tooth (one woman cannot be older than 16 summers), but they are armed and trained.</p>
 
 <dl>
 <dt>Biron</dt>
@@ -280,10 +275,10 @@ They kick at the dirt floor.</dd>
 
 <dl>
 <dt>Ba'Raknul</dt>
-<dd><span class="action">whispers back</span> Don’t worry just a quick thing then we’ll go.</dd>
+<dd><span class="action">whispers back</span> Don’t worry, just a quick thing then we’ll go.</dd>
 
 <dt>Orin</dt>
-<dd class="action">guffaws and takes a large swig from their wineskin.</dd>
+<dd class="action">guffaws at the sight of Biron and takes a large swig from their wineskin.</dd>
 
 <dt>Biron</dt>
 <dd><span class="action">snarling and shouting</span> Who out of you is the strongest?!</dd>
@@ -299,7 +294,7 @@ They kick at the dirt floor.</dd>
 <dd class="action">raises an eyebrow at Ba.</dd>
 </dl>
 
-<p>One of them is a black-haired lass with a layer of fat that, once you come to see her closely, is covering thick, ropey muscles. She steps forward and raises her hand.</p>
+<p>One of them is a black-haired lass with a layer of fat covering thick, ropey muscles. She steps forward and raises her hand.</p>
 
 <dl>
 <dt>Ba'Raknul</dt>
@@ -334,12 +329,10 @@ They kick at the dirt floor.</dd>
 
 <dt>Orin</dt>
 <dd>
-  <p class="action">chuckles.</p>
-  <p>You better do it or you'll likely wish you'd just been courtmartialed.</p>
+  <p class="action">chuckles, moving to stand at a distance.</p>
+  <p>You better do it or you'll likely <em>wish</em> you'd just been courtmartialed.</p>
+  <p class="action">They watch, amused.</p>
 </dd>
-
-<dt>Orin</dt>
-<dd class="action">stands at a distance and watches, amused.</dd>
 
 <dt>Biron</dt>
 <dd class="action">stares at the recruit.</dd>
@@ -347,15 +340,13 @@ They kick at the dirt floor.</dd>
 
 <aside>
   <p>Chris rolls 13 for Biron’s Initiative.</p>
-  <p class="break"></p>
   <p>Biron takes 3 bludgeoning damage!</p>
 </aside>
 
 <dl>
 <dt>The soldier</dt>
 <dd>
-  <p class="action">swings a punch at Biron, quick as a whip, before he can even think, cracking him hard in the cheekbone.</p>
-  <p class="action">She instantly looks mortified!</p>
+  <p class="action">swings a punch at Biron, quick as a whip, before he can even think, cracking him hard in the cheekbone. She instantly looks mortified!</p>
   <p>I'm... sorry ser!</p>
 </dd>
 
@@ -385,9 +376,12 @@ They kick at the dirt floor.</dd>
 
 <dt>The soldier</dt>
 <dd class="action">smiles nervously and salutes.</dd>
+
+<dt>Biron</dt>
+<dd>Now let me show you a maneuver or two.</dd>
 </dl>
 
-<p>Meanwhile, Ba and Orin find themselves at the commissary. This large tent is the store of food and supplies for the camp.
+<p>Ba and Orin find their way to the commissary. This large tent is the store of food and supplies for the camp.
 As always, Sly Ben and his drunken cohorts hold court outside, lounging around on barrels and stools.</p>
 
 <dl>
@@ -466,7 +460,7 @@ As always, Sly Ben and his drunken cohorts hold court outside, lounging around o
 <dd class="action">heads straight off to find Biron and the infantry so they can go to the South Gate and take over the watch.</dd>
 </dl>
 
-<p>They find themselves at the South Gate just as dusk falls, exactly on time for once. They’re greeted by the surly day watch.</p>
+<p>The party and their new unit assemble at the South Gate just as dusk falls, exactly on time for once. They’re greeted by the surly day watch.</p>
 
 <dl>
 <dt>The soldier</dt>
@@ -501,13 +495,13 @@ Meanwhile, the unit the party commands stands to attention.</p>
 <dd class="action">thinks a moment.</dd>
 
 <dt>Biron</dt>
-<dd class="action">they attacked from the north side as well.</dd>
+<dd>They attacked from the north side as well.</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>That could be a ruse.</dd>
 
 <dt>Biron</dt>
-<dd>The farm was north of here, and the creatures’ tracks also came from north. It would seem that be a better place to start.</dd>
+<dd>The farm was north of here, and the creatures’ tracks also came from north. It would seem to be a good place to start.</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>I think we need a wider area.</dd>
@@ -587,12 +581,12 @@ Morgan says, “Actually, I think the unit is effectively a swarm-type creature.
 
 <dt>Biron</dt>
 <dd>
-  <p class="action">gives single nod and grunt.</p>
+  <p class="action">gives a single nod and grunt.</p>
   <p>Go.</p>
 </dd>
 </dl>
 
-<p>So the groups’ night patrols begin. Everyone’s nerves are on edge, and the darkness beyond the barricades weighs on their minds. Despite the fact, the first patrol around the camp goes without mishap, putting them even more on edge. Will the creatures come again? What are they waiting for? Yet they meet back with the infantry unit with nothing for either group to report.</p>
+<p>So the groups’ night patrols begin. Everyone’s nerves are on edge, and the darkness beyond the barricades weighs on their minds. Despite the fact, the first patrol around the camp goes without mishap, putting them even more on edge. Will the creatures come again? What are they waiting for? Yet the party meets the infantry unit with nothing for either group to report.</p>
 
 <dl>
 <dt>Biron</dt>
@@ -701,7 +695,7 @@ Morgan says, “Actually, I think the unit is effectively a swarm-type creature.
 <dd class="action">makes hand gestures to indicate his team’s places. He begins to count down with his fingers... 1... 2....</dd>
 </dl>
 
-<p>The party makes their way towards Ba's tent, but as they do, Biron trips on a tent rope, landing noisily and taking Orin with him.</p>
+<p>On three, the party make their way towards Ba's tent, but as they do, Biron trips on a tent rope, landing noisily and taking Orin with him.</p>
 
 <dl>
 <dt>Biron</dt>
@@ -721,6 +715,14 @@ Morgan says, “Actually, I think the unit is effectively a swarm-type creature.
 </dl>
 
 <p>Inside the tent is... empty! It's been ransacked, Ba’s papers and equipment scattered around.</p>
+
+<dl>
+<dt>Ba'Raknul</dt>
+<dd>
+  <p class="action">rushes back out of the tent.</p>
+  <p>It's em-</p>
+</dd>
+</dl>
 
 <p>Suddenly, the team hears the telltale sound of an arrow being readied. A flurry of arrows fly out of the shadows around you, one goes for Ba’s chest, two strike Biron's arm, and one catches Orin in the flank. The source appears as cloaked figures hiding in the shadows, just out of range of Biron's lamp light.</p>
 
@@ -774,7 +776,7 @@ Morgan says, “Actually, I think the unit is effectively a swarm-type creature.
 
 <dl>
 <dt>Biron</dt>
-<dd class="action">snarls, leering towards the hooded <q>face</q>.</dd>
+<dd class="action">snarls, leering towards the hooded 'face'.</dd>
 </dl>
 
 <p>The sword-bearing figures slash at Ba and Biron, and Orin's assailant closes the distance to slash at them. Clearly skilled, the fetches fend off the blows but they all get many cuts and bruises, and even a couple of slashes for their trouble.</p>
