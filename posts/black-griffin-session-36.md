@@ -1,14 +1,16 @@
 ---
-title: Black Griffin Campaign Diary (Session 36)
 date: 2019-06-09
+title: Black Griffin 36 - The Chasm Nearer
 collection: articles
 layout: post.hbs
 id: black-griffin-session-36
 publish: unlisted
 ---
-<p>This is the <em>seventh</em> campaign diary for my 5th Edition D&amp;D playtest campaign, <strong>Black Griffin</strong>. Black Griffin is a play-by-chat game that runs every week on Roll20. The party are mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, they have been placed on punishment duty as company <q>fetches</q>: bounty hunters charged with capture of deserters for trial.</p>
+<p>In the <em>seventh</em> instalment of <strong>Black Griffin</strong> the party find themselves attending a war council and a new enemy makes their presence felt...</p>
 
-<p>The below is an edited log from of our <q>in-character</q> chat channel. We've added annotations so you can follow what's going on. Please enjoy!</p>
+<p>This campaign diary taken from the <q>in-character</q> chat channel from session 36 of my playtest campaign, lightly polished and annotated.</p>
+
+<p>Black Griffin is a play-by-chat game that runs every week on Roll20. The party are mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, they have been placed on punishment duty as company <q>fetches</q>: bounty hunters charged with capture of deserters for trial.</p>
 
 <section class="chat">
 
