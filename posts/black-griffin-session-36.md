@@ -1,10 +1,9 @@
 ---
-date: 2019-06-09
 title: Black Griffin 36 - The Chasm Nearer
+date: 2019-06-17
 collection: articles
 layout: post.hbs
 id: black-griffin-session-36
-publish: unlisted
 ---
 <p>In the <em>seventh</em> instalment of <strong>Black Griffin</strong> the party find themselves attending a war council and a new enemy makes their presence felt...</p>
 
@@ -16,7 +15,7 @@ publish: unlisted
 
 <p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
-  <a href="/black-griffin-session-34.html">&lt;previous</a> |
+  <a href="/black-griffin-session-35.html">&lt;previous</a> |
   next &gt; |
   last &gt;&gt;
 </p>
@@ -869,7 +868,7 @@ Morgan says, “Actually, I think the unit is effectively a swarm-type creature.
 
 <p class="navigation">
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
-  <a href="/black-griffin-session-34.html">&lt;previous</a> |
+  <a href="/black-griffin-session-35.html">&lt;previous</a> |
   next &gt; |
   last &gt;&gt;
 </p>
