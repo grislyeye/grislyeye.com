@@ -144,6 +144,12 @@ module.exports = function (grunt) {
             'metalsmith-feed': {
               collection: 'articles',
               site_url : 'https://grislyeye.com'
+            },
+            'metalsmith-open-graph': {
+              siteurl: 'https://grislyeye.com',
+              title: '#title',
+              description: '#description',
+              image: '#og-image'
             }
           }
         }

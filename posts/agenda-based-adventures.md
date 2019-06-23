@@ -5,7 +5,7 @@ collection: articles
 layout: post.hbs
 id: agenda-based-adventures
 ---
-Recently I ran a new mission for my playtest campaign <a href="black-griffin-session-30.html">Black Griffin</a>. In this particular mission, the party have been commanded to patrol their camp for a few nights (as a sort of punishment).
+<p id="description">Recently I ran a new mission for my playtest campaign <a href="black-griffin-session-30.html">Black Griffin</a>. In this particular mission, the party have been commanded to patrol their camp for a few nights (as a sort of punishment).</p>
 
 On reflection, not the most exciting adventure. So, to spice things up I decided there would multiple factions at play:
 
@@ -36,7 +36,7 @@ I repeat the above until all the threats are thwarted or one reaches its final g
 
 To make randomly choosing threat events easier I used index cards to make some improvised “threat cards”:
 
-<img src="images/front-cards.jpg" alt="Photo of threat index cards">
+<img id="og-image" src="images/front-cards.jpg" alt="Photo of threat index cards">
 
 Additionally, every time the party move to a new location I rolled a d20. On an 18 or higher, a random clue is waiting for them in the area.
 
