@@ -13,7 +13,7 @@ On reflection, not the most exciting adventure. So, to spice things up I decided
 - A cell of <em>spies</em> operating within the camp, and
 - An advance party of <em>orcish saboteurs</em> looking to weaken the camp defences.
 
-Writing an adventure around these various threads seemed tricky, but it got me thinking about the agenda design I've been doing with <a href="https://imgur.com/a/ehRrxxO?" target="_blank">NPC stat blocks</a>. Taking that I came up with an agenda-based adventure designed. Basically it's like an event-based adventure (from the <em>Dungeon Master’s Guide</em>) but for multiple threats.
+Writing an adventure around these various threads seemed tricky, but it got me thinking about the agenda design I've been doing with <a href="https://imgur.com/a/ehRrxxO?" target="_blank" rel="noopener">NPC stat blocks</a>. Taking that I came up with an agenda-based adventure designed. Basically it's like an event-based adventure (from the <em>Dungeon Master’s Guide</em>) but for multiple threats.
 
 <h4>Huh?</h4>
 
@@ -48,7 +48,7 @@ I used a pyramid structure for pacing. The first tier has three checkboxes (slow
 
 Running some of the agenda events in the background makes the world seem more alive. Things happen even if the party aren’t about to witness them. They aren’t the sole protagonists!
 
-Lastly, the idea of checking off encounters is based on <q>bullet campaigns</q> from <a href="https://www.drivethrurpg.com/product/177791/Redmark-Adventures-Volume-1-Varria-1e" target="_blank">Redmark Adventures Volume I</a> (an excellent campaign book that unfortunately never got a sequel).
+Lastly, the idea of checking off encounters is based on <q>bullet campaigns</q> from <a href="https://www.drivethrurpg.com/product/177791/Redmark-Adventures-Volume-1-Varria-1e" target="_blank" rel="noopener">Redmark Adventures Volume I</a> (an excellent campaign book that unfortunately never got a sequel).
 
 <h4>Where Things Need Work</h4>
 
