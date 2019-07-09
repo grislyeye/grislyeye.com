@@ -155,7 +155,7 @@ Anything is possible, which is exactly why I have no idea if that is true or not
 <dd>It’s possible.</dd>
 
 <dt>Ba'Raknul</dt>
-<dd>>They may speak a way we don’t hear. You remember Old Spit?</dd>
+<dd>They may speak a way we don’t hear. You remember Old Spit?</dd>
 
 <dt>Biron</dt>
 <dd>
