@@ -46,6 +46,8 @@ id: location-blocks-v
   <li>Add the peril rating when rolling on random encounter tables.</li>
 </ul>
 
+<p><em>For example, the party are travelling through a region with a +3 peril rating. The DM checks for a random encounter and rolls a 15. Normally this wouldn't trigger an encounter, but with the +3 peril rating the result becomes 18. The DM rolls on the random encounter table for the location and also adds the +3 peril rating, resulting in a more challenging encounter.</em></p>
+
 <p>At the start of play the peril for all locations is 0. Each time the characters do something substantial to increase lawfulness of a location, decrease the peril rating by 1. For example, if they kill a band of brigands or bring a wanted criminal to justice.</p>
 
 <p>Similarly, when the characters do something substantial to increase the chaos of a location, increase the peril rating by +1. Usually if they commit some kind of crime, or fail to stop some other chaotic faction.</p>
