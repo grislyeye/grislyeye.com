@@ -148,8 +148,8 @@ module.exports = function (grunt) {
             'metalsmith-open-graph': {
               siteurl: 'https://grislyeye.com',
               title: '#title',
-              description: '#description',
-              image: '#og-image'
+              description: '.description',
+              image: '.og-image'
             }
           }
         }

@@ -6,11 +6,11 @@ layout: post.hbs
 id: location-blocks-v
 ---
 <div class="illustration" id="location-illustration">
-  <img src="images/location-figure.png" alt="Location Illustration">
+  <img class="og-image" src="images/location-figure.png" alt="Location Illustration">
   <p class="caption">Public domain woodcut from the <a href="https://en.wikipedia.org/wiki/Hereford_Mappa_Mundi">Hereford Map of the World (Mappa Mundi)</a>.</p>
 </div>
 
-<p id="description">This is my first stab at a location stat block as part of work on my homebrew campaign, <a href="/black-griffin-session-30.html">Black Griffin</a>. This version could for any campaign where travel is central like sandbox campaigns.</p>
+<p class="description">This is my first stab at a location stat block as part of work on my homebrew campaign, <a href="/black-griffin-session-30.html">Black Griffin</a>. This version could for any campaign where travel is central like sandbox campaigns.</p>
 
 <p>Please find a description of the new format and an example location below:</p>
 
@@ -39,7 +39,7 @@ id: location-blocks-v
 
 <p>Each location has a peril rating that ranges from -5 to +5. Unlike other traits that affect a location, the characters actions within a location can increase or decrease its peril rating.</p>
 
-<p>A location's peril rating does the following:
+<p>A location's peril rating does the following:</p>
 
 <ul>
   <li>If the peril rating is greater than zero, add it to rolls when checking for random encounters</li>
