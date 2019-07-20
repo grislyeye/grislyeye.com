@@ -20,8 +20,11 @@ pages:
     - public
   only:
   - tags
+  after_script:
+  - npm run deploy
 
 lint:
   script:
   - npm run build
-  - npm test
+  except:
+  - tags

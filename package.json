@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "1.35.1",
+  "version": "1.35.2",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "modern-normalize": "^0.5.0"
@@ -40,9 +40,9 @@
     "stylelint-config-standard": "^18.3.0"
   },
   "scripts": {
-    "build": "grunt",
+    "build": "grunt && npm test",
     "watch": "grunt watch",
-    "deploy": "grunt deploy",
+    "deploy": "curl -X POST \"https://api.cloudflare.com/client/v4/zones/6576d55621fb5a1290106d65ff89aee3/purge_cache\" -H \"X-Auth-Email: ricardo@gladwell.me\"  -H \"X-Auth-Key: ${CLOUDFLARE_API_KEY}\" -H \"Content-Type:application/json\" --data '{\"purge_everything\":true}'",
     "clean": "grunt clean",
     "start": "grunt run",
     "test": "markdownlint posts/*.md && htmllint posts/*.md && stylelint main.less assets/styles/*.less && grunt test",
