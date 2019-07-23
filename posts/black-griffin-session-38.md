@@ -625,7 +625,7 @@ id: black-griffin-session-38
 <aside>
   <p>Morgan says, <q>I think I’ll use Persuasion here, just to make him easier to work with.</q></p>
   <p>Ric says, <q>Hmmm… difficulty class 17 because he’s in chains.</q></p>
-  <p>Morgan rolls 20 for Orin’s Thieves’ Tools.</p>
+  <p>Morgan rolls 20 for Orin’s Charisma (Persuasion) check.</p>
 </aside>
 
 <dl>
