@@ -15,7 +15,7 @@ id: black-griffin-session-35
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-34.html">&lt;previous</a> |
   <a href="/black-griffin-session-36.html">next &gt;</a> |
-  <a href="/black-griffin-session-38.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-39.html">last&gt;&gt;</a>
 </p>
 
 <img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
@@ -1042,7 +1042,7 @@ It squeals inhuman curses at everyone.</p>
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-34.html">&lt;previous</a> |
   <a href="/black-griffin-session-36.html">next &gt;</a> |
-  <a href="/black-griffin-session-38.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-39.html">last&gt;&gt;</a>
 </p>
 
 </section>

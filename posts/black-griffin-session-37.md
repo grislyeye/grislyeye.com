@@ -17,7 +17,7 @@ id: black-griffin-session-37
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-36.html">&lt;previous</a> |
   <a href="/black-griffin-session-38.html">next &gt;</a> |
-  <a href="/black-griffin-session-38.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-39.html">last&gt;&gt;</a>
 </p>
 
 <img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
@@ -899,7 +899,7 @@ Liam rolls a 6 for Ba’s Investigation (Intelligence) check.
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-36.html">&lt;previous</a> |
   <a href="/black-griffin-session-38.html">next &gt;</a> |
-  <a href="/black-griffin-session-38.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-39.html">last&gt;&gt;</a>
 </p>
 
 </section>

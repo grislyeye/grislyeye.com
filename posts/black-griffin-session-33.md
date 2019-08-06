@@ -15,7 +15,7 @@ id: black-griffin-session-33
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-32.html">&lt;previous</a> |
   <a href="/black-griffin-session-34.html">next &gt;</a> |
-  <a href="/black-griffin-session-38.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-39.html">last&gt;&gt;</a>
 </p>
 
 <img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
@@ -1352,7 +1352,7 @@ Morgan rolls 22 for Orin’s Dexterity (Stealth) check to hide.
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-32.html">&lt;previous</a> |
   <a href="/black-griffin-session-34.html">next &gt;</a> |
-  <a href="/black-griffin-session-38.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-39.html">last&gt;&gt;</a>
 </p>
 
 </section>
