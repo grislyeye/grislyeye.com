@@ -623,8 +623,10 @@ Here.</p>
 <dd class="action">takes the cards from the bag.</dd>
 
 <dt>Eggard</dt>
-<dd>We never saw who gave the orders. Until tonight, I didn't even know Lucas and Wren were involved.</dd>
-<dd>When the moon is at its highest point in the sky, we'd meet by a campfire in the East Camp.</dd>
+<dd>
+  <p>We never saw who gave the orders. Until tonight, I didn't even know Lucas and Wren were involved.</p>
+  <p>When the moon is at its highest point in the sky, we'd meet by a campfire in the East Camp.</p>
+</dd>
 
 <dt>Biron</dt>
 <dd class="action">doesn't take his eyes off Eggard.</dd>
