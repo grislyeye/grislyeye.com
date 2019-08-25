@@ -15,7 +15,7 @@ id: black-griffin-session-30
   &lt;&lt; first |
   &lt;previous |
   <a href="/black-griffin-session-31.html">next &gt;</a> |
-  <a href="/black-griffin-session-39.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-40.html">last&gt;&gt;</a>
 </p>
 
 <h4>Camp Patrol Act I</h4>
@@ -1147,7 +1147,7 @@ We should only stay here an hour.</p>
   &lt;&lt; first |
   &lt;previous |
   <a href="/black-griffin-session-31.html">next &gt;</a> |
-  <a href="/black-griffin-session-39.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-40.html">last&gt;&gt;</a>
 </p>
 
 </section>

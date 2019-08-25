@@ -17,7 +17,7 @@ id: black-griffin-session-36
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-35.html">&lt;previous</a> |
   <a href="/black-griffin-session-37.html">next &gt;</a> |
-  <a href="/black-griffin-session-39.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-40.html">last &gt;&gt;</a>
 </p>
 
 <img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
@@ -870,7 +870,7 @@ Morgan says, “Actually, I think the unit is effectively a swarm-type creature.
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-35.html">&lt;previous</a> |
   <a href="/black-griffin-session-37.html">next &gt;</a> |
-  <a href="/black-griffin-session-39.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-40.html">last &gt;&gt;</a>
 </p>
 
 </section>

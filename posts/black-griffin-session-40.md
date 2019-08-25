@@ -1,132 +1,77 @@
 ---
-title: Black Griffin 40
+title: Black Griffin 40 - The Hand Over
 date: 2019-08-18
 collection: articles
 layout: post.hbs
 id: black-griffin-session-40
-publish: unlisted
 ---
+<p>In the <em>11th</em> instalment of <strong>Black Griffin</strong> in which the party partakes of a double-cross and buys themselves some time...</p>
+
+<p>This campaign diary taken from the <q>in-character</q> chat channel from session 38 of my ongoing playtest campaign, lightly polished and annotated.</p>
+
+<p>Black Griffin is a play-by-chat game that runs every week on Roll20. The party are mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, they have been placed on punishment duty as company <q>fetches</q>: bounty hunters charged with capture of deserters for trial.</p>
+
 <section class="chat">
 
-<h5>Scene VIII: The Interrogation Continued...</h5>
+<p class="navigation">
+  <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
+  <a href="/black-griffin-session-39.html">&lt;previous</a> |
+  next &gt; |
+  last &gt;&gt;
+</p>
+
+<img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
+
+<h5>Scene IX: The Hand Over</h5>
 
 <dl></dl>
 
 <p>When we last left our collection of curmudgeonly crooks, they had learned of a meeting of spies and turncoats: a mysterious game of cards played at midnight.</p>
 
-<p>There was a high toll to learn this information, and we join Biron and Willem as they emerge from the foul cellars-turned-oubliette of Captain Larke's manor house.</p>
+<p>There was a high toll to learn this information, and we join Biron as he emerges from the foul cellars-turned-oubliette of Captain Larke's manor house.</p>
 
-<p>After the gloom of the cellars, it seems incredible to you that it is daylight outside, and you both blink in the sunlight.</p>
+<p>After the gloom of the cellars, it seems incredible that it is daylight outside, and Biron blinks in the sunlight.</p>
 
 <dl>
 <dt>Biron</dt>
-<dd class="action">storms out, striding forward with his axe in hand.</dd>
-
-<dt>Willem</dt>
-<dd class="action">pulls the brim of his hat down, squinting against the light as he looks around for Biron, or for the expected trail of wreckage that might lead them to him.</dd>
-
-<dt>Biron</dt>
-<dd class="action">roars loudly, picking up some old wooden barrel and hurling it as far as he could with a roar of ridiculous anger. He seems oblivious to anyone around him.</dd>
-</dl>
-
-<p>Several startled mercenaries turn around, hands on the pommels of their swords. When they see it is Biron, they relax and carry on: this isn't the first northmen tantrum they've witnessed</p>
-
-<dl>
-<dt>Ba'Raknul</dt>
-<dd class="action">makes his way out of the manor, wincing as the light hits his eyes.. He looks around and see's whats going on, gives Willem a quick nod and then sprints off to find Helia.</dd>
+<dd>
+  <p class="action">storms out, striding forward with his axe in hand.</p>
+  <p class="action">roars loudly, picking up some old wooden barrel and hurling it as far as he could with a roar of ridiculous anger. He seems oblivious to anyone around him.</p>
+  <p class="action">stays silent a moment and looks back at the house.</p>
+  <p>They should die!</p>
+  <p>Traitorous, honor-less slugs.</p>
+</dd>
 </dl>
 
 <aside>
+  <p>Ric says, <q>🔥 Inspiration for Biron for a great scene!</q></p>
+  <p>Ric says, <q>While Biron is ranting what are Orin, Ba and Quinn up to? Will they join the others?</q></p>
+  <p>Morgan says, <q>The agreement I had with Ba is that we were to release Eggard while he talked to Helia.</q></p>
+  <p>Liam says, <q>I will be quickly passing to go and inform Helia.</q></p>
+  <p>Morgan says, <q>After releasing Eggard, Orin is going to try getting Lucas' card while they wait for Helia.</q></p>
+  <p>Mark says, <q>Yeah, I guess Quinn will be walking with Orin.</q></p>
+  <p class="break"></p>
+  <p>Ric says, <q>Make a Persuasion check for Orin please, DC 18.</q></p>
   <p>Morgan rolled a 10 for Orin's Persuasion check.</p>
+  <p>Morgan says, <q>Orin's going to try taking Eggard out a different entrance than the one they came in by, to try to avoid Biron.</q></p>
+  <p>Morgan says, <q>Orin is keeping their eyes' peeled.</q></p>
+  <p>Morgan rolled a 23 for Orin's Perception check.</p>
 </aside>
 
 <dl>
-<dt>Biron</dt>
-<dd class="action">continues this reckless assault on inanimate objects. He eventually drops to a knee panting and furious. hand clenched across the top of his axe blade.</dd>
-</dl>
-
-<p>Willem is astounded by Biron's capacity for destruction.</p>
-
-<p>What does he do now that Biron has ceased?</p>
-
-<dl>
-<dt>Willem</dt>
-<dd>
-  <p class="action">rolls his eyes and gives a halfhearted grumble under his breath as his commanding officer sprints away, then turns to raise a hand, a broad if nervous smile on his face.  “Easy feller…”  He looks around at the strewn wreckage.  “An are ye bein’ done with all that yet?”</p>
-  <p>Happy to lend a hand, iff'n you're not.</p>
-</dd>
-
-<dt>Biron</dt>
-<dd>
-  <p class="action">eyes suddenly dart up in furry and goes to grab Willem.</p>
-  <p class="action">stares at Willem. For a moment unsure weather to attack or not. A moment passes with nothing happening. still with his hand clamped around Willems clothes. But then just pushes him away.</p>
-  <p><span class="action">growls</span> Not you.</p>
-</dd>
-
-<dt>Willem</dt>
-<dd>Yeah, yeah I get that a lot."  He tugs his coat back into place over his mail.  "But yer stuck with me, aren't ya?"  A sniff, and he cranes his neck to look around the camp.  "So what are we to do now while we wait on Helia?  Couldn't we be breaking somewhat's useful to us?  Wine casks or the like?</dd>
-
-<dt>Biron</dt>
-<dd><span class="action">gives a low based growl.</span> Your point?</dd>
-
-<dt>Willem</dt>
-<dd><span class="action">barks a quick laugh. </span> Wasn't no point.  I'm askin'.  If we're gonna be smashin' up our camp, why'nt we at least smashin the bits with the wine?</dd>
-
-<dt>Biron</dt>
-<dd>
-  <p class="action">huffs at Willem and turns to look at the house.</p>
-  <p>"not the thing to break"</p>
-  <p class="action">stands  slightly with his axe held tightly.</p>
-</dd>
-
-<dt>Willem</dt>
-<dd><span class="action">sighs deeply and moves to plant his halberd in the dirt and lean against it. </span> Never no feckin wine in this feckin outfit.  All right, I hear ya.  An what's the play to be, then?</dd>
-
-<dt>Biron</dt>
-<dd>
-  <p class="action">snarls and gives Willem a sharp look.</p>
-  <p class="action">stays silent a moment and looks back at the house.</p>
-  <p>"They should die"</p>
-  <p>Traitorous, honorless slugs.</p>
-</dd>
-
-<dt>Willem</dt>
-<dd>Oi."  Willem glares back.  "Don't with the growls.  Not at me.  I'm sayin'.  What's it to be now?  You've a hand'f soldiers besides ye, how should we be bringin' about those untimely demises?"</dd>
-
-<dt>Biron</dt>
-<dd><span class="action">keeps his eyes fixed on the house.</span> They should burn. All traitors burn.</dd>
-
-<dt>Willem</dt>
-<dd><span class="action">nods slowly.  "Right then.  Burnin' it is."  He follows Biron's gaze. </span> You usually make the plans here, or should we be askin' Ba for how to bring the burnin' to 'em?</dd>
-
-<dt>Biron</dt>
-<dd>
-  <p class="action">looks between the house and Willem. Clearly not having a plan and getting frustrated at the questions. Biron turns now to face Willem.</p>
-  <p>"Why are you even here"</p>
-  <p class="action">growls.</p>
-</dd>
-
-<dt>Sergeant-Bailiff Helia</dt>
-<dd>If anyone'll be burning   traitors, it'll be I.</dd>
+<dt>Helia</dt>
+<dd>If anyone'll be burning traitors, it'll be I.</dd>
 
 <dt>Biron</dt>
 <dd class="action">glances up at this comment. a little bit surprised but no less angry.</dd>
 </dl>
 
-<p>You are suprised by the sound Helia's voice, and you turn around to see the stern northerner accompanied by her surly bailiffs and Ba'Raknul, here to collect her dues.</p>
-
-<dl>
-<dt>Willem</dt>
-<dd>
-  <p class="action">looks away from the house to wave a lazy hand at the remnants of barrels.</p>
-  <p>Jes insurin' what ye don't break nothin' what comes back ter the resta...</p>
-</dd>
-</dl>
+<p>Biron is surprised by the sound Helia's voice, and turns around to see the stern northerner accompanied by her surly bailiffs and Ba'Raknul, here to collect her dues.</p>
 
 <p>Meanwhile, Quinn and Orin emerge from the scullery door of Larke's manor house, dragging Eggard between them.</p>
 
 <dl>
-<dt>Corporal Eggard</dt>
+<dt>Eggard</dt>
 <dd>Where are you taking me?</dd>
 
 <dt>Orin</dt>
@@ -138,7 +83,7 @@ publish: unlisted
 <dt>Orin</dt>
 <dd class="action">holds Eggard's pack tightly in their opposite hand.</dd>
 
-<dt>Corporal Eggard</dt>
+<dt>Eggard</dt>
 <dd>
   <p class="action">looks from Quinn to Orin, searching for the lie in their faces.</p>
   <p>You're joking?</p>
@@ -153,14 +98,13 @@ publish: unlisted
 </dl>
 
 <aside>
-  <p>Morgan rolled a 23 for Orin's Perception check.</p>
 </aside>
 
 <dl>
 <dt>Quinn</dt>
 <dd>''No, joke none. Folk of honour us. That's what ya was promised. In fact, we aint none to turn ya out without the means of survival...'</dd>
 
-<dt>Corporal Eggard</dt>
+<dt>Eggard</dt>
 <dd>Means of... survival?</dd>
 
 <dt>Quinn</dt>
@@ -179,7 +123,7 @@ publish: unlisted
 <dt>Orin</dt>
 <dd class="action">holds Eggard tight and moves for the nearest gate.</dd>
 
-<dt>Corporal Eggard</dt>
+<dt>Eggard</dt>
 <dd class="action">eagerly takes the coins, tears forming in his eyes at the generosity.</dd>
 </dl>
 
@@ -203,9 +147,9 @@ publish: unlisted
 <dd class="action">stops and bends to adjust his boots, subtly looks behind him as he does so.</dd>
 </dl>
 
-<p>You spot a man, head completely hairless, sporting several elaborate piercings, rings and chains about his ears, trying to appear nonchalant.</p>
+<p>Quinn spots a man, head completely hairless, sporting several elaborate piercings, rings and chains about his ears, trying to appear nonchalant.</p>
 
-<p>He is clearly following you though.</p>
+<p>He is clearly following Quinn and Orin though.</p>
 
 <dl>
 <dt>Orin</dt>
@@ -221,7 +165,7 @@ publish: unlisted
 </dd>
 </dl>
 
-<p>You find yourselves now at  the row of  tents housing traders, catamites, and purveyors of dubious foods, that leads to the South Gate exit to the camp.</p>
+<p>Quinn and Orin find themselves at the row of tents housing traders, catamites, and purveyors of dubious foods, that leads to the South Gate exit to the camp.</p>
 
 <dl>
 <dt>Orin</dt>
@@ -241,8 +185,21 @@ publish: unlisted
   <p class="action">leads Eggard to the trader's tent.</p>
   <p>Eggard. No funny business. We may have set you free, but that just makes you a traitor to them. You want to get home in one piece, don't you?</p>
 </dd>
+</dl>
 
-<dt>Corporal Eggard</dt>
+<aside>
+  <p>Ric says, <q>Make a Stealth check for Orin please, and the pair of you roll initiative please.</q></p>
+  <p>Morgan rolled a 24 for Orin's Stealth check.</p>
+  <p>Morgan rolled a 6 for Orin's Initiative check.</p>
+  <p>Mark rolled a 14 for Quinn's Initiative check.</p>
+  <p>Liam says, <q>We’re about to see what Quinn can do!</q></p>
+  <p>Morgan says, <q>I think we should have surprise... 😛</q></p>
+  <p>Ric says, <q>Hmmm, he was ready for something so no surprise, but you are hidden so get advantage on your attack.</q></p>
+  <p>Morgan says, <q>'For the Folk!' is a Commonwealth cry!</q></p>
+</aside>
+
+<dl>
+<dt>Eggard</dt>
 <dd class="action">nods mutely.</dd>
 
 <dt>Orin</dt>
@@ -250,36 +207,24 @@ publish: unlisted
 
 <dt>Quinn</dt>
 <dd class="action">clears his throat, adjusts his trews slightly and heads with feigned confidence back the way they came towards the bald stranger.</dd>
-</dl>
 
-<aside>
-  <p>Morgan rolled a 24 for Orin's Stealth check.</p>
-</aside>
-
-<dl>
 <dt>Quinn</dt>
 <dd>
-  <p><span class="action">as he approaches he grins and nods slightly at the man</span> Scuse me guvner - don't spose ya could change some coin could ya?</p>
+  <p><span class="action">as he approaches he grins and nods slightly at the man</span> 'Scuse me guv'ner - don't s'pose ya could change some coin could ya?</p>
   <p class="action">fumbles around in his purse.</p>
 </dd>
 
-<dt>The mercenary</dt>
+<dt>Mercenary</dt>
 <dd class="action">licks his lips, pauses a moment, then goes for his sword.</dd>
 
 <dt>Orin</dt>
 <dd class="action">seeing Quinn has engaged the stranger, they duck out of the tent and run into the tents on the way to the South Gate.</dd>
 </dl>
 
-<aside>
-  <p>Morgan rolled a 6 for Orin's Initiative check.</p>
-</aside>
-
-<dl></dl>
-
-<p>Quinn gets the draw on the pierced mercenary. What does he do?</p>
+<p>Quinn gets the draw on the pierced mercenary.</p>
 
 <dl>
-<dt>The mercenary</dt>
+<dt>Mercenary</dt>
 <dd>FOR THE FOLK!</dd>
 
 <dt>Quinn</dt>
@@ -289,7 +234,13 @@ publish: unlisted
 <dd><span class="action">mutters</span> Ye ain't coming closer guv'nor.</dd>
 </dl>
 
-<p>Your arrow strikes the pierced mercenary in the left shoulder, knocking him back slightly. Unfortunately, he seems un-fazed by your menacing attack and proceeds to draw his sword and approach you.</p>
+<aside>
+  <p>Mark rolled a 26 for Quinn's Longbow attack using his menacing attack maneuver, dealing 14 piercing damage.</p>
+  <p>Ric says, <q>Do you want to do anything else on Quinn's turn?</q></p>
+  <p>Mark says, <q>Just move back 30 feet.</q></p>
+</aside>
+
+<p>Quinn's arrow strikes the pierced mercenary in the left shoulder, knocking him back slightly. Unfortunately, he seems un-fazed by the attack and proceeds to draw his sword and approach.</p>
 
 <dl>
 <dt>Quinn</dt>
@@ -316,7 +267,7 @@ publish: unlisted
 <dd><span class="action">screams</span> I didn't mean nuffin' by it!</dd>
 </dl>
 
-<p>A bolt shoots and lands at your feet Quinn, burying itself in the hard soil up to the feathers. You dread to think what it would've done if it had hit your body!</p>
+<p>A bolt shoots and lands at Quinn's feet, burying itself in the hard soil up to the feathers. Quinn pauses momentarily to wonder what it would've done if it had hit his body!</p>
 
 <dl>
 <dt>Quinn</dt>
@@ -324,12 +275,12 @@ publish: unlisted
 </dl>
 
 <aside>
-  <p>Mark rolled a 13 for Quinn Wheatsteal's Longbow check.</p>
+  <p>Mark rolled a 15 for Quinn Wheatsteal's Longbow attack.</p>
 </aside>
 
 <dl></dl>
 
-<p>Your longbow shoots true, but hits the wood of the cart the mercenary is hiding behind. He gets a face full of wood splinters, but is otherwise unharmed.</p>
+<p>Quinn's longbow shoots true, but hits the wood of the cart the mercenary is hiding behind. He gets a face full of wood splinters, but is otherwise unharmed.</p>
 
 <dl>
 <dt>Quinn</dt>
@@ -352,7 +303,7 @@ publish: unlisted
 
 <dl></dl>
 
-<p>The pierced mercenary is too preoccupied to notice you as you causally saunter to the gate. You find yourselves standing outside the camp, the blasted waste of the Front spread out before you.</p>
+<p>The pierced mercenary is too preoccupied to notice Orin as they causally saunter to the gate. They find themselves standing outside the camp, the blasted waste of the Front spread out before them.</p>
 
 <dl>
 <dt>Orin</dt>
@@ -361,23 +312,23 @@ publish: unlisted
   <p>I have to go help my friend.</p>
 </dd>
 
-<dt>Corporal Eggard</dt>
+<dt>Eggard</dt>
 <dd>
   <p class="action">seems to pause a moment, looking back into the camp with what seems to be longing... almost as though he was being dragged back by... something.</p>
   <p class="action">turns to Orin.</p>
-  <p>Come with me! Fuck the three kings, and fuck this war!</p>
+  <p>Come with me! Fuck the Three Kings, and fuck this war!</p>
 </dd>
 
 <dt>Orin</dt>
-<dd>Believe me, I'm thinking about it. But I'm not ready for that yet. I don't know how to live on the lamb. You've got your writ, but not me.</dd>
+<dd>Believe me, I'm thinking about it. But I'm not ready for that yet. I don't know how to live on the lamb. You've got that writ, but not me.</dd>
 
-<dt>Corporal Eggard</dt>
+<dt>Eggard</dt>
 <dd class="action">nods, and then runs off.</dd>
 
 <dt>Orin</dt>
 <dd>Run!</dd>
 
-<dt>Corporal Eggard</dt>
+<dt>Eggard</dt>
 <dd>They'll win, you know!</dd>
 
 <dt>Orin</dt>
@@ -403,19 +354,14 @@ publish: unlisted
 <dt>Quinn</dt>
 <dd><span class="action">shouts</span> Don't mind us, none!</dd>
 
-<dt>The mercenary</dt>
+<dt>Mercenary</dt>
 <dd>
   <p class="action">moves closer, darting between running camp followers and ducks behind a pile of crates closer to Quinn's position.</p>
   <p>From his hiding place he fires another bolt at Quinn's head.</p>
 </dd>
-
-<dt>Willem</dt>
-<dd class="action">looks wide-eyed from Ba to Helia, then to the sounds of the screams.</dd>
 </dl>
 
-<p>Quinn is too well covered, and the bolt harmlessly shatters the wheel of the wagon you're hiding behind.</p>
-
-<p>*he's</p>
+<p>Quinn is too well covered, and the bolt harmlessly shatters the wheel of the wagon he's hiding behind.</p>
 
 <dl>
 <dt>Quinn</dt>
@@ -423,45 +369,35 @@ publish: unlisted
 </dl>
 
 <aside>
-  <p>Mark rolled a 23 for Quinn Wheatsteal's Longbow check.</p>
+  <p>Mark rolled a 25 for Quinn Wheatsteal's Longbow attack, dealing 12 piercing damage.</p>
 </aside>
-
-<dl></dl>
 
 <p>The arrow strikes the pierced traitor in the right shoulder this time, sending him spinning.</p>
 
 <dl>
-<dt>The mercenary</dt>
+<dt>Mercenary</dt>
 <dd>Shit, shit!</dd>
 </dl>
 
-<p>He's clearly very afeared of your fine arim.</p>
+<p>He's clearly very afeared of Quinn's fine aim.</p>
 
 <dl>
 <dt>Quinn</dt>
 <dd class="action">crouches back behind the wagon.</dd>
-</dl>
 
-<p>*aim</p>
-
-<dl>
 <dt>Orin</dt>
 <dd>
   <p class="action">slides between tents, positioning themself so that the commonwealth spy is clear in their view.</p>
   <p class="action">jumps out, arrow knocked and shoots, shouting...</p>
+  <p>COMMONWEALTH TRAITOR!</p>
 </dd>
 </dl>
 
 <aside>
-  <p>Morgan rolled a 16 for Orin's Shortbow check.</p>
+  <p>Morgan rolled a 16 for Orin's Shortbow attack, dealing 11 piercing damage.</p>
 </aside>
 
-<dl>
-<dt></dt>
-<dd>COMMONWEALTH TRAITOR!</dd>
-</dl>
-
-<p>Your arrow strikes true, hitting the traitor in the side of his face, sending shattered pieces of gold chains and rings of his piercings flying, as well as his jaw.</p>
+<p>Quinn's arrow strikes true, hitting the traitor in the side of his face, sending shattered pieces of gold chains and rings of his piercings flying, as well as his jaw.</p>
 
 <p>He slumps to the ground, dead.</p>
 
@@ -500,7 +436,7 @@ publish: unlisted
 <dd><span class="action">shrugs</span> ... ain't like no-one will be squealing about this as we speak anyway I figure.</dd>
 </dl>
 
-<p>You collect what looks like about two gold pieces worth of shattered gold rings and chain piercings.</p>
+<p>Quinn collects what looks like about two gold pieces worth of shattered gold rings and chain piercings.</p>
 
 <dl>
 <dt>Quinn</dt>
@@ -510,19 +446,15 @@ publish: unlisted
 <dd class="action">grabs the shoulders and leads them toward the manor.</dd>
 </dl>
 
-<p>It is not an unusual sight to see dead bodies being carried through the camp, so you barely get a second glance before you arrive at Larke's House just a second before Helia and Ba'Raknul show up.</p>
+<p>It is not an unusual sight to see dead bodies being carried through the camp, so the pair of fetches barely get a second glance before they arrive at Larke's House just a second after Helia and Ba'Raknul show up.</p>
 
 <dl>
-<dt>Sergeant-Bailiff Helia</dt>
+<dt>Helia</dt>
 <dd>
   <p class="action">turns to Quinn and Orin.</p>
   <p>Corporal Ba'Raknul, what is this?</p>
 </dd>
-</dl>
 
-<p>*seconds after</p>
-
-<dl>
 <dt>Ba'Raknul</dt>
 <dd class="action">looks at the two and to the man.</dd>
 
@@ -547,7 +479,7 @@ publish: unlisted
 <dt>Orin</dt>
 <dd>This one got in our way and stopped us from catching him.</dd>
 
-<dt>Sergeant-Bailiff Helia</dt>
+<dt>Helia</dt>
 <dd>
   <p class="action">shrugs.</p>
   <p>Eggard won't get far.</p>
@@ -565,26 +497,20 @@ publish: unlisted
   <p>Don't fret ye none - we're fine.</p>
 </dd>
 
-<dt>Sergeant-Bailiff Helia</dt>
+<dt>Helia</dt>
 <dd class="action">nods to two of her large, adult bailiffs who run off towards the South Gate.</dd>
 
 <dt>Biron</dt>
 <dd class="action">looks at Quinn like he is about ready to plant his axe deep into him.</dd>
 
-<dt>Willem</dt>
-<dd class="action">shifts to stand between Biron and Quinn, shaking his head with a resigned expression and fixing Quinn with a roll of the eyes.</dd>
-
 <dt>Orin</dt>
 <dd>Pardon us, Sergeant. We're all very shocked by catching these traitors. And four, now. Not just three!</dd>
 
-<dt>Sergeant-Bailiff Helia</dt>
-<dd class="action">looks between the five of you, warily, pushing her weight from one crutch to t;other.</dd>
-
-<dt>Willem</dt>
-<dd>"Who's the new stiff?"</dd>
+<dt>Helia</dt>
+<dd class="action">looks between the four of you, warily, pushing her weight from one crutch to t'other.</dd>
 
 <dt>Biron</dt>
-<dd class="action">growling at Willem, takes a step towards him. but not saying anything.</dd>
+<dd class="action">growls.</dd>
 
 <dt>Quinn</dt>
 <dd><span class="action">shakes one leg of the corpse</span> This one stopped us giving chase, so he did - then drew his blade on me! Was only my friend Orin saving me skin or it would be old Quinn being carried about stiff like. If ye take me meaning some.</dd>
@@ -595,23 +521,19 @@ publish: unlisted
   <p>Quinn and I... we almost caught him!</p>
 </dd>
 
-<dt>Sergeant-Bailiff Helia</dt>
-<dd class="action">raises a hand to stay you.</dd>
-
-<dt>Willem</dt>
-<dd>Ye can beat him bloody later," he leans in to whisper to Biron, though not so low that all present can't easily hear it, "just not when the officers is about like.</dd>
-
-<dt>Sergeant-Bailiff Helia</dt>
-<dd>I don't know what's really going on, and to be honest, I don't care. As long as I get some traitors.</dd>
+<dt>Helia</dt>
+<dd>
+  <p class="action">raises a hand to stay you.</p>
+  <p>I don't know what's really going on, and to be honest, I don't care. As long as I get some traitors.</p>
+  <p>Bring 'em out.</p>
+</dd>
 </dl>
-
-<p>Bring 'em out.</p>
 
 <dl>
 <dt>Orin</dt>
 <dd>Of course. Biron, would you help me?</dd>
 
-<dt>Dendo K.</dt>
+<dt>Ba'Raknul.</dt>
 <dd class="action">nods and gives a motion.</dd>
 
 <dt>Biron</dt>
@@ -621,7 +543,7 @@ publish: unlisted
 <dd class="action">already moving to the door.</dd>
 
 <dt>Biron</dt>
-<dd class="action">pushes Willem out of the way and walks into the mansion.</dd>
+<dd class="action">pushes a passing mercenary out of the way and walks into the mansion.</dd>
 
 <dt>Quinn</dt>
 <dd><span class="action">lowers the legs to the floor and stretches</span> That was quite disturbing. I'm quite shook so I am.</dd>
@@ -640,21 +562,31 @@ publish: unlisted
 
 <dt>Ba'Raknul</dt>
 <dd>
-  <p class="action">hears the comotion and goes back staying near.</p>
+  <p class="action">hears the commotion and goes back staying near.</p>
   <p>That was the plan Biron.</p>
 </dd>
 
 <dt>Orin</dt>
 <dd>I also set him up to get caught again immediately and burned a traitor, Biron.</dd>
+</dl>
 
-<dt>Willem</dt>
-<dd>Yeah who's the new body?  How'd you suss him ut?</dd>
+<aside>
+  <p>Chris says, <q>Biron wants to punch Orin, please.</q></p>
+  <p>Ric says, <q>Roll initiatives, please.</q></p>
+  <p>Morgan rolled a 12 for Orin's Initiative check.</p>
+  <p>Chris rolled a 17 for Biron's Initiative check.</p>
+  <p>Liam rolled a 7 for Ba' Raknul's Initiative check.</p>
+  <p>Mark rolled a 19 for Quinn's Initiative check.</p>
+  <p>Chris says, <q>I needed to fight someone tonight ha ha... sorry Morgan...</q></p>
+  <p>Morgan says, <q>LOL</q></p>
+  <p>Liam says, <q>Not gonna lie Ba is pissed.</q></p>
+  <p>Chris rolled a 12 for Biron's unarmed attack and misses.</p>
+  <p>Mark rolled a 7 for Quinn's Athletics check.</p>
+</aside>
 
+<dl>
 <dt>Biron</dt>
 <dd class="action">snarls and lifts Orin up off the ground enraged at this.</dd>
-
-<dt>Willem</dt>
-<dd>*out.</dd>
 
 <dt>Orin</dt>
 <dd>
@@ -668,8 +600,8 @@ publish: unlisted
   <p>If you start attacking your team mates you're as much a traitor as them.</p>
 </dd>
 
-<dt>Biron Shouts</dt>
-<dd class="action">with rage.</dd>
+<dt>Biron</dt>
+<dd class="action">shouts with rage.</dd>
 
 <dt>Ba'Raknul</dt>
 <dd>I'm done with this crap.</dd>
@@ -682,68 +614,28 @@ publish: unlisted
 </dl>
 
 <aside>
-  <p>Morgan rolled a 12 for Orin's Initiative check.</p>
-  <p>Chris rolled a 17 for Biron's Initiative check.</p>
-  <p>Liam rolled a 7 for Ba' Raknul's Initiative check.</p>
-  <p>Mark rolled a 12 for Quinn Wheatsteal's Initiative check.</p>
-  <p>Gaston rolled a 19 for Willem's Initiative check.</p>
-  <p>Chris rolled a 12 for Biron's Knuckle check.</p>
 </aside>
 
-<dl>
-<dt>Willem</dt>
-<dd>
-  <p class="action">lets his halberd clatter loudly to the floor, darting forwards to cast his arms out, trying to restrain the irate Biron.</p>
-  <p>No killin when there's officers about you daft bog fucker.</p>
-</dd>
-</dl>
-
-<aside>
-  <p>Gaston rolled a 7 for Willem's Athletics check.</p>
-</aside>
-
-<dl></dl>
-
-<p>Willem grabs Biron around the waist, stopping him in his tracks... although now Willem has an armful of northern berserker to contend with.</p>
+<p>Quinn grabs Biron around the waist, stopping him in his tracks... although now Quinn has an armful of northern berserker to contend with.</p>
 
 <dl>
 <dt>Biron</dt>
 <dd>
-  <p>Thats not right..</p>
-  <p>Im grappled.</p>
-  <p>Not restrained.</p>
-</dd>
-
-<dt>Willem</dt>
-<dd>
-  <p class="action">strains against Biron's bulk, trying to keep his arms at his sides.</p>
-  <p>Yer gonna get us all feckin hung you go on like this!</p>
-</dd>
-
-<dt>Biron</dt>
-<dd>
-  <p class="action">growls and Willem holding him but throws a punch at Orin.</p>
+  <p class="action">growls at Quinn but throws a punch at Orin.</p>
   <p class="action">misses and slams his hand into the wall. growls in anger but just drops Orin to the floor.</p>
-  <p class="action">stops his aggression. Though now glares at Willem holding his waist. Stares eye to eye.</p>
+  <p class="action">stops his aggression. Though now glares at Quinn holding his waist. Stares eye to eye.</p>
+</dd>
+<dt>Orin</dt>
+<dd>
+  <p class="action">slips out from between Biron and the Wall and hesitates, eyeing Biron's vulnerable bits before moving off near Ba.</p>
+  <p class="action">They stand, half looking away, heaving with their own sort of rage.</p>
 </dd>
 
-<dt>Willem</dt>
-<dd>Burn the feckin traitors, not yer feckin brothers."  Willem steps away, shaking his head.</dd>
-
-<dt>Biron</dt>
-<dd class="action">growls.</dd>
-
-<dt>Orin</dt>
-<dd class="action">slips out from between Biron and the Wall and hesitates, eyeing Biron's vulnerable bits before moving off near Ba.</dd>
-
-<dt>Orin They</dt>
-<dd class="action">stand, half looking away, heaving with their own sort of rage.</dd>
-
-<dt>Lieutenant Vins</dt>
+<dt>Vins</dt>
 <dd>ATTENTION!</dd>
 
-<dt>Ba' Raknul Stands</dt>
-<dd class="action">and Salutes.</dd>
+<dt>Ba' Raknul</dt>
+<dd class="action">stands and salutes.</dd>
 
 <dt>Quinn</dt>
 <dd class="action">half draws his rather fine looking rapier.</dd>
@@ -752,10 +644,10 @@ publish: unlisted
 <dd class="action">stands up tall.</dd>
 </dl>
 
-<p>You all turn as one to see the tall figure of Lieutenant Vins accompanied by a retinue of his most grizzled veterans. This tall man towers over you, his great, thick black beard hanging off his infamous even greater, hawk0-like nose.</p>
+<p>The party all turn as one to see the looming figure of Lieutenant Vins accompanied by a retinue of his most grizzled veterans. This tall man towers over them, his great, thick black beard hanging off his infamous even greater, hawk-like nose.</p>
 
 <dl>
-<dt>Lieutenant Vins</dt>
+<dt>Vins</dt>
 <dd>DROP YOUR WEAPONS!</dd>
 
 <dt>Biron</dt>
@@ -770,10 +662,7 @@ publish: unlisted
 <dt>Orin</dt>
 <dd class="action">continues to stand in place, heaving, hands empty.</dd>
 
-<dt>Willem</dt>
-<dd class="action">stands at attention, eyes darting from Ba to Vins and back again.</dd>
-
-<dt>Lieutenant Vins</dt>
+<dt>Vins</dt>
 <dd>
   <p class="action">turns to his men.</p>
   <p>Arrest them. Take them down to the cellar. We can court martial them after lunch.</p>
@@ -790,5 +679,12 @@ publish: unlisted
 </dl>
 
 <p>To be continued...</p>
+
+<p class="navigation">
+  <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
+  <a href="/black-griffin-session-39.html">&lt;previous</a> |
+  next &gt; |
+  last &gt;&gt;
+</p>
 
 </section>
