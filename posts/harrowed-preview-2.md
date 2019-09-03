@@ -1,6 +1,6 @@
 ---
 title: Corruption and Necrotic Injury
-date: 2019-07-25
+date: 2019-09-03
 collection: articles
 layout: post.hbs
 id: harrowed-preview-2
@@ -10,7 +10,9 @@ id: harrowed-preview-2
   <p class="caption"><a href="https://commons.wikimedia.org/wiki/File:Nuremberg_chronicles_-_Dance_of_Death_(CCLXIIIIv).jpg">The Dance of Death</a>, public domain image taken from the Nuremberg Chronicles.</p>
 </div>
 
-<p>Damage. It is at the heart of rules for <em>Dungeons &amp; Dragons</em>. Hit points are god. This is an excerpt from my forthcoming monograph, <em>The Harrowed</em> that expands on the variant rules for corruption, sanity and lingering injuries in Chapter 9 of the <em>Dungeon Master's Guide</em>.</p>
+<p>Damage. It is at the heart of rules for <em>Dungeons &amp; Dragons</em>. Hit points are God and I've been exploring how to make them more versatile.</p>
+
+<p>This is an excerpt from my forthcoming monograph, <em>The Harrowed</em> that expands on the variant rules for corruption, sanity and lingering injuries in Chapter 9 of the <em>Dungeon Master's Guide</em>.</p>
 
 <h3>Variant: Corruption</h3>
 
@@ -18,7 +20,7 @@ id: harrowed-preview-2
 
 <p>Once per turn, the DM can have a a player roll a d20 immediately after their character casts a 1st-9th level sorcerer, warlock or wizard spell. This does not include cantrips.</p>
 
-<p>On a roll of 1 their character takes necrotic damage. The damage taken is determined by the level of the spell slot used to cast the spell. See the table below. This may also result in a lingering necrotic injury (see page <ink-page-ref ref="lingering-necrotic-injuries"></ink-page-ref>).</p>
+<p>On a roll of 1 their character takes necrotic damage. The damage taken is determined by the level of the spell slot used to cast the spell. See the table below. This may also result in a lingering necrotic injury (see below).</p>
 
 <table id="corruption-damage-by-spell-slot-level">
   <caption></caption>
@@ -113,7 +115,7 @@ id: harrowed-preview-2
     </tr>
     <tr>
       <td class="number">14-16</td>
-      <td><strong>Psychic Lash.</strong> The necrotic damage lashes past your defences, corrupting your mind. Roll on the Lingering Psychic Injuries table instead (see page <ink-page-ref ref="lingering-psychic-injuries"></ink-page-ref>).</td>
+      <td><strong>Psychic Lash.</strong> The necrotic damage lashes past your defences, corrupting your mind. Roll on the Lingering Psychic Injuries table instead (see <a href="harrowed-preview-1.html">lingering psychic injuries</a>).</td>
     </tr>
     <tr>
       <td class="number">17-20</td>
