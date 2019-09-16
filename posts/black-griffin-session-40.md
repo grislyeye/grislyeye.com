@@ -7,7 +7,7 @@ id: black-griffin-session-40
 ---
 <p>In the <em>11th</em> instalment of <strong>Black Griffin</strong> in which the party partakes of a double-cross and buys themselves some time...</p>
 
-<p>This campaign diary taken from the <q>in-character</q> chat channel from session 38 of my ongoing playtest campaign, lightly polished and annotated.</p>
+<p>This campaign diary taken from the <q>in-character</q> chat channel from session 40 of my ongoing playtest campaign, lightly polished and annotated.</p>
 
 <p>Black Griffin is a play-by-chat game that runs every week on Roll20. The party are mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, they have been placed on punishment duty as company <q>fetches</q>: bounty hunters charged with capture of deserters for trial.</p>
 
@@ -23,8 +23,6 @@ id: black-griffin-session-40
 <img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
 
 <h5>Scene IX: The Hand Over</h5>
-
-<dl></dl>
 
 <p>When we last left our collection of curmudgeonly crooks, they had learned of a meeting of spies and turncoats: a mysterious game of cards played at midnight.</p>
 
