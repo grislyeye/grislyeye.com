@@ -4,7 +4,6 @@ date: 2019-09-16
 collection: articles
 layout: post.hbs
 id: black-griffin-session-41
-publish: unlisted
 ---
 <p>In the <em>12th</em> instalment of <strong>Black Griffin</strong> in which the party is court martialled fora assaulting an officer...</p>
 

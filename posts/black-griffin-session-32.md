@@ -15,7 +15,7 @@ id: black-griffin-session-32
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-31.html">&lt;previous</a> |
   <a href="/black-griffin-session-33.html">next &gt;</a> |
-  <a href="/black-griffin-session-40.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-41.html">last &gt;&gt;</a>
 </p>
 
 <img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
@@ -1359,7 +1359,7 @@ Morgan rolls 23 for Orin to hide in the shadows at the edge of camp.
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-31.html">&lt;previous</a> |
   <a href="/black-griffin-session-33.html">next &gt;</a> |
-  <a href="/black-griffin-session-40.html">last&gt;&gt;</a>
+  <a href="/black-griffin-session-41.html">last &gt;&gt;</a>
 </p>
 
 </section>

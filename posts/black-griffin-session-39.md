@@ -17,7 +17,7 @@ id: black-griffin-session-39
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-38.html">&lt;previous</a> |
   <a href="/black-griffin-session-40.html">next &gt;</a> |
-  <a href="/black-griffin-session-40.html">last &gt;&gt;</a>
+  <a href="/black-griffin-session-41.html">last &gt;&gt;</a>
 </p>
 
 <img src="images/black-griffin-encampment.png" alt="Black Griffin Encampment Map Preview">
@@ -1348,7 +1348,7 @@ Mark whispers to Ric, <q>So that was all the coins from the captives purse (minu
   <a href="/black-griffin-session-30.html">&lt;&lt; first</a> |
   <a href="/black-griffin-session-38.html">&lt;previous</a> |
   <a href="/black-griffin-session-40.html">next &gt;</a> |
-  <a href="/black-griffin-session-40.html">last &gt;&gt;</a>
+  <a href="/black-griffin-session-41.html">last &gt;&gt;</a>
 </p>
 
 </section>
