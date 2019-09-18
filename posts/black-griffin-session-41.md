@@ -431,7 +431,11 @@ publish: unlisted
 </dl>
 
 <aside>
+  <p>Ric says, <q>Mark, make a Persuasion check DC 13 for Quinn, please.</q></p>
   <p>Mark rolled a 3 for Quinn Wheatsteal's Persuasion check.</p>
+  <p>Mark says, <q>LOL</q></p>
+  <p>Morgan says, <q>Oh no...</q></p>
+  <p>Ric says, <q>Ouchie.</q></p>
 </aside>
 
 <dl>
@@ -454,9 +458,17 @@ publish: unlisted
 
 <dt>Agata</dt>
 <dd class="action">storms off.</dd>
+</dl>
 
+<aside>
+  <p>Ric says, <q>Ahem, Agata is actually a she 😜</q></p>
+  <p>Mark says, <q>Meh... was following everyone else calling her sir LOL.</q></p>
+  <p>Morgan says, <q>Technically, it's spelled 'ser' and it's a universal title.</q></p>
+</aside>
+
+<dl>
 <dt>Quinn</dt>
-<dd><span class="action">smiles to the others</span> Seemed like a reasonable woman.</dd>
+<dd><span class="action">smiles to the others</span> Seemed like a reasonable <span class="strike">man</span> woman.</dd>
 
 <dt>Ba'Raknul</dt>
 <dd class="action">head forward and silent now.</dd>
@@ -563,7 +575,9 @@ publish: unlisted
 </dl>
 
 <aside>
+  <p>Ric says, <q>Make a Persuasion check for Biron please, DC 10.</q></p>
   <p>Chris rolled a 6 for Biron's Persuasion check.</p>
+  <p>Morgan says, <q>Oh we're on fire tonight.</q></p>
 </aside>
 
 <dl>
@@ -612,6 +626,15 @@ publish: unlisted
 </dl>
 
 <p>With that they are unceremoniously dragged off. As they depart, one of Vins sycophantic sergeants starts gossiping. <q>I hear they're having a bumper harvest north of the border, while we eat scraps here...</q> Rget do not hear the rest as they are dragged out of the garden and taken outside, to the flogging square.</p>
+
+<aside>
+  <p>Ric says, <q>You are all <em>flogged</em>, gain a level of exhaustion. Also please deduct 10 gold pieces, you get to decide amongst you who pays?</q></p>
+  <p>Morgan says, <q>Orin will contribute 2gp.</q></p>
+  <p>Mark says, <q>I guess Quinn will contribute 5 (all his cash) as he is kinda to blame a bit LOL.</q></p>
+  <p>Morgan says, <q>He's genuinely not, you know.</q></p>
+  <p>Liam says, <q>Biron will do 5 and refuses to take Orin's. He is genuinely not. At all LOL.</q></p>
+  <p>Ric says, <q>But it shows good loyalty that he's willing to take some blame.</q></p>
+</aside>
 
 <p>We do not need to dwell on what happened there, except it happened for all in the camp to see.</p>
 
