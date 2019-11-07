@@ -117,3 +117,5 @@ id: black-griffin-preview-2
     </tr>
   </tbody>
 </table>
+
+<p>I was aiming to make these rules as simple and flexible as possible. I really like the fact they only use one roll. But I do worry they're a bit swingy: a temperate summer's day could be cold or hot from one day to the next. For anyone who has lived in the UK this may not seem strange, but not sure it's entirely realistic. Maybe the key is to make weather checks less frequent, perhaps once every other day. Or switch the summer weather die from a d8 to a d6+2.</p>
