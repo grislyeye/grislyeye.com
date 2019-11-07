@@ -55,11 +55,11 @@ id: black-griffin-preview-2
   <tbody>
     <tr>
       <td class="number">0 or less</td>
-      <td><strong>Very Cold.</strong> Make a DC 16 Constitution saving throw or take 1d10 cold damage per day exposed. There is a 1 in 4 chance there is a blizzard, in which case all Perception checks have disadvantage.</td>
+      <td><strong>Very Cold.</strong> Make a DC 16 Constitution saving throw or take 1d10 cold damage per day exposed. Roll with advantage if you’re wearing traveller’s clothes. There is a 1 in 4 chance there is a blizzard, in which case all Perception checks have disadvantage.</td>
     </tr>
     <tr>
       <td class="number">1-2</td>
-      <td><strong>Cold.</strong> Make a DC 13 Constitution saving throw or take 1d6 cold damage per day exposed. You can ignore this condition if you’re wearing traveller’s clothes. There is a 1 in 4 chance there is a storm, in which case all Perception checks have disadvantage.</td>
+      <td><strong>Cold.</strong> Make a DC 13 Constitution saving throw or take 1d6 cold damage per day exposed. Roll with advantage if you’re wearing traveller’s clothes. There is a 1 in 4 chance there is a storm, in which case all Perception checks have disadvantage.</td>
     </tr>
     <tr>
       <td class="number">3-4</td>
@@ -71,11 +71,11 @@ id: black-griffin-preview-2
     </tr>
     <tr>
       <td class="number">7-8</td>
-      <td><strong>Hot.</strong> Make a DC 13 Constitution per day exposed. If you fail your saving throw take 1 level of exhaustion. Make the saving throw with disadvantage if you’re wearing heavy armour. You can ignore this condition if you double your water rations.</td>
+      <td><strong>Hot.</strong> Make a DC 13 Constitution per day exposed. If you fail your saving throw take 1 level of exhaustion. Roll with advantage if you’re wearing traveller’s clothes. Make the saving throw with disadvantage if you’re wearing heavy armour. You can ignore this condition if you double your water rations.</td>
     </tr>
     <tr>
       <td class="number">9+</td>
-      <td><strong>Very Hot.</strong> Make a DC 16 Constitution per day exposed. If you fail your saving throw take 2 levels of exhaustion. Make the saving throw with disadvantage if you’re wearing heavy armour. You can ignore this condition if you triple your water rations. There is a 1 in 4 chance there is a storm, in which case all Perception checks have disadvantage.</td>
+      <td><strong>Very Hot.</strong> Make a DC 16 Constitution per day exposed. If you fail your saving throw take 2 levels of exhaustion. Roll with advantage if you’re wearing traveller’s clothes. Make the saving throw with disadvantage if you’re wearing heavy armour. You can ignore this condition if you triple your water rations. There is a 1 in 4 chance there is a storm, in which case all Perception checks have disadvantage.</td>
     </tr>
   </tbody>
 </table>
