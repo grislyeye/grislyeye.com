@@ -32,7 +32,7 @@ module.exports = function (grunt) {
       },
       metalsmith: {
         files: ['helpers/**', 'posts/**', 'layouts/**', "metalsmith.json"],
-        tasks: ['metalsmith:blog']
+        tasks: ['exec:metalsmith']
       },
       less: {
         files: ['main.less', 'assets/styles/**'],
@@ -109,58 +109,14 @@ module.exports = function (grunt) {
       src: 'dist/*.html'
     },
 
-    metalsmith: {
-      blog: {
-        src: './posts',
-        dest: './dist',
-        options: {
-          clean: false,
-          metadata: {},
-          plugins: {
-            'metalsmith-ignore': [
-              'posts/index.md'
-            ],
-            'metalsmith-markdown': {},
-            'metalsmith-path': {},
-            'metalsmith-publish': {},
-            'metalsmith-collections': {
-              articles: {
-                pattern: '*.md',
-                sortBy: 'date',
-                reverse: true,
-                limit: 5
-              }
-            },
-            'metalsmith-discover-partials': {
-              directory: 'layouts/partials'
-            },
-            'metalsmith-discover-helpers': {
-              directory: 'helpers'
-            },
-            'metalsmith-layouts': {
-              directory: 'layouts',
-              default: 'default.hbs'
-            },
-            'metalsmith-feed': {
-              collection: 'articles',
-              site_url : 'https://grislyeye.com'
-            },
-            'metalsmith-open-graph': {
-              siteurl: 'https://grislyeye.com',
-              title: '#title',
-              description: '.description',
-              image: '.og-image'
-            },
-            "metalsmith-redirect": {
-              "frontmatter": true
-            }
-          }
-        }
-      }
-    },
-
     htmllint: {
       all: ['dist/*.html']
+    },
+
+    exec: {
+      metalsmith: {
+        command: 'metalsmith'
+      }
     }
   });
 
@@ -172,11 +128,11 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-npmcopy');
-  grunt.loadNpmTasks('grunt-metalsmith');
   grunt.loadNpmTasks('grunt-html');
+  grunt.loadNpmTasks('grunt-exec');
 
   grunt.registerTask('test', ['htmllint'])
-  grunt.registerTask('build', ['metalsmith:blog', 'copy', 'less', 'cssmin', 'imagemin', 'npmcopy']);
+  grunt.registerTask('build', ['copy', 'less', 'cssmin', 'imagemin', 'npmcopy']);
   grunt.registerTask('default', ['build', 'test']);
-  grunt.registerTask('run', ['clean', 'build', 'connect', 'watch']);
+  grunt.registerTask('run', ['build', 'connect', 'watch']);
 };

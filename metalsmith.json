@@ -1,0 +1,43 @@
+{
+  "source": "./posts",
+  "destination": "./dist",
+  "clean": false,
+  "plugins": {
+    "metalsmith-ignore": [
+      "posts/index.html"
+    ],
+    "metalsmith-path": {},
+    "metalsmith-publish": {},
+    "metalsmith-collections": {
+      "articles": {
+        "pattern": "*.html",
+        "sortBy": "date",
+        "reverse": true,
+        "limit": 5
+      }
+    },
+    "metalsmith-discover-partials": {
+      "directory": "layouts/partials"
+    },
+    "metalsmith-discover-helpers": {
+      "directory": "helpers"
+    },
+    "metalsmith-layouts": {
+      "directory": "layouts",
+      "default": "default.hbs"
+    },
+    "metalsmith-feed": {
+      "collection": "articles",
+      "site_url": "https://grislyeye.com"
+    },
+    "metalsmith-open-graph": {
+      "siteurl": "https://grislyeye.com",
+      "title": "#title",
+      "description": ".description",
+      "image": ".og-image"
+    },
+    "metalsmith-redirect": {
+      "frontmatter": true
+    }
+  }
+}
