@@ -150,6 +150,9 @@ module.exports = function (grunt) {
               title: '#title',
               description: '.description',
               image: '.og-image'
+            },
+            "metalsmith-redirect": {
+              "frontmatter": true
             }
           }
         }

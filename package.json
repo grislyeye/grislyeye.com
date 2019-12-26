@@ -35,6 +35,7 @@
     "metalsmith-open-graph": "0.0.4",
     "metalsmith-path": "^0.3.1",
     "metalsmith-publish": "^0.1.5",
+    "metalsmith-redirect": "^3.0.3",
     "skeleton-less": "^2.0.1",
     "stylelint": "^12.0.1",
     "stylelint-config-standard": "^19.0.0"
