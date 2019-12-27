@@ -1,4 +1,4 @@
-#banner {
+.banner {
   padding-top: 1em;
   padding-bottom: 1em;
   margin-bottom: 1em;
@@ -21,16 +21,30 @@
   }
 }
 
-#banner .content {
+.banner .content {
   .container();
 }
 
-#banner strong {
+.banner strong {
   color: red;
 }
 
-#banner h1,
-#banner h2,
-#banner h3 {
+.banner h1,
+.banner h2,
+.banner h3 {
   text-align: center;
+}
+
+#top-banner {
+  display: none;
+}
+
+@media (@small) {
+  #top-banner {
+    display: block;
+  }
+}
+
+.banner .center {
+  margin: 30%;
 }
