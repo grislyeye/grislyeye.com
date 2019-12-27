@@ -21,21 +21,35 @@
   {{> header}}
 
   <main>
-    {{#if articles }}
-    {{#each articles }}
-    <article id="{{ id }}">
 
-      <header>
-        <h2><a href="/{{ path }}">{{ title }}</a></h2>
-      </header>
+    <aside id="sidebar">
+      <h4>Blog</h4>
 
-      <div class="content">
-        {{{ content path }}}
+      {{#if articles }}
+      <ul>
+      {{#each articles }}
+        <li><a href="/{{ path }}">{{ title }}</a></li>
+      {{/each}}
+      </ul>
+      {{/if}}
+    </aside>
+
+    <div class="content">
+      <h2>Products</h2>
+
+      <p>The following grisly monographs are available from the <strong><a href="https://www.dmsguild.com/browse.php?author=R.G.%20Wood">Dungeon Masters Guild</a></strong>:</p>
+
+      <div id="products">
+        {{#if products }}
+        {{#each products }}
+          <div class="product">
+            <a href="/{{ path }}"><img src="{{ image }}" alt="{{ title }}"></a>
+          </div>
+        {{/each}}
+        {{/if}}
       </div>
+    </div>
 
-    </article>
-    {{/each}}
-    {{/if}}
   </main>
 
   {{> footer}}

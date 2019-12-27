@@ -31,10 +31,42 @@ body > header > nav {
   }
 }
 
+body > main aside#sidebar {
+  width: 30%;
+  float: right;
+  padding-left: 5%;
+}
+
+body > main aside#sidebar img {
+  max-width: 100%;
+}
+
+body > main #products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+body > main #products div.product {
+  flex-shrink: 2;
+  width: 50%;
+}
+
+body > main #products div.product img {
+  width: 100%;
+  padding: 2.5%;
+}
+
 article {
   margin: 0;
-  width: 100%;
   margin-bottom: 2em;
+  overflow: auto;
+}
+
+@media (@small) {
+  body > main aside#sidebar {
+    display: none;
+  }
 }
 
 article header {

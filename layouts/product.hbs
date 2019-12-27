@@ -20,22 +20,12 @@
 
   {{> header}}
 
-  <main class="post">
+  <main>
+    <aside id="sidebar">
+    </aside>
 
     <article>
       <header>
-        <aside id="sidebar">
-          <h4>Products</h4>
-
-          {{#if products }}
-          {{#each products }}
-            <div class="product">
-              <a href="/{{ path }}"><img src="{{ image }}" alt="{{ title }}"></a>
-            </div>
-          {{/each}}
-          {{/if}}
-        </aside>
-
         <h2 id="title">{{ title }}</h2>
       </header>
 

@@ -31,7 +31,7 @@ module.exports = function (grunt) {
         livereload: true
       },
       metalsmith: {
-        files: ['helpers/**', 'posts/**', 'layouts/**', "metalsmith.json"],
+        files: ['posts/**', 'layouts/**', "metalsmith.json"],
         tasks: ['exec:metalsmith']
       },
       less: {
