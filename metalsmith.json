@@ -10,12 +10,18 @@
     "metalsmith-publish": {
       "draft": true
     },
+    "metalsmith-preview": {
+      "marker": {
+        "start": "{{ previewStart }}",
+        "end": "{{ previewEnd }}"
+      }
+    },
     "metalsmith-collections": {
       "articles": {
         "pattern": "*.html",
         "sortBy": "date",
         "reverse": true,
-        "limit": 5
+        "limit": 4
       }
     },
     "metalsmith-discover-partials": {

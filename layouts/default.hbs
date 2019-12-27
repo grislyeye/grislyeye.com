@@ -22,17 +22,14 @@
 
   <main>
 
-    <aside id="sidebar">
-      <h4>Blog</h4>
-
-      {{#if articles }}
-      <ul>
-      {{#each articles }}
-        <li><a href="/{{ path }}">{{ title }}</a></li>
-      {{/each}}
-      </ul>
-      {{/if}}
-    </aside>
+    {{#if articles }}
+      <aside id="sidebar">
+        {{#each articles }}
+          <h5><a href="/{{ path }}">Blog: {{ title }}</a></h5>
+          <p>{{ preview }} <a href="/{{ path }}">read more!</a></p>
+        {{/each}}
+      </aside>
+    {{/if}}
 
     <div class="content">
       <h2>Products</h2>
