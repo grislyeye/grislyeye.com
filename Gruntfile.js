@@ -105,10 +105,6 @@ module.exports = function (grunt) {
       }
     },
 
-    html5validate: {
-      src: 'dist/*.html'
-    },
-
     htmllint: {
       all: ['dist/*.html']
     },
