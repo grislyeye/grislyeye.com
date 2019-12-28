@@ -22,7 +22,6 @@
     "handlebars": "^4.5.3",
     "htmllint-cli": "0.0.7",
     "jstransformer-handlebars": "^1.1.0",
-    "markdownlint-cli": "^0.20.0",
     "metalsmith": "^2.3.0",
     "metalsmith-collections": "^0.9.0",
     "metalsmith-discover-partials": "^0.1.2",
@@ -44,7 +43,7 @@
     "deploy": "curl -X POST \"https://api.cloudflare.com/client/v4/zones/6576d55621fb5a1290106d65ff89aee3/purge_cache\" -H \"X-Auth-Email: ricardo@gladwell.me\"  -H \"X-Auth-Key: ${CLOUDFLARE_API_KEY}\" -H \"Content-Type:application/json\" --data '{\"purge_everything\":true}'",
     "clean": "grunt clean",
     "start": "metalsmith && grunt run",
-    "test": "markdownlint posts/*.html && htmllint posts/*.html && stylelint main.less assets/styles/*.less && grunt test",
+    "test": "htmllint posts/*.html && stylelint main.less assets/styles/*.less && grunt test",
     "postinstall": "bower install",
     "postupdate": "bower update"
   }
