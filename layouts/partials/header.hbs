@@ -5,7 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
+  {{#unless title}}
+  <title>Grisly Eye Games</title>
+  {{/unless}}
+
+  {{#if title}}
   <title>{{ title }} - Grisly Eye Games</title>
+  {{/if}}
 
   <link href="/main.min.css" rel="stylesheet" />
   <script src="/vendor/webcomponentsjs/webcomponents-loader.js" async></script>
