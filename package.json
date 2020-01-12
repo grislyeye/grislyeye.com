@@ -17,9 +17,9 @@
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-exec": "^3.0.0",
-    "grunt-html": "^12.0.0",
+    "grunt-html": "^12.1.0",
     "grunt-npmcopy": "^0.2.0",
-    "handlebars": "^4.5.3",
+    "handlebars": "^4.7.1",
     "htmllint-cli": "0.0.7",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
@@ -33,7 +33,7 @@
     "metalsmith-preview": "^1.0.6",
     "metalsmith-publish": "^0.1.5",
     "skeleton-less": "^2.0.1",
-    "stylelint": "^12.0.1",
+    "stylelint": "^13.0.0",
     "stylelint-config-standard": "^19.0.0"
   },
   "scripts": {
