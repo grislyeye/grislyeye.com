@@ -35,16 +35,12 @@
   text-align: center;
 }
 
-#top-banner {
-  display: none;
-}
-
-@media (@small) {
-  #top-banner {
-    display: block;
-  }
-}
-
 .banner .center {
-  margin: 30%;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.banner .center > * {
+  display: inline-block;
 }
