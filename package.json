@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "1.46.1",
+  "version": "1.46.2",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
     "modern-normalize": "^0.6.0"
@@ -19,7 +19,7 @@
     "grunt-exec": "^3.0.0",
     "grunt-html": "^12.1.0",
     "grunt-npmcopy": "^0.2.0",
-    "handlebars": "^4.7.1",
+    "handlebars": "^4.7.2",
     "htmllint-cli": "0.0.7",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
