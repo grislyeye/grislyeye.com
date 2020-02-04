@@ -7,6 +7,7 @@
   },
   "devDependencies": {
     "bower": "^1.8.8",
+    "broken-link-checker-local": "^0.2.1",
     "grunt": "^1.0.4",
     "grunt-cli": "^1.3.2",
     "grunt-contrib-clean": "^2.0.0",
@@ -44,7 +45,7 @@
     "deploy": "curl -X POST \"https://api.cloudflare.com/client/v4/zones/6576d55621fb5a1290106d65ff89aee3/purge_cache\" -H \"X-Auth-Email: ricardo@gladwell.me\"  -H \"X-Auth-Key: ${CLOUDFLARE_API_KEY}\" -H \"Content-Type:application/json\" --data '{\"purge_everything\":true}'",
     "clean": "grunt clean",
     "start": "metalsmith && grunt run",
-    "test": "htmllint posts/**/*.html && stylelint main.less assets/styles/*.less && grunt test",
+    "test": "htmllint posts/**/*.html && stylelint main.less assets/styles/*.less && blcl ./dist -ro && grunt test",
     "postinstall": "bower install",
     "postupdate": "bower update"
   }
