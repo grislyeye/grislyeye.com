@@ -3,6 +3,7 @@
   "destination": "./dist",
   "clean": false,
   "plugins": {
+    "metalsmith-packagejson": {},
     "metalsmith-ignore": [
       "posts/index.html"
     ],
