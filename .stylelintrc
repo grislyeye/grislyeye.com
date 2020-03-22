@@ -5,7 +5,7 @@
       "ignoreMediaFeatureNames": ["@small", "@medium"]
     }],
     "selector-type-no-unknown": [ true, {
-      "ignoreTypes": ["vellum-stat-block"]
+      "ignoreTypes": ["vellum-monster"]
     }]
   }
 }

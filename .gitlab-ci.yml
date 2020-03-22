@@ -8,8 +8,6 @@ before_script:
   - apt-get update
   - apt-get install --force-yes -y default-jre
   - npm install
-  - npm install -g bower
-  - bower install --allow-root
 
 pages:
   script:

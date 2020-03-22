@@ -8,19 +8,8 @@ module.exports = function (grunt) {
           {
             expand: true,
             cwd: 'assets/',
-            src: ['**', '!styles/**'],
+            src: ['**', '!styles/**', '!scripts/**'],
             dest: 'dist/'
-          }
-        ],
-      },
-      bower_components: {
-        files: [
-          {
-            expand: true,
-            follow: true,
-            cwd: 'bower_components/',
-            src: ['**'],
-            dest: 'dist/vendor/'
           }
         ],
       }
@@ -41,10 +30,6 @@ module.exports = function (grunt) {
       assets: {
         files: ['assets/**', '!assets/styles/**'],
         tasks: ['copy:assets', 'imagemin:assets']
-      },
-      bower_components: {
-        files: ['bower_components/**'],
-        tasks: ['copy:bower_components']
       }
     },
 

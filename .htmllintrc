@@ -38,7 +38,7 @@
     "attr-no-dup": true,
     "attr-no-unsafe-char": true,
     "attr-order": false,
-    "attr-quote-style": "double",
+    "attr-quote-style": false,
     "attr-req-value": true,
     "attr-new-line": false,
     "attr-validate": true,
