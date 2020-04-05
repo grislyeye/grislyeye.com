@@ -1,10 +1,10 @@
 {
   "name": "grislyeye.com",
-  "version": "1.49.1",
+  "version": "1.49.2",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "modern-normalize": "^0.6.0",
-    "rollup": "^2.1.0",
+    "rollup": "^2.3.3",
     "rollup-plugin-node-resolve": "^5.2.0",
     "vellum-monster": "^0.15.2"
   },
@@ -16,13 +16,13 @@
     "grunt-contrib-connect": "^2.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-imagemin": "^3.1.0",
+    "grunt-contrib-imagemin": "^4.0.0",
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-exec": "^3.0.0",
     "grunt-html": "^13.0.0",
     "grunt-npmcopy": "^0.2.0",
-    "handlebars": "^4.7.3",
+    "handlebars": "^4.7.6",
     "htmllint-cli": "0.0.7",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
@@ -38,7 +38,7 @@
     "metalsmith-publish": "^0.1.5",
     "metalsmith-sitemap": "^1.2.2",
     "skeleton-less": "^2.0.1",
-    "stylelint": "^13.2.1",
+    "stylelint": "^13.3.0",
     "stylelint-config-standard": "^20.0.0"
   },
   "scripts": {
