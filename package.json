@@ -4,7 +4,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "modern-normalize": "^0.6.0",
-    "vellum-monster": "^0.15.2"
+    "vellum-monster": "^0.16.5"
   },
   "devDependencies": {
     "broken-link-checker-local": "^0.2.1",
@@ -18,7 +18,7 @@
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-exec": "^3.0.0",
-    "grunt-html": "^13.0.0",
+    "grunt-html": "^14.0.0",
     "grunt-npmcopy": "^0.2.0",
     "handlebars": "^4.7.6",
     "htmllint-cli": "0.0.7",
@@ -35,10 +35,10 @@
     "metalsmith-preview": "^1.0.6",
     "metalsmith-publish": "^0.1.5",
     "metalsmith-sitemap": "^1.2.2",
-    "rollup": "^2.6.1",
+    "rollup": "^2.7.6",
     "rollup-plugin-node-resolve": "^5.2.0",
     "skeleton-less": "^2.0.1",
-    "stylelint": "^13.3.2",
+    "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0"
   },
   "scripts": {
