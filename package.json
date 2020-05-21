@@ -4,7 +4,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "modern-normalize": "^0.6.0",
-    "vellum-monster": "^0.16.5"
+    "vellum-monster": "^1.0.0"
   },
   "devDependencies": {
     "broken-link-checker-local": "^0.2.1",
@@ -35,10 +35,10 @@
     "metalsmith-preview": "^1.0.6",
     "metalsmith-publish": "^0.1.5",
     "metalsmith-sitemap": "^1.2.2",
-    "rollup": "^2.7.6",
+    "rollup": "^2.10.5",
     "rollup-plugin-node-resolve": "^5.2.0",
     "skeleton-less": "^2.0.1",
-    "stylelint": "^13.3.3",
+    "stylelint": "^13.5.0",
     "stylelint-config-standard": "^20.0.0"
   },
   "scripts": {
