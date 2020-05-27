@@ -22,7 +22,7 @@
         "pattern": "*.html",
         "sortBy": "date",
         "reverse": true,
-        "limit": 4
+        "limit": 3
       }
     },
     "metalsmith-discover-partials": {
