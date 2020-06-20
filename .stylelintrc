@@ -2,7 +2,7 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "media-feature-name-no-unknown": [ true, {
-      "ignoreMediaFeatureNames": ["@small", "@medium"]
+      "ignoreMediaFeatureNames": ["@small", "@medium", "@large"]
     }],
     "selector-type-no-unknown": [ true, {
       "ignoreTypes": ["vellum-monster"]
