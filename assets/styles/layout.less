@@ -10,6 +10,12 @@ footer {
 
 body > main {
   overflow: auto;
+  display: flex;
+  flex-direction: row-reverse;
+
+  @media (@small) {
+    flex-direction: column-reverse;
+  }
 }
 
 body > header {
@@ -43,9 +49,12 @@ body > main .content figure.illustration img {
   min-width: 150px;
 }
 
+body > main > #content {
+  width: 70%;
+}
+
 body > main aside#sidebar {
   width: 30%;
-  float: right;
   padding-left: 5%;
 }
 
@@ -81,7 +90,8 @@ body > main aside#sidebar.products {
 
 @media (@small) {
   body > main aside#sidebar {
-    display: none;
+    width: 100%;
+    padding-left: 0;
   }
 }
 
