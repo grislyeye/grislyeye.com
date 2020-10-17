@@ -91,7 +91,7 @@ module.exports = function (grunt) {
     },
 
     htmllint: {
-      all: ['dist/products/*.html']
+      all: ['dist/*.html', 'dist/products/*.html']
     },
 
     exec: {
