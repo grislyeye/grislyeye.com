@@ -109,11 +109,9 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-npmcopy');
-  grunt.loadNpmTasks('grunt-html');
   grunt.loadNpmTasks('grunt-exec');
 
-  grunt.registerTask('test', ['htmllint'])
   grunt.registerTask('build', ['copy', 'less', 'cssmin', 'imagemin', 'npmcopy']);
-  grunt.registerTask('default', ['build', 'test']);
+  grunt.registerTask('default', ['build']);
   grunt.registerTask('run', ['build', 'connect', 'watch']);
 };

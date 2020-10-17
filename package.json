@@ -18,7 +18,6 @@
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-exec": "^3.0.0",
-    "grunt-html": "^14.2.0",
     "grunt-npmcopy": "^0.2.0",
     "handlebars": "^4.7.6",
     "htmllint-cli": "0.0.7",
@@ -47,6 +46,6 @@
     "deploy": "curl -X POST \"https://api.cloudflare.com/client/v4/zones/6576d55621fb5a1290106d65ff89aee3/purge_cache\" -H \"X-Auth-Email: ricardo@gladwell.me\"  -H \"X-Auth-Key: ${CLOUDFLARE_API_KEY}\" -H \"Content-Type:application/json\" --data '{\"purge_everything\":true}'",
     "clean": "grunt clean",
     "start": "metalsmith && grunt run",
-    "test": "htmllint posts/**/*.html && stylelint main.less assets/styles/*.less && blcl ./dist -ro --exclude '*reddit*' && grunt test"
+    "test": "htmllint posts/**/*.html dist/**/*.html && stylelint main.less assets/styles/*.less && blcl ./dist -ro --exclude '*reddit*'"
   }
 }
