@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "1.57.3",
+  "version": "1.58.0",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "modern-normalize": "^1.0.0",
@@ -34,7 +34,7 @@
     "metalsmith-preview": "^1.0.6",
     "metalsmith-publish": "^0.1.6",
     "metalsmith-sitemap": "^1.2.2",
-    "rollup": "^2.29.0",
+    "rollup": "^2.32.1",
     "rollup-plugin-node-resolve": "^5.2.0",
     "skeleton-less": "^2.0.1",
     "stylelint": "^13.7.2",
