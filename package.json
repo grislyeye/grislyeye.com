@@ -1,8 +1,8 @@
 {
   "name": "grislyeye.com",
-  "version": "1.59.2",
+  "version": "1.59.3",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "modern-normalize": "^1.0.0",
     "vellum-monster": "^1.0.3"
   },
@@ -34,10 +34,10 @@
     "metalsmith-preview": "^1.0.6",
     "metalsmith-publish": "^0.1.6",
     "metalsmith-sitemap": "^1.2.2",
-    "rollup": "^2.36.1",
+    "rollup": "^2.37.1",
     "rollup-plugin-node-resolve": "^5.2.0",
     "skeleton-less": "^2.0.1",
-    "stylelint": "^13.8.0",
+    "stylelint": "^13.9.0",
     "stylelint-config-standard": "^20.0.0"
   },
   "scripts": {
