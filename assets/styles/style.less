@@ -34,6 +34,11 @@ h5 a {
   text-decoration: none;
 }
 
+body > header * {
+  color: white;
+  text-decoration: none;
+}
+
 body > header a {
   color: white;
   text-decoration: none;
@@ -44,10 +49,17 @@ body > header a:hover {
   text-decoration: none;
 }
 
-body > header h1.title {
+body > header .title {
   font-size: 4em;
   font-weight: bold;
   margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+body > header .subtitle {
+  margin-left: -6em;
+  font-size: 1.5em;
+  margin-top: -2em;
   margin-bottom: 2rem;
 }
 
@@ -91,6 +103,10 @@ body > header nav ul.links li {
     font-size: 3em;
     display: block;
     text-align: center;
+  }
+
+  .subtitle {
+    display: none;
   }
 
   h2 {

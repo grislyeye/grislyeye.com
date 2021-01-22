@@ -25,9 +25,10 @@ body > header {
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 0.5em;
+  margin-bottom: 3em;
 }
 
-body > header > .title {
+body > header > * {
   align-self: center;
 }
 
@@ -107,20 +108,37 @@ body > main aside#sidebar.products {
   }
 }
 
-body > main #products {
+body > main #articles {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-body > main #products div.product {
+body > main #articles div.article {
   flex-shrink: 2;
-  width: 50%;
+  width: 46%;
 }
 
-body > main #products div.product img {
+body > main #articles div.article img {
   width: 100%;
   padding: 2.5%;
+}
+
+@media (@medium) {
+  body > main #articles {
+    display: block;
+  }
+
+  body > main #articles div.article {
+    width: 100%;
+  }
+}
+
+@media (@small) {
+  body > main #articles div.article h4 {
+    text-align: center;
+  }
 }
 
 .stat-block {

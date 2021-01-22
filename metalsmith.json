@@ -22,7 +22,12 @@
         "pattern": "*.html",
         "sortBy": "date",
         "reverse": true,
-        "limit": 3
+        "limit": 12
+      },
+      "products": {
+        "pattern": "products/*.html",
+        "sortBy": "date",
+        "limit": 5
       }
     },
     "metalsmith-discover-partials": {
