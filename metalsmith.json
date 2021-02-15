@@ -45,7 +45,7 @@
       "siteurl": "https://grislyeye.com",
       "title": "#title",
       "description": ".description",
-      "image": ".og-image"
+      "image": "image"
     },
     "metalsmith-sitemap": {
       "hostname": "https://grislyeye.com"
