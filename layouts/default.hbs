@@ -21,6 +21,11 @@
         {{#each articles }}
           <div class="article">
             <h4><a href="/{{ path }}">{{ title }}</a></h4>
+
+            {{#if image}}
+              <img src="{{ image }}" class="preview">
+            {{/if}}
+
             <p>{{ preview }} <a href="/{{ path }}">read more!</a></p>
           </div>
         {{/each}}
