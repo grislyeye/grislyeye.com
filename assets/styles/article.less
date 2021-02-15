@@ -1,0 +1,26 @@
+
+body > main #articles div.article {
+  flex-shrink: 2;
+  width: 46%;
+}
+
+body > main #articles div.article img {
+  width: 100%;
+  padding: 2.5%;
+}
+
+@media (@medium) {
+  body > main #articles {
+    display: block;
+  }
+
+  body > main #articles div.article {
+    width: 100%;
+  }
+}
+
+@media (@small) {
+  body > main #articles div.article h4 {
+    text-align: center;
+  }
+}
