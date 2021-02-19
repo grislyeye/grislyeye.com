@@ -1,0 +1,41 @@
+.illustration {
+  max-width: 250px;
+  float: right;
+  padding-left: 1em;
+}
+
+.large.illustration {
+  max-width: 500px;
+}
+
+.illustration p.caption {
+  font-size: smaller;
+  font-style: italic;
+}
+
+.illustration img {
+  width: 100%;
+}
+
+.illustration.outlined img {
+  border: solid;
+}
+
+.illustration.full-width {
+  width: 100%;
+  float: none;
+  max-width: 100%;
+  padding-right: 1em;
+}
+
+.illustration.full-width img {
+  width: 100%;
+}
+
+@media (@small) {
+  .illustration {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+}
