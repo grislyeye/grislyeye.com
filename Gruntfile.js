@@ -29,7 +29,7 @@ module.exports = function (grunt) {
       },
       assets: {
         files: ['assets/**', '!assets/styles/**'],
-        tasks: ['copy:assets', 'imagemin:assets']
+        tasks: ['copy:assets']
       }
     },
 
@@ -49,17 +49,6 @@ module.exports = function (grunt) {
           src: ['*.css', '!*.min.css'],
           dest: 'dist',
           ext: '.min.css'
-        }]
-      }
-    },
-
-    imagemin: {
-      assets: {
-        files: [{
-          expand: true,
-          cwd: 'dist/images',
-          src: ['**/*.{png,jpg,gif,svg, ico}'],
-          dest: 'dist/images'
         }]
       }
     },
@@ -105,13 +94,12 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-npmcopy');
   grunt.loadNpmTasks('grunt-exec');
 
-  grunt.registerTask('build', ['copy', 'less', 'cssmin', 'imagemin', 'npmcopy']);
+  grunt.registerTask('build', ['copy', 'less', 'cssmin', 'npmcopy']);
   grunt.registerTask('default', ['build']);
   grunt.registerTask('run', ['build', 'connect', 'watch']);
 };
