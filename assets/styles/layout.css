@@ -1,11 +1,15 @@
-@import "node_modules/skeleton-less/less/skeleton";
-@import "media_queries";
+@import "/vendor/skeleton/skeleton.css";
 
-body > header,
 article,
-main,
-footer {
-  .container();
+body > header,
+footer,
+main {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 body > main {
@@ -13,7 +17,7 @@ body > main {
   display: flex;
   flex-direction: row-reverse;
 
-  @media (@small) {
+  @media (max-width: 500px) {
     flex-direction: column-reverse;
   }
 }
@@ -40,7 +44,7 @@ body > header > nav > * {
   display: inline;
 }
 
-@media (@medium) {
+@media (max-width: 800px) {
   body > header > nav {
     display: none;
   }
@@ -49,7 +53,7 @@ body > header > nav > * {
 body > main > #content {
   width: 70%;
 
-  @media (@small) {
+  @media (max-width: 500px) {
     width: 100%;
   }
 }
@@ -84,7 +88,7 @@ body > main aside#sidebar h3 {
   text-align: center;
   display: none;
 
-  @media (@small) {
+  @media (max-width: 500px) {
     display: block;
   }
 }
@@ -97,7 +101,7 @@ body > main aside#sidebar.products {
   text-align: center;
 }
 
-@media (@small) {
+@media (max-width: 500px) {
   body > main aside#sidebar {
     width: 100%;
     padding-left: 0;
@@ -145,7 +149,7 @@ body > main #articles {
   left: 0;
 }
 
-@media (@medium) {
+@media (max-width: 800px) {
   .stat-block {
     position: static;
   }

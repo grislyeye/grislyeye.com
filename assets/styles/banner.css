@@ -6,25 +6,31 @@
   width: 100%;
   color: black;
   clear: left;
+}
 
-  form {
-    text-align: center;
+.ribbon form {
+  text-align: center;
 
-    input {
-      margin: 0.2em;
-    }
+  input {
+    margin: 0.2em;
+  }
 
-    input[type='email'] {
-      color: black;
-      font-family: 'Alegreya', serif;
-    }
+  input[type='email'] {
+    color: black;
+    font-family: 'Alegreya', serif;
   }
 }
 
 .ribbon .content {
-  .container();
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 5em;
+  padding-right: 5em;
+  box-sizing: border-box;
 
-  @media (@large) {
+  @media (min-width: 800px) {
     padding-left: 5em;
     padding-right: 5em;
   }

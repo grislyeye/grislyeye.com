@@ -8,7 +8,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             cwd: 'assets/',
-            src: ['**', '!styles/**', '!scripts/**'],
+            src: ['**', '!scripts/**'],
             dest: 'dist/'
           }
         ],
@@ -23,33 +23,9 @@ module.exports = function (grunt) {
         files: ['posts/**', 'layouts/**', "metalsmith.json"],
         tasks: ['exec:metalsmith']
       },
-      less: {
-        files: ['main.less', 'assets/styles/**'],
-        tasks: ['less', 'cssmin']
-      },
       assets: {
-        files: ['assets/**', '!assets/styles/**'],
+        files: ['assets/**'],
         tasks: ['copy:assets']
-      }
-    },
-
-    less: {
-      dist: {
-        files: {
-          'dist/main.css': 'main.less'
-        }
-      }
-    },
-
-    cssmin: {
-      target: {
-        files: [{
-          expand: true,
-          cwd: 'dist',
-          src: ['*.css', '!*.min.css'],
-          dest: 'dist',
-          ext: '.min.css'
-        }]
       }
     },
 
@@ -74,7 +50,9 @@ module.exports = function (grunt) {
           destPrefix: 'dist/vendor'
         },
         files: {
-          'fontawesome/fonts': '@fortawesome/fontawesome-free/webfonts'
+          'fontawesome': '@fortawesome/fontawesome-free',
+          'skeleton': 'skeleton-css/css/skeleton.css',
+          'modern-normalize': 'modern-normalize'
         }
       }
     },
@@ -92,14 +70,12 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-less');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-npmcopy');
   grunt.loadNpmTasks('grunt-exec');
 
-  grunt.registerTask('build', ['copy', 'less', 'cssmin', 'npmcopy']);
+  grunt.registerTask('build', ['copy', 'npmcopy']);
   grunt.registerTask('default', ['build']);
   grunt.registerTask('run', ['build', 'connect', 'watch']);
 };

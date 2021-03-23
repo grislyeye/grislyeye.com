@@ -1,5 +1,5 @@
-@import "assets/styles/layout";
-@import "assets/styles/style";
+@import "layout.css";
+@import "style.css";
 
 #flawed-potion-illustration.illustration {
   max-width: 150px;

@@ -8,7 +8,7 @@ body > main #articles div.article {
   padding: 0.5em;
 }
 
-@media (@medium) {
+@media (max-width: 800px) {
   body > main #articles {
     display: block;
   }
@@ -32,7 +32,7 @@ body > main #articles div.article h4 a {
   color: white;
 }
 
-@media (@small) {
+@media (max-width: 500px) {
   body > main #articles div.article h4 {
     text-align: center;
   }
