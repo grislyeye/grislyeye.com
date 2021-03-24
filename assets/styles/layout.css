@@ -16,8 +16,10 @@ body > main {
   overflow: auto;
   display: flex;
   flex-direction: row-reverse;
+}
 
-  @media (max-width: 500px) {
+@media (max-width: 500px) {
+  body > main {
     flex-direction: column-reverse;
   }
 }
@@ -52,8 +54,10 @@ body > header > nav > * {
 
 body > main > #content {
   width: 70%;
+}
 
-  @media (max-width: 500px) {
+@media (max-width: 500px) {
+  body > main > #content {
     width: 100%;
   }
 }
@@ -86,10 +90,11 @@ body > main aside#sidebar {
 body > main aside#sidebar h3 {
   max-width: 100%;
   text-align: center;
-  display: none;
+}
 
-  @media (max-width: 500px) {
-    display: block;
+@media (max-width: 500px) {
+  body > main aside#sidebar h3 {
+    display: none;
   }
 }
 

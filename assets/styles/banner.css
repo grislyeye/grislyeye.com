@@ -29,8 +29,10 @@
   padding-left: 5em;
   padding-right: 5em;
   box-sizing: border-box;
+}
 
-  @media (min-width: 800px) {
+@media (min-width: 800px) {
+  .ribbon .content {
     padding-left: 5em;
     padding-right: 5em;
   }
