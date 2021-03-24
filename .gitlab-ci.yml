@@ -12,7 +12,7 @@ before_script:
 pages:
   script:
   - npm run build
-  - mv dist public
+  - mv _site public
   artifacts:
     paths:
     - public
