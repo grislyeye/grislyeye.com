@@ -30,8 +30,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addCollection("publishedArticles", function(collectionApi) {
-    // console.log(collectionApi
-    //   .getFilteredByTags("articles"))
     return collectionApi
       .getFilteredByTags("articles")
       .filter(article => !article.data.tags.includes("draft"));
