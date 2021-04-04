@@ -1,6 +1,6 @@
 const cheerio = require('cheerio');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-
+const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 module.exports = function(eleventyConfig) {
 
@@ -28,6 +28,12 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(pluginRss);
+
+  eleventyConfig.addPlugin(sitemap, {
+    sitemap: {
+      hostname: "https://grislyeye.com",
+    },
+  });
 
   eleventyConfig.addCollection("publishedArticles", function(collectionApi) {
     return collectionApi

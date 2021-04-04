@@ -3,6 +3,7 @@
   "version": "2.0.1",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
+    "@quasibit/eleventy-plugin-sitemap": "^2.0.5",
     "modern-normalize": "^1.0.0",
     "skeleton-css": "^2.0.4",
     "vellum-monster": "^1.0.3"
