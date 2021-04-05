@@ -12,7 +12,7 @@
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "cheerio": "^1.0.0-rc.5",
-    "htmllint-cli": "^0.0.4",
+    "htmlhint": "^0.14.2",
     "linkinator": "^2.13.6",
     "rollup": "^2.42.4",
     "rollup-plugin-node-resolve": "^5.2.0",
@@ -24,6 +24,6 @@
     "deploy": "curl -X POST \"https://api.cloudflare.com/client/v4/zones/6576d55621fb5a1290106d65ff89aee3/purge_cache\" -H \"X-Auth-Email: ricardo@gladwell.me\"  -H \"X-Auth-Key: ${CLOUDFLARE_API_KEY}\" -H \"Content-Type:application/json\" --data '{\"purge_everything\":true}'",
     "clean": "rm -fr _site",
     "start": "eleventy --serve",
-    "test": "htmllint posts/**/*.html && stylelint assets/styles/*.css && npx linkinator ./_site -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)' --verbosity debug"
+    "test": "htmlhint '_site/**/*.html' && stylelint assets/styles/*.css && npx linkinator ./_site -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)' --verbosity debug"
   }
 }

@@ -27,7 +27,7 @@
             <h4><a href="{{ this.url }}">{{ data.title }}</a></h4>
 
             {{#if data.image}}
-              <img src="{{ data.image }}" class="preview">
+              <img src="{{ data.image }}" alt="{{ data.title }}" class="preview">
             {{/if}}
 
             <p>{{{ preview data.content }}}... <a href="{{ this.url }}">read more!</a></p>
