@@ -1,6 +1,7 @@
 const cheerio = require('cheerio');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
+const pluginSEO = require("eleventy-plugin-seo");
 
 module.exports = function(eleventyConfig) {
 
@@ -29,6 +30,11 @@ module.exports = function(eleventyConfig) {
     sitemap: {
       hostname: "https://grislyeye.com",
     },
+  });
+
+  eleventyConfig.addPlugin(pluginSEO, {
+    title: "The Grisly Eye",
+    author: "R.G. Wood"
   });
 
   eleventyConfig.addCollection("publishedArticles", function(collectionApi) {
