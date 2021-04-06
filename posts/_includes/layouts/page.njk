@@ -1,4 +1,4 @@
-  {{> header}}
+  {% include "header.njk" %}
 
   <main class="post">
 
@@ -8,14 +8,14 @@
       </header>
 
       <div class="content">
-        {{{ content }}}
+        {{ content | safe }}
       </div>
 
     </article>
   </main>
 
-  {{> footer}}
-  {{> analytics}}
+  {% include "footer.njk" %}
+  {% include "analytics.html" %}
 
 </body>
 </html>

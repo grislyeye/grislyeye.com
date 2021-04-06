@@ -1,0 +1,42 @@
+  {% include "../header.njk" %}
+
+  <main>
+
+    {% if collections.products %}
+      <aside id="sidebar">
+
+        <h3>Buy Now</h3>
+
+        {% for product in collections.products %}
+          <div class="product">
+            <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}"></a>
+          </div>
+        {% endfor %}
+
+      </aside>
+    {% endif %}
+
+    <div id="content" class="content">
+      <div id="articles">
+        {% for article in collections.publishedArticles | reverse | limit(12) %}
+          <div class="article">
+
+            <h4><a href="{{ article.url }}">{{ article.data.title }}</a></h4>
+
+            {% if article.data.image %}
+              <img src="{{ article.data.image }}" alt="{{ article.data.title }}" class="preview">
+            {% endif %}
+
+            <p>{{ article.data.content | preview }}... <a href="{{ article.url }}">read more!</a></p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </main>
+
+  {% include "footer.njk" %}
+  {% include "analytics.html" %}
+
+</body>
+</html>

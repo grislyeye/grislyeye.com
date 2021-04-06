@@ -14,15 +14,11 @@ module.exports = function(eleventyConfig) {
     }
   );
 
-  eleventyConfig.addHandlebarsHelper("reverse", function (arr) {
-    arr.reverse();
+  eleventyConfig.addFilter("limit", function (arr, limit) {
+    return arr.slice(0, limit);
   });
 
-  eleventyConfig.addHandlebarsHelper("limit", function (arr, limit) {
-    arr.splice(limit);
-  });
-
-  eleventyConfig.addHandlebarsHelper("preview", function (html) {
+  eleventyConfig.addFilter("preview", function (html) {
     const $ = cheerio.load(html);
     return $('.preview').text();
   });

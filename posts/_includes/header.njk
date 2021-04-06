@@ -5,13 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  {{#unless title}}
-  <title>The Grisly Eye</title>
-  {{/unless}}
-
-  {{#if title}}
-  <title>{{ title }} - The Grisly Eye</title>
-  {{/if}}
+  {% if title %}
+    <title>{{ title }} - The Grisly Eye</title>
+  {% else %}
+    <title>The Grisly Eye</title>
+  {% endif %}
 
   <link href="/styles/main.css" rel="stylesheet" />
   <script type="module" src="/scripts/vellum.js"></script>
@@ -23,11 +21,11 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:creator" content="@grislyeye" />
 
-  {{#if redirectTo}}
+  {% if redirectTo %}
     <meta http-equiv="refresh" content="0; url={{ redirectTo }}">
     <link rel="canonical" href="{{ redirectTo }}">
     <script>window.location.replace('{{ redirectTo }}'.replace('&#x3D;', '='));</script>
-  {{/if}}
+  {% endif %}
 </head>
 
 <body>
