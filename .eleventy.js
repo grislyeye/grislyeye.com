@@ -36,7 +36,10 @@ module.exports = function(eleventyConfig) {
     title: "The Grisly Eye",
     author: "R.G. Wood",
     url: "https://grislyeye.com",
-    twitter: "grislyeye"
+    twitter: "grislyeye",
+    options: {
+      imageWithBaseUrl: true
+    }
   });
 
   eleventyConfig.addCollection("publishedArticles", function(collectionApi) {
