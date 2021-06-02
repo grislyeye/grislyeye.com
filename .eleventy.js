@@ -34,7 +34,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginSEO, {
     title: "The Grisly Eye",
-    author: "R.G. Wood"
+    author: "R.G. Wood",
+    url: "https://grislyeye.com"
   });
 
   eleventyConfig.addCollection("publishedArticles", function(collectionApi) {
