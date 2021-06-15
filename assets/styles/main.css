@@ -1,5 +1,6 @@
 @import "layout.css";
 @import "style.css";
+@import "sidebar.css";
 
 #flawed-potion-illustration.illustration {
   max-width: 150px;

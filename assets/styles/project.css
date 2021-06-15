@@ -1,0 +1,28 @@
+#projects div.project {
+  background: linear-gradient(rgba(0, 0, 0, 0), 1%, rgba(0, 0, 0, 1));
+  position: relative;
+  flex-shrink: 2;
+  width: 100%;
+  overflow: hidden;
+  padding: 0.5em;
+  text-align: center;
+}
+
+#projects div.project img.preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  filter: grayscale(100%);
+  margin-top: 1px;
+}
+
+#projects div.project h4 {
+  color: white;
+}
+
+#projects a {
+  color: inherit;
+  text-decoration: inherit;
+}

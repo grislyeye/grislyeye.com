@@ -6,6 +6,7 @@
 @import "blockquote.css";
 @import "illustration.css";
 @import "article.css";
+@import "project.css";
 @import "/vendor/modern-normalize/modern-normalize.css";
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700);
 
@@ -226,8 +227,4 @@ ol {
 .content .title {
   color: red;
   font-variant: small-caps;
-}
-
-aside#sidebar h5 {
-  margin-bottom: 0;
 }

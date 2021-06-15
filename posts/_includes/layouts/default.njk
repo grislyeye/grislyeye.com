@@ -2,8 +2,36 @@
 
   <main>
 
-    {% if collections.products %}
-      <aside id="sidebar">
+    <aside id="sidebar">
+
+      <section id="projects">
+        <h3>Projects</h3>
+
+        <a href="https://grislyeye.github.io/three-meet">
+          <div class="project">
+            <h4>Three Meet</h4>
+            <img class="preview" src="images/three-meet.png" alt="Three Meet">
+
+            <p>A low-fantasy 5E hack for dark times.</p>
+          </div>
+        </a>
+
+        <a href="https://wargod.grislyeye.com">
+          <div class="project">
+            <h4>Wargod!</h4>
+            <img class="preview" src="images/wargod.png" alt="Three Meet">
+
+            <p>A rules-light tabletop RPG that vibes off the British old-school renaissance.</p>
+          </div>
+        </a>
+      </section>
+
+{#       <ul>
+        <li><a href="https://grislyeye.github.io/three-meet"><span class="icon">T</span> Three Meet</a></li>
+        <li><a href="https://wargod.grislyeye.com"><span class="icon">W</span> Wargod!</a></li>
+      </ul> #}
+
+      {% if collections.products %}
 
         <h3>Buy Now</h3>
 
@@ -12,9 +40,9 @@
             <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}"></a>
           </div>
         {% endfor %}
+      {% endif %}
 
-      </aside>
-    {% endif %}
+    </aside>
 
     <div id="content" class="content">
       <div id="articles">
