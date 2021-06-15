@@ -37,6 +37,7 @@ module.exports = function(eleventyConfig) {
     author: "R.G. Wood",
     url: "https://grislyeye.com",
     twitter: "grislyeye",
+    image: "/images/logo.svg",
     options: {
       imageWithBaseUrl: true
     }

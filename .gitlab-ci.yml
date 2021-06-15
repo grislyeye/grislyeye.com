@@ -24,5 +24,6 @@ pages:
 lint:
   script:
   - npm run build
+  - npm test
   except:
   - tags
