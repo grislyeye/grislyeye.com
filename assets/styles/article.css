@@ -27,8 +27,10 @@ body > main #articles div.article img.preview {
   margin-top: 1px;
 }
 
-body > main #articles div.article h4 a {
+body > main #articles div.article a,
+body > main #articles div.article a h4 {
   color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 500px) {

@@ -43,14 +43,16 @@
       <div id="articles">
         {% for article in collections.publishedArticles | reverse | limit(12) %}
           <div class="article">
+            <a href="{{ article.url }}">
 
-            <h4><a href="{{ article.url }}">{{ article.data.title }}</a></h4>
+              <h4>{{ article.data.title }}</h4>
 
-            {% if article.data.image %}
-              <img src="{{ article.data.image }}" alt="{{ article.data.title }}" class="preview">
-            {% endif %}
+              {% if article.data.image %}
+                <img src="{{ article.data.image }}" alt="{{ article.data.title }}" class="preview">
+              {% endif %}
 
-            <p>{{ article.data.content | preview }}... <a href="{{ article.url }}">read more!</a></p>
+              <p>{{ article.data.content | preview }}...</p>
+            </a>
           </div>
         {% endfor %}
       </div>
