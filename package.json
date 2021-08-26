@@ -1,8 +1,8 @@
 {
   "name": "grislyeye.com",
-  "version": "2.7.0",
+  "version": "2.7.1",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.4",
     "modern-normalize": "^1.1.0",
     "skeleton-css": "^2.0.4",
@@ -13,9 +13,9 @@
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "cheerio": "^1.0.0-rc.10",
     "eleventy-plugin-seo": "^0.5.2",
-    "htmlhint": "^0.9.9",
+    "htmlhint": "^0.15.1",
     "linkinator": "^2.14.0",
-    "rollup": "^2.53.2",
+    "rollup": "^2.56.3",
     "rollup-plugin-node-resolve": "^5.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0"
