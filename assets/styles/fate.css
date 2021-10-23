@@ -1,10 +1,10 @@
 div.fate.card {
- background-color: lightgray;
- color: black;
- padding: 2em;
- max-width: 350px;
- margin: 2em;
- display: inline-block;
+  background-color: lightgray;
+  color: black;
+  padding: 2em;
+  max-width: 350px;
+  margin: 2em;
+  display: inline-block;
 }
 
 div.fate.card h5 {
