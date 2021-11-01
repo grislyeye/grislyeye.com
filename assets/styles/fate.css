@@ -23,9 +23,9 @@ div.fate.card strong {
 }
 
 span.fate.aspect {
-  font-weight: bold;
   font-variant: small-caps;
   text-decoration: underline;
+  font-style: italic;
 }
 
 input.fate.stress-track[type="checkbox"] {
