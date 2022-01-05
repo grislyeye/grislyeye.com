@@ -4,11 +4,11 @@
 
     <p>Stay updated with the latest products and blog posts from Grisly Eye Games. Subscribe to my low-traffic mailing list and you get a free copy of <a href="/products/enchanted">The Enchanted</a>:</p>
 
-    <form action="https://tinyletter.com/grislyeye" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/grislyeye', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-      <input type="text" name="email" id="tlemail" placeholder="Email"/>
-      <input type="hidden" value="1" name="embed"/>
-      <input class="button" type="submit" value="Subscribe" />
-    </form>
+    <div id="revue-embed">
+      <form action="https://www.getrevue.co/profile/grislyeye/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+        <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="email">
+        <input class="button" type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
+    </div>
 
   </div>
 </section>
