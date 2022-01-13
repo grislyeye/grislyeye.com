@@ -9,13 +9,13 @@
     "vellum-monster": "^1.0.3"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
     "cheerio": "^1.0.0-rc.10",
     "eleventy-plugin-seo": "^0.5.2",
     "htmlhint": "^0.15.1",
-    "linkinator": "^2.14.0",
-    "rollup": "^2.56.3",
+    "linkinator": "^3.0.3",
+    "rollup": "^2.63.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0"
