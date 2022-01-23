@@ -6,7 +6,7 @@
     "@quasibit/eleventy-plugin-sitemap": "^2.1.4",
     "modern-normalize": "^1.1.0",
     "skeleton-css": "^2.0.4",
-    "vellum-monster": "^1.0.3"
+    "vellum-monster": "^1.2.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
@@ -15,8 +15,6 @@
     "eleventy-plugin-seo": "^0.5.2",
     "htmlhint": "^0.15.1",
     "linkinator": "^3.0.3",
-    "rollup": "^2.63.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0"
   },

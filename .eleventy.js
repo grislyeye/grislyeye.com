@@ -11,7 +11,8 @@ module.exports = function(eleventyConfig) {
     {
       "node_modules/@fortawesome/fontawesome-free": "vendor/fontawesome",
       "node_modules/skeleton-css/css": "vendor/skeleton",
-      "node_modules/modern-normalize": "vendor/modern-normalize"
+      "node_modules/modern-normalize": "vendor/modern-normalize",
+      "node_modules/vellum-monster": "vendor/vellum-monster"
     }
   );
 
