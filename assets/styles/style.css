@@ -8,6 +8,8 @@
 @import "article.css";
 @import "project.css";
 @import "fate.css";
+@import "amp.css";
+@import "code.css";
 @import "/vendor/modern-normalize/modern-normalize.css";
 @import url("https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700");
 
@@ -133,6 +135,10 @@ article img {
   article img {
     width: 100%;
   }
+}
+
+article img.small {
+  width: 40%;
 }
 
 footer {
