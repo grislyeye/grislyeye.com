@@ -9,12 +9,12 @@
 @import "project.css";
 @import "fate.css";
 @import "/vendor/modern-normalize/modern-normalize.css";
-@import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700);
+@import url("https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700");
 
 body {
   background: black;
   color: white;
-  font-family: 'Alegreya', serif;
+  font-family: Alegreya, serif;
   font-size: 14pt;
 }
 

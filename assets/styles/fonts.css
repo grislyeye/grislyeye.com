@@ -23,24 +23,24 @@
 }
 
 @font-face {
-  font-family: "Andada";
+  font-family: Andada;
   src: url("/fonts/Andada-Regular.otf");
 }
 
 @font-face {
-  font-family: "Andada";
+  font-family: Andada;
   font-weight: bold;
   src: url("/fonts/Andada-Bold.otf");
 }
 
 @font-face {
-  font-family: "Andada";
+  font-family: Andada;
   font-style: italic;
   src: url("/fonts/Andada-Italic.otf");
 }
 
 @font-face {
-  font-family: "Andada";
+  font-family: Andada;
   font-weight: bold;
   font-style: italic;
   src: url("/fonts/Andada-BoldItalic.otf");

@@ -15,9 +15,9 @@
     margin: 0.2em;
   }
 
-  input[type='email'] {
+  input[type="email"] {
     color: black;
-    font-family: 'Alegreya', serif;
+    font-family: Alegreya, serif;
   }
 }
 

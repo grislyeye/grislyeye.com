@@ -35,5 +35,5 @@
 }
 
 .content aside p.break::before {
-  content: '❧';
+  content: "❧";
 }

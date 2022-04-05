@@ -24,7 +24,7 @@
 }
 
 .content .chat aside p.break::before {
-  content: '❧';
+  content: "❧";
 }
 
 .content .chat dt {
@@ -66,14 +66,14 @@
 .content .chat p.action::before,
 .content .chat span.action::before,
 .content .chat dd.action::before {
-  content: '(';
+  content: "(";
 }
 
 .content .chat .action p::after,
 .content .chat p.action::after,
 .content .chat span.action::after,
 .content .chat dd.action::after {
-  content: ')';
+  content: ")";
 }
 
 @media (max-width: 500px) {

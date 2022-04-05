@@ -1,5 +1,5 @@
 body > main #articles div.article {
-  background: linear-gradient(rgba(0, 0, 0, 0), 1%, rgba(0, 0, 0, 1));
+  background: linear-gradient(rgb(0% 0% 0% / 0%), 1%, rgba(0% 0% 0% / 100%));
   position: relative;
   flex-shrink: 2;
   width: 46%;
