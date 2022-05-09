@@ -42,9 +42,11 @@
   color: red;
 }
 
-.ribbon h1,
-.ribbon h2,
-.ribbon h3 {
+.ribbon .content h1,
+.ribbon .content h2,
+.ribbon .content h3,
+.ribbon .content h4,
+.ribbon .content h5 {
   text-align: center;
 }
 
@@ -56,4 +58,31 @@
 
 .ribbon .center > * {
   display: inline-block;
+}
+
+#top-ribbon .content {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 1em;
+  font-size: smaller;
+}
+
+#top-ribbon .content h1,
+#top-ribbon .content h2,
+#top-ribbon .content h3,
+#top-ribbon .content h4,
+#top-ribbon .content h5 {
+  margin-bottom: 0;
+}
+
+#top-ribbon .content .action {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#top-ribbon .content .button {
+  margin-bottom: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
