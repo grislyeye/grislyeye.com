@@ -6,6 +6,7 @@ const pluginSEO = require("eleventy-plugin-seo");
 module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ "assets" : "/" });
+  eleventyConfig.addPassthroughCopy("CNAME");
 
   eleventyConfig.addPassthroughCopy(
     {

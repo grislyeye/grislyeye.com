@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "2.15.1",
+  "version": "2.16.0",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.5",
@@ -13,6 +13,7 @@
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "cheerio": "^1.0.0-rc.10",
     "eleventy-plugin-seo": "^0.5.2",
+    "gh-pages": "^4.0.0",
     "htmlhint": "^1.1.4",
     "linkinator": "^3.1.0",
     "stylelint": "^14.8.2",
@@ -20,9 +21,10 @@
   },
   "scripts": {
     "build": "eleventy",
-    "deploy": "curl -X POST \"https://api.cloudflare.com/client/v4/zones/6576d55621fb5a1290106d65ff89aee3/purge_cache\" -H \"X-Auth-Email: ricardo@gladwell.me\"  -H \"X-Auth-Key: ${CLOUDFLARE_API_KEY}\" -H \"Content-Type:application/json\" --data '{\"purge_everything\":true}'",
+    "deploy": "gh-pages -d _site -b gh-pages -t",
     "clean": "rm -fr _site",
     "start": "eleventy --serve",
-    "test": "htmlhint '_site/**/*.html' --ignore '**/vendor/**' && stylelint assets/styles/*.css && npx linkinator ./_site -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)' --verbosity debug"
+    "test": "htmlhint '_site/**/*.html' --ignore '**/vendor/**' && stylelint assets/styles/*.css && npx linkinator ./_site -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)' --verbosity debug",
+    "predeploy": "npm test && npm run clean && npm run build"
   }
 }
