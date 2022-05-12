@@ -1,0 +1,33 @@
+div.fate.card {
+  background-color: lightgray;
+  color: black;
+  padding: 2em;
+  max-width: 350px;
+  margin: 2em;
+  display: inline-block;
+}
+
+div.fate.card h5 {
+  color: black;
+  width: 100%;
+  border-bottom: solid;
+  margin-top: 0;
+}
+
+div.fate.card p {
+  margin-bottom: 0;
+}
+
+div.fate.card strong {
+  color: black;
+}
+
+span.fate.aspect {
+  font-variant: small-caps;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+input.fate.stress-track[type="checkbox"] {
+  margin-right: 0;
+}

@@ -1,0 +1,88 @@
+.ribbon {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  background: white;
+  width: 100%;
+  color: black;
+  clear: left;
+}
+
+.ribbon form {
+  text-align: center;
+
+  input {
+    margin: 0.2em;
+  }
+
+  input[type="email"] {
+    color: black;
+    font-family: Alegreya, serif;
+  }
+}
+
+.ribbon .content {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 5em;
+  padding-right: 5em;
+  box-sizing: border-box;
+}
+
+@media (min-width: 800px) {
+  .ribbon .content {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+}
+
+.ribbon strong {
+  color: red;
+}
+
+.ribbon .content h1,
+.ribbon .content h2,
+.ribbon .content h3,
+.ribbon .content h4,
+.ribbon .content h5 {
+  text-align: center;
+}
+
+.ribbon .center {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.ribbon .center > * {
+  display: inline-block;
+}
+
+#top-ribbon .content {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 1em;
+  font-size: smaller;
+}
+
+#top-ribbon .content h1,
+#top-ribbon .content h2,
+#top-ribbon .content h3,
+#top-ribbon .content h4,
+#top-ribbon .content h5 {
+  margin-bottom: 0;
+}
+
+#top-ribbon .content .action {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#top-ribbon .content .button {
+  margin-bottom: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}

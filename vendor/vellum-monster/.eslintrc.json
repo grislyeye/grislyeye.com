@@ -1,0 +1,16 @@
+{
+  "extends": "standard",
+  "globals": {
+    "customElements": true,
+    "chai": true,
+    "suite": true,
+    "test": true
+  },
+  "rules": {
+    "space-before-function-paren": ["error", "never"],
+    "padded-blocks": 0
+  },
+  "plugins": [
+    "lit"
+  ]
+}

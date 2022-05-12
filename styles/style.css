@@ -1,0 +1,237 @@
+@import "fonts.css";
+@import "icons.css";
+@import "stat-block.css";
+@import "chat.css";
+@import "banner.css";
+@import "blockquote.css";
+@import "illustration.css";
+@import "article.css";
+@import "project.css";
+@import "fate.css";
+@import "amp.css";
+@import "code.css";
+@import "/vendor/modern-normalize/modern-normalize.css";
+@import url("https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700");
+
+body {
+  background: black;
+  color: white;
+  font-family: Alegreya, serif;
+  font-size: 14pt;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Andada SC", serif;
+  color: red;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  font-family: "Andada SC", serif;
+  color: red;
+  text-decoration: none;
+}
+
+body > header * {
+  color: white;
+  text-decoration: none;
+}
+
+body > header a {
+  color: white;
+  text-decoration: none;
+}
+
+body > header a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+body > header .title {
+  font-size: 4em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+body > header .subtitle {
+  margin-left: -6em;
+  font-size: 1.5em;
+  margin-top: -2em;
+  margin-bottom: 2rem;
+}
+
+body > header #logo {
+  height: 1.5em;
+  vertical-align: middle;
+  margin: 0.2em;
+}
+
+body > header nav p {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+body > header nav ul.links {
+  list-style: none;
+  margin-top: 2rem;
+  padding-left: 0.5em;
+}
+
+body > header nav ul.links li {
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 0.25em;
+}
+
+@media (max-width: 500px) {
+  body > header #logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  body > header h1.title {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 800px) {
+  body > header h1.title {
+    font-size: 3em;
+    display: block;
+    text-align: center;
+  }
+
+  .subtitle {
+    display: none;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  body > header nav .links {
+    display: none;
+  }
+}
+
+article img {
+  width: 80%;
+  margin-bottom: 2.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 800px) {
+  article img {
+    width: 100%;
+  }
+}
+
+article img.small {
+  width: 40%;
+}
+
+footer {
+  font-size: smaller;
+  color: gray;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  footer {
+    font-size: 1em;
+  }
+}
+
+.button {
+  color: white !important;
+  background-color: red !important;
+  font-size: 0.8em !important;
+}
+
+button {
+  color: black;
+  background-color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+article .content button {
+  color: white;
+  font-size: 0.8em;
+  border: 0 none #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+.content strong {
+  color: red;
+}
+
+.content dl dt {
+  float: left;
+  clear: left;
+  margin-left: 2.5rem;
+  margin-right: 5px;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
+
+.content dl dd {
+  margin-left: 0;
+  margin-bottom: 2.5rem;
+}
+
+.content table caption {
+  font-variant: small-caps;
+  font-weight: bold;
+  color: red;
+  text-align: left;
+  font-size: larger;
+}
+
+.content dl dd dl {
+  margin-top: 1em;
+}
+
+.content dl dd dl dt {
+  font-weight: normal;
+  color: white;
+}
+
+.content input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+.content .product {
+  font-style: italic;
+  color: red;
+}
+
+.content .title {
+  color: red;
+  font-variant: small-caps;
+}

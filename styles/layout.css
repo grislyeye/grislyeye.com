@@ -1,0 +1,163 @@
+@import "/vendor/skeleton/skeleton.css";
+
+article,
+body > header,
+footer,
+main {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+body > main {
+  overflow: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 500px) {
+  body > main {
+    flex-direction: column-reverse;
+  }
+}
+
+body > header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 0.5em;
+  margin-bottom: 3em;
+}
+
+body > header > * {
+  align-self: center;
+}
+
+body > header > nav {
+  align-self: flex-end;
+}
+
+body > header > nav > * {
+  display: inline;
+}
+
+@media (max-width: 800px) {
+  body > header > nav {
+    display: none;
+  }
+}
+
+body > main > #content {
+  width: 70%;
+}
+
+@media (max-width: 500px) {
+  body > main > #content {
+    width: 100%;
+  }
+}
+
+article {
+  margin: 0;
+  margin-bottom: 2em;
+  overflow: auto;
+}
+
+body > main article header {
+  margin: 0;
+}
+
+body > main article .content header {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin-bottom: 0;
+  }
+}
+
+body > main #articles {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.stat-block {
+  position: relative;
+}
+
+.stat-block img.background {
+  width: 100%;
+  max-width: 500px;
+  z-index: -1;
+  position: relative;
+}
+
+.stat-block vellum-monster {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.stat-block-left {
+  position: relative;
+}
+
+.stat-block-left img.background {
+  width: 100%;
+  max-width: 500px;
+  z-index: -1;
+  position: relative;
+}
+
+.stat-block-left vellum-monster {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 800px) {
+  .stat-block {
+    position: static;
+  }
+
+  .stat-block img.background {
+    display: none;
+  }
+
+  .stat-block vellum-monster {
+    position: static;
+  }
+
+  .stat-block-left {
+    position: static;
+  }
+
+  .stat-block-left img.background {
+    display: none;
+  }
+
+  .stat-block-left vellum-monster {
+    position: static;
+  }
+}
+
+.content table td {
+  padding-right: 1em;
+}
+
+.content table {
+  border-collapse: collapse;
+}
+
+.content table td.number,
+.content table th.number {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
