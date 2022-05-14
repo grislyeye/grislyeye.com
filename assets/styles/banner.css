@@ -80,3 +80,10 @@
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
+
+@media (max-width: 500px) {
+  #top-ribbon .content {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
