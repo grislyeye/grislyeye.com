@@ -123,6 +123,16 @@ body > header nav ul.links li {
   }
 }
 
+@media (max-width: 500px) {
+  body > header {
+    margin-bottom: 0;
+  }
+
+  body > header .title {
+    font-size: 2em !important;
+  }
+}
+
 article img {
   width: 80%;
   margin-bottom: 2.5rem;
@@ -174,11 +184,6 @@ article .content button {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
-
-  a {
-    text-decoration: none;
-    color: white;
-  }
 }
 
 ul,
