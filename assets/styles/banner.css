@@ -10,15 +10,6 @@
 
 .ribbon form {
   text-align: center;
-
-  input {
-    margin: 0.2em;
-  }
-
-  input[type="email"] {
-    color: black;
-    font-family: Alegreya, serif;
-  }
 }
 
 .ribbon .content {
