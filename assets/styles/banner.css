@@ -52,11 +52,14 @@
 }
 
 #top-ribbon .content {
+  font-size: smaller;
+}
+
+#top-ribbon .content .copy {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   gap: 1em;
-  font-size: smaller;
 }
 
 #top-ribbon .content h1,
