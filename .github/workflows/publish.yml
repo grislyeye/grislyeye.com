@@ -5,7 +5,8 @@ permissions:
 
 on:
   push:
-    tag:
+    tags:
+      - v*
 
 jobs:
   build-and-deploy:
