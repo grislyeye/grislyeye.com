@@ -2,7 +2,7 @@
   "name": "grislyeye.com",
   "version": "2.18.1",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.2.0",
+    "@fortawesome/fontawesome-free": "^6.2.1",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "modern-normalize": "^1.1.0",
     "skeleton-css": "^2.0.4",
@@ -16,8 +16,8 @@
     "gh-pages": "^4.0.0",
     "htmlhint": "^1.1.4",
     "stylelint-config-standard": "^29.0.0",
-    "linkinator": "^4.1.0",
-    "stylelint": "^14.14.1"
+    "linkinator": "^4.1.1",
+    "stylelint": "^14.15.0"
   },
   "scripts": {
     "build": "eleventy",
