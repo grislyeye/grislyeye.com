@@ -1,5 +1,6 @@
 .ribbon {
-  padding: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
   margin-bottom: 1em;
   background: white;
   width: 100%;
@@ -48,6 +49,10 @@
 
 .ribbon .center > * {
   display: inline-block;
+}
+
+#top-ribbon {
+  padding: 0;
 }
 
 #top-ribbon .content {
