@@ -1,50 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+    <header>
+      <nav>
+        <p>Follow:</p>
+        <ul class="links">
+          <li><a href="https://twitter.com/grislyeye" title="Twitter"><span class="fab fa-twitter icon" aria-hidden="true"></span></a></li>
+          <li><a href="https://grislyeye.itch.io/" title="Itch"><span class="fab fa-itch-io icon" aria-hidden="true"></span></a></li>
+          <li><a href="/rss.xml" title="RSS feed"><span  class="fas fa-rss icon" aria-hidden="true"></span></a></li>
+          <li><a rel="me" href="https://mastodon.social/@grislyeye"><span  class="fa-brands fa-mastodon icon" aria-hidden="true"></span></a></li>
+        </ul>
+      </nav>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  {% seo "" %}
-  {% include "fuac-hide.html" %}
-
-  <link href="/styles/main.css" rel="stylesheet">
-  <script type="module" src="/vendor/vellum-monster/dist/vellum-monster.js"></script>
-  <link rel="alternate" type="application/rss+xml" title="Grisly Eye Games" href="/rss.xml">
-
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
-  <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
-
-  <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:creator" content="@grislyeye">
-
-  {% if redirectTo %}
-    <meta http-equiv="refresh" content="0; url={{ redirectTo }}">
-    <link rel="canonical" href="{{ redirectTo }}">
-    <script>window.location.replace('{{ redirectTo }}'.replace('&#x3D;', '='));</script>
-  {% endif %}
-</head>
-
-<body>
-
-{% include "top-ribbon.html" %}
-
-<amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
-
-<header>
-  <nav>
-    <p>Follow:</p>
-    <ul class="links">
-      <li><a href="https://twitter.com/grislyeye" title="Twitter"><span class="fab fa-twitter icon" aria-hidden="true"></span></a></li>
-      <li><a href="https://grislyeye.itch.io/" title="Itch"><span class="fab fa-itch-io icon" aria-hidden="true"></span></a></li>
-      <li><a href="/rss.xml" title="RSS feed"><span  class="fas fa-rss icon" aria-hidden="true"></span></a></li>
-      <li><a rel="me" href="https://mastodon.social/@grislyeye"><span  class="fa-brands fa-mastodon icon" aria-hidden="true"></span></a></li>
-    </ul>
-  </nav>
-
-  <h1 class="title"><a href="/"><img id="logo" src="/images/logo.svg" alt="Grisly Eye Games Logo">The Grisly Eye</a></h1>
-  <h2 class="subtitle">R.G. Wood's Blog</h2>
-</header>
+      <h1 class="title"><a href="/"><img id="logo" src="/images/logo.svg" alt="Grisly Eye Games Logo">The Grisly Eye</a></h1>
+      <h2 class="subtitle">R.G. Wood's Blog</h2>
+    </header>

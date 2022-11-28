@@ -10,6 +10,7 @@
 @import url("fate.css");
 @import url("amp.css");
 @import url("code.css");
+@import url("header.css");
 @import url("/vendor/modern-normalize/modern-normalize.css");
 @import url("https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700");
 
@@ -39,97 +40,13 @@ h5 a {
   text-decoration: none;
 }
 
-body > header * {
-  color: white;
-  text-decoration: none;
-}
-
-body > header a {
-  color: white;
-  text-decoration: none;
-}
-
-body > header a:hover {
-  color: white;
-  text-decoration: none;
-}
-
-body > header .title {
-  font-size: 4em;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 2rem;
-}
-
-body > header .subtitle {
-  margin-left: -6em;
-  font-size: 1.5em;
-  margin-top: -2em;
-  margin-bottom: 2rem;
-}
-
-body > header #logo {
-  height: 1.5em;
-  vertical-align: middle;
-  margin: 0.2em;
-}
-
-body > header nav p {
-  text-transform: uppercase;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-body > header nav ul.links {
-  list-style: none;
-  margin-top: 2rem;
-  padding-left: 0.5em;
-}
-
-body > header nav ul.links li {
-  display: inline-block;
-  font-size: 1.5em;
-  margin: 0.25em;
-}
-
-@media (max-width: 500px) {
-  body > header #logo {
-    display: block;
-    margin: 0 auto;
-  }
-
-  body > header h1.title {
-    font-size: 1em;
-  }
-}
-
 @media (max-width: 800px) {
-  body > header h1.title {
-    font-size: 3em;
-    display: block;
-    text-align: center;
-  }
-
   .subtitle {
     display: none;
   }
 
   h2 {
     text-align: center;
-  }
-
-  body > header nav .links {
-    display: none;
-  }
-}
-
-@media (max-width: 500px) {
-  body > header {
-    margin-bottom: 0;
-  }
-
-  body > header .title {
-    font-size: 2em !important;
   }
 }
 

@@ -1,17 +1,24 @@
-  {% include "header.njk" %}
+  {% include "top.njk" %}
 
   <main class="post">
 
-    <article>
-      <header>
-        <h2 id="title">{{ title }}</h2>
-      </header>
+    {% include "header.njk" %}
 
-      <div class="content">
-        {{ content | safe }}
-      </div>
+    <div id="content">
 
-    </article>
+      <article>
+        <header>
+          <h2 id="title">{{ title }}</h2>
+        </header>
+
+        <div class="content">
+          {{ content | safe }}
+        </div>
+
+      </article>
+
+    </div>
+
   </main>
 
   {% include "footer.njk" %}
