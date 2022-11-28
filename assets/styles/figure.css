@@ -1,0 +1,32 @@
+figure p.caption {
+  font-size: smaller;
+  font-style: italic;
+}
+
+figure img {
+  width: 100%;
+}
+
+figure.large {
+  max-width: 500px;
+}
+
+figure.full-width {
+  width: 100%;
+  float: none;
+  max-width: 100%;
+  padding: 0;
+}
+
+figure.full-width img {
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  figure {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+}
