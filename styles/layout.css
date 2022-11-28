@@ -1,7 +1,7 @@
 @import url("/vendor/skeleton/skeleton.css");
 
 article,
-body > header,
+body > main > header,
 footer,
 main {
   position: relative;
@@ -12,51 +12,27 @@ main {
   box-sizing: border-box;
 }
 
-body > main {
+body > main > div#content {
   overflow: auto;
   display: flex;
   flex-direction: row-reverse;
 }
 
 @media (max-width: 500px) {
-  body > main {
+  body > main > div#content {
     flex-direction: column-reverse;
   }
 }
 
-body > header {
+body > main #articles {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
-  align-items: flex-start;
-  padding-top: 0.5em;
-  margin-bottom: 3em;
-}
-
-body > header > * {
-  align-self: center;
-}
-
-body > header > nav {
-  align-self: flex-end;
-}
-
-body > header > nav > * {
-  display: inline;
-}
-
-@media (max-width: 800px) {
-  body > header > nav {
-    display: none;
-  }
-}
-
-body > main > #content {
   width: 70%;
 }
 
 @media (max-width: 500px) {
-  body > main > #content {
+  body > main #articles {
     width: 100%;
   }
 }
@@ -79,12 +55,6 @@ body > main article .content header {
   h5 {
     margin-bottom: 0;
   }
-}
-
-body > main #articles {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
 }
 
 .stat-block {

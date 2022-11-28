@@ -51,6 +51,10 @@
   display: inline-block;
 }
 
+#top-ribbon {
+  padding: 0;
+}
+
 #top-ribbon .content {
   font-size: smaller;
 }
@@ -60,6 +64,10 @@
   flex-flow: row;
   justify-content: space-between;
   gap: 1em;
+}
+
+#top-ribbon .content .copy > * {
+  margin-bottom: 1em;
 }
 
 #top-ribbon .content h1,

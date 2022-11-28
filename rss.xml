@@ -17,9 +17,9 @@
     <updated>2022-11-12T00:00:00Z</updated>
     <id>https://grislyeye.com/blog/the-grim.html</id>
     <content type="html">&lt;a href=&quot;https://grislyeye.com/products/grim/&quot;&gt;
-  &lt;div class=&quot;illustration&quot;&gt;
+  &lt;figure class=&quot;illustration&quot;&gt;
     &lt;img src=&quot;https://grislyeye.com/images/covers/grim.png&quot; alt=&quot;The Grim Cover&quot; /&gt;
-  &lt;/div&gt;
+  &lt;/figure&gt;
 &lt;/a&gt;
 
 &lt;p class=&quot;preview&quot;&gt;It&#39;s out! My latest monograph, on the theme of grubby fantasy.&lt;/p&gt;
@@ -141,10 +141,10 @@
     <link href="https://grislyeye.com/blog/journey-rules-1/"/>
     <updated>2021-10-25T00:00:00Z</updated>
     <id>https://grislyeye.com/blog/journey-rules-1/</id>
-    <content type="html">&lt;div class=&quot;outlined illustration&quot;&gt;
+    <content type="html">&lt;figure class=&quot;outlined illustration&quot;&gt;
   &lt;img src=&quot;https://grislyeye.com/images/travellers.jpg&quot; alt=&quot;Travellers Illustration&quot; /&gt;
   &lt;p class=&quot;caption&quot;&gt;The Brave English Gypsy, an illustration from the &lt;span class=&quot;product&quot;&gt;A Book of Roxburghe Ballads&lt;/span&gt;.&lt;/p&gt;
-&lt;/div&gt;
+&lt;/figure&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The air is hot and dry, devoid of the corrupting odours of the rolling battlefield behind me, but full of another sort of death; its promise in the very dryness of that air moving about a place where there is no water, no food, no shade.&lt;/p&gt;
@@ -992,9 +992,9 @@
     <link href="https://grislyeye.com/blog/keep-on-the-borderlands/"/>
     <updated>2021-03-24T00:00:00Z</updated>
     <id>https://grislyeye.com/blog/keep-on-the-borderlands/</id>
-    <content type="html">&lt;div class=&quot;illustration&quot;&gt;
+    <content type="html">&lt;figure class=&quot;illustration&quot;&gt;
   &lt;img src=&quot;https://grislyeye.com/images/b2-module-cover.jpg&quot; alt=&quot;B2 Module Cover&quot; /&gt;
-&lt;/div&gt;
+&lt;/figure&gt;
 
 &lt;p class=&quot;preview&quot;&gt;The Keep throws a long shadow over the Borderlands. An even longer one across our hobby. Scribes wax lyrical in hundreds of posts. Eyes wide with child-like wonder, teary with nostalgia. Brows furrowed, lips pursed with righteous fervour.&lt;/p&gt;
 
@@ -3529,10 +3529,10 @@ No Witchcraft&lt;/p&gt;
     <link href="https://grislyeye.com/blog/harrowed-preview-2.html"/>
     <updated>2019-09-03T00:00:00Z</updated>
     <id>https://grislyeye.com/blog/harrowed-preview-2.html</id>
-    <content type="html">&lt;div class=&quot;illustration&quot;&gt;
+    <content type="html">&lt;figure class=&quot;illustration&quot;&gt;
   &lt;img src=&quot;https://grislyeye.com/images/necrotic.jpg&quot; alt=&quot;Stress Illustration&quot; /&gt;
   &lt;p class=&quot;caption&quot;&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Nuremberg_chronicles_-_Dance_of_Death_(CCLXIIIIv).jpg&quot;&gt;The Dance of Death&lt;/a&gt;, public domain image taken from the Nuremberg Chronicles.&lt;/p&gt;
-&lt;/div&gt;
+&lt;/figure&gt;
 
 &lt;p class=&quot;preview&quot;&gt;Damage. It is at the heart of rules for &lt;span class=&quot;product&quot;&gt;Dungeons &amp;amp; Dragons&lt;/span&gt;. Hit points are God and I&#39;ve been exploring how to make them more versatile.&lt;/p&gt;
 
@@ -10864,10 +10864,10 @@ Morgan rolls 27 for Orin’s Dexterity (Stealth) check.
     <link href="https://grislyeye.com/blog/harrowed-preview-1.html"/>
     <updated>2019-05-07T00:00:00Z</updated>
     <id>https://grislyeye.com/blog/harrowed-preview-1.html</id>
-    <content type="html">&lt;div class=&quot;illustration&quot;&gt;
+    <content type="html">&lt;figure class=&quot;illustration&quot;&gt;
   &lt;img src=&quot;https://grislyeye.com/images/harrowed.jpg&quot; alt=&quot;Stress Illustration&quot; /&gt;
   &lt;p class=&quot;caption&quot;&gt;Public Domain image taken from Philocothonista, or, The drunkard, opened, dissected, and anatomized, 1635.&lt;/p&gt;
-&lt;/div&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;Damage. It is at the heart of rules for &lt;em&gt;Dungeons &amp;amp; Dragons&lt;/em&gt;. Hit points are god. This is an excerpt from my forthcoming monograph, &lt;span class=&quot;product&quot;&gt;The Harrowed&lt;/span&gt; that expands on the variant rules for sanity, madness and lingering injuries in Chapter 9 of the &lt;span class=&quot;product&quot;&gt;Dungeon Master&#39;s Guide&lt;/span&gt;.&lt;/p&gt;
 
@@ -16499,10 +16499,10 @@ Finally, I&#39;ve deliberately left the rules for whether rolls are inspired or 
 
 &lt;p&gt;Each challenge lists the checks and spells that can be used, but these are not meant to be exhaustive. Dungeon Masters should encourage players to be creative with the skills and spells they use to overcome the challenge.&lt;/p&gt;
 
-&lt;div class=&quot;illustration&quot;&gt;
+&lt;figure class=&quot;illustration&quot;&gt;
   &lt;img src=&quot;https://grislyeye.com/images/torture.png&quot; alt=&quot;Torture Illustration&quot; /&gt;
   &lt;p class=&quot;caption&quot;&gt;Public Domain image of mediaeval drawing of execution by sawing in two (from &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Die_Saege.JPG&quot;&gt;Wikimedia Commons&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
+&lt;/figure&gt;
 
 &lt;header id=&quot;interrogation-skill-challenge&quot;&gt;
   &lt;h3&gt;Interrogation&lt;/h3&gt;
@@ -16552,10 +16552,10 @@ Finally, I&#39;ve deliberately left the rules for whether rolls are inspired or 
     <link href="https://grislyeye.com/blog/thieves-council-preview.html"/>
     <updated>2018-05-01T00:00:00Z</updated>
     <id>https://grislyeye.com/blog/thieves-council-preview.html</id>
-    <content type="html">&lt;div class=&quot;illustration&quot;&gt;
+    <content type="html">&lt;figure class=&quot;illustration&quot;&gt;
   &lt;img src=&quot;https://grislyeye.com/images/the-pedlar.jpg&quot; alt=&quot;Thief Illustration&quot; /&gt;
   &lt;p class=&quot;caption&quot;&gt;Public Domain image of &lt;q&gt;The Pedlar&lt;/q&gt; taken from &lt;a href=&quot;http://www.sacred-texts.com/jbh2yr/21790-h.htm&quot;&gt;The Dance of Death&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;q&gt;Thieves&#39; Council&lt;/q&gt;&lt;/strong&gt; is a name you only hear in whispers, if at all. This alliance of blackguards, scoundrels and rogues has disbanded and reformed many times over the centuries. Most believe its just a legend but the word on the street is that it is very much alive.&lt;/p&gt;
 
@@ -16684,10 +16684,10 @@ Finally, I&#39;ve deliberately left the rules for whether rolls are inspired or 
     <link href="https://grislyeye.com/blog/thieves-council-preview%202.html"/>
     <updated>2018-05-01T00:00:00Z</updated>
     <id>https://grislyeye.com/blog/thieves-council-preview%202.html</id>
-    <content type="html">&lt;div class=&quot;illustration&quot;&gt;
+    <content type="html">&lt;figure class=&quot;illustration&quot;&gt;
   &lt;img src=&quot;https://grislyeye.com/images/the-pedlar.jpg&quot; alt=&quot;Thief Illustration&quot; /&gt;
   &lt;p class=&quot;caption&quot;&gt;Public Domain image of &lt;q&gt;The Pedlar&lt;/q&gt; taken from &lt;a href=&quot;http://www.sacred-texts.com/jbh2yr/21790-h.htm&quot;&gt;The Dance of Death&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;q&gt;Thieves&#39; Council&lt;/q&gt;&lt;/strong&gt; is a name you only hear in whispers, if at all. This alliance of blackguards, scoundrels and rogues has disbanded and reformed many times over the centuries. Most believe its just a legend but the word on the street is that it is very much alive.&lt;/p&gt;
 
@@ -17329,10 +17329,10 @@ Finally, I&#39;ve deliberately left the rules for whether rolls are inspired or 
 
 &lt;p&gt;This section takes the far traveller background from the &lt;em&gt;Sword Coast Adventurer&#39;s Guide&lt;/em&gt; and shows how you can adapt it into a unique background. Follow the far traveller background as written, with these changes:&lt;/p&gt;
 
-&lt;div class=&quot;illustration&quot;&gt;
+&lt;figure class=&quot;illustration&quot;&gt;
   &lt;img src=&quot;https://grislyeye.com/images/far-traveller.png&quot; alt=&quot;Far Traveller Illustration&quot; /&gt;
   &lt;p class=&quot;caption&quot;&gt;Public Domain image of Moorish Noble from Cairo taken from &lt;a href=&quot;https://www.bl.uk/collection-items/16th-century-costume-guide&quot;&gt;Cesare Vecellio&#39;s 16th Century Costume Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;The unique far traveller represents a character that hails from distant lands where magic yet lingers, strange arts are practiced and mysterious gods still make their presence known.&lt;/p&gt;
 
