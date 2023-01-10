@@ -22,7 +22,7 @@
     "build": "eleventy",
     "clean": "rm -fr _site",
     "start": "eleventy --serve",
-    "test": "htmlhint '_site/**/*.html' --ignore '**/vendor/**' && stylelint assets/styles/*.css && npx linkinator ./_site -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)' --verbosity debug",
+    "test": "htmlhint '_site/**/*.html' --ignore '**/vendor/**' && stylelint assets/styles/*.css && npx linkinator ./_site -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)' --verbosity debug",
     "predeploy": "npm test && npm run clean && npm run build"
   }
 }
