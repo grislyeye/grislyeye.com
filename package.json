@@ -12,11 +12,12 @@
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "cheerio": "^1.0.0-rc.12",
+    "eleventy-plugin-gen-favicons": "^1.1.2",
     "eleventy-plugin-seo": "^0.5.2",
     "htmlhint": "^1.1.4",
-    "stylelint-config-standard": "^29.0.0",
     "linkinator": "^4.1.2",
-    "stylelint": "^14.16.1"
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^29.0.0"
   },
   "scripts": {
     "build": "eleventy",
