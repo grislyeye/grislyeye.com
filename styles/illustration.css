@@ -1,3 +1,4 @@
+div.illustration,
 figure.illustration {
   max-width: 250px;
   float: right;
@@ -6,6 +7,7 @@ figure.illustration {
   margin-bottom: 1em;
 }
 
+div.illustration.outlined img,
 figure.illustration.outlined img {
   border: solid;
 }
