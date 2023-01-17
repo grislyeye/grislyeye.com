@@ -11,15 +11,6 @@
         <section id="projects">
           <h3>What I'm Working On</h3>
 
-          <a href="https://three-meet.grislyeye.com">
-            <div class="project">
-              <h4>Three Meet</h4>
-              <img class="preview" src="images/three-meet.png" alt="Three Meet">
-
-              <p>A low-fantasy 5E hack for dark times.</p>
-            </div>
-          </a>
-
           <a href="https://wargod.grislyeye.com">
             <div class="project">
               <h4>Wargod!</h4>
@@ -34,8 +25,9 @@
 
           <h3>Buy Now</h3>
 
-          {% for product in collections.products %}
+          {% for product in collections.publishedProducts %}
             <div class="product">
+              {{ product.data.publish }}
               <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}"></a>
             </div>
           {% endfor %}

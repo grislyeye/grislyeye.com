@@ -57,6 +57,12 @@ module.exports = function(eleventyConfig) {
       .filter(article => !article.data.tags.includes("draft"));
   });
 
+  eleventyConfig.addCollection("publishedProducts", function(collectionApi) {
+    return collectionApi
+      .getFilteredByTags("products")
+      .filter(product => !product.data.tags.includes("draft"));
+  });
+
   return {
     dir: {
       input: "./posts"
