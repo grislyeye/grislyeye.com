@@ -13,6 +13,7 @@
 @import url("amp.css");
 @import url("code.css");
 @import url("header.css");
+@import url("two-column.css");
 @import url("/vendor/modern-normalize/modern-normalize.css");
 @import url("https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700");
 
@@ -144,6 +145,15 @@ ol {
 .content dl dd dl dt {
   font-weight: normal;
   color: white;
+}
+
+.content dl.stats dt {
+  font-style: normal;
+  margin-left: 0;
+}
+
+.content dl.stats dd {
+  margin-bottom: 0;
 }
 
 .content input[type="checkbox"] {
