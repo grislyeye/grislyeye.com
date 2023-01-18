@@ -125,18 +125,9 @@ ol {
   color: red;
 }
 
-.content dl.stats dt {
-  font-style: normal;
-  margin-left: 0;
-}
-
 .content dl dd {
   margin-left: 0;
   margin-bottom: 2.5rem;
-}
-
-.content dl.stats dd {
-  margin-bottom: 0;
 }
 
 .content table caption {
@@ -154,6 +145,15 @@ ol {
 .content dl dd dl dt {
   font-weight: normal;
   color: white;
+}
+
+.content dl.stats dt {
+  font-style: normal;
+  margin-left: 0;
+}
+
+.content dl.stats dd {
+  margin-bottom: 0;
 }
 
 .content input[type="checkbox"] {
