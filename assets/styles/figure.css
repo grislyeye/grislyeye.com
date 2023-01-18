@@ -1,3 +1,7 @@
+figure {
+  max-width: 250px;
+}
+
 figure p.caption {
   font-size: smaller;
   font-style: italic;

@@ -13,6 +13,7 @@
 @import url("amp.css");
 @import url("code.css");
 @import url("header.css");
+@import url("two-column.css");
 @import url("/vendor/modern-normalize/modern-normalize.css");
 @import url("https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700");
 
@@ -124,9 +125,18 @@ ol {
   color: red;
 }
 
+.content dl.stats dt {
+  font-style: normal;
+  margin-left: 0;
+}
+
 .content dl dd {
   margin-left: 0;
   margin-bottom: 2.5rem;
+}
+
+.content dl.stats dd {
+  margin-bottom: 0;
 }
 
 .content table caption {
