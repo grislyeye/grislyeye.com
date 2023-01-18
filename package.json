@@ -17,6 +17,7 @@
     "eleventy-plugin-seo": "^0.5.2",
     "htmlhint": "^1.1.4",
     "linkinator": "^4.1.2",
+    "prettier": "^2.8.3",
     "stylelint": "^14.16.1",
     "stylelint-config-standard": "^29.0.0"
   },
@@ -24,7 +25,8 @@
     "build": "eleventy",
     "clean": "rm -fr _site",
     "start": "eleventy --serve",
-    "test": "htmlhint '_site/**/*.html' --ignore '**/vendor/**' && stylelint assets/styles/*.css && npx linkinator ./_site -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)' --verbosity debug",
+    "test": "prettier --check 'posts/**/*.html' && htmlhint '_site/**/*.html' --ignore '**/vendor/**' && stylelint assets/styles/*.css && npx linkinator ./_site -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)' --verbosity debug",
+    "format": "prettier --write 'posts/**/*.html'",
     "predeploy": "npm test && npm run clean && npm run build"
   }
 }
