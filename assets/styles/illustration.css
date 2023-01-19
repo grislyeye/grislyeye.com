@@ -1,9 +1,15 @@
 div.illustration,
 figure.illustration {
   float: right;
+  padding: 1em 0;
   padding-left: 1em;
-  margin: 0;
-  margin-bottom: 1em;
+  margin: 1em 0;
+}
+
+div.illustration.full-width,
+figure.illustration.full-width {
+  float: none;
+  padding-left: 1em;
 }
 
 div.illustration.outlined img,
