@@ -28,7 +28,13 @@
 <meta name="twitter:image" content="https://grislyeye.com/images/fey-creature.jpg">
 
 
-  <style>html { visibility: hidden; opacity:0; }</style>
+  <style>
+  html {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+</style>
 
 
   <link href="/styles/main.css" rel="stylesheet">
@@ -59,6 +65,7 @@
 </head>
 
 <body>
+
 
 
 
@@ -168,33 +175,7 @@
 
   <img src="/images/fey-creature.jpg" class="background" alt="Fey Creature Illustration">
 
-  <vellum-monster
-    id="rossible"
-    name="Rossible"
-    named="true"
-    size="Small"
-    type="fey"
-    alignment="chaotic neutral"
-    ac="12"
-    armor="natural armor"
-    hit-die="3d8 - 3"
-    speeds='["30 ft.","swim 30ft."]'
-
-    str="10"
-    dex="14"
-    con="8"
-    int="13"
-    wis="10"
-    cha="15"
-
-    saving-throws='["Wis +2"]'
-    skills='["Deception +4","Persuasion +4","Stealth +3"]'
-    senses='["darkvision 30ft.","passive Perception 10"]'
-    languages='["Common","Sylvan"]'
-    traits='[{"name":"Amphibious","description":"Rossible can breathe air and water."},{"name":"Standing Leap","description":"Rossible&apos;s long jump is up to 20 feet and its high jump is up to 15 feet, with or without a running start."}]'
-    spellcasting='{"level":"1st","ability":"Charisma","save":12,"attackBonus":"+4","innate":true,"notes":" and it requires no material components to cast its spells.","class":"sorcerer","levels":[{"level":"cantrips","spells":["minor illusion","speak with small beasts"]},{"level":"1st","slots":1,"spells":["sleep"]}]}'
-    actions='[{"name":"Invisibility","description":"Rossible magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment Rossible wears or carrries is invisible with it. Rossible is always visible to his companion player character."},{"name":"Silver Dagger","type":"melee-or-ranged-attack","bonus":"+4","reach":"5ft.","range":"20/60 ft.","target":"one target","damage"'
-  >
+  <vellum-monster id="rossible" name="Rossible" named="true" size="Small" type="fey" alignment="chaotic neutral" ac="12" armor="natural armor" hit-die="3d8 - 3" speeds='["30 ft.","swim 30ft."]' str="10" dex="14" con="8" int="13" wis="10" cha="15" saving-throws='["Wis +2"]' skills='["Deception +4","Persuasion +4","Stealth +3"]' senses='["darkvision 30ft.","passive Perception 10"]' languages='["Common","Sylvan"]' traits='[{"name":"Amphibious","description":"Rossible can breathe air and water."},{"name":"Standing Leap","description":"Rossible&apos;s long jump is up to 20 feet and its high jump is up to 15 feet, with or without a running start."}]' spellcasting='{"level":"1st","ability":"Charisma","save":12,"attackBonus":"+4","innate":true,"notes":" and it requires no material components to cast its spells.","class":"sorcerer","levels":[{"level":"cantrips","spells":["minor illusion","speak with small beasts"]},{"level":"1st","slots":1,"spells":["sleep"]}]}' actions='[{"name":"Invisibility","description":"Rossible magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment Rossible wears or carrries is invisible with it. Rossible is always visible to his companion player character."},{"name":"Silver Dagger","type":"melee-or-ranged-attack","bonus":"+4","reach":"5ft.","range":"20/60 ft.","target":"one target","damage"'>
   </vellum-monster>
 </div>
 
@@ -298,22 +279,36 @@
 
 <footer>
   <p class="legal">
-    Website version 2.22.0 Copyright &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+    Website version 2.22.1 Copyright &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
   </p>
 </footer>
 
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
   ga('create', 'UA-79887426-1', 'auto');
   ga('set', 'anonymizeIp', true);
   ga('send', 'pageview');
+
 </script>
 
-  <style>html { visibility: visible; opacity: 1; }</style>
+  <style>
+  html {
+    visibility: visible;
+    opacity: 1;
+  }
+
+</style>
 
 
 </body>
