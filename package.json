@@ -16,6 +16,7 @@
     "eleventy-plugin-gen-favicons": "^1.1.2",
     "eleventy-plugin-seo": "^0.5.2",
     "htmlhint": "^1.1.4",
+    "js-beautify": "^1.14.7",
     "linkinator": "^4.1.2",
     "stylelint": "^14.16.1",
     "stylelint-config-standard": "^29.0.0"
@@ -24,6 +25,7 @@
     "build": "eleventy",
     "clean": "rm -fr _site",
     "start": "eleventy --serve",
+    "format": "js-beautify --config .jsbeautify.json posts/**/*.html",
     "test": "htmlhint '_site/**/*.html' --ignore '**/vendor/**' && stylelint assets/styles/*.css && npx linkinator ./_site -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)' --verbosity debug",
     "predeploy": "npm test && npm run clean && npm run build"
   }
