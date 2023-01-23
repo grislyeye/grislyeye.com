@@ -25,7 +25,7 @@
 
           <h3>Buy Now</h3>
 
-          {% for product in collections.publishedProducts %}
+          {% for product in collections.publishedProducts | reverse | limit(6) %}
             <div class="product">
               {{ product.data.publish }}
               <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}"></a>
