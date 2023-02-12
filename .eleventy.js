@@ -60,6 +60,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("publishedProducts", function(collectionApi) {
     return collectionApi
       .getFilteredByTags("products")
+      .filter(product => !product.data.tags.includes("draft"))
+      .filter(product => !product.data.tags.includes("wip"));
+  });
+
+  eleventyConfig.addCollection("wipProjects", function(collectionApi) {
+    return collectionApi
+      .getFilteredByTags("wip")
       .filter(product => !product.data.tags.includes("draft"));
   });
 

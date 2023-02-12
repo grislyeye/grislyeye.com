@@ -18,6 +18,13 @@
 
               <p>A rules-light tabletop RPG that vibes off the British old-school renaissance.</p>
             </div>
+
+            {% for product in collections.wipProjects | reverse | limit(6) %}
+              <div class="product">
+                {{ product.data.publish }}
+                <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}"></a>
+              </div>
+            {% endfor %}
           </a>
         </section>
 
