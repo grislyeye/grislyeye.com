@@ -11,21 +11,12 @@
         <section id="projects">
           <h3>What I'm Working On</h3>
 
-          <a href="https://wargod.grislyeye.com">
-            <div class="project">
-              <h4>Wargod!</h4>
-              <img class="preview" src="images/wargod.png" alt="Three Meet">
-
-              <p>Wargod! is grim fantasy hack for Troika! that vibes off the British old-school renaissance (BOSR).</p>
+          {% for product in collections.wipProjects | reverse | limit(6) %}
+            <div class="product">
+              {{ product.data.publish }}
+              <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}"></a>
             </div>
-
-            {% for product in collections.wipProjects | reverse | limit(6) %}
-              <div class="product">
-                {{ product.data.publish }}
-                <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}"></a>
-              </div>
-            {% endfor %}
-          </a>
+          {% endfor %}
         </section>
 
         {% if collections.products %}
