@@ -14,6 +14,9 @@
 @import url("code.css");
 @import url("header.css");
 @import url("reader-bar.css");
+@import url("two-column.css");
+@import url("button.css");
+@import url("product.css");
 @import url("/vendor/modern-normalize/modern-normalize.css");
 @import url("https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700");
 
@@ -81,29 +84,6 @@ footer {
   footer {
     font-size: 1em;
   }
-}
-
-.button {
-  color: white !important;
-  background-color: red !important;
-  font-size: 0.8em !important;
-}
-
-button {
-  color: black;
-  background-color: red;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-article .content button {
-  color: white;
-  font-size: 0.8em;
-  border: 0 none #000;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em;
 }
 
 ul,
