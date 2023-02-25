@@ -14,7 +14,7 @@
           {% for product in collections.wipProjects | reverse | limit(6) %}
             <div class="product">
               {{ product.data.publish }}
-              <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}"></a>
+              <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}" loading="lazy"></a>
             </div>
           {% endfor %}
         </section>
@@ -26,7 +26,7 @@
           {% for product in collections.publishedProducts | reverse | limit(6) %}
             <div class="product">
               {{ product.data.publish }}
-              <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}"></a>
+              <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}" loading="lazy"></a>
             </div>
           {% endfor %}
         {% endif %}
@@ -41,7 +41,7 @@
               <h4>{{ article.data.title }}</h4>
 
               {% if article.data.image %}
-                <img src="{{ article.data.image }}" alt="{{ article.data.title }}" class="preview">
+                <img src="{{ article.data.image }}" alt="{{ article.data.title }}" class="preview" loading="lazy">
               {% endif %}
 
               <p>{{ article.data.content | preview }}...</p>
