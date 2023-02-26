@@ -25,7 +25,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("preview", function (html) {
     const $ = cheerio.load(html);
-    return $('.preview').text().substr(1, 230);
+    return $('.preview').text().substr(0, 230);
   });
 
   eleventyConfig.addPlugin(pluginRss);
