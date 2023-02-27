@@ -1,4 +1,5 @@
 @import url("/vendor/skeleton/skeleton.css");
+@import url("two-column.css");
 
 article,
 body > main > header,
