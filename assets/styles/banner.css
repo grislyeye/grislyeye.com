@@ -22,10 +22,10 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 850px) {
   .ribbon .content {
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
 
