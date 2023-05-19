@@ -135,9 +135,3 @@ body > main.post > header .title {
 body > main.post > header .subtitle {
   display: none;
 }
-
-body > main.post > header #logo {
-  height: 1em;
-  margin-top: 0;
-  margin-left: 0;
-}
