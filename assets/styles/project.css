@@ -26,3 +26,13 @@
   color: inherit;
   text-decoration: inherit;
 }
+
+#content #projects {
+  display: flex;
+  flex-flow: row;
+}
+
+
+#content #projects .project {
+  width: 300px;
+}

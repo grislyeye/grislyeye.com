@@ -8,17 +8,19 @@ image: /images/ric.jpg
   <p class="caption">he/him</p>
 </figure>
 
-<p>Another forever DM, messing around with TTRPG design. I can be found working from my home office, looking over the suburban gardens of South London.</p>
+<p>Forever DM and indie TTRPG designer with a focus on worldbuilding. I've published on the <a href="https://www.dmsguild.com/browse.php?author=Ric%20Wood">Dungeon Master's Guild</a> and I'm currently running two (2!) campaigns.</p>
 
-<p>My likes include: dogs, presents, reading, high concept TV, horror films, low fantasy, BOSR and socialism.</p>
+<p><strong>Skills:</strong> ✍️ Writing, 📐 layout, 🗺️ cartography, graphic design, 🌐 web design, 🎲 game design, 💅 style.</p>
 
-<p>Things I'm working on:</p>
+<p><strong>Likes:</strong> 🐶 dogs, 🎁 presents, 📖 reading, 📺 high-concept TV, 👻 horror films, 💀🤘 low fantasy, 🇬🇧 BOSR, 🌹 socialism.</p>
 
-<ul>
-  <li>Blogging here.</li>
-  <li>Low fantasy monographs for the <a href="https://www.dmsguild.com/browse.php?author=Ric%20Wood">Dungeon Master's Guild</a>.</li>
-  <li>Running two (2!) campaigns: <a href="https://dismas.grislyeye.com">Dismas Remade</a> and <span class="product">The Last Post</span>.</li>
-  <li><a href="https://three-meet.grislyeye.com">Three Meet</a> — a low fantasy 5E hack.</li>
-  <li><a href="https://wargod.grislyeye.com">Wargod!</a> the Warhammer hack for Troika!</li>
-  <li><span class="product">CONT/EXT</span> — britpunky Mothership one shot.</li>
-</ul>
+<p><strong>Working on:</strong></p>
+
+<section id="projects">
+  {% for product in collections.wipProjects | reverse | limit(6) %}
+    <div class="project">
+      {{ product.data.publish }}
+      <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}" loading="lazy"></a>
+    </div>
+  {% endfor %}
+</section>
