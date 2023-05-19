@@ -20,7 +20,13 @@ image: /images/ric.jpg
   {% for product in collections.wipProjects | reverse | limit(6) %}
     <div class="project">
       {{ product.data.publish }}
-      <a href="{{ product.url }}"><img src="{{ product.data.image }}" alt="{{ product.data.title }}" loading="lazy"></a>
+      <a href="{{ product.url }}">
+        {% if product.data.image %}
+          <img src="{{ product.data.image }}" alt="{{ product.data.title }}" loading="lazy">
+        {% else %}
+          <p>{{ product.data.title }}</p>
+        {% endif %}
+      </a>
     </div>
   {% endfor %}
 </section>
