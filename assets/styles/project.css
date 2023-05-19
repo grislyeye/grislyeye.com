@@ -76,7 +76,7 @@
 
   body > main aside#sidebar .project img,
   body > main aside#sidebar .product img {
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent 30%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,100%), transparent 30%);
     mask-image: linear-gradient(to bottom, rgba(0 0 0 100%), transparent 20%);
   }
 
