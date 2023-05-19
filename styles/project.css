@@ -26,3 +26,58 @@
   color: inherit;
   text-decoration: inherit;
 }
+
+#content #projects {
+  display: flex;
+  flex-flow: row;
+}
+
+#content #sidebar #projects {
+  display: block;
+}
+
+#projects div.project img {
+  width: 100%;
+  margin: 0;
+}
+
+#projects .project,
+#projects .product {
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projects .project p,
+#projects .product p {
+  width: 100%;
+  height: 100%;
+  line-height: 175px;
+  text-align: center;
+  font-size: 4em;
+  background-color: grey;
+  border-radius: 15px;
+}
+
+@media (max-width: 500px) {
+  #projects .project,
+  #projects .product {
+    margin-bottom: 1em;
+  }
+
+  #projects .project p,
+  #projects .product p {
+    line-height: 100px;
+    text-align: center;
+    font-size: 2.5em;
+    background: linear-gradient(to bottom, gray, transparent 100%);
+  }
+
+  body > main aside#sidebar .project img,
+  body > main aside#sidebar .product img {
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,100%), transparent 30%);
+    mask-image: linear-gradient(to bottom, rgba(0 0 0 100%), transparent 20%);
+  }
+
+}

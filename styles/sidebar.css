@@ -16,6 +16,7 @@ body > main aside#sidebar h3 {
 
 body > main aside#sidebar img {
   max-width: 100%;
+  width: 100%;
 }
 
 body > main aside#sidebar.products {
@@ -26,6 +27,15 @@ body > main aside#sidebar.products {
   body > main aside#sidebar {
     width: 100%;
     padding-left: 0;
+  }
+
+  body > main aside#sidebar .product {
+    height: 100px;
+    padding-left: 0;
+  }
+
+  body > main aside#sidebar #products {
+    display: none;
   }
 }
 

@@ -21,7 +21,7 @@ body > main > div#content {
 
 @media (max-width: 500px) {
   body > main > div#content {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 
