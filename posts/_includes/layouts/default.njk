@@ -27,20 +27,22 @@
 
         {% if collections.products %}
 
-          <h3>Buy Now</h3>
+          <section id="products">
+            <h3>Buy Now</h3>
 
-          {% for product in collections.publishedProducts | reverse | limit(6) %}
-            <div class="product">
-              {{ product.data.publish }}
-              <a href="{{ product.url }}">
-                {% if product.data.image %}
-                  <img src="{{ product.data.image }}" alt="{{ product.data.title }}" loading="lazy">
-                {% else %}
-                  <p>{{ product.data.title }}</p>
-                {% endif %}
-              </a>
-            </div>
-          {% endfor %}
+            {% for product in collections.publishedProducts | reverse | limit(6) %}
+              <div class="product">
+                {{ product.data.publish }}
+                <a href="{{ product.url }}">
+                  {% if product.data.image %}
+                    <img src="{{ product.data.image }}" alt="{{ product.data.title }}" loading="lazy">
+                  {% else %}
+                    <p>{{ product.data.title }}</p>
+                  {% endif %}
+                </a>
+              </div>
+            {% endfor %}
+          </section>
         {% endif %}
 
       </aside>

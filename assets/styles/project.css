@@ -59,3 +59,24 @@
   background-color: grey;
   border-radius: 15px;
 }
+
+@media (max-width: 500px) {
+  #projects .project,
+  #projects .product {
+    margin-bottom: 1em;
+  }
+
+  #projects .project p,
+  #projects .product p {
+    line-height: 100px;
+    text-align: center;
+    font-size: 2.5em;
+    background: linear-gradient(to bottom, gray, transparent 100%);
+  }
+
+  body > main aside#sidebar .project img,
+  body > main aside#sidebar .product img {
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), transparent 40%);
+  }
+
+}

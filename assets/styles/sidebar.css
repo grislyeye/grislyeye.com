@@ -28,6 +28,15 @@ body > main aside#sidebar.products {
     width: 100%;
     padding-left: 0;
   }
+
+  body > main aside#sidebar .product {
+    height: 100px;
+    padding-left: 0;
+  }
+
+  body > main aside#sidebar #products {
+    display: none;
+  }
 }
 
 aside#sidebar h5 {
