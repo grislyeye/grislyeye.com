@@ -4,12 +4,266 @@
   <subtitle>R.G. Wood</subtitle>
   <link href="https://grislyeye.com/rss.xml" rel="self"/>
   <link href="https://grislyeye.com/"/>
-  <updated>2024-06-01T00:00:00Z</updated>
+  <updated>2024-11-05T00:00:00Z</updated>
   <id>https://grislyeye.com/</id>
   <author>
     <name>R.G. Wood</name>
     <email>ric@grislyeye.com</email>
   </author>
+  
+  <entry>
+    <title>The Forbidden Encounter Die</title>
+    <link href="https://grislyeye.com/blog/hack-forbidden-lands-encounter-tables/"/>
+    <updated>2024-11-05T00:00:00Z</updated>
+    <id>https://grislyeye.com/blog/hack-forbidden-lands-encounter-tables/</id>
+    <content type="html">&lt;blockquote&gt;
+  &lt;q&gt;We make our own monsters, then fear them for what they show us about ourselves.&lt;/q&gt;
+
+  &lt;cite&gt;&lt;span class=&quot;product&quot;&gt;The Unwritten, Vol. 1: Tommy Taylor and the Bogus Identity&lt;/span&gt; by Mike Carey and Peter Gross&lt;/cite&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Since &lt;span class=&quot;product&quot;&gt;Forbidden Lands&lt;/span&gt; became my go-to system, I&#39;ve been unable to resist the urge to &lt;a href=&quot;https://grislyeye.com/blog/spirit-discipline-1.html&quot;&gt;homebrew&lt;/a&gt;. I promised myself that I wouldn&#39;t, but here we are. We make our own monsters. The monster in question? Random encounter tables that aren&#39;t tied to the &lt;span class=&quot;product&quot;&gt;Forbidden Lands&lt;/span&gt; setting. Because, of course, I&#39;m running my own setting. (I really like to make my own monsters.)&lt;/p&gt;
+
+&lt;aside class=&quot;preview&quot;&gt;This is an adaptation of &lt;a href=&quot;https://www.necropraxis.com/2014/02/03/overloading-the-encounter-die/&quot;&gt;encounter die&lt;/a&gt; for &lt;span class=&quot;product&quot;&gt;Forbidden Lands&lt;/span&gt; random encounters. Content warning: lots of tables.&lt;/aside&gt;
+
+&lt;h3&gt;The d66 Encounter Die&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  Himeon leaned in to poke the fire, casually grabbing his bow in the process.&lt;br /&gt;
+  &lt;q&gt;Something watches us and hungers,&lt;/q&gt; he said.
+
+  &lt;cite&gt;&lt;span class=&quot;product&quot;&gt;Forbidden Lands Gamemaster&#39;s Guide&lt;/span&gt;, from Fria Ligan AB&lt;/cite&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&#39;m going to be doing this by adapting Necropraxis&#39; famous encounter die mechanic. (I&#39;ve always wanted to play around with this.) Now, some of the encounter types are already covered by the &lt;span class=&quot;product&quot;&gt;Forbidden Lands&lt;/span&gt; journey rules, specifically the mishap tables:&lt;/p&gt;
+
+&lt;aside&gt;
+  I never know when to all-caps words in FL. What is the convention exactly? It seems inconsistent in the books.
+&lt;/aside&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The LEADING THE WAY mishaps table already covers Setbacks, Fatigue and Expiration.&lt;/li&gt;
+  &lt;li&gt;Expiration and Advantage are also covered by the resource rules and other journey activities.&lt;/li&gt;
+  &lt;li&gt;Some mishaps would be better suited as Environment encounters (you wouldn&#39;t get a downpour in the middle of a desert, for example).&lt;/li&gt;
+  &lt;li&gt;I feel like mishap tables should only include problems the characters might create for themselves: Fatigue (including Sprained Ankle and Torn Clothes) and exploration setbacks (including Lost and Blocked Terrain).&lt;/li&gt;
+  &lt;li&gt;Random encounters should include colour, such as rainbows, orchards, warm days, etc. That&#39;s fun.&lt;/li&gt;
+  &lt;li&gt;Percept is covered by KEEP WATCH and therefore redundant.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Given the above, we can adapt the &lt;span class=&quot;product&quot;&gt;Forbidden Lands&lt;/span&gt; d66 table format to approximate an overloaded encounter roll, which will be divided into 6 ranges with the following categories:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;caption&gt;d66 Encounter Table Template&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;d66&lt;/th&gt;
+      &lt;th&gt;Encounter Category&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;11-36&lt;/td&gt;
+      &lt;td&gt;None/Flavour/Advantage (good weather, bounty, colour)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;41-46&lt;/td&gt;
+      &lt;td&gt;Encounter (monsters, NPCs, recurring characters)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;51-56&lt;/td&gt;
+      &lt;td&gt;Hazard or Environment (blizzards, landslides, floods, downpours, fog, forest fires)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;61-65&lt;/td&gt;
+      &lt;td&gt;Location&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;66&lt;/td&gt;
+      &lt;td&gt;Adjacent region encounter&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3&gt;Mishaps&lt;/h3&gt;
+
+&lt;p&gt;Recategorising some mishaps as encounters means we&#39;ll have to strip out some of the journey rule mishaps. The modified mishap tables are as follows:&lt;/p&gt;
+
+&lt;section class=&quot;two-column&quot;&gt;
+
+  &lt;table&gt;
+    &lt;caption&gt;LEADING THE WAY mishaps table&lt;/caption&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;1d6&lt;/th&gt;
+        &lt;th&gt;Mishap&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;1-2&lt;/td&gt;
+        &lt;td&gt;Blocked Terrain&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;3-4&lt;/td&gt;
+        &lt;td&gt;Lost&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;5&lt;/td&gt;
+        &lt;td&gt;Minor Injury (result 25–26 in the table for blunt trauma, FLPH pg. 197)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;6&lt;/td&gt;
+        &lt;td&gt;Torn Clothes&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;table&gt;
+    &lt;caption&gt;FORAGING mishaps table&lt;/caption&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;1d6&lt;/th&gt;
+        &lt;th&gt;Mishap&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;1-2&lt;/td&gt;
+        &lt;td&gt;Poisonous&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;3-4&lt;/td&gt;
+        &lt;td&gt;Minor Injury (result 25–26 in the table for blunt trauma, FLPH pg.
+        197)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;5-6&lt;/td&gt;
+        &lt;td&gt;Torn Clothes&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+&lt;/section&gt;
+
+&lt;figure class=&quot;full-width outlined illustration&quot;&gt;
+  &lt;img src=&quot;https://grislyeye.com/images/northern-measure.jpg&quot; alt=&quot;Northern Measure panorama&quot; /&gt;
+  &lt;p class=&quot;caption&quot;&gt;&lt;span class=&quot;product&quot;&gt;Desert Cedars, New Mexico, 1920&lt;/span&gt; by George Elbert Burr.&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;aside&gt;
+  Here is an example of a regional encounter table from my own campaign, The Last Post.
+&lt;/aside&gt;
+
+&lt;h3 id=&quot;northern-measure&quot;&gt;The Northern Measure&lt;/h3&gt;
+
+&lt;p&gt;The Northern Measure is a land of choking dust and sharp winds, echoing the chaos of the Grey Waste far to the west. Once verdant, it was destroyed by the Devastation of Inroth, its only inhabitants are faded ghosts, the grey skinned dust-folk and what wildlife that can cling to life.&lt;/p&gt;
+
+&lt;section class=&quot;two-column&quot;&gt;
+
+  &lt;table&gt;
+    &lt;caption&gt;Northern Measure Random Encounters&lt;/caption&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;d66&lt;/th&gt;
+        &lt;th&gt;Encounter&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;11-31&lt;/td&gt;
+        &lt;td&gt;None&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;32-36&lt;/td&gt;
+        &lt;td&gt;Ghost settlement&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;41&lt;/td&gt;
+        &lt;td&gt;Zone 1 NPCs&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;42&lt;/td&gt;
+        &lt;td&gt;Perfidious Bastard starlings&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;43&lt;/td&gt;
+        &lt;td&gt;Dust folk&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;44&lt;/td&gt;
+        &lt;td&gt;Scolosi&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;45&lt;/td&gt;
+        &lt;td&gt;Dust wight&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;46&lt;/td&gt;
+        &lt;td&gt;Starving scavengers&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;51&lt;/td&gt;
+        &lt;td&gt;Dust storm&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;52&lt;/td&gt;
+        &lt;td&gt;Circling buzzards&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;53&lt;/td&gt;
+        &lt;td&gt;Landslide (FLPH pg. 148)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;54&lt;/td&gt;
+        &lt;td&gt;Quicksand (FLPH pg. 148)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;55&lt;/td&gt;
+        &lt;td&gt;The Withering Inrothian Curse&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;56&lt;/td&gt;
+        &lt;td&gt;Scorching heat&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;61&lt;/td&gt;
+        &lt;td&gt;Hustmere&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;62&lt;/td&gt;
+        &lt;td&gt;The Pauper’s Palace&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;63&lt;/td&gt;
+        &lt;td&gt;Balfort&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;64&lt;/td&gt;
+        &lt;td&gt;The Hust&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;65&lt;/td&gt;
+        &lt;td&gt;The Palsied Tower&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;66&lt;/td&gt;
+        &lt;td&gt;Adjacent region random encounter&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+&lt;/section&gt;
+
+&lt;h3&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;Try not make your own monsters.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Spirits of the Forbidden Lands</title>
