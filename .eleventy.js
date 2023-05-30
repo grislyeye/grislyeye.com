@@ -4,6 +4,9 @@ const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const pluginSEO = require("eleventy-plugin-seo");
 const favicons = require("eleventy-plugin-gen-favicons");
 const readerBar = require('eleventy-plugin-reader-bar');
+const { eleventyImagePlugin } = require('@11ty/eleventy-img');
+const webc = require("@11ty/eleventy-plugin-webc");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 module.exports = function(eleventyConfig) {
 
@@ -50,6 +53,23 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(favicons);
 
   eleventyConfig.addPlugin(readerBar);
+
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
+
+  eleventyConfig.addPlugin(webc, {
+    components: [
+      "npm:@11ty/eleventy-img/*.webc",
+    ]
+  });
+
+  eleventyConfig.addPlugin(eleventyImagePlugin , {
+    urlPath: "/assets/images/",
+
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async"
+    }
+  });
 
   eleventyConfig.addCollection("publishedArticles", function(collectionApi) {
     return collectionApi

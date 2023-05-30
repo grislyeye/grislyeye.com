@@ -3,7 +3,6 @@
   "version": "2.26.1",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
-    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "eleventy-plugin-reader-bar": "^0.2.1",
     "modern-normalize": "^2.0.0",
     "skeleton-css": "^2.0.4",
@@ -11,7 +10,10 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "cheerio": "^1.0.0-rc.12",
     "eleventy-plugin-gen-favicons": "^1.1.2",
     "eleventy-plugin-seo": "^0.5.2",

@@ -16,7 +16,12 @@
               {{ product.data.publish }}
               <a href="{{ product.url }}">
                 {% if product.data.image %}
-                  <img src="{{ product.data.image }}" alt="{{ product.data.title }}" loading="lazy">
+                    {% renderTemplate "webc", {
+                      image: product.data.image,
+                      title: product.data.title
+                    } %}
+                      <eleventy-image :src="{{ 'assets/' + image }}" :alt="{{ title }}" width="230"></eleventy-image>
+                    {% endrenderTemplate %}
                 {% else %}
                   <p>{{ product.data.title }}</p>
                 {% endif %}
@@ -35,7 +40,12 @@
                 {{ product.data.publish }}
                 <a href="{{ product.url }}">
                   {% if product.data.image %}
-                    <img src="{{ product.data.image }}" alt="{{ product.data.title }}" loading="lazy">
+                    {% renderTemplate "webc", {
+                      image: product.data.image,
+                      title: product.data.title
+                    } %}
+                      <eleventy-image :src="{{ 'assets/' + image }}" :alt="{{ title }}" width="230"></eleventy-image>
+                    {% endrenderTemplate %}
                   {% else %}
                     <p>{{ product.data.title }}</p>
                   {% endif %}
@@ -55,7 +65,12 @@
               <h4>{{ article.data.title }}</h4>
 
               {% if article.data.image %}
-                <img src="{{ article.data.image }}" alt="{{ article.data.title }}" class="preview" loading="lazy">
+                {% renderTemplate "webc", {
+                  image: article.data.image,
+                  title: article.data.title
+                } %}
+                  <eleventy-image class="preview" :src="{{ 'assets/' + image }}" :alt="{{ title }}" width="230"></eleventy-image>
+                {% endrenderTemplate %}
               {% endif %}
 
               <p>{{ article.data.content | preview }}...</p>
