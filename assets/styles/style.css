@@ -43,7 +43,7 @@ h5 a {
   text-decoration: none;
 }
 
-@media (max-width: 800px) {
+@media (width < 800px) {
   .subtitle {
     display: none;
   }
@@ -61,7 +61,7 @@ article img {
   margin-right: auto;
 }
 
-@media (max-width: 800px) {
+@media (width < 800px) {
   article img {
     width: 100%;
   }
@@ -77,7 +77,7 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (width < 500px) {
   footer {
     font-size: 1em;
   }

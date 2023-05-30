@@ -25,7 +25,7 @@ figure.full-width img {
   margin: 0;
 }
 
-@media (max-width: 500px) {
+@media (width < 500px) {
   figure {
     width: 60%;
     display: block;

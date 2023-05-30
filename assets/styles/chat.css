@@ -76,7 +76,7 @@
   content: ")";
 }
 
-@media (max-width: 500px) {
+@media (width < 500px) {
   .content section.chat > * {
     width: 100%;
   }

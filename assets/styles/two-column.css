@@ -2,7 +2,7 @@
   column-count: 2;
 }
 
-@media (max-width: 500px) {
+@media (width < 500px) {
   .content section.two-column {
     column-count: 1;
   }
