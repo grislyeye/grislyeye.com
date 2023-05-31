@@ -83,12 +83,6 @@
   margin-bottom: auto;
 }
 
-#top-ribbon .content .button {
-  margin-bottom: 0;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
-
 @media (width < 500px) {
   #top-ribbon .content {
     padding-left: 2em;

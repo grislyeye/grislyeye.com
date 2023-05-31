@@ -24,6 +24,19 @@ input.button {
   opacity: 0.6;
 }
 
+.ribbon .button.call {
+  display: block;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (width >= 500px) {
+  .ribbon .button.call {
+    float: right;
+  }
+}
+
 button {
   color: black;
   background-color: red;

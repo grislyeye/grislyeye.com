@@ -32,6 +32,8 @@
 
 <body>
 
-{% include "top-ribbon.html" %}
+{% if top != false %}
+  {% include "top-ribbon.html" %}
+{% endif %}
 
 <amp-image-lightbox id="lightbox" layout="nodisplay"></amp-image-lightbox>
