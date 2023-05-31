@@ -16,12 +16,7 @@
               {{ product.data.publish }}
               <a href="{{ product.url }}">
                 {% if product.data.image %}
-                    {% renderTemplate "webc", {
-                      image: product.data.image,
-                      title: product.data.title
-                    } %}
-                      <eleventy-image :src="{{ 'assets/' + image }}" :alt="{{ title }}" width="230"></eleventy-image>
-                    {% endrenderTemplate %}
+                  <img src="{{ product.data.image }}" alt="{{ product.data.title }}" loading="lazy">
                 {% else %}
                   <p>{{ product.data.title }}</p>
                 {% endif %}
@@ -40,12 +35,7 @@
                 {{ product.data.publish }}
                 <a href="{{ product.url }}">
                   {% if product.data.image %}
-                    {% renderTemplate "webc", {
-                      image: product.data.image,
-                      title: product.data.title
-                    } %}
-                      <eleventy-image :src="{{ 'assets/' + image }}" :alt="{{ title }}" width="230"></eleventy-image>
-                    {% endrenderTemplate %}
+                    <img src="{{ product.data.image }}" alt="{{ product.data.title }}" loading="lazy">
                   {% else %}
                     <p>{{ product.data.title }}</p>
                   {% endif %}
