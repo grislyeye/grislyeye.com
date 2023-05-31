@@ -64,6 +64,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyImagePlugin , {
     urlPath: "/assets/images/",
+    formats: ["webp", "jpeg", "svg"],
 
     defaultAttributes: {
       decoding: "async"
