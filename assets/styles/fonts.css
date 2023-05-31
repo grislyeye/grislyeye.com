@@ -1,18 +1,21 @@
 @font-face {
   font-family: "Andada SC";
   src: url("/fonts/AndadaSC-Regular.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Andada SC";
   font-weight: bold;
   src: url("/fonts/AndadaSC-Bold.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Andada SC";
   font-style: italic;
   src: url("/fonts/AndadaSC-Italic.otf");
+  font-display: swap;
 }
 
 @font-face {
@@ -20,23 +23,27 @@
   font-weight: bold;
   font-style: italic;
   src: url("/fonts/AndadaSC-BoldItalic.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Andada;
   src: url("/fonts/Andada-Regular.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Andada;
   font-weight: bold;
   src: url("/fonts/Andada-Bold.otf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Andada;
   font-style: italic;
   src: url("/fonts/Andada-Italic.otf");
+  font-display: swap;
 }
 
 @font-face {
@@ -44,4 +51,5 @@
   font-weight: bold;
   font-style: italic;
   src: url("/fonts/Andada-BoldItalic.otf");
+  font-display: swap;
 }

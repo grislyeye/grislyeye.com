@@ -18,7 +18,7 @@
 @import url("button.css");
 @import url("product.css");
 @import url("/vendor/modern-normalize/modern-normalize.css");
-@import url("https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700");
+@import url("https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700&display=swap");
 
 body {
   background: black;
