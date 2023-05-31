@@ -7,7 +7,7 @@ body > main #articles div.article {
   padding: 0.5em;
 }
 
-@media (max-width: 800px) {
+@media (width < 800px) {
   body > main #articles {
     display: block;
   }
@@ -33,7 +33,7 @@ body > main #articles div.article a h4 {
   text-decoration: none;
 }
 
-@media (max-width: 500px) {
+@media (width < 500px) {
   body > main #articles div.article h4 {
     text-align: center;
   }

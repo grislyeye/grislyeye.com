@@ -19,7 +19,7 @@ body > main > div#content {
   flex-direction: row-reverse;
 }
 
-@media (max-width: 500px) {
+@media (width < 500px) {
   body > main > div#content {
     flex-direction: column;
   }
@@ -32,7 +32,7 @@ body > main #articles {
   width: 70%;
 }
 
-@media (max-width: 500px) {
+@media (width < 500px) {
   body > main #articles {
     width: 100%;
   }
@@ -92,7 +92,7 @@ body > main article .content header {
   left: 0;
 }
 
-@media (max-width: 800px) {
+@media (width < 800px) {
   .stat-block {
     position: static;
   }

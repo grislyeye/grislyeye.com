@@ -4,12 +4,86 @@
   <subtitle>R.G. Wood</subtitle>
   <link href="https://grislyeye.com/rss.xml" rel="self"/>
   <link href="https://grislyeye.com/"/>
-  <updated>2024-11-05T00:00:00Z</updated>
+  <updated>2025-07-05T00:00:00Z</updated>
   <id>https://grislyeye.com/</id>
   <author>
     <name>R.G. Wood</name>
     <email>ric@grislyeye.com</email>
   </author>
+  
+  <entry>
+    <title>Buy Wargod!</title>
+    <link href="https://grislyeye.com/products/wargod/"/>
+    <updated>2025-07-05T00:00:00Z</updated>
+    <id>https://grislyeye.com/products/wargod/</id>
+    <content type="html">&lt;aside class=&quot;purchase&quot;&gt;
+  &lt;a href=&quot;https://grislyeye.itch.io/wargod&quot;&gt;
+    &lt;figure class=&quot;print illustration&quot;&gt;
+      &lt;img src=&quot;https://grislyeye.com/images/covers/wargod-digital.png&quot; alt=&quot;Wargod! PDF Cover&quot; /&gt;
+    &lt;/figure&gt;
+  &lt;/a&gt;
+
+  &lt;h2 class=&quot;price&quot;&gt;£5&lt;/h2&gt;
+
+  &lt;div id=&quot;buy-digital&quot; class=&quot;button&quot;&gt;
+    &lt;a href=&quot;https://grislyeye.itch.io/wargod&quot;&gt;
+      PDF (via ITCH)
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;hr /&gt;
+
+  &lt;figure class=&quot;print illustration&quot;&gt;
+    &lt;img src=&quot;https://grislyeye.com/images/covers/wargod-print.png&quot; alt=&quot;Wargod! Print Cover&quot; /&gt;
+  &lt;/figure&gt;
+
+  &lt;h2 class=&quot;price&quot;&gt;£10&lt;/h2&gt;
+
+  &lt;ul class=&quot;notes&quot;&gt;
+    &lt;li&gt;+£2 postage.&lt;/li&gt;
+    &lt;li&gt;Shipping to the UK only.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;div id=&quot;buy-print&quot; class=&quot;button&quot;&gt;
+    &lt;a href=&quot;https://buy.stripe.com/6oE17YbBs7Km3Bu6oo&quot;&gt;
+      Buy Print + PDF
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/aside&gt;
+
+&lt;p class=&quot;preview&quot;&gt;&lt;strong&gt;d66&lt;/strong&gt; grim fantasy careers for &lt;a href=&quot;https://www.troikarpg.com/&quot;&gt;Troika!&lt;/a&gt; that vibe off the BOSR (British old-school renaissance).&lt;/p&gt;
+
+&lt;p&gt;Play grubby fools, scoundrels or commoners thrown into an implied setting of farce and endless war.&lt;/p&gt;
+
+&lt;p&gt;Inspired by the original &lt;span class=&quot;product&quot;&gt;Warhammer Fantasy Roleplay&lt;/span&gt;, you can use &lt;span class=&quot;title&quot;&gt;Wargod!&lt;/span&gt; to run your old adventures or plunge into new worlds of dark fantasy.&lt;/p&gt;
+
+&lt;h5&gt;Old-school British hack&lt;/h5&gt;
+
+&lt;p&gt;The book includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;d66&lt;/strong&gt; grubby Troika! backgrounds&lt;/li&gt;
+  &lt;li&gt;implied setting&lt;/li&gt;
+  &lt;li&gt;and some &lt;em&gt;tastefully&lt;/em&gt; selected art.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Created as part of &lt;a href=&quot;https://www.zinemonth.com/&quot;&gt;#ZineMonth2023&lt;/a&gt;.&lt;/p&gt;
+
+&lt;script&gt;
+  const timezone =
+    Intl.DateTimeFormat()
+      .resolvedOptions()
+      .timeZone
+
+  const shipping       = timezone &amp;&amp; timezone === &quot;Europe/London&quot;
+  const buyPrintButton = document.getElementById(&quot;buy-print&quot;)
+
+  if(!shipping &amp;&amp; buyPrintButton) {
+    buyPrintButton.classList.add(&quot;disabled&quot;)
+  }
+&lt;/script&gt;
+</content>
+  </entry>
   
   <entry>
     <title>The Forbidden Encounter Die</title>

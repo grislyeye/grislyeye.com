@@ -21,7 +21,14 @@
   color: #a8a8a8;
 }
 
-@media (max-width: 500px) {
+.content aside h1,
+.content aside h2,
+.content aside h3,
+.content aside h4 {
+  color: white;
+}
+
+@media (width < 500px) {
   .content aside {
     display: none;
   }

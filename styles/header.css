@@ -24,7 +24,7 @@ body > main > header > nav > * {
   display: inline;
 }
 
-@media (max-width: 800px) {
+@media (width < 800px) {
   body > main > header > nav {
     display: none;
   }
@@ -78,7 +78,7 @@ body > main > header nav ul.links li {
   margin: 0.25em;
 }
 
-@media (max-width: 500px) {
+@media (width < 500px) {
   body > main > header #logo {
     display: block;
     margin: 0 auto;
@@ -89,7 +89,7 @@ body > main > header nav ul.links li {
   }
 }
 
-@media (max-width: 800px) {
+@media (width < 800px) {
   body > main > header h1.title {
     font-size: 3em;
     display: block;
@@ -109,7 +109,7 @@ body > main > header nav ul.links li {
   }
 }
 
-@media (max-width: 500px) {
+@media (width < 500px) {
   body > main > header {
     margin-bottom: 0;
   }

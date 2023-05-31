@@ -1,0 +1,55 @@
+.button,
+input.button {
+  color: white;
+  background-color: red;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.button a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+
+.button.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.button.disabled a {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.ribbon .button.call {
+  display: block;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (width >= 500px) {
+  .ribbon .button.call {
+    float: right;
+  }
+}
+
+button {
+  color: black;
+  background-color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+article .content button {
+  color: white;
+  font-size: 0.8em;
+  border: 0 none #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
