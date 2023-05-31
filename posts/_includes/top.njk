@@ -9,7 +9,11 @@
   {% include "fuac-hide.html" %}
 
   <link href="/styles/main.css" rel="stylesheet">
-  <script type="module" src="/vendor/vellum-monster/dist/vellum-monster.js"></script>
+
+  {% if statblocks %}
+    <script type="module" src="/vendor/vellum-monster/dist/vellum-monster.js"></script>
+  {% endif %}
+
   <link rel="alternate" type="application/rss+xml" title="Grisly Eye Games" href="/rss.xml">
 
   {% favicons './assets/images/logo.svg' %}
