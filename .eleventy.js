@@ -66,7 +66,6 @@ module.exports = function(eleventyConfig) {
     urlPath: "/assets/images/",
 
     defaultAttributes: {
-      loading: "lazy",
       decoding: "async"
     }
   });
