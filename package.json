@@ -18,9 +18,9 @@
     "eleventy-plugin-gen-favicons": "^1.1.2",
     "eleventy-plugin-seo": "^0.5.2",
     "htmlhint": "^1.1.4",
-    "js-beautify": "^1.14.7",
-    "linkinator": "^5.0.0",
-    "stylelint": "^15.6.2",
+    "js-beautify": "^1.14.8",
+    "linkinator": "^5.0.1",
+    "stylelint": "^15.9.0",
     "stylelint-config-standard": "^33.0.0"
   },
   "scripts": {
