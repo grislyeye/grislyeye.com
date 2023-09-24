@@ -9,7 +9,6 @@ module.exports = eleventyConfig => {
 		return path.resolve(split.join(path.sep), relativeFilePath);
 	}
 
-
 	eleventyConfig.addAsyncShortcode("image", async function imageShortcode(src, alt, widths, sizes) {
 		let formats = ["avif", "webp", "auto", "png"];
 		let file = relativeToInputPath(this.page.inputPath, src);
