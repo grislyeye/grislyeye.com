@@ -3,26 +3,32 @@ layout: layouts/home.njk
 eleventyNavigation:
   key: Home
   order: 1
-numberOfLatestPostsToShow: 3
 ---
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<header>
+  <my-hero>
+    <span slot="title">The <br> Grisly Eye</span>
+    <span slot="subtitle">{{ metadata.description }} You can buy my stuff below, or follow/contact me via my socials above.</span>
+  </my-hero>
+</header>
 
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
+<ul id="more" class="previews">
+  {% for post in collections.products | reverse %}
+    <li>
+      <a href="{{ post.url }}">
 
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
-{% endif %}
+        <my-preview
+          types="{{ post.data.tags.join(' ') }}"
+        >
+          <span slot="title">{{ post.data.title }}</span>
+          {% if post.data.image %}
+            {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
+            <span slot="background">
+              {% image imagePath, post.data.title, [ "165px" ] %}
+            </span>
+          {% endif %}
+        </my-preview>
 
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
+      </a>
+    </li>
+	{% endfor %}
 </ul>
-#}

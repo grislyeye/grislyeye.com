@@ -6,10 +6,11 @@ const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
+const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
+const pluginLit = require('@lit-labs/eleventy-plugin-lit');
+
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
-const sitemap = require("@quasibit/eleventy-plugin-sitemap");
-
 const metadata = require("./_data/metadata.js")
 
 module.exports = function(eleventyConfig) {
@@ -17,15 +18,26 @@ module.exports = function(eleventyConfig) {
 		"./public/": "/"
 	});
 
-	// Run Eleventy when these files change:
-	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
-
-	// Watch content images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
 	// App plugins
 	eleventyConfig.addPlugin(pluginDrafts);
 	eleventyConfig.addPlugin(pluginImages);
+
+	eleventyConfig.addPlugin(pluginLit, {
+    componentModules: [
+      '_components/my-hero.js',
+      '_components/my-nav.js',
+      '_components/my-preview.js',
+    ],
+  });
+	eleventyConfig.addWatchTarget("_components/**/*.js");
+
+  eleventyConfig.addPlugin(pluginSitemap, {
+    sitemap: {
+      hostname: metadata.url,
+    },
+  });
 
 	// Official plugins
 	eleventyConfig.addPlugin(pluginRss);
@@ -33,11 +45,11 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
 
-  eleventyConfig.addPlugin(sitemap, {
-    sitemap: {
-      hostname: metadata.url,
-    },
-  });
+  eleventyConfig.addPassthroughCopy(
+    {
+      "node_modules/@webcomponents/template-shadowroot": "vendor/template-shadowroot"
+    }
+  );
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
@@ -48,23 +60,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
 		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
 		return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
-	});
-
-	// Get the first `n` elements of a collection.
-	eleventyConfig.addFilter("head", (array, n) => {
-		if(!Array.isArray(array) || array.length === 0) {
-			return [];
-		}
-		if( n < 0 ) {
-			return array.slice(n);
-		}
-
-		return array.slice(0, n);
-	});
-
-	// Return the smallest number argument
-	eleventyConfig.addFilter("min", (...numbers) => {
-		return Math.min.apply(null, numbers);
 	});
 
 	// Return all the tags used in a collection
