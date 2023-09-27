@@ -23,7 +23,7 @@ eleventyNavigation:
         <my-preview
           {% if post.data.image %}
             {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
-            background="{% rawImageUrl imagePath, "webp", [ '200px' ] %}"
+            background="{% rawImageUrl imagePath, "webp", [ '300px' ] %}"
           {% endif %}
           class="{{ post.data.tags.join(' ') }}"
         >
