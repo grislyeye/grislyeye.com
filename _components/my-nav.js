@@ -1,7 +1,6 @@
-import {html, css} from 'lit';
-import {MyLitElement} from './my-lit-element.js';
+import { LitElement, html, css } from 'lit';
 
-class MyNavigationBar extends MyLitElement {
+class MyNavigationBar extends LitElement {
   static styles = css`
     .bar {
       display: flex;

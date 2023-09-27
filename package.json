@@ -17,13 +17,15 @@
 	"engines": {
 		"node": ">=14"
 	},
+  "dependencies": {
+		"@lit-labs/eleventy-plugin-lit": "^1.0.1"
+  },
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",
 		"@11ty/eleventy-img": "^3.1.0",
 		"@11ty/eleventy-navigation": "^0.3.5",
 		"@11ty/eleventy-plugin-bundle": "^1.0.4",
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
-		"@lit-labs/eleventy-plugin-lit": "^1.0.1",
 		"@quasibit/eleventy-plugin-sitemap": "^2.2.0",
 		"@webcomponents/template-shadowroot": "^0.2.1",
 		"luxon": "^3.3.0",

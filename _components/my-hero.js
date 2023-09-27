@@ -1,7 +1,6 @@
-import { html, css } from 'lit';
-import { MyLitElement } from './my-lit-element.js';
+import { LitElement, html, css } from 'lit';
 
-class MyHeroHeader extends MyLitElement {
+class MyHeroHeader extends LitElement {
   static styles = css`
     h1 {
       font-size: 5rem;

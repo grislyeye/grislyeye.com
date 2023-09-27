@@ -26,4 +26,16 @@ module.exports = eleventyConfig => {
 
 		return eleventyImage.generateHTML(metadata, imageAttributes);
 	});
+
+	eleventyConfig.addAsyncShortcode("rawImageUrl", async function imageShortcode(src, format, widths) {
+		let formats = ["avif", "webp", "auto", "png"];
+		let file = relativeToInputPath(this.page.inputPath, src);
+		let metadata = await eleventyImage(file, {
+			widths: widths || ["auto"],
+			formats,
+			outputDir: path.join(eleventyConfig.dir.output, "img"),
+		});
+
+		return metadata[format][0].url;
+	});
 };

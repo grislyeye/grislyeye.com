@@ -11,19 +11,27 @@
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
 		<link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
 
-    <script type="module">
-      (async () => {
-        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
-          const {hydrateShadowRoots} = await import(
-            '/vendor/template-shadowroot/template-shadowroot.js'
-          );
-          hydrateShadowRoots(document.body);
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
         }
-      })();
+      }
     </script>
 	</head>
 
-	<body>
+	<body dsd-pending>
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
 
     <nav>
       <my-nav logo="/images/logo.svg">
@@ -36,6 +44,26 @@
 		</main>
 
 		<footer></footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/scripts/components/my-preview.js');
+      })();
+    </script>
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 	</body>

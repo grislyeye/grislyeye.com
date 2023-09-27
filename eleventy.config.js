@@ -32,6 +32,11 @@ module.exports = function(eleventyConfig) {
     ],
   });
 	eleventyConfig.addWatchTarget("_components/**/*.js");
+  eleventyConfig.addPassthroughCopy(
+    {
+      "_components/": "scripts/components"
+    }
+  );
 
   eleventyConfig.addPlugin(pluginSitemap, {
     sitemap: {
@@ -47,7 +52,12 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy(
     {
-      "node_modules/@webcomponents/template-shadowroot": "vendor/template-shadowroot"
+      "node_modules/@webcomponents/template-shadowroot": "vendor/@webcomponents/template-shadowroot",
+      "node_modules/@lit-labs/ssr-client": "vendor/@lit-labs/ssr-client",
+      "node_modules/lit": "vendor/lit",
+      "node_modules/@lit": "vendor/@lit",
+      "node_modules/lit-element": "vendor/lit-element",
+      "node_modules/lit-html": "vendor/lit-html"
     }
   );
 
@@ -89,13 +99,7 @@ module.exports = function(eleventyConfig) {
 		});
 	});
 
-	// Features to make your build faster (when you need them)
-
-	// If your passthrough copy gets heavy and cumbersome, add this line
-	// to emulate the file copy on the dev server. Learn more:
-	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
-
-	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+  eleventyConfig.addGlobalData("inputDir", "content");
 
 	return {
 		templateFormats: [
