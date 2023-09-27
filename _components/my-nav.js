@@ -2,7 +2,7 @@ import { LitElement, html, css, isServer } from 'lit';
 
 class MyNavigationBar extends LitElement {
   static styles = css`
-    .bar {
+    :host {
       display: flex;
       height: 30px;
       align-items: center;
@@ -19,16 +19,16 @@ class MyNavigationBar extends LitElement {
   `;
 
   static properties = {
-    logoUrl: { attribute: 'logo' },
+    logoUri: { attribute: 'logo' }
   };
 
   render() {
     if (isServer) {
       return html`
-        <div class="bar">
-          <a href="/"><img src="${this.logoUrl}" class="icon logo"></img></a>
-          <a href="/"><span><slot name="title"></slot></span></a>
-        </div>
+        <a href="/"><img src="${this.logoUri}" class="icon logo"></a>
+        <span>
+          <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+        </span>
       `;
     }
   }

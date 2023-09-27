@@ -60,6 +60,7 @@ main {
 main :first-child {
 	margin-top: 0;
 }
+
 main header {
   margin-bottom: 7rem;
 }
