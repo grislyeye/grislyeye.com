@@ -14,17 +14,44 @@ class MyPreview extends LitElement {
       background-position: top;
     }
 
-    header h1 {
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1,
+    header p {
       margin: 0;
       padding: 0;
     }
 
     header p {
+      font-size: 1.5rem;
+      font-weight: bold;
       text-transform: capitalize;
     }
 
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
     :host(.products[background]) header h1 {
-      display: none;
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
     }
   `;
 
