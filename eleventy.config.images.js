@@ -28,7 +28,7 @@ module.exports = eleventyConfig => {
 	});
 
 	eleventyConfig.addAsyncShortcode("rawImageUrl", async function imageShortcode(src, format, widths) {
-		let formats = ["avif", "webp", "auto", "png"];
+		let formats = [format];
 		let file = relativeToInputPath(this.page.inputPath, src);
 		let metadata = await eleventyImage(file, {
 			widths: widths || ["auto"],
