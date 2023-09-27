@@ -89,7 +89,7 @@ class MyPreview extends LitElement {
   }
 
   get _backgroundImage() {
-    if (this.class.includes("light")) {
+    if (this.class.includes("light") && this.type != MyPreview.Book) {
       return `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("${ this.backgroundSrc }")`;
     } else {
       return `url("${ this.backgroundSrc }")`;
