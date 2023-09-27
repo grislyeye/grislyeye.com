@@ -75,11 +75,15 @@ my-preview {
   --preview-size: 165px;
 }
 
-ul.previews {
+.previews {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   padding: 0;
   margin: 0;
+  margin-bottom: 7rem;
+}
+
+ul.previews {
   list-style: none;
 }

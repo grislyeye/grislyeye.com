@@ -15,8 +15,28 @@ eleventyNavigation:
   </my-hero>
 </header>
 
+<ul id="featured" class="previews">
+  {% for post in collections.featured | excludeTags([ "drafts" ]) | reverse %}
+    <li class="preview">
+      <a href="{{ post.url }}" title="{{ post.data.title }}">
+
+        <my-preview
+          {% if post.data.image %}
+            {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
+            background="{% rawImageUrl imagePath, "webp", [ '300px' ] %}"
+          {% endif %}
+          class="{{ post.data.tags.join(' ') }}"
+        >
+          <span slot="title">{{ post.data.title }}</span>
+        </my-preview>
+
+      </a>
+    </li>
+	{% endfor %}
+</ul>
+
 <ul id="more" class="previews">
-  {% for post in collections.products | reverse %}
+  {% for post in collections.posts | excludeTags([ "drafts", "featured" ]) | reverse %}
     <li class="preview">
       <a href="{{ post.url }}" title="{{ post.data.title }}">
 

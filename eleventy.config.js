@@ -9,7 +9,6 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
 const pluginLit = require('@lit-labs/eleventy-plugin-lit');
 
-const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 const metadata = require("./_data/metadata.js")
 
@@ -21,7 +20,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
 	// App plugins
-	eleventyConfig.addPlugin(pluginDrafts);
 	eleventyConfig.addPlugin(pluginImages);
 
 	eleventyConfig.addPlugin(pluginLit, {
@@ -83,6 +81,10 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
 		return (tags || []).filter(tag => ["all", "nav", "post", "posts", "product", "products"].indexOf(tag) === -1);
+	});
+
+	eleventyConfig.addFilter("excludeTags", function filterTagList(posts, tags) {
+		return posts.filter(post => !post.data.tags.some(tag => tags.includes(tag)));
 	});
 
 	// Customize Markdown library settings:
