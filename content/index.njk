@@ -20,12 +20,20 @@ eleventyNavigation:
     <li class="preview">
       <a href="{{ post.url }}" title="{{ post.data.title }}">
 
+        {% if loop.index % 3 == 1 %}
+          {% set theme %} bloody {% endset %}
+        {% elif loop.index % 2 == 1 %}
+          {% set theme %} light {% endset %}
+        {% else %}
+          {% set theme %} dark {% endset %}
+        {% endif %}
+
         <my-preview
           {% if post.data.image %}
             {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
             background="{% rawImageUrl imagePath, "webp", [ '300px' ] %}"
           {% endif %}
-          class="{{ post.data.tags.join(' ') }}"
+          class="{{ post.data.tags.join(' ') }} {{ theme }}"
         >
           <span slot="title">{{ post.data.title }}</span>
         </my-preview>
@@ -40,12 +48,20 @@ eleventyNavigation:
     <li class="preview">
       <a href="{{ post.url }}" title="{{ post.data.title }}">
 
+        {% if loop.index % 3 == 1 %}
+          {% set theme %} bloody {% endset %}
+        {% elif loop.index % 2 == 1 %}
+          {% set theme %} light {% endset %}
+        {% else %}
+          {% set theme %} dark {% endset %}
+        {% endif %}
+
         <my-preview
           {% if post.data.image %}
             {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
             background="{% rawImageUrl imagePath, "webp", [ '300px' ] %}"
           {% endif %}
-          class="{{ post.data.tags.join(' ') }}"
+          class="{{ post.data.tags.join(' ') }} {{ theme }}"
         >
           <span slot="title">{{ post.data.title }}</span>
         </my-preview>
