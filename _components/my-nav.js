@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css, isServer } from 'lit';
 
 class MyNavigationBar extends LitElement {
   static styles = css`
@@ -23,12 +23,14 @@ class MyNavigationBar extends LitElement {
   };
 
   render() {
-    return html`
-      <div class="bar">
-        <a href="/"><img src="${this.logoUrl}" class="icon logo"></img></a>
-        <a href="/"><span><slot name="title"></slot></span></a>
-      </div>
-    `;
+    if (isServer) {
+      return html`
+        <div class="bar">
+          <a href="/"><img src="${this.logoUrl}" class="icon logo"></img></a>
+          <a href="/"><span><slot name="title"></slot></span></a>
+        </div>
+      `;
+    }
   }
 }
 

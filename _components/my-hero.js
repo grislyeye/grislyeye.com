@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css, isServer } from 'lit';
 
 class MyHeroHeader extends LitElement {
   static styles = css`
@@ -17,10 +17,12 @@ class MyHeroHeader extends LitElement {
   `;
 
   render() {
-    return html`
-      <h1><slot name="title">Hero Header Title</slot></h1>
-      <p class="subtitle"><slot name="subtitle">Hero header subtitle</slot></p>
-    `;
+    if (isServer) {
+      return html`
+        <h1><slot name="title">Hero Header Title</slot></h1>
+        <p class="subtitle"><slot name="subtitle">Hero header subtitle</slot></p>
+      `;
+    }
   }
 }
 
