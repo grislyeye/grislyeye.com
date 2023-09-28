@@ -7,7 +7,8 @@ eleventyNavigation:
 <header>
   <my-hero>
     <span slot="title">The <br> Grisly Eye</span>
-    <span slot="subtitle">
+    <span slot="subtitle">About Me</span>
+    <span slot="description">
       {{ metadata.description }}
       <br/>
       You can buy my stuff below, or follow/contact me via my socials above.
@@ -15,58 +16,65 @@ eleventyNavigation:
   </my-hero>
 </header>
 
-<ul id="featured" class="previews">
-  {% for post in collections.featured | excludeTags([ "drafts" ]) | reverse %}
-    <li class="preview">
-      <a href="{{ post.url }}" title="{{ post.data.title }}">
+<my-section>
+  <h2 slot="subtitle">Featured</h2>
+  <ul id="featured" class="previews">
+    {% for post in collections.featured | excludeTags([ "drafts" ]) | reverse %}
+      <li class="preview">
+        <a href="{{ post.url }}" title="{{ post.data.title }}">
 
-        {% if loop.index % 3 == 1 %}
-          {% set theme %} bloody {% endset %}
-        {% elif loop.index % 2 == 1 %}
-          {% set theme %} light {% endset %}
-        {% else %}
-          {% set theme %} dark {% endset %}
-        {% endif %}
-
-        <my-preview
-          {% if post.data.image %}
-            {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
-            background="{% rawImageUrl imagePath, "webp", [ '300px' ] %}"
+          {% if loop.index % 3 == 1 %}
+            {% set theme %} bloody {% endset %}
+          {% elif loop.index % 2 == 1 %}
+            {% set theme %} light {% endset %}
+          {% else %}
+            {% set theme %} dark {% endset %}
           {% endif %}
-          class="{{ post.data.tags.join(' ') }} {{ theme }}"
-        >
-          <span slot="title">{{ post.data.title }}</span>
-        </my-preview>
 
-      </a>
-    </li>
-	{% endfor %}
-</ul>
+          <my-preview
+            {% if post.data.image %}
+              {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
+              background="{% rawImageUrl imagePath, "webp", [ '300px' ] %}"
+            {% endif %}
+            class="{{ post.data.tags.join(' ') }} {{ theme }}"
+          >
+            <span slot="title">{{ post.data.title }}</span>
+          </my-preview>
 
-<ul id="more" class="previews">
-  {% for post in collections.posts | excludeTags([ "drafts", "featured" ]) | reverse %}
-    <li class="preview">
-      <a href="{{ post.url }}" title="{{ post.data.title }}">
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</my-section>
 
-        {% if loop.index % 3 == 1 %}
-          {% set theme %} bloody {% endset %}
-        {% elif loop.index % 2 == 1 %}
-          {% set theme %} light {% endset %}
-        {% else %}
-          {% set theme %} dark {% endset %}
-        {% endif %}
+<my-section>
+  <h2 slot="subtitle">More</h2>
 
-        <my-preview
-          {% if post.data.image %}
-            {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
-            background="{% rawImageUrl imagePath, "webp", [ '300px' ] %}"
+  <ul id="more" class="previews">
+    {% for post in collections.posts | excludeTags([ "drafts", "featured" ]) | reverse %}
+      <li class="preview">
+        <a href="{{ post.url }}" title="{{ post.data.title }}">
+
+          {% if loop.index % 3 == 1 %}
+            {% set theme %} bloody {% endset %}
+          {% elif loop.index % 2 == 1 %}
+            {% set theme %} light {% endset %}
+          {% else %}
+            {% set theme %} dark {% endset %}
           {% endif %}
-          class="{{ post.data.tags.join(' ') }} {{ theme }}"
-        >
-          <span slot="title">{{ post.data.title }}</span>
-        </my-preview>
 
-      </a>
-    </li>
-	{% endfor %}
-</ul>
+          <my-preview
+            {% if post.data.image %}
+              {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
+              background="{% rawImageUrl imagePath, "webp", [ '300px' ] %}"
+            {% endif %}
+            class="{{ post.data.tags.join(' ') }} {{ theme }}"
+          >
+            <span slot="title">{{ post.data.title }}</span>
+          </my-preview>
+
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</my-section>

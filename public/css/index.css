@@ -10,6 +10,9 @@
 	--text-color-link: rgb(255, 82, 119);
 	--text-color-link-active: rgb(255, 41, 87);
 	--text-color-link-visited: rgb(255, 41, 87);
+
+  --content-max-width: 720px;
+  --content-subtitle-max-width: 150px;
 }
 
 * {
@@ -28,7 +31,7 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 720px;
+	max-width: var(--content-max-width);
 	margin: 0 auto;
 }
 
@@ -56,9 +59,19 @@ a[href]:active {
 }
 
 main {
+  width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  position: relative;
+  margin: 0 auto;
+  left: calc(var(--content-subtitle-max-width) * -1);
 }
 main :first-child {
 	margin-top: 0;
+}
+
+nav,
+footer {
+	max-width: var(--content-max-width);
+	margin: 0 auto;
 }
 
 main header {
@@ -78,8 +91,15 @@ footer {
   margin-bottom: 3.5em;
 }
 
+main > my-hero,
+main > my-section {
+	max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+}
+
 my-preview {
   --preview-size: 165px;
+  width: var(--preview-size);
+  height: var(--preview-size);
 }
 
 .previews {
