@@ -18,12 +18,12 @@
 		"node": ">=14"
 	},
   "dependencies": {
-		"@lit-labs/eleventy-plugin-lit": "^1.0.1"
+		"@lit-labs/eleventy-plugin-lit": "^1.0.1",
+    "skeleton-css": "^2.0.4"
   },
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",
 		"@11ty/eleventy-img": "^3.1.0",
-		"@11ty/eleventy-navigation": "^0.3.5",
 		"@11ty/eleventy-plugin-bundle": "^1.0.4",
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
 		"@quasibit/eleventy-plugin-sitemap": "^2.2.0",

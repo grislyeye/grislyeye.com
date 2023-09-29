@@ -4,6 +4,9 @@ class MySection extends LitElement {
   static styles = css`
     :host {
       display: block;
+    }
+
+    :host * {
       box-sizing: border-box;
     }
 
@@ -21,22 +24,23 @@ class MySection extends LitElement {
       max-width: var(--content-subtitle-max-width);
       margin-top: 0.2rem;
       text-align: right;
-    }
-
-    ::slotted([slot="subtitle"]) {
       font-size: 1rem;
       font-weight: normal;
       text-transform: lowercase;
-      margin-right: 2rem;
+      padding-right: 1em;
     }
   `;
+
+  static properties = {
+    subtitle: { attribute: 'subtitle' }
+  };
 
   render() {
     if (isServer) {
       return html`
         <section>
           <div class="subtitle">
-            <slot name="subtitle"></slot>
+            ${ this.subtitle }
           </div>
           <div class="content">
             <slot></slot>

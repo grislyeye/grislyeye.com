@@ -1,0 +1,36 @@
+.content .product {
+  font-style: italic;
+  color: red;
+}
+
+.content .title {
+  color: red;
+  font-variant: small-caps;
+}
+
+span.strike {
+  text-decoration: line-through;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5 {
+  font-family: "Andada SC", serif;
+  color: red;
+}
+
+.content h1 a,
+.content h2 a,
+.content h3 a,
+.content h4 a,
+.content h5 a {
+  font-family: "Andada SC", serif;
+  color: red;
+  text-decoration: none;
+}
+
+.content strong {
+  color: red;
+}

@@ -3,7 +3,6 @@ const markdownItAnchor = require("markdown-it-anchor");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginBundle = require("@11ty/eleventy-plugin-bundle");
-const pluginNavigation = require("@11ty/eleventy-navigation");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
@@ -46,7 +45,6 @@ module.exports = function(eleventyConfig) {
 
 	// Official plugins
 	eleventyConfig.addPlugin(pluginRss);
-	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
 
@@ -57,7 +55,8 @@ module.exports = function(eleventyConfig) {
       "node_modules/lit": "vendor/lit",
       "node_modules/@lit": "vendor/@lit",
       "node_modules/lit-element": "vendor/lit-element",
-      "node_modules/lit-html": "vendor/lit-html"
+      "node_modules/lit-html": "vendor/lit-html",
+      "node_modules/skeleton-css/css/": "vendor/skeleton-css"
     }
   );
 

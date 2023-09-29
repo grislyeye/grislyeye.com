@@ -5,9 +5,8 @@ eleventyNavigation:
   order: 1
 ---
 <header>
-  <my-hero>
+  <my-hero subtitle="About Me">
     <span slot="title">The <br> Grisly Eye</span>
-    <span slot="subtitle">About Me</span>
     <span slot="description">
       {{ metadata.description }}
       <br/>
@@ -16,8 +15,7 @@ eleventyNavigation:
   </my-hero>
 </header>
 
-<my-section>
-  <h2 slot="subtitle">Featured</h2>
+<my-section subtitle="featured">
   <ul id="featured" class="previews">
     {% for post in collections.featured | excludeTags([ "drafts" ]) | reverse %}
       <li class="preview">
@@ -47,8 +45,7 @@ eleventyNavigation:
   </ul>
 </my-section>
 
-<my-section>
-  <h2 slot="subtitle">More</h2>
+<my-section subtitle="more">
 
   <ul id="more" class="previews">
     {% for post in collections.posts | excludeTags([ "drafts", "featured" ]) | reverse %}

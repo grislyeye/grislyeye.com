@@ -8,7 +8,24 @@
 
 		<link rel="alternate" href="/rss.xml" type="application/xml" title="{{ metadata.title }}">
 
-		{%- css %}{% include "public/css/index.css" %}{% endcss %}
+		{%- css %}
+      {% include "public/css/index.css" %}
+      {% include "public/css/content.css" %}
+      {% include "public/css/blockquote.css" %}
+      {% include "public/css/button.css" %}
+      {% include "public/css/chat.css" %}
+      {% include "public/css/code.css" %}
+      {% include "public/css/fate.css" %}
+      {% include "public/css/figure.css" %}
+      {% include "public/css/illustration.css" %}
+      {% include "public/css/picture.css" %}
+      {% include "public/css/product.css" %}
+      {% include "public/css/reader-bar.css" %}
+      {% include "public/css/stat-block.css" %}
+      {% include "public/css/two-column.css" %}
+      {% include "public/css/lists.css" %}
+      {% include "public/css/tables.css" %}
+    {% endcss %}
 		<link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
 
     <script type="importmap">

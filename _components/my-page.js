@@ -25,8 +25,7 @@ class MyPage extends LitElement {
     if (isServer) {
       return html`
         <h1 class="title">${ this.title }</h1>
-        <my-section>
-          <span slot="subtitle">${ this.subtitle }</span>
+        <my-section subtitle="${ this.subtitle }">
           <slot></slot>
         </my-section>
       `;

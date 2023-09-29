@@ -1,0 +1,100 @@
+.content section.chat > * {
+  width: calc(70% - 1em);
+}
+
+.content .chat img {
+  float: right;
+  width: 30%;
+  border: thin solid white;
+}
+
+.content .chat aside {
+  float: right;
+  width: 30%;
+  padding-left: 1em;
+  font-size: 0.8em;
+  color: #a8a8a8;
+}
+
+.content .chat aside p.break {
+  font-size: 2em;
+  text-align: center;
+  margin-top: -0.9em;
+  margin-bottom: 0;
+}
+
+.content .chat aside p.break::before {
+  content: "❧";
+}
+
+.content .chat dt {
+  margin-left: 0;
+  width: 5em;
+  text-align: right;
+  font-style: normal;
+}
+
+.content .chat dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content .chat dd {
+  padding-left: 0.5em;
+  width: calc(100% - 6em);
+  border-left: solid thin red;
+}
+
+.content .chat dd p {
+  margin-bottom: 0;
+}
+
+.content .chat dd p + p {
+  margin-top: 0.5em;
+}
+
+.content .chat .action p,
+.content .chat p.action,
+.content .chat span.action,
+.content .chat dd.action {
+  font-style: italic;
+}
+
+.content .chat .action p::before,
+.content .chat p.action::before,
+.content .chat span.action::before,
+.content .chat dd.action::before {
+  content: "(";
+}
+
+.content .chat .action p::after,
+.content .chat p.action::after,
+.content .chat span.action::after,
+.content .chat dd.action::after {
+  content: ")";
+}
+
+@media (width < 500px) {
+  .content section.chat > * {
+    width: 100%;
+  }
+
+  .content .chat aside {
+    display: none;
+  }
+
+  .content .chat img {
+    display: none;
+  }
+}
+
+.content .chat .navigation {
+  text-align: center;
+  width: 100%;
+}
+
+.content .chat .navigation a {
+  font-style: italic;
+}
