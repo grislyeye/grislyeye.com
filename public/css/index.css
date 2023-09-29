@@ -17,7 +17,6 @@
 
 * {
 	box-sizing: border-box;
-  line-height: 1;
 }
 
 html,
@@ -26,6 +25,7 @@ body {
 	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-color);
+  line-height: 1;
 }
 html {
 	overflow-y: scroll;
@@ -113,4 +113,9 @@ my-preview {
 
 ul.previews {
   list-style: none;
+}
+
+article.post * {
+  font-size: 1.2rem;
+  line-height: 1.3;
 }

@@ -27,7 +27,8 @@ module.exports = function(eleventyConfig) {
       '_components/my-hero.js',
       '_components/my-nav.js',
       '_components/my-preview.js',
-      '_components/my-section.js'
+      '_components/my-section.js',
+      '_components/my-page.js'
     ],
   });
 	eleventyConfig.addWatchTarget("_components/**/*.js");

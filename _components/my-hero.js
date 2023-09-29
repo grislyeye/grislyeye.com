@@ -1,5 +1,6 @@
 import { LitElement, html, css, isServer } from 'lit';
-import './my-section.js'
+import './my-section.js';
+
 class MyHeroHeader extends LitElement {
   static styles = css`
     :host {
