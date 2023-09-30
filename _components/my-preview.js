@@ -108,16 +108,33 @@ class MyPreview extends LitElement {
     else return "red";
   }
 
+  _onVisible() {
+    const visible = this.getAttribute("visible");
+
+    if (!visible || visible.trim().length === 0) {
+      if (this.type != MyPreview.Book && this.backgroundSrc) {
+        this._hostStyle.backgroundImage = this._backgroundImage;
+        this._hostStyle.backgroundColor = this._backgroundColour;
+        this._hostStyle.backgroundBlendMode = this._blendMode;
+      } else if (this.backgroundSrc) {
+        this._hostStyle.backgroundImage = this._backgroundImage;
+      }
+
+      this.setAttribute("visible", "")
+    }
+  }
+
   connectedCallback() {
     super.connectedCallback();
 
-    if (this.type != MyPreview.Book && this.backgroundSrc) {
-      this._hostStyle.backgroundImage = this._backgroundImage;
-      this._hostStyle.backgroundColor = this._backgroundColour;
-      this._hostStyle.backgroundBlendMode = this._blendMode;
-    } else if (this.backgroundSrc) {
-      this._hostStyle.backgroundImage = this._backgroundImage;
-    }
+    this._observer = new IntersectionObserver((entries) => {
+      entries.forEach(() => {
+          if (entries[0].intersectionRatio <= 0) return;
+          this._onVisible()
+      })
+    });
+
+    this._observer.observe(this);
   }
 
   get type() {

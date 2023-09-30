@@ -32,7 +32,7 @@ eleventyNavigation:
           <my-preview
             {% if post.data.image %}
               {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
-              background="{% rawImageUrl imagePath, "webp", [ 300 ] %}"
+              background="{% rawImageUrl imagePath, "webp", [ 500 ] %}"
             {% endif %}
             class="{{ post.data.tags.join(' ') }} {{ theme }}"
           >
@@ -63,7 +63,7 @@ eleventyNavigation:
           <my-preview
             {% if post.data.image %}
               {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
-              background="{% rawImageUrl imagePath, "webp", [ '300px' ] %}"
+              background="{% rawImageUrl imagePath, "webp", [ 500 ] %}"
             {% endif %}
             class="{{ post.data.tags.join(' ') }} {{ theme }}"
           >
