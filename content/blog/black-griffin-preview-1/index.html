@@ -4,9 +4,11 @@ date: 2017-05-30
 tags: posts
 permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
+image: black-griffin.png
 ---
+
 <figure class="illustration">
-  <img src="/images/black-griffin.png" alt="Black Griffin Symbol">
+  {% image "./black-griffin.png", "Black Griffin Symbol", [ "185px" ]  %}
 </figure>
 
 <p>The Company of the Black Griffin (often just called <q>Griffin Company</q>) is a mercenary army commanded by the ageing Captain Larke. For a century now it has journeyed east, seeking fortune and glory.</p>
