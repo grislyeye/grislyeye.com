@@ -108,10 +108,12 @@ class MyPreview extends LitElement {
     else return "red";
   }
 
-  _onVisible() {
-    const visible = this.getAttribute("visible");
+  static myBackgroundLoadedAttributeName = "my-background-loaded";
 
-    if (!visible || visible.trim().length === 0) {
+  _onVisible() {
+    const loaded = this.getAttribute(this.myBackgroundLoadedAttributeName);
+    if (loaded === null) {
+      console.log(`loading background ${this.backgroundSrc}`)
       if (this.type != MyPreview.Book && this.backgroundSrc) {
         this._hostStyle.backgroundImage = this._backgroundImage;
         this._hostStyle.backgroundColor = this._backgroundColour;
@@ -120,7 +122,7 @@ class MyPreview extends LitElement {
         this._hostStyle.backgroundImage = this._backgroundImage;
       }
 
-      this.setAttribute("visible", "")
+      this.setAttribute(this.myBackgroundLoadedAttributeName, "")
     }
   }
 
