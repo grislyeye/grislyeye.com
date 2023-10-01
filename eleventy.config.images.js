@@ -10,7 +10,7 @@ module.exports = eleventyConfig => {
 	}
 
 	eleventyConfig.addAsyncShortcode("image", async function imageShortcode(src, alt, widths, sizes) {
-		let formats = ["avif", "webp", "auto", "png"];
+		let formats = ["webp", "auto", "png"];
 		let file = relativeToInputPath(this.page.inputPath, src);
 		let metadata = await eleventyImage(file, {
 			widths: widths || ["auto"],
@@ -27,15 +27,15 @@ module.exports = eleventyConfig => {
 		return eleventyImage.generateHTML(metadata, imageAttributes);
 	});
 
-	eleventyConfig.addAsyncShortcode("rawImageUrl", async function imageShortcode(src, format, widths) {
-		let formats = [format];
+	eleventyConfig.addAsyncShortcode("rawImageUrl", async function imageShortcode(src, width) {
+		let formats = ["webp"];
 		let file = relativeToInputPath(this.page.inputPath, src);
 		let metadata = await eleventyImage(file, {
-			widths: widths || ["auto"],
+			widths: width ? [width] : ["auto"],
 			formats,
 			outputDir: path.join(eleventyConfig.dir.output, "img"),
 		});
 
-		return metadata[format][0].url;
+		return metadata["webp"][0].url;
 	});
 };
