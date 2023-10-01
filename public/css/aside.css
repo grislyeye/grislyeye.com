@@ -1,0 +1,31 @@
+.content aside {
+  float: right;
+  width: 30%;
+  padding-left: 1em;
+  font-size: 0.8em;
+  color: #a8a8a8;
+}
+
+.content aside h1,
+.content aside h2,
+.content aside h3,
+.content aside h4 {
+  color: white;
+}
+
+@media (width < 500px) {
+  .content aside {
+    display: none;
+  }
+}
+
+.content aside p.break {
+  font-size: 2em;
+  text-align: center;
+  margin-top: -0.9em;
+  margin-bottom: 0;
+}
+
+.content aside p.break::before {
+  content: "❧";
+}

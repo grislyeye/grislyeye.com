@@ -9,38 +9,33 @@ layout: layouts/post.njk
 image: wargod.png
 ---
 <aside class="purchase">
-  <a href="https://grislyeye.itch.io/wargod">
-    <figure class="print illustration">
-      {% image "./wargod-digital.png", "Wargod! PDF Cover", [ "200px" ], [ "200px" ]  %}
-    </figure>
-  </a>
-
-  <h2 class="price">£5</h2>
-
-  <div id="buy-digital" class="button">
-    <a href="https://grislyeye.itch.io/wargod">
-      PDF (via ITCH)
-    </a>
-  </div>
+  <my-product
+    id="digital"
+    class="product"
+    product="Wargod!"
+    call="Buy PDF"
+    currency="£"
+    price="5"
+    src="https://grislyeye.itch.io/wargod"
+    image="{% rawImageUrl "./wargod-digital.png", 200 %}"
+  >
+  </my-product>
 
   <hr>
 
-  <figure class="print illustration">
-      {% image "./wargod-print.png", "Wargod! Print Cover", [ "200px" ], [ "200px" ] %}
-  </figure>
-
-  <h2 class="price">£10</h2>
-
-  <ul class="notes">
-    <li>+£2 postage.</li>
-    <li>Shipping to the UK only.</li>
-  </ul>
-
-  <div id="buy-print" class="button">
-    <a href="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo">
-      Buy Print + PDF
-    </a>
-  </div>
+  <my-product
+    id="print"
+    class="product"
+    product="Wargod!"
+    call="Buy Print + PDF"
+    currency="£"
+    price="10"
+    src="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo"
+    notes='["+£2 postage.", "Shipping to the UK only."]'
+    image="{% rawImageUrl "./wargod-print.png", 200 %}"
+    timezones='["Europe/London"]'
+  >
+  </my-product>
 </aside>
 
 <p class="preview"><strong>d66</strong> grim fantasy careers for <a href="https://www.troikarpg.com/">Troika!</a> that vibe off the BOSR (British old-school renaissance).</p>

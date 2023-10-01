@@ -1,5 +1,5 @@
 figure.print.illustration {
-  max-width: 400px;
+  max-width: 200px;
   min-width: 200px;
   float: right;
   padding: 0;
@@ -9,6 +9,8 @@ figure.print.illustration {
 figure.print img {
   padding: 0;
   margin: 0;
+  width: 200px;
+  height: auto;
 }
 
 div.illustration,
@@ -44,7 +46,6 @@ figure.illustration.outlined img {
   figure.illustration {
     float: unset;
     align-items: center;
-    width: 100%;
   }
 
   figure.print img,
@@ -52,5 +53,6 @@ figure.illustration.outlined img {
   figure.illustration img {
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 }

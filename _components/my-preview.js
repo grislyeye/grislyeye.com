@@ -113,7 +113,6 @@ class MyPreview extends LitElement {
   _onVisible() {
     const loaded = this.getAttribute(MyPreview.loadedAttributeName);
     if (loaded === null) {
-      console.log(`loading background ${this.backgroundSrc}`)
       if (this.type != MyPreview.Book && this.backgroundSrc) {
         this._hostStyle.backgroundImage = this._backgroundImage;
         this._hostStyle.backgroundColor = this._backgroundColour;
