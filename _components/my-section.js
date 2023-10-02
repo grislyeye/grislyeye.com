@@ -17,6 +17,7 @@ class MySection extends LitElement {
 
     .content {
       max-width: var(--content-max-width);
+      width: 100%;
     }
 
     .subtitle {

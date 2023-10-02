@@ -132,6 +132,11 @@ ol {
   padding-left: 2em;
 }
 
+input {
+	font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+
 .content input[type="checkbox"] {
   margin-right: 0.5em;
 }
@@ -180,3 +185,11 @@ img.medium {
   max-width: 400px;
 }
 
+#mailing-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}

@@ -11,10 +11,16 @@ layout: layouts/base.njk
   </my-hero>
 </header>
 
-<my-section id="mailing-list">
-  <form action="https://tinyletter.com/grislyeye" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/grislyeye', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-      <input type="text" name="email" id="tlemail" placeholder="Email">
-      <input type="hidden" value="1" name="embed">
-      <input class="button" type="submit" value="Subscribe">
-    </form>
+<my-section>
+  <form
+    id="mailing-list"
+    action="https://tinyletter.com/grislyeye"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://tinyletter.com/grislyeye', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+  >
+    <input type="text" name="email" id="tlemail" placeholder="Email">
+    <input type="hidden" value="1" name="embed">
+    <my-button type="submit" title="Subscribe"></my-button>
+  </form>
 </my-section>
