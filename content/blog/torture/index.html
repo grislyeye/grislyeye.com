@@ -4,6 +4,7 @@ date: 2018-05-31
 tags: posts
 permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
+image: torture.png
 ---
 <p>A <em>skill challenge</em> is a complex type of skill contest, based on the rules from 4th Edition <em>Dungeons &amp; Dragons</em>.</p>
 
@@ -19,7 +20,7 @@ layout: layouts/post.njk
 <p>Each challenge lists the checks and spells that can be used, but these are not meant to be exhaustive. Dungeon Masters should encourage players to be creative with the skills and spells they use to overcome the challenge.</p>
 
 <figure class="illustration">
-  <img src="/images/torture.png" alt="Torture Illustration">
+  {% image "torture.png", "Torture Illustration", ["400"] %}
   <p class="caption">Public Domain image of mediaeval drawing of execution by sawing in two (from <a href="https://commons.wikimedia.org/wiki/File:Die_Saege.JPG">Wikimedia Commons</a>).</p>
 </figure>
 

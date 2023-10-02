@@ -1,5 +1,6 @@
 article img {
   width: 80%;
+  height: auto;
   margin-bottom: 2.5rem;
   display: block;
   margin-left: auto;

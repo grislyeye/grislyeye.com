@@ -1,7 +1,9 @@
 ---
 title: Fairy Creatures
 date: 2020-03-21
-tags: posts
+tags:
+  - posts
+  - drafts
 permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
 image: fey-creature.jpg
@@ -82,8 +84,7 @@ statblocks: true
 </dl>
 
 <div class="stat-block">
-
-  <img src="/images/fey-creature.jpg" class="background" alt="Fey Creature Illustration">
+  {% image "fey-creature.jpg", "Fey Creature Illustration", ["900"], [], { class: "background" } %}
 
   <vellum-monster id="rossible" name="Rossible" named="true" size="Small" type="fey" alignment="chaotic neutral" ac="12" armor="natural armor" hit-die="3d8 - 3" speeds='["30 ft.","swim 30ft."]' str="10" dex="14" con="8" int="13" wis="10" cha="15" saving-throws='["Wis +2"]' skills='["Deception +4","Persuasion +4","Stealth +3"]' senses='["darkvision 30ft.","passive Perception 10"]' languages='["Common","Sylvan"]' traits='[{"name":"Amphibious","description":"Rossible can breathe air and water."},{"name":"Standing Leap","description":"Rossible&apos;s long jump is up to 20 feet and its high jump is up to 15 feet, with or without a running start."}]' spellcasting='{"level":"1st","ability":"Charisma","save":12,"attackBonus":"+4","innate":true,"notes":" and it requires no material components to cast its spells.","class":"sorcerer","levels":[{"level":"cantrips","spells":["minor illusion","speak with small beasts"]},{"level":"1st","slots":1,"spells":["sleep"]}]}' actions='[{"name":"Invisibility","description":"Rossible magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment Rossible wears or carrries is invisible with it. Rossible is always visible to his companion player character."},{"name":"Silver Dagger","type":"melee-or-ranged-attack","bonus":"+4","reach":"5ft.","range":"20/60 ft.","target":"one target","damage"'>
   </vellum-monster>

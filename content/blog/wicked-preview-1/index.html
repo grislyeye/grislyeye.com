@@ -4,13 +4,14 @@ date: 2019-06-04
 tags: posts
 permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
+image: witches.jpg
 ---
 <p>This is an excerpt from <span class="product">The Wicked</span>, an upcoming monograph about all things witchy and warlocky, full of toil and trouble. This preview includes a new warlock pact for your enjoyment:</p>
 
 <h3>Pact of the Cauldron</h3>
 
 <figure class="illustration">
-  <img src="/images/witches.jpg" alt="Woodcut illustration of witches with cauldron.">
+  {% image "witches.jpg", "Woodcut illustration of witches with cauldron.", ["400"] %}
   <p class="caption">Cooking witches illustration is public domain via <a href="https://en.wikipedia.org/wiki/Akelarre#/media/File:Cooking_witches.jpg">Wikipedia</a>.</p>
 </figure>
 

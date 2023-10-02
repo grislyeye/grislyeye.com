@@ -4,11 +4,12 @@ date: 2018-11-27
 tags: posts
 permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
+image: magi.jpg
 ---
-<div id="magi-illustration" class="illustration">
-  <img src="/images/magi.jpg" alt="Magus Illustration">
+<figure id="magi-illustration" class="illustration">
+  {% image "magi.jpg", "Magus Illustration", ["400"] %}
   <p class="caption"><a href="http://www.pitts.emory.edu/dia/bridge.cfm?ID=108339"><q>A Star Leads the Wise Men</q></a> from the <q>Het Nieuwe Testament</q> by Henricus van den Leemputte, 1646.</p>
-</div>
+</figure>
 
 <p><em>Arcane faction (secret)</em></p>
 

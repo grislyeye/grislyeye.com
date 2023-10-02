@@ -6,7 +6,7 @@ layout: layouts/post.njk
 image: travellers.jpg
 ---
 <figure class="outlined illustration">
-  <img src="/images/travellers.jpg" alt="Travellers Illustration">
+  {% image "travellers.jpg", "Travellers Illustration", ["400"] %}
   <p class="caption">The Brave English Gypsy, an illustration from the <span class="product">A Book of Roxburghe Ballads</span>.</p>
 </figure>
 
@@ -75,7 +75,7 @@ image: travellers.jpg
 <p>For each number of possible encounters, the party make a journey check. For each failed journey check, they run into a random encounter (see the example encounter table below).</p>
 
 <div class="full-width outlined illustration">
-  <img src="/images/b2-gates.png" alt="At the gates of the Keep">
+   {% image "b2-gates.png", "At the gates of the Keep", ["900"] %}
   <p class="caption">Illustration from <span class="product">B2 Keep on the Borderlands</span>, by David S. LaForce.</p>
 </div>
 
@@ -214,7 +214,7 @@ image: travellers.jpg
 
 <p>This is an example of the type of encounter I'm talking about, using my experimental <a href="/blog/encounter-blocks.html">encounter block</a> format:</p>
 
-<img class="medium" src="/images/encounter-blocks/traveller-party-block.png" alt="Traveller party encounter block">
+{% image "traveller-party-block.png", "Traveller party encounter block", ["400"], [], { class: "small" } %}
 
 <h3 id="notes">Notes</h3>
 

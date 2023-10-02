@@ -4,9 +4,10 @@ date: 2019-02-12
 tags: posts
 permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
+image: the-star.jpg
 ---
 <div id="inspiration-illustration" class="illustration">
-  <img src="/images/the-star.jpg" alt="Inspiration Illustration">
+  {% image "the-star.jpg", "Inspiration Illustration", ["400"] %}
   <p class="caption"><a href="https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck#/media/File:RWS_Tarot_17_Star.jpg">The Star</a> tarot card from the <a href="https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck">Rider-Waite deck</a>. Public domain image.</p>
 </div>
 

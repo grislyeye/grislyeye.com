@@ -7,10 +7,12 @@ tags:
 layout: layouts/post.njk
 permalink: "{{ page.filePathStem }}.html"
 image: grim.png
+redirect: /products/grim
 ---
 <a href="/products/grim/">
   <figure class="illustration">
     <img src="/images/covers/grim.png" alt="The Grim Cover">
+    {% image "grim.png", "The Grim Cover", ["900"] %}
   </figure>
 </a>
 

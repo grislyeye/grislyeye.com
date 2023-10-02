@@ -4,9 +4,10 @@ date: 2017-03-05
 tags: posts
 permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
+image: green-man.png
 ---
 <figure id="fey-illustration" class="illustration">
-  <img src="/images/green-man.png" alt="Fey Illustration">
+  {% image "green-man.png", "Fey Illustration", ["400"] %}
 </figure>
 
 <p>Most of the non-human races in the <span class="product">Player's Handbook</span> are based on Tolkien's works. The fey as presented here are meant as Pre-Tolkien variants on elves, dwarves, halflings and gnomes for low-magic campaigns. They are based on legends and fairytales (with a bit of artistic license). This preview includes the Fair Folk subrace and other fey subraces will feature in future posts.</p>

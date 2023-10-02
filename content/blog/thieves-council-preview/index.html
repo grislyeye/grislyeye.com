@@ -4,9 +4,10 @@ date: 2018-05-01
 tags: posts
 permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
+image: the-pedlar.jpg
 ---
 <figure class="illustration">
-  <img src="/images/the-pedlar.jpg" alt="Thief Illustration">
+  {% image "the-pedlar.jpg", "Thief Illustration", ["400"] %}
   <p class="caption">Public Domain image of <q>The Pedlar</q> taken from <a href="http://www.sacred-texts.com/jbh2yr/21790-h.htm">The Dance of Death</a>.</p>
 </figure>
 

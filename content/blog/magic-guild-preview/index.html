@@ -4,9 +4,10 @@ date: 2017-11-21
 tags: posts
 permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
+image: magician.png
 ---
 <figure class="illustration">
-  <img src="/images/magician.png" alt="Magician Illustration">
+  {% image "magician.png", "Magician Illustration", ["400"] %}
 </figure>
 
 <p>The Magic Guild is a fraternity of wizards formed to protect the secrets of magic. In exchange for training and access to guild libraries, members are expected to abide by the complex bylaws of the guild.</p>

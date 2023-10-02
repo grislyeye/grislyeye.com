@@ -4,9 +4,10 @@ date: 2019-05-07
 tags: posts
 permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
+image: harrowed.jpg
 ---
 <figure class="illustration">
-  <img src="/images/harrowed.jpg" alt="Stress Illustration">
+  {% image "harrowed.jpg", "Stress Illustration", ["300"] %}
   <p class="caption">Public Domain image taken from Philocothonista, or, The drunkard, opened, dissected, and anatomized, 1635.</p>
 </figure>
 

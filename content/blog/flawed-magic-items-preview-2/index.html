@@ -6,10 +6,10 @@ permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
 image: head-of-st-eras.jpg
 ---
-<p class="preview">This is a follow-up to my <a href="/blog/flawed-magic-items-preview-2.html">preview of Flawed Magic Items</a> and includes two, new flawed magic items: <em>The Head of St. Eras</em> and <em>blood brew</em>.</p>
+<p class="preview">This is a follow-up to my <a href="/blog/flawed-magic-items-preview-1.html">preview of Flawed Magic Items</a> and includes two, new flawed magic items: <em>The Head of St. Eras</em> and <em>blood brew</em>.</p>
 
-<div class="illustration" id="head-of-st-eras-illustration">
-  <img src="/images/head-of-st-eras.jpg" alt="Illustration of the Head of St. Eras">
+<div id="head-of-st-eras-illustration" class="outlined illustration">
+  {% image "head-of-st-eras.jpg", "Illustration of the Head of St. Eras", [ 500 ], [], { class: "small" } %}
   <p class="caption">Public Domain image of the Beheading of St. John (courtesy of <a href="https://www.metmuseum.org/art/collection/search/388381">The Met</a>).</p>
 </div>
 
@@ -33,7 +33,7 @@ image: head-of-st-eras.jpg
 <p><strong>Disturbing (Flaw).</strong> The head speaks constantly, often on portentous matters which are disturbing for those who listen. Any creature within a 30 ft radius of the head who can hear it speak is vulnerable to psychic damage.</p>
 
 <div class="illustration" id="flawed-potion-illustration">
-  <img src="/images/potion.png" alt="Illustration of Potion">
+  {% image "potion.png", "Illustration of Potions", ["300"], [], { class: "small" } %}
   <p class="caption">This art is by <a href="https://drivethrurpg.com/product/181517">Daniel F. Walthall</a>, available under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 license</a>.</p>
 </div>
 
