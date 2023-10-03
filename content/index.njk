@@ -32,7 +32,7 @@ eleventyNavigation:
           <my-preview
             {% if post.data.image %}
               {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
-              background="{% rawImageUrl imagePath, 500 %}"
+              background="{% rawImageUrl imagePath, 400 %}"
             {% endif %}
             class="{{ post.data.tags.join(' ') }} {{ theme }}"
           >
@@ -46,7 +46,6 @@ eleventyNavigation:
 </my-section>
 
 <my-section subtitle="more">
-
   <ul id="more" class="previews">
     {% for post in collections.posts | excludeTags([ "drafts", "featured" ]) | reverse %}
       <li class="preview">
@@ -63,7 +62,7 @@ eleventyNavigation:
           <my-preview
             {% if post.data.image %}
               {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
-              background="{% rawImageUrl imagePath, 500 %}"
+              background="{% rawImageUrl imagePath, 400 %}"
             {% endif %}
             class="{{ post.data.tags.join(' ') }} {{ theme }}"
           >
