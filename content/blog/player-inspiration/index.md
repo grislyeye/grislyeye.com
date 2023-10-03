@@ -2,7 +2,6 @@
 title: Player-Driven Inspiration
 date: 2019-02-12
 tags: posts
-permalink: "{{ page.filePathStem }}.html"
 layout: layouts/post.njk
 image: the-star.jpg
 ---
