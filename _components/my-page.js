@@ -13,6 +13,7 @@ class MyPage extends LitElement {
       padding-bottom: 10px;
       margin: 0;
       margin-left: var(--content-subtitle-max-width);
+      word-wrap:break-word;
     }
   `;
 
@@ -24,12 +25,21 @@ class MyPage extends LitElement {
   render() {
     if (isServer) {
       return html`
-        <h1 class="title">${ this.title }</h1>
+        <h1 class="title">
+          ${ this._renderTitle() }
+        </h1>
         <my-section subtitle="${ this.subtitle }">
           <slot></slot>
         </my-section>
       `;
     }
+  }
+
+  _renderTitle() {
+    const [first, ...tail] = this.title.split(" ");
+    if(first && tail) {
+      return html`${first} <br> ${ tail.join(" ") }`
+    } else return this.title;
   }
 }
 
