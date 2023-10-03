@@ -72,7 +72,8 @@ module.exports = function(eleventyConfig) {
       "node_modules/@lit": "vendor/@lit",
       "node_modules/lit-element": "vendor/lit-element",
       "node_modules/lit-html": "vendor/lit-html",
-      "node_modules/skeleton-css/css/": "vendor/skeleton-css"
+      "node_modules/skeleton-css/css/": "vendor/skeleton-css",
+      "node_modules/vellum-monster": "vendor/vellum-monster"
     }
   );
 

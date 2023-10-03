@@ -51,6 +51,10 @@
       <link rel="canonical" href="{{ redirectTo }}">
       <script>window.location.replace('{{ redirectTo }}'.replace('&#x3D;', '='));</script>
     {% endif %}
+
+    {% if statblocks %}
+      <script type="module" src="/vendor/vellum-monster/dist/vellum-monster.js"></script>
+    {% endif %}
 	</head>
 
 	<body dsd-pending>
