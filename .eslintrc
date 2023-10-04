@@ -11,7 +11,8 @@
     "template-curly-spacing": ["error", "always"],
     "no-undef": 0,
     "import/no-extraneous-dependencies": 0,
-    "import/extensions": 0
+    "import/extensions": 0,
+    "arrow-body-style": 0
   },
   "settings": {
     "wc": {

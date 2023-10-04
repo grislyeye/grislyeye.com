@@ -77,17 +77,17 @@ module.exports = (eleventyConfig) => {
   );
 
   eleventyConfig.addFilter('excludeTags', (posts, tags) => {
-    posts.filter((post) => !post.data.tags.some((tag) => tags.includes(tag)));
+    return posts.filter((post) => !post.data.tags.some((tag) => tags.includes(tag)));
   });
 
   eleventyConfig.addPassthroughCopy('content/**/*.{jpg,png}');
 
   eleventyConfig.addFilter('readableDate', (dateObj, format, zone) => {
-    DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toFormat(format || 'dd LLLL yyyy');
+    return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toFormat(format || 'dd LLLL yyyy');
   });
 
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
   });
 
   return {
