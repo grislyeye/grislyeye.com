@@ -1,4 +1,9 @@
-import { html, css, LitElement, isServer } from 'lit';
+import {
+  LitElement,
+  html,
+  css,
+  isServer
+} from 'lit';
 
 class MyPreview extends LitElement {
   static styles = css`
@@ -81,77 +86,81 @@ class MyPreview extends LitElement {
     backgroundSrc: { attribute: 'background' }
   };
 
-  static Book = "book"
-  static Article = "article"
+  static Book = 'book';
 
-  get _hostStyle() {
-    return this.renderRoot.host.style
+  static Article = 'article';
+
+  get hostStyle() {
+    return this.renderRoot.host.style;
   }
 
-  get _backgroundImage() {
-    if (this.class.includes("light") && this.type != MyPreview.Book) {
-      return `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("${ this.backgroundSrc }")`;
-    } else {
-      return `url("${ this.backgroundSrc }")`;
+  get backgroundImage() {
+    if (this.class.includes('light') && this.type !== MyPreview.Book) {
+      return `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('${ this.backgroundSrc }')`;
     }
+
+    return `url('${ this.backgroundSrc }')`;
   }
 
-  get _blendMode() {
-    if (this.class.includes("dark")) return "darken, difference";
-    else if (this.class.includes("light")) return "lighten, difference";
-    else return "darken";
+  get blendMode() {
+    if (this.class.includes('dark')) return 'darken, difference';
+    if (this.class.includes('light')) return 'lighten, difference';
+    return 'darken';
   }
 
-  get _backgroundColour() {
-    if (this.class.includes("dark")) return "grey";
-    else if (this.class.includes("light")) return "white";
-    else return "red";
+  get backgroundColour() {
+    if (this.class.includes('dark')) return 'grey';
+    if (this.class.includes('light')) return 'white';
+    return 'red';
   }
 
-  static loadedAttributeName = "my-background-loaded";
+  static loadedAttributeName = 'my-background-loaded';
 
-  _onVisible() {
+  onVisible() {
     const loaded = this.getAttribute(MyPreview.loadedAttributeName);
     if (loaded === null) {
-      if (this.type != MyPreview.Book && this.backgroundSrc) {
-        this._hostStyle.backgroundImage = this._backgroundImage;
-        this._hostStyle.backgroundColor = this._backgroundColour;
-        this._hostStyle.backgroundBlendMode = this._blendMode;
+      if (this.type !== MyPreview.Book && this.backgroundSrc) {
+        this.hostStyle.backgroundImage = this.backgroundImage;
+        this.hostStyle.backgroundColor = this.backgroundColour;
+        this.hostStyle.backgroundBlendMode = this.blendMode;
       } else if (this.backgroundSrc) {
-        this._hostStyle.backgroundImage = this._backgroundImage;
+        this.hostStyle.backgroundImage = this.backgroundImage;
       }
 
-      this.setAttribute(MyPreview.loadedAttributeName, "")
+      this.setAttribute(MyPreview.loadedAttributeName, '');
     }
   }
 
   connectedCallback() {
     super.connectedCallback();
 
-    this._observer = new IntersectionObserver((entries) => {
+    this.visibilityObserver = new IntersectionObserver((entries) => {
       entries.forEach(() => {
-          if (entries[0].intersectionRatio <= 0) return;
-          this._onVisible()
-      })
+        if (entries[0].intersectionRatio <= 0) return;
+        this.onVisible();
+      });
     });
 
-    this._observer.observe(this);
+    this.visibilityObserver.observe(this);
   }
 
   get type() {
-    if (this.class.includes("product")) return MyPreview.Book;
-    else if (this.class.includes("post")) return MyPreview.Article;
+    if (this.class.includes('product')) return MyPreview.Book;
+    if (this.class.includes('post')) return MyPreview.Article;
+    return undefined;
   }
 
   render() {
     if (isServer) {
       return html`
         <header>
-          <h1><slot name="title">Preview Title</slot></h1>
+          <h1><slot name='title'>Preview Title</slot></h1>
           <p>${ this.type }</p>
         </header>
       `;
     }
+
+    return undefined;
   }
 }
 

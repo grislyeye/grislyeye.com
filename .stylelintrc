@@ -1,0 +1,14 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "media-feature-name-no-unknown": [ true, {
+      "ignoreMediaFeatureNames": ["@small", "@medium", "@large"]
+    }],
+    "selector-type-no-unknown": [ true, {
+      "ignoreTypes": ["vellum-monster", "my-preview", "my-hero", "my-section"]
+    }],
+    "property-no-vendor-prefix": null,
+    "color-function-notation": null,
+    "custom-property-empty-line-before": null
+  }
+}

@@ -1,4 +1,9 @@
-import { LitElement, html, css, isServer } from 'lit';
+import {
+  LitElement,
+  html,
+  css,
+  isServer
+} from 'lit';
 import './my-section.js';
 
 class MyHeroHeader extends LitElement {
@@ -35,6 +40,8 @@ class MyHeroHeader extends LitElement {
         </my-section>
       `;
     }
+
+    return undefined;
   }
 }
 

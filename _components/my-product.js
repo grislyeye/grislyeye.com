@@ -1,4 +1,9 @@
-import { LitElement, html, css, isServer } from 'lit';
+import {
+  LitElement,
+  html,
+  css,
+  isServer
+} from 'lit';
 import './my-button.js';
 
 class MyProduct extends LitElement {
@@ -50,7 +55,7 @@ class MyProduct extends LitElement {
       margin-top: 0.6rem;
     }
 
-    @media (width < 500px) {
+    @media (max-width: 500px) {
       :host {
         width: 100%;
         float: unset;
@@ -74,19 +79,18 @@ class MyProduct extends LitElement {
   };
 
   connectedCallback() {
-    super.connectedCallback()
+    super.connectedCallback();
 
-    if(this.timezones) {
-      const timezone =
-        Intl.DateTimeFormat()
-          .resolvedOptions()
-          .timeZone
+    if (this.timezones) {
+      const timezone = Intl.DateTimeFormat()
+        .resolvedOptions()
+        .timeZone;
 
-      const shipping   = timezone && this.timezones.includes(timezone)
-      const callButton = this.shadowRoot.querySelector("my-button")
+      const shipping = timezone && this.timezones.includes(timezone);
+      const callButton = this.shadowRoot.querySelector('my-button');
 
-      if(!shipping && callButton) {
-        callButton.setAttribute("disabled", "true")
+      if (!shipping && callButton) {
+        callButton.setAttribute('disabled', 'true');
       }
     }
   }
@@ -105,7 +109,7 @@ class MyProduct extends LitElement {
         <div class="call box">
           <h2 class="price">${ this.currency }${ this.price }</h2>
 
-          ${ this.notes ? this._renderNotes() : html`` }
+          ${ this.notes ? this.renderNotes() : html`` }
 
           <div class="call button">
             <my-button title="${ this.call }" src="${ this.src }" disabled="${ this.disabled }"></my-button>
@@ -113,18 +117,16 @@ class MyProduct extends LitElement {
         </div>
       `;
     }
+
+    return undefined;
   }
 
-  _renderNotes() {
-    if (isServer) {
-      return html`
-        <ul class="notes">
-          ${this.notes.map((note) =>
-            html`<li>${note}</li>`
-          )}
-        </ul>
-      `
-    }
+  renderNotes() {
+    return html`
+      <ul class="notes">
+        ${ this.notes.map((note) => html`<li>${ note }</li>`) }
+      </ul>
+    `;
   }
 }
 

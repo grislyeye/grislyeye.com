@@ -1,4 +1,9 @@
-import { LitElement, html, css, isServer } from 'lit';
+import {
+  LitElement,
+  html,
+  css,
+  isServer
+} from 'lit';
 
 class MyNavigationBar extends LitElement {
   static styles = css`
@@ -73,6 +78,8 @@ class MyNavigationBar extends LitElement {
         </div>
       `;
     }
+
+    return undefined;
   }
 }
 

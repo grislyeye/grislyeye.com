@@ -1,4 +1,9 @@
-import { LitElement, html, css, isServer } from 'lit';
+import {
+  LitElement,
+  html,
+  css,
+  isServer
+} from 'lit';
 
 class MyButton extends LitElement {
   static formAssociated = true;
@@ -65,17 +70,17 @@ class MyButton extends LitElement {
   };
 
   static Type = {
-    Submit: "submit"
-  }
+    Submit: 'submit'
+  };
 
   connectedCallback() {
-    super.connectedCallback()
+    super.connectedCallback();
 
-    if (this.type === MyButton.Type.Submit ) {
-      this._internals = this.attachInternals();
+    if (this.type === MyButton.Type.Submit) {
+      const internals = this.attachInternals();
       this.addEventListener('click', () => {
-        const submit = new CustomEvent("submit")
-        this._internals.form.dispatchEvent(submit);
+        const submit = new CustomEvent('submit');
+        internals.form.dispatchEvent(submit);
       });
     }
   }
@@ -88,6 +93,8 @@ class MyButton extends LitElement {
         </div>
       `;
     }
+
+    return '';
   }
 }
 

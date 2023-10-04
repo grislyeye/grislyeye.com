@@ -1,30 +1,29 @@
-const { DateTime } = require("luxon");
-const markdownItAnchor = require("markdown-it-anchor");
+const { DateTime } = require('luxon');
 
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginBundle = require("@11ty/eleventy-plugin-bundle");
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const pluginRss = require('@11ty/eleventy-plugin-rss');
+const pluginBundle = require('@11ty/eleventy-plugin-bundle');
+const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 
-const pluginSitemap = require("@quasibit/eleventy-plugin-sitemap");
+const pluginSitemap = require('@quasibit/eleventy-plugin-sitemap');
 const pluginLit = require('@lit-labs/eleventy-plugin-lit');
 const pluginReaderBar = require('eleventy-plugin-reader-bar');
-const pluginFavicons = require("eleventy-plugin-gen-favicons");
-const pluginSEO = require("eleventy-plugin-seo");
+const pluginFavicons = require('eleventy-plugin-gen-favicons');
+const pluginSEO = require('eleventy-plugin-seo');
 
-const pluginImages = require("./eleventy.config.images.js");
-const metadata = require("./_data/metadata.js")
+const pluginImages = require('./eleventy.config.images.js');
+const metadata = require('./_data/metadata.js');
 
-module.exports = function(eleventyConfig) {
-	eleventyConfig.addPassthroughCopy({
-		"./public/": "/"
-	});
+module.exports = (eleventyConfig) => {
+  eleventyConfig.addPassthroughCopy({
+    './public/': '/'
+  });
 
-	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+  eleventyConfig.addWatchTarget('content/**/*.{svg,webp,png,jpeg}');
 
-	// App plugins
-	eleventyConfig.addPlugin(pluginImages);
+  // App plugins
+  eleventyConfig.addPlugin(pluginImages);
 
-	eleventyConfig.addPlugin(pluginLit, {
+  eleventyConfig.addPlugin(pluginLit, {
     componentModules: [
       '_components/my-hero.js',
       '_components/my-nav.js',
@@ -33,19 +32,19 @@ module.exports = function(eleventyConfig) {
       '_components/my-page.js',
       '_components/my-product.js',
       '_components/my-button.js'
-    ],
+    ]
   });
-	eleventyConfig.addWatchTarget("_components/**/*.js");
+  eleventyConfig.addWatchTarget('_components/**/*.js');
   eleventyConfig.addPassthroughCopy(
     {
-      "_components/": "scripts/components"
+      '_components/': 'scripts/components'
     }
   );
 
   eleventyConfig.addPlugin(pluginSitemap, {
     sitemap: {
-      hostname: metadata.url,
-    },
+      hostname: metadata.url
+    }
   });
 
   eleventyConfig.addPlugin(pluginReaderBar);
@@ -55,92 +54,60 @@ module.exports = function(eleventyConfig) {
     description: metadata.description,
     url: metadata.url,
     author: metadata.author.name,
-    twitter: "grislyeye",
+    twitter: 'grislyeye',
     image: `${ metadata.url }/images/logo.svg`
   });
 
-	// Official plugins
-	eleventyConfig.addPlugin(pluginRss);
-	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-	eleventyConfig.addPlugin(pluginBundle);
+  // Official plugins
+  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  eleventyConfig.addPlugin(pluginBundle);
 
   eleventyConfig.addPassthroughCopy(
     {
-      "node_modules/@webcomponents/template-shadowroot": "vendor/@webcomponents/template-shadowroot",
-      "node_modules/@lit-labs/ssr-client": "vendor/@lit-labs/ssr-client",
-      "node_modules/lit": "vendor/lit",
-      "node_modules/@lit": "vendor/@lit",
-      "node_modules/lit-element": "vendor/lit-element",
-      "node_modules/lit-html": "vendor/lit-html",
-      "node_modules/skeleton-css/css/": "vendor/skeleton-css",
-      "node_modules/vellum-monster": "vendor/vellum-monster"
+      'node_modules/@webcomponents/template-shadowroot': 'vendor/@webcomponents/template-shadowroot',
+      'node_modules/@lit-labs/ssr-client': 'vendor/@lit-labs/ssr-client',
+      'node_modules/lit': 'vendor/lit',
+      'node_modules/@lit': 'vendor/@lit',
+      'node_modules/lit-element': 'vendor/lit-element',
+      'node_modules/lit-html': 'vendor/lit-html',
+      'node_modules/skeleton-css/css/': 'vendor/skeleton-css',
+      'node_modules/vellum-monster': 'vendor/vellum-monster'
     }
   );
 
-  eleventyConfig.addPassthroughCopy("content/**/*.{jpg,png}");
+  eleventyConfig.addFilter('excludeTags', (posts, tags) => {
+    posts.filter((post) => !post.data.tags.some((tag) => tags.includes(tag)));
+  });
 
-	// Filters
-	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
-		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
-	});
+  eleventyConfig.addPassthroughCopy('content/**/*.{jpg,png}');
 
-	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-		return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
-	});
+  eleventyConfig.addFilter('readableDate', (dateObj, format, zone) => {
+    DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toFormat(format || 'dd LLLL yyyy');
+  });
 
-	// Return all the tags used in a collection
-	eleventyConfig.addFilter("getAllTags", collection => {
-		let tagSet = new Set();
-		for(let item of collection) {
-			(item.data.tags || []).forEach(tag => tagSet.add(tag));
-		}
-		return Array.from(tagSet);
-	});
+  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+    DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+  });
 
-	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
-		return (tags || []).filter(tag => ["all", "nav", "post", "posts", "product", "products"].indexOf(tag) === -1);
-	});
+  return {
+    templateFormats: [
+      'md',
+      'njk',
+      'html',
+      'liquid'
+    ],
 
-	eleventyConfig.addFilter("excludeTags", function filterTagList(posts, tags) {
-		return posts.filter(post => !post.data.tags.some(tag => tags.includes(tag)));
-	});
+    markdownTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
 
-	// Customize Markdown library settings:
-	eleventyConfig.amendLibrary("md", mdLib => {
-		mdLib.use(markdownItAnchor, {
-			permalink: markdownItAnchor.permalink.ariaHidden({
-				placement: "after",
-				class: "header-anchor",
-				symbol: "#",
-				ariaHidden: false,
-			}),
-			level: [1,2,3,4],
-			slugify: eleventyConfig.getFilter("slugify")
-		});
-	});
+    dir: {
+      input: 'content',
+      includes: '../_includes',
+      data: '../_data',
+      output: '_site'
+    },
 
-  eleventyConfig.addGlobalData("inputDir", "content");
-
-	return {
-		templateFormats: [
-			"md",
-			"njk",
-			"html",
-			"liquid",
-		],
-
-		markdownTemplateEngine: "njk",
-		htmlTemplateEngine: "njk",
-
-		dir: {
-			input: "content",          // default: "."
-			includes: "../_includes",  // default: "_includes"
-			data: "../_data",          // default: "_data"
-			output: "_site"
-		},
-
-		pathPrefix: "/",
-	};
+    pathPrefix: '/'
+  };
 };

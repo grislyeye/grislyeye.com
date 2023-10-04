@@ -1,4 +1,9 @@
-import { LitElement, html, css, isServer } from 'lit';
+import {
+  LitElement,
+  html,
+  css,
+  isServer
+} from 'lit';
 
 class MySection extends LitElement {
   static styles = css`
@@ -49,6 +54,8 @@ class MySection extends LitElement {
         </section>
       `;
     }
+
+    return undefined;
   }
 }
 

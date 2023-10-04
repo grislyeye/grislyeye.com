@@ -1,9 +1,15 @@
-import { LitElement, html, css, isServer } from 'lit';
+import {
+  LitElement,
+  html,
+  css,
+  isServer
+} from 'lit';
 import './my-section.js';
 
 class MyPage extends LitElement {
   static styles = css`
     :host {
+      display: block;
     }
 
     h1.title {
@@ -26,20 +32,23 @@ class MyPage extends LitElement {
     if (isServer) {
       return html`
         <h1 class="title">
-          ${ this._renderTitle() }
+          ${ this.renderTitle() }
         </h1>
         <my-section subtitle="${ this.subtitle }">
           <slot></slot>
         </my-section>
       `;
     }
+
+    return undefined;
   }
 
-  _renderTitle() {
-    const [first, ...tail] = this.title.split(" ");
-    if(first && tail) {
-      return html`${first} <br> ${ tail.join(" ") }`
-    } else return this.title;
+  renderTitle() {
+    const [first, ...tail] = this.title.split(' ');
+    if (first && tail) {
+      return html`${ first } <br> ${ tail.join(' ') }`;
+    }
+    return this.title;
   }
 }
 

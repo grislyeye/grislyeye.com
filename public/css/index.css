@@ -2,62 +2,67 @@
 @import url("/vendor/skeleton-css/skeleton.css");
 
 :root {
-	--font-family: 'Alegreya', serif;
-	--title-font-family: 'Andada Pro', serif;
+  --font-family: 'Alegreya', serif;
+  --title-font-family: 'Andada Pro', serif;
 
-	--background-color: black;
+  --background-color: black;
 
-	--text-color: white;
-	--text-color-link: rgb(255, 82, 119);
-	--text-color-link-active: rgb(255, 41, 87);
-	--text-color-link-visited: rgb(255, 41, 87);
+  --text-color: white;
+  --text-color-link: rgb(255, 82, 119);
+  --text-color-link-active: rgb(255, 41, 87);
+  --text-color-link-visited: rgb(255, 41, 87);
 
   --content-max-width: 720px;
   --content-subtitle-max-width: 150px;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
 }
 
 html,
 body {
-	padding: 0;
-	font-family: var(--font-family);
+  padding: 0;
+  font-family: var(--font-family);
   font-size: 1em;
-	color: var(--text-color);
-	background-color: var(--background-color);
+  color: var(--text-color);
+  background-color: var(--background-color);
   line-height: 1;
 }
-html {
-	overflow-y: scroll;
-}
+
 body {
-	max-width: var(--content-max-width);
-	margin: 0 auto;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
 }
 
 h1 {
-	font-family: var(--title-font-family);
+  font-family: var(--title-font-family);
   line-height: 1;
 }
 
 p {
   line-height: 1;
 }
+
 p:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 a[href] {
-	color: var(--text-color-link);
+  color: var(--text-color-link);
 }
+
 a[href]:visited {
-	color: var(--text-color-link-visited);
+  color: var(--text-color-link-visited);
 }
+
 a[href]:hover,
 a[href]:active {
-	color: var(--text-color-link-active);
+  color: var(--text-color-link-active);
 }
 
 main {
@@ -67,14 +72,15 @@ main {
   left: calc(var(--content-subtitle-max-width) * -1);
   margin-bottom: 7rem;
 }
+
 main :first-child {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 nav,
 footer {
-	max-width: var(--content-max-width);
-	margin: 0 auto;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
 }
 
 main header {
@@ -84,8 +90,8 @@ main header {
 nav {
   margin-top: 20px;
   margin-bottom: 5rem;
-	padding: 0;
-	list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 footer {
@@ -96,11 +102,12 @@ footer {
 
 main > my-hero,
 main > my-section {
-	max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
 }
 
 my-preview {
   --preview-size: 165px;
+
   width: var(--preview-size);
   height: var(--preview-size);
 }
@@ -133,7 +140,7 @@ ol {
 }
 
 input {
-	font-family: var(--font-family);
+  font-family: var(--font-family);
   font-size: 1.2rem;
 }
 
