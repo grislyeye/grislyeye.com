@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:ital,wght@1,400;1,700&display=swap');
 @import url("/vendor/skeleton-css/skeleton.css");
 
 :root {
   --font-family: 'Alegreya', serif;
   --title-font-family: 'Andada Pro', serif;
+  --subtitle-font-family: 'Alegreya Sans', sans;
 
   --background-color: black;
 

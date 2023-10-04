@@ -30,6 +30,8 @@ class MySection extends LitElement {
       max-width: var(--content-subtitle-max-width);
       margin-top: 0.2rem;
       text-align: right;
+
+      font-family: var(--subtitle-font-family);
       font-size: 1rem;
       font-weight: normal;
       text-transform: lowercase;
