@@ -126,11 +126,6 @@ ul.previews {
   list-style: none;
 }
 
-article.post * {
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
-
 section.small.page {
   font-size: 1.5rem;
 }
@@ -171,7 +166,7 @@ input {
 }
 
 .content #city-illustration.illustration {
-  max-width: 350px;
+  max-width: 300px;
 }
 
 img[src*="infantry.png"].background,
@@ -200,4 +195,14 @@ img.medium {
   gap: 10px;
   margin: 0;
   padding: 0;
+}
+
+span.product {
+  font-style: italic;
+  color: red;
+}
+
+span.title {
+  color: red;
+  font-variant: small-caps;
 }

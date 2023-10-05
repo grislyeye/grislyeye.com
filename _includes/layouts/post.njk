@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 <article class="post content reader-bar-start">
-  <my-page title="{{ title }}" subtitle="{{ page.date | readableDate }}">
+  <my-page id="post" title="{{ title }}" subtitle="{{ page.date | readableDate }}">
 
     {{ content | safe }}
 

@@ -13,12 +13,17 @@ figure.print img {
   height: auto;
 }
 
+figure.illustration {
+  display: block;
+}
+
 div.illustration,
 figure.illustration {
   float: right;
-  padding: 1em 0;
+  padding: 0;
   padding-left: 1em;
-  margin: 1em 0;
+  margin: 0;
+  margin-left: auto;
 }
 
 div.illustration.full-width,

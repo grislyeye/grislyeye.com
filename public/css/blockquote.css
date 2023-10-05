@@ -2,6 +2,7 @@
   margin-left: 0;
   padding-left: 1em;
   border-left: 1px solid white;
+  font-style: italic;
 }
 
 .content blockquote cite {
