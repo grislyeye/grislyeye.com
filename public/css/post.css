@@ -18,6 +18,9 @@
 #post h3,
 #post h4,
 #post h5 {
+  font-family: var(--title-font-family);
+  font-variant: small-caps;
+
   margin-top: 1.5rem;
   margin-bottom: 0;
 }
