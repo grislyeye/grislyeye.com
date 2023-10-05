@@ -46,13 +46,6 @@ figure.illustration.outlined img {
 }
 
 @media (width < 500px) {
-  figure.print,
-  div.illustration,
-  figure.illustration {
-    float: unset;
-    align-items: center;
-  }
-
   figure.print img,
   div.illustration img,
   figure.illustration img {

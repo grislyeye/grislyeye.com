@@ -9,8 +9,7 @@ class MyNavigationBar extends LitElement {
   static styles = css`
     :host {
       display: flex;
-      height: 30px;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-between;
       font-family: var(--subtitle-font-family);
     }
@@ -23,8 +22,8 @@ class MyNavigationBar extends LitElement {
 
     .main {
       display: flex;
-      height: 100%;
       align-items: center;
+      min-width: max-content;
     }
 
     .main img.logo {
@@ -36,10 +35,17 @@ class MyNavigationBar extends LitElement {
       display: flex;
       height: 100%;
       align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
       text-transform: lowercase;
     }
 
-    .socials img.icon {
+    .social {
+      display: flex;
+      align-items: center;
+    }
+
+    .social img.icon {
       height: 0.9rem;
       padding-right: 0.2em;
       padding-left: 1.5em;
@@ -65,17 +71,25 @@ class MyNavigationBar extends LitElement {
         </div>
 
         <div class="socials">
-          <a href="${ this.email }" title="Mailing List"><img src="/images/email.svg" class="icon"></a>
-          <a href="${ this.email }" title="Mailing List">Mailing List</a>
+          <div class="social">
+            <a href="${ this.email }" title="Mailing List"><img src="/images/email.svg" class="icon"></a>
+            <a href="${ this.email }" title="Mailing List">Mailing List</a>
+          </div>
 
-          <a rel="me" href="${ this.twitter }" title="Twitter"><img src="/images/twitter.svg" class="icon"></a>
-          <a rel="me" href="${ this.twitter }" title="Twitter">Twitter</a>
+          <div class="social">
+            <a rel="me" href="${ this.twitter }" title="Twitter"><img src="/images/twitter.svg" class="icon"></a>
+            <a rel="me" href="${ this.twitter }" title="Twitter">Twitter</a>
+          </div>
 
-          <a rel="me" href="${ this.mastodon }" title="Mastodon"><img src="/images/mastodon.svg" class="icon"></a>
-          <a rel="me" href="${ this.mastodon }" title="Mastodon">Mastodon</a>
+          <div class="social">
+            <a rel="me" href="${ this.mastodon }" title="Mastodon"><img src="/images/mastodon.svg" class="icon"></a>
+            <a rel="me" href="${ this.mastodon }" title="Mastodon">Mastodon</a>
+          </div>
 
-          <a href="${ this.rss }" title="RSS"><img src="/images/rss.svg" class="icon"></a>
-          <a href="${ this.rss }" title="RSS">RSS</a>
+          <div class="social">
+            <a href="${ this.rss }" title="RSS"><img src="/images/rss.svg" class="icon"></a>
+            <a href="${ this.rss }" title="RSS">RSS</a>
+          </div>
         </div>
       `;
     }

@@ -23,11 +23,11 @@
 
 html {
   overflow-y: scroll;
+  margin: 0 1em;
 }
 
 html,
 body {
-  padding: 0;
   font-family: var(--font-family);
   font-size: 1em;
   color: var(--text-color);
@@ -38,40 +38,12 @@ body {
 body {
   max-width: var(--content-max-width);
   margin: 0 auto;
-}
-
-h1 {
-  font-family: var(--title-font-family);
-  line-height: 1;
-}
-
-p {
-  line-height: 1;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-a[href] {
-  color: var(--text-color-link);
-}
-
-a[href]:visited {
-  color: var(--text-color-link-visited);
-}
-
-a[href]:hover,
-a[href]:active {
-  color: var(--text-color-link-active);
+  padding: 0;
 }
 
 main {
-  width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
-  position: relative;
-  margin: 0 auto;
-  left: calc(var(--content-subtitle-max-width) * -1);
-  margin-bottom: 7rem;
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin: 0 auto 7rem;
 }
 
 main :first-child {
@@ -101,6 +73,32 @@ footer {
   margin-bottom: 3.5em;
 }
 
+h1 {
+  font-family: var(--title-font-family);
+  line-height: 1;
+}
+
+p {
+  line-height: 1;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a[href] {
+  color: var(--text-color-link);
+}
+
+a[href]:visited {
+  color: var(--text-color-link-visited);
+}
+
+a[href]:hover,
+a[href]:active {
+  color: var(--text-color-link-active);
+}
+
 main > my-hero,
 main > my-section {
   max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
@@ -116,7 +114,7 @@ my-preview {
 .previews {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 2%;
   padding: 0;
   margin: 0;
   margin-bottom: 7rem;

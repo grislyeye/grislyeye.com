@@ -18,8 +18,19 @@ class MyPage extends LitElement {
       line-height: 1;
       padding-bottom: 10px;
       margin: 0;
-      margin-left: var(--content-subtitle-max-width);
       word-wrap:break-word;
+    }
+
+    @media(max-width: 500px) {
+      h1.title {
+        font-size: 4rem;
+      }
+    }
+
+    @media(max-width: 400px) {
+      h1.title {
+        font-size: 3rem;
+      }
     }
   `;
 

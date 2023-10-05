@@ -18,12 +18,17 @@ class MyHeroHeader extends LitElement {
 
       padding-bottom: 10px;
       margin: 0;
-      margin-left: var(--content-subtitle-max-width);
     }
 
     .description {
       font-size: 1.6rem;
       margin: 0;
+    }
+
+    @media(max-width: 500px) {
+      h1 {
+        font-size: 4rem;
+      }
     }
   `;
 
