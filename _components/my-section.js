@@ -33,7 +33,7 @@ class MySection extends LitElement {
 
       font-family: var(--subtitle-font-family);
       font-size: 1rem;
-      font-weight: normal;
+      font-weight: bold;
       text-transform: lowercase;
       padding-right: 1em;
     }
