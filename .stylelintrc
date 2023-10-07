@@ -5,9 +5,10 @@
       "ignoreMediaFeatureNames": ["@small", "@medium", "@large"]
     }],
     "selector-type-no-unknown": [ true, {
-      "ignoreTypes": ["vellum-monster"]
+      "ignoreTypes": ["vellum-monster", "my-preview", "my-hero", "my-section"]
     }],
     "property-no-vendor-prefix": null,
-    "color-function-notation": null
+    "color-function-notation": null,
+    "custom-property-empty-line-before": null
   }
 }

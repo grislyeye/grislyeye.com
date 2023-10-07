@@ -22,8 +22,4 @@ To run:
 
     $ npm start
 
-And open http://localhost:8000 in your browser.
-
-To clean build:
-
-    $ npm run clean
+And open http://localhost:8080 in your browser.

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		{% seo "" %}
+
+		<meta name="description" content="{{ description or metadata.description }}">
+
+		<link rel="alternate" href="/rss.xml" type="application/xml" title="{{ metadata.title }}">
+
+		{%- css %}
+      {% include "public/css/index.css" %}
+      {% include "public/css/post.css" %}
+      {% include "public/css/aside.css" %}
+      {% include "public/css/blockquote.css" %}
+      {% include "public/css/content.css" %}
+      {% include "public/css/chat.css" %}
+      {% include "public/css/code.css" %}
+      {% include "public/css/fate.css" %}
+      {% include "public/css/figure.css" %}
+      {% include "public/css/illustration.css" %}
+      {% include "public/css/images.css" %}
+      {% include "public/css/picture.css" %}
+      {% include "public/css/reader-bar.css" %}
+      {% include "public/css/stat-block.css" %}
+      {% include "public/css/two-column.css" %}
+      {% include "public/css/lists.css" %}
+      {% include "public/css/tables.css" %}
+    {% endcss %}
+		<link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
+
+    {% favicons './public/images/logo.svg' %}
+
+    {% if redirectTo %}
+      <meta http-equiv="refresh" content="0; url={{ redirectTo }}">
+      <link rel="canonical" href="{{ redirectTo }}">
+      <script>window.location.replace('{{ redirectTo }}'.replace('&#x3D;', '='));</script>
+    {% endif %}
+
+    {% if statblocks %}
+      <script type="module" src="/vendor/vellum-monster/dist/vellum-monster.js"></script>
+    {% endif %}
+	</head>
+
+	<body dsd-pending>
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
+
+    <nav>
+      <my-nav
+        twitter="https://twitter.com/grislyeye"
+        email="/mailing-list/"
+        mastodon="https://dice.camp/@grislyeye"
+        rss="/rss.xml"
+      >
+        <span slot="name">{{ metadata.author.name }}</span>
+        <span slot="title">{{ metadata.title }}</span>
+      </my-nav>
+    </nav>
+
+		<main>
+			{{ content | safe }}
+		</main>
+
+		<footer>
+      <p class="legal">
+        Website version {{ pkg.version }} &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+      </p>
+    </footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/scripts/components/my-nav.js');
+        import('/scripts/components/my-hero.js');
+        import('/scripts/components/my-preview.js');
+        import('/scripts/components/my-section.js');
+        import('/scripts/components/my-page.js');
+        import('/scripts/components/my-product.js');
+        import('/scripts/components/my-button.js');
+      })();
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8S4KL203M4');
+    </script>
+		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
+	</body>
+</html>

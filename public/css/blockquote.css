@@ -1,0 +1,16 @@
+.content blockquote {
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: 1px solid white;
+  font-style: italic;
+}
+
+.content blockquote cite {
+  display: block;
+  font-style: normal;
+  text-indent: 1em;
+}
+
+.content blockquote cite::before {
+  content: "- ";
+}

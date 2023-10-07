@@ -1,34 +1,47 @@
 {
   "name": "grislyeye.com",
-  "version": "2.27.6",
+  "version": "3.0.0",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+    "debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+    "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+    "test": "eslint --ext .js . && stylelint public/css/*.css && npm run test:links",
+    "test:links": "npx linkinator ./_site --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)|(imgur\\.com)|(.*\\.imgur\\.com)' --verbosity error"
+  },
+  "author": {
+    "name": "Ric Wood",
+    "email": "ric@grislyeye.com",
+    "url": "https://grislyeye.com/"
+  },
+  "engines": {
+    "node": ">=14"
+  },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.4.2",
-    "eleventy-plugin-reader-bar": "^0.2.1",
-    "modern-normalize": "^2.0.0",
+    "lit": "^2.8.0",
     "skeleton-css": "^2.0.4",
     "vellum-monster": "^1.3.2"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-img": "^3.1.0",
+    "@11ty/eleventy-img": "^3.1.1",
+    "@11ty/eleventy-plugin-bundle": "^1.0.4",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "@lit-labs/eleventy-plugin-lit": "^1.0.1",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
-    "cheerio": "^1.0.0-rc.12",
+    "@webcomponents/template-shadowroot": "^0.2.1",
     "eleventy-plugin-gen-favicons": "^1.1.2",
+    "eleventy-plugin-reader-bar": "^0.2.1",
     "eleventy-plugin-seo": "^0.5.2",
-    "htmlhint": "^1.1.4",
-    "js-beautify": "^1.14.9",
-    "linkinator": "^5.0.1",
-    "stylelint": "^15.10.2",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-lit": "^1.9.1",
+    "eslint-plugin-wc": "^2.0.4",
+    "linkinator": "^5.0.2",
+    "luxon": "^3.4.3",
+    "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0"
-  },
-  "scripts": {
-    "build": "eleventy",
-    "clean": "rm -fr _site",
-    "start": "eleventy --serve",
-    "format": "js-beautify --config .jsbeautify.json posts/**/*.html",
-    "test": "htmlhint '_site/**/*.html' --ignore '**/vendor/**' && stylelint assets/styles/*.css && npx linkinator ./_site -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)|(imgur\\.com)|(.*\\.imgur\\.com)' --verbosity debug",
-    "predeploy": "npm test && npm run clean && npm run build"
   }
 }

@@ -1,0 +1,71 @@
+---
+title: Buy Wargod!
+tags:
+  - products
+  - posts
+  - featured
+date: 2023-05-31
+layout: layouts/post.njk
+image: wargod.png
+---
+<aside class="purchase">
+  <my-product
+    id="digital"
+    class="product"
+    product="Wargod!"
+    call="Buy PDF"
+    currency="£"
+    price="5"
+    src="https://grislyeye.itch.io/wargod"
+    image="{% rawImageUrl "./wargod-digital.png", 200 %}"
+  >
+  </my-product>
+
+  <hr>
+
+  <my-product
+    id="print"
+    class="product"
+    product="Wargod!"
+    call="Buy Print + PDF"
+    currency="£"
+    price="10"
+    src="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo"
+    notes='["+£2 postage.", "Shipping to the UK only."]'
+    image="{% rawImageUrl "./wargod-print.png", 200 %}"
+    timezones='["Europe/London"]'
+  >
+  </my-product>
+</aside>
+
+<p class="preview"><strong>d66</strong> grim fantasy careers for <a href="https://www.troikarpg.com/">Troika!</a> that vibe off the BOSR (British old-school renaissance).</p>
+
+<p>Play grubby fools, scoundrels or commoners thrown into an implied setting of farce and endless war.</p>
+
+<p>Inspired by the original <span class="product">Warhammer Fantasy Roleplay</span>, you can use <span class="title">Wargod!</span> to run your old adventures or plunge into new worlds of dark fantasy.</p>
+
+<h5>Old-school British hack</h5>
+
+<p>The book includes:</p>
+
+<ul>
+  <li><strong>d66</strong> grubby Troika! backgrounds</li>
+  <li>implied setting</li>
+  <li>and some <em>tastefully</em> selected art.</li>
+</ul>
+
+<p>Created as part of <a href="https://www.zinemonth.com/">#ZineMonth2023</a>.</p>
+
+<script>
+  const timezone =
+    Intl.DateTimeFormat()
+      .resolvedOptions()
+      .timeZone
+
+  const shipping       = timezone && timezone === "Europe/London"
+  const buyPrintButton = document.getElementById("buy-print")
+
+  if(!shipping && buyPrintButton) {
+    buyPrintButton.classList.add("disabled")
+  }
+</script>

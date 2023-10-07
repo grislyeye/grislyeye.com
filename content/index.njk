@@ -1,0 +1,74 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+<header>
+  <my-hero subtitle="About Me">
+    <span slot="title">The <br> Grisly Eye</span>
+    <span slot="description">
+      {{ metadata.description }} You can buy my stuff below, or follow/contact me via my socials above.
+    </span>
+  </my-hero>
+</header>
+
+<my-section subtitle="featured">
+  <ul id="featured" class="previews">
+    {% for post in collections.featured | excludeTags([ "drafts" ]) | reverse %}
+      <li class="preview">
+        <a href="{{ post.url }}" title="{{ post.data.title }}">
+
+          {% if loop.index % 3 == 1 %}
+            {% set theme %} bloody {% endset %}
+          {% elif loop.index % 2 == 1 %}
+            {% set theme %} light {% endset %}
+          {% else %}
+            {% set theme %} dark {% endset %}
+          {% endif %}
+
+          <my-preview
+            {% if post.data.image %}
+              {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
+              background="{% rawImageUrl imagePath, 400 %}"
+            {% endif %}
+            class="{{ post.data.tags.join(' ') }} {{ theme }}"
+          >
+            <span slot="title">{{ post.data.title }}</span>
+          </my-preview>
+
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</my-section>
+
+<my-section subtitle="more">
+  <ul id="more" class="previews">
+    {% for post in collections.posts | excludeTags([ "drafts", "featured" ]) | reverse %}
+      <li class="preview">
+        <a href="{{ post.url }}" title="{{ post.data.title }}">
+
+          {% if loop.index % 3 == 1 %}
+            {% set theme %} bloody {% endset %}
+          {% elif loop.index % 2 == 1 %}
+            {% set theme %} light {% endset %}
+          {% else %}
+            {% set theme %} dark {% endset %}
+          {% endif %}
+
+          <my-preview
+            {% if post.data.image %}
+              {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
+              background="{% rawImageUrl imagePath, 400 %}"
+            {% endif %}
+            class="{{ post.data.tags.join(' ') }} {{ theme }}"
+          >
+            <span slot="title">{{ post.data.title }}</span>
+          </my-preview>
+
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</my-section>
