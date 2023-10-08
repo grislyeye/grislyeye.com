@@ -1,110 +1,256 @@
-  <!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>I Start Walking - The Grisly Eye</title>
 
-  <title>I Start Walking - The Grisly Eye</title>
-
-<meta name="description" content="">
+<meta name="description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
 <meta name="robots" content="index,follow">
-<meta name="author" content="R.G. Wood">
+<meta name="author" content="Ric Wood">
 
-<link rel="canonical" href="https://grislyeye.com/blog/journey-rules-1/">
+<link rel="canonical" href="https://grislyeye.com//blog/journey-rules-1/">
 
 <meta property="og:title" content="I Start Walking - The Grisly Eye">
 <meta property="og:type" content="article">
 
-<meta property="og:url" content="https://grislyeye.com/blog/journey-rules-1/">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://grislyeye.com/images/travellers.jpg">
+<meta property="og:url" content="https://grislyeye.com//blog/journey-rules-1/">
+<meta property="og:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta property="og:image" content="travellers.jpg">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@grislyeye">
-<meta name="twitter:url" content="https://grislyeye.com/blog/journey-rules-1/">
+<meta name="twitter:url" content="https://grislyeye.com//blog/journey-rules-1/">
 <meta name="twitter:title" content="I Start Walking - The Grisly Eye">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://grislyeye.com/images/travellers.jpg">
+<meta name="twitter:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="twitter:image" content="travellers.jpg">
 
 
-  <style>
-  html {
-    visibility: hidden;
-    opacity: 0;
-  }
-</style>
 
+		<meta name="description" content="I&#39;m an indie game designer (and forever DM) and this is my blog.">
 
-  <link href="/styles/main.css" rel="stylesheet">
+		<link rel="alternate" href="/rss.xml" type="application/xml" title="The Grisly Eye">
+		<link rel="stylesheet" href="/bundle/pCCAJtorpk.css">
 
-  
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
 
-  <link rel="alternate" type="application/rss+xml" title="Grisly Eye Games" href="/rss.xml">
-
-  
+    
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:creator" content="@grislyeye">
+    
 
-  
+    
+	</head>
 
-  <link rel="webmention" href="https://webmention.io/grislyeye.com/webmention">
-  <link rel="pingback" href="https://webmention.io/grislyeye.com/xmlrpc">
-</head>
+	<body dsd-pending>
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
 
-<body>
+    <nav>
+      <my-nav
+        
+        
+        
+        
+       twitter="https://twitter.com/grislyeye" email="/mailing-list/" mastodon="https://dice.camp/@grislyeye" rss="/rss.xml"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-family: var(--subtitle-font-family);
+    }
 
+    a {
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
 
-  <section id="top-ribbon" class="ribbon">
-  <div class="content">
-    <h3><a href="/products/wargod/">Buy Wargod!</a></h3>
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+    }
 
-    <div class="call button">
-      <a href="/products/wargod">
-        Purchase
-      </a>
-    </div>
+    .main img.logo {
+      height: 30px;
+      padding-right: 0.7em;
+    }
 
-    <p><a href="/products/wargod/">Wargod!</a> is my 44 page zine for Troika!, including d66 grimdark backgrounds and implied setting. Buy now on PDF <em>and</em> in print.</p>
-  </div>
-</section>
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      text-transform: lowercase;
+    }
 
+    .social {
+      display: flex;
+      align-items: center;
+    }
 
+    .social img.icon {
+      height: 0.9rem;
+      padding-right: 0.2em;
+      padding-left: 1.5em;
+      padding-top: 0.4em;
+    }
+  </style><!--lit-part KmhwTAFmva4=-->
+        <div class="main">
+          <a href="/"><img src="/images/logo.svg" class="logo"></a>
+          <span>
+            <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+          </span>
+        </div>
 
+        <div class="socials">
+          <div class="social">
+            <!--lit-node 10--><a href="/mailing-list/" title="Mailing List"><img src="/images/email.svg" class="icon"></a>
+            <!--lit-node 12--><a href="/mailing-list/" title="Mailing List">Mailing List</a>
+          </div>
 
-  <main class="post">
+          <div class="social">
+            <!--lit-node 14--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter"><img src="/images/twitter.svg" class="icon"></a>
+            <!--lit-node 16--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter">Twitter</a>
+          </div>
 
-        <header>
-      <nav>
-        <ul class="links">
-          <li><p><a href="/ric" title="Ric Wood">About Me</a></p></li>
-          <li><a rel="me" href="https://twitter.com/grislyeye" title="Twitter"><span class="fab fa-twitter icon" aria-hidden="true"></span></a></li>
-          <li><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon"><span class="fa-brands fa-mastodon icon" aria-hidden="true"></span></a></li>
-          <li><a href="/rss.xml" title="RSS feed"><span  class="fas fa-rss icon" aria-hidden="true"></span></a></li>
-        </ul>
-      </nav>
+          <div class="social">
+            <!--lit-node 18--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon"><img src="/images/mastodon.svg" class="icon"></a>
+            <!--lit-node 20--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon">Mastodon</a>
+          </div>
 
-      <h1 class="title"><a href="/"><picture><source type="image/svg+xml" srcset="/assets/images/ShYj8hESpp-400.svg 400w"><source type="image/webp" srcset="/assets/images/ShYj8hESpp-112.webp 112w"><img decoding="async" id="logo" src="/assets/images/ShYj8hESpp-112.jpeg" alt="Grisly Eye Games Logo" height="112" width="112"></picture>The Grisly Eye</a></h1>
-      <h2 class="subtitle">Ric Wood's Blog</h2>
-    </header>
+          <div class="social">
+            <!--lit-node 22--><a href="/rss.xml" title="RSS"><img src="/images/rss.svg" class="icon"></a>
+            <!--lit-node 24--><a href="/rss.xml" title="RSS">RSS</a>
+          </div>
+        </div>
+      <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
 
+		<main>
+			<article class="post content reader-bar-start">
+  <my-page    id="post" title="I Start Walking" subtitle="25 October 2021"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
 
-    <div id="content">
+    h1.title {
+      font-size: 5rem;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-bottom: 10px;
+      margin: 0;
+      word-wrap:break-word;
+    }
 
-      <article class="reader-bar-start">
-        <header>
-          <h2 id="title">I Start Walking</h2>
-        </header>
+    @media(max-width: 500px) {
+      h1.title {
+        font-size: 4rem;
+      }
+    }
 
-        <div class="content">
-          <figure class="outlined illustration">
-  <img src="/images/travellers.jpg" alt="Travellers Illustration">
+    @media(max-width: 400px) {
+      h1.title {
+        font-size: 3rem;
+      }
+    }
+  </style><!--lit-part EDd6k7/yduM=-->
+        <h1 class="title">
+          <!--lit-part GS+GCwuChgs=--><!--lit-part-->I<!--/lit-part--> <br> <!--lit-part-->Start Walking<!--/lit-part--><?><!--/lit-part-->
+        </h1>
+        <!--lit-node 2--><my-section  subtitle="25 October 2021" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    @media(max-width: 870px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+        /* display: inline;
+        min-width: unset;
+        max-width: unset; */
+      }
+    }
+  </style><!--lit-part y2PvFkzzwcw=-->
+        <section>
+          <div class="subtitle">
+            <!--lit-part-->25 October 2021<!--/lit-part-->
+          </div>
+          <div class="content">
+            <slot></slot>
+          </div>
+        </section>
+      <!--/lit-part--></template>
+          <slot></slot>
+        </my-section>
+      <!--/lit-part--></template>
+
+    <figure class="outlined illustration">
+  <picture><source type="image/avif" srcset="/img/9cazakpotl-400.avif 400w"><source type="image/webp" srcset="/img/9cazakpotl-400.webp 400w"><source type="image/png" srcset="/img/9cazakpotl-400.png 400w"><img alt="Travellers Illustration" loading="lazy" decoding="async" src="/img/9cazakpotl-400.jpeg" width="400" height="228"></picture>
   <p class="caption">The Brave English Gypsy, an illustration from the <span class="product">A Book of Roxburghe Ballads</span>.</p>
 </figure>
 
@@ -173,7 +319,7 @@
 <p>For each number of possible encounters, the party make a journey check. For each failed journey check, they run into a random encounter (see the example encounter table below).</p>
 
 <div class="full-width outlined illustration">
-  <img src="/images/b2-gates.png" alt="At the gates of the Keep">
+   <picture><source type="image/avif" srcset="/img/6WZUH9z1rC-900.avif 900w"><source type="image/webp" srcset="/img/6WZUH9z1rC-900.webp 900w"><img alt="At the gates of the Keep" loading="lazy" decoding="async" src="/img/6WZUH9z1rC-900.png" width="900" height="166"></picture>
   <p class="caption">Illustration from <span class="product">B2 Keep on the Borderlands</span>, by David S. LaForce.</p>
 </div>
 
@@ -310,9 +456,9 @@
   </tbody>
 </table>
 
-<p>This is an example of the type of encounter I'm talking about, using my experimental <a href="/blog/encounter-blocks.html">encounter block</a> format:</p>
+<p>This is an example of the type of encounter I'm talking about, using my experimental <a href="/blog/encounter-blocks/">encounter block</a> format:</p>
 
-<img class="medium" src="/images/encounter-blocks/traveller-party-block.png" alt="Traveller party encounter block">
+<picture><source type="image/avif" srcset="/img/p0zLVODUA2-400.avif 400w" sizes=""><source type="image/webp" srcset="/img/p0zLVODUA2-400.webp 400w" sizes=""><img alt="Traveller party encounter block" loading="lazy" decoding="async" class="small" src="/img/p0zLVODUA2-400.png" width="400" height="697"></picture>
 
 <h3 id="notes">Notes</h3>
 
@@ -344,11 +490,9 @@
 
 <p>I think the key thing is to ensure resources are expended to clear or resist exhaustion. Exhaustion limits certain features, particularly the berserker barbarian's Frenzy feature, so this needs to be balanced.</p>
 
-        </div>
 
-      </article>
-
-      
+  </my-page>
+  
   <!-- up button -->
   <div>
     <button
@@ -391,8 +535,8 @@
   </script>
 
   <!-- reader bar -->
-  <div id="readerBarContainer" style="height:4px;width:100%;background-color:#010101;position:fixed;top:2px;left:0;z-index:100;transition:0.2s;">
-    <div id="readerBar" style="height:4px;width:0;background-color:orange;position:fixed;top:2px;left:0;z-index:200;transition:0.2s;"></div>
+  <div id="readerBarContainer" style="height:4px;width:100%;background-color:transparent;position:fixed;top:2px;left:0;z-index:100;transition:0.2s;">
+    <div id="readerBar" style="height:4px;width:0;background-color:red;position:fixed;top:2px;left:0;z-index:200;transition:0.2s;"></div>
   </div>
 
   <script>
@@ -421,50 +565,51 @@
     }
   </script>
   
+</article>
 
-    </div>
+		</main>
 
-  </main>
+		<footer>
+      <p class="legal">
+        Website version 3.0.0 &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+      </p>
+    </footer>
 
-  <section id="bottom-ribbon" class="ribbon">
-  <div class="content">
-    <h3>Subscribe for Updates</h3>
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
 
-    <p>Stay updated with the latest products and blog posts from Grisly Eye Games. Subscribe to my low-traffic mailing list:</p>
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
 
-    <form action="https://tinyletter.com/grislyeye" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/grislyeye', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-      <input type="text" name="email" id="tlemail" placeholder="Email">
-      <input type="hidden" value="1" name="embed">
-      <input class="button" type="submit" value="Subscribe">
-    </form>
+        await litHydrateSupportInstalled;
 
-  </div>
-</section>
+        import('/scripts/components/my-nav.js');
+        import('/scripts/components/my-hero.js');
+        import('/scripts/components/my-preview.js');
+        import('/scripts/components/my-section.js');
+        import('/scripts/components/my-page.js');
+        import('/scripts/components/my-product.js');
+        import('/scripts/components/my-button.js');
+      })();
+    </script>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-<footer>
-  <p class="legal">
-    Website version 2.27.6 Copyright &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
-  </p>
-</footer>
-
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8S4KL203M4');
-</script>
-
-  <style>
-  html {
-    visibility: visible;
-    opacity: 1;
-  }
-</style>
-
-
-</body>
+      gtag('config', 'G-8S4KL203M4');
+    </script>
+		<!-- Current page: /blog/journey-rules-1/ -->
+	</body>
 </html>

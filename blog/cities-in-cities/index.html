@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Cities in Cities - The Grisly Eye</title>
+
+<meta name="description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Ric Wood">
+
+<link rel="canonical" href="https://grislyeye.com//blog/cities-in-cities/">
+
+<meta property="og:title" content="Cities in Cities - The Grisly Eye">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://grislyeye.com//blog/cities-in-cities/">
+<meta property="og:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta property="og:image" content="city.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@grislyeye">
+<meta name="twitter:url" content="https://grislyeye.com//blog/cities-in-cities/">
+<meta name="twitter:title" content="Cities in Cities - The Grisly Eye">
+<meta name="twitter:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="twitter:image" content="city.png">
+
+
+
+		<meta name="description" content="I&#39;m an indie game designer (and forever DM) and this is my blog.">
+
+		<link rel="alternate" href="/rss.xml" type="application/xml" title="The Grisly Eye">
+		<link rel="stylesheet" href="/bundle/pCCAJtorpk.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+    
+
+    
+	</head>
+
+	<body dsd-pending>
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
+
+    <nav>
+      <my-nav
+        
+        
+        
+        
+       twitter="https://twitter.com/grislyeye" email="/mailing-list/" mastodon="https://dice.camp/@grislyeye" rss="/rss.xml"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-family: var(--subtitle-font-family);
+    }
+
+    a {
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+    }
+
+    .main img.logo {
+      height: 30px;
+      padding-right: 0.7em;
+    }
+
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      text-transform: lowercase;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+    }
+
+    .social img.icon {
+      height: 0.9rem;
+      padding-right: 0.2em;
+      padding-left: 1.5em;
+      padding-top: 0.4em;
+    }
+  </style><!--lit-part KmhwTAFmva4=-->
+        <div class="main">
+          <a href="/"><img src="/images/logo.svg" class="logo"></a>
+          <span>
+            <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+          </span>
+        </div>
+
+        <div class="socials">
+          <div class="social">
+            <!--lit-node 10--><a href="/mailing-list/" title="Mailing List"><img src="/images/email.svg" class="icon"></a>
+            <!--lit-node 12--><a href="/mailing-list/" title="Mailing List">Mailing List</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 14--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter"><img src="/images/twitter.svg" class="icon"></a>
+            <!--lit-node 16--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter">Twitter</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 18--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon"><img src="/images/mastodon.svg" class="icon"></a>
+            <!--lit-node 20--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon">Mastodon</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 22--><a href="/rss.xml" title="RSS"><img src="/images/rss.svg" class="icon"></a>
+            <!--lit-node 24--><a href="/rss.xml" title="RSS">RSS</a>
+          </div>
+        </div>
+      <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
+
+		<main>
+			<article class="post content reader-bar-start">
+  <my-page    id="post" title="Cities in Cities" subtitle="19 February 2021"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
+
+    h1.title {
+      font-size: 5rem;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-bottom: 10px;
+      margin: 0;
+      word-wrap:break-word;
+    }
+
+    @media(max-width: 500px) {
+      h1.title {
+        font-size: 4rem;
+      }
+    }
+
+    @media(max-width: 400px) {
+      h1.title {
+        font-size: 3rem;
+      }
+    }
+  </style><!--lit-part EDd6k7/yduM=-->
+        <h1 class="title">
+          <!--lit-part GS+GCwuChgs=--><!--lit-part-->Cities<!--/lit-part--> <br> <!--lit-part-->in Cities<!--/lit-part--><?><!--/lit-part-->
+        </h1>
+        <!--lit-node 2--><my-section  subtitle="19 February 2021" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    @media(max-width: 870px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+        /* display: inline;
+        min-width: unset;
+        max-width: unset; */
+      }
+    }
+  </style><!--lit-part y2PvFkzzwcw=-->
+        <section>
+          <div class="subtitle">
+            <!--lit-part-->19 February 2021<!--/lit-part-->
+          </div>
+          <div class="content">
+            <slot></slot>
+          </div>
+        </section>
+      <!--/lit-part--></template>
+          <slot></slot>
+        </my-section>
+      <!--/lit-part--></template>
+
+    <figure id="city-illustration" class="outlined illustration">
+  <picture><source type="image/avif" srcset="/img/fCk2I068G9-400.avif 400w"><source type="image/webp" srcset="/img/fCk2I068G9-400.webp 400w"><img alt="City Illustration" loading="lazy" decoding="async" src="/img/fCk2I068G9-400.png" width="400" height="719"></picture>
+  <p class="caption">Public domain illustration of Genua from the <span class="product">Nuremberg Chronicle</span>, 1493.</p>
+</figure>
+
+<p>If you think about it, most cities are pretty samey. A big river running through the middle. Rich and poor. Noise. Homelessness. Bustle and shops. Buses and suburbs. And so on. The customs, culture and weather might change, but city-life is city-life pretty much wherever you go.</p>
+
+<p class="preview">Anyway, here are some observations about writing and playing fantasy cities. How do you do it? How do you make it all up?</p>
+
+<p>I live in the greatest city in the world. Which, as we all know, is London. But when I try to sum up London, I struggle.</p>
+
+<p>I could say London is a “grey, wet city” which would be true. It’s also true that London is a bright, green city filled with parks. I could also say London "is a city with a long and rich history." It’s also true London is building over its past, as fast as it can.</p>
+
+<p>London is a city of contrasts, I guess.</p>
+
+<p>The point is cities aren’t one thing. They’re too big and complex to sum up. We experience parts. Sometimes these parts overlap. Sometimes they contradict. Sometime they conflict. Some are introverted. Some expansive. And some just never meet.</p>
+
+<p>You can’t experience an entire city. Ergo, you can’t capture its entirety in fiction.</p>
+
+<h4>Glimpsed Cities</h4>
+
+<blockquote>
+  <q>Are you in Beszel or Ul Qoma?</q><br>
+  <q>…Neither. I’m in Breach.</q>
+  <cite><span class="product">The City &amp; The City</span> by China Miéville</cite>
+</blockquote>
+
+<p>First observation: don't detail every part of a city. Define what your characters need, sketch the rest.</p>
+
+<p>Your characters might blunder through the slums, might be drawn into the machinations of the nobility. So you focus on the shanty town known as "The Crows". And the corrupt scions of House Barrosa.</p>
+
+<p>You might only mention the industrious craftsmen who dwell beyond Cemetery Hill. Or outline the fractious trade guilds.</p>
+
+<p>Regardless, gamemasters are well advised against over-preparation. Minimal preparation also conveys the vastness and complexity of the city. There are parts the characters might never see, the mere mention of which might daunt them. Cunningly drawing your players in.</p>
+
+<h4>Manifold Cities</h4>
+
+<blockquote>
+  He had noticed that events were cowards: they didn't occur singly, but instead they would run in packs and leap out at him all at once.
+  <cite><span class="product">Neverwhere</span> by Neil Gaiman</cite>
+</blockquote>
+
+<p>Second observation: capture the city's diversity. Not just diversity of peoples, but unexpected glimpses of its parts, cultures, hidden places. Just when your characters think they know the city, something unanticipated should intrude.</p>
+
+<p>In RPGs this can be handled using good, old-fashioned random encounter tables. Instead of monsters, they encounter strange travellers, parades, tragedies, forgotten alleyways and NPCs preoccupied with their own concerns.</p>
+
+<p>Not only do you want the city to have depth, and feel alive. The characters should also have a sense that they're not the centre of things. The city revolves regardless, even in the middle of whatever crisis they're embroiled in.</p>
+
+<figure class="full-width outlined illustration">
+  <picture><source type="image/avif" srcset="/img/5Kv1xw_Gfh-900.avif 900w"><source type="image/webp" srcset="/img/5Kv1xw_Gfh-900.webp 900w"><source type="image/png" srcset="/img/5Kv1xw_Gfh-900.png 900w"><img alt="City Illustration" loading="lazy" decoding="async" src="/img/5Kv1xw_Gfh-900.jpeg" width="900" height="324"></picture>
+  <p class="caption">Public domain illustration of Frankreich from the <span class="product">Nuremberg Chronicle</span>, 1493.</p>
+</figure>
+
+<h4>Labyrinthine Cities</h4>
+
+<blockquote>
+  I will follow the tramlines. I will stalk in their shadows as they pass by over houses and towers and barracks and offices and prisons of the city, I will track them from the arches that anchor them to the earth. I must find my way in.
+  <cite><span class="product">Perdido Street Station</span> by China Miéville</cite>
+</blockquote>
+
+<p>I always imagine London as a great tower. Each day I wake up in the suburbs (the ground floor of the analogy) and make the difficult ascent to the town proper (the pent-house, where all the interesting stuff is). It's a climb. You must negotiate many steps, avoid hazards and delays.</p>
+
+<p>That is to say: there is a centre (sometimes more than one) with all the stuff, and dense areas between that must be navigated.</p>
+
+<p>In this way a city very much resembles a dungeon. It has its prizes, its dangers, its helpers and its puzzles. Its streets and rivers are corridors, its buildings and districts are rooms.</p>
+
+<p>Of course, it is also unlike a dungeon. The stakes are lower. It's safer, or at least safer than a monster-filled crypt. Water and food are widely available. Etc.</p>
+
+<h5>Pathcrawls</h5>
+
+<p><a href="https://detectmagic.blogspot.com/2014/04/pathcrawl">Pathcrawls</a> are useful for labyrinthine cities. The ancient city of Dismas is the main stage of play in my long-running <a href="/blog/black-griffin-session-41/">Black Griffin campaign</a>. And pathcrawls have been used to great effect.</p>
+
+<p>To demonstrate, I've overlaid the player's map with a hidden graph of the main through-ways:</p>
+
+<div class="full-width illustration">
+  <picture><source type="image/avif" srcset="/img/QgSuQqBJAq-900.avif 900w"><source type="image/webp" srcset="/img/QgSuQqBJAq-900.webp 900w"><img alt="Dismas Pathcrawl" loading="lazy" decoding="async" src="/img/QgSuQqBJAq-900.png" width="900" height="814"></picture>
+</div>
+
+<aside>
+  <p>There are areas of improvement I'm considering: a more complicated, perhaps even bewildering network of streets. Nested pathcrawls, so you can drill down into important districts.</p>
+
+  <p>I'm rebooting the campaign so I may get the time to work on these.</p>
+</aside>
+
+<p>Each path represents a major route, each node a significant landmark. Players can navigate with simple choices (just like a dungeon). Left or right? Across the bridge or along the river? Or they could cut through back streets, increasing the chances of random encounters.</p>
+
+<p>Paths have different challenges. Gutter Street has regular patrols, which dubious adventurers might want to avoid. Fish Gate is a great way to sneak into the city... provided you pay the right bribes.</p>
+
+<p>The city becomes a rambling obstacle. Adding memorable landmarks (the Bridge of Shudders is especially popular) gives the players a chance to recall routes. And a way of introducing important locations. While retaining the Glimpsed City.</p>
+
+<p>Players gain a rough idea of how to get about. Yet there is always a nagging uncertainty. Is this the best route? Do we remember they correct way? Where was that tavern again?</p>
+
+<p>You probably don't want to bog down play with constant street rambles, though. If the players have a good idea where they're going, I don't make them pathcrawl. If they don't, or are under time constraints, a pathcrawl raises the tension.</p>
+
+<p>Anyway, that's all I have to say on the matter for now.</p>
+
+
+  </my-page>
+  
+  <!-- up button -->
+  <div>
+    <button
+      id="upBtn"
+      aria-label="go to top"
+      style="position:fixed; width:32px; height:32px; border-radius:50%; border:none; background-color:black; right:32px; bottom:32px; color:white; focus:outline-none; cursor:pointer; transition-duration:500ms; opacity:0; pointer-events:none;"
+    ><i class="arrow up"></i></button>
+  </div>
+  
+  <style>
+  .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  </style>
+
+  <script>
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 250) {
+      upBtn.style.opacity = 1;
+      upBtn.style.pointerEvents = 'auto';     
+    }
+    else {
+      upBtn.style.opacity = 0;
+      upBtn.style.pointerEvents = 'none';
+    }
+  })
+
+  upBtn.addEventListener('click', () => {
+    let start = document.querySelector('.reader-bar-start')
+    start.scrollIntoView({behavior: "smooth"})
+  })
+  </script>
+
+  <!-- reader bar -->
+  <div id="readerBarContainer" style="height:4px;width:100%;background-color:transparent;position:fixed;top:2px;left:0;z-index:100;transition:0.2s;">
+    <div id="readerBar" style="height:4px;width:0;background-color:red;position:fixed;top:2px;left:0;z-index:200;transition:0.2s;"></div>
+  </div>
+
+  <script>
+    let winH = window.innerHeight;
+    const content = document.querySelector('.reader-bar-start');
+
+    let contentH = content.offsetHeight;
+    let contentS = contentH - winH;
+    let readerBar = document.getElementById('readerBar');
+    window.addEventListener('load', () => {
+      document.addEventListener ('scroll', updateBar);
+    })
+    window.addEventListener('resize', redefine)
+
+    function redefine() {
+      winH = window.innerHeight;
+      contentH = content.offsetHeight;
+      contentS = contentH - winH;
+      updateBar();
+    }
+
+    function updateBar() {
+      const pagePos = window.scrollY; 
+      const updatedBar = pagePos * 100 / contentS;
+      readerBar.style.width = updatedBar + "%";
+    }
+  </script>
+  
+</article>
+
+		</main>
+
+		<footer>
+      <p class="legal">
+        Website version 3.0.0 &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+      </p>
+    </footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/scripts/components/my-nav.js');
+        import('/scripts/components/my-hero.js');
+        import('/scripts/components/my-preview.js');
+        import('/scripts/components/my-section.js');
+        import('/scripts/components/my-page.js');
+        import('/scripts/components/my-product.js');
+        import('/scripts/components/my-button.js');
+      })();
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8S4KL203M4');
+    </script>
+		<!-- Current page: /blog/cities-in-cities/ -->
+	</body>
+</html>

@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Fey Race Variant - The Grisly Eye</title>
+
+<meta name="description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Ric Wood">
+
+<link rel="canonical" href="https://grislyeye.com//blog/kindred-fey-preview-1/">
+
+<meta property="og:title" content="Fey Race Variant - The Grisly Eye">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://grislyeye.com//blog/kindred-fey-preview-1/">
+<meta property="og:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta property="og:image" content="green-man.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@grislyeye">
+<meta name="twitter:url" content="https://grislyeye.com//blog/kindred-fey-preview-1/">
+<meta name="twitter:title" content="Fey Race Variant - The Grisly Eye">
+<meta name="twitter:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="twitter:image" content="green-man.png">
+
+
+
+		<meta name="description" content="I&#39;m an indie game designer (and forever DM) and this is my blog.">
+
+		<link rel="alternate" href="/rss.xml" type="application/xml" title="The Grisly Eye">
+		<link rel="stylesheet" href="/bundle/pCCAJtorpk.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+    
+
+    
+	</head>
+
+	<body dsd-pending>
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
+
+    <nav>
+      <my-nav
+        
+        
+        
+        
+       twitter="https://twitter.com/grislyeye" email="/mailing-list/" mastodon="https://dice.camp/@grislyeye" rss="/rss.xml"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-family: var(--subtitle-font-family);
+    }
+
+    a {
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+    }
+
+    .main img.logo {
+      height: 30px;
+      padding-right: 0.7em;
+    }
+
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      text-transform: lowercase;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+    }
+
+    .social img.icon {
+      height: 0.9rem;
+      padding-right: 0.2em;
+      padding-left: 1.5em;
+      padding-top: 0.4em;
+    }
+  </style><!--lit-part KmhwTAFmva4=-->
+        <div class="main">
+          <a href="/"><img src="/images/logo.svg" class="logo"></a>
+          <span>
+            <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+          </span>
+        </div>
+
+        <div class="socials">
+          <div class="social">
+            <!--lit-node 10--><a href="/mailing-list/" title="Mailing List"><img src="/images/email.svg" class="icon"></a>
+            <!--lit-node 12--><a href="/mailing-list/" title="Mailing List">Mailing List</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 14--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter"><img src="/images/twitter.svg" class="icon"></a>
+            <!--lit-node 16--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter">Twitter</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 18--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon"><img src="/images/mastodon.svg" class="icon"></a>
+            <!--lit-node 20--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon">Mastodon</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 22--><a href="/rss.xml" title="RSS"><img src="/images/rss.svg" class="icon"></a>
+            <!--lit-node 24--><a href="/rss.xml" title="RSS">RSS</a>
+          </div>
+        </div>
+      <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
+
+		<main>
+			<article class="post content reader-bar-start">
+  <my-page    id="post" title="Fey Race Variant" subtitle="05 March 2017"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
+
+    h1.title {
+      font-size: 5rem;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-bottom: 10px;
+      margin: 0;
+      word-wrap:break-word;
+    }
+
+    @media(max-width: 500px) {
+      h1.title {
+        font-size: 4rem;
+      }
+    }
+
+    @media(max-width: 400px) {
+      h1.title {
+        font-size: 3rem;
+      }
+    }
+  </style><!--lit-part EDd6k7/yduM=-->
+        <h1 class="title">
+          <!--lit-part GS+GCwuChgs=--><!--lit-part-->Fey<!--/lit-part--> <br> <!--lit-part-->Race Variant<!--/lit-part--><?><!--/lit-part-->
+        </h1>
+        <!--lit-node 2--><my-section  subtitle="05 March 2017" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    @media(max-width: 870px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+        /* display: inline;
+        min-width: unset;
+        max-width: unset; */
+      }
+    }
+  </style><!--lit-part y2PvFkzzwcw=-->
+        <section>
+          <div class="subtitle">
+            <!--lit-part-->05 March 2017<!--/lit-part-->
+          </div>
+          <div class="content">
+            <slot></slot>
+          </div>
+        </section>
+      <!--/lit-part--></template>
+          <slot></slot>
+        </my-section>
+      <!--/lit-part--></template>
+
+    <figure id="fey-illustration" class="illustration">
+  <picture><source type="image/avif" srcset="/img/EZmh0rwPUf-236.avif 236w"><source type="image/webp" srcset="/img/EZmh0rwPUf-236.webp 236w"><img alt="Fey Illustration" loading="lazy" decoding="async" src="/img/EZmh0rwPUf-236.png" width="236" height="373"></picture>
+</figure>
+
+<p>Most of the non-human races in the <span class="product">Player's Handbook</span> are based on Tolkien's works. The fey as presented here are meant as Pre-Tolkien variants on elves, dwarves, halflings and gnomes for low-magic campaigns. They are based on legends and fairytales (with a bit of artistic license). This preview includes the Fair Folk subrace and other fey subraces will feature in future posts.</p>
+
+<dl>
+  <dt>Age.</dt>
+  <dd>As spirits, fey are not born and do not age in the same way mortals do. They live forever unless physical harm kills them or they are forgotten and fade away. Time works strangely in the feywild. A fey entering the lands of men might do so as a wide-eyed innocent, despite being thousands of (human) years old.</dd>
+
+  <dt>Alignment.</dt>
+  <dd>Capricious, contrary and whimsical, most fey lean towards chaos. Their natures can also lean towards spite (evil), innocence (good), apathy to mortal concerns (neutral) or even all things at once.</dd>
+
+  <dt>Ability Score Increase.</dt>
+  <dd>Your Dexterity score increases by 2.</dd>
+
+  <dt>Darkvision.</dt>
+  <dd>As spirits of the darkest parts of the woods and deepest caves, all fey have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light.</dd>
+
+  <dt>Fairy Charm.</dt>
+  <dd>
+    You have a magical gift. Choose one of the following:
+    <dl>
+      <dt>Glamour.</dt>
+      <dd>You can cast the cantrip <em>friends</em> at will without material components. Charisma is your spellcasting ability for it.</dd>
+
+      <dt>Trickster's Knack.</dt>
+      <dd>You can cast the cantrip <em>minor illusion</em> at will and without material components. Charisma is your spellcasting ability for it.</dd>
+
+      <dt>Will-o'-the-wisp.</dt>
+      <dd>You can cast the cantrip <em>dancing lights</em> at will and without material components. Charisma is your spellcasting ability for it.</dd>
+    </dl>
+  </dd>
+
+  <dt>Fey Cunning.</dt>
+  <dd>You have advantage on all Intelligence, Wisdom and Charisma saving throws against magic.</dd>
+
+  <dt>Ban.</dt>
+  <dd>As spirits, you are compelled by religious proscriptions and ancient superstitions. These <em>bans</em> can be ignored, but to do so takes a toll. If a you choose to ignore a ban, you must make a Wisdom saving throw or take 1d6 psychic damage. Bans can also cause other complications, such as revealing your fey nature. Roll on the Bans table to find your ban.</dd>
+
+  <dt>Seeming.</dt>
+  <dd>You have a <em>seeming</em>: a magical illusion that allows you to appear as human. You can adopt or dismiss your seeming as a reaction. While in your seeming you appear as normal human without your tells. Albeit a short human, if you're one of the Little People. While a seeming hides your fey nature, it is not a disguise and you are instantly recognisable as the same person in either form, unless otherwise disguised.</dd>
+
+  <dt>Language.</dt>
+  <dd>You can speak, read, and write Common and Sylvan.</dd>
+
+  <dt>Subrace.</dt>
+  <dd>The fey are divided into two subraces: the Fair Folk and the Little People. Choose one of these subraces.</dd>
+
+</dl>
+
+<table>
+  <caption>Bans</caption>
+  <tr>
+    <th class="number">d6</th>
+    <th class="text">Ban</th>
+  </tr>
+
+  <tr>
+    <td class="number">1</td>
+    <td>I may not touch cold iron.</td>
+  </tr>
+  <tr>
+    <td class="number">2</td>
+    <td>I cannot abide while church bells ring.</td>
+  </tr>
+  <tr>
+    <td class="number">3</td>
+    <td>When presented with a riddle, I can't do anything else until it is solved.</td>
+  </tr>
+  <tr>
+    <td class="number">4</td>
+    <td>You cannot enter a building with a horseshoe over the lintel.</td>
+  </tr>
+  <tr>
+    <td class="number">5</td>
+    <td>I cannot stand to hear my true name said out loud.</td>
+  </tr>
+  <tr>
+    <td class="number">6</td>
+    <td>?</td>
+  </tr>
+</table>
+
+<h4 id="fair-folk">The Fair Folk</h4>
+
+<p>Sometimes called elves or sidhe, the Fair Folk are the minor nobility of the fey, second only to the archfey. Fair folk typically dwell deep in the forests, holding court in secluded glenns or by babbling brooks. Graceful and haughty, with an unearthly beauty, the Fair Folk consider themselves to be superior to humans and other fey.</p>
+
+<dl>
+
+  <dt>Ability Score Increase.</dt>
+  <dd>Your Charisma score increases by 1.</dd>
+
+  <dt>Size.</dt>
+  <dd>The Fair Folk range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</dd>
+
+  <dt>Speed.</dt>
+  <dd>Your base walking speed is 35 feet.</dd>
+
+  <dt>Fair Folk Tells.</dt>
+  <dd>No two fey are quite alike and each is uniquely touched with aspects of plants, animals or elements. Roll for 2 tells from the Fair Folk Tells table below, or pick two tells using the example tells as inspiration. Tells do not have any game benefits.</dd>
+
+  <dt>Gift of the Woods.</dt>
+  <dd>You can cast the spell <em>druidcraft</em> at will.</dd>
+
+</dl>
+
+<table>
+  <caption>Fair Folk Tells</caption>
+  <tr>
+    <th class="number">d8</th>
+    <th class="text">Tell</th>
+  </tr>
+  <tr>
+    <td class="number">1</td>
+    <td class="text">Hair like feathers or leaves.</td>
+  </tr>
+  <tr>
+    <td class="number">2</td>
+    <td class="text">Horns or antlers.</td>
+  </tr>
+  <tr>
+    <td class="number">3</td>
+    <td class="text">Green, light blue or lilac skin </td>
+  </tr>
+  <tr>
+    <td class="number">4</td>
+    <td class="text">Legs and cloven feet like a deer.</td>
+  </tr>
+  <tr>
+    <td class="number">5</td>
+    <td class="text">Delicate wings like a beetle or butterfly.</td>
+  </tr>
+  <tr>
+    <td class="number">6</td>
+    <td class="text">Translucent skin like glass or water.</td>
+  </tr>
+  <tr>
+    <td class="number">7</td>
+    <td class="text">Eyes like a wild cat</td>
+  </tr>
+  <tr>
+    <td class="number">8</td>
+    <td class="text">Skin the texture and colour of tree bark.</td>
+  </tr>
+</table>
+
+
+  </my-page>
+  
+  <!-- up button -->
+  <div>
+    <button
+      id="upBtn"
+      aria-label="go to top"
+      style="position:fixed; width:32px; height:32px; border-radius:50%; border:none; background-color:black; right:32px; bottom:32px; color:white; focus:outline-none; cursor:pointer; transition-duration:500ms; opacity:0; pointer-events:none;"
+    ><i class="arrow up"></i></button>
+  </div>
+  
+  <style>
+  .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  </style>
+
+  <script>
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 250) {
+      upBtn.style.opacity = 1;
+      upBtn.style.pointerEvents = 'auto';     
+    }
+    else {
+      upBtn.style.opacity = 0;
+      upBtn.style.pointerEvents = 'none';
+    }
+  })
+
+  upBtn.addEventListener('click', () => {
+    let start = document.querySelector('.reader-bar-start')
+    start.scrollIntoView({behavior: "smooth"})
+  })
+  </script>
+
+  <!-- reader bar -->
+  <div id="readerBarContainer" style="height:4px;width:100%;background-color:transparent;position:fixed;top:2px;left:0;z-index:100;transition:0.2s;">
+    <div id="readerBar" style="height:4px;width:0;background-color:red;position:fixed;top:2px;left:0;z-index:200;transition:0.2s;"></div>
+  </div>
+
+  <script>
+    let winH = window.innerHeight;
+    const content = document.querySelector('.reader-bar-start');
+
+    let contentH = content.offsetHeight;
+    let contentS = contentH - winH;
+    let readerBar = document.getElementById('readerBar');
+    window.addEventListener('load', () => {
+      document.addEventListener ('scroll', updateBar);
+    })
+    window.addEventListener('resize', redefine)
+
+    function redefine() {
+      winH = window.innerHeight;
+      contentH = content.offsetHeight;
+      contentS = contentH - winH;
+      updateBar();
+    }
+
+    function updateBar() {
+      const pagePos = window.scrollY; 
+      const updatedBar = pagePos * 100 / contentS;
+      readerBar.style.width = updatedBar + "%";
+    }
+  </script>
+  
+</article>
+
+		</main>
+
+		<footer>
+      <p class="legal">
+        Website version 3.0.0 &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+      </p>
+    </footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/scripts/components/my-nav.js');
+        import('/scripts/components/my-hero.js');
+        import('/scripts/components/my-preview.js');
+        import('/scripts/components/my-section.js');
+        import('/scripts/components/my-page.js');
+        import('/scripts/components/my-product.js');
+        import('/scripts/components/my-button.js');
+      })();
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8S4KL203M4');
+    </script>
+		<!-- Current page: /blog/kindred-fey-preview-1/ -->
+	</body>
+</html>

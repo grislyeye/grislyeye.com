@@ -1,0 +1,17 @@
+article img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+@media (width < 800px) {
+  article img {
+    width: 100%;
+  }
+}
+
+article img.small {
+  width: 40%;
+}

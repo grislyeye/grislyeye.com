@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Encounter Blocks - The Grisly Eye</title>
+
+<meta name="description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Ric Wood">
+
+<link rel="canonical" href="https://grislyeye.com//blog/encounter-blocks/">
+
+<meta property="og:title" content="Encounter Blocks - The Grisly Eye">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://grislyeye.com//blog/encounter-blocks/">
+<meta property="og:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta property="og:image" content="wandering-predators.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@grislyeye">
+<meta name="twitter:url" content="https://grislyeye.com//blog/encounter-blocks/">
+<meta name="twitter:title" content="Encounter Blocks - The Grisly Eye">
+<meta name="twitter:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="twitter:image" content="wandering-predators.png">
+
+
+
+		<meta name="description" content="I&#39;m an indie game designer (and forever DM) and this is my blog.">
+
+		<link rel="alternate" href="/rss.xml" type="application/xml" title="The Grisly Eye">
+		<link rel="stylesheet" href="/bundle/pCCAJtorpk.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+    
+
+    
+	</head>
+
+	<body dsd-pending>
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
+
+    <nav>
+      <my-nav
+        
+        
+        
+        
+       twitter="https://twitter.com/grislyeye" email="/mailing-list/" mastodon="https://dice.camp/@grislyeye" rss="/rss.xml"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-family: var(--subtitle-font-family);
+    }
+
+    a {
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+    }
+
+    .main img.logo {
+      height: 30px;
+      padding-right: 0.7em;
+    }
+
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      text-transform: lowercase;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+    }
+
+    .social img.icon {
+      height: 0.9rem;
+      padding-right: 0.2em;
+      padding-left: 1.5em;
+      padding-top: 0.4em;
+    }
+  </style><!--lit-part KmhwTAFmva4=-->
+        <div class="main">
+          <a href="/"><img src="/images/logo.svg" class="logo"></a>
+          <span>
+            <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+          </span>
+        </div>
+
+        <div class="socials">
+          <div class="social">
+            <!--lit-node 10--><a href="/mailing-list/" title="Mailing List"><img src="/images/email.svg" class="icon"></a>
+            <!--lit-node 12--><a href="/mailing-list/" title="Mailing List">Mailing List</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 14--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter"><img src="/images/twitter.svg" class="icon"></a>
+            <!--lit-node 16--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter">Twitter</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 18--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon"><img src="/images/mastodon.svg" class="icon"></a>
+            <!--lit-node 20--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon">Mastodon</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 22--><a href="/rss.xml" title="RSS"><img src="/images/rss.svg" class="icon"></a>
+            <!--lit-node 24--><a href="/rss.xml" title="RSS">RSS</a>
+          </div>
+        </div>
+      <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
+
+		<main>
+			<article class="post content reader-bar-start">
+  <my-page    id="post" title="Encounter Blocks" subtitle="08 June 2020"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
+
+    h1.title {
+      font-size: 5rem;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-bottom: 10px;
+      margin: 0;
+      word-wrap:break-word;
+    }
+
+    @media(max-width: 500px) {
+      h1.title {
+        font-size: 4rem;
+      }
+    }
+
+    @media(max-width: 400px) {
+      h1.title {
+        font-size: 3rem;
+      }
+    }
+  </style><!--lit-part EDd6k7/yduM=-->
+        <h1 class="title">
+          <!--lit-part GS+GCwuChgs=--><!--lit-part-->Encounter<!--/lit-part--> <br> <!--lit-part-->Blocks<!--/lit-part--><?><!--/lit-part-->
+        </h1>
+        <!--lit-node 2--><my-section  subtitle="08 June 2020" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    @media(max-width: 870px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+        /* display: inline;
+        min-width: unset;
+        max-width: unset; */
+      }
+    }
+  </style><!--lit-part y2PvFkzzwcw=-->
+        <section>
+          <div class="subtitle">
+            <!--lit-part-->08 June 2020<!--/lit-part-->
+          </div>
+          <div class="content">
+            <slot></slot>
+          </div>
+        </section>
+      <!--/lit-part--></template>
+          <slot></slot>
+        </my-section>
+      <!--/lit-part--></template>
+
+    <p class="preview">Encounter blocks are an attempt to compress information about <em>how</em> to run encounters into a digestible format. This a preview of a as-yet untitled book on non-player characters <a href="/blog/npc-block-v4/">I'm working on</a>.</p>
+
+<p>Here is an example of an encounter block for that common, low-level encounter, the wandering predators:</p>
+
+<picture><source type="image/avif" srcset="/img/LvP5xC0TxQ-300.avif 300w" sizes=""><source type="image/webp" srcset="/img/LvP5xC0TxQ-300.webp 300w" sizes=""><img alt="Example encounter block for wandering predators" loading="lazy" decoding="async" class="small" src="/img/LvP5xC0TxQ-300.png" width="300" height="495"></picture>
+
+<h4>Header</h4>
+
+<p>As with the monster stat block, the header contains the name and a brief summary of the encounter:</p>
+
+<picture><source type="image/avif" srcset="/img/wgMI3COtXz-614.avif 614w"><source type="image/webp" srcset="/img/wgMI3COtXz-614.webp 614w"><img alt="Example encounter block header" loading="lazy" decoding="async" src="/img/wgMI3COtXz-614.png" width="614" height="101"></picture>
+
+<p>I've used the <q>level and threat</q> trap notation from <span class="product">Xanathar's Guide to Everything</span> to describe rough tiers of difficulty. I intend encounters to be random with a range of possible challenge ratings. Hence the vaguer categorisation.</p>
+
+<p>This needs some work to map the encounter difficulties from the DMG to encounter levels and threats. It might even make a better alternative to (much maligned) CR.</p>
+
+<p>Attitude is a reference to the social interaction rules from chapter 8 of the <span class="product">Dungeon Master's Guide</span>. I use these rules a lot in my own campaigns. Attitude also gives an important cue for how the encounter will respond to the party. Hostile encounters will generally be combat encounters. Isndifferent/friendly encounters would be some kind of non-combat challenge or roleplaying opportunity.</p>
+
+<h4>Description</h4>
+
+<p>After the header follows a description of what monsters/NPCs make-up the encounter. This is usually rolled for. For example:</p>
+
+<picture><source type="image/avif" srcset="/img/KdqrR_jqZB-614.avif 614w"><source type="image/webp" srcset="/img/KdqrR_jqZB-614.webp 614w"><img alt="xample encounter block descriptions" loading="lazy" decoding="async" src="/img/KdqrR_jqZB-614.png" width="614" height="249"></picture>
+
+<p>This has a nice side-effect of grouping monsters and non-player characters under similar themes. Sometimes it not always obvious which monsters work well together.</p>
+
+<h4>Tactics</h4>
+
+<p>Next is the <q>Tactic</q> section, which describes how to run the encounter:</p>
+
+<picture><source type="image/avif" srcset="/img/ejN1LFlOO9-614.avif 614w"><source type="image/webp" srcset="/img/ejN1LFlOO9-614.webp 614w"><img alt="Example encounter block tactics" loading="lazy" decoding="async" src="/img/ejN1LFlOO9-614.png" width="614" height="309"></picture>
+
+<p>This is the core of the encounter block: the <span class="product">Monster Manual</span> doesn't always make it clear <em>how</em> to actually run monsters. The tactics section makes this explicit in an easy to consume format. A DM can look through the sub-headings here and quickly have a clear idea of how the encounter will react to the party and what it might do in combat.</p>
+
+<p><strong>Hat tip:</strong> Borrowed from <a href="https://www.reddit.com/r/RPGcreation/comments/gxucmu/behavior_an_addition_to_monster_stat_blocks/">u/kinseki</a> on r/RPGcreation.</p>
+
+<h4>Habits</h4>
+
+<p>Last is the <q>Habits</q> section:</p>
+
+<picture><source type="image/avif" srcset="/img/ICSec6uu1d-614.avif 614w"><source type="image/webp" srcset="/img/ICSec6uu1d-614.webp 614w"><img alt="Example encounter block habits" loading="lazy" decoding="async" src="/img/ICSec6uu1d-614.png" width="614" height="246"></picture>
+
+<p>Habits are the everyday things a group of monsters and NPCs might be doing when encountered. They serves two purposes: first, to help set the scene for the encounter. Is the wandering predator lying in wait to pounce, or looking after it's young when the PCs happen upon it?</p>
+
+<p>It also helps with verisimilitude, encouraging a sense that the world is moving even when the party are not there. DMs can give the sense the party have stumbled onto the monster <em>in media res</em>. The encounter isn't waiting around for the party arrive like a computer game NPC.</p>
+
+<h4>Summary</h4>
+
+<p>I hope you found this useful, please feel free to steal any and all of the ideas here. All I ask is you let me know how you used them, and what did and did not work.</p>
+
+
+  </my-page>
+  
+  <!-- up button -->
+  <div>
+    <button
+      id="upBtn"
+      aria-label="go to top"
+      style="position:fixed; width:32px; height:32px; border-radius:50%; border:none; background-color:black; right:32px; bottom:32px; color:white; focus:outline-none; cursor:pointer; transition-duration:500ms; opacity:0; pointer-events:none;"
+    ><i class="arrow up"></i></button>
+  </div>
+  
+  <style>
+  .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  </style>
+
+  <script>
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 250) {
+      upBtn.style.opacity = 1;
+      upBtn.style.pointerEvents = 'auto';     
+    }
+    else {
+      upBtn.style.opacity = 0;
+      upBtn.style.pointerEvents = 'none';
+    }
+  })
+
+  upBtn.addEventListener('click', () => {
+    let start = document.querySelector('.reader-bar-start')
+    start.scrollIntoView({behavior: "smooth"})
+  })
+  </script>
+
+  <!-- reader bar -->
+  <div id="readerBarContainer" style="height:4px;width:100%;background-color:transparent;position:fixed;top:2px;left:0;z-index:100;transition:0.2s;">
+    <div id="readerBar" style="height:4px;width:0;background-color:red;position:fixed;top:2px;left:0;z-index:200;transition:0.2s;"></div>
+  </div>
+
+  <script>
+    let winH = window.innerHeight;
+    const content = document.querySelector('.reader-bar-start');
+
+    let contentH = content.offsetHeight;
+    let contentS = contentH - winH;
+    let readerBar = document.getElementById('readerBar');
+    window.addEventListener('load', () => {
+      document.addEventListener ('scroll', updateBar);
+    })
+    window.addEventListener('resize', redefine)
+
+    function redefine() {
+      winH = window.innerHeight;
+      contentH = content.offsetHeight;
+      contentS = contentH - winH;
+      updateBar();
+    }
+
+    function updateBar() {
+      const pagePos = window.scrollY; 
+      const updatedBar = pagePos * 100 / contentS;
+      readerBar.style.width = updatedBar + "%";
+    }
+  </script>
+  
+</article>
+
+		</main>
+
+		<footer>
+      <p class="legal">
+        Website version 3.0.0 &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+      </p>
+    </footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/scripts/components/my-nav.js');
+        import('/scripts/components/my-hero.js');
+        import('/scripts/components/my-preview.js');
+        import('/scripts/components/my-section.js');
+        import('/scripts/components/my-page.js');
+        import('/scripts/components/my-product.js');
+        import('/scripts/components/my-button.js');
+      })();
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8S4KL203M4');
+    </script>
+		<!-- Current page: /blog/encounter-blocks/ -->
+	</body>
+</html>

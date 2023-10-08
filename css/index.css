@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap');
+@import url("/vendor/skeleton-css/skeleton.css");
+
+:root {
+  --font-family: 'Alegreya', serif;
+  --title-font-family: 'Andada Pro', serif;
+  --subtitle-font-family: 'Alegreya Sans', sans;
+
+  --background-color: black;
+
+  --text-color: white;
+  --text-color-link: rgb(255, 82, 119);
+  --text-color-link-active: rgb(255, 41, 87);
+  --text-color-link-visited: rgb(255, 41, 87);
+
+  --content-max-width: 720px;
+  --content-subtitle-max-width: 150px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  margin: 0 1em;
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  font-size: 1em;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  line-height: 1;
+}
+
+body {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0;
+}
+
+main {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin: 0 auto 7rem;
+}
+
+main :first-child {
+  margin-top: 0;
+}
+
+nav,
+footer {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+main header {
+  margin-bottom: 7rem;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 5rem;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  color: gray;
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+
+h1 {
+  font-family: var(--title-font-family);
+  line-height: 1;
+}
+
+h2,
+h3,
+h4 {
+  font-family: var(--title-font-family);
+}
+
+p {
+  line-height: 1;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a[href] {
+  color: var(--text-color-link);
+}
+
+a[href]:visited {
+  color: var(--text-color-link-visited);
+}
+
+a[href]:hover,
+a[href]:active {
+  color: var(--text-color-link-active);
+}
+
+main > my-hero,
+main > my-section {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+}
+
+my-preview {
+  --preview-size: 165px;
+
+  width: var(--preview-size);
+  height: var(--preview-size);
+}
+
+.previews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 7rem;
+}
+
+@media(width > 720px) {
+  .previews {
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+
+ul.previews {
+  list-style: none;
+}
+
+.previews a,
+.previews li {
+  margin: 0;
+  padding: 0;
+}
+
+section.small.page {
+  font-size: 1.5rem;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+input {
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+
+.content input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+#flawed-potion-illustration.illustration {
+  max-width: 150px;
+}
+
+#magi-illustration.illustration {
+  max-width: 200px;
+}
+
+#bailiff-illustration.illustration {
+  max-width: 350px;
+}
+
+#fey-exile-illustration.illustration,
+#grim-folk-illustration.illustration,
+#fey-illustration.illustration,
+#nights-watchmen-illustration.illustration,
+#example-npc-block.illustration,
+#inspiration-illustration.illustration {
+  max-width: 300px;
+}
+
+.content #city-illustration.illustration {
+  max-width: 300px;
+}
+
+img[src*="infantry.png"].background,
+img[src*="grim-folk.jpg"].background {
+  height: 640px;
+  width: auto;
+}
+
+img[src*="npc-block-v4.png"] {
+  max-width: 300px;
+}
+
+img[src*="npc-block-v4-header.png"],
+img[src*="npc-block-v4-description.png"],
+img[src*="npc-block-v4-characteristics.png"],
+img[src*="npc-block-v4-secrets.png"],
+img[src*="npc-block-v4-activities.png"],
+img.medium {
+  max-width: 400px;
+}
+
+#mailing-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+span.product {
+  font-style: italic;
+  color: red;
+}
+
+span.title {
+  color: red;
+  font-variant: small-caps;
+}

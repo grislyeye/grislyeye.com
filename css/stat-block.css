@@ -1,0 +1,89 @@
+vellum-monster {
+  font-family: Alegreya, serif;
+  font-size: 11pt;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+  width: auto;
+  max-width: 400px;
+  line-height: 1.2;
+
+  --stat-width: 400px;
+  --stat-block-background: black;
+  --stat-block-header-color: red;
+  --stat-block-heading-font-family: "Alegreya", serif;
+  --stat-block-divider-color: red;
+  --stat-block-two-column-width: 19cm;
+  --stat-block-two-column-column-width: 300px;
+  --stat-block-bar-background: white;
+  --stat-block-bar-border: white;
+  --stat-block-border-color: white;
+}
+
+vellum-monster h1,
+vellum-monster h2 {
+  text-align: left;
+  font-variant: small-caps;
+  text-transform: none;
+}
+
+.stat-block {
+  position: relative;
+}
+
+.stat-block img.background {
+  width: 100%;
+  max-width: 500px;
+  z-index: -1;
+  position: relative;
+}
+
+.stat-block vellum-monster {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.stat-block-left {
+  position: relative;
+}
+
+.stat-block-left img.background {
+  width: 100%;
+  max-width: 500px;
+  z-index: -1;
+  position: relative;
+}
+
+.stat-block-left vellum-monster {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (width < 800px) {
+  .stat-block {
+    position: static;
+  }
+
+  .stat-block img.background {
+    display: none;
+  }
+
+  .stat-block vellum-monster {
+    position: static;
+  }
+
+  .stat-block-left {
+    position: static;
+  }
+
+  .stat-block-left img.background {
+    display: none;
+  }
+
+  .stat-block-left vellum-monster {
+    position: static;
+  }
+}

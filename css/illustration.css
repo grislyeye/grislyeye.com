@@ -1,0 +1,56 @@
+figure.print.illustration {
+  max-width: 200px;
+  min-width: 200px;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+figure.print img {
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: auto;
+}
+
+figure.illustration {
+  display: block;
+}
+
+div.illustration,
+figure.illustration {
+  float: right;
+  padding: 0;
+  padding-left: 1em;
+  margin: 0;
+  margin-left: auto;
+}
+
+div.illustration.full-width,
+figure.illustration.full-width {
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.illustration.full-width img,
+figure.illustration.full-width img {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.illustration.outlined img,
+figure.illustration.outlined img {
+  border: solid;
+}
+
+@media (width < 500px) {
+  figure.print img,
+  div.illustration img,
+  figure.illustration img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}

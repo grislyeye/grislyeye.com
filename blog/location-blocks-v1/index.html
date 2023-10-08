@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Location Blocks - The Grisly Eye</title>
+
+<meta name="description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Ric Wood">
+
+<link rel="canonical" href="https://grislyeye.com//blog/location-blocks-v1/">
+
+<meta property="og:title" content="Location Blocks - The Grisly Eye">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://grislyeye.com//blog/location-blocks-v1/">
+<meta property="og:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta property="og:image" content="location-figure.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@grislyeye">
+<meta name="twitter:url" content="https://grislyeye.com//blog/location-blocks-v1/">
+<meta name="twitter:title" content="Location Blocks - The Grisly Eye">
+<meta name="twitter:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="twitter:image" content="location-figure.png">
+
+
+
+		<meta name="description" content="I&#39;m an indie game designer (and forever DM) and this is my blog.">
+
+		<link rel="alternate" href="/rss.xml" type="application/xml" title="The Grisly Eye">
+		<link rel="stylesheet" href="/bundle/pCCAJtorpk.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+    
+
+    
+	</head>
+
+	<body dsd-pending>
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
+
+    <nav>
+      <my-nav
+        
+        
+        
+        
+       twitter="https://twitter.com/grislyeye" email="/mailing-list/" mastodon="https://dice.camp/@grislyeye" rss="/rss.xml"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-family: var(--subtitle-font-family);
+    }
+
+    a {
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+    }
+
+    .main img.logo {
+      height: 30px;
+      padding-right: 0.7em;
+    }
+
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      text-transform: lowercase;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+    }
+
+    .social img.icon {
+      height: 0.9rem;
+      padding-right: 0.2em;
+      padding-left: 1.5em;
+      padding-top: 0.4em;
+    }
+  </style><!--lit-part KmhwTAFmva4=-->
+        <div class="main">
+          <a href="/"><img src="/images/logo.svg" class="logo"></a>
+          <span>
+            <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+          </span>
+        </div>
+
+        <div class="socials">
+          <div class="social">
+            <!--lit-node 10--><a href="/mailing-list/" title="Mailing List"><img src="/images/email.svg" class="icon"></a>
+            <!--lit-node 12--><a href="/mailing-list/" title="Mailing List">Mailing List</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 14--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter"><img src="/images/twitter.svg" class="icon"></a>
+            <!--lit-node 16--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter">Twitter</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 18--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon"><img src="/images/mastodon.svg" class="icon"></a>
+            <!--lit-node 20--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon">Mastodon</a>
+          </div>
+
+          <div class="social">
+            <!--lit-node 22--><a href="/rss.xml" title="RSS"><img src="/images/rss.svg" class="icon"></a>
+            <!--lit-node 24--><a href="/rss.xml" title="RSS">RSS</a>
+          </div>
+        </div>
+      <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
+
+		<main>
+			<article class="post content reader-bar-start">
+  <my-page    id="post" title="Location Blocks" subtitle="12 July 2019"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
+
+    h1.title {
+      font-size: 5rem;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-bottom: 10px;
+      margin: 0;
+      word-wrap:break-word;
+    }
+
+    @media(max-width: 500px) {
+      h1.title {
+        font-size: 4rem;
+      }
+    }
+
+    @media(max-width: 400px) {
+      h1.title {
+        font-size: 3rem;
+      }
+    }
+  </style><!--lit-part EDd6k7/yduM=-->
+        <h1 class="title">
+          <!--lit-part GS+GCwuChgs=--><!--lit-part-->Location<!--/lit-part--> <br> <!--lit-part-->Blocks<!--/lit-part--><?><!--/lit-part-->
+        </h1>
+        <!--lit-node 2--><my-section  subtitle="12 July 2019" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    @media(max-width: 870px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+        /* display: inline;
+        min-width: unset;
+        max-width: unset; */
+      }
+    }
+  </style><!--lit-part y2PvFkzzwcw=-->
+        <section>
+          <div class="subtitle">
+            <!--lit-part-->12 July 2019<!--/lit-part-->
+          </div>
+          <div class="content">
+            <slot></slot>
+          </div>
+        </section>
+      <!--/lit-part--></template>
+          <slot></slot>
+        </my-section>
+      <!--/lit-part--></template>
+
+    <figure class="illustration" id="location-illustration">
+  <picture><source type="image/avif" srcset="/img/fO6reDcRv6-400.avif 400w"><source type="image/webp" srcset="/img/fO6reDcRv6-400.webp 400w"><img alt="Location Illustration" loading="lazy" decoding="async" src="/img/fO6reDcRv6-400.png" width="400" height="569"></picture>
+  <p class="caption">Public domain woodcut from the <a href="https://en.wikipedia.org/wiki/Hereford_Mappa_Mundi">Hereford Map of the World (Mappa Mundi)</a>.</p>
+</figure>
+
+<p class="description">This is my first stab at a location stat block as part of work on my homebrew campaign, <a href="/blog/black-griffin-session-30">Black Griffin</a>. This version could for any campaign where travel is central like sandbox campaigns.</p>
+
+<p>Please find a description of the new format and an example location below:</p>
+
+<h4>Describing Locations</h4>
+
+<p>Locations are described with a name and description, as well as the following stats:</p>
+
+<dl>
+  <dt>Size.</dt>
+  <dd>This stat defines relative size of a location and can be small, medium large or huge.</dd>
+
+  <dt>Type.</dt>
+  <dd>This stat defines relative size of a location and can be small, medium or large.</dd>
+
+  <dt>Tags.</dt>
+  <dd>A location might have one or more tags appended to its type, in parenthesis. Common tags include: secret, keep, village, town or city.</dd>
+
+  <dt>Level and Difficulty.</dt>
+  <dd>Level and difficulty also appear in parenthesis. A location’s level is expressed as a range of levels to give you an idea of its relative strength (levels 1–4, 5–10, 11–16, and 17– 20). It is then labeled as an safe, unsafe, or perilous. The location’s level tells you how much of a challenge it is compared to others of its level range</dd>
+
+  <dt>Traits.</dt>
+  <dd>Locations can have one or more traits which influence or affect creatures travelling through the region. For example, a trait might make navigation harder, might require travellers make a saving throw or suffer an environmental disease or poison, or some other, magical effect. The most important trait is <strong>difficult terrain</strong>.</dd>
+</dl>
+
+<h5 id="peril">Peril</h5>
+
+<p>Each location has a peril rating that ranges from -5 to +5. Unlike other traits that affect a location, the characters actions within a location can increase or decrease its peril rating.</p>
+
+<p>A location's peril rating does the following:</p>
+
+<ul>
+  <li>If the peril rating is greater than zero, add it to rolls when checking for random encounters</li>
+  <li>Add the peril rating when rolling on random encounter tables.</li>
+</ul>
+
+<p><em>For example, the party are travelling through a region with a +3 peril rating. The DM checks for a random encounter and rolls a 15. Normally this wouldn't trigger an encounter, but with the +3 peril rating the result becomes 18. The DM rolls on the random encounter table for the location and also adds the +3 peril rating, resulting in a more challenging encounter.</em></p>
+
+<p>At the start of play the peril for all locations is 0. Each time the characters do something substantial to increase lawfulness of a location, decrease the peril rating by 1. For example, if they kill a band of brigands or bring a wanted criminal to justice.</p>
+
+<p>Similarly, when the characters do something substantial to increase the chaos of a location, increase the peril rating by +1. Usually if they commit some kind of crime, or fail to stop some other chaotic faction.</p>
+
+<p>When a location's peril rating exceeds +5 it can increase its difficulty or level. Safe regions become unsafe, and unsafe regions become perilous. When a perilous region exceeds +5 peril increase its level, decrease its difficulty to unsafe and reset the peril rating to 0. For example, a level 1-4 perilous location becomes a level 5-10 unsafe location.</p>
+
+<p>Similarly, when a location's peril rating descends below -5 it can decrease its difficulty. A perilous location becomes unsafe, or an unsafe location becomes safe, and the peril rating resets to 0.</p>
+
+<p>These changes to a location may require increasing or decreasing the difficulty of its traits, DCs or random encounter tables.</p>
+
+<header>
+  <h3 id="the-coves">Example Location: The Coves</h3>
+  <p><em>Medium region (level 1-4, unsafe)</em></p>
+</header>
+
+<p>The Coves are a series of cliffs, caves and remote beaches that runs along the easterly coast of the Midlands. Here you will find remote fishing communities and the odd gang of smugglers.</p>
+
+<dl>
+  <dt>Flat.</dt>
+  <dd>The land is mostly flat in this area making navigation easy (DC 10).</dd>
+
+  <dt>Hidden coves.</dt>
+  <dd>The many hidden coves that litter this area give good cover to all manner of nefarious folk, make scouting difficult (DC 17).</dd>
+
+  <dt>Scarce.</dt>
+  <dd>Game is limited to a few gulls and fish straying too close to the shore. Foraging checks are made with DC 15.</dd>
+</dl>
+
+<table id="coves-encounters">
+  <caption>Random Coves Encounters</caption>
+  <thead>
+    <tr>
+      <th>d20 + Peril</th>
+      <th>Encounter</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>-5-0</td>
+      <td>1d4 travelling <strong>common folk</strong></td>
+    </tr>
+    <tr>
+      <td>1-5</td>
+      <td>2d6 fisherman <strong>commoners</strong></td>
+    </tr>
+    <tr>
+      <td>6-8</td>
+      <td>1d6 <strong>guards</strong> protecting a merchant <strong>commoner</strong></td>
+    </tr>
+    <tr>
+      <td>9-11</td>
+      <td>Shipwreck (on a roll of 1-3 of a d6 the wreck is inhabited, re-roll on this table for occupants)</td>
+    </tr>
+    <tr>
+      <td>12-13</td>
+      <td>Dead whale</td>
+    </tr>
+    <tr>
+      <td>14-15</td>
+      <td>1d4 <strong>swarm of crabs</strong></td>
+    </tr>
+    <tr>
+      <td>15-16</td>
+      <td>1d6 <strong>bandit</strong> smugglers</td>
+    </tr>
+    <tr>
+      <td>17-18</td>
+      <td>1d6 <strong>guards</strong> protecting a <strong>noble</strong></td>
+    </tr>
+    <tr>
+      <td>19-20</td>
+      <td>1 pirate <strong>bandit captain</strong> and 2d6 <strong>bandit</strong> pirate crew members</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>1d6 + 2 <strong>giant lizards</strong></td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>1d6 + 4 <strong>giant crabs</strong></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>1d6 <strong>merfolk</strong></td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Pirate crew of 1d20 <strong>bandits</strong> and 1 pirate <strong>bandit captain</strong></td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Coven of 3 <strong>sea hags</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="coves-notable-locations">Notable Locations</h4>
+
+<p>Notable location in the Coves include:</p>
+
+<dl>
+  <dt>Whiterock.</dt>
+  <dd>This remote fishing village does a brisk trade in fish but does not welcome strangers lingering after dark (see page XX).</dd>
+
+  <dt>The Robert Morgan.</dt>
+  <dd>This landlocked ship has become a haven for pirates and smuggler's in the Coves, commanded by the ruthless pirate queen, Captain Daniels (see page XX).</dd>
+</dl>
+
+
+  </my-page>
+  
+  <!-- up button -->
+  <div>
+    <button
+      id="upBtn"
+      aria-label="go to top"
+      style="position:fixed; width:32px; height:32px; border-radius:50%; border:none; background-color:black; right:32px; bottom:32px; color:white; focus:outline-none; cursor:pointer; transition-duration:500ms; opacity:0; pointer-events:none;"
+    ><i class="arrow up"></i></button>
+  </div>
+  
+  <style>
+  .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  </style>
+
+  <script>
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 250) {
+      upBtn.style.opacity = 1;
+      upBtn.style.pointerEvents = 'auto';     
+    }
+    else {
+      upBtn.style.opacity = 0;
+      upBtn.style.pointerEvents = 'none';
+    }
+  })
+
+  upBtn.addEventListener('click', () => {
+    let start = document.querySelector('.reader-bar-start')
+    start.scrollIntoView({behavior: "smooth"})
+  })
+  </script>
+
+  <!-- reader bar -->
+  <div id="readerBarContainer" style="height:4px;width:100%;background-color:transparent;position:fixed;top:2px;left:0;z-index:100;transition:0.2s;">
+    <div id="readerBar" style="height:4px;width:0;background-color:red;position:fixed;top:2px;left:0;z-index:200;transition:0.2s;"></div>
+  </div>
+
+  <script>
+    let winH = window.innerHeight;
+    const content = document.querySelector('.reader-bar-start');
+
+    let contentH = content.offsetHeight;
+    let contentS = contentH - winH;
+    let readerBar = document.getElementById('readerBar');
+    window.addEventListener('load', () => {
+      document.addEventListener ('scroll', updateBar);
+    })
+    window.addEventListener('resize', redefine)
+
+    function redefine() {
+      winH = window.innerHeight;
+      contentH = content.offsetHeight;
+      contentS = contentH - winH;
+      updateBar();
+    }
+
+    function updateBar() {
+      const pagePos = window.scrollY; 
+      const updatedBar = pagePos * 100 / contentS;
+      readerBar.style.width = updatedBar + "%";
+    }
+  </script>
+  
+</article>
+
+		</main>
+
+		<footer>
+      <p class="legal">
+        Website version 3.0.0 &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+      </p>
+    </footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/scripts/components/my-nav.js');
+        import('/scripts/components/my-hero.js');
+        import('/scripts/components/my-preview.js');
+        import('/scripts/components/my-section.js');
+        import('/scripts/components/my-page.js');
+        import('/scripts/components/my-product.js');
+        import('/scripts/components/my-button.js');
+      })();
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8S4KL203M4');
+    </script>
+		<!-- Current page: /blog/location-blocks-v1/ -->
+	</body>
+</html>

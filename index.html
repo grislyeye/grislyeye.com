@@ -1,411 +1,5723 @@
-  <!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>The Grisly Eye</title>
 
-  <title>The Grisly Eye</title>
-
-<meta name="description" content="">
+<meta name="description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
 <meta name="robots" content="index,follow">
-<meta name="author" content="R.G. Wood">
+<meta name="author" content="Ric Wood">
 
-<link rel="canonical" href="https://grislyeye.com/">
+<link rel="canonical" href="https://grislyeye.com//">
 
 <meta property="og:title" content="The Grisly Eye">
 <meta property="og:type" content="article">
 
-<meta property="og:url" content="https://grislyeye.com/">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://grislyeye.com/images/logo.svg">
+<meta property="og:url" content="https://grislyeye.com//">
+<meta property="og:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta property="og:image" content="https://grislyeye.com//images/logo.svg">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@grislyeye">
-<meta name="twitter:url" content="https://grislyeye.com/">
+<meta name="twitter:url" content="https://grislyeye.com//">
 <meta name="twitter:title" content="The Grisly Eye">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://grislyeye.com/images/logo.svg">
+<meta name="twitter:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="twitter:image" content="https://grislyeye.com//images/logo.svg">
 
 
-  <style>
-  html {
-    visibility: hidden;
-    opacity: 0;
-  }
-</style>
 
+		<meta name="description" content="I&#39;m an indie game designer (and forever DM) and this is my blog.">
 
-  <link href="/styles/main.css" rel="stylesheet">
+		<link rel="alternate" href="/rss.xml" type="application/xml" title="The Grisly Eye">
+		<link rel="stylesheet" href="/bundle/pCCAJtorpk.css">
 
-  
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
 
-  <link rel="alternate" type="application/rss+xml" title="Grisly Eye Games" href="/rss.xml">
-
-  
+    
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:creator" content="@grislyeye">
+    
 
-  
+    
+	</head>
 
-  <link rel="webmention" href="https://webmention.io/grislyeye.com/webmention">
-  <link rel="pingback" href="https://webmention.io/grislyeye.com/xmlrpc">
-</head>
+	<body dsd-pending>
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
 
-<body>
+    <nav>
+      <my-nav
+        
+        
+        
+        
+       twitter="https://twitter.com/grislyeye" email="/mailing-list/" mastodon="https://dice.camp/@grislyeye" rss="/rss.xml"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-family: var(--subtitle-font-family);
+    }
 
+    a {
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
 
-  <section id="top-ribbon" class="ribbon">
-  <div class="content">
-    <h3><a href="/products/wargod/">Buy Wargod!</a></h3>
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+    }
 
-    <div class="call button">
-      <a href="/products/wargod">
-        Purchase
-      </a>
-    </div>
+    .main img.logo {
+      height: 30px;
+      padding-right: 0.7em;
+    }
 
-    <p><a href="/products/wargod/">Wargod!</a> is my 44 page zine for Troika!, including d66 grimdark backgrounds and implied setting. Buy now on PDF <em>and</em> in print.</p>
-  </div>
-</section>
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      text-transform: lowercase;
+    }
 
+    .social {
+      display: flex;
+      align-items: center;
+    }
 
+    .social img.icon {
+      height: 0.9rem;
+      padding-right: 0.2em;
+      padding-left: 1.5em;
+      padding-top: 0.4em;
+    }
+  </style><!--lit-part KmhwTAFmva4=-->
+        <div class="main">
+          <a href="/"><img src="/images/logo.svg" class="logo"></a>
+          <span>
+            <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+          </span>
+        </div>
 
+        <div class="socials">
+          <div class="social">
+            <!--lit-node 10--><a href="/mailing-list/" title="Mailing List"><img src="/images/email.svg" class="icon"></a>
+            <!--lit-node 12--><a href="/mailing-list/" title="Mailing List">Mailing List</a>
+          </div>
 
-  <main>
+          <div class="social">
+            <!--lit-node 14--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter"><img src="/images/twitter.svg" class="icon"></a>
+            <!--lit-node 16--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter">Twitter</a>
+          </div>
 
-        <header>
-      <nav>
-        <ul class="links">
-          <li><p><a href="/ric" title="Ric Wood">About Me</a></p></li>
-          <li><a rel="me" href="https://twitter.com/grislyeye" title="Twitter"><span class="fab fa-twitter icon" aria-hidden="true"></span></a></li>
-          <li><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon"><span class="fa-brands fa-mastodon icon" aria-hidden="true"></span></a></li>
-          <li><a href="/rss.xml" title="RSS feed"><span  class="fas fa-rss icon" aria-hidden="true"></span></a></li>
-        </ul>
-      </nav>
+          <div class="social">
+            <!--lit-node 18--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon"><img src="/images/mastodon.svg" class="icon"></a>
+            <!--lit-node 20--><a rel="me" href="https://dice.camp/@grislyeye" title="Mastodon">Mastodon</a>
+          </div>
 
-      <h1 class="title"><a href="/"><picture><source type="image/svg+xml" srcset="/assets/images/ShYj8hESpp-400.svg 400w"><source type="image/webp" srcset="/assets/images/ShYj8hESpp-112.webp 112w"><img decoding="async" id="logo" src="/assets/images/ShYj8hESpp-112.jpeg" alt="Grisly Eye Games Logo" height="112" width="112"></picture>The Grisly Eye</a></h1>
-      <h2 class="subtitle">Ric Wood's Blog</h2>
-    </header>
+          <div class="social">
+            <!--lit-node 22--><a href="/rss.xml" title="RSS"><img src="/images/rss.svg" class="icon"></a>
+            <!--lit-node 24--><a href="/rss.xml" title="RSS">RSS</a>
+          </div>
+        </div>
+      <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
 
+		<main>
+			<header>
+  <my-hero  subtitle="About Me"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
 
-    <div id="content">
+    h1 {
+      font-size: 5rem;
+      text-transform: uppercase;
 
-      <aside id="sidebar">
+      padding-bottom: 10px;
+      margin: 0;
+    }
 
-        <section id="projects">
-          <h3>What I'm Working On</h3>
+    .description {
+      font-size: 1.6rem;
+      margin: 0;
+    }
 
-          
-            <div class="product">
-              
-              <a href="/products/shift/">
-                
-                  <p>Shift</p>
-                
-              </a>
-            </div>
-          
-            <div class="product">
-              
-              <a href="/products/context/">
-                
-                  <picture><source type="image/webp" srcset="/assets/images/ggM7LQCHuN-230.webp 230w"><img decoding="async" src="/assets/images/ggM7LQCHuN-230.jpeg" alt="CONT/EXT" width="230" height="182" class="preview"></picture>
-                  
-                
-              </a>
-            </div>
-          
+    @media(max-width: 500px) {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  </style><!--lit-part xMuhiM0H0zc=-->
+        <h1><slot name="title">Hero Header Title</slot></h1>
+        <!--lit-node 2--><my-section  subtitle="About Me" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    @media(max-width: 870px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+        /* display: inline;
+        min-width: unset;
+        max-width: unset; */
+      }
+    }
+  </style><!--lit-part y2PvFkzzwcw=-->
+        <section>
+          <div class="subtitle">
+            <!--lit-part-->About Me<!--/lit-part-->
+          </div>
+          <div class="content">
+            <slot></slot>
+          </div>
         </section>
+      <!--/lit-part--></template>
+          <p class="description"><slot name="description">Hero header description</slot></p>
+        </my-section>
+      <!--/lit-part--></template>
+    <span slot="title">The <br> Grisly Eye</span>
+    <span slot="description">
+      I&#39;m an indie game designer (and forever DM) and this is my blog. You can buy my stuff below, or follow/contact me via my socials above.
+    </span>
+  </my-hero>
+</header>
 
-        
+<my-section  subtitle="featured"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
 
-          <section id="products">
-            <h3>Buy Now</h3>
+    :host * {
+      box-sizing: border-box;
+    }
 
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    @media(max-width: 870px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+        /* display: inline;
+        min-width: unset;
+        max-width: unset; */
+      }
+    }
+  </style><!--lit-part y2PvFkzzwcw=-->
+        <section>
+          <div class="subtitle">
+            <!--lit-part-->featured<!--/lit-part-->
+          </div>
+          <div class="content">
+            <slot></slot>
+          </div>
+        </section>
+      <!--/lit-part--></template>
+  <ul id="featured" class="previews">
+    
+      <li class="preview">
+        <a href="/products/wargod/" title="Buy Wargod!">
+
+          
             
-              <div class="product">
-                
-                <a href="/products/wargod/">
-                  
-                    <img src="/images/wargod.png" alt="Buy Wargod!" loading="lazy">
-                  
-                </a>
-              </div>
+          
+
+          <my-preview
             
-              <div class="product">
-                
-                <a href="/products/blessed/">
-                  
-                    <img src="/images/covers/blessed.png" alt="The Blessed" loading="lazy">
-                  
-                </a>
-              </div>
+              
+              
             
-              <div class="product">
-                
-                <a href="/products/grim/">
-                  
-                    <img src="/images/covers/grim.png" alt="The Grim" loading="lazy">
-                  
-                </a>
-              </div>
             
-              <div class="product">
-                
-                <a href="/products/eldritch/">
-                  
-                    <img src="/images/covers/eldritch.png" alt="The Eldritch" loading="lazy">
-                  
-                </a>
-              </div>
+           background="/img/-IurKA_xtZ-400.webp" class="products posts featured  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->book<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Buy Wargod!</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/products/context/" title="CONT/EXT">
+
+          
             
-              <div class="product">
-                
-                <a href="/products/vermin/">
-                  
-                    <img src="/images/covers/vermin.png" alt="The Vermin" loading="lazy">
-                  
-                </a>
-              </div>
+          
+
+          <my-preview
             
-              <div class="product">
-                
-                <a href="/products/enchanted/">
-                  
-                    <img src="/images/covers/enchanted.png" alt="The Enchanted" loading="lazy">
-                  
-                </a>
-              </div>
+              
+              
             
-          </section>
-        
+            
+           background="/img/ggM7LQCHuN-400.webp" class="products posts wip featured  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-      </aside>
+      background-size: cover;
+      background-position: top;
+    }
 
-      <div id="articles">
-        
-          <div class="article">
-            <a href="/products/wargod/">
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
-              <h4>Buy Wargod!</h4>
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
 
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->book<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">CONT/EXT</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/cities-in-cities/" title="Cities in Cities">
+
+          
+            
+          
+
+          <my-preview
+            
               
-                <picture><source type="image/webp" srcset="/assets/images/-IurKA_xtZ-230.webp 230w"><img decoding="async" src="/assets/images/-IurKA_xtZ-230.jpeg" alt="Buy Wargod!" width="230" height="182" class="preview"></picture>
-                
               
+            
+            
+           background="/img/fCk2I068G9-400.webp" class="posts featured  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-              <p>d66 grim fantasy careers for Troika! that vibe off the BOSR (British old-school renaissance)....</p>
-            </a>
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Cities in Cities</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/npc-block-v4/" title="NPC Block (Version 4)">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/q1WYjW02nH-400.webp" class="posts featured  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">NPC Block (Version 4)</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+  </ul>
+</my-section>
+
+<my-section  subtitle="more"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    @media(max-width: 870px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+        /* display: inline;
+        min-width: unset;
+        max-width: unset; */
+      }
+    }
+  </style><!--lit-part y2PvFkzzwcw=-->
+        <section>
+          <div class="subtitle">
+            <!--lit-part-->more<!--/lit-part-->
           </div>
-        
-          <div class="article">
-            <a href="/blog/hack-forbidden-lands-encounter-tables/">
-
-              <h4>The Forbidden Encounter Die</h4>
-
-              
-                <picture><source type="image/webp" srcset="/assets/images/-NN9ZN7dri-230.webp 230w"><img decoding="async" src="/assets/images/-NN9ZN7dri-230.jpeg" alt="The Forbidden Encounter Die" width="230" height="190" class="preview"></picture>
-                
-              
-
-              <p>This is an adaptation of encounter die for Forbidden Lands random encounters. Content warning: lots of tables....</p>
-            </a>
+          <div class="content">
+            <slot></slot>
           </div>
-        
-          <div class="article">
-            <a href="/blog/spirit-discipline-1.html">
+        </section>
+      <!--/lit-part--></template>
+  <ul id="more" class="previews">
+    
+      <li class="preview">
+        <a href="/blog/hack-forbidden-lands-encounter-tables/" title="The Forbidden Encounter Die">
 
-              <h4>Spirits of the Forbidden Lands</h4>
+          
+            
+          
 
+          <my-preview
+            
               
-                <picture><source type="image/webp" srcset="/assets/images/-NN9ZN7dri-230.webp 230w"><img decoding="async" src="/assets/images/-NN9ZN7dri-230.jpeg" alt="Spirits of the Forbidden Lands" width="230" height="190" class="preview"></picture>
-                
               
+            
+            
+           background="/img/-NN9ZN7dri-400.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-              <p>
-  Witchcraft deals with worlds unseen. Planes that exist alongside the mortal
-  world, yet separate. A witch acts as an intermediary with the strange beings
-  that live there: the spirits. Druids and sorcerers practice this disci...</p>
-            </a>
-          </div>
-        
-          <div class="article">
-            <a href="/blog/the-grim.html">
+      background-size: cover;
+      background-position: top;
+    }
 
-              <h4>Grubby Fantasy - The Grim</h4>
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">The Forbidden Encounter Die</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/products/shift/" title="Shift">
+
+          
+            
+          
+
+          <my-preview
+            
+            
+           class="products posts wip  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->book<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Shift</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/spirit-discipline-1/" title="Spirits of the Forbidden Lands">
+
+          
+            
+          
+
+          <my-preview
+            
               
-                <picture><source type="image/webp" srcset="/assets/images/CA1WTDw6jt-230.webp 230w"><img decoding="async" src="/assets/images/CA1WTDw6jt-230.jpeg" alt="Grubby Fantasy - The Grim" width="230" height="325" class="preview"></picture>
-                
               
+            
+            
+           background="/img/-NN9ZN7dri-400.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-              <p>It&#39;s out! My latest monograph, on the theme of grubby fantasy....</p>
-            </a>
-          </div>
-        
-          <div class="article">
-            <a href="/blog/low-kingdoms-preview-1/">
+      background-size: cover;
+      background-position: top;
+    }
 
-              <h4>On the Spoken Words of the Low Kingdoms</h4>
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Spirits of the Forbidden Lands</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/low-kingdoms-preview-1/" title="On the Spoken Words of the Low Kingdoms">
+
+          
+            
+          
+
+          <my-preview
+            
               
-                <picture><source type="image/webp" srcset="/assets/images/RYBRZCygrh-230.webp 230w"><img decoding="async" src="/assets/images/RYBRZCygrh-230.jpeg" alt="On the Spoken Words of the Low Kingdoms" width="230" height="32" class="preview"></picture>
-                
               
+            
+            
+           background="/img/RYBRZCygrh-400.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-              <p>Here is a (brief) list of languages for my homebrew setting. As is my wont, I eschew common fantasy languages like Elvish. Instead, the following languages are spoken and written in the Low Kingdoms......</p>
-            </a>
-          </div>
-        
-          <div class="article">
-            <a href="/blog/dashboarding/">
+      background-size: cover;
+      background-position: top;
+    }
 
-              <h4>On Dashboarding</h4>
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">On the Spoken Words of the Low Kingdoms</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/dashboarding/" title="On Dashboarding">
+
+          
+            
+          
+
+          <my-preview
+            
               
-                <picture><source type="image/webp" srcset="/assets/images/ySkyN0ki-j-230.webp 230w"><img decoding="async" src="/assets/images/ySkyN0ki-j-230.jpeg" alt="On Dashboarding" width="230" height="120" class="preview"></picture>
-                
               
+            
+            
+           background="/img/ySkyN0ki-j-400.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-              <p>This is a response to Josh’s article on Hexcrawl Dashboards. In that post, he explains how GMs could streamline their games by putting together a dashboard: a custom webpage that composes maps, random tables, etc. into one screen....</p>
-            </a>
-          </div>
-        
-          <div class="article">
-            <a href="/blog/journey-rules-1/">
+      background-size: cover;
+      background-position: top;
+    }
 
-              <h4>I Start Walking</h4>
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">On Dashboarding</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/journey-rules-1/" title="I Start Walking">
+
+          
+            
+          
+
+          <my-preview
+            
               
-                <picture><source type="image/webp" srcset="/assets/images/9cazakpotl-230.webp 230w"><img decoding="async" src="/assets/images/9cazakpotl-230.jpeg" alt="I Start Walking" width="230" height="131" class="preview"></picture>
-                
               
+            
+            
+           background="/img/9cazakpotl-400.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-              <p>Exploration. The first pillar of the dragon game. In a world of sprawling wilderness, remote settlements, and howling wastes, travel plays an important role. Emphasising the sheer vastness of the world. The isolation of its remote...</p>
-            </a>
-          </div>
-        
-          <div class="article">
-            <a href="/blog/fatred-solo-play-1.html">
+      background-size: cover;
+      background-position: top;
+    }
 
-              <h4>True Queen - Part I</h4>
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">I Start Walking</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/fatred-solo-play-1/" title="True Queen - Part I">
+
+          
+            
+          
+
+          <my-preview
+            
               
-                <picture><source type="image/webp" srcset="/assets/images/fCk2I068G9-230.webp 230w"><img decoding="async" src="/assets/images/fCk2I068G9-230.jpeg" alt="True Queen - Part I" width="230" height="413" class="preview"></picture>
-                
               
+            
+            
+           background="/img/fCk2I068G9-400.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-              <p>True Queen is a series of solo play-throughs using Fate Condensed and The Mythic GM Emulator. (To help me come up with scenes and situations). I&#39;m using the series as a way of familiarising myself with the system, for a forthcomin...</p>
-            </a>
-          </div>
-        
-          <div class="article">
-            <a href="/blog/heist-rules-v1/">
+      background-size: cover;
+      background-position: top;
+    }
 
-              <h4>Necessary Pretexts</h4>
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">True Queen - Part I</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/heist-rules-v1/" title="Necessary Pretexts">
+
+          
+            
+          
+
+          <my-preview
+            
               
-                <picture><source type="image/webp" srcset="/assets/images/yial0Qu6rY-230.webp 230w"><img decoding="async" src="/assets/images/yial0Qu6rY-230.jpeg" alt="Necessary Pretexts" width="230" height="64" class="preview"></picture>
-                
               
+            
+            
+           background="/img/yial0Qu6rY-400.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-              <p>These are my (very draft) rules for heists in 5E. Based off the infamous Blades in the Dark roleplaying game, they’re mainly written to avoid lengthy, and painful planning sessions....</p>
-            </a>
-          </div>
-        
-          <div class="article">
-            <a href="/blog/three-meet-mighty/">
+      background-size: cover;
+      background-position: top;
+    }
 
-              <h4>Say He&#39;s a Fighter</h4>
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Necessary Pretexts</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/three-meet-mighty/" title="Say He&#39;s a Fighter">
+
+          
+            
+          
+
+          <my-preview
+            
               
-                <picture><source type="image/webp" srcset="/assets/images/0l0ydY64fL-230.webp 230w"><img decoding="async" src="/assets/images/0l0ydY64fL-230.jpeg" alt="Say He's a Fighter" width="230" height="52" class="preview"></picture>
-                
               
+            
+            
+           background="/img/0l0ydY64fL-400.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-              <p>Ah, to be strong of limb, firm of body. To be wrapped in a thick armour of vascular flesh. To slash, hammer, or stab all before you. To be mighty. To be a fighter!...</p>
-            </a>
-          </div>
-        
-          <div class="article">
-            <a href="/blog/dismas-remade/">
+      background-size: cover;
+      background-position: top;
+    }
 
-              <h4>Recruiting for Dismas Remade</h4>
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Say He&#39;s a Fighter</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/three-meet-attributes/" title="The Pond Skater">
+
+          
+            
+          
+
+          <my-preview
+            
               
-                <picture><source type="image/webp" srcset="/assets/images/QgSuQqBJAq-230.webp 230w"><img decoding="async" src="/assets/images/QgSuQqBJAq-230.jpeg" alt="Recruiting for Dismas Remade" width="230" height="208" class="preview"></picture>
-                
               
+            
+            
+           background="/img/OsCGJ_5cSn-400.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-              <p>Applications are open for my campaign-reboot, Dismas Remade. Scoundrels and misfits encouraged to apply...</p>
-            </a>
-          </div>
-        
-          <div class="article">
-            <a href="/blog/three-meet-attributes/">
+      background-size: cover;
+      background-position: top;
+    }
 
-              <h4>The Pond Skater</h4>
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">The Pond Skater</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/keep-on-the-borderlands/" title="What of the Borderlands?">
+
+          
+            
+          
+
+          <my-preview
+            
               
-                <picture><source type="image/webp" srcset="/assets/images/OsCGJ_5cSn-230.webp 230w"><img decoding="async" src="/assets/images/OsCGJ_5cSn-230.jpeg" alt="The Pond Skater" width="230" height="336" class="preview"></picture>
-                
               
+            
+            
+           background="/img/tjFDnKHD1H-277.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
 
-              <p>With this new school of thought in mind, the motivating design goal for Three Meet is to unify and simplify the ability scores into three Attributes: Might, Cunning, and Wisdom....</p>
-            </a>
-          </div>
-        
-      </div>
-    </div>
+      background-size: cover;
+      background-position: top;
+    }
 
-  </main>
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
-  <section id="bottom-ribbon" class="ribbon">
-  <div class="content">
-    <h3>Subscribe for Updates</h3>
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
 
-    <p>Stay updated with the latest products and blog posts from Grisly Eye Games. Subscribe to my low-traffic mailing list:</p>
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
 
-    <form action="https://tinyletter.com/grislyeye" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/grislyeye', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-      <input type="text" name="email" id="tlemail" placeholder="Email">
-      <input type="hidden" value="1" name="embed">
-      <input class="button" type="submit" value="Subscribe">
-    </form>
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
 
-  </div>
-</section>
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">What of the Borderlands?</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/products/blessed/" title="The Blessed">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/leJDpC9x7n-400.webp" class="products posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->book<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">The Blessed</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/last-post-session-1/" title="Last Post Campaign Diary I">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/WvtwrjkNYg-300.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Last Post Campaign Diary I</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/products/grim/" title="The Grim">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/CA1WTDw6jt-400.webp" class="products posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->book<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">The Grim</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/merchants-faction-1/" title="Faction Preview - Assayers">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/SX4XQDF8Xl-300.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Faction Preview - Assayers</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/encounter-blocks/" title="Encounter Blocks">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/LvP5xC0TxQ-400.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Encounter Blocks</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/products/eldritch/" title="The Eldritch">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/ld74hBqBFh-200.webp" class="products posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->book<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">The Eldritch</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/flawed-magic-items-preview-2/" title="Flawed Magic Items (Part II)">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/y2ZrpO9vCv-193.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Flawed Magic Items (Part II)</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/products/vermin/" title="The Vermin">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/xJyMpeC-AZ-400.webp" class="products posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->book<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">The Vermin</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/wicked-preview-2/" title="Second Sight Sorcerer Origin">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/nqQcuWJ4nT-400.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Second Sight Sorcerer Origin</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/products/enchanted/" title="The Enchanted">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/KY4CkRbyt_-400.webp" class="products posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->book<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">The Enchanted</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-preview-2/" title="Random Weather">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/W-F4f2YZi0-400.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Random Weather</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-41/" title="Black Griffin 41 - The Court Martial">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-309.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin 41 - The Court Martial</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/harrowed-preview-2/" title="Corruption and Necrotic Injury">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/sIDOCBZtO0-400.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Corruption and Necrotic Injury</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-40/" title="Black Griffin 40 - The Hand Over">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-309.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin 40 - The Hand Over</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-39/" title="Black Griffin 39 - The Double Cross">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-309.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin 39 - The Double Cross</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-38/" title="Black Griffin 38 - Quinn">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-309.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin 38 - Quinn</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/location-blocks-v1/" title="Location Blocks">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/fO6reDcRv6-400.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Location Blocks</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-37/" title="Black Griffin 37 - The Near Miss">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-309.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin 37 - The Near Miss</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/agenda-based-adventures/" title="Agenda-Based Adventures">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/toHlOxFdFM-400.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Agenda-Based Adventures</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-36/" title="Black Griffin 36 - The Chasm Nearer">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-309.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin 36 - The Chasm Nearer</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/wicked-preview-1/" title="The Wicked Preview">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/nqQcuWJ4nT-400.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">The Wicked Preview</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-35/" title="Black Griffin Campaign Diary (Session 35)">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-309.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin Campaign Diary (Session 35)</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-34/" title="Black Griffin Campaign Diary (Session 34)">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-309.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin Campaign Diary (Session 34)</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/harrowed-preview-1/" title="Stress and Psychic Injury">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/f-9Btzguqs-400.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Stress and Psychic Injury</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-33/" title="Black Griffin Campaign Diary (Session 33)">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-309.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin Campaign Diary (Session 33)</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-32/" title="Black Griffin Campaign Diary (Session 32)">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-309.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin Campaign Diary (Session 32)</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-31/" title="Black Griffin Campaign Diary (Session 31)">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/NiAmcYR2YG-280.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin Campaign Diary (Session 31)</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/flawed-magic-items-preview-1/" title="Flawed Magic Items">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/iCM855e8H1-302.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Flawed Magic Items</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-session-30/" title="Black Griffin Campaign Diary (Session 30)">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-309.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin Campaign Diary (Session 30)</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/player-inspiration/" title="Player-Driven Inspiration">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/9ad9tctELs-300.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Player-Driven Inspiration</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/order-of-the-magi-preview-1/" title="Order of the Magi Faction">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/k9_gflSFg9-226.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Order of the Magi Faction</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/nights-watch-preview-1/" title="Nights Watch Faction">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/1EZyswqMJQ-400.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Nights Watch Faction</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/torture/" title="Interrogation Skill Challenge">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/FGkC1AJ5n7-400.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Interrogation Skill Challenge</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/thieves-council-preview/" title="The Thieves&#39; Council">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/7-dd76TlYq-400.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">The Thieves&#39; Council</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/npc-block/" title="Towards an NPC Block">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/4wLQ357-_H-400.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Towards an NPC Block</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/many-preview-1/" title="The Many Preview 1">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/Rf51hbo7f--308.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">The Many Preview 1</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/magic-guild-preview/" title="The Magic Guild">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/WY4WqboMfN-294.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">The Magic Guild</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/black-griffin-preview-1/" title="Black Griffin Faction">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/lf_wPzvwGj-400.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Black Griffin Faction</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        <a href="/blog/kindred-fey-preview-1/" title="Fey Race Variant">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/EZmh0rwPUf-236.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      padding: 10px;
+      overflow: hidden;
+      width: var(--preview-size);
+      height: var(--preview-size);
+
+      background-size: cover;
+      background-position: top;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: calc(var(--preview-size) * 0.6);
+    }
+
+    header h1,
+    header p {
+      margin: 0;
+      padding: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part 3/ztZCUMl+I=-->
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      <!--/lit-part--></template>
+            <span slot="title">Fey Race Variant</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+  </ul>
+</my-section>
 
 
-<footer>
-  <p class="legal">
-    Website version 2.27.6 Copyright &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
-  </p>
-</footer>
+		</main>
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+		<footer>
+      <p class="legal">
+        Website version 3.0.0 &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+      </p>
+    </footer>
 
-  gtag('config', 'G-8S4KL203M4');
-</script>
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
 
-  <style>
-  html {
-    visibility: visible;
-    opacity: 1;
-  }
-</style>
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
 
+        await litHydrateSupportInstalled;
 
-</body>
+        import('/scripts/components/my-nav.js');
+        import('/scripts/components/my-hero.js');
+        import('/scripts/components/my-preview.js');
+        import('/scripts/components/my-section.js');
+        import('/scripts/components/my-page.js');
+        import('/scripts/components/my-product.js');
+        import('/scripts/components/my-button.js');
+      })();
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8S4KL203M4');
+    </script>
+		<!-- Current page: / -->
+	</body>
 </html>

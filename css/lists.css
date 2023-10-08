@@ -1,0 +1,32 @@
+.content dl dt {
+  float: left;
+  clear: left;
+  margin-left: 2.5rem;
+  margin-right: 5px;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
+
+.content dl dd {
+  margin-left: 0;
+  margin-bottom: 2.5rem;
+}
+
+.content dl dd dl {
+  margin-top: 1em;
+}
+
+.content dl dd dl dt {
+  font-weight: normal;
+  color: white;
+}
+
+.content dl.stats dt {
+  font-style: normal;
+  margin-left: 0;
+}
+
+.content dl.stats dd {
+  margin-bottom: 0;
+}

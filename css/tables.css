@@ -1,0 +1,23 @@
+.content table caption {
+  font-variant: small-caps;
+  font-weight: bold;
+  color: red;
+  text-align: left;
+  font-size: larger;
+}
+
+
+.content table td {
+  padding-right: 1em;
+}
+
+.content table {
+  border-collapse: collapse;
+}
+
+.content table td.number,
+.content table th.number {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
