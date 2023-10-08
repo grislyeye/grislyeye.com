@@ -28,11 +28,12 @@ eleventyNavigation:
           {% endif %}
 
           <my-preview
+            class="{{ post.data.tags.join(' ') }} {{ theme }} featured"
             {% if post.data.image %}
               {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
               background="{% rawImageUrl imagePath, 400 %}"
             {% endif %}
-            class="{{ post.data.tags.join(' ') }} {{ theme }}"
+            preload
           >
             <span slot="title">{{ post.data.title }}</span>
           </my-preview>

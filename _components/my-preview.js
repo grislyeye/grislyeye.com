@@ -9,10 +9,18 @@ class MyPreview extends LitElement {
   static styles = css`
     :host {
       display: inline-block;
-      padding: 10px;
       overflow: hidden;
       width: var(--preview-size);
       height: var(--preview-size);
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: var(--preview-size);
+      height: var(--preview-size);
+      margin: 0;
+      padding: 0;
 
       background-size: cover;
       background-position: top;
@@ -21,6 +29,8 @@ class MyPreview extends LitElement {
     header {
       display: flex;
       height: 100%;
+      margin: 0;
+      padding: 0;
       flex-direction: column;
       justify-content: space-between;
     }
@@ -35,7 +45,7 @@ class MyPreview extends LitElement {
     header h1,
     header p {
       margin: 0;
-      padding: 0;
+      padding: 10px;
     }
 
     header p {
@@ -83,7 +93,8 @@ class MyPreview extends LitElement {
 
   static properties = {
     class: { attribute: 'class' },
-    backgroundSrc: { attribute: 'background' }
+    backgroundSrc: { attribute: 'background' },
+    preload: { attribute: 'preload', type: Boolean }
   };
 
   static Book = 'book';
@@ -91,7 +102,7 @@ class MyPreview extends LitElement {
   static Article = 'article';
 
   get hostStyle() {
-    return this.renderRoot.host.style;
+    return this.renderRoot.querySelector('.container').style;
   }
 
   get backgroundImage() {
@@ -102,13 +113,15 @@ class MyPreview extends LitElement {
     return `url('${ this.backgroundSrc }')`;
   }
 
-  get blendMode() {
+  get backgroundBlendMode() {
+    if (this.type === MyPreview.Book) return 'none';
     if (this.class.includes('dark')) return 'darken, difference';
     if (this.class.includes('light')) return 'lighten, difference';
     return 'darken';
   }
 
   get backgroundColour() {
+    if (this.type === MyPreview.Book) return 'none';
     if (this.class.includes('dark')) return 'grey';
     if (this.class.includes('light')) return 'white';
     return 'red';
@@ -122,7 +135,7 @@ class MyPreview extends LitElement {
       if (this.type !== MyPreview.Book && this.backgroundSrc) {
         this.hostStyle.backgroundImage = this.backgroundImage;
         this.hostStyle.backgroundColor = this.backgroundColour;
-        this.hostStyle.backgroundBlendMode = this.blendMode;
+        this.hostStyle.backgroundBlendMode = this.backgroundBlendMode;
       } else if (this.backgroundSrc) {
         this.hostStyle.backgroundImage = this.backgroundImage;
       }
@@ -134,14 +147,16 @@ class MyPreview extends LitElement {
   connectedCallback() {
     super.connectedCallback();
 
-    this.visibilityObserver = new IntersectionObserver((entries) => {
-      entries.forEach(() => {
-        if (entries[0].intersectionRatio <= 0) return;
-        this.onVisible();
+    if (!this.preload) {
+      this.visibilityObserver = new IntersectionObserver((entries) => {
+        entries.forEach(() => {
+          if (entries[0].intersectionRatio <= 0) return;
+          this.onVisible();
+        });
       });
-    });
 
-    this.visibilityObserver.observe(this);
+      this.visibilityObserver.observe(this);
+    }
   }
 
   get type() {
@@ -153,14 +168,23 @@ class MyPreview extends LitElement {
   render() {
     if (isServer) {
       return html`
-        <header>
-          <h1><slot name='title'>Preview Title</slot></h1>
-          <p>${ this.type }</p>
-        </header>
+        <div class="container" style="${ this.renderBackgroundStyle() }">
+          <header>
+            <h1><slot name='title'>Preview Title</slot></h1>
+            <p>${ this.type }</p>
+          </header>
+        </div>
       `;
     }
 
     return undefined;
+  }
+
+  renderBackgroundStyle() {
+    if (this.preload) {
+      return `background-image: ${ this.backgroundImage }; background-color: ${ this.backgroundColour }; background-blend-mode: ${ this.backgroundBlendMode };`;
+    }
+    return '';
   }
 }
 
