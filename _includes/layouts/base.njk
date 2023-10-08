@@ -10,8 +10,13 @@
 
 		<link rel="alternate" href="/rss.xml" type="application/xml" title="{{ metadata.title }}">
 
-		{%- css %}
+		{%- css "base" %}
       {% include "public/css/index.css" %}
+    {% endcss %}
+
+    <style>{% getBundle "css", "base" %}</style>
+
+    {%- css %}
       {% include "public/css/post.css" %}
       {% include "public/css/aside.css" %}
       {% include "public/css/blockquote.css" %}
