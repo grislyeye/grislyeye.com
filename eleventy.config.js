@@ -9,6 +9,7 @@ const pluginLit = require('@lit-labs/eleventy-plugin-lit');
 const pluginReaderBar = require('eleventy-plugin-reader-bar');
 const pluginFavicons = require('eleventy-plugin-gen-favicons');
 const pluginSEO = require('eleventy-plugin-seo');
+const pluginGoogleFonts = require('eleventy-google-fonts');
 
 const pluginImages = require('./eleventy.config.images.js');
 const metadata = require('./_data/metadata.js');
@@ -57,6 +58,7 @@ module.exports = (eleventyConfig) => {
     twitter: 'grislyeye',
     image: `${ metadata.url }/images/logo.svg`
   });
+  eleventyConfig.addPlugin(pluginGoogleFonts);
 
   // Official plugins
   eleventyConfig.addPlugin(pluginRss);
