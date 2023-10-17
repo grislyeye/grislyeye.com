@@ -65,6 +65,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(pluginBundle);
 
+  // Production dependencies
   eleventyConfig.addPassthroughCopy(
     {
       'node_modules/@webcomponents/template-shadowroot': 'vendor/@webcomponents/template-shadowroot',
@@ -73,7 +74,6 @@ module.exports = (eleventyConfig) => {
       'node_modules/@lit': 'vendor/@lit',
       'node_modules/lit-element': 'vendor/lit-element',
       'node_modules/lit-html': 'vendor/lit-html',
-      'node_modules/skeleton-css/css/': 'vendor/skeleton-css',
       'node_modules/vellum-monster': 'vendor/vellum-monster'
     }
   );
