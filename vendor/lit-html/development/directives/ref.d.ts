@@ -20,7 +20,7 @@ declare class Ref<T = Element> {
     readonly value?: T;
 }
 export type { Ref };
-export declare type RefOrCallback<T = Element> = Ref<T> | ((el: T | undefined) => void);
+export type RefOrCallback<T = Element> = Ref<T> | ((el: T | undefined) => void);
 declare class RefDirective extends AsyncDirective {
     private _element?;
     private _ref?;

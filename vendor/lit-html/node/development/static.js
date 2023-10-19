@@ -23,10 +23,10 @@ import { html as html$1, svg as svg$1 } from './lit-html.js';
 const brand = Symbol.for('');
 /** Safely extracts the string part of a StaticValue. */
 const unwrapStaticValue = (value) => {
-    if ((value === null || value === void 0 ? void 0 : value.r) !== brand) {
+    if (value?.r !== brand) {
         return undefined;
     }
-    return value === null || value === void 0 ? void 0 : value['_$litStatic$'];
+    return value?.['_$litStatic$'];
 };
 /**
  * Wraps a string so that it behaves like part of the static template

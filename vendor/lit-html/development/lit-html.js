@@ -3,13 +3,12 @@
  * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
-var _a, _b, _c, _d;
 const DEV_MODE = true;
 const ENABLE_EXTRA_SECURITY_HOOKS = true;
 const ENABLE_SHADYDOM_NOPATCH = true;
 const NODE_MODE = false;
-// Use window for browser builds because IE11 doesn't have globalThis.
-const global = NODE_MODE ? globalThis : window;
+// Allows minifiers to rename references to globalThis
+const global = globalThis;
 /**
  * Useful for visualizing and logging insights into what the Lit template system is doing.
  *
@@ -33,7 +32,7 @@ const debugLogEvent = DEV_MODE
 let debugLogRenderId = 0;
 let issueWarning;
 if (DEV_MODE) {
-    (_a = global.litIssuedWarnings) !== null && _a !== void 0 ? _a : (global.litIssuedWarnings = new Set());
+    global.litIssuedWarnings ??= new Set();
     // Issue a warning, if we haven't already.
     issueWarning = (code, warning) => {
         warning += code
@@ -47,8 +46,8 @@ if (DEV_MODE) {
     issueWarning('dev-mode', `Lit is in dev mode. Not recommended for production!`);
 }
 const wrap = ENABLE_SHADYDOM_NOPATCH &&
-    ((_b = global.ShadyDOM) === null || _b === void 0 ? void 0 : _b.inUse) &&
-    ((_c = global.ShadyDOM) === null || _c === void 0 ? void 0 : _c.noPatch) === true
+    global.ShadyDOM?.inUse &&
+    global.ShadyDOM?.noPatch === true
     ? global.ShadyDOM.wrap
     : (node) => node;
 const trustedTypes = global.trustedTypes;
@@ -113,7 +112,7 @@ const isPrimitive = (value) => value === null || (typeof value != 'object' && ty
 const isArray = Array.isArray;
 const isIterable = (value) => isArray(value) ||
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    typeof (value === null || value === void 0 ? void 0 : value[Symbol.iterator]) === 'function';
+    typeof value?.[Symbol.iterator] === 'function';
 const SPACE_CHAR = `[ \t\n\f\r]`;
 const ATTR_VALUE_CHAR = `[^ \t\n\f\r"'\`<>=]`;
 const NAME_CHAR = `[^\\s"'>=/]`;
@@ -277,7 +276,7 @@ export const nothing = Symbol.for('lit-nothing');
  * path for rendering.
  */
 const templateCache = new WeakMap();
-const walker = d.createTreeWalker(d, 129 /* NodeFilter.SHOW_{ELEMENT|COMMENT} */, null, false);
+const walker = d.createTreeWalker(d, 129 /* NodeFilter.SHOW_{ELEMENT|COMMENT} */);
 let sanitizerFactoryInternal = noopSanitizer;
 function trustFromTemplateString(tsa, stringFromTSA) {
     // A security check to prevent spoofing of Lit template results.
@@ -389,7 +388,7 @@ const getTemplateHtml = (strings, type) => {
                 if (match[ENTIRE_MATCH] === '>') {
                     // End of a tag. If we had started a raw-text element, use that
                     // regex
-                    regex = rawTextEndRegex !== null && rawTextEndRegex !== void 0 ? rawTextEndRegex : textEndRegex;
+                    regex = rawTextEndRegex ?? textEndRegex;
                     // We may be ending an unquoted attribute value, so make sure we
                     // clear any pending attrNameEndIndex
                     attrNameEndIndex = -1;
@@ -455,9 +454,7 @@ const getTemplateHtml = (strings, type) => {
                             s.slice(attrNameEndIndex)) +
                         marker +
                         end
-                    : s +
-                        marker +
-                        (attrNameEndIndex === -2 ? (attrNames.push(undefined), i) : end);
+                    : s + marker + (attrNameEndIndex === -2 ? i : end);
     }
     const htmlResult = html + (strings[l] || '<?>') + (type === SVG_RESULT ? '</svg>' : '');
     // Returned as an array for terseness
@@ -477,12 +474,10 @@ class Template {
         const [html, attrNames] = getTemplateHtml(strings, type);
         this.el = Template.createElement(html, options);
         walker.currentNode = this.el.content;
-        // Reparent SVG nodes into template root
+        // Re-parent SVG nodes into template root
         if (type === SVG_RESULT) {
-            const content = this.el.content;
-            const svgElement = content.firstChild;
-            svgElement.remove();
-            content.append(...svgElement.childNodes);
+            const svgElement = this.el.content.firstChild;
+            svgElement.replaceWith(...svgElement.childNodes);
         }
         // Walk the template to find binding markers and create TemplateParts
         while ((node = walker.nextNode()) !== null && parts.length < partCount) {
@@ -509,51 +504,34 @@ class Template {
                 // increment the bindingIndex, and it'll be off by 1 in the element
                 // and off by two after it.
                 if (node.hasAttributes()) {
-                    // We defer removing bound attributes because on IE we might not be
-                    // iterating attributes in their template order, and would sometimes
-                    // remove an attribute that we still need to create a part for.
-                    const attrsToRemove = [];
                     for (const name of node.getAttributeNames()) {
-                        // `name` is the name of the attribute we're iterating over, but not
-                        // _necessarily_ the name of the attribute we will create a part
-                        // for. They can be different in browsers that don't iterate on
-                        // attributes in source order. In that case the attrNames array
-                        // contains the attribute name we'll process next. We only need the
-                        // attribute name here to know if we should process a bound attribute
-                        // on this element.
-                        if (name.endsWith(boundAttributeSuffix) ||
-                            name.startsWith(marker)) {
+                        if (name.endsWith(boundAttributeSuffix)) {
                             const realName = attrNames[attrNameIndex++];
-                            attrsToRemove.push(name);
-                            if (realName !== undefined) {
-                                // Lowercase for case-sensitive SVG attributes like viewBox
-                                const value = node.getAttribute(realName.toLowerCase() + boundAttributeSuffix);
-                                const statics = value.split(marker);
-                                const m = /([.?@])?(.*)/.exec(realName);
-                                parts.push({
-                                    type: ATTRIBUTE_PART,
-                                    index: nodeIndex,
-                                    name: m[2],
-                                    strings: statics,
-                                    ctor: m[1] === '.'
-                                        ? PropertyPart
-                                        : m[1] === '?'
-                                            ? BooleanAttributePart
-                                            : m[1] === '@'
-                                                ? EventPart
-                                                : AttributePart,
-                                });
-                            }
-                            else {
-                                parts.push({
-                                    type: ELEMENT_PART,
-                                    index: nodeIndex,
-                                });
-                            }
+                            const value = node.getAttribute(name);
+                            const statics = value.split(marker);
+                            const m = /([.?@])?(.*)/.exec(realName);
+                            parts.push({
+                                type: ATTRIBUTE_PART,
+                                index: nodeIndex,
+                                name: m[2],
+                                strings: statics,
+                                ctor: m[1] === '.'
+                                    ? PropertyPart
+                                    : m[1] === '?'
+                                        ? BooleanAttributePart
+                                        : m[1] === '@'
+                                            ? EventPart
+                                            : AttributePart,
+                            });
+                            node.removeAttribute(name);
                         }
-                    }
-                    for (const name of attrsToRemove) {
-                        node.removeAttribute(name);
+                        else if (name.startsWith(marker)) {
+                            parts.push({
+                                type: ELEMENT_PART,
+                                index: nodeIndex,
+                            });
+                            node.removeAttribute(name);
+                        }
                     }
                 }
                 // TODO (justinfagnani): benchmark the regex against testing for each
@@ -607,13 +585,14 @@ class Template {
         // We could set walker.currentNode to another node here to prevent a memory
         // leak, but every time we prepare a template, we immediately render it
         // and re-use the walker in new TemplateInstance._clone().
-        debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-            kind: 'template prep',
-            template: this,
-            clonableTemplate: this.el,
-            parts: this.parts,
-            strings,
-        });
+        debugLogEvent &&
+            debugLogEvent({
+                kind: 'template prep',
+                template: this,
+                clonableTemplate: this.el,
+                parts: this.parts,
+                strings,
+            });
     }
     // Overridden via `litHtmlPolyfillSupport` to provide platform support.
     /** @nocollapse */
@@ -624,23 +603,21 @@ class Template {
     }
 }
 function resolveDirective(part, value, parent = part, attributeIndex) {
-    var _a, _b, _c;
-    var _d;
     // Bail early if the value is explicitly noChange. Note, this means any
     // nested directive is still attached and is not run.
     if (value === noChange) {
         return value;
     }
     let currentDirective = attributeIndex !== undefined
-        ? (_a = parent.__directives) === null || _a === void 0 ? void 0 : _a[attributeIndex]
+        ? parent.__directives?.[attributeIndex]
         : parent.__directive;
     const nextDirectiveConstructor = isPrimitive(value)
         ? undefined
         : // This property needs to remain unminified.
             value['_$litDirective$'];
-    if ((currentDirective === null || currentDirective === void 0 ? void 0 : currentDirective.constructor) !== nextDirectiveConstructor) {
+    if (currentDirective?.constructor !== nextDirectiveConstructor) {
         // This property needs to remain unminified.
-        (_b = currentDirective === null || currentDirective === void 0 ? void 0 : currentDirective['_$notifyDirectiveConnectionChanged']) === null || _b === void 0 ? void 0 : _b.call(currentDirective, false);
+        currentDirective?.['_$notifyDirectiveConnectionChanged']?.(false);
         if (nextDirectiveConstructor === undefined) {
             currentDirective = undefined;
         }
@@ -649,7 +626,7 @@ function resolveDirective(part, value, parent = part, attributeIndex) {
             currentDirective._$initialize(part, parent, attributeIndex);
         }
         if (attributeIndex !== undefined) {
-            ((_c = (_d = parent).__directives) !== null && _c !== void 0 ? _c : (_d.__directives = []))[attributeIndex] =
+            (parent.__directives ??= [])[attributeIndex] =
                 currentDirective;
         }
         else {
@@ -684,9 +661,8 @@ class TemplateInstance {
     // This method is separate from the constructor because we need to return a
     // DocumentFragment and we don't want to hold onto it with an instance field.
     _clone(options) {
-        var _a;
         const { el: { content }, parts: parts, } = this._$template;
-        const fragment = ((_a = options === null || options === void 0 ? void 0 : options.creationScope) !== null && _a !== void 0 ? _a : d).importNode(content, true);
+        const fragment = (options?.creationScope ?? d).importNode(content, true);
         walker.currentNode = fragment;
         let node = walker.nextNode();
         let nodeIndex = 0;
@@ -707,7 +683,7 @@ class TemplateInstance {
                 this._$parts.push(part);
                 templatePart = parts[++partIndex];
             }
-            if (nodeIndex !== (templatePart === null || templatePart === void 0 ? void 0 : templatePart.index)) {
+            if (nodeIndex !== templatePart?.index) {
                 node = walker.nextNode();
                 nodeIndex++;
             }
@@ -722,14 +698,15 @@ class TemplateInstance {
         let i = 0;
         for (const part of this._$parts) {
             if (part !== undefined) {
-                debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-                    kind: 'set part',
-                    part,
-                    value: values[i],
-                    valueIndex: i,
-                    values,
-                    templateInstance: this,
-                });
+                debugLogEvent &&
+                    debugLogEvent({
+                        kind: 'set part',
+                        part,
+                        value: values[i],
+                        valueIndex: i,
+                        values,
+                        templateInstance: this,
+                    });
                 if (part.strings !== undefined) {
                     part._$setValue(values, part, i);
                     // The number of values the part consumes is part.strings.length - 1
@@ -746,8 +723,14 @@ class TemplateInstance {
     }
 }
 class ChildPart {
+    // See comment in Disconnectable interface for why this is a getter
+    get _$isConnected() {
+        // ChildParts that are not at the root should always be created with a
+        // parent; only RootChildNode's won't, so they return the local isConnected
+        // state
+        return this._$parent?._$isConnected ?? this.__isConnected;
+    }
     constructor(startNode, endNode, parent, options) {
-        var _a;
         this.type = CHILD_PART;
         this._$committedValue = nothing;
         // The following fields will be patched onto ChildParts when required by
@@ -761,19 +744,11 @@ class ChildPart {
         // Note __isConnected is only ever accessed on RootParts (i.e. when there is
         // no _$parent); the value on a non-root-part is "don't care", but checking
         // for parent would be more code
-        this.__isConnected = (_a = options === null || options === void 0 ? void 0 : options.isConnected) !== null && _a !== void 0 ? _a : true;
+        this.__isConnected = options?.isConnected ?? true;
         if (ENABLE_EXTRA_SECURITY_HOOKS) {
             // Explicitly initialize for consistent class shape.
             this._textSanitizer = undefined;
         }
-    }
-    // See comment in Disconnectable interface for why this is a getter
-    get _$isConnected() {
-        var _a, _b;
-        // ChildParts that are not at the root should always be created with a
-        // parent; only RootChildNode's won't, so they return the local isConnected
-        // state
-        return (_b = (_a = this._$parent) === null || _a === void 0 ? void 0 : _a._$isConnected) !== null && _b !== void 0 ? _b : this.__isConnected;
     }
     /**
      * The parent node into which the part renders its content.
@@ -797,7 +772,7 @@ class ChildPart {
         let parentNode = wrap(this._$startNode).parentNode;
         const parent = this._$parent;
         if (parent !== undefined &&
-            (parentNode === null || parentNode === void 0 ? void 0 : parentNode.nodeType) === 11 /* Node.DOCUMENT_FRAGMENT */) {
+            parentNode?.nodeType === 11 /* Node.DOCUMENT_FRAGMENT */) {
             // If the parentNode is a DocumentFragment, it may be because the DOM is
             // still in the cloned fragment during initial render; if so, get the real
             // parentNode the part will be committed into by asking the parent.
@@ -820,7 +795,6 @@ class ChildPart {
         return this._$endNode;
     }
     _$setValue(value, directiveParent = this) {
-        var _a;
         if (DEV_MODE && this.parentNode === null) {
             throw new Error(`This \`ChildPart\` has no \`parentNode\` and therefore cannot accept a value. This likely means the element containing the part was manipulated in an unsupported way outside of Lit's control such that the part's marker nodes were ejected from DOM. For example, setting the element's \`innerHTML\` or \`textContent\` can do this.`);
         }
@@ -831,13 +805,14 @@ class ChildPart {
             // fallback content.
             if (value === nothing || value == null || value === '') {
                 if (this._$committedValue !== nothing) {
-                    debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-                        kind: 'commit nothing to child',
-                        start: this._$startNode,
-                        end: this._$endNode,
-                        parent: this._$parent,
-                        options: this.options,
-                    });
+                    debugLogEvent &&
+                        debugLogEvent({
+                            kind: 'commit nothing to child',
+                            start: this._$startNode,
+                            end: this._$endNode,
+                            parent: this._$parent,
+                            options: this.options,
+                        });
                     this._$clear();
                 }
                 this._$committedValue = nothing;
@@ -851,7 +826,7 @@ class ChildPart {
             this._commitTemplateResult(value);
         }
         else if (value.nodeType !== undefined) {
-            if (DEV_MODE && ((_a = this.options) === null || _a === void 0 ? void 0 : _a.host) === value) {
+            if (DEV_MODE && this.options?.host === value) {
                 this._commitText(`[probable mistake: rendered a template's host in itself ` +
                     `(commonly caused by writing \${this} in a template]`);
                 console.warn(`Attempted to render the template host`, value, `inside itself. This is almost always a mistake, and in dev mode `, `we render some warning text. In production however, we'll `, `render it, which will usually result in an error, and sometimes `, `in the element disappearing from the DOM.`);
@@ -871,12 +846,11 @@ class ChildPart {
         return wrap(wrap(this._$startNode).parentNode).insertBefore(node, this._$endNode);
     }
     _commitNode(value) {
-        var _a;
         if (this._$committedValue !== value) {
             this._$clear();
             if (ENABLE_EXTRA_SECURITY_HOOKS &&
                 sanitizerFactoryInternal !== noopSanitizer) {
-                const parentNodeName = (_a = this._$startNode.parentNode) === null || _a === void 0 ? void 0 : _a.nodeName;
+                const parentNodeName = this._$startNode.parentNode?.nodeName;
                 if (parentNodeName === 'STYLE' || parentNodeName === 'SCRIPT') {
                     let message = 'Forbidden';
                     if (DEV_MODE) {
@@ -900,13 +874,14 @@ class ChildPart {
                     throw new Error(message);
                 }
             }
-            debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-                kind: 'commit node',
-                start: this._$startNode,
-                parent: this._$parent,
-                value: value,
-                options: this.options,
-            });
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'commit node',
+                    start: this._$startNode,
+                    parent: this._$parent,
+                    value: value,
+                    options: this.options,
+                });
             this._$committedValue = this._insert(value);
         }
     }
@@ -923,12 +898,13 @@ class ChildPart {
                 }
                 value = this._textSanitizer(value);
             }
-            debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-                kind: 'commit text',
-                node,
-                value,
-                options: this.options,
-            });
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'commit text',
+                    node,
+                    value,
+                    options: this.options,
+                });
             node.data = value;
         }
         else {
@@ -943,28 +919,29 @@ class ChildPart {
                     this._textSanitizer = createSanitizer(textNode, 'data', 'property');
                 }
                 value = this._textSanitizer(value);
-                debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-                    kind: 'commit text',
-                    node: textNode,
-                    value,
-                    options: this.options,
-                });
+                debugLogEvent &&
+                    debugLogEvent({
+                        kind: 'commit text',
+                        node: textNode,
+                        value,
+                        options: this.options,
+                    });
                 textNode.data = value;
             }
             else {
                 this._commitNode(d.createTextNode(value));
-                debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-                    kind: 'commit text',
-                    node: wrap(this._$startNode).nextSibling,
-                    value,
-                    options: this.options,
-                });
+                debugLogEvent &&
+                    debugLogEvent({
+                        kind: 'commit text',
+                        node: wrap(this._$startNode).nextSibling,
+                        value,
+                        options: this.options,
+                    });
             }
         }
         this._$committedValue = value;
     }
     _commitTemplateResult(result) {
-        var _a;
         // This property needs to remain unminified.
         const { values, ['_$litType$']: type } = result;
         // If $litType$ is a number, result is a plain TemplateResult and we get
@@ -976,39 +953,42 @@ class ChildPart {
             : (type.el === undefined &&
                 (type.el = Template.createElement(trustFromTemplateString(type.h, type.h[0]), this.options)),
                 type);
-        if (((_a = this._$committedValue) === null || _a === void 0 ? void 0 : _a._$template) === template) {
-            debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-                kind: 'template updating',
-                template,
-                instance: this._$committedValue,
-                parts: this._$committedValue._$parts,
-                options: this.options,
-                values,
-            });
+        if (this._$committedValue?._$template === template) {
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'template updating',
+                    template,
+                    instance: this._$committedValue,
+                    parts: this._$committedValue._$parts,
+                    options: this.options,
+                    values,
+                });
             this._$committedValue._update(values);
         }
         else {
             const instance = new TemplateInstance(template, this);
             const fragment = instance._clone(this.options);
-            debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-                kind: 'template instantiated',
-                template,
-                instance,
-                parts: instance._$parts,
-                options: this.options,
-                fragment,
-                values,
-            });
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'template instantiated',
+                    template,
+                    instance,
+                    parts: instance._$parts,
+                    options: this.options,
+                    fragment,
+                    values,
+                });
             instance._update(values);
-            debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-                kind: 'template instantiated and updated',
-                template,
-                instance,
-                parts: instance._$parts,
-                options: this.options,
-                fragment,
-                values,
-            });
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'template instantiated and updated',
+                    template,
+                    instance,
+                    parts: instance._$parts,
+                    options: this.options,
+                    fragment,
+                    values,
+                });
             this._commitNode(fragment);
             this._$committedValue = instance;
         }
@@ -1075,8 +1055,7 @@ class ChildPart {
      * @internal
      */
     _$clear(start = wrap(this._$startNode).nextSibling, from) {
-        var _a;
-        (_a = this._$notifyConnectionChanged) === null || _a === void 0 ? void 0 : _a.call(this, false, true, from);
+        this._$notifyConnectionChanged?.(false, true, from);
         while (start && start !== this._$endNode) {
             const n = wrap(start).nextSibling;
             wrap(start).remove();
@@ -1091,10 +1070,9 @@ class ChildPart {
      * @internal
      */
     setConnected(isConnected) {
-        var _a;
         if (this._$parent === undefined) {
             this.__isConnected = isConnected;
-            (_a = this._$notifyConnectionChanged) === null || _a === void 0 ? void 0 : _a.call(this, isConnected);
+            this._$notifyConnectionChanged?.(isConnected);
         }
         else if (DEV_MODE) {
             throw new Error('part.setConnected() may only be called on a ' +
@@ -1103,6 +1081,13 @@ class ChildPart {
     }
 }
 class AttributePart {
+    get tagName() {
+        return this.element.tagName;
+    }
+    // See comment in Disconnectable interface for why this is a getter
+    get _$isConnected() {
+        return this._$parent._$isConnected;
+    }
     constructor(element, name, strings, parent, options) {
         this.type = ATTRIBUTE_PART;
         /** @internal */
@@ -1123,13 +1108,6 @@ class AttributePart {
         if (ENABLE_EXTRA_SECURITY_HOOKS) {
             this._sanitizer = undefined;
         }
-    }
-    get tagName() {
-        return this.element.tagName;
-    }
-    // See comment in Disconnectable interface for why this is a getter
-    get _$isConnected() {
-        return this._$parent._$isConnected;
     }
     /**
      * Sets the value of this part by resolving the value from possibly multiple
@@ -1178,12 +1156,13 @@ class AttributePart {
                     // If the user-provided value is `noChange`, use the previous value
                     v = this._$committedValue[i];
                 }
-                change || (change = !isPrimitive(v) || v !== this._$committedValue[i]);
+                change ||=
+                    !isPrimitive(v) || v !== this._$committedValue[i];
                 if (v === nothing) {
                     value = nothing;
                 }
                 else if (value !== nothing) {
-                    value += (v !== null && v !== void 0 ? v : '') + strings[i + 1];
+                    value += (v ?? '') + strings[i + 1];
                 }
                 // We always record each value, even if one is `nothing`, for future
                 // change detection.
@@ -1204,16 +1183,17 @@ class AttributePart {
                 if (this._sanitizer === undefined) {
                     this._sanitizer = sanitizerFactoryInternal(this.element, this.name, 'attribute');
                 }
-                value = this._sanitizer(value !== null && value !== void 0 ? value : '');
+                value = this._sanitizer(value ?? '');
             }
-            debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-                kind: 'commit attribute',
-                element: this.element,
-                name: this.name,
-                value,
-                options: this.options,
-            });
-            wrap(this.element).setAttribute(this.name, (value !== null && value !== void 0 ? value : ''));
+            debugLogEvent &&
+                debugLogEvent({
+                    kind: 'commit attribute',
+                    element: this.element,
+                    name: this.name,
+                    value,
+                    options: this.options,
+                });
+            wrap(this.element).setAttribute(this.name, (value ?? ''));
         }
     }
 }
@@ -1230,24 +1210,18 @@ class PropertyPart extends AttributePart {
             }
             value = this._sanitizer(value);
         }
-        debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-            kind: 'commit property',
-            element: this.element,
-            name: this.name,
-            value,
-            options: this.options,
-        });
+        debugLogEvent &&
+            debugLogEvent({
+                kind: 'commit property',
+                element: this.element,
+                name: this.name,
+                value,
+                options: this.options,
+            });
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         this.element[this.name] = value === nothing ? undefined : value;
     }
 }
-// Temporary workaround for https://crbug.com/993268
-// Currently, any attribute starting with "on" is considered to be a
-// TrustedScript source. Such boolean attributes must be set to the equivalent
-// trusted emptyScript value.
-const emptyStringForBooleanAttribute = trustedTypes
-    ? trustedTypes.emptyScript
-    : '';
 class BooleanAttributePart extends AttributePart {
     constructor() {
         super(...arguments);
@@ -1255,19 +1229,15 @@ class BooleanAttributePart extends AttributePart {
     }
     /** @internal */
     _commitValue(value) {
-        debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-            kind: 'commit boolean attribute',
-            element: this.element,
-            name: this.name,
-            value: !!(value && value !== nothing),
-            options: this.options,
-        });
-        if (value && value !== nothing) {
-            wrap(this.element).setAttribute(this.name, emptyStringForBooleanAttribute);
-        }
-        else {
-            wrap(this.element).removeAttribute(this.name);
-        }
+        debugLogEvent &&
+            debugLogEvent({
+                kind: 'commit boolean attribute',
+                element: this.element,
+                name: this.name,
+                value: !!(value && value !== nothing),
+                options: this.options,
+            });
+        wrap(this.element).toggleAttribute(this.name, !!value && value !== nothing);
     }
 }
 class EventPart extends AttributePart {
@@ -1284,9 +1254,8 @@ class EventPart extends AttributePart {
     // since the dirty checking is more complex
     /** @internal */
     _$setValue(newListener, directiveParent = this) {
-        var _a;
         newListener =
-            (_a = resolveDirective(this, newListener, directiveParent, 0)) !== null && _a !== void 0 ? _a : nothing;
+            resolveDirective(this, newListener, directiveParent, 0) ?? nothing;
         if (newListener === noChange) {
             return;
         }
@@ -1304,16 +1273,17 @@ class EventPart extends AttributePart {
         // to add the part as a listener.
         const shouldAddListener = newListener !== nothing &&
             (oldListener === nothing || shouldRemoveListener);
-        debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-            kind: 'commit event listener',
-            element: this.element,
-            name: this.name,
-            value: newListener,
-            options: this.options,
-            removeListener: shouldRemoveListener,
-            addListener: shouldAddListener,
-            oldListener,
-        });
+        debugLogEvent &&
+            debugLogEvent({
+                kind: 'commit event listener',
+                element: this.element,
+                name: this.name,
+                value: newListener,
+                options: this.options,
+                removeListener: shouldRemoveListener,
+                addListener: shouldAddListener,
+                oldListener,
+            });
         if (shouldRemoveListener) {
             this.element.removeEventListener(this.name, this, oldListener);
         }
@@ -1326,9 +1296,8 @@ class EventPart extends AttributePart {
         this._$committedValue = newListener;
     }
     handleEvent(event) {
-        var _a, _b;
         if (typeof this._$committedValue === 'function') {
-            this._$committedValue.call((_b = (_a = this.options) === null || _a === void 0 ? void 0 : _a.host) !== null && _b !== void 0 ? _b : this.element, event);
+            this._$committedValue.call(this.options?.host ?? this.element, event);
         }
         else {
             this._$committedValue.handleEvent(event);
@@ -1349,12 +1318,13 @@ class ElementPart {
         return this._$parent._$isConnected;
     }
     _$setValue(value) {
-        debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-            kind: 'commit to element binding',
-            element: this.element,
-            value,
-            options: this.options,
-        });
+        debugLogEvent &&
+            debugLogEvent({
+                kind: 'commit to element binding',
+                element: this.element,
+                value,
+                options: this.options,
+            });
         resolveDirective(this, value);
     }
 }
@@ -1398,10 +1368,10 @@ export const _$LH = {
 const polyfillSupport = DEV_MODE
     ? global.litHtmlPolyfillSupportDevMode
     : global.litHtmlPolyfillSupport;
-polyfillSupport === null || polyfillSupport === void 0 ? void 0 : polyfillSupport(Template, ChildPart);
+polyfillSupport?.(Template, ChildPart);
 // IMPORTANT: do not change the property name or the assignment expression.
 // This line will be used in regexes to search for lit-html usage.
-((_d = global.litHtmlVersions) !== null && _d !== void 0 ? _d : (global.litHtmlVersions = [])).push('2.8.0');
+(global.litHtmlVersions ??= []).push('3.0.0');
 if (DEV_MODE && global.litHtmlVersions.length > 1) {
     issueWarning('multiple-versions', `Multiple versions of Lit loaded. ` +
         `Loading multiple versions is not recommended.`);
@@ -1432,7 +1402,6 @@ if (DEV_MODE && global.litHtmlVersions.length > 1) {
  * {@link https://lit.dev/docs/libraries/standalone-templates/#rendering-lit-html-templates| Rendering Lit HTML Templates}
  */
 export const render = (value, container, options) => {
-    var _a, _b;
     if (DEV_MODE && container == null) {
         // Give a clearer error message than
         //     Uncaught TypeError: Cannot read properties of null (reading
@@ -1441,33 +1410,35 @@ export const render = (value, container, options) => {
         throw new TypeError(`The container to render into may not be ${container}`);
     }
     const renderId = DEV_MODE ? debugLogRenderId++ : 0;
-    const partOwnerNode = (_a = options === null || options === void 0 ? void 0 : options.renderBefore) !== null && _a !== void 0 ? _a : container;
+    const partOwnerNode = options?.renderBefore ?? container;
     // This property needs to remain unminified.
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let part = partOwnerNode['_$litPart$'];
-    debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-        kind: 'begin render',
-        id: renderId,
-        value,
-        container,
-        options,
-        part,
-    });
+    debugLogEvent &&
+        debugLogEvent({
+            kind: 'begin render',
+            id: renderId,
+            value,
+            container,
+            options,
+            part,
+        });
     if (part === undefined) {
-        const endNode = (_b = options === null || options === void 0 ? void 0 : options.renderBefore) !== null && _b !== void 0 ? _b : null;
+        const endNode = options?.renderBefore ?? null;
         // This property needs to remain unminified.
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        partOwnerNode['_$litPart$'] = part = new ChildPart(container.insertBefore(createMarker(), endNode), endNode, undefined, options !== null && options !== void 0 ? options : {});
+        partOwnerNode['_$litPart$'] = part = new ChildPart(container.insertBefore(createMarker(), endNode), endNode, undefined, options ?? {});
     }
     part._$setValue(value);
-    debugLogEvent === null || debugLogEvent === void 0 ? void 0 : debugLogEvent({
-        kind: 'end render',
-        id: renderId,
-        value,
-        container,
-        options,
-        part,
-    });
+    debugLogEvent &&
+        debugLogEvent({
+            kind: 'end render',
+            id: renderId,
+            value,
+            container,
+            options,
+            part,
+        });
     return part;
 };
 if (ENABLE_EXTRA_SECURITY_HOOKS) {

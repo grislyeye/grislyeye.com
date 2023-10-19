@@ -15,6 +15,7 @@ class RenderLightDirective extends Directive {
         if (typeof instance.renderLight === 'function') {
             return instance.renderLight();
         }
+        return;
     }
 }
 RenderLightDirective._$litRenderLight = true;
@@ -103,7 +104,7 @@ RenderLightDirective._$litRenderLight = true;
  * faster to first contentful paint than the "deep" SSR that is common place.
  */
 const renderLight = directive(RenderLightDirective);
-const isRenderLightDirective = (value) => { var _a; return (_a = getDirectiveClass(value)) === null || _a === void 0 ? void 0 : _a._$litRenderLight; };
+const isRenderLightDirective = (value) => getDirectiveClass(value)?._$litRenderLight;
 
 export { isRenderLightDirective, renderLight };
 //# sourceMappingURL=render-light.js.map

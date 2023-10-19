@@ -3,13 +3,12 @@
  * Copyright 2020 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
-var _a, _b;
 import { _$LH, } from './lit-html.js';
 const { _ChildPart: ChildPart } = _$LH;
 const ENABLE_SHADYDOM_NOPATCH = true;
 const wrap = ENABLE_SHADYDOM_NOPATCH &&
-    ((_a = window.ShadyDOM) === null || _a === void 0 ? void 0 : _a.inUse) &&
-    ((_b = window.ShadyDOM) === null || _b === void 0 ? void 0 : _b.noPatch) === true
+    window.ShadyDOM?.inUse &&
+    window.ShadyDOM?.noPatch === true
     ? window.ShadyDOM.wrap
     : (node) => node;
 /**
@@ -27,27 +26,26 @@ export const TemplateResultType = {
  */
 export const isTemplateResult = (value, type) => type === undefined
     ? // This property needs to remain unminified.
-        (value === null || value === void 0 ? void 0 : value['_$litType$']) !== undefined
-    : (value === null || value === void 0 ? void 0 : value['_$litType$']) === type;
+        value?.['_$litType$'] !== undefined
+    : value?.['_$litType$'] === type;
 /**
  * Tests if a value is a CompiledTemplateResult.
  */
 export const isCompiledTemplateResult = (value) => {
-    var _a;
-    return ((_a = value === null || value === void 0 ? void 0 : value['_$litType$']) === null || _a === void 0 ? void 0 : _a.h) != null;
+    return value?.['_$litType$']?.h != null;
 };
 /**
  * Tests if a value is a DirectiveResult.
  */
 export const isDirectiveResult = (value) => 
 // This property needs to remain unminified.
-(value === null || value === void 0 ? void 0 : value['_$litDirective$']) !== undefined;
+value?.['_$litDirective$'] !== undefined;
 /**
  * Retrieves the Directive class for a DirectiveResult
  */
 export const getDirectiveClass = (value) => 
 // This property needs to remain unminified.
-value === null || value === void 0 ? void 0 : value['_$litDirective$'];
+value?.['_$litDirective$'];
 /**
  * Tests whether a part has only a single-expression with no strings to
  * interpolate between.
@@ -71,7 +69,6 @@ const createMarker = () => document.createComment('');
  * @param part Part to insert, or undefined to create a new part
  */
 export const insertPart = (containerPart, refPart, part) => {
-    var _a;
     const container = wrap(containerPart._$startNode).parentNode;
     const refNode = refPart === undefined ? containerPart._$endNode : refPart._$startNode;
     if (part === undefined) {
@@ -84,7 +81,7 @@ export const insertPart = (containerPart, refPart, part) => {
         const oldParent = part._$parent;
         const parentChanged = oldParent !== containerPart;
         if (parentChanged) {
-            (_a = part._$reparentDisconnectables) === null || _a === void 0 ? void 0 : _a.call(part, containerPart);
+            part._$reparentDisconnectables?.(containerPart);
             // Note that although `_$reparentDisconnectables` updates the part's
             // `_$parent` reference after unlinking from its current parent, that
             // method only exists if Disconnectables are present, so we need to
@@ -167,8 +164,7 @@ export const getCommittedValue = (part) => part._$committedValue;
  * @param part The Part to remove
  */
 export const removePart = (part) => {
-    var _a;
-    (_a = part._$notifyConnectionChanged) === null || _a === void 0 ? void 0 : _a.call(part, false, true);
+    part._$notifyConnectionChanged?.(false, true);
     let start = part._$startNode;
     const end = wrap(part._$endNode).nextSibling;
     while (start !== end) {

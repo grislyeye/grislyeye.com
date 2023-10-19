@@ -5,7 +5,9 @@
  */
 import { Part, DirectiveParent, TemplateResult, CompiledTemplateResult } from './lit-html.js';
 import { DirectiveResult, DirectiveClass, PartInfo } from './directive.js';
-declare type Primitive = null | undefined | boolean | number | string | symbol | bigint;
+type Primitive = null | undefined | boolean | number | string | symbol | bigint;
+declare const ChildPart: typeof import("./lit-html.js").ChildPart;
+type ChildPart = InstanceType<typeof ChildPart>;
 /**
  * Tests if a value is a primitive value.
  *
@@ -16,8 +18,8 @@ export declare const TemplateResultType: {
     readonly HTML: 1;
     readonly SVG: 2;
 };
-export declare type TemplateResultType = (typeof TemplateResultType)[keyof typeof TemplateResultType];
-declare type IsTemplateResult = {
+export type TemplateResultType = (typeof TemplateResultType)[keyof typeof TemplateResultType];
+type IsTemplateResult = {
     (val: unknown): val is TemplateResult | CompiledTemplateResult;
     <T extends TemplateResultType>(val: unknown, type: T): val is TemplateResult<T>;
 };
@@ -58,7 +60,7 @@ export declare const isSingleExpression: (part: PartInfo) => boolean;
  *     part added to the end of the `containerPart`
  * @param part Part to insert, or undefined to create a new part
  */
-export declare const insertPart: (containerPart: import("./lit-html.js").ChildPart, refPart?: import("./lit-html.js").ChildPart | undefined, part?: import("./lit-html.js").ChildPart | undefined) => import("./lit-html.js").ChildPart;
+export declare const insertPart: (containerPart: ChildPart, refPart?: ChildPart, part?: ChildPart) => ChildPart;
 /**
  * Sets the value of a Part.
  *
@@ -102,13 +104,13 @@ export declare const setCommittedValue: (part: Part, value?: unknown) => unknown
  *
  * @param part
  */
-export declare const getCommittedValue: (part: import("./lit-html.js").ChildPart) => unknown;
+export declare const getCommittedValue: (part: ChildPart) => unknown;
 /**
  * Removes a ChildPart from the DOM, including any of its content.
  *
  * @param part The Part to remove
  */
-export declare const removePart: (part: import("./lit-html.js").ChildPart) => void;
-export declare const clearPart: (part: import("./lit-html.js").ChildPart) => void;
+export declare const removePart: (part: ChildPart) => void;
+export declare const clearPart: (part: ChildPart) => void;
 export {};
 //# sourceMappingURL=directive-helpers.d.ts.map

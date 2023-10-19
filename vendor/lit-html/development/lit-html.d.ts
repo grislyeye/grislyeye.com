@@ -161,7 +161,7 @@ export declare namespace LitUnstable {
  *     be to a property or a node.
  * @return A function that will sanitize this class of writes.
  */
-export declare type SanitizerFactory = (node: Node, name: string, type: 'property' | 'attribute') => ValueSanitizer;
+export type SanitizerFactory = (node: Node, name: string, type: 'property' | 'attribute') => ValueSanitizer;
 /**
  * A function which can sanitize values that will be written to a specific kind
  * of DOM sink.
@@ -173,11 +173,11 @@ export declare type SanitizerFactory = (node: Node, name: string, type: 'propert
  * @return The value to write to the DOM. Usually the same as the input value,
  *     unless sanitization is needed.
  */
-export declare type ValueSanitizer = (value: unknown) => unknown;
+export type ValueSanitizer = (value: unknown) => unknown;
 /** TemplateResult types */
 declare const HTML_RESULT = 1;
 declare const SVG_RESULT = 2;
-declare type ResultType = typeof HTML_RESULT | typeof SVG_RESULT;
+type ResultType = typeof HTML_RESULT | typeof SVG_RESULT;
 declare const ATTRIBUTE_PART = 1;
 declare const CHILD_PART = 2;
 declare const ELEMENT_PART = 6;
@@ -195,13 +195,13 @@ declare const COMMENT_PART = 7;
  * [Rendering](https://lit.dev/docs/components/rendering) for more information.
  *
  */
-export declare type TemplateResult<T extends ResultType = ResultType> = {
+export type TemplateResult<T extends ResultType = ResultType> = {
     ['_$litType$']: T;
     strings: TemplateStringsArray;
     values: unknown[];
 };
-export declare type HTMLTemplateResult = TemplateResult<typeof HTML_RESULT>;
-export declare type SVGTemplateResult = TemplateResult<typeof SVG_RESULT>;
+export type HTMLTemplateResult = TemplateResult<typeof HTML_RESULT>;
+export type SVGTemplateResult = TemplateResult<typeof SVG_RESULT>;
 export interface CompiledTemplateResult {
     ['_$litType$']: CompiledTemplate;
     values: unknown[];
@@ -341,22 +341,22 @@ declare class TemplateInstance implements Disconnectable {
     _clone(options: RenderOptions | undefined): Node;
     _update(values: Array<unknown>): void;
 }
-declare type AttributeTemplatePart = {
+type AttributeTemplatePart = {
     readonly type: typeof ATTRIBUTE_PART;
     readonly index: number;
     readonly name: string;
     readonly ctor: typeof AttributePart;
     readonly strings: ReadonlyArray<string>;
 };
-declare type ChildTemplatePart = {
+type ChildTemplatePart = {
     readonly type: typeof CHILD_PART;
     readonly index: number;
 };
-declare type ElementTemplatePart = {
+type ElementTemplatePart = {
     readonly type: typeof ELEMENT_PART;
     readonly index: number;
 };
-declare type CommentTemplatePart = {
+type CommentTemplatePart = {
     readonly type: typeof COMMENT_PART;
     readonly index: number;
 };
@@ -365,8 +365,8 @@ declare type CommentTemplatePart = {
  * is instantiated. When a template is instantiated Parts are created from
  * TemplateParts.
  */
-declare type TemplatePart = ChildTemplatePart | AttributeTemplatePart | ElementTemplatePart | CommentTemplatePart;
-export declare type Part = ChildPart | AttributePart | PropertyPart | BooleanAttributePart | ElementPart | EventPart;
+type TemplatePart = ChildTemplatePart | AttributeTemplatePart | ElementTemplatePart | CommentTemplatePart;
+export type Part = ChildPart | AttributePart | PropertyPart | BooleanAttributePart | ElementPart | EventPart;
 export type { ChildPart };
 declare class ChildPart implements Disconnectable {
     readonly type = 2;
@@ -508,7 +508,7 @@ export declare const _$LH: {
     _marker: string;
     _markerMatch: string;
     _HTML_RESULT: number;
-    _getTemplateHtml: (strings: TemplateStringsArray, type: ResultType) => [TrustedHTML, Array<string | undefined>];
+    _getTemplateHtml: (strings: TemplateStringsArray, type: ResultType) => [TrustedHTML, Array<string>];
     _TemplateInstance: typeof TemplateInstance;
     _isIterable: (value: unknown) => value is Iterable<unknown>;
     _resolveDirective: typeof resolveDirective;

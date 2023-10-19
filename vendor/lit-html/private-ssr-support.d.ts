@@ -22,7 +22,7 @@ export declare const _$LH: {
     marker: string;
     markerMatch: string;
     HTML_RESULT: number;
-    getTemplateHtml: (strings: TemplateStringsArray, type: 1 | 2) => [import("trusted-types/lib/index.js").TrustedHTML, (string | undefined)[]];
+    getTemplateHtml: (strings: TemplateStringsArray, type: 1 | 2) => [import("trusted-types/lib/index.js").TrustedHTML, string[]];
     overrideDirectiveResolve: (directiveClass: new (part: PartInfo) => Directive & {
         render(): unknown;
     }, resolveOverrideFn: (directive: Directive, values: unknown[]) => unknown) => {

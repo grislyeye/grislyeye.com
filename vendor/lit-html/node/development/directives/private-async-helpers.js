@@ -70,15 +70,13 @@ class Pauser {
      * Creates a promise to be awaited
      */
     pause() {
-        var _a;
-        (_a = this._promise) !== null && _a !== void 0 ? _a : (this._promise = new Promise((resolve) => (this._resolve = resolve)));
+        this._promise ??= new Promise((resolve) => (this._resolve = resolve));
     }
     /**
      * Resolves the promise which may be awaited
      */
     resume() {
-        var _a;
-        (_a = this._resolve) === null || _a === void 0 ? void 0 : _a.call(this);
+        this._resolve?.();
         this._promise = this._resolve = undefined;
     }
 }

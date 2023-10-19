@@ -1,4 +1,4 @@
-import { decorateProperty } from './base.js';
+import { desc } from './base.js';
 
 /**
  * @license
@@ -31,28 +31,58 @@ import { decorateProperty } from './base.js';
  * @category Decorator
  */
 function query(selector, cache) {
-    return decorateProperty({
-        descriptor: (name) => {
-            const descriptor = {
+    return ((protoOrTarget, nameOrContext, descriptor) => {
+        const doQuery = (el) => {
+            // TODO: if we want to allow users to assert that the query will never
+            // return null, we need a new option and to throw here if the result
+            // is null.
+            return (el.renderRoot?.querySelector(selector) ?? null);
+        };
+        if (cache) {
+            // Accessors to wrap from either:
+            //   1. The decorator target, in the case of standard decorators
+            //   2. The property descriptor, in the case of experimental decorators
+            //      on auto-accessors.
+            //   3. Functions that access our own cache-key property on the instance,
+            //      in the case of experimental decorators on fields.
+            const { get, set } = typeof nameOrContext === 'object'
+                ? protoOrTarget
+                : descriptor ??
+                    (() => {
+                        const key = Symbol(`${String(nameOrContext)} (@query() cache)`)
+                            ;
+                        return {
+                            get() {
+                                return this[key];
+                            },
+                            set(v) {
+                                this[key] = v;
+                            },
+                        };
+                    })();
+            return desc(protoOrTarget, nameOrContext, {
                 get() {
-                    var _a, _b;
-                    return (_b = (_a = this.renderRoot) === null || _a === void 0 ? void 0 : _a.querySelector(selector)) !== null && _b !== void 0 ? _b : null;
-                },
-                enumerable: true,
-                configurable: true,
-            };
-            if (cache) {
-                const key = typeof name === 'symbol' ? Symbol() : `__${name}`;
-                descriptor.get = function () {
-                    var _a, _b;
-                    if (this[key] === undefined) {
-                        this[key] = (_b = (_a = this.renderRoot) === null || _a === void 0 ? void 0 : _a.querySelector(selector)) !== null && _b !== void 0 ? _b : null;
+                    if (cache) {
+                        let result = get.call(this);
+                        if (result === undefined) {
+                            result = doQuery(this);
+                            set.call(this, result);
+                        }
+                        return result;
                     }
-                    return this[key];
-                };
-            }
-            return descriptor;
-        },
+                    return doQuery(this);
+                },
+            });
+        }
+        else {
+            // This object works as the return type for both standard and
+            // experimental decorators.
+            return desc(protoOrTarget, nameOrContext, {
+                get() {
+                    return doQuery(this);
+                },
+            });
+        }
     });
 }
 

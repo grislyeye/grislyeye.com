@@ -72,7 +72,7 @@ export const hydrate = (rootValue, container, options = {}) => {
     // Used to remember parent template state as we recurse into nested
     // templates
     const stack = [];
-    const walker = document.createTreeWalker(container, NodeFilter.SHOW_COMMENT, null, false);
+    const walker = document.createTreeWalker(container, NodeFilter.SHOW_COMMENT);
     let marker;
     // Walk the DOM looking for part marker comments
     while ((marker = walker.nextNode()) !== null) {
@@ -85,8 +85,8 @@ export const hydrate = (rootValue, container, options = {}) => {
             }
             // Create a new ChildPart and push it onto the stack
             currentChildPart = openChildPart(rootValue, marker, stack, options);
-            rootPart !== null && rootPart !== void 0 ? rootPart : (rootPart = currentChildPart);
-            rootPartMarker !== null && rootPartMarker !== void 0 ? rootPartMarker : (rootPartMarker = marker);
+            rootPart ??= currentChildPart;
+            rootPartMarker ??= marker;
         }
         else if (markerText.startsWith('lit-node')) {
             // Create and hydrate attribute parts into the current ChildPart on the
