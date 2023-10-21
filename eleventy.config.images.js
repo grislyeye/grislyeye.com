@@ -27,9 +27,9 @@ module.exports = (eleventyConfig) => {
     return eleventyImage.generateHTML(metadata, Object.assign(imageAttributes, attributes || {}));
   });
 
-  eleventyConfig.addAsyncShortcode('rawImageUrl', async function imageShortcode(src, width) {
+  eleventyConfig.addAsyncShortcode('rawImageUrl', async (post, src, width) => {
     const formats = ['webp'];
-    const file = relativeToInputPath(this.page.inputPath, src);
+    const file = relativeToInputPath(post.inputPath, src);
     const metadata = await eleventyImage(file, {
       widths: width ? [width] : ['auto'],
       formats,

@@ -30,8 +30,8 @@ eleventyNavigation:
           <my-preview
             class="{{ post.data.tags.join(' ') }} {{ theme }} featured"
             {% if post.data.image %}
-              {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
-              background="{% rawImageUrl imagePath, 400 %}"
+              {% set imagePath %}.{{ post.inputPath }}/{{ post.data.image }}{% endset %}
+              background="{% rawImageUrl post, post.data.image, 400 %}"
             {% endif %}
             preload
           >
@@ -61,7 +61,7 @@ eleventyNavigation:
           <my-preview
             {% if post.data.image %}
               {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
-              background="{% rawImageUrl imagePath, 400 %}"
+              background="{% rawImageUrl post, post.data.image, 400 %}"
             {% endif %}
             class="{{ post.data.tags.join(' ') }} {{ theme }}"
           >

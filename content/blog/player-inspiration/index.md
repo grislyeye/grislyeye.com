@@ -4,6 +4,7 @@ date: 2019-02-12
 tags: posts
 layout: layouts/post.njk
 image: the-star.jpg
+permalink: "{% backwardSupportPermalinkStem page %}.html"
 ---
 <div id="inspiration-illustration" class="illustration">
   {% image "the-star.jpg", "Inspiration Illustration", ["400"] %}

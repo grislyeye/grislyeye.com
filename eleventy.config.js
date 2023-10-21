@@ -11,6 +11,8 @@ const pluginFavicons = require('eleventy-plugin-gen-favicons');
 const pluginSEO = require('eleventy-plugin-seo');
 const pluginGoogleFonts = require('eleventy-google-fonts');
 
+const path = require('path');
+
 const pluginImages = require('./eleventy.config.images.js');
 const metadata = require('./_data/metadata.js');
 
@@ -90,6 +92,10 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+  });
+
+  eleventyConfig.addShortcode('backwardSupportPermalinkStem', (page) => {
+    return path.dirname(page.filePathStem);
   });
 
   return {
