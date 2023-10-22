@@ -53,7 +53,7 @@ footer {
   margin: 0 auto;
 }
 
-main header {
+main > header {
   margin-bottom: 7rem;
 }
 

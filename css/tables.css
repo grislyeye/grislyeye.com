@@ -13,6 +13,7 @@
 
 .content table {
   border-collapse: collapse;
+  text-align: left;
 }
 
 .content table td.number,

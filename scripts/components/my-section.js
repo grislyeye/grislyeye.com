@@ -58,6 +58,10 @@ class MySection extends LitElement {
         max-width: unset; */
       }
     }
+
+    ::slotted(p) {
+      margin-top: 0;
+    }
   `;
 
   static properties = {

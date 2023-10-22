@@ -20,8 +20,8 @@
 #post h5 {
   font-family: var(--title-font-family);
   font-variant: small-caps;
-  margin-top: 1.5rem;
-  margin-bottom: 0;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 #post h2 {
@@ -38,4 +38,17 @@
 
 #post table {
   margin-bottom: 1.5rem;
+}
+
+#post header {
+  margin-bottom: 1rem;
+}
+
+#post header p,
+#post header h1,
+#post header h2,
+#post header h3,
+#post header h4 {
+  margin-top: 0;
+  margin-bottom: 0;
 }

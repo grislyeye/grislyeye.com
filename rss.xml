@@ -32,7 +32,7 @@
 
 &lt;p&gt;Inspired by the original &lt;span class=&quot;product&quot;&gt;Warhammer Fantasy Roleplay&lt;/span&gt;, you can use &lt;span class=&quot;title&quot;&gt;Wargod!&lt;/span&gt; to run your old adventures or plunge into new worlds of dark fantasy.&lt;/p&gt;
 
-&lt;h5&gt;Old-school British hack&lt;/h5&gt;
+&lt;h4&gt;Old-school British hack&lt;/h4&gt;
 
 &lt;p&gt;The book includes:&lt;/p&gt;
 
@@ -652,7 +652,7 @@
     <content type="html">&lt;p class=&quot;preview&quot;&gt;Here is a (brief) list of languages for my homebrew setting. As is my wont, I eschew common fantasy languages like Elvish. Instead, the following languages are spoken and written in the Low Kingdoms...&lt;/p&gt;
 
 &lt;aside&gt;
-  &lt;h5&gt;The Low Kingdoms&lt;/h5&gt;
+  &lt;h4&gt;The Low Kingdoms&lt;/h4&gt;
 
   &lt;p&gt;I&#39;ve been tinkering with my homebrew setting, the Low Kingdoms, for a few years now. Mostly through play.&lt;/p&gt;
 
@@ -1046,7 +1046,7 @@
 &lt;p&gt;The scene starts in the &lt;q&gt;Fumble With The Maid Inn&lt;/q&gt; (or just &lt;strong&gt;The Fumble&lt;/strong&gt;). The PCs are involved in a strange game of chance with the mysterious Saphraim.&lt;/p&gt;
 
 &lt;div class=&quot;fate card&quot;&gt;
-  &lt;h5&gt;The Fumble&lt;/h5&gt;
+  &lt;h4&gt;The Fumble&lt;/h4&gt;
 
   &lt;p&gt;&lt;span class=&quot;fate aspect&quot;&gt;Knaves and Whores&lt;/span&gt;&lt;/p&gt;
 
@@ -1056,7 +1056,7 @@
 &lt;/div&gt;
 
 &lt;div class=&quot;fate card&quot;&gt;
-  &lt;h5&gt;Saphraim&lt;/h5&gt;
+  &lt;h4&gt;Saphraim&lt;/h4&gt;
 
   &lt;p&gt;&lt;span class=&quot;fate aspect&quot;&gt;Mysterious Gambler&lt;/span&gt;&lt;/p&gt;
 
@@ -1153,7 +1153,7 @@
   &lt;p&gt;I intended for &lt;strong&gt;Nubbin&lt;/strong&gt; to burst into the inn in the next scene and start a brawl. But I roll a 1 against the Chaos Factor: it&#39;s odd, so I make a scene alteration. I roll on the emulator event table. The alteration is &lt;q&gt;NPC action&lt;/q&gt;. For prompts, I roll &lt;q&gt;Disrupt Power&lt;/q&gt; on the event meaning table, and interpret this as Nubbin sneaking up on the PCs, rather than bursting in.&lt;/p&gt;
 
   &lt;div class=&quot;fate card&quot;&gt;
-    &lt;h5&gt;Nubbin&lt;/h5&gt;
+    &lt;h4&gt;Nubbin&lt;/h4&gt;
 
     &lt;p&gt;&lt;span class=&quot;fate aspect&quot;&gt;Sadistic Court Jester&lt;/span&gt;&lt;/p&gt;
 
@@ -1169,7 +1169,7 @@
   &lt;/div&gt;
 
   &lt;div class=&quot;fate card&quot;&gt;
-    &lt;h5&gt;King&#39;s Men&lt;/h5&gt;
+    &lt;h4&gt;King&#39;s Men&lt;/h4&gt;
 
     &lt;p&gt;&lt;span class=&quot;fate aspect&quot;&gt;Bloodlust&lt;/span&gt;&lt;/p&gt;
 
@@ -1616,11 +1616,11 @@
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/0l0ydY64fL-900.avif 900w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/0l0ydY64fL-900.webp 900w&quot; /&gt;&lt;img alt=&quot;Illustration of Might Attribute&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/0l0ydY64fL-900.png&quot; width=&quot;900&quot; height=&quot;203&quot; /&gt;&lt;/picture&gt;
 &lt;/figure&gt;
 
-&lt;h5&gt;Fighting Style&lt;/h5&gt;
+&lt;h4&gt;Fighting Style&lt;/h4&gt;
 
 &lt;p&gt;An easy win is to cleave off the 1st level fighting styles. Trivially, each style could work as the basis for a new subclass. Dueling for a Dueller subclass, etc. In this case, I will be using the Protection fighting style for the Defender.&lt;/p&gt;
 
-&lt;h5&gt;Second Wind&lt;/h5&gt;
+&lt;h4&gt;Second Wind&lt;/h4&gt;
 
 &lt;p&gt;Second Wind is a 1st-level Fight, short-rest feature that allows you to regain 1d10 hit points (plus your level). It’s pretty useful and powerful on its own, but I wanted more choice here.&lt;/p&gt;
 
@@ -1736,7 +1736,7 @@
   &lt;p class=&quot;caption&quot;&gt;Illustration from &lt;span class=&quot;product&quot;&gt;B2 Keep on the Borderlands&lt;/span&gt;, by David S. LaForce.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;h5 id=&quot;old-school-charm&quot;&gt;Old-School Charm&lt;/h5&gt;
+&lt;h4 id=&quot;old-school-charm&quot;&gt;Old-School Charm&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;q&gt;A sheer wall of natural stone is on your left, the path falling away to a steep cliff on the right. There is a small widening ahead, where the main gate to the KEEP is.&lt;/q&gt;
@@ -1753,7 +1753,7 @@
 
 &lt;p&gt;Marvellous.&lt;/p&gt;
 
-&lt;h5 id=&quot;hard-to-be-basic&quot;&gt;It&#39;s Hard to be this Basic&lt;/h5&gt;
+&lt;h4 id=&quot;hard-to-be-basic&quot;&gt;It&#39;s Hard to be this Basic&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;q&gt;Imagine: you are a strong hero, a famous but poor fighter.&lt;/q&gt;
@@ -1771,7 +1771,7 @@
   &lt;p class=&quot;caption&quot;&gt;Wilderness map from &lt;span class=&quot;product&quot;&gt;B2 Keep on the Borderlands&lt;/span&gt;.&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;h5 id=&quot;wandering-monsters&quot;&gt;What of Wandering Monsters?&lt;/h5&gt;
+&lt;h4 id=&quot;wandering-monsters&quot;&gt;What of Wandering Monsters?&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;q&gt;...whatever walked there, walked alone.&lt;/q&gt;
@@ -1784,7 +1784,7 @@
 
 &lt;p&gt;It has some nice features. Now encounters have a context. A monster has a reason for being there. No need to improvise motivations or other details. But calculating proximity odds is fiddly, which is probably why it never caught on. Fair enough.&lt;/p&gt;
 
-&lt;h5 id=&quot;rulings&quot;&gt;Rules, Rulings, and Rulings&lt;/h5&gt;
+&lt;h4 id=&quot;rulings&quot;&gt;Rules, Rulings, and Rulings&lt;/h4&gt;
 
 &lt;blockquote&gt;
   &lt;q&gt;Do not make exceptions; stick to the rules, and be fair.&lt;/q&gt;
@@ -1872,7 +1872,7 @@
 
 &lt;p&gt;Of course, it is also unlike a dungeon. The stakes are lower. It&#39;s safer, or at least safer than a monster-filled crypt. Water and food are widely available. Etc.&lt;/p&gt;
 
-&lt;h5&gt;Pathcrawls&lt;/h5&gt;
+&lt;h4&gt;Pathcrawls&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://detectmagic.blogspot.com/2014/04/pathcrawl&quot;&gt;Pathcrawls&lt;/a&gt; are useful for labyrinthine cities. The ancient city of Dismas is the main stage of play in my long-running &lt;a href=&quot;https://grislyeye.com/blog/black-griffin-session-41.html&quot;&gt;Black Griffin campaign&lt;/a&gt;. And pathcrawls have been used to great effect.&lt;/p&gt;
 
@@ -2809,7 +2809,7 @@
 
 &lt;section id=&quot;complication-hobbled&quot; class=&quot;small&quot;&gt;
   &lt;header&gt;
-    &lt;h5&gt;Hobbled&lt;/h5&gt;
+    &lt;h4&gt;Hobbled&lt;/h4&gt;
     &lt;p&gt;&lt;em&gt;Prerequisite: Dexterity 11 or lower&lt;/em&gt;&lt;/p&gt;
   &lt;/header&gt;
 
@@ -2823,7 +2823,7 @@
 
 &lt;section id=&quot;complication-infirm&quot; class=&quot;small&quot;&gt;
   &lt;header&gt;
-    &lt;h5&gt;Infirm&lt;/h5&gt;
+    &lt;h4&gt;Infirm&lt;/h4&gt;
     &lt;p&gt;&lt;em&gt;Prerequisite: Constitution 11 or lower&lt;/em&gt;&lt;/p&gt;
   &lt;/header&gt;
 
@@ -2837,7 +2837,7 @@
 
 &lt;section id=&quot;complication-maimed&quot; class=&quot;small&quot;&gt;
   &lt;header&gt;
-    &lt;h5&gt;Maimed&lt;/h5&gt;
+    &lt;h4&gt;Maimed&lt;/h4&gt;
     &lt;p&gt;&lt;em&gt;Prerequisite: Strength 11 or lower&lt;/em&gt;&lt;/p&gt;
   &lt;/header&gt;
 
@@ -2846,7 +2846,7 @@
 
 &lt;section id=&quot;complication-oafish&quot; class=&quot;small&quot;&gt;
   &lt;header&gt;
-    &lt;h5&gt;Oafish&lt;/h5&gt;
+    &lt;h4&gt;Oafish&lt;/h4&gt;
     &lt;p&gt;&lt;em&gt;Prerequisite: Dexterity 11 or lower&lt;/em&gt;&lt;/p&gt;
   &lt;/header&gt;
 
@@ -2855,7 +2855,7 @@
 
 &lt;section id=&quot;complication-purblind&quot; class=&quot;small&quot;&gt;
   &lt;header&gt;
-    &lt;h5&gt;Purblind&lt;/h5&gt;
+    &lt;h4&gt;Purblind&lt;/h4&gt;
   &lt;/header&gt;
 
   &lt;p&gt;You are partially sighted. You take the following complications:&lt;/p&gt;
@@ -2881,7 +2881,7 @@
 &lt;/div&gt;
 
 &lt;header&gt;
-  &lt;h5&gt;The Head of St. Eras&lt;/h5&gt;
+  &lt;h4&gt;The Head of St. Eras&lt;/h4&gt;
   &lt;p&gt;&lt;em&gt;Wondrous item, legendary (requires attunement)&lt;/em&gt;&lt;/p&gt;
 &lt;/header&gt;
 
@@ -2905,7 +2905,7 @@
 &lt;/div&gt;
 
 &lt;header&gt;
-  &lt;h5&gt;Blood Brew&lt;/h5&gt;
+  &lt;h4&gt;Blood Brew&lt;/h4&gt;
   &lt;p&gt;&lt;em&gt;Potion, uncommon&lt;/em&gt;&lt;/p&gt;
 &lt;/header&gt;
 
@@ -3072,25 +3072,25 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h5 id=&quot;divination-magic-feature&quot;&gt;Divination Magic&lt;/h5&gt;
+&lt;h4 id=&quot;divination-magic-feature&quot;&gt;Divination Magic&lt;/h4&gt;
 
 &lt;p&gt;At 1st level you gain the ability to perceive the strands of fate. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the divination spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.&lt;/p&gt;
 
 &lt;p&gt;You also gain proficiency in a divination tool of your choice (see the divination tool variant equipment item below). When you use this divination tool you double your proficiency bonus. You may also use a divination tool you are proficient with as a spellcasting focus for your sorcerer spells.&lt;/p&gt;
 
-&lt;h5 id=&quot;witchs-eye-feature&quot;&gt;Witch&#39;s Eye&lt;/h5&gt;
+&lt;h4 id=&quot;witchs-eye-feature&quot;&gt;Witch&#39;s Eye&lt;/h4&gt;
 
 &lt;p&gt;You learn &lt;em&gt;detect magic&lt;/em&gt;. It doesn’t count against your number of sorcerer spells known and you can cast it as a bonus action without requiring verbal or somatic components.&lt;/p&gt;
 
-&lt;h5 id=&quot;fate-immunity-feature&quot;&gt;Fate Immunity&lt;/h5&gt;
+&lt;h4 id=&quot;fate-immunity-feature&quot;&gt;Fate Immunity&lt;/h4&gt;
 
 &lt;p&gt;At 6th level, you can use your powers to defend against the whims of fate. You can spend 2 sorcery points to gain resistance to one of the following damage types for 1 hour: bludgeoning, slashing, piercing or poison damage.&lt;/p&gt;
 
-&lt;h5 id=&quot;weave-fate-feature&quot;&gt;Weave Fate&lt;/h5&gt;
+&lt;h4 id=&quot;weave-fate-feature&quot;&gt;Weave Fate&lt;/h4&gt;
 
 &lt;p&gt;At 6th level, you learn to weave the strands of fate. You learn &lt;em&gt;bestow curse&lt;/em&gt;. It doesn’t count against your number of sorcerer spells.&lt;/p&gt;
 
-&lt;h5 id=&quot;improved-clairvoyance-feature&quot;&gt;Improved Clairvoyance&lt;/h5&gt;
+&lt;h4 id=&quot;improved-clairvoyance-feature&quot;&gt;Improved Clairvoyance&lt;/h4&gt;
 
 &lt;p&gt;At 14th level you learn &lt;em&gt;clairvoyance&lt;/em&gt; if you do not know it already. It doesn’t count against your number of sorcerer spells and you can cast it as a ritual.&lt;/p&gt;
 
@@ -3099,7 +3099,7 @@
 &lt;p&gt;Additionally, as an action you can float the invisible sensor created by the spell in any direction, at a speed of 30 feet. There is no limit to how far away from you the eye can move, but it can&#39;t enter another plane of existence. A solid barrier blocks the eye&#39;s movement, but the eye can pass through an opening as small as 1 inch in diameter.&lt;/p&gt;
 
 &lt;header&gt;
-  &lt;h5 id=&quot;variant-divination-tool&quot;&gt;Variant: Divination Tool&lt;/h5&gt;
+  &lt;h4 id=&quot;variant-divination-tool&quot;&gt;Variant: Divination Tool&lt;/h4&gt;
   &lt;p&gt;&lt;strong&gt;Cost:&lt;/strong&gt; 2gp&lt;br /&gt;
     &lt;strong&gt;Weight:&lt;/strong&gt; -
   &lt;/p&gt;
@@ -3170,7 +3170,7 @@
 &lt;p class=&quot;preview&quot;&gt;These are some fey-themed spells I&#39;ve been working on, mainly relevant for social encounters as part of my forthcoming monograph, &lt;span class=&quot;product&quot;&gt;The Fey&lt;/span&gt;. This book will include new fey-based subclasses, spells, races and monsters for low-fantasy campaigns.&lt;/p&gt;
 
 &lt;header&gt;
-  &lt;h5&gt;Fey Guide&lt;/h5&gt;
+  &lt;h4&gt;Fey Guide&lt;/h4&gt;
   &lt;p&gt;&lt;em&gt;2nd-level enchantment (ritual)&lt;/em&gt;&lt;/p&gt;
 &lt;/header&gt;
 
@@ -3183,7 +3183,7 @@
 &lt;p&gt;A creature you touch gains immunity to the effects of Feywild Magic, including memory loss and time warp, for the duration of the spell. In addition, you have advantage on saving throws against spells cast by fey.&lt;/p&gt;
 
 &lt;header&gt;
-  &lt;h5&gt;Forget&lt;/h5&gt;
+  &lt;h4&gt;Forget&lt;/h4&gt;
   &lt;p&gt;&lt;em&gt;1st level enchantment&lt;/em&gt;&lt;/p&gt;
 &lt;/header&gt;
 
@@ -3198,7 +3198,7 @@
 &lt;p&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt; If you cast this spell using a spell slot of 4th level or higher, the target forgets up to 10 minutes. If you use a spell slot of 5th level or higher, the target forgets up to 8 hours. If you use a spell slot of 7th level or higher, the target forgets up to 24 hours. If you use a 9th level spell slot, the target forgets up to 1 year.&lt;/p&gt;
 
 &lt;header&gt;
-  &lt;h5&gt;Heart&#39;s Desire&lt;/h5&gt;
+  &lt;h4&gt;Heart&#39;s Desire&lt;/h4&gt;
   &lt;p&gt;&lt;em&gt;1st level divination&lt;/em&gt;&lt;/p&gt;
 &lt;/header&gt;
 
@@ -3210,7 +3210,7 @@
 &lt;p&gt;You attempt to read the heart&#39;s desire of a humanoid you can see within range. It must make a Wisdom saving throw. If it fails the saving throw you learn something about the target. This reveals a single piece of useful information about the target as chosen by the DM. This could be an ideal, bond, flaw or similar personality characteristic.&lt;/p&gt;
 
 &lt;header&gt;
-  &lt;h5&gt;Speak with Small Beasts&lt;/h5&gt;
+  &lt;h4&gt;Speak with Small Beasts&lt;/h4&gt;
   &lt;p&gt;&lt;em&gt;Divination cantrip&lt;/em&gt;&lt;/p&gt;
 &lt;/header&gt;
 
@@ -3229,10 +3229,10 @@
     <link href="https://grislyeye.com/blog/black-griffin-preview-2.html"/>
     <updated>2019-10-03T00:00:00Z</updated>
     <id>https://grislyeye.com/blog/black-griffin-preview-2.html</id>
-    <content type="html">&lt;div class=&quot;large illustration&quot;&gt;
+    <content type="html">&lt;figure class=&quot;large illustration full-width&quot;&gt;
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/W-F4f2YZi0-690.avif 690w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/W-F4f2YZi0-690.webp 690w&quot; /&gt;&lt;source type=&quot;image/png&quot; srcset=&quot;https://grislyeye.com/img/W-F4f2YZi0-690.png 690w&quot; /&gt;&lt;img alt=&quot;Weather Illustration&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/W-F4f2YZi0-690.jpeg&quot; width=&quot;690&quot; height=&quot;318&quot; /&gt;&lt;/picture&gt;
   &lt;p class=&quot;caption&quot;&gt;Copyright free woodcut from the &lt;a href=&quot;http://www.avrosys.nu/prints/prints24-olausmagnus.htm&quot;&gt;History of the Nordic Peoples&lt;/a&gt; by Olaus Magnus.&lt;/p&gt;
-&lt;/div&gt;
+&lt;/figure&gt;
 
 &lt;p class=&quot;preview&quot;&gt;These rules for weather are for gritty campaigns where travel is difficult and resources like rations and water are valuable. This is an excerpt from my forthcoming campaign, &lt;span class=&quot;product&quot;&gt;Black Griffin&lt;/span&gt;.&lt;/p&gt;
 
@@ -3368,7 +3368,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene X: The Court Martial&lt;/h5&gt;
+  &lt;h4&gt;Scene X: The Court Martial&lt;/h4&gt;
 
   &lt;p&gt;Last we heard from our band of sellswords they had just been caught brawling by a senior officer, the hard- (and hawk-) nosed Lieutenant Vins. Second only to the Captain of the Black Griffins himself!&lt;/p&gt;
 
@@ -4526,7 +4526,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene IX: The Hand Over&lt;/h5&gt;
+  &lt;h4&gt;Scene IX: The Hand Over&lt;/h4&gt;
 
   &lt;p&gt;When we last left our collection of curmudgeonly crooks, they had learned of a meeting of spies and turncoats: a mysterious game of cards played at midnight.&lt;/p&gt;
 
@@ -5215,7 +5215,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene VIII: The Interrogation Continued...&lt;/h5&gt;
+  &lt;h4&gt;Scene VIII: The Interrogation Continued...&lt;/h4&gt;
 
   &lt;p&gt;When we last left our foul-mouthed fetches they were busy furiously torturing agents of the Commonwealth. One captive, Eggard, agrees to confess on agreement he is given a writ a pass to return home. With all due haste, word was sent to Agata requesting such a writ. But Corporal Ba has perhaps bitten off more than he can chew; Sergeant Agata herself arrives with an entourage in tow.&lt;/p&gt;
 
@@ -6570,7 +6570,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene VIII: The Interrogation&lt;/h5&gt;
+  &lt;h4&gt;Scene VIII: The Interrogation&lt;/h4&gt;
 
   &lt;p&gt;When we last left our baleful bounty hunters they had just interrupted a cadre of Flock spies overturning Ba&#39;Raknul&#39;s tent. Tense combat ensued and Orin was badly wounded, but the spies were subdued.&lt;/p&gt;
 
@@ -7877,7 +7877,7 @@
   &lt;dd&gt;Locations can have one or more traits which influence or affect creatures travelling through the region. For example, a trait might make navigation harder, might require travellers make a saving throw or suffer an environmental disease or poison, or some other, magical effect. The most important trait is &lt;strong&gt;difficult terrain&lt;/strong&gt;.&lt;/dd&gt;
 &lt;/dl&gt;
 
-&lt;h5 id=&quot;peril&quot;&gt;Peril&lt;/h5&gt;
+&lt;h4 id=&quot;peril&quot;&gt;Peril&lt;/h4&gt;
 
 &lt;p&gt;Each location has a peril rating that ranges from -5 to +5. Unlike other traits that affect a location, the characters actions within a location can increase or decrease its peril rating.&lt;/p&gt;
 
@@ -8023,7 +8023,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene VII: Night 2 Continued...&lt;/h5&gt;
+  &lt;h4&gt;Scene VII: Night 2 Continued...&lt;/h4&gt;
 
   &lt;p&gt;When we last left our band of baleful bounty hunters they had disturbed a group of cowled figures searching Ba&#39;Raknul&#39;s tent. The figures attacked shouting Commonwealth rallying cries and the melee was joined!&lt;/p&gt;
 
@@ -8625,7 +8625,7 @@
     &lt;/dd&gt;
   &lt;/dl&gt;
 
-  &lt;h5&gt;Scene VIII: Night 3.&lt;/h5&gt;
+  &lt;h4&gt;Scene VIII: Night 3.&lt;/h4&gt;
 
   &lt;p&gt;The party all take a well-earned rest. Their dreams are filled with figures that leap from shadows and things that squeal in the darkness. They awake late in the afternoon the next morning.&lt;/p&gt;
 
@@ -9006,7 +9006,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene VII: Night 2 Continued...&lt;/h5&gt;
+  &lt;h4&gt;Scene VII: Night 2 Continued...&lt;/h4&gt;
 
   &lt;p&gt;As you may recall, our band of barbaric arms-bearers not only uncovered and killed foul orcish saboteurs, but managed to prove their existence to a disbelieving Agata.&lt;/p&gt;
 
@@ -9893,28 +9893,28 @@
 &lt;p&gt;The following Warlock eldritch invocations are specific to the Pact of the Cauldron feature:&lt;/p&gt;
 
 &lt;header&gt;
-  &lt;h5 id=&quot;dragons-blood&quot;&gt;Dragon’s Blood&lt;/h5&gt;
+  &lt;h4 id=&quot;dragons-blood&quot;&gt;Dragon’s Blood&lt;/h4&gt;
   &lt;p&gt;&lt;em&gt;Prerequisite: Pact of the Cauldron feature&lt;/em&gt;&lt;/p&gt;
 &lt;/header&gt;
 
 &lt;p&gt;You can use your pact cauldron to cast &lt;em&gt;protection from energy&lt;/em&gt; using a warlock spell slot. You can&#39;t do so again until you finish a long rest.&lt;/p&gt;
 
 &lt;header&gt;
-  &lt;h5 id=&quot;eerie-cure-all&quot;&gt;Eerie Cure All&lt;/h5&gt;
+  &lt;h4 id=&quot;eerie-cure-all&quot;&gt;Eerie Cure All&lt;/h4&gt;
   &lt;p&gt;&lt;em&gt;Prerequisite: 5th level, Pact of the Cauldron feature&lt;/em&gt;&lt;/p&gt;
 &lt;/header&gt;
 
 &lt;p&gt;You can use your pact cauldron to cast &lt;em&gt;lesser restoration&lt;/em&gt; at will, without expending a spell slot.&lt;/p&gt;
 
 &lt;header&gt;
-  &lt;h5 id=&quot;mothers-milk&quot;&gt;The Mother&#39;s Milk&lt;/h5&gt;
+  &lt;h4 id=&quot;mothers-milk&quot;&gt;The Mother&#39;s Milk&lt;/h4&gt;
   &lt;p&gt;&lt;em&gt;Prerequisite: Pact of the Cauldron feature&lt;/em&gt;&lt;/p&gt;
 &lt;/header&gt;
 
 &lt;p&gt;You can use your pact cauldron to cast &lt;em&gt;cure wounds&lt;/em&gt; using a warlock spell slot. You can&#39;t do so again until you finish a long rest.&lt;/p&gt;
 
 &lt;header&gt;
-  &lt;h5 id=&quot;secret-of-life&quot;&gt;Secret of Life&lt;/h5&gt;
+  &lt;h4 id=&quot;secret-of-life&quot;&gt;Secret of Life&lt;/h4&gt;
   &lt;p&gt;&lt;em&gt;Prerequisite: 15th level, Pact of the Cauldron feature&lt;/em&gt;&lt;/p&gt;
 &lt;/header&gt;
 
@@ -9942,7 +9942,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene V: Debrief 1&lt;/h5&gt;
+  &lt;h4&gt;Scene V: Debrief 1&lt;/h4&gt;
 
   &lt;p&gt;When we last saw our (mis)adventurers they had just fought off an ambush by foul swine clearly attempting to sabotage the Company&#39;s defences.
     Having dealt with the creatures, we join Orin and Biron as they report the night&#39;s events to Sergeant Agata.&lt;/p&gt;
@@ -10691,7 +10691,7 @@
     &lt;dd class=&quot;action&quot;&gt;sleeps aided by the contents of their wineskin.&lt;/dd&gt;
   &lt;/dl&gt;
 
-  &lt;h5&gt;Scene VI: Ba&#39;s Test&lt;/h5&gt;
+  &lt;h4&gt;Scene VI: Ba&#39;s Test&lt;/h4&gt;
 
   &lt;dl&gt;
     &lt;dt&gt;Ba&#39;Raknul&lt;/dt&gt;
@@ -10792,7 +10792,7 @@
     &lt;dd class=&quot;action&quot;&gt;thinks longs for a minute before heading off to bed, racking his brains for anywhere he might get a rifle.&lt;/dd&gt;
   &lt;/dl&gt;
 
-  &lt;h5&gt;Scene VII: Night 2&lt;/h5&gt;
+  &lt;h4&gt;Scene VII: Night 2&lt;/h4&gt;
 
   &lt;p&gt;The party awakes that evening from a dark sleep, not feeling exactly refreshed, but certainly ready. The calls are going out for last meal of the day from the mess.&lt;/p&gt;
 
@@ -11066,7 +11066,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene IV: Night 1 (Continued)&lt;/h5&gt;
+  &lt;h4&gt;Scene IV: Night 1 (Continued)&lt;/h4&gt;
 
   &lt;p&gt;When we last left our low-level bounty hunters, they had been ambushed while on patrol. From the shadows, squealing assailants attack sending arrows flying at the party.&lt;/p&gt;
 
@@ -11910,7 +11910,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene IV: Night 1 (Continued)&lt;/h5&gt;
+  &lt;h4&gt;Scene IV: Night 1 (Continued)&lt;/h4&gt;
 
   &lt;p&gt;When we last left our misaligned bounty hunters they had just challenged a group of Royalist bailiffs interrogating junior members of their mercenary company.&lt;/p&gt;
 
@@ -12833,7 +12833,7 @@
     &lt;/dd&gt;
   &lt;/dl&gt;
 
-  &lt;h5&gt;Scene V: Night 2&lt;/h5&gt;
+  &lt;h4&gt;Scene V: Night 2&lt;/h4&gt;
 
   &lt;p&gt;The party are woken by the evening call for dinner, just a half-an-hour from dusk. Their stomachs growl, as they smell the evening meal waft from the mess. Smells like potatoes!&lt;/p&gt;
 
@@ -13269,7 +13269,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene III: The Infirmary (Continued)&lt;/h5&gt;
+  &lt;h4&gt;Scene III: The Infirmary (Continued)&lt;/h4&gt;
 
   &lt;p&gt;When we last left our band of misfit mercenaries they had made it back to camp by nightfall with the unconscious body of the wounded boy. Waved through by the mercenaries on guard at the North Gate, they quickly made their way to the infirmary, which is manned this evening by Physick Vicmas.&lt;/p&gt;
 
@@ -14220,7 +14220,7 @@
     &lt;/dd&gt;
   &lt;/dl&gt;
 
-  &lt;h5&gt;Scene IV: Night 1&lt;/h5&gt;
+  &lt;h4&gt;Scene IV: Night 1&lt;/h4&gt;
 
   &lt;p&gt;The party finds their way to the south gate, past the mishmash and chaos of the camp follower tents. Many have closed for the day, but even more are just starting their commerce.&lt;/p&gt;
 
@@ -14735,7 +14735,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/NiAmcYR2YG-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/NiAmcYR2YG-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Preview of Farm Map&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/NiAmcYR2YG-265.png&quot; width=&quot;265&quot; height=&quot;417&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene II: Lively Farm (Continued)&lt;/h5&gt;
+  &lt;h4&gt;Scene II: Lively Farm (Continued)&lt;/h4&gt;
 
   &lt;p&gt;When we last left our nefarious band of fetches, they had investigated the Lively family&#39;s farm only to find it empty and in disarray.
     As they investigated they were set upon by a pack of wolves brought out of the deep woods by the ensuing war and easy pickings of fresh meat.&lt;/p&gt;
@@ -15385,7 +15385,7 @@
 &lt;section class=&quot;chat&quot;&gt;
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene III: The Infirmary&lt;/h5&gt;
+  &lt;h4&gt;Scene III: The Infirmary&lt;/h4&gt;
 
   &lt;p&gt;The group makes it back to camp by nightfall and are waved through by the mercenaries on guard at the North Gate. They quickly make their way to the infirmary, which is manned this evening by Vicmas.&lt;/p&gt;
 
@@ -15766,7 +15766,7 @@
 &lt;p&gt;For example:&lt;/p&gt;
 
 &lt;header&gt;
-  &lt;h5&gt;Toxic potion of healing&lt;/h5&gt;
+  &lt;h4&gt;Toxic potion of healing&lt;/h4&gt;
   &lt;p&gt;&lt;em&gt;Potion, common &lt;/em&gt;&lt;/p&gt;
 &lt;/header&gt;
 
@@ -15864,7 +15864,7 @@
     &lt;a href=&quot;https://grislyeye.com/blog/black-griffin-session-41.html&quot;&gt; last &amp;gt;&amp;gt;&lt;/a&gt;
   &lt;/p&gt;
 
-  &lt;h4&gt;Camp Patrol Act I&lt;/h4&gt;
+  &lt;h3&gt;Camp Patrol Act I&lt;/h3&gt;
 
   &lt;p&gt;After escaping the clutches of Royalist interrogators, our band of misfit fetches find their way back to the Black Griffin Encampment and spend a week unwinding.&lt;/p&gt;
 
@@ -15876,7 +15876,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/idIHQFknw3-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Black Griffin Encampment Map Preview&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/idIHQFknw3-265.png&quot; width=&quot;265&quot; height=&quot;445&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene I: The Debriefing&lt;/h5&gt;
+  &lt;h4&gt;Scene I: The Debriefing&lt;/h4&gt;
 
   &lt;p&gt;You awaken the next morn, ready to report to Agata for your debriefing.&lt;/p&gt;
 
@@ -16642,7 +16642,7 @@
 
   &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/NiAmcYR2YG-265.avif 265w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/NiAmcYR2YG-265.webp 265w&quot; /&gt;&lt;img alt=&quot;Preview of Farm Map&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://grislyeye.com/img/NiAmcYR2YG-265.png&quot; width=&quot;265&quot; height=&quot;417&quot; /&gt;&lt;/picture&gt;
 
-  &lt;h5&gt;Scene II: Lively Farm&lt;/h5&gt;
+  &lt;h4&gt;Scene II: Lively Farm&lt;/h4&gt;
 
   &lt;p&gt;You set off for the Livelys&#39; farm, just as your compatriots set off for the great push. With grim determination, phalanxes of mercenaries march northward.&lt;/p&gt;
 
@@ -17211,7 +17211,7 @@
 &lt;p&gt;If you decide your duties as a bailiff included work as an executioner, you may can choose the Fearful Reputation feature (see sidebar) instead of the Authority feature. You can replace the signal whistle in your equipment package with a black executioner&#39;s mask.&lt;/p&gt;
 
 &lt;aside class=&quot;aside&quot;&gt;
-  &lt;h5&gt;Variant Feature: Fearsome Reputation&lt;/h5&gt;
+  &lt;h4&gt;Variant Feature: Fearsome Reputation&lt;/h4&gt;
 
   &lt;p&gt;If your character has a bailiff background, you may select this background feature instead of Authority&lt;/p&gt;
 
@@ -17353,7 +17353,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h5&gt;Torturer&#39;s Tools&lt;/h5&gt;
+&lt;h4&gt;Torturer&#39;s Tools&lt;/h4&gt;
 
 &lt;p&gt;These fiendish tools are designed to inflict maximum pain while keeping a victim alive as long as possible. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to torture or interrogate a captive.&lt;/p&gt;
 </content>
