@@ -7,7 +7,6 @@ const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 
 const pluginSitemap = require('@quasibit/eleventy-plugin-sitemap');
 const pluginLit = require('@lit-labs/eleventy-plugin-lit');
-const pluginReaderBar = require('eleventy-plugin-reader-bar');
 const pluginFavicons = require('eleventy-plugin-gen-favicons');
 const pluginSEO = require('eleventy-plugin-seo');
 const pluginGoogleFonts = require('eleventy-google-fonts');
@@ -53,7 +52,6 @@ module.exports = (eleventyConfig) => {
     }
   });
 
-  eleventyConfig.addPlugin(pluginReaderBar);
   eleventyConfig.addPlugin(pluginFavicons);
   eleventyConfig.addPlugin(pluginSEO, {
     title: metadata.title,

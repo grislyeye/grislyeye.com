@@ -1,11 +1,10 @@
 ---
 layout: layouts/base.njk
 ---
-<article class="post content reader-bar-start">
+<article class="post content">
   <my-page id="post" title="{{ title }}" subtitle="{{ page.date | readableDate }}">
 
     {{ content | safe }}
 
   </my-page>
-  {% readerBar "4px", "transparent", "red" %}
 </article>
