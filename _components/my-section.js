@@ -1,9 +1,4 @@
-import {
-  LitElement,
-  html,
-  css,
-  isServer
-} from 'lit';
+import { LitElement, html, css } from 'lit';
 
 class MySection extends LitElement {
   static styles = css`
@@ -69,20 +64,16 @@ class MySection extends LitElement {
   };
 
   render() {
-    if (isServer) {
-      return html`
-        <section>
-          <div class="subtitle">
-            ${ this.subtitle }
-          </div>
-          <div class="content">
-            <slot></slot>
-          </div>
-        </section>
-      `;
-    }
-
-    return undefined;
+    return html`
+      <section>
+        <div class="subtitle">
+          ${ this.subtitle }
+        </div>
+        <div class="content">
+          <slot></slot>
+        </div>
+      </section>
+    `;
   }
 }
 

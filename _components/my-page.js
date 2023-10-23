@@ -1,9 +1,4 @@
-import {
-  LitElement,
-  html,
-  css,
-  isServer
-} from 'lit';
+import { LitElement, html, css } from 'lit';
 import './my-section.js';
 
 class MyPage extends LitElement {
@@ -40,18 +35,14 @@ class MyPage extends LitElement {
   };
 
   render() {
-    if (isServer) {
-      return html`
-        <h1 class="title">
-          ${ this.renderTitle() }
-        </h1>
-        <my-section subtitle="${ this.subtitle }">
-          <slot></slot>
-        </my-section>
-      `;
-    }
-
-    return undefined;
+    return html`
+      <h1 class="title">
+        ${ this.renderTitle() }
+      </h1>
+      <my-section subtitle="${ this.subtitle }">
+        <slot></slot>
+      </my-section>
+    `;
   }
 
   renderTitle() {

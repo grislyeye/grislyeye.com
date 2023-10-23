@@ -8,6 +8,8 @@
 
 		<meta name="description" content="{{ description or metadata.description }}">
 
+    <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+
 		<link rel="alternate" href="/rss.xml" type="application/xml" title="{{ metadata.title }}">
 
 		{%- css "base" %}
@@ -113,9 +115,7 @@
 
         await litHydrateSupportInstalled;
 
-        import('/scripts/components/my-preview.js');
-        import('/scripts/components/my-product.js');
-        import('/scripts/components/my-button.js');
+        import('/bundle/my-components.js');
       })();
     </script>
 

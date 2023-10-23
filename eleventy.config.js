@@ -1,4 +1,5 @@
 const { DateTime } = require('luxon');
+const esbuild = require('esbuild');
 
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginBundle = require('@11ty/eleventy-plugin-bundle');
@@ -37,12 +38,14 @@ module.exports = (eleventyConfig) => {
       '_components/my-button.js'
     ]
   });
+  eleventyConfig.on('afterBuild', () => {
+    return esbuild.build({
+      entryPoints: ['_components/my-components.js'],
+      bundle: true,
+      outfile: '_site/bundle/my-components.js'
+    });
+  });
   eleventyConfig.addWatchTarget('_components/**/*.js');
-  eleventyConfig.addPassthroughCopy(
-    {
-      '_components/': 'scripts/components'
-    }
-  );
 
   eleventyConfig.addPlugin(pluginSitemap, {
     sitemap: {

@@ -1,9 +1,4 @@
-import {
-  LitElement,
-  html,
-  css,
-  isServer
-} from 'lit';
+import { LitElement, html, css } from 'lit';
 import './my-section.js';
 
 class MyHeroHeader extends LitElement {
@@ -37,16 +32,12 @@ class MyHeroHeader extends LitElement {
   };
 
   render() {
-    if (isServer) {
-      return html`
-        <h1><slot name="title">Hero Header Title</slot></h1>
-        <my-section subtitle="${ this.subtitle }">
-          <p class="description"><slot name="description">Hero header description</slot></p>
-        </my-section>
-      `;
-    }
-
-    return undefined;
+    return html`
+      <h1><slot name="title">Hero Header Title</slot></h1>
+      <my-section subtitle="${ this.subtitle }">
+        <p class="description"><slot name="description">Hero header description</slot></p>
+      </my-section>
+    `;
   }
 }
 

@@ -1,9 +1,4 @@
-import {
-  LitElement,
-  html,
-  css,
-  isServer
-} from 'lit';
+import { LitElement, html, css } from 'lit';
 
 class MyNavigationBar extends LitElement {
   static styles = css`
@@ -61,40 +56,36 @@ class MyNavigationBar extends LitElement {
   };
 
   render() {
-    if (isServer) {
-      return html`
-        <div class="main">
-          <a href="/"><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"></a>
-          <span>
-            <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
-          </span>
+    return html`
+      <div class="main">
+        <a href="/"><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"></a>
+        <span>
+          <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+        </span>
+      </div>
+
+      <div class="socials">
+        <div class="social">
+          <a href="${ this.email }" title="Mailing List"><img src="/images/email.svg" class="icon" alt="Email icon"></a>
+          <a href="${ this.email }" title="Mailing List">Mailing List</a>
         </div>
 
-        <div class="socials">
-          <div class="social">
-            <a href="${ this.email }" title="Mailing List"><img src="/images/email.svg" class="icon" alt="Email icon"></a>
-            <a href="${ this.email }" title="Mailing List">Mailing List</a>
-          </div>
-
-          <div class="social">
-            <a rel="me" href="${ this.twitter }" title="Twitter"><img src="/images/twitter.svg" class="icon" alt="Twitter icon"></a>
-            <a rel="me" href="${ this.twitter }" title="Twitter">Twitter</a>
-          </div>
-
-          <div class="social">
-            <a rel="me" href="${ this.mastodon }" title="Mastodon"><img src="/images/mastodon.svg" class="icon" alt="Mastodon icon"></a>
-            <a rel="me" href="${ this.mastodon }" title="Mastodon">Mastodon</a>
-          </div>
-
-          <div class="social">
-            <a href="${ this.rss }" title="RSS"><img src="/images/rss.svg" class="icon" alt="RSS icon"></a>
-            <a href="${ this.rss }" title="RSS">RSS</a>
-          </div>
+        <div class="social">
+          <a rel="me" href="${ this.twitter }" title="Twitter"><img src="/images/twitter.svg" class="icon" alt="Twitter icon"></a>
+          <a rel="me" href="${ this.twitter }" title="Twitter">Twitter</a>
         </div>
-      `;
-    }
 
-    return undefined;
+        <div class="social">
+          <a rel="me" href="${ this.mastodon }" title="Mastodon"><img src="/images/mastodon.svg" class="icon" alt="Mastodon icon"></a>
+          <a rel="me" href="${ this.mastodon }" title="Mastodon">Mastodon</a>
+        </div>
+
+        <div class="social">
+          <a href="${ this.rss }" title="RSS"><img src="/images/rss.svg" class="icon" alt="RSS icon"></a>
+          <a href="${ this.rss }" title="RSS">RSS</a>
+        </div>
+      </div>
+    `;
   }
 }
 

@@ -1,9 +1,4 @@
-import {
-  LitElement,
-  html,
-  css,
-  isServer
-} from 'lit';
+import { LitElement, html, css } from 'lit';
 import './my-button.js';
 
 class MyProduct extends LitElement {
@@ -96,29 +91,25 @@ class MyProduct extends LitElement {
   }
 
   render() {
-    if (isServer) {
-      return html`
-        <img
-          class="product image"
-          alt="${ this.product } Cover"
-          loading="lazy"
-          decoding="async"
-          src="${ this.image }"
-        >
+    return html`
+      <img
+        class="product image"
+        alt="${ this.product } Cover"
+        loading="lazy"
+        decoding="async"
+        src="${ this.image }"
+      >
 
-        <div class="call box">
-          <h2 class="price">${ this.currency }${ this.price }</h2>
+      <div class="call box">
+        <h2 class="price">${ this.currency }${ this.price }</h2>
 
-          ${ this.notes ? this.renderNotes() : html`` }
+        ${ this.notes ? this.renderNotes() : html`` }
 
-          <div class="call button">
-            <my-button title="${ this.call }" src="${ this.src }" disabled="${ this.disabled }"></my-button>
-          </div>
+        <div class="call button">
+          <my-button title="${ this.call }" src="${ this.src }" disabled="${ this.disabled }"></my-button>
         </div>
-      `;
-    }
-
-    return undefined;
+      </div>
+    `;
   }
 
   renderNotes() {

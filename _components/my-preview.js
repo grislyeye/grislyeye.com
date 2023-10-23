@@ -1,9 +1,4 @@
-import {
-  LitElement,
-  html,
-  css,
-  isServer
-} from 'lit';
+import { LitElement, html, css } from 'lit';
 
 class MyPreview extends LitElement {
   static styles = css`
@@ -127,11 +122,8 @@ class MyPreview extends LitElement {
     return 'red';
   }
 
-  static loadedAttributeName = 'my-background-loaded';
-
   onVisible() {
-    const loaded = this.getAttribute(MyPreview.loadedAttributeName);
-    if (loaded === null) {
+    if (!this.hostStyle.backgroundImage) {
       if (this.type !== MyPreview.Book && this.backgroundSrc) {
         this.hostStyle.backgroundImage = this.backgroundImage;
         this.hostStyle.backgroundColor = this.backgroundColour;
@@ -139,8 +131,6 @@ class MyPreview extends LitElement {
       } else if (this.backgroundSrc) {
         this.hostStyle.backgroundImage = this.backgroundImage;
       }
-
-      this.setAttribute(MyPreview.loadedAttributeName, '');
     }
   }
 
@@ -166,18 +156,14 @@ class MyPreview extends LitElement {
   }
 
   render() {
-    if (isServer) {
-      return html`
-        <div class="container" style="${ this.renderBackgroundStyle() }">
-          <header>
-            <h1><slot name='title'>Preview Title</slot></h1>
-            <p>${ this.type }</p>
-          </header>
-        </div>
-      `;
-    }
-
-    return undefined;
+    return html`
+      <div class="container" style="${ this.renderBackgroundStyle() }">
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p>${ this.type }</p>
+        </header>
+      </div>
+    `;
   }
 
   renderBackgroundStyle() {

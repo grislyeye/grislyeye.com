@@ -1,9 +1,4 @@
-import {
-  LitElement,
-  html,
-  css,
-  isServer
-} from 'lit';
+import { LitElement, html, css } from 'lit';
 
 class MyButton extends LitElement {
   static formAssociated = true;
@@ -86,15 +81,11 @@ class MyButton extends LitElement {
   }
 
   render() {
-    if (isServer) {
-      return html`
-        <div class="button">
-          ${ this.type !== MyButton.Type.Submit ? html`<a href="${ this.src }">${ this.title }</a>` : html`${ this.title }` }
-        </div>
-      `;
-    }
-
-    return '';
+    return html`
+      <div class="button">
+        ${ this.type !== MyButton.Type.Submit ? html`<a href="${ this.src }">${ this.title }</a>` : html`${ this.title }` }
+      </div>
+    `;
   }
 }
 
