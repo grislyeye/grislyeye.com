@@ -399,12 +399,6 @@ figure.picture p.caption {
   text-align: center;
 }
 
-      /* stylelint-disable */
-#upBtn {
-  padding: 4px;
-}
-/* stylelint-enable */
-
       vellum-monster {
   font-family: Alegreya, serif;
   font-size: 11pt;
