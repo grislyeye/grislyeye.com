@@ -46,7 +46,7 @@
   --text-color-link-active: rgb(255, 41, 87);
   --text-color-link-visited: rgb(255, 41, 87);
 
-  --content-max-width: 720px;
+  --content-max-width: 740px;
   --content-subtitle-max-width: 150px;
 }
 
@@ -56,7 +56,11 @@
 
 html {
   overflow-y: scroll;
-  margin: 0 1em;
+  margin: 0;
+  background-image: url("/images/background.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: var(--background-color);
 }
 
 html,
@@ -64,14 +68,13 @@ body {
   font-family: var(--font-family);
   font-size: 1em;
   color: var(--text-color);
-  background-color: var(--background-color);
   line-height: 1;
 }
 
 body {
   max-width: var(--content-max-width);
   margin: 0 auto;
-  padding: 0;
+  padding: 0 10px;
 }
 
 main {
@@ -242,6 +245,7 @@ img.medium {
   display: flex;
   width: 100%;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin: 0;
   padding: 0;
@@ -1000,7 +1004,7 @@ span.title {
 
 		<footer>
       <p class="legal">
-        Website version 3.2.0 &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+        Website version 3.3.0 &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
       </p>
     </footer>
 
