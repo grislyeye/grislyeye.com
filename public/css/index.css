@@ -209,6 +209,7 @@ img.medium {
   display: flex;
   width: 100%;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin: 0;
   padding: 0;
