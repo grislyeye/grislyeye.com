@@ -21,7 +21,7 @@
 html {
   overflow-y: scroll;
   margin: 0;
-  background-image: url("/images/background.png");
+  background-image: url("/images/background.webp");
   background-repeat: no-repeat;
   background-position: top right;
   background-color: var(--background-color);
