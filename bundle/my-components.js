@@ -831,6 +831,7 @@
       email: { attribute: "email" },
       twitter: { attribute: "twitter" },
       mastodon: { attribute: "mastodon" },
+      github: { attribute: "github" },
       rss: { attribute: "rss" }
     };
     render() {
@@ -856,6 +857,11 @@
         <div class="social">
           <a rel="me" href="${this.mastodon}" title="Mastodon"><img src="/images/mastodon.svg" class="icon" alt="Mastodon icon"></a>
           <a rel="me" href="${this.mastodon}" title="Mastodon">Mastodon</a>
+        </div>
+
+        <div class="social">
+          <a rel="me" href="${this.github}" title="GitHub"><img src="/images/github.svg" class="icon" alt="GitHub icon"></a>
+          <a rel="me" href="${this.github}" title="GitHub">GitHub</a>
         </div>
 
         <div class="social">
