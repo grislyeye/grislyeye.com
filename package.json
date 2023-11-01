@@ -8,7 +8,8 @@
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "test": "eslint --ext .js . && stylelint public/css/*.css && npm run test:links",
+    "test": "npm run test:lint && npm run test:links",
+    "test:lint": "eslint --ext .js . && stylelint public/css/*.css",
     "test:links": "npx linkinator ./_site --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)|(imgur\\.com)|(.*\\.imgur\\.com)' --verbosity error"
   },
   "author": {
