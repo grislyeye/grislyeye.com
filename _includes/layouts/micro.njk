@@ -1,0 +1,11 @@
+---
+layout: layouts/base.njk
+---
+<article class="post micro content">
+  <my-hero subtitle="{{ page.date | readableDate }}">
+    <span slot="title">Micro-Post</span>
+    <span slot="description">
+      {{ content | safe }}
+    </span>
+  </my-hero>
+</article>
