@@ -5,3 +5,4 @@ import './my-page.js';
 import './my-preview.js';
 import './my-product.js';
 import './my-section.js';
+import './my-mentions.js';
