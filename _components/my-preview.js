@@ -96,6 +96,8 @@ class MyPreview extends LitElement {
 
   static Article = 'article';
 
+  static Post = 'post';
+
   get hostStyle() {
     return this.renderRoot.querySelector('.container').style;
   }
@@ -151,6 +153,7 @@ class MyPreview extends LitElement {
 
   get type() {
     if (this.class.includes('product')) return MyPreview.Book;
+    if (this.class.includes('post') && this.class.includes('micro')) return MyPreview.Post;
     if (this.class.includes('post')) return MyPreview.Article;
     return undefined;
   }
