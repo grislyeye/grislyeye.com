@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.3.5",
+  "version": "3.3.6",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
@@ -10,7 +10,8 @@
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "test": "npm run test:lint && npm run test:links",
     "test:lint": "eslint --ext .js . && stylelint public/css/*.css",
-    "test:links": "npx linkinator ./_site --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)|(imgur\\.com)|(.*\\.imgur\\.com)' --verbosity error"
+    "test:links": "npx linkinator ./_site --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)|(imgur\\.com)|(.*\\.imgur\\.com)' --verbosity error",
+    "post:new": "hygen post new"
   },
   "author": {
     "name": "Ric Wood",
@@ -41,6 +42,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-lit": "^1.10.1",
     "eslint-plugin-wc": "^2.0.4",
+    "hygen": "^6.2.11",
     "linkinator": "^6.0.1",
     "luxon": "^3.4.3",
     "stylelint": "^15.11.0",
