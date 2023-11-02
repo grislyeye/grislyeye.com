@@ -1013,6 +1013,7 @@
     };
     static Book = "book";
     static Article = "article";
+    static Post = "post";
     get hostStyle() {
       return this.renderRoot.querySelector(".container").style;
     }
@@ -1067,6 +1068,8 @@
     get type() {
       if (this.class.includes("product"))
         return _MyPreview.Book;
+      if (this.class.includes("post") && this.class.includes("micro"))
+        return _MyPreview.Post;
       if (this.class.includes("post"))
         return _MyPreview.Article;
       return void 0;
