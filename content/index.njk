@@ -17,7 +17,11 @@ eleventyNavigation:
   <ul id="featured" class="previews">
     {% for post in collections.featured | excludeTags([ "drafts" ]) | reverse %}
       <li class="preview">
-        <a href="{{ post.url }}" title="{{ post.data.title }}" hx-boost="true">
+        {% if (post.data.redirectTo) %}{% set url %}{{post.data.redirectTo}}{% endset %}
+        {% else %}{% set url %}{{post.url}}{% endset %}
+        {% endif %}
+
+        <a href="{{ url }}" title="{{ post.data.title }}" hx-boost="true">
 
           {% if loop.index % 3 == 1 %}
             {% set theme %} bloody {% endset %}
@@ -48,7 +52,11 @@ eleventyNavigation:
   <ul id="more" class="previews">
     {% for post in collections.posts | excludeTags([ "drafts", "featured" ]) | reverse %}
       <li class="preview">
-        <a href="{{ post.url }}" title="{{ post.data.title }}" hx-boost="true">
+        {% if (post.data.redirectTo) %}{% set url %}{{post.data.redirectTo}}{% endset %}
+        {% else %}{% set url %}{{post.url}}{% endset %}
+        {% endif %}
+
+        <a href="{{ url }}" title="{{ post.data.title }}" hx-boost="true">
 
           {% if loop.index % 3 == 1 %}
             {% set theme %} bloody {% endset %}
