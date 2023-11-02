@@ -17,8 +17,8 @@ eleventyNavigation:
   <ul id="featured" class="previews">
     {% for post in collections.featured | excludeTags([ "drafts" ]) | reverse %}
       <li class="preview">
-        {% if (post.data.redirectTo) %}{% set url %}{{post.data.redirectTo}}{% endset %}
-        {% else %}{% set url %}{{post.url}}{% endset %}
+        {% if (post.data.redirectTo) %}{% set url %}{{ post.data.redirectTo }}{% endset %}
+        {% else %}{% set url %}{{ post.url }}{% endset %}
         {% endif %}
 
         <a href="{{ url }}" title="{{ post.data.title }}" hx-boost="true">
