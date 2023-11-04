@@ -3,7 +3,7 @@ import { LitElement, html, css } from 'lit';
 class MyMention extends LitElement {
   static styles = css`
     :host {
-      --my-mention-photo-size: 48px;
+      --my-mention-photo-size: 40px;
     }
 
     #mention {
@@ -13,7 +13,7 @@ class MyMention extends LitElement {
     }
 
     #mention * {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
 
     #mention > *,
