@@ -10,3 +10,5 @@ layout: layouts/base.njk
   </my-hero>
   <a class="u-bridgy-fed" href="https://fed.brid.gy/" hidden="from-humans"></a>
 </article>
+
+<my-mentions url="{{ metadata.url }}{{ page.url }}" webmentions="{{ config.webmentions.endpoint }}"></my-mentions>
