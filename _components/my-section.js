@@ -35,7 +35,7 @@ class MySection extends LitElement {
       text-transform: lowercase;
     }
 
-    @media(max-width: 870px) {
+    @media(max-width: 890px) {
       :host {
         margin-left: 0;
       }
@@ -48,9 +48,6 @@ class MySection extends LitElement {
         min-width: unset;
         max-width: unset;
         text-align: left;
-        /* display: inline;
-        min-width: unset;
-        max-width: unset; */
       }
     }
 
