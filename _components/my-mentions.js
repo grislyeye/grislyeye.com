@@ -14,30 +14,30 @@ class MyMentions extends LitElement {
     }
   `;
 
+  static urlConverter = {
+    fromAttribute: (value) => new URL(value),
+    toAttribute: (value) => value.toString()
+  };
+
   static properties = {
     url: {
       attribute: 'url',
-      type: String
+      type: String,
+      converter: MyMentions.urlConverter
+    },
+    webmentions: {
+      attribute: 'webmentions',
+      type: String,
+      converter: MyMentions.urlConverter
     }
   };
 
-  connectedCallback() {
-    super.connectedCallback();
-
-    this.loadWebmentions = new Task(this, {
-      task: MyMentions.webmentions,
-      args: () => [this.url]
-    });
-  }
-
-  static async webmentions(urls) {
+  static async webmentions([url, webmentions]) {
     async function feed() {
-      const webmentionsApi = 'https://webmention.io/api/mentions.jf2';
-      const domain = 'grislyeye.com';
-      const token = '7OpmAMvzsJc6GdoHmDS50w';
-      const url = `${ webmentionsApi }?domain=${ domain }&token=${ token }`;
+      webmentions.searchParams.delete('domain');
+      webmentions.searchParams.append('domain', url.host);
 
-      const response = await fetch(url);
+      const response = await fetch(webmentions);
       if (response.ok) {
         return response.json();
       }
@@ -54,27 +54,35 @@ class MyMentions extends LitElement {
 
     const feeds = await feed();
     return feeds.children
-      .filter((entry) => urls.includes(entry['wm-target']))
+      .filter((entry) => url.toString() === entry['wm-target'])
       .filter((entry) => allowedTypes.includes(entry['wm-property']))
       .filter(hasRequiredFields);
   }
 
+  connectedCallback() {
+    super.connectedCallback();
+
+    this.loadWebmentions = new Task(this, {
+      task: MyMentions.webmentions,
+      args: () => [this.url, this.webmentions]
+    });
+  }
+
   render() {
     return this.loadWebmentions.render({
-      complete: (mentions) => {
-        if (mentions.length > 0) {
-          return html`
-            <my-section subtitle="mentions">
-              <div id="mentions">
-                ${ mentions.map(MyMentions.renderMention) }
-              </div>
-            </my-section>
-          `;
-        }
-        return html``;
-      },
+      complete: (ms) => (ms.length > 0 ? MyMentions.renderMentions(ms) : html``),
       error: (e) => html`<p>Error: ${ e }</p>`
     });
+  }
+
+  static renderMentions(mentions) {
+    return html`
+      <my-section subtitle="mentions">
+        <div id="mentions">
+          ${ mentions.map(MyMentions.renderMention) }
+        </div>
+      </my-section>
+    `;
   }
 
   static renderMention(mention) {

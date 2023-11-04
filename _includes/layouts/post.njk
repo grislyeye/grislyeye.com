@@ -9,4 +9,4 @@ layout: layouts/base.njk
   </my-page>
 </article>
 
-<my-mentions url="{{ metadata.url }}{{ page.url }}"></my-mentions>
+<my-mentions url="{{ metadata.url }}{{ page.url }}" webmentions="{{ config.webmentions.endpoint }}"></my-mentions>
