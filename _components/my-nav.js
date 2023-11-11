@@ -40,6 +40,10 @@ class MyNavigationBar extends LitElement {
       align-items: center;
     }
 
+    #location {
+      margin-top: auto;
+    }
+
     .social img.icon {
       height: 0.9rem;
       padding-right: 0.2em;
@@ -52,7 +56,8 @@ class MyNavigationBar extends LitElement {
     email: { attribute: 'email' },
     twitter: { attribute: 'twitter' },
     mastodon: { attribute: 'mastodon' },
-    rss: { attribute: 'rss' }
+    rss: { attribute: 'rss' },
+    location: { attribute: 'location' }
   };
 
   render() {
@@ -65,6 +70,10 @@ class MyNavigationBar extends LitElement {
       </div>
 
       <div class="socials">
+        <div class="social">
+            <img src="/images/location.svg" class="icon" alt="Location icon"> <span id="location">${ this.location }</span>
+        </div>
+
         <div class="social">
           <a href="${ this.email }" title="Mailing List"><img src="/images/email.svg" class="icon" alt="Email icon"></a>
           <a href="${ this.email }" title="Mailing List">Mailing List</a>
