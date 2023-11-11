@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.5.1",
+  "version": "3.5.2",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
@@ -9,7 +9,8 @@
     "debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "test": "npm run test:lint && npm run test:links",
-    "test:lint": "eslint --ext .js . && stylelint public/css/*.css",
+    "test:lint": "npx eslint --ext .js . && npx stylelint public/css/*.css && npm run test:lint:templates",
+    "test:lint:templates": "djlint --lint --profile nunjucks ./_includes/**/*.njk ./content/ ./content/**/*.njk",
     "test:links": "npx linkinator ./_site --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)|(imgur\\.com)|(.*\\.imgur\\.com)' --verbosity error",
     "post:new": "hygen post new"
   },
@@ -37,6 +38,7 @@
     "@lit-labs/eleventy-plugin-lit": "^1.0.3",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "@webcomponents/template-shadowroot": "^0.2.1",
+    "djlint": "^1.34.0",
     "eleventy-plugin-gen-favicons": "^1.1.2",
     "eleventy-plugin-seo": "^0.5.2",
     "esbuild": "^0.19.5",
