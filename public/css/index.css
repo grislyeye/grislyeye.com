@@ -111,10 +111,8 @@ main > my-section {
 }
 
 my-preview {
-  --preview-size: 165px;
-
-  width: var(--preview-size);
-  height: var(--preview-size);
+  width: 165px;
+  height: 165px;
 }
 
 .previews {

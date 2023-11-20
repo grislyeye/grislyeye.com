@@ -5,15 +5,13 @@ class MyPreview extends LitElement {
     :host {
       display: inline-block;
       overflow: hidden;
-      width: var(--preview-size);
-      height: var(--preview-size);
       margin: 0;
       padding: 0;
     }
 
     .container {
-      width: var(--preview-size);
-      height: var(--preview-size);
+      width: 100%;
+      height: 100%;
       margin: 0;
       padding: 0;
 
@@ -31,16 +29,18 @@ class MyPreview extends LitElement {
     }
 
     header h1 {
+      display: -webkit-box;
       font-size: 1.6rem;
       overflow: hidden;
       text-overflow: ellipsis;
-      max-height: calc(var(--preview-size) * 0.6);
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
     }
 
     header h1,
     header p {
-      margin: 0;
-      padding: 10px;
+      margin: 10px;
+      padding: 0;
     }
 
     header p {
