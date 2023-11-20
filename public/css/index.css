@@ -111,7 +111,7 @@ main > my-section {
 }
 
 my-preview {
-  display: block;
+  display: inline-block;
   width: 165px;
   height: 165px;
 }
