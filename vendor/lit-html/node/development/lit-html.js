@@ -186,6 +186,15 @@ const tag = (type) => (strings, ...values) => {
         console.warn('Some template strings are undefined.\n' +
             'This is probably caused by illegal octal escape sequences.');
     }
+    {
+        // Import static-html.js results in a circular dependency which g3 doesn't
+        // handle. Instead we know that static values must have the field
+        // `_$litStatic$`.
+        if (values.some((val) => val?.['_$litStatic$'])) {
+            issueWarning('', `Static values 'literal' or 'unsafeStatic' cannot be used as values to non-static templates.\n` +
+                `Please use the static 'html' tag function. See https://lit.dev/docs/templates/expressions/#static-expressions`);
+        }
+    }
     return {
         // This property needs to remain unminified.
         ['_$litType$']: type,
@@ -1346,7 +1355,7 @@ const polyfillSupport = global.litHtmlPolyfillSupportDevMode
 polyfillSupport?.(Template, ChildPart);
 // IMPORTANT: do not change the property name or the assignment expression.
 // This line will be used in regexes to search for lit-html usage.
-(global.litHtmlVersions ??= []).push('3.0.0');
+(global.litHtmlVersions ??= []).push('3.1.0');
 if (global.litHtmlVersions.length > 1) {
     issueWarning('multiple-versions', `Multiple versions of Lit loaded. ` +
         `Loading multiple versions is not recommended.`);

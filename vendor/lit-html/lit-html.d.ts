@@ -184,7 +184,7 @@ declare const ELEMENT_PART = 6;
 declare const COMMENT_PART = 7;
 /**
  * The return type of the template tag functions, {@linkcode html} and
- * {@linkcode svg}.
+ * {@linkcode svg} when it hasn't been compiled by @lit-labs/compiler.
  *
  * A `TemplateResult` object holds all the information about a template
  * expression required to render it: the template strings, expression values,
@@ -195,13 +195,46 @@ declare const COMMENT_PART = 7;
  * [Rendering](https://lit.dev/docs/components/rendering) for more information.
  *
  */
-export type TemplateResult<T extends ResultType = ResultType> = {
+export type UncompiledTemplateResult<T extends ResultType = ResultType> = {
     ['_$litType$']: T;
     strings: TemplateStringsArray;
     values: unknown[];
 };
+/**
+ * This is a template result that may be either uncompiled or compiled.
+ *
+ * In the future, TemplateResult will be this type. If you want to explicitly
+ * note that a template result is potentially compiled, you can reference this
+ * type and it will continue to behave the same through the next major version
+ * of Lit. This can be useful for code that wants to prepare for the next
+ * major version of Lit.
+ */
+export type MaybeCompiledTemplateResult<T extends ResultType = ResultType> = UncompiledTemplateResult<T> | CompiledTemplateResult;
+/**
+ * The return type of the template tag functions, {@linkcode html} and
+ * {@linkcode svg}.
+ *
+ * A `TemplateResult` object holds all the information about a template
+ * expression required to render it: the template strings, expression values,
+ * and type of template (html or svg).
+ *
+ * `TemplateResult` objects do not create any DOM on their own. To create or
+ * update DOM you need to render the `TemplateResult`. See
+ * [Rendering](https://lit.dev/docs/components/rendering) for more information.
+ *
+ * In Lit 4, this type will be an alias of
+ * MaybeCompiledTemplateResult, so that code will get type errors if it assumes
+ * that Lit templates are not compiled. When deliberately working with only
+ * one, use either {@linkcode CompiledTemplateResult} or
+ * {@linkcode UncompiledTemplateResult} explicitly.
+ */
+export type TemplateResult<T extends ResultType = ResultType> = UncompiledTemplateResult<T>;
 export type HTMLTemplateResult = TemplateResult<typeof HTML_RESULT>;
 export type SVGTemplateResult = TemplateResult<typeof SVG_RESULT>;
+/**
+ * A TemplateResult that has been compiled by @lit-labs/compiler, skipping the
+ * prepare step.
+ */
 export interface CompiledTemplateResult {
     ['_$litType$']: CompiledTemplate;
     values: unknown[];
@@ -317,7 +350,7 @@ export interface DirectiveParent {
 }
 declare class Template {
     parts: Array<TemplatePart>;
-    constructor({ strings, ['_$litType$']: type }: TemplateResult, options?: RenderOptions);
+    constructor({ strings, ['_$litType$']: type }: UncompiledTemplateResult, options?: RenderOptions);
     /** @nocollapse */
     static createElement(html: TrustedHTML, _options?: RenderOptions): HTMLTemplateElement;
 }

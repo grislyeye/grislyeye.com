@@ -490,9 +490,9 @@
         for (t3 = h4[0], n4 = 0; n4 < h4.length - 1; n4++)
           r6 = N(this, e5[s5 + n4], i5, n4), r6 === w && (r6 = this._$AH[n4]), o4 ||= !c3(r6) || r6 !== this._$AH[n4], r6 === T ? t3 = T : t3 !== T && (t3 += (r6 ?? "") + h4[n4 + 1]), this._$AH[n4] = r6;
       }
-      o4 && !e4 && this.j(t3);
+      o4 && !e4 && this.O(t3);
     }
-    j(t3) {
+    O(t3) {
       t3 === T ? this.element.removeAttribute(this.name) : this.element.setAttribute(this.name, t3 ?? "");
     }
   };
@@ -500,7 +500,7 @@
     constructor() {
       super(...arguments), this.type = 3;
     }
-    j(t3) {
+    O(t3) {
       this.element[this.name] = t3 === T ? void 0 : t3;
     }
   };
@@ -508,7 +508,7 @@
     constructor() {
       super(...arguments), this.type = 4;
     }
-    j(t3) {
+    O(t3) {
       this.element.toggleAttribute(this.name, !!t3 && t3 !== T);
     }
   };
@@ -538,7 +538,7 @@
     }
   };
   var Z = t2.litHtmlPolyfillSupport;
-  Z?.(V, M), (t2.litHtmlVersions ??= []).push("3.0.0");
+  Z?.(V, M), (t2.litHtmlVersions ??= []).push("3.1.0");
   var j = (t3, i5, s5) => {
     const e4 = s5?.renderBefore ?? i5;
     let h4 = e4._$litPart$;
@@ -932,15 +932,13 @@
     :host {
       display: inline-block;
       overflow: hidden;
-      width: var(--preview-size);
-      height: var(--preview-size);
       margin: 0;
       padding: 0;
     }
 
     .container {
-      width: var(--preview-size);
-      height: var(--preview-size);
+      width: 100%;
+      height: 100%;
       margin: 0;
       padding: 0;
 
@@ -958,16 +956,18 @@
     }
 
     header h1 {
+      display: -webkit-box;
       font-size: 1.6rem;
       overflow: hidden;
       text-overflow: ellipsis;
-      max-height: calc(var(--preview-size) * 0.6);
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
     }
 
     header h1,
     header p {
-      margin: 0;
-      padding: 10px;
+      margin: 10px;
+      padding: 0;
     }
 
     header p {
@@ -1019,7 +1019,6 @@
     };
     static Book = "book";
     static Article = "article";
-    static Post = "post";
     get hostStyle() {
       return this.renderRoot.querySelector(".container").style;
     }
@@ -1074,8 +1073,6 @@
     get type() {
       if (this.class.includes("product"))
         return _MyPreview.Book;
-      if (this.class.includes("post") && this.class.includes("micro"))
-        return _MyPreview.Post;
       if (this.class.includes("post"))
         return _MyPreview.Article;
       return void 0;

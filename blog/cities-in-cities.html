@@ -1,0 +1,1129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cities in Cities - The Grisly Eye</title>
+
+<meta name="description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Ric Wood">
+
+<link rel="canonical" href="https://grislyeye.com/blog/cities-in-cities.html">
+
+<meta property="og:title" content="Cities in Cities - The Grisly Eye">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://grislyeye.com/blog/cities-in-cities.html">
+<meta property="og:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta property="og:image" content="city.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@grislyeye">
+<meta name="twitter:url" content="https://grislyeye.com/blog/cities-in-cities.html">
+<meta name="twitter:title" content="Cities in Cities - The Grisly Eye">
+<meta name="twitter:description" content="I&apos;m an indie game designer (and forever DM) and this is my blog.">
+<meta name="twitter:image" content="city.png">
+
+
+
+    <meta name="description" content="I&#39;m an indie game designer (and forever DM) and this is my blog.">
+
+    <script defer src="https://unpkg.com/htmx.org@1.9.6"></script>
+
+    <link rel="alternate" href="/rss.xml" type="application/xml" title="The Grisly Eye">
+
+    <style>:root {
+  --font-family: 'Alegreya', serif;
+  --title-font-family: 'Andada Pro', serif;
+  --subtitle-font-family: 'Alegreya Sans', sans;
+
+  --background-color: black;
+
+  --text-color: white;
+  --text-color-link: rgb(255, 82, 119);
+  --text-color-link-active: rgb(255, 41, 87);
+  --text-color-link-visited: rgb(255, 41, 87);
+
+  --content-max-width: 740px;
+  --content-subtitle-max-width: 150px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  margin: 0;
+  background-image: url("/images/background.webp");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: var(--background-color);
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  font-size: 1em;
+  color: var(--text-color);
+  line-height: 1;
+}
+
+body {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+main {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin: 0 auto 7rem;
+}
+
+main :first-child {
+  margin-top: 0;
+}
+
+nav,
+footer {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+main > header {
+  margin-bottom: 7rem;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 5rem;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  color: gray;
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+
+h1 {
+  font-family: var(--title-font-family);
+  line-height: 1;
+}
+
+h2,
+h3,
+h4 {
+  font-family: var(--title-font-family);
+}
+
+p {
+  line-height: 1;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a[href] {
+  color: var(--text-color-link);
+}
+
+a[href]:visited {
+  color: var(--text-color-link-visited);
+}
+
+a[href]:hover,
+a[href]:active {
+  color: var(--text-color-link-active);
+}
+
+main > my-hero,
+main > my-section {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+}
+
+my-preview {
+  display: inline-block;
+  width: 165px;
+  height: 165px;
+}
+
+.previews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 7rem;
+}
+
+ul.previews {
+  list-style: none;
+}
+
+.previews a,
+.previews li {
+  margin: 0;
+  padding: 0;
+}
+
+section.small.page {
+  font-size: 1.5rem;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+input {
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+
+.content input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+#flawed-potion-illustration.illustration {
+  max-width: 150px;
+}
+
+#magi-illustration.illustration {
+  max-width: 200px;
+}
+
+#bailiff-illustration.illustration {
+  max-width: 350px;
+}
+
+#fey-exile-illustration.illustration,
+#grim-folk-illustration.illustration,
+#fey-illustration.illustration,
+#nights-watchmen-illustration.illustration,
+#example-npc-block.illustration,
+#inspiration-illustration.illustration {
+  max-width: 300px;
+}
+
+.content #city-illustration.illustration {
+  max-width: 300px;
+}
+
+img[src*="infantry.png"].background,
+img[src*="grim-folk.jpg"].background {
+  height: 640px;
+  width: auto;
+}
+
+img[src*="npc-block-v4.png"] {
+  max-width: 300px;
+}
+
+img[src*="npc-block-v4-header.png"],
+img[src*="npc-block-v4-description.png"],
+img[src*="npc-block-v4-characteristics.png"],
+img[src*="npc-block-v4-secrets.png"],
+img[src*="npc-block-v4-activities.png"],
+img.medium {
+  max-width: 400px;
+}
+
+#mailing-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+span.product {
+  font-style: italic;
+  color: red;
+}
+
+span.title {
+  color: red;
+  font-variant: small-caps;
+}</style>
+
+    <link rel="stylesheet" href="/bundle/4fxa4TETZ8.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+    
+
+    
+
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"><link data-href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap" rel="stylesheet"><style data-href='https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap'>/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VdtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7V5tvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VZtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VltvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VVtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VRtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VptvWdUhm8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+    <link href="mailto:ric@grislyeye.com" rel="me">
+    <link rel="webmention" href="https://webmention.io/grislyeye.com/webmention" />
+  </head>
+
+  <body dsd-pending>
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
+
+    <nav>
+      <my-nav
+        
+        
+        
+        ="/rss.xml"
+        
+       twitter="https://twitter.com/grislyeye" email="/mailing-list/" mastodon="https://toot.io/@grislyeye" rss="/rss.xml" , location="London"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-family: var(--subtitle-font-family);
+    }
+
+    a {
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+    }
+
+    .main img.logo {
+      height: 30px;
+      padding-right: 0.7em;
+    }
+
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      text-transform: lowercase;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+    }
+
+    #location {
+      margin-top: auto;
+    }
+
+    .social img.icon {
+      height: 0.9rem;
+      padding-right: 0.2em;
+      padding-left: 1.5em;
+      padding-top: 0.4em;
+    }
+  </style><!--lit-part S1iFiYfXASE=-->
+      <div class="main">
+        <a href="/"><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"></a>
+        <span>
+          <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+        </span>
+      </div>
+
+      <div class="socials">
+        <div class="social">
+            <img src="/images/location.svg" class="icon" alt="Location icon"> <span id="location"><!--lit-part-->London<!--/lit-part--></span>
+        </div>
+
+        <div class="social">
+          <!--lit-node 14--><a href="/mailing-list/" title="Mailing List"><img src="/images/email.svg" class="icon" alt="Email icon"></a>
+          <!--lit-node 16--><a href="/mailing-list/" title="Mailing List">Mailing List</a>
+        </div>
+
+        <div class="social">
+          <!--lit-node 18--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter"><img src="/images/twitter.svg" class="icon" alt="Twitter icon"></a>
+          <!--lit-node 20--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter">Twitter</a>
+        </div>
+
+        <div class="social">
+          <!--lit-node 22--><a rel="me" href="https://toot.io/@grislyeye" title="Mastodon"><img src="/images/mastodon.svg" class="icon" alt="Mastodon icon"></a>
+          <!--lit-node 24--><a rel="me" href="https://toot.io/@grislyeye" title="Mastodon">Mastodon</a>
+        </div>
+
+        <div class="social">
+          <!--lit-node 26--><a href="/rss.xml" title="RSS"><img src="/images/rss.svg" class="icon" alt="RSS icon"></a>
+          <!--lit-node 28--><a href="/rss.xml" title="RSS">RSS</a>
+        </div>
+      </div>
+    <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
+
+    <main>
+      <article class="post content">
+  <my-page    id="post" title="Cities in Cities" subtitle="19 February 2021"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
+
+    h1.title {
+      font-size: 5rem;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-bottom: 10px;
+      margin: 0;
+      word-wrap:break-word;
+    }
+
+    @media(max-width: 500px) {
+      h1.title {
+        font-size: 4rem;
+      }
+    }
+
+    @media(max-width: 400px) {
+      h1.title {
+        font-size: 3rem;
+      }
+    }
+  </style><!--lit-part MOCCVJ+aMIM=-->
+      <h1 class="title">
+        <!--lit-part GS+GCwuChgs=--><!--lit-part-->Cities<!--/lit-part--> <br> <!--lit-part-->in Cities<!--/lit-part--><?><!--/lit-part-->
+      </h1>
+      <!--lit-node 2--><my-section  subtitle="19 February 2021" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    @media(max-width: 890px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+      }
+    }
+
+    ::slotted(p) {
+      margin-top: 0;
+    }
+  </style><!--lit-part yzr3+WwKTzA=-->
+      <section>
+        <div class="subtitle">
+          <!--lit-part-->19 February 2021<!--/lit-part-->
+        </div>
+        <div class="content">
+          <slot></slot>
+        </div>
+      </section>
+    <!--/lit-part--></template>
+        <slot></slot>
+      </my-section>
+    <!--/lit-part--></template>
+
+    <figure id="city-illustration" class="outlined illustration">
+  <picture><source type="image/avif" srcset="/img/fCk2I068G9-400.avif 400w"><source type="image/webp" srcset="/img/fCk2I068G9-400.webp 400w"><img alt="City Illustration" loading="lazy" decoding="async" src="/img/fCk2I068G9-400.png" width="400" height="719"></picture>
+  <p class="caption">Public domain illustration of Genua from the <span class="product">Nuremberg Chronicle</span>, 1493.</p>
+</figure>
+
+<p>If you think about it, most cities are pretty samey. A big river running through the middle. Rich and poor. Noise. Homelessness. Bustle and shops. Buses and suburbs. And so on. The customs, culture and weather might change, but city-life is city-life pretty much wherever you go.</p>
+
+<p class="preview">Anyway, here are some observations about writing and playing fantasy cities. How do you do it? How do you make it all up?</p>
+
+<p>I live in the greatest city in the world. Which, as we all know, is London. But when I try to sum up London, I struggle.</p>
+
+<p>I could say London is a “grey, wet city” which would be true. It’s also true that London is a bright, green city filled with parks. I could also say London "is a city with a long and rich history." It’s also true London is building over its past, as fast as it can.</p>
+
+<p>London is a city of contrasts, I guess.</p>
+
+<p>The point is cities aren’t one thing. They’re too big and complex to sum up. We experience parts. Sometimes these parts overlap. Sometimes they contradict. Sometime they conflict. Some are introverted. Some expansive. And some just never meet.</p>
+
+<p>You can’t experience an entire city. Ergo, you can’t capture its entirety in fiction.</p>
+
+<h4>Glimpsed Cities</h4>
+
+<blockquote>
+  <q>Are you in Beszel or Ul Qoma?</q><br>
+  <q>…Neither. I’m in Breach.</q>
+  <cite><span class="product">The City &amp; The City</span> by China Miéville</cite>
+</blockquote>
+
+<p>First observation: don't detail every part of a city. Define what your characters need, sketch the rest.</p>
+
+<p>Your characters might blunder through the slums, might be drawn into the machinations of the nobility. So you focus on the shanty town known as "The Crows". And the corrupt scions of House Barrosa.</p>
+
+<p>You might only mention the industrious craftsmen who dwell beyond Cemetery Hill. Or outline the fractious trade guilds.</p>
+
+<p>Regardless, gamemasters are well advised against over-preparation. Minimal preparation also conveys the vastness and complexity of the city. There are parts the characters might never see, the mere mention of which might daunt them. Cunningly drawing your players in.</p>
+
+<h4>Manifold Cities</h4>
+
+<blockquote>
+  He had noticed that events were cowards: they didn't occur singly, but instead they would run in packs and leap out at him all at once.
+  <cite><span class="product">Neverwhere</span> by Neil Gaiman</cite>
+</blockquote>
+
+<p>Second observation: capture the city's diversity. Not just diversity of peoples, but unexpected glimpses of its parts, cultures, hidden places. Just when your characters think they know the city, something unanticipated should intrude.</p>
+
+<p>In RPGs this can be handled using good, old-fashioned random encounter tables. Instead of monsters, they encounter strange travellers, parades, tragedies, forgotten alleyways and NPCs preoccupied with their own concerns.</p>
+
+<p>Not only do you want the city to have depth, and feel alive. The characters should also have a sense that they're not the centre of things. The city revolves regardless, even in the middle of whatever crisis they're embroiled in.</p>
+
+<figure class="full-width outlined illustration">
+  <picture><source type="image/avif" srcset="/img/5Kv1xw_Gfh-900.avif 900w"><source type="image/webp" srcset="/img/5Kv1xw_Gfh-900.webp 900w"><source type="image/png" srcset="/img/5Kv1xw_Gfh-900.png 900w"><img alt="City Illustration" loading="lazy" decoding="async" src="/img/5Kv1xw_Gfh-900.jpeg" width="900" height="324"></picture>
+  <p class="caption">Public domain illustration of Frankreich from the <span class="product">Nuremberg Chronicle</span>, 1493.</p>
+</figure>
+
+<h4>Labyrinthine Cities</h4>
+
+<blockquote>
+  I will follow the tramlines. I will stalk in their shadows as they pass by over houses and towers and barracks and offices and prisons of the city, I will track them from the arches that anchor them to the earth. I must find my way in.
+  <cite><span class="product">Perdido Street Station</span> by China Miéville</cite>
+</blockquote>
+
+<p>I always imagine London as a great tower. Each day I wake up in the suburbs (the ground floor of the analogy) and make the difficult ascent to the town proper (the pent-house, where all the interesting stuff is). It's a climb. You must negotiate many steps, avoid hazards and delays.</p>
+
+<p>That is to say: there is a centre (sometimes more than one) with all the stuff, and dense areas between that must be navigated.</p>
+
+<p>In this way a city very much resembles a dungeon. It has its prizes, its dangers, its helpers and its puzzles. Its streets and rivers are corridors, its buildings and districts are rooms.</p>
+
+<p>Of course, it is also unlike a dungeon. The stakes are lower. It's safer, or at least safer than a monster-filled crypt. Water and food are widely available. Etc.</p>
+
+<h4>Pathcrawls</h4>
+
+<p><a href="https://detectmagic.blogspot.com/2014/04/pathcrawl">Pathcrawls</a> are useful for labyrinthine cities. The ancient city of Dismas is the main stage of play in my long-running <a href="/blog/black-griffin-session-41.html">Black Griffin campaign</a>. And pathcrawls have been used to great effect.</p>
+
+<p>To demonstrate, I've overlaid the player's map with a hidden graph of the main through-ways:</p>
+
+<div class="full-width illustration">
+  <picture><source type="image/avif" srcset="/img/QgSuQqBJAq-900.avif 900w"><source type="image/webp" srcset="/img/QgSuQqBJAq-900.webp 900w"><img alt="Dismas Pathcrawl" loading="lazy" decoding="async" src="/img/QgSuQqBJAq-900.png" width="900" height="814"></picture>
+</div>
+
+<aside>
+  <p>There are areas of improvement I'm considering: a more complicated, perhaps even bewildering network of streets. Nested pathcrawls, so you can drill down into important districts.</p>
+
+  <p>I'm rebooting the campaign so I may get the time to work on these.</p>
+</aside>
+
+<p>Each path represents a major route, each node a significant landmark. Players can navigate with simple choices (just like a dungeon). Left or right? Across the bridge or along the river? Or they could cut through back streets, increasing the chances of random encounters.</p>
+
+<p>Paths have different challenges. Gutter Street has regular patrols, which dubious adventurers might want to avoid. Fish Gate is a great way to sneak into the city... provided you pay the right bribes.</p>
+
+<p>The city becomes a rambling obstacle. Adding memorable landmarks (the Bridge of Shudders is especially popular) gives the players a chance to recall routes. And a way of introducing important locations. While retaining the Glimpsed City.</p>
+
+<p>Players gain a rough idea of how to get about. Yet there is always a nagging uncertainty. Is this the best route? Do we remember they correct way? Where was that tavern again?</p>
+
+<p>You probably don't want to bog down play with constant street rambles, though. If the players have a good idea where they're going, I don't make them pathcrawl. If they don't, or are under time constraints, a pathcrawl raises the tension.</p>
+
+<p>Anyway, that's all I have to say on the matter for now.</p>
+
+
+  </my-page>
+</article>
+
+<my-mentions url="https://grislyeye.com/blog/cities-in-cities.html" webmentions="https://webmention.io/api/mentions.jf2?token=7OpmAMvzsJc6GdoHmDS50w"></my-mentions>
+
+    </main>
+
+    <footer>
+      <p class="legal">
+        Website version 3.6.0 &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+      </p>
+    </footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/bundle/my-components.js');
+      })();
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
+    <script defer>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8S4KL203M4');
+    </script>
+
+    <!-- Current page: /blog/cities-in-cities.html -->
+  </body>
+</html>

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 function when(condition, trueCase, falseCase) {
-    return condition ? trueCase() : falseCase?.();
+    return condition ? trueCase(condition) : falseCase?.(condition);
 }
 
 export { when };

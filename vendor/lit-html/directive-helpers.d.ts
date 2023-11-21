@@ -3,7 +3,7 @@
  * Copyright 2020 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
-import { Part, DirectiveParent, TemplateResult, CompiledTemplateResult } from './lit-html.js';
+import { Part, DirectiveParent, CompiledTemplateResult, MaybeCompiledTemplateResult, UncompiledTemplateResult } from './lit-html.js';
 import { DirectiveResult, DirectiveClass, PartInfo } from './directive.js';
 type Primitive = null | undefined | boolean | number | string | symbol | bigint;
 declare const ChildPart: typeof import("./lit-html.js").ChildPart;
@@ -20,8 +20,8 @@ export declare const TemplateResultType: {
 };
 export type TemplateResultType = (typeof TemplateResultType)[keyof typeof TemplateResultType];
 type IsTemplateResult = {
-    (val: unknown): val is TemplateResult | CompiledTemplateResult;
-    <T extends TemplateResultType>(val: unknown, type: T): val is TemplateResult<T>;
+    (val: unknown): val is MaybeCompiledTemplateResult;
+    <T extends TemplateResultType>(val: unknown, type: T): val is UncompiledTemplateResult<T>;
 };
 /**
  * Tests if a value is a TemplateResult or a CompiledTemplateResult.
