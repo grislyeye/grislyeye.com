@@ -781,9 +781,15 @@
     static styles = i`
     :host {
       display: flex;
-      align-items: flex-start;
       justify-content: space-between;
+      align-items: center;
       font-family: var(--subtitle-font-family);
+    }
+
+    @media (width < 650px) {
+      :host {
+        align-items: flex-start;
+      }
     }
 
     a {
@@ -796,11 +802,11 @@
       display: flex;
       align-items: center;
       min-width: max-content;
+      gap: 0.5em;
     }
 
     .main img.logo {
       height: 30px;
-      padding-right: 0.7em;
     }
 
     .socials {
@@ -810,22 +816,17 @@
       flex-wrap: wrap;
       justify-content: flex-end;
       text-transform: lowercase;
+      gap: 0.5em 1.5em;
     }
 
-    .social {
+    .social a {
       display: flex;
       align-items: center;
-    }
-
-    #location {
-      margin-top: auto;
+      gap: 0.2em;
     }
 
     .social img.icon {
-      height: 0.9rem;
-      padding-right: 0.2em;
-      padding-left: 1.5em;
-      padding-top: 0.4em;
+      height: 1em;
     }
   `;
     static properties = {
@@ -850,23 +851,31 @@
         </div>
 
         <div class="social">
-          <a href="${this.email}" title="Mailing List"><img src="/images/email.svg" class="icon" alt="Email icon"></a>
-          <a href="${this.email}" title="Mailing List">Mailing List</a>
+          <a href="${this.email}" title="Mailing List">
+            <img src="/images/email.svg" class="icon" alt="Email icon">
+            Mailing List
+          </a>
         </div>
 
         <div class="social">
-          <a rel="me" href="${this.twitter}" title="Twitter"><img src="/images/twitter.svg" class="icon" alt="Twitter icon"></a>
-          <a rel="me" href="${this.twitter}" title="Twitter">Twitter</a>
+          <a rel="me" href="${this.twitter}" title="Twitter">
+            <img src="/images/twitter.svg" class="icon" alt="Twitter icon">
+            Twitter
+          </a>
         </div>
 
         <div class="social">
-          <a rel="me" href="${this.mastodon}" title="Mastodon"><img src="/images/mastodon.svg" class="icon" alt="Mastodon icon"></a>
-          <a rel="me" href="${this.mastodon}" title="Mastodon">Mastodon</a>
+          <a rel="me" href="${this.mastodon}" title="Mastodon">
+            <img src="/images/mastodon.svg" class="icon" alt="Mastodon icon">
+            Mastodon
+          </a>
         </div>
 
         <div class="social">
-          <a href="${this.rss}" title="RSS"><img src="/images/rss.svg" class="icon" alt="RSS icon"></a>
-          <a href="${this.rss}" title="RSS">RSS</a>
+          <a href="${this.rss}" title="RSS">
+            <img src="/images/rss.svg" class="icon" alt="RSS icon">
+            RSS
+          </a>
         </div>
       </div>
     `;

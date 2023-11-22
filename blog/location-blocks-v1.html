@@ -48,6 +48,8 @@
 
   --content-max-width: 740px;
   --content-subtitle-max-width: 150px;
+
+  --fluid-gap: clamp(0.75rem, 3vw, 1.5rem)
 }
 
 * {
@@ -146,16 +148,11 @@ main > my-section {
   max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
 }
 
-my-preview {
-  display: inline-block;
-  width: 165px;
-  height: 165px;
-}
-
 .previews {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-auto-rows: minmax(160px, 1fr);
+  gap: var(--fluid-gap);
   padding: 0;
   margin: 0;
   margin-bottom: 7rem;
@@ -169,6 +166,13 @@ ul.previews {
 .previews li {
   margin: 0;
   padding: 0;
+}
+
+my-preview {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
 }
 
 section.small.page {
@@ -253,7 +257,7 @@ span.title {
   font-variant: small-caps;
 }</style>
 
-    <link rel="stylesheet" href="/bundle/4fxa4TETZ8.css">
+    <link rel="stylesheet" href="/bundle/-BELGSzE9D.css">
 
     <script type="importmap">
       {
@@ -801,9 +805,15 @@ span.title {
        twitter="https://twitter.com/grislyeye" email="/mailing-list/" mastodon="https://toot.io/@grislyeye" rss="/rss.xml" , location="London"><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: flex;
-      align-items: flex-start;
       justify-content: space-between;
+      align-items: center;
       font-family: var(--subtitle-font-family);
+    }
+
+    @media (width < 650px) {
+      :host {
+        align-items: flex-start;
+      }
     }
 
     a {
@@ -816,11 +826,11 @@ span.title {
       display: flex;
       align-items: center;
       min-width: max-content;
+      gap: 0.5em;
     }
 
     .main img.logo {
       height: 30px;
-      padding-right: 0.7em;
     }
 
     .socials {
@@ -830,24 +840,19 @@ span.title {
       flex-wrap: wrap;
       justify-content: flex-end;
       text-transform: lowercase;
+      gap: 0.5em 1.5em;
     }
 
-    .social {
+    .social a {
       display: flex;
       align-items: center;
-    }
-
-    #location {
-      margin-top: auto;
+      gap: 0.2em;
     }
 
     .social img.icon {
-      height: 0.9rem;
-      padding-right: 0.2em;
-      padding-left: 1.5em;
-      padding-top: 0.4em;
+      height: 1em;
     }
-  </style><!--lit-part S1iFiYfXASE=-->
+  </style><!--lit-part VCJCij29hm4=-->
       <div class="main">
         <a href="/"><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"></a>
         <span>
@@ -861,23 +866,31 @@ span.title {
         </div>
 
         <div class="social">
-          <!--lit-node 14--><a href="/mailing-list/" title="Mailing List"><img src="/images/email.svg" class="icon" alt="Email icon"></a>
-          <!--lit-node 16--><a href="/mailing-list/" title="Mailing List">Mailing List</a>
+          <!--lit-node 14--><a href="/mailing-list/" title="Mailing List">
+            <img src="/images/email.svg" class="icon" alt="Email icon">
+            Mailing List
+          </a>
         </div>
 
         <div class="social">
-          <!--lit-node 18--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter"><img src="/images/twitter.svg" class="icon" alt="Twitter icon"></a>
-          <!--lit-node 20--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter">Twitter</a>
+          <!--lit-node 17--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter">
+            <img src="/images/twitter.svg" class="icon" alt="Twitter icon">
+            Twitter
+          </a>
         </div>
 
         <div class="social">
-          <!--lit-node 22--><a rel="me" href="https://toot.io/@grislyeye" title="Mastodon"><img src="/images/mastodon.svg" class="icon" alt="Mastodon icon"></a>
-          <!--lit-node 24--><a rel="me" href="https://toot.io/@grislyeye" title="Mastodon">Mastodon</a>
+          <!--lit-node 20--><a rel="me" href="https://toot.io/@grislyeye" title="Mastodon">
+            <img src="/images/mastodon.svg" class="icon" alt="Mastodon icon">
+            Mastodon
+          </a>
         </div>
 
         <div class="social">
-          <!--lit-node 26--><a href="/rss.xml" title="RSS"><img src="/images/rss.svg" class="icon" alt="RSS icon"></a>
-          <!--lit-node 28--><a href="/rss.xml" title="RSS">RSS</a>
+          <!--lit-node 23--><a href="/rss.xml" title="RSS">
+            <img src="/images/rss.svg" class="icon" alt="RSS icon">
+            RSS
+          </a>
         </div>
       </div>
     <!--/lit-part--></template>
@@ -985,7 +998,7 @@ span.title {
     <!--/lit-part--></template>
 
     <figure class="illustration" id="location-illustration">
-  <picture><source type="image/avif" srcset="/img/fO6reDcRv6-400.avif 400w"><source type="image/webp" srcset="/img/fO6reDcRv6-400.webp 400w"><img alt="Location Illustration" loading="lazy" decoding="async" src="/img/fO6reDcRv6-400.png" width="400" height="569"></picture>
+  <picture><source type="image/avif" srcset="/img/fO6reDcRv6-400.avif 400w"><source type="image/webp" srcset="/img/fO6reDcRv6-400.webp 400w"><img alt="Location Illustration" loading="lazy" decoding="async" title="Location Illustration" src="/img/fO6reDcRv6-400.png" width="400" height="569"></picture>
   <p class="caption">Public domain woodcut from the <a href="https://en.wikipedia.org/wiki/Hereford_Mappa_Mundi">Hereford Map of the World (Mappa Mundi)</a>.</p>
 </figure>
 
@@ -1146,7 +1159,7 @@ span.title {
 
     <footer>
       <p class="legal">
-        Website version 3.6.0 &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+        Website version 3.7.0 &copy; 2016-2023 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
       </p>
     </footer>
 

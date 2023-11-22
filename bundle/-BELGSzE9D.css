@@ -25,15 +25,11 @@
 }
 
 #post h2 {
-  font-size: 3.6rem;
+  font-size: 2.2rem;
 }
 
 #post h3 {
-  font-size: 2.6rem;
-}
-
-#post h4 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 #post table {
@@ -59,6 +55,7 @@
   padding-left: 1em;
   padding-bottom: 1em;
   font-size: 0.9em;
+  line-height: 1.4;
   color: #a8a8a8;
 }
 
@@ -80,11 +77,21 @@
   content: "❧";
 }
 
+.content aside em {
+  color: red;
+}
+
       .content blockquote {
   margin-left: 0;
   padding-left: 1em;
   border-left: 1px solid white;
   font-style: italic;
+}
+
+#post blockquote p {
+  margin: 0;
+  margin-bottom: 0.5em;
+  line-height: 1;
 }
 
 .content blockquote cite {
@@ -93,7 +100,26 @@
   text-indent: 1em;
 }
 
-.content blockquote cite::before {
+#post blockquote ol:last-child,
+#post blockquote ul:last-child {
+  list-style: none;
+	padding: 0;
+}
+
+#post blockquote ol:last-child li,
+#post blockquote ul:last-child li {
+  font-style: normal;
+  text-indent: 1em;
+}
+
+#post blockquote ol:last-child li em,
+#post blockquote ul:last-child li em {
+  color: red;
+}
+
+.content blockquote cite::before,
+#post blockquote ol:last-child li::before,
+#post blockquote ul:last-child li::before {
   content: "- ";
 }
 
@@ -364,18 +390,22 @@ figure.illustration.outlined img {
   }
 }
 
-      article img {
-  width: 100%;
+      #post img {
+  margin: 1em;
+  border: solid;
+  max-width: 100%;
+  max-height: 100%;
   height: auto;
-  margin: 0;
-  padding: 0;
-  display: block;
 }
 
-@media (width < 800px) {
-  article img {
-    width: 100%;
-  }
+#post img:nth-child(odd){
+  margin-right: 0;
+  float: right;
+}
+
+#post img:nth-child(even) {
+  margin-left: 0;
+  float: left;
 }
 
 article img.small {
