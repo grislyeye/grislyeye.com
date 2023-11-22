@@ -24,3 +24,7 @@
 .content aside p.break::before {
   content: "❧";
 }
+
+.content aside em {
+  color: red;
+}

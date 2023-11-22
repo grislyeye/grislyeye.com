@@ -5,12 +5,37 @@
   font-style: italic;
 }
 
+#post blockquote p {
+  margin: 0;
+  margin-bottom: 0.5em;
+  line-height: 1;
+}
+
 .content blockquote cite {
   display: block;
   font-style: normal;
   text-indent: 1em;
 }
 
-.content blockquote cite::before {
+#post blockquote ol:last-child,
+#post blockquote ul:last-child {
+  list-style: none;
+	padding: 0;
+}
+
+#post blockquote ol:last-child li,
+#post blockquote ul:last-child li {
+  font-style: normal;
+  text-indent: 1em;
+}
+
+#post blockquote ol:last-child li em,
+#post blockquote ul:last-child li em {
+  color: red;
+}
+
+.content blockquote cite::before,
+#post blockquote ol:last-child li::before,
+#post blockquote ul:last-child li::before {
   content: "- ";
 }

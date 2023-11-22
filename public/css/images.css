@@ -1,15 +1,19 @@
-article img {
-  width: 100%;
+#post img {
+  margin: 1em;
+  border: solid;
+  max-width: 100%;
+  max-height: 100%;
   height: auto;
-  margin: 0;
-  padding: 0;
-  display: block;
 }
 
-@media (width < 800px) {
-  article img {
-    width: 100%;
-  }
+#post img:nth-child(odd){
+  margin-right: 0;
+  float: right;
+}
+
+#post img:nth-child(even) {
+  margin-left: 0;
+  float: left;
 }
 
 article img.small {
