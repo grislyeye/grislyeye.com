@@ -50,7 +50,7 @@ Each folk lists the tropes it seeks to replace. A goblin tribe can be re-interpr
 
 The various folk are described without judgement. All cultures have their arseholes and all the folk here certainly do. But they aren't defined by them. I've given some examples of both "good" and "bad" factions, but these aren't prescriptive, and you are invited to create your own.
 
-{% image "./descendant.svg", "A Couple Addressed by a Lute Player, 1595/1596", ["150"] %}
+{% image "./descendant.svg", "A Couple Addressed by a Lute Player, 1595/1596", ["200"] %}
 
 ### The Descendants
 
@@ -106,7 +106,7 @@ For this reason, rhots are abjured by the other folk. At best banished, at worst
 
 Rhots often find a life in the more lawless circumstances. Perhaps hiding their marks and lurking in the underworld of towns or cities. Perhaps selling their skills as mercenaries for warlords and tyrants. Of course, such jobs guarantee an unpleasant end. Perhaps a fitting punishment, for their crimes.
 
-{% image "./hidling.png", "Huntsmen hiding behind cattle and horse carts to avoid being seen by the deer they are aiming at. Engraving by J. van der Straet.", ["170"] %}
+{% image "./hidling.png", "Huntsmen hiding behind cattle and horse carts to avoid being seen by the deer they are aiming at. Engraving by J. van der Straet.", ["200"] %}
 
 ## Hidlings
 
