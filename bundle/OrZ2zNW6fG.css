@@ -408,6 +408,13 @@ figure.illustration.outlined img {
   float: left;
 }
 
+@media(width < 400px) {
+  #post img {
+    float: none;
+    width: 100%
+  }
+}
+
 article img.small {
   width: 40%;
 }

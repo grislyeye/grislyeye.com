@@ -5,6 +5,22 @@ import { desc } from './base.js';
  * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
+let issueWarning;
+{
+    // Ensure warnings are issued only 1x, even if multiple versions of Lit
+    // are loaded.
+    const issuedWarnings = (globalThis.litIssuedWarnings ??= new Set());
+    // Issue a warning, if we haven't already.
+    issueWarning = (code, warning) => {
+        warning += code
+            ? ` See https://lit.dev/msg/${code} for more information.`
+            : '';
+        if (!issuedWarnings.has(warning)) {
+            console.warn(warning);
+            issuedWarnings.add(warning);
+        }
+    };
+}
 /**
  * A property decorator that converts a class property into a getter that
  * executes a querySelector on the element's renderRoot.
@@ -33,10 +49,21 @@ import { desc } from './base.js';
 function query(selector, cache) {
     return ((protoOrTarget, nameOrContext, descriptor) => {
         const doQuery = (el) => {
+            const result = (el.renderRoot?.querySelector(selector) ?? null);
+            if (result === null && cache && !el.hasUpdated) {
+                const name = typeof nameOrContext === 'object'
+                    ? nameOrContext.name
+                    : nameOrContext;
+                issueWarning('', `@query'd field ${JSON.stringify(String(name))} with the 'cache' ` +
+                    `flag set for selector '${selector}' has been accessed before ` +
+                    `the first update and returned null. This is expected if the ` +
+                    `renderRoot tree has not been provided beforehand (e.g. via ` +
+                    `Declarative Shadow DOM). Therefore the value hasn't been cached.`);
+            }
             // TODO: if we want to allow users to assert that the query will never
             // return null, we need a new option and to throw here if the result
             // is null.
-            return (el.renderRoot?.querySelector(selector) ?? null);
+            return result;
         };
         if (cache) {
             // Accessors to wrap from either:
@@ -62,15 +89,14 @@ function query(selector, cache) {
                     })();
             return desc(protoOrTarget, nameOrContext, {
                 get() {
-                    if (cache) {
-                        let result = get.call(this);
-                        if (result === undefined) {
-                            result = doQuery(this);
+                    let result = get.call(this);
+                    if (result === undefined) {
+                        result = doQuery(this);
+                        if (result !== null || this.hasUpdated) {
                             set.call(this, result);
                         }
-                        return result;
                     }
-                    return doQuery(this);
+                    return result;
                 },
             });
         }

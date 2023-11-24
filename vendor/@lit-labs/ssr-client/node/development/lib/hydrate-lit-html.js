@@ -31,13 +31,13 @@ const { TemplateInstance, isIterable, resolveDirective, ChildPart, ElementPart }
  *   <!--lit-part AEmR7W+R0Ak=-->  # Start marker for the root ChildPart created
  *                                 # by render(). Includes the digest of the
  *                                 # template
+ *   <!--lit-node 0--> # Indicates there are attribute bindings in next node
+ *                     # The number is the depth-first index of the parent
+ *                     # node in the template.
  *   <div class="TEST_X">
- *     <!--lit-node 0--> # Indicates there are attribute bindings here
- *                           # The number is the depth-first index of the parent
- *                           # node in the template.
- *     <!--lit-part-->  # Start marker for the ${x} expression
+ *     <!--lit-part-->  # Start marker for the ${y} expression
  *     TEST_Y
- *     <!--/lit-part-->  # End marker for the ${x} expression
+ *     <!--/lit-part-->  # End marker for the ${y} expression
  *   </div>
  *
  *   <!--/lit-part-->  # End marker for the root ChildPart
@@ -79,7 +79,12 @@ const hydrate = (rootValue, container, options = {}) => {
             }
             // Create a new ChildPart and push it onto the stack
             currentChildPart = openChildPart(rootValue, marker, stack, options);
-            rootPart ??= currentChildPart;
+            // Using nullish logical assignment below can cause next.js's swc to move
+            // the `openChildPart()` call above behind the nullish check.
+            // See https://github.com/lit/lit/issues/4289
+            if (rootPart === undefined) {
+                rootPart = currentChildPart;
+            }
             rootPartMarker ??= marker;
         }
         else if (markerText.startsWith('lit-node')) {

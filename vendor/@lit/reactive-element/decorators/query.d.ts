@@ -7,7 +7,7 @@ import type { ReactiveElement } from '../reactive-element.js';
 import { type Interface } from './base.js';
 export type QueryDecorator = {
     (proto: Interface<ReactiveElement>, name: PropertyKey, descriptor?: PropertyDescriptor): void | any;
-    <C extends Interface<ReactiveElement>, V extends Element>(value: ClassAccessorDecoratorTarget<C, V>, context: ClassAccessorDecoratorContext<C, V>): ClassAccessorDecoratorResult<C, V>;
+    <C extends Interface<ReactiveElement>, V extends Element | null>(value: ClassAccessorDecoratorTarget<C, V>, context: ClassAccessorDecoratorContext<C, V>): ClassAccessorDecoratorResult<C, V>;
 };
 /**
  * A property decorator that converts a class property into a getter that

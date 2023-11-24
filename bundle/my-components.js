@@ -164,15 +164,15 @@
       super(), this._$Ep = void 0, this.isUpdatePending = false, this.hasUpdated = false, this._$Em = null, this._$Ev();
     }
     _$Ev() {
-      this._$Eg = new Promise((t3) => this.enableUpdating = t3), this._$AL = /* @__PURE__ */ new Map(), this._$E_(), this.requestUpdate(), this.constructor.l?.forEach((t3) => t3(this));
+      this._$Eg = new Promise((t3) => this.enableUpdating = t3), this._$AL = /* @__PURE__ */ new Map(), this._$ES(), this.requestUpdate(), this.constructor.l?.forEach((t3) => t3(this));
     }
     addController(t3) {
-      (this._$ES ??= []).push(t3), void 0 !== this.renderRoot && this.isConnected && t3.hostConnected?.();
+      (this._$E_ ??= /* @__PURE__ */ new Set()).add(t3), void 0 !== this.renderRoot && this.isConnected && t3.hostConnected?.();
     }
     removeController(t3) {
-      this._$ES?.splice(this._$ES.indexOf(t3) >>> 0, 1);
+      this._$E_?.delete(t3);
     }
-    _$E_() {
+    _$ES() {
       const t3 = /* @__PURE__ */ new Map(), s5 = this.constructor.elementProperties;
       for (const i5 of s5.keys())
         this.hasOwnProperty(i5) && (t3.set(i5, this[i5]), delete this[i5]);
@@ -183,12 +183,12 @@
       return S(t3, this.constructor.elementStyles), t3;
     }
     connectedCallback() {
-      this.renderRoot ??= this.createRenderRoot(), this.enableUpdating(true), this._$ES?.forEach((t3) => t3.hostConnected?.());
+      this.renderRoot ??= this.createRenderRoot(), this.enableUpdating(true), this._$E_?.forEach((t3) => t3.hostConnected?.());
     }
     enableUpdating(t3) {
     }
     disconnectedCallback() {
-      this._$ES?.forEach((t3) => t3.hostDisconnected?.());
+      this._$E_?.forEach((t3) => t3.hostDisconnected?.());
     }
     attributeChangedCallback(t3, s5, i5) {
       this._$AK(t3, i5);
@@ -235,7 +235,7 @@
       if (!this.isUpdatePending)
         return;
       if (!this.hasUpdated) {
-        if (this._$Ep) {
+        if (this.renderRoot ??= this.createRenderRoot(), this._$Ep) {
           for (const [t5, s6] of this._$Ep)
             this[t5] = s6;
           this._$Ep = void 0;
@@ -248,7 +248,7 @@
       let t3 = false;
       const s5 = this._$AL;
       try {
-        t3 = this.shouldUpdate(s5), t3 ? (this.willUpdate(s5), this._$ES?.forEach((t4) => t4.hostUpdate?.()), this.update(s5)) : this._$ET();
+        t3 = this.shouldUpdate(s5), t3 ? (this.willUpdate(s5), this._$E_?.forEach((t4) => t4.hostUpdate?.()), this.update(s5)) : this._$ET();
       } catch (s6) {
         throw t3 = false, this._$ET(), s6;
       }
@@ -257,7 +257,7 @@
     willUpdate(t3) {
     }
     _$AE(t3) {
-      this._$ES?.forEach((t4) => t4.hostUpdated?.()), this.hasUpdated || (this.hasUpdated = true, this.firstUpdated(t3)), this.updated(t3);
+      this._$E_?.forEach((t4) => t4.hostUpdated?.()), this.hasUpdated || (this.hasUpdated = true, this.firstUpdated(t3)), this.updated(t3);
     }
     _$ET() {
       this._$AL = /* @__PURE__ */ new Map(), this.isUpdatePending = false;
@@ -279,7 +279,7 @@
     firstUpdated(t3) {
     }
   };
-  b.elementStyles = [], b.shadowRootOptions = { mode: "open" }, b[d("elementProperties")] = /* @__PURE__ */ new Map(), b[d("finalized")] = /* @__PURE__ */ new Map(), p?.({ ReactiveElement: b }), (a.reactiveElementVersions ??= []).push("2.0.0");
+  b.elementStyles = [], b.shadowRootOptions = { mode: "open" }, b[d("elementProperties")] = /* @__PURE__ */ new Map(), b[d("finalized")] = /* @__PURE__ */ new Map(), p?.({ ReactiveElement: b }), (a.reactiveElementVersions ??= []).push("2.0.2");
 
   // node_modules/lit-html/lit-html.js
   var t2 = globalThis;
@@ -575,7 +575,7 @@
   s3._$litElement$ = true, s3["finalized", "finalized"] = true, globalThis.litElementHydrateSupport?.({ LitElement: s3 });
   var r4 = globalThis.litElementPolyfillSupport;
   r4?.({ LitElement: s3 });
-  (globalThis.litElementVersions ??= []).push("4.0.0");
+  (globalThis.litElementVersions ??= []).push("4.0.2");
 
   // _components/my-button.js
   var MyButton = class _MyButton extends s3 {
