@@ -33,7 +33,7 @@ Yet, I think there is still an appetite for grounded fantasy. Some of us don't f
 
 In this case, grounded fantasy offers us an escape, but only an escape to certainty. In a lower fantasy, the world is assuredly grubby and cruel, so the question no longer nags. Our most cynical fears are confirmed and extinguished, even if just for a short time.
 
-And that's the somewhat cold entertainment of it all.
+And that's the somewhat clammy entertainment of it all.
 
 And without a doubt, humans, in all their grubbiness and cruelty, ground our fantasy the best.
 
@@ -53,7 +53,7 @@ The various folk are described without judgement. All cultures have their arseho
 
 {% image "./descendant.svg", "A Couple Addressed by a Lute Player, 1595/1596", ["180"] %}
 
-### The Descendants
+## The Descendants
 
 **Tropes:** high elves, dark elves
 
@@ -61,7 +61,7 @@ The Ancestors are long gone but, as with all things related to these mysterious 
 
 Descendants are reborn randomly, scattered among the common folk, isolated, weak and broken. Through their many lives, they have forgotten much, yet their sorcery still eclipses even the greatest wizard of the common age. They jealously horde this knowledge and prefer to live alone, even among their own kind, whom they trust little.
 
-#### The Fourth Schooling
+### The Fourth Schooling
 
 It is said that three descendants have convened for a legendary Fourth Schooling in the city of Laggard. From across the lands sages and students flock, eager to learn at the side of the very Ancestors themselves or, failing that, grab whatever scraps of might fall from their table.
 
