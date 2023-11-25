@@ -7,6 +7,7 @@ class MyNavigationBar extends LitElement {
       justify-content: space-between;
       align-items: center;
       font-family: var(--subtitle-font-family);
+      font-size: 12pt;
     }
 
     @media (width < 650px) {

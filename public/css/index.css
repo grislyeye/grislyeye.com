@@ -32,7 +32,7 @@ html {
 html,
 body {
   font-family: var(--font-family);
-  font-size: 1em;
+  font-size: 13pt;
   color: var(--text-color);
   line-height: 1;
 }
