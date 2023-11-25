@@ -1,6 +1,6 @@
 ---
 title: Of Hidlings and Rhots
-date: 2023-10-09
+date: 2023-11-25
 tags:
   - posts
 layout: layouts/post.njk
@@ -44,8 +44,8 @@ This work was written to the following principles:
 - Replace common fantasy races with human cultures ("folk")
 - That still touch upon the tropes of the originals
 - While avoiding bio-essentialism,
-- Avoiding racist tropes
-- And avoiding appropriating other cultures.
+- Avoiding racist stereotypes
+- And avoiding appropriating real world cultures.
 
 Each folk lists the tropes it seeks to replace. A goblin tribe can be re-interpreted as a band of hidling bandits. A dwarven smith might translate to a holder exile, sharing his highcraft with the common folk.
 
@@ -69,7 +69,7 @@ Yet is all as it seems? Some mutter about fool's gold and wonder to themselves h
 
 ### Agra
 
-<aside>OK, you got me, descendants are a bit magical. I've made peace with it here because it's pretty subtle.</aside>
+<aside>OK, you got me, descendants are a bit magical. I've made peace with it here because it's subtle. It's low fantasy, not no fantasy after all.</aside>
 
 How far have the mighty Ancestors fallen that they must partake of the dead to sustain themselves. Take Agra, who haunts the cemetery in the coastal village of Thurrock, picking delicate folds of decrepit flesh off the bones of the dead. All so that he might escape the circle of reincarnation his kind are trapped in.
 
