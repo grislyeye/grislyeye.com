@@ -1,5 +1,5 @@
 ---
-title: Of Hidlings and Rhots
+title: Of Hidlings
 date: 2023-11-25
 tags:
   - posts
