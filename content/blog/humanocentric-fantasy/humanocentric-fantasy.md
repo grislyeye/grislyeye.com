@@ -1,5 +1,5 @@
 ---
-title: Of Hidlings and Rhots
+title: Of Hidlings
 date: 2023-11-25
 tags:
   - posts
@@ -96,16 +96,6 @@ For Clan Obel their hold has become a lightless tomb. These holders dwelled too 
 At night they strike out, ensnaring travellers with their highcraft weapons and dragging them underground so they might steal their food, set them to work in their mines or worse, much, much worse. Those few who escape return aged beyond their years.
 
 Tread carefully through the Cradle Mountains.
-
-## Rhots
-
-**Tropes:** ogres, gnolls, trolls, orcs
-
-The war-rhots (or rhots) wear their crimes upon their faces and bodies. Each has killed in cold blood, indulging in bloodshed for its own sake. Each death slowing warping them, turning teeth to tusks, lengthening limbs, turning skin raw pink or swelling bones to gigantic proportions.
-
-For this reason, rhots are abjured by the other folk and are at best banished, at worst hunted and killed. Yet, some are kept at arms length, for they’re capable of acts other folk might balk at.
-
-Rhots often find a life in more lawless circumstances. Perhaps hiding their marks and lurking in the underworld of towns or cities. Perhaps selling their skills as mercenaries for warlords and tyrants. Of course, such jobs guarantee an unpleasant end. Perhaps a fitting punishment for their crimes.
 
 {% image "./hidling.png", "Huntsmen hiding behind cattle and horse carts to avoid being seen by the deer they are aiming at. Engraving by J. van der Straet.", ["200"] %}
 
