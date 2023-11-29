@@ -23,19 +23,19 @@ Similarly, Gary sought to ground his fantasy in order to maintain a mostly logic
 
 <aside>It is worth noting that low fantasy is sometimes called intrusion fantasy.</aside>
 
-A better term is perhaps "consistent" or at least internally consistent. When we think about fantasy we are mostly (there's that word again) imagining a psuedohistorical setting. And, when we think about low fantasy, we imagine a world that has the trappings of historical realism and where magical elements merely intrude. Or, to put it simply, where magic is the exception and not the rule.
+A better term is perhaps "consistent" or at least internally consistent. When we think about fantasy we mostly (there's that word again) imagine a psuedohistorical setting. And, when we think about low fantasy, we imagine a world that has the trappings of historical realism and where magical elements merely intrude. Or, to put it simply, where magic is the exception and not the rule.
 
 And we do this because, once you infer the ramifications of ubiquitous magic, psuedohistoricism becomes inconsistent, and inconsistency breaks the world, making it unbelievable and therefore unrelatable. Or so the mostly-logic follows.
 
 Of course, tastes may vary. Modern players have higher fantasy expectations and are happier to hand wave inconsistent magic. And, to be fair, only the lowliest of low fantasies doesn't require some handwaving. Indeed, isn't handwaving what we might call entertainment? Isn't magic the very definition of handwaving? We want to be transported, to slip the grey shackles of mundanity and flee to worlds unfettered by our physical limitations, after all.
 
-Yet, I think there is still an appetite for grounded fantasy. Some of us don't feel transported by shining fantasies. We look at the real world and wonder why a world with magic would be any better. It might even be worse. We're not sure and the question lingers, nagging at our dreams.
+Yet, I think there is still an appetite for grounded fantasy. Some of us don't feel transported by shining fantasies. We look at the real world and wonder why a world with magic would be any better. It might even be worse. We're not sure and so the question lingers, nagging at our dreams.
 
 In this case grounded fantasy offers us an escape, but only an escape to certainty. In a lower fantasy the world is assuredly grubby and cruel so the question no longer lingers. Our most cynical fears are confirmed and extinguished, even if just for a short time.
 
 And that's the somewhat cold and clammy entertainment of it all.
 
-And without a doubt, humans, in all their grubbiness and cruelty, ground our fantasy the best.
+And, without a doubt, humans, in all their grubbiness and cruelty, ground our fantasy the best.
 
 ## The Fantasy Itself
 
@@ -65,7 +65,7 @@ Descendants are reborn randomly, scattered among the common folk, isolated, weak
 
 It is said that three descendants have convened for a legendary Fourth Schooling in the city of Laggard. From across the lands sages and students flock, eager to learn at the side of the very Ancestors themselves or, failing that, grab whatever scraps might fall from their table.
 
-Yet is all as it seems? Some mutter about fool's gold and wonder to themselves how one might tell a true descendant from a mere mummer. Is this actually a Fourth Schooling or is it just a canny gambit to entrap the gullible and ensnare what arcane knowledge _they_ might have?
+Yet is all as it seems? Some mutter about fool's gold and wonder to themselves how one might tell a true descendant from a mere mummer. Is this actually a Fourth Schooling, or is it just a canny gambit to entrap the gullible and ensnare what arcane knowledge _they_ might have?
 
 ### Agra
 
@@ -103,17 +103,17 @@ Tread carefully through the Cradle Mountains.
 
 **Tropes:** fey, gnomes, goblins, halflings, wood elves
 
-If you're one of the few who have heard the tales of the hidlings (and believe them) they are a rare folk who are notable for hiding from the rest of common civilisation. Sometimes they are close, living alongside other folk in secret, and sometimes apart, hiding in the remote or forgotten places that dot the lands.
+If you're one of the few who have heard the tales of the hidlings (and believe them) they are a rare folk who are notable for hiding from the rest of common civilization. Sometimes they are close, living alongside other folk in secret, and sometimes apart, hiding in the remote or forgotten places that dot the lands.
 
-The stories speak of a rule which defines their existence: no hidling may reveal where they sleep to non-hidling. A simple law but it's not always clear what this means precisely.
+The stories speak of a rule which defines their existence: no hidling may reveal where they sleep to non-hidling. A simple law yet it's not always clear what it means precisely.
 
 Some hidlings prefer to remain completely hidden, living cautiously so as never to be seen or heard. Others travel far and wide, never tarrying long enough in the same place to become known. A few live otherwise settled lives, only returning to hidden quarters at night.
 
-Hidlings form into tight-knit bands such as clans, families or small settlements. A few survive through forage, theft or banditry but most simply get on with their lives, working trades and raising their families.
+Hidlings form into tight-knit bands such as clans, families or small settlements. A few survive through forage, theft or banditry, but most simply get on with their lives, working trades and raising their families.
 
-What all hidlings fear most is having their homes discovered. This usually means displacement as a new retreat must be found. For nomadic hidlings this isn't usually too much of a problem but for their settled kindred this can be catastrophic. All too often discovery of a hidling sanctum can lead to extreme measures to silence witnesses.
+What all hidlings fear most is having their homes discovered. This usually means displacement as a new retreat must be found. For nomadic hidlings this isn't usually too much of a problem, but for their settled kindred this can be catastrophic. All too often discovery of a hidling sanctum can lead to extreme measures to silence witnesses.
 
-All hidlings are known to each by their secret cant, a mixture of subtle gestures and signs.
+All hidlings are known to each by secret gestures and signs.
 
 ## Summary
 
