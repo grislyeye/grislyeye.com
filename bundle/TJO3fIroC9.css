@@ -573,7 +573,13 @@ vellum-monster h2 {
   margin-bottom: 0;
 }
 
-      .content table caption {
+      .content table {
+  border-collapse: collapse;
+  margin-left: 2em;
+  text-align: left;
+}
+
+.content table caption {
   font-variant: small-caps;
   font-weight: bold;
   color: red;
@@ -581,14 +587,14 @@ vellum-monster h2 {
   font-size: larger;
 }
 
-
-.content table td {
-  padding-right: 1em;
+.content table tr {
+  border-bottom: 1px solid white;
 }
 
-.content table {
-  border-collapse: collapse;
-  text-align: left;
+.content table td,
+.content table th {
+  padding: 0.7em 0.7em 0.7em 0;
+  vertical-align: top;
 }
 
 .content table td.number,
