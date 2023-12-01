@@ -3,6 +3,10 @@ const eleventyImage = require('@11ty/eleventy-img');
 
 module.exports = (eleventyConfig) => {
   function relativeToInputPath(inputPath, relativeFilePath) {
+    if (relativeFilePath.startsWith('/')) {
+      return `./content${ relativeFilePath }`;
+    }
+
     const split = inputPath.split('/');
     split.pop();
 

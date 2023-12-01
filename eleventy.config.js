@@ -59,7 +59,10 @@ module.exports = (eleventyConfig) => {
     url: metadata.url,
     author: metadata.author.name,
     twitter: 'grislyeye',
-    image: `${ metadata.url }/images/logo.svg`
+    image: `${ metadata.url }/images/logo.svg`,
+    options: {
+      imageWithBaseUrl: true
+    }
   });
   eleventyConfig.addPlugin(pluginGoogleFonts);
 
