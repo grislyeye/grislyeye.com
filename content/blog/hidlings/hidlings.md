@@ -4,7 +4,7 @@ date: 2023-11-25
 tags:
   - posts
 layout: layouts/post.njk
-image: /blog/hidlings/./hidling.png
+image: /blog/hidlings/hidling.png
 ---
 
 This is a piece of world design I've been toying with over the last few years. It's an attempt to create a low fantasy setting that touches on the tropes of traditional fantasy races without requiring the ubiquitous presence of elves, dwarves, etc.
