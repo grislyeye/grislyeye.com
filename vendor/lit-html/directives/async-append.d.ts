@@ -9,7 +9,7 @@ import { AsyncReplaceDirective } from './async-replace.js';
 declare class AsyncAppendDirective extends AsyncReplaceDirective {
     private __childPart;
     constructor(partInfo: PartInfo);
-    update(part: ChildPart, params: DirectiveParameters<this>): typeof import("../lit-html.js").noChange | undefined;
+    update(part: ChildPart, params: DirectiveParameters<this>): symbol;
     protected commitValue(value: unknown, index: number): void;
 }
 /**

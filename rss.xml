@@ -104,7 +104,7 @@
 
   &lt;hr /&gt;
 
-  &lt;my-product id=&quot;print&quot; class=&quot;product&quot; product=&quot;Wargod!&quot; call=&quot;Buy Print + PDF&quot; currency=&quot;£&quot; price=&quot;10&quot; src=&quot;https://buy.stripe.com/6oE17YbBs7Km3Bu6oo&quot; notes=&quot;[&amp;quot;+£2 postage.&amp;quot;, &amp;quot;Shipping to the UK only.&amp;quot;]&quot; image=&quot;/img/BRziQXILwI-200.webp&quot; timezones=&quot;[&amp;quot;Europe/London&amp;quot;]&quot;&gt;
+  &lt;my-product id=&quot;print&quot; class=&quot;product&quot; product=&quot;Wargod!&quot; call=&quot;Out of Stock&quot; currency=&quot;£&quot; price=&quot;10&quot; src=&quot;https://buy.stripe.com/6oE17YbBs7Km3Bu6oo&quot; notes=&quot;[&amp;quot;+£2 postage.&amp;quot;, &amp;quot;Shipping to the UK only.&amp;quot;]&quot; image=&quot;/img/BRziQXILwI-200.webp&quot; timezones=&quot;[&amp;quot;Europe/London&amp;quot;]&quot; disabled=&quot;&quot;&gt;
   &lt;/my-product&gt;
 &lt;/aside&gt;
 
@@ -124,7 +124,7 @@
   &lt;li&gt;and some &lt;em&gt;tastefully&lt;/em&gt; selected art.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Created as part of &lt;a href=&quot;https://www.zinemonth.com/&quot;&gt;#ZineMonth2023&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Created as part of ZineMonth2023.&lt;/p&gt;
 
 &lt;script&gt;
   const timezone =

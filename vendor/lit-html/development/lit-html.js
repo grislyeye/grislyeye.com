@@ -591,6 +591,24 @@ class Template {
             }
             nodeIndex++;
         }
+        if (DEV_MODE) {
+            // If there was a duplicate attribute on a tag, then when the tag is
+            // parsed into an element the attribute gets de-duplicated. We can detect
+            // this mismatch if we haven't precisely consumed every attribute name
+            // when preparing the template. This works because `attrNames` is built
+            // from the template string and `attrNameIndex` comes from processing the
+            // resulting DOM.
+            if (attrNames.length !== attrNameIndex) {
+                throw new Error(`Detected duplicate attribute bindings. This occurs if your template ` +
+                    `has duplicate attributes on an element tag. For example ` +
+                    `"<input ?disabled=\${true} ?disabled=\${false}>" contains a ` +
+                    `duplicate "disabled" attribute. The error was detected in ` +
+                    `the following template: \n` +
+                    '`' +
+                    strings.join('${...}') +
+                    '`');
+            }
+        }
         // We could set walker.currentNode to another node here to prevent a memory
         // leak, but every time we prepare a template, we immediately render it
         // and re-use the walker in new TemplateInstance._clone().
@@ -1380,7 +1398,7 @@ const polyfillSupport = DEV_MODE
 polyfillSupport?.(Template, ChildPart);
 // IMPORTANT: do not change the property name or the assignment expression.
 // This line will be used in regexes to search for lit-html usage.
-(global.litHtmlVersions ??= []).push('3.1.0');
+(global.litHtmlVersions ??= []).push('3.1.2');
 if (DEV_MODE && global.litHtmlVersions.length > 1) {
     issueWarning('multiple-versions', `Multiple versions of Lit loaded. ` +
         `Loading multiple versions is not recommended.`);

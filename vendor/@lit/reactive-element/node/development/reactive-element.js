@@ -650,13 +650,29 @@ class ReactiveElement
             this.__reflectingProperty = null;
         }
     }
-    /* @internal */
-    requestUpdate(name, oldValue, options, initial = false, initialValue) {
+    /**
+     * Requests an update which is processed asynchronously. This should be called
+     * when an element should update based on some state not triggered by setting
+     * a reactive property. In this case, pass no arguments. It should also be
+     * called when manually implementing a property setter. In this case, pass the
+     * property `name` and `oldValue` to ensure that any configured property
+     * options are honored.
+     *
+     * @param name name of requesting property
+     * @param oldValue old value of requesting property
+     * @param options property options to use instead of the previously
+     *     configured options
+     * @category updates
+     */
+    requestUpdate(name, oldValue, options) {
         // If we have a property key, perform property update steps.
         if (name !== undefined) {
+            if (name instanceof Event) {
+                issueWarning(``, `The requestUpdate() method was called with an Event as the property name. This is probably a mistake caused by binding this.requestUpdate as an event listener. Instead bind a function that will call it with no arguments: () => this.requestUpdate()`);
+            }
             options ??= this.constructor.getPropertyOptions(name);
             const hasChanged = options.hasChanged ?? notEqual;
-            const newValue = initial ? initialValue : this[name];
+            const newValue = this[name];
             if (hasChanged(newValue, oldValue)) {
                 this._$changeProperty(name, oldValue, options);
             }
@@ -1035,7 +1051,7 @@ polyfillSupport?.({ ReactiveElement });
 }
 // IMPORTANT: do not change the property name or the assignment expression.
 // This line will be used in regexes to search for ReactiveElement usage.
-(global.reactiveElementVersions ??= []).push('2.0.2');
+(global.reactiveElementVersions ??= []).push('2.0.4');
 if (global.reactiveElementVersions.length > 1) {
     issueWarning('multiple-versions', `Multiple versions of Lit loaded. Loading multiple versions ` +
         `is not recommended.`);

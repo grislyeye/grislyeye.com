@@ -591,8 +591,6 @@ export declare abstract class ReactiveElement extends HTMLElement implements Rea
      * @param oldValue old value of requesting property
      * @param options property options to use instead of the previously
      *     configured options
-     * @param initial whether this call is for the initial value of the property.
-     *     Initial values do not reflect to an attribute.
      * @category updates
      */
     requestUpdate(name?: PropertyKey, oldValue?: unknown, options?: PropertyDeclaration): void;

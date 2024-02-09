@@ -40,6 +40,7 @@ export declare const _$LH: {
             update(_part: Part, props: unknown[]): unknown;
         };
     };
+    patchDirectiveResolve: (directiveClass: typeof Directive, resolveOverrideFn: (this: Directive, _part: Part, values: unknown[]) => unknown) => void;
     setDirectiveClass(value: DirectiveResult, directiveClass: DirectiveClass): void;
     getAttributePartCommittedValue: (part: AttributePart, value: unknown, index: number | undefined) => unknown;
     connectedDisconnectable: (props?: object) => Disconnectable;
