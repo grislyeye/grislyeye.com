@@ -7,6 +7,7 @@ tags:
 date: 2023-05-31
 layout: layouts/post.njk
 image: /products/wargod/wargod.png
+redirectTo: "https://grislyeye.itch.io/wargod"
 ---
 <aside class="purchase">
   <my-product
@@ -27,13 +28,14 @@ image: /products/wargod/wargod.png
     id="print"
     class="product"
     product="Wargod!"
-    call="Buy Print + PDF"
+    call="Out of Stock"
     currency="£"
     price="10"
     src="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo"
     notes='["+£2 postage.", "Shipping to the UK only."]'
     image="{% rawImageUrl page, "./wargod-print.png", 200 %}"
     timezones='["Europe/London"]'
+    disabled
   >
   </my-product>
 </aside>
