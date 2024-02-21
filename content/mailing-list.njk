@@ -13,13 +13,13 @@ layout: layouts/base.njk
 <my-section>
   <form
     id="mailing-list"
-    action="https://tinyletter.com/grislyeye"
+    action="https://buttondown.email/api/emails/embed-subscribe/grislyeye"
     method="post"
     target="popupwindow"
-    onsubmit="window.open('https://tinyletter.com/grislyeye', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+    onsubmit="window.open('https://buttondown.email/grislyeye', 'popupwindow')"
+    class="embeddable-buttondown-form"
   >
     <input type="text" name="email" id="tlemail" placeholder="Email">
-    <input type="hidden" value="1" name="embed">
     <my-button type="submit" title="Subscribe"></my-button>
   </form>
 </my-section>
