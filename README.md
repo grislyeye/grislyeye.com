@@ -23,3 +23,7 @@ To run:
     $ npm start
 
 And open http://localhost:8080 in your browser.
+
+To start a new post:
+
+    $ npm run post:new
