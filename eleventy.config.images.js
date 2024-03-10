@@ -1,5 +1,7 @@
 const path = require('path');
 const eleventyImage = require('@11ty/eleventy-img');
+const markdownIt = require('markdown-it');
+const markdownItEleventyImg = require('markdown-it-eleventy-img');
 
 module.exports = (eleventyConfig) => {
   function relativeToInputPath(inputPath, relativeFilePath) {
@@ -43,4 +45,18 @@ module.exports = (eleventyConfig) => {
 
     return metadata.webp[0].url;
   });
+
+  eleventyConfig
+    .setLibrary('md', markdownIt({
+      html: true,
+      breaks: true,
+      linkify: true
+    })
+      .use(markdownItEleventyImg, {
+        imgOptions: {
+          widths: [720],
+          outputDir: path.join('_site', 'img'),
+          formats: ['avif', 'webp']
+        }
+      }));
 };
