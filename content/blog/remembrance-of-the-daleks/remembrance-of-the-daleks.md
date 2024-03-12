@@ -1,6 +1,8 @@
 ---
 title: Remem-brance of the Daleks
-tags: posts
+tags:
+  - posts
+  - drafts
 date: 2024-03-12
 layout: layouts/post.njk
 image: /blog/remembrance-of-the-daleks/special-weapons-dalek.png
@@ -11,41 +13,45 @@ I don't really understand why they didn't do this before but the BBC have put th
 
 And, it goes without saying, each generation of the Doctor gets at least one Dalek chapter, and _Remembrance_ hits hard for a number of reasons I'll outline below.
 
-## Credits
-
 <iframe class="youtube video embed" src="https://www.youtube.com/embed/d0r27kOw2rw?si=n_i7rqxfgnqGCpID&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For me, the _Doctor Who_ credits are a critical part of the show, and they took a sharp turn with the 7th Doctor. Gone were the prog rock synth and 70s special effects. The new theme music is distinctly techno, the effects cutting-edge CGI. Gone are the psychedelic discos lights. In with a brooding palette of police blue and angry, violet emissions, all set over a pitch backdrop.
+## Credits
 
-This is not your dad's Doctor Who.
+For me, the _Doctor Who_ credits are a critical part of the show, and they took a sharp turn with the 7th Doctor. Gone were the prog rock synth and 70s special effects. The new theme music is distinctly techno, the effects cutting-edge (for the time) CGI. Gone are the psychedelic discos lights. In with a brooding palette of police blue and angry, violet emissions, all set over a pitch backdrop.
 
-It seems strange to think about 80s Doctor Who as cool. We're talking about a (by that time) obscure British science fiction series with a distinctly middle-class audience. (Look no further than Ace's _Blue Peter_ badges). You have to understand that it was a less cynical time, trying hard to be cynical. The endless cycle of gritty reboots had only just got started, and it seemed they'd never get stale. _Doctor Who_ but edgy blew our minds.
+This is not your dad's _Doctor Who_.
+
+It seems strange to think about 80s _Doctor Who_ as cool. We're talking about a (by that time) obscure British science fiction series with a distinctly middle-class audience. (Look no further than Ace's _Blue Peter_ badges). You have to understand that it was a less cynical time, trying hard to be cynical. The endless cycle of gritty reboots had only just got started, and it seemed they'd never get stale. It felt like a fresh start for _Doctor Who_, but it turned out to spell its end.
 
 ![Title screen for Remembrance of the Daleks by Ben Aaronovitch](./content/blog/remembrance-of-the-daleks/remembrance-of-the-daleks-title.png "Remembrance of the Daleks")
 
-My eye is drawn to that royal blue bar with custard yellow text, dividing the episode title from the writer credit, all caps. It features in the end credits as well. Supersaturated colours, like cheap plastic mouldings, or screeching, ZX Spectrum 3-bit graphics.
+### The Bar
 
-- Spray paint
-- Aliens War at the Trocedero
-- Cheap and cheerful plastic
+My eye is drawn to that royal blue bar with custard yellow text, dividing the episode title from the writer credit. It features in the end credits, as well. Supersaturated colours with some 8-bit colour dithering, like cheap-and-cheerful plastic mouldings or screeching ZX Spectrum graphics.
+
+I think it's the same font they used for end credits and props on _Red Dwarf_ (Eurostile Extended Bold FYI). Reminiscent of industrial safety warnings, brightly coloured for visibility.
+
+It hints at a forgotten future, where we'd reach space and beyond with a bit of BP engineering or Sinclair ingenuity. A future where space is a job, not an aspiration. All the bits are there, it's just a matter of firing a North Sea oil rig into space.
+
+It's the _Nostromo_. It's a chicken vindaloo vending machine.
+
+It's space fascists rolling around the east-end.
 
 ## Don’t Mention the War
 
-It always comes back to Coal Hill School. Every Doctor Who showrunner ends up polishing the brass on that sacred touchstone. And why not? If Doctor Who is to stay relevant, it needs to be reinvented every now and then.
+It always comes back to Coal Hill School. Every _Doctor Who_ showrunner ends up polishing the brass on that sacred touchstone. And why not? If the show's to stay relevant, it needs to be reinvented every now and then.
 
-So we’re back in 60s West London, haunting ground of the First Doctor but, this time, we’re addressing the elephant in the room: good, old British fascism.
+So we’re back in 60s East London, haunting ground of the First Doctor but, this time, we’re addressing the elephant in the room: good, old British fascism.
 
-There’s a real sympathy between the grey, brick streets of post-war West London, and the oppressive menace of the Daleks. We have fascist cyborgs joining forces with the useful idiots of the British nationalist movement. We have the delightful symmetry between the warring Imperial and Renegade Dalek factions. (Eventually, the fascists always come knocking for the brown shirts.)
+There’s a real sympathy between the grey bricks of post-war London, and the oppressive menace of the Daleks. We have fascist cyborgs joining forces with the useful idiots of the British nationalist movement. We have the delightful symmetry between the warring Imperial and Renegade Dalek factions. (Eventually, the fascists always come knocking for the brown shirts.)
 
 But, if the Imperial Daleks are the flip side to the Renegade Daleks, who is the flip side to the British Nationalists?
 
-On an unrelated note, the Doctor is seen gadding about with the post-colonialist forces of a nascent UNIT. A military force seemingly happy to wave guns around a heavily populated East London. The Doctor never picks up a weapon himself, of course, but he’s quite happy for others to do the shooting for him.
+On an unrelated note, the Doctor is seen gadding about with the post-colonialist forces of a nascent UNIT. A military force seemingly happy to wave guns around a heavily populated East London residential area. The Doctor never picks up a weapon himself, of course, but he’s quite happy for others to do the shooting for him.
 
 ## It's a *Police* Box
 
 I’ve said it before, and I’ll say it again, the Doctor is a cop. We get a hint of this (unintentionally) in _Remembrance_ when the Doctor notes that even Daleks observe the rule of (time) law and wouldn’t dare interfere with the time stream. Do we detect a note of grudging respect?
-
-You see, we’re always told messing about with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups.
 
 <aside>
 
@@ -53,24 +59,25 @@ I mean, even *Loki* addressed this, and that's coming from within the confines o
 
 </aside>
 
-Just as with the neo-liberal consensus, better things are not possible. Intervening with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler. Ah well, nevertheless and so forth.
+You see, we’re always told messing about with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups.
+
+Just as with the neo-liberal consensus, better things are not possible. Interfering with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler. Ah well, nevertheless and so on.
 
 ## The Hand of Omega
 
-What can I say about the Hand of Omega? Rewatching *Remembrance* reminds me how much it influenced me. A piece of _stellar_ engineering, that is something you make fucking stars with. All tidied away in a neat little box. A tool beyond any crude, human tool that has, if not agency, purpose. A tool of such flexibility it can destroy an entire solar system at one stroke, or gently brush a simple baseball bat with the tiniest piece of its power and turn it into a Dalek-breaking sword.
+What can I say about the Hand of Omega? Rewatching *Remembrance* reminds me how much it influenced me. A piece of _stellar_ engineering, that is, something you make fucking stars with. All tidied away in a neat little box. A tool beyond any crude, human tool that has, if not agency, purpose. A tool of such flexibility it can destroy an entire solar system at one stroke, or gently brush a simple baseball bat with the tiniest piece of its power and turn it into a Dalek-breaking sword.
 
-A great, metal sarcophagus (who or what is interred within?) unbound by mere gravity. It floats on command, clearly only making a pretence of gravity to save the blushes of the mere humans about.
+A great, metal sarcophagus (who or what is interred within?). It floats on command, clearly only making a pretence of gravity to save the blushes of the mere humans around it.
 
 It also shares a lot in common with the TARDIS. A semi-intelligent box that hides great power within an otherwise innocent looking shell. Wait, is the Hand of Omega a weaponised TARDIS? It would be pretty on-message with the above. Does it matter now? Not really.
 
 ### Chaos Daleks
 
-I don’t think the Hand is ever referenced again in the Doctor Who TV canon, which is a shame. A piece of grimdark worldbuilding erased by Russell T. Davies’ shiny new “Whoniverse”. The Americans already have enough glossy sci-fi, why couldn't we draw from the rich tradition of distinctively grubby British dystopia, instead? And I can’t think of a better vehicle for that than Doctor Who. Certainly, the 7th Doctor was heading in that direction before it got cancelled.
-
-## Special Weapons
-
+I don’t think the Hand is ever referenced again in the Doctor Who TV canon, which is a shame. A piece of grimdark worldbuilding erased by Russell T. Davies’ shiny, new “Whoniverse”. The Americans already have enough glossy sci-fi, why couldn't we draw from the rich tradition of distinctively grubby British dystopia, instead? And I can’t think of a better vehicle for that than Doctor Who. Certainly, the 7th Doctor was heading in that direction before it got cancelled.
 
 ![Still of the special weapons Dalek from Episode 4 of Remembrance of the Daleks](./content/blog/remembrance-of-the-daleks/special-weapons-dalek.png "Special Weapons Dalek")
+
+## Special Weapons
 
 Teenage Ric lost his shit when they rolled out the special weapons Dalek, in all its post-industrial glory. Probably old hat these days but, at the time, the form and function of Daleks hadn’t changed much. Now, every season reinvents the Daleks, but back then it was noteworthy.
 
