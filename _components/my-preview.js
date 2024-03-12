@@ -4,9 +4,9 @@ class MyPreview extends LitElement {
   static styles = css`
     :host {
       display: inline-block;
-      overflow: hidden;
       margin: 0;
       padding: 0;
+      overflow: hidden;
     }
 
     .container {
@@ -29,24 +29,22 @@ class MyPreview extends LitElement {
     }
 
     header h1 {
-      display: -webkit-box;
       font-size: 1.6rem;
       overflow: hidden;
-      text-overflow: ellipsis;
+      overflow-wrap: break-word;
+      display: -webkit-box;
       -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
-    }
-
-    header h1,
-    header p {
-      margin: 10px;
-      padding: 0;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
     }
 
     header p {
       font-size: 1.2rem;
       font-weight: bold;
       text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
     }
 
     /* products mode */
