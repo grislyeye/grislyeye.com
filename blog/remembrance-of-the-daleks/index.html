@@ -1,0 +1,1089 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Remem-brance of the Daleks - The Grisly Eye</title>
+
+<meta name="description" content="Ric Wood is an indie game designer and forever DM.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Ric Wood">
+
+<link rel="canonical" href="https://grislyeye.com/blog/remembrance-of-the-daleks/">
+
+<meta property="og:title" content="Remem-brance of the Daleks - The Grisly Eye">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://grislyeye.com/blog/remembrance-of-the-daleks/">
+<meta property="og:description" content="Ric Wood is an indie game designer and forever DM.">
+<meta property="og:image" content="https://grislyeye.com/blog/remembrance-of-the-daleks/special-weapons-dalek.png">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@grislyeye">
+<meta name="twitter:url" content="https://grislyeye.com/blog/remembrance-of-the-daleks/">
+<meta name="twitter:title" content="Remem-brance of the Daleks - The Grisly Eye">
+<meta name="twitter:description" content="Ric Wood is an indie game designer and forever DM.">
+<meta name="twitter:image" content="https://grislyeye.com/blog/remembrance-of-the-daleks/special-weapons-dalek.png">
+
+
+
+    <meta name="description" content="Ric Wood is an indie game designer and forever DM.">
+
+    <script defer src="https://unpkg.com/htmx.org@1.9.6"></script>
+
+    <link rel="alternate" href="/rss.xml" type="application/xml" title="The Grisly Eye">
+
+    <style>:root {
+  --font-family: 'Alegreya', serif;
+  --title-font-family: 'Andada Pro', serif;
+  --subtitle-font-family: 'Alegreya Sans', sans;
+
+  --background-color: black;
+
+  --text-color: white;
+  --text-color-link: rgb(255, 82, 119);
+  --text-color-link-active: rgb(255, 41, 87);
+  --text-color-link-visited: rgb(255, 41, 87);
+
+  --content-max-width: 740px;
+  --content-subtitle-max-width: 150px;
+
+  --fluid-gap: clamp(0.75rem, 3vw, 1.5rem)
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  margin: 0;
+  background-image: url("/images/background.webp");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: var(--background-color);
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  font-size: 13pt;
+  color: var(--text-color);
+  line-height: 1;
+}
+
+body {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+main {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin: 0 auto 7rem;
+}
+
+main :first-child {
+  margin-top: 0;
+}
+
+nav,
+footer {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+main > header {
+  margin-bottom: 7rem;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 5rem;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  color: gray;
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+
+h1 {
+  font-family: var(--title-font-family);
+  line-height: 1;
+}
+
+h2,
+h3,
+h4 {
+  font-family: var(--title-font-family);
+}
+
+p {
+  line-height: 1;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a[href] {
+  color: var(--text-color-link);
+}
+
+a[href]:visited {
+  color: var(--text-color-link-visited);
+}
+
+a[href]:hover,
+a[href]:active {
+  color: var(--text-color-link-active);
+}
+
+main > my-hero,
+main > my-section {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+}
+
+.previews {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-auto-rows: minmax(160px, 1fr);
+  gap: var(--fluid-gap);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 7rem;
+}
+
+ul.previews {
+  list-style: none;
+}
+
+.previews a,
+.previews li {
+  margin: 0;
+  padding: 0;
+}
+
+my-preview {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
+}
+
+section.small.page {
+  font-size: 1.5rem;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+input {
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+
+.content input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+#flawed-potion-illustration.illustration {
+  max-width: 150px;
+}
+
+#magi-illustration.illustration {
+  max-width: 200px;
+}
+
+#bailiff-illustration.illustration {
+  max-width: 350px;
+}
+
+#fey-exile-illustration.illustration,
+#grim-folk-illustration.illustration,
+#fey-illustration.illustration,
+#nights-watchmen-illustration.illustration,
+#example-npc-block.illustration,
+#inspiration-illustration.illustration {
+  max-width: 300px;
+}
+
+.content #city-illustration.illustration {
+  max-width: 300px;
+}
+
+img[src*="infantry.png"].background,
+img[src*="grim-folk.jpg"].background {
+  height: 640px;
+  width: auto;
+}
+
+img[src*="npc-block-v4.png"] {
+  max-width: 300px;
+}
+
+img[src*="npc-block-v4-header.png"],
+img[src*="npc-block-v4-description.png"],
+img[src*="npc-block-v4-characteristics.png"],
+img[src*="npc-block-v4-secrets.png"],
+img[src*="npc-block-v4-activities.png"],
+img.medium {
+  max-width: 400px;
+}
+
+#mailing-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+span.product {
+  font-style: italic;
+  color: red;
+}
+
+span.title {
+  color: red;
+  font-variant: small-caps;
+}</style>
+
+    <link rel="stylesheet" href="/bundle/RTYKIlLtQi.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+    
+
+    
+
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"><link data-href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap" rel="stylesheet"><style data-href='https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap'>/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VdtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7V5tvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VZtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VltvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VVtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VRtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VptvWdUhm8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+    <link href="mailto:ric@grislyeye.com" rel="me">
+    <link rel="webmention" href="https://webmention.io/grislyeye.com/webmention" />
+  </head>
+
+  <body dsd-pending>
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
+
+    <nav>
+      <my-nav
+        
+        
+        
+        ="/rss.xml"
+        
+       twitter="https://twitter.com/grislyeye" email="/mailing-list/" mastodon="https://indieweb.social/@grislyeye" rss="/rss.xml" , location="London"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--subtitle-font-family);
+      font-size: 12pt;
+    }
+
+    @media (width < 650px) {
+      :host {
+        align-items: flex-start;
+      }
+    }
+
+    a {
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+      gap: 0.5em;
+    }
+
+    .main img.logo {
+      height: 30px;
+    }
+
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      text-transform: lowercase;
+      gap: 0.5em 1.5em;
+    }
+
+    .social a {
+      display: flex;
+      align-items: center;
+      gap: 0.2em;
+    }
+
+    .social img.icon {
+      height: 1em;
+    }
+  </style><!--lit-part VCJCij29hm4=-->
+      <div class="main">
+        <a href="/"><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"></a>
+        <span>
+          <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+        </span>
+      </div>
+
+      <div class="socials">
+        <div class="social">
+            <img src="/images/location.svg" class="icon" alt="Location icon"> <span id="location"><!--lit-part-->London<!--/lit-part--></span>
+        </div>
+
+        <div class="social">
+          <!--lit-node 14--><a href="/mailing-list/" title="Mailing List">
+            <img src="/images/email.svg" class="icon" alt="Email icon">
+            Mailing List
+          </a>
+        </div>
+
+        <div class="social">
+          <!--lit-node 17--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter">
+            <img src="/images/twitter.svg" class="icon" alt="Twitter icon">
+            Twitter
+          </a>
+        </div>
+
+        <div class="social">
+          <!--lit-node 20--><a rel="me" href="https://indieweb.social/@grislyeye" title="Mastodon">
+            <img src="/images/mastodon.svg" class="icon" alt="Mastodon icon">
+            Mastodon
+          </a>
+        </div>
+
+        <div class="social">
+          <!--lit-node 23--><a href="/rss.xml" title="RSS">
+            <img src="/images/rss.svg" class="icon" alt="RSS icon">
+            RSS
+          </a>
+        </div>
+      </div>
+    <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
+
+    <main>
+      <article class="post content">
+  <my-page    id="post" title="Remem-brance of the Daleks" subtitle="12 March 2024"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
+
+    h1.title {
+      font-size: 5rem;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-bottom: 10px;
+      margin: 0;
+      word-wrap:break-word;
+    }
+
+    @media(max-width: 500px) {
+      h1.title {
+        font-size: 4rem;
+      }
+    }
+
+    @media(max-width: 400px) {
+      h1.title {
+        font-size: 3rem;
+      }
+    }
+  </style><!--lit-part MOCCVJ+aMIM=-->
+      <h1 class="title">
+        <!--lit-part GS+GCwuChgs=--><!--lit-part-->Remem-brance<!--/lit-part--> <br> <!--lit-part-->of the Daleks<!--/lit-part--><?><!--/lit-part-->
+      </h1>
+      <!--lit-node 2--><my-section  subtitle="12 March 2024" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    @media(max-width: 890px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+      }
+    }
+
+    ::slotted(p) {
+      margin-top: 0;
+    }
+  </style><!--lit-part yzr3+WwKTzA=-->
+      <section>
+        <div class="subtitle">
+          <!--lit-part-->12 March 2024<!--/lit-part-->
+        </div>
+        <div class="content">
+          <slot></slot>
+        </div>
+      </section>
+    <!--/lit-part--></template>
+        <slot></slot>
+      </my-section>
+    <!--/lit-part--></template>
+
+    <p>I don't really understand why they didn't do this before but the BBC have put the entire 50 year <a href="https://www.bbc.co.uk/iplayer/episodes/p0ggwr8l/doctor-who-19631996"><em>Doctor Who</em> back catalogue</a> on <em>iPlayer</em> (UK only). Feels like we (the British public, that is) already paid for it and should have been able to watch it whenever we want but, whatever, I took the bait and looked up some of my favourite episodes.</p>
+<p><a href="https://www.bbc.co.uk/iplayer/episode/p00v91lj/doctor-who-19631996-season-25-remembrance-of-the-daleks-part-1"><em>Remembrance of the Daleks</em></a> was the three episode capstone of the 7th Doctor's stint. Everyone has their Doctor and mine was, for all his faults, Sylvester McCoy. He probably isn't well liked in fan circles, what with the show being cancelled under his watch, but I'll always have a fondness for his soft brogue and mischievous smile.</p>
+<p>And, it goes without saying, each generation of the Doctor gets at least one Dalek chapter, and <em>Remembrance</em> hits hard for a number of reasons I'll outline below.</p>
+<iframe class="youtube video embed" src="https://www.youtube.com/embed/d0r27kOw2rw?si=n_i7rqxfgnqGCpID&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h2>Credits</h2>
+<p>For me, the <em>Doctor Who</em> credits are a critical part of the show, and they took a sharp turn with the 7th Doctor. Gone were the prog rock synth and 70s special effects. The new theme music is distinctly techno, the effects cutting-edge (for the time) CGI. Gone are the psychedelic discos lights. In with a brooding palette of police blue and angry, violet emissions, all set over a pitch backdrop.</p>
+<p>This is not your dad's <em>Doctor Who</em>.</p>
+<p>It seems strange to think about 80s <em>Doctor Who</em> as cool. We're talking about a (by that time) obscure British science fiction series with a distinctly middle-class audience. (Look no further than Ace's <em>Blue Peter</em> badges). You have to understand that it was a less cynical time, trying hard to be cynical. The endless cycle of gritty reboots had only just got started, and it seemed they'd never get stale. It felt like a fresh start for <em>Doctor Who</em>, but it turned out to spell its end.</p>
+<p><picture><source type="image/avif" srcset="/img/kuxWWruUM2-720.avif 720w"><img alt="Title screen for Remembrance of the Daleks by Ben Aaronovitch" title="Remembrance of the Daleks" src="/img/kuxWWruUM2-720.webp" width="720" height="405"></picture></p>
+<h3>The Bar</h3>
+<p>My eye is drawn to that royal blue bar with custard yellow text, dividing the episode title from the writer credit. It features in the end credits, as well. Supersaturated colours with some 8-bit colour dithering, like cheap-and-cheerful plastic mouldings or screeching ZX Spectrum graphics.</p>
+<p>I think it's the same font they used for end credits and props on <em>Red Dwarf</em> (Eurostile Extended Bold FYI). Reminiscent of industrial safety warnings, brightly coloured for visibility.</p>
+<p>It hints at a forgotten future, where we'd reach space and beyond with a bit of BP engineering or Sinclair ingenuity. A future where space is a job, not an aspiration. All the bits are there, it's just a matter of firing a North Sea oil rig into space.</p>
+<p>It's the <em>Nostromo</em>. It's a chicken vindaloo vending machine.</p>
+<p>It's space fascists rolling around the east-end.</p>
+<h2>Don’t Mention the War</h2>
+<p>It always comes back to Coal Hill School. Every <em>Doctor Who</em> showrunner ends up polishing the brass on that sacred touchstone. And why not? If the show's to stay relevant, it needs to be reinvented every now and then.</p>
+<p>So we’re back in 60s East London, haunting ground of the First Doctor but, this time, we’re addressing the elephant in the room: good, old British fascism.</p>
+<p>There’s a real sympathy between the grey bricks of post-war London, and the oppressive menace of the Daleks. We have fascist cyborgs joining forces with the useful idiots of the British nationalist movement. We have the delightful symmetry between the warring Imperial and Renegade Dalek factions. (Eventually, the fascists always come knocking for the brown shirts.)</p>
+<p>But, if the Imperial Daleks are the flip side to the Renegade Daleks, who is the flip side to the British Nationalists?</p>
+<p>On an unrelated note, the Doctor is seen gadding about with the post-colonialist forces of a nascent UNIT. A military force seemingly happy to wave guns around a heavily populated East London residential area. The Doctor never picks up a weapon himself, of course, but he’s quite happy for others to do the shooting for him.</p>
+<h2>It's a <em>Police</em> Box</h2>
+<p>I’ve said it before, and I’ll say it again, the Doctor is a cop. We get a hint of this (unintentionally) in <em>Remembrance</em> when the Doctor notes that even Daleks observe the rule of (time) law and wouldn’t dare interfere with the time stream. Do we detect a note of grudging respect?</p>
+<aside>
+<p>I mean, even <em>Loki</em> addressed this, and that's coming from within the confines of neutered Disney politics.</p>
+</aside>
+<p>You see, we’re always told messing about with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups.</p>
+<p>Just as with the neo-liberal consensus, better things are not possible. Interfering with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler. Ah well, nevertheless and so on.</p>
+<h2>The Hand of Omega</h2>
+<p>What can I say about the Hand of Omega? Rewatching <em>Remembrance</em> reminds me how much it influenced me. A piece of <em>stellar</em> engineering, that is, something you make fucking stars with. All tidied away in a neat little box. A tool beyond any crude, human tool that has, if not agency, purpose. A tool of such flexibility it can destroy an entire solar system at one stroke, or gently brush a simple baseball bat with the tiniest piece of its power and turn it into a Dalek-breaking sword.</p>
+<p>A great, metal sarcophagus (who or what is interred within?). It floats on command, clearly only making a pretence of gravity to save the blushes of the mere humans around it.</p>
+<p>It also shares a lot in common with the TARDIS. A semi-intelligent box that hides great power within an otherwise innocent looking shell. Wait, is the Hand of Omega a weaponised TARDIS? It would be pretty on-message with the above. Does it matter now? Not really.</p>
+<h3>Chaos Daleks</h3>
+<p>I don’t think the Hand is ever referenced again in the Doctor Who TV canon, which is a shame. A piece of grimdark worldbuilding erased by Russell T. Davies’ shiny, new “Whoniverse”. The Americans already have enough glossy sci-fi, why couldn't we draw from the rich tradition of distinctively grubby British dystopia, instead? And I can’t think of a better vehicle for that than Doctor Who. Certainly, the 7th Doctor was heading in that direction before it got cancelled.</p>
+<p><picture><source type="image/avif" srcset="/img/NeUb2brW67-720.avif 720w"><img alt="Still of the special weapons Dalek from Episode 4 of Remembrance of the Daleks" title="Special Weapons Dalek" src="/img/NeUb2brW67-720.webp" width="720" height="545"></picture></p>
+<h2>Special Weapons</h2>
+<p>Teenage Ric lost his shit when they rolled out the special weapons Dalek, in all its post-industrial glory. Probably old hat these days but, at the time, the form and function of Daleks hadn’t changed much. Now, every season reinvents the Daleks, but back then it was noteworthy.</p>
+<p>You see, it hints at more: if there’s a special weapons Dalek, what other special types of Dalek might there be? Have we merely glimpsed the start of a new (brow sweats) list of special Daleks, of which the special weapons <em>might not even be the coolest?</em></p>
+<h2>Learnings</h2>
+<p><em>Remembrance of the Daleks</em> ends with the total genocide of the Dalek home world. Gone in a not unpleasant special effect. The Doctor has eliminated the Dalek threat (and presumably the lives of billions of other inhabitants of Skaro) without getting his hands dirty. He did warn them, after all, and everyone disappears into the TARDIS for a nice cup of tea. Ah well, nevertheless.</p>
+<p>What did we learn? Certainly, that racism, fascism and British nationalism are Bad but Daleks are worse. That the state's monopoly on violence is fine if it's in the hands of the public school educated technocrats and soldiers.</p>
+
+
+  </my-page>
+</article>
+
+<my-mentions url="https://grislyeye.com/blog/remembrance-of-the-daleks/" webmentions="https://webmention.io/api/mentions.jf2?token=7OpmAMvzsJc6GdoHmDS50w"></my-mentions>
+
+    </main>
+
+    <footer>
+      <p class="legal">
+        Website version 3.11.2 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+      </p>
+    </footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/bundle/my-components.js');
+      })();
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
+    <script defer>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8S4KL203M4');
+    </script>
+
+    <!-- Current page: /blog/remembrance-of-the-daleks/ -->
+  </body>
+</html>
