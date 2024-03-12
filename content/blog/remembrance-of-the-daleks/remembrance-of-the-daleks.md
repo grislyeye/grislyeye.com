@@ -1,8 +1,9 @@
 ---
-title: On the Remembrance of the Daleks
+title: Remem-brance of the Daleks
 tags: posts
-date: 2024-02-28
+date: 2024-03-12
 layout: layouts/post.njk
+image: /blog/remembrance-of-the-daleks/special-weapons-dalek.png
 ---
 I don't really understand why they didn't do this before but the BBC have put the entire 50 year [*Doctor Who* back catalogue](https://www.bbc.co.uk/iplayer/episodes/p0ggwr8l/doctor-who-19631996) on *iPlayer* (UK only). Feels like we (the British public, that is) already paid for it and should have been able to watch it whenever we want but, whatever, I took the bait and looked up some of my favourite episodes.
 
@@ -14,19 +15,19 @@ And, it goes without saying, each generation of the Doctor gets at least one Dal
 
 <iframe class="youtube video embed" src="https://www.youtube.com/embed/d0r27kOw2rw?si=n_i7rqxfgnqGCpID&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For me, the _Doctor Who_ credits are a critical part of the show, and they took a sharp turn with the 7th Doctor. Gone were the prog rock synth and 70s special effects. The new theme song is distinctly techno, the effects cutting-edge CGI. Gone are the psychedelic discos lights. In with a brooding palette of police blue and angry, violet emissions, all set over a pitch backdrop.
+For me, the _Doctor Who_ credits are a critical part of the show, and they took a sharp turn with the 7th Doctor. Gone were the prog rock synth and 70s special effects. The new theme music is distinctly techno, the effects cutting-edge CGI. Gone are the psychedelic discos lights. In with a brooding palette of police blue and angry, violet emissions, all set over a pitch backdrop.
 
 This is not your dad's Doctor Who.
 
-It seems strange to think about 80s Doctor Who as cool. We're talking about a (by that time) obscure British science fiction series with a distinctly middle-class audience. (Look no further than Ace's _Blue Peter_ badges). You have to understand that it was a less cynical time, trying hard to be more cynical. The endless cycle of gritty reboots had only just got started, and it seemed to us that they'd never get stale.
+It seems strange to think about 80s Doctor Who as cool. We're talking about a (by that time) obscure British science fiction series with a distinctly middle-class audience. (Look no further than Ace's _Blue Peter_ badges). You have to understand that it was a less cynical time, trying hard to be cynical. The endless cycle of gritty reboots had only just got started, and it seemed they'd never get stale. _Doctor Who_ but edgy blew our minds.
 
-![[Remembrance of the Daleks title screen.png]]
+![Title screen for Remembrance of the Daleks by Ben Aaronovitch](./content/blog/remembrance-of-the-daleks/remembrance-of-the-daleks-title.png "Remembrance of the Daleks")
 
-Further blasphemy: the iconic _Doctor Who_ logo is gone, replaced by this graphics card title screen. It's ugly to modern eyes, but seem slick af at the time.
+My eye is drawn to that royal blue bar with custard yellow text, dividing the episode title from the writer credit, all caps. It features in the end credits as well. Supersaturated colours, like cheap plastic mouldings, or screeching, ZX Spectrum 3-bit graphics.
 
-But what draws my eye is that royal blue bar dividing the episode title from the writer credit. I could speak for days about the blue bar, with its yellow typeface sitting within.
-
-Hyper saturated colours.
+- Spray paint
+- Aliens War at the Trocedero
+- Cheap and cheerful plastic
 
 ## Don’t Mention the War
 
@@ -42,7 +43,7 @@ On an unrelated note, the Doctor is seen gadding about with the post-colonialist
 
 ## It's a *Police* Box
 
-I’ve said it before, and I’ll say it again, the Doctor is a cop. We get a hint of this (unintentionally) in Remembrance when the Doctor notes that even Daleks observe the rule of (time) law and wouldn’t dare interfere with the time stream. Do we detect a note of grudging respect?
+I’ve said it before, and I’ll say it again, the Doctor is a cop. We get a hint of this (unintentionally) in _Remembrance_ when the Doctor notes that even Daleks observe the rule of (time) law and wouldn’t dare interfere with the time stream. Do we detect a note of grudging respect?
 
 You see, we’re always told messing about with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups.
 
@@ -56,7 +57,7 @@ Just as with the neo-liberal consensus, better things are not possible. Interven
 
 ## The Hand of Omega
 
-What can I say about the Hand of Omega? Rewatching Remembrance reminds me how much it influenced me. A piece of _stellar_ engineering, that is something you make fucking stars with. All tidied away in a neat little box. A tool beyond any crude, human tool that has, if not agency, purpose. A tool of such flexibility it can destroy an entire solar system at one stroke, or gently brush a simple baseball bat with the tiniest piece of its power and turn it into a Dalek-breaking sword.
+What can I say about the Hand of Omega? Rewatching *Remembrance* reminds me how much it influenced me. A piece of _stellar_ engineering, that is something you make fucking stars with. All tidied away in a neat little box. A tool beyond any crude, human tool that has, if not agency, purpose. A tool of such flexibility it can destroy an entire solar system at one stroke, or gently brush a simple baseball bat with the tiniest piece of its power and turn it into a Dalek-breaking sword.
 
 A great, metal sarcophagus (who or what is interred within?) unbound by mere gravity. It floats on command, clearly only making a pretence of gravity to save the blushes of the mere humans about.
 
@@ -66,17 +67,10 @@ It also shares a lot in common with the TARDIS. A semi-intelligent box that hide
 
 I don’t think the Hand is ever referenced again in the Doctor Who TV canon, which is a shame. A piece of grimdark worldbuilding erased by Russell T. Davies’ shiny new “Whoniverse”. The Americans already have enough glossy sci-fi, why couldn't we draw from the rich tradition of distinctively grubby British dystopia, instead? And I can’t think of a better vehicle for that than Doctor Who. Certainly, the 7th Doctor was heading in that direction before it got cancelled.
 
-<aside>
-
-That business card hints at _a lot_. A question mark-like sigil hinting at _the_ question: who is the “_Who”_ in Doctor Who?
-
-Who cares? It never went anywhere, forgotten in a constant stream of hints and revelations about whom the Doctor _really_ is, none of which actually answer the question. Surely, better not to ask at this point.
-
-</aside>
-
 ## Special Weapons
 
-![Still of the special weapons Dalek from Episode 4 of Remembrance of the Daleks](special-weapons-dalek.png "Special weapons Dalek")
+
+![Still of the special weapons Dalek from Episode 4 of Remembrance of the Daleks](./content/blog/remembrance-of-the-daleks/special-weapons-dalek.png "Special Weapons Dalek")
 
 Teenage Ric lost his shit when they rolled out the special weapons Dalek, in all its post-industrial glory. Probably old hat these days but, at the time, the form and function of Daleks hadn’t changed much. Now, every season reinvents the Daleks, but back then it was noteworthy.
 
@@ -84,6 +78,6 @@ You see, it hints at more: if there’s a special weapons Dalek, what other spec
 
 ## Learnings
 
-The story ends with the genocide of the Dalek home world. Gone in a not unpleasant special effect. The Doctor has eliminated the Dalek threat (and presumably the lives of billions of other inhabitants of Skaro) without getting his hands dirty. He did warn them, after all, and everyone disappears into the TARDIS for a nice cup of tea. Ah well, nevertheless.
+_Remembrance of the Daleks_ ends with the total genocide of the Dalek home world. Gone in a not unpleasant special effect. The Doctor has eliminated the Dalek threat (and presumably the lives of billions of other inhabitants of Skaro) without getting his hands dirty. He did warn them, after all, and everyone disappears into the TARDIS for a nice cup of tea. Ah well, nevertheless.
 
 What did we learn? Certainly, that racism, fascism and British nationalism are Bad but Daleks are worse. That the state's monopoly on violence is fine if it's in the hands of the public school educated technocrats and soldiers.

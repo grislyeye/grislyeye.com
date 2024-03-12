@@ -47,6 +47,7 @@
     "hygen": "^6.2.11",
     "linkinator": "^6.0.4",
     "luxon": "^3.4.4",
+    "markdown-it-eleventy-img": "^0.10.2",
     "stylelint": "^16.2.1",
     "stylelint-config-standard": "^36.0.0"
   }
