@@ -66,8 +66,13 @@ module.exports = (eleventyConfig) => {
   });
   eleventyConfig.addPlugin(pluginGoogleFonts);
 
-  // Official plugins
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addCollection('publishedPosts', (collectionApi) => {
+    return collectionApi
+      .getFilteredByTags('posts')
+      .filter((post) => !post.data.tags.includes('drafts'));
+  });
+
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(pluginBundle);
 
