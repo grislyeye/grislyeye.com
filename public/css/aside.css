@@ -29,3 +29,7 @@
 .content aside em {
   color: red;
 }
+
+#post aside img {
+  border: none;
+}
