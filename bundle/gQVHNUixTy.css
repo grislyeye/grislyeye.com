@@ -1,0 +1,614 @@
+#post {
+  font-size: 1.1rem;
+}
+
+#post pre,
+#post blockquote,
+#post dl,
+#post table,
+#post p,
+#post ul,
+#post ol,
+#post form {
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+#post h2,
+#post h3,
+#post h4,
+#post h5 {
+  font-family: var(--title-font-family);
+  font-variant: small-caps;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#post h2 {
+  font-size: 2.2rem;
+}
+
+#post h3 {
+  font-size: 1.5rem;
+}
+
+#post table {
+  margin-bottom: 1.5rem;
+}
+
+#post header {
+  margin-bottom: 1rem;
+}
+
+#post header p,
+#post header h1,
+#post header h2,
+#post header h3,
+#post header h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+      .content aside {
+  float: right;
+  width: 200px;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #a8a8a8;
+}
+
+.content aside h1,
+.content aside h2,
+.content aside h3,
+.content aside h4 {
+  color: white;
+}
+
+.content aside p.break {
+  font-size: 2em;
+  text-align: center;
+  margin-top: -0.9em;
+  margin-bottom: 0;
+}
+
+.content aside p.break::before {
+  content: "❧";
+}
+
+.content aside em {
+  color: red;
+}
+
+#post aside img {
+  border: none;
+}
+
+      .content blockquote {
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: 1px solid white;
+  font-style: italic;
+}
+
+#post blockquote p {
+  margin: 0;
+  margin-bottom: 0.5em;
+  line-height: 1;
+}
+
+.content blockquote cite {
+  display: block;
+  font-style: normal;
+  text-indent: 1em;
+}
+
+#post blockquote ol:last-child,
+#post blockquote ul:last-child {
+  list-style: none;
+	padding: 0;
+}
+
+#post blockquote ol:last-child li,
+#post blockquote ul:last-child li {
+  font-style: normal;
+  text-indent: 1em;
+}
+
+#post blockquote ol:last-child li em,
+#post blockquote ul:last-child li em {
+  color: red;
+}
+
+.content blockquote cite::before,
+#post blockquote ol:last-child li::before,
+#post blockquote ul:last-child li::before {
+  content: "- ";
+}
+
+      .content .title {
+  color: red;
+  font-variant: small-caps;
+}
+
+span.strike {
+  text-decoration: line-through;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5 {
+  font-family: "Andada SC", serif;
+  color: red;
+}
+
+.content h1 a,
+.content h2 a,
+.content h3 a,
+.content h4 a,
+.content h5 a {
+  font-family: "Andada SC", serif;
+  color: red;
+  text-decoration: none;
+}
+
+.content strong {
+  color: red;
+}
+
+      .content section.chat > * {
+  width: calc(70% - 1em);
+}
+
+.content .chat img {
+  float: right;
+  width: 30%;
+  border: thin solid white;
+}
+
+.content .chat aside {
+  float: right;
+  width: 30%;
+  padding-left: 1em;
+  font-size: 0.8em;
+  color: #a8a8a8;
+}
+
+.content .chat aside p.break {
+  font-size: 2em;
+  text-align: center;
+  margin-top: -0.9em;
+  margin-bottom: 0;
+}
+
+.content .chat aside p.break::before {
+  content: "❧";
+}
+
+.content .chat dt {
+  margin-left: 0;
+  width: 5em;
+  text-align: right;
+  font-style: normal;
+}
+
+.content .chat dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content .chat dd {
+  padding-left: 0.5em;
+  width: calc(100% - 6em);
+  border-left: solid thin red;
+}
+
+.content .chat dd p {
+  margin-bottom: 0;
+}
+
+.content .chat dd p + p {
+  margin-top: 0.5em;
+}
+
+.content .chat .action p,
+.content .chat p.action,
+.content .chat span.action,
+.content .chat dd.action {
+  font-style: italic;
+}
+
+.content .chat .action p::before,
+.content .chat p.action::before,
+.content .chat span.action::before,
+.content .chat dd.action::before {
+  content: "(";
+}
+
+.content .chat .action p::after,
+.content .chat p.action::after,
+.content .chat span.action::after,
+.content .chat dd.action::after {
+  content: ")";
+}
+
+@media (width < 500px) {
+  .content section.chat > * {
+    width: 100%;
+  }
+
+  .content .chat aside {
+    display: none;
+  }
+
+  .content .chat img {
+    display: none;
+  }
+}
+
+.content .chat .navigation {
+  text-align: center;
+  width: 100%;
+}
+
+.content .chat .navigation a {
+  font-style: italic;
+}
+
+      .content code {
+  white-space: normal;
+  background: black;
+  border: none;
+  font-size: 10pt;
+  padding: 0;
+}
+
+      .youtube.video.embed {
+  width: 100%;
+  aspect-ratio: 560 / 315;
+}
+
+      div.fate.card {
+  background-color: lightgray;
+  color: black;
+  padding: 2em;
+  max-width: 350px;
+  margin: 2em;
+  display: inline-block;
+}
+
+div.fate.card h5 {
+  color: black;
+  width: 100%;
+  border-bottom: solid;
+  margin-top: 0;
+}
+
+div.fate.card p {
+  margin-bottom: 0;
+}
+
+div.fate.card strong {
+  color: black;
+}
+
+span.fate.aspect {
+  font-variant: small-caps;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+input.fate.stress-track[type="checkbox"] {
+  margin-right: 0;
+}
+
+      figure {
+  max-width: 250px;
+}
+
+figure p.caption {
+  font-size: smaller;
+  font-style: italic;
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+}
+
+figure.large {
+  max-width: 500px;
+}
+
+figure.full-width {
+  min-width: 100%;
+}
+
+figure.full-width img {
+  width: 100%;
+  margin: 0;
+}
+
+@media (width < 500px) {
+  figure {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+      figure.print.illustration {
+  max-width: 200px;
+  min-width: 200px;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+figure.print img {
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: auto;
+}
+
+figure.illustration {
+  display: block;
+}
+
+div.illustration,
+figure.illustration {
+  float: right;
+  padding: 0;
+  padding-left: 1em;
+  margin: 0;
+  margin-left: auto;
+}
+
+div.illustration.full-width,
+figure.illustration.full-width {
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.illustration.full-width img,
+figure.illustration.full-width img {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.illustration.outlined img,
+figure.illustration.outlined img {
+  border: solid;
+}
+
+@media (width < 500px) {
+  figure.print img,
+  div.illustration img,
+  figure.illustration img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+      #post img {
+  margin: 1em;
+  border: solid;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+#post img:nth-child(odd){
+  margin-right: 0;
+  float: right;
+}
+
+#post img:nth-child(even) {
+  margin-left: 0;
+  float: left;
+}
+
+@media(width < 400px) {
+  #post img {
+    float: none;
+    width: 100%
+  }
+}
+
+article img.small {
+  width: 40%;
+}
+
+      figure.picture {
+  max-width: 250px;
+  float: right;
+  padding-left: 1em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+figure.picture img {
+  margin-bottom: 0;
+  clip-path: circle();
+}
+
+figure.picture p.caption {
+  text-align: center;
+}
+
+      vellum-monster {
+  font-family: Alegreya, serif;
+  font-size: 11pt;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+  width: auto;
+  max-width: 400px;
+  line-height: 1.2;
+
+  --stat-width: 400px;
+  --stat-block-background: black;
+  --stat-block-header-color: red;
+  --stat-block-heading-font-family: "Alegreya", serif;
+  --stat-block-divider-color: red;
+  --stat-block-two-column-width: 19cm;
+  --stat-block-two-column-column-width: 300px;
+  --stat-block-bar-background: white;
+  --stat-block-bar-border: white;
+  --stat-block-border-color: white;
+}
+
+vellum-monster h1,
+vellum-monster h2 {
+  text-align: left;
+  font-variant: small-caps;
+  text-transform: none;
+}
+
+.stat-block {
+  position: relative;
+}
+
+.stat-block img.background {
+  width: 100%;
+  max-width: 500px;
+  z-index: -1;
+  position: relative;
+}
+
+.stat-block vellum-monster {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.stat-block-left {
+  position: relative;
+}
+
+.stat-block-left img.background {
+  width: 100%;
+  max-width: 500px;
+  z-index: -1;
+  position: relative;
+}
+
+.stat-block-left vellum-monster {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (width < 800px) {
+  .stat-block {
+    position: static;
+  }
+
+  .stat-block img.background {
+    display: none;
+  }
+
+  .stat-block vellum-monster {
+    position: static;
+  }
+
+  .stat-block-left {
+    position: static;
+  }
+
+  .stat-block-left img.background {
+    display: none;
+  }
+
+  .stat-block-left vellum-monster {
+    position: static;
+  }
+}
+
+      .content section.two-column {
+  column-count: 2;
+}
+
+@media (width < 500px) {
+  .content section.two-column {
+    column-count: 1;
+  }
+}
+
+.content section.two-column section.small {
+  break-inside: avoid-column;
+}
+
+      .content dl dt {
+  float: left;
+  clear: left;
+  margin-left: 2.5rem;
+  margin-right: 5px;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
+
+.content dl dd {
+  margin-left: 0;
+  margin-bottom: 1rem;
+}
+
+.content dl dd dl {
+  margin-top: 1em;
+}
+
+.content dl dd dl dt {
+  font-weight: normal;
+  color: white;
+}
+
+.content dl.stats dt {
+  font-style: normal;
+  margin-left: 0;
+}
+
+.content dl.stats dd {
+  margin-bottom: 0;
+}
+
+      .content table {
+  border-collapse: collapse;
+  margin-left: 2em;
+  text-align: left;
+}
+
+.content table caption {
+  font-variant: small-caps;
+  font-weight: bold;
+  color: red;
+  text-align: left;
+  font-size: larger;
+}
+
+.content table tr {
+  border-bottom: 1px solid white;
+}
+
+.content table td,
+.content table th {
+  padding: 0.7em 0.7em 0.7em 0;
+  vertical-align: top;
+}
+
+.content table td.number,
+.content table th.number {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
