@@ -1,6 +1,8 @@
 ---
 title: Remembrance of the Daleks
-tags: posts
+tags:
+  - posts
+  - drafts
 date: 2024-03-12
 layout: layouts/post.njk
 image: /blog/remembrance-of-the-daleks/special-weapons-dalek.png
