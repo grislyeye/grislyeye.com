@@ -25,13 +25,13 @@ It seems strange to think about late-80s _Doctor Who_ as cool. We're talking abo
 
 ![Title screen for Remembrance of the Daleks by Ben Aaronovitch](./content/blog/on-remembrance-of-the-daleks/remembrance-of-the-daleks-title.png "Remembrance of the Daleks")
 
-### Hi Vis Bar
+### Hi Vis
 
 My eye is drawn to that royal blue bar with custard yellow text, dividing the episode title from the writer credit. It features in the end credits as well. Supersaturated colours with some 8-bit dithering, like cheap-and-cheerful plastic mouldings or screeching ZX Spectrum graphics.
 
 I think it's the same font they used for end credits and props on _Red Dwarf_ (Eurostile Extended Bold, FYI). Reminiscent of high visibility industrial safety warnings.
 
-It hints at a forgotten future, a future we imagined we could reach with a bit of BP engineering or Sinclair ingenuity. A future where space is a job, not an aspiration. All the bits were there, it was just a matter of firing a North Sea oil rig into space.
+It hints at a forgotten future, a more achievable future we could reach with a bit of BP engineering or Sinclair ingenuity. A future where space is a job, not an aspiration. All the bits were there, it was just a matter of firing a North Sea oil rig into space.
 
 It's the _Nostromo_. It's a chicken vindaloo vending machine.
 
@@ -97,10 +97,9 @@ _Remembrance of the Daleks_ ends with the total genocide of the Dalek home world
 
 What did we learn? Well, I cringed at some of the special effects and dubious acting, but was thrilled to see Daleks blasting at each other across familiar London streets.
 
-_Remembrance_ plays off the contrast between drab locale and high-concept science fiction to great effect. We have comprehensive school girls possessed by alien ghosts. Mr Bronson from _Grange Hill_ working as a secret Dalek quisling. Floating weapons of mass destruction hiding in old lockups. And racist mums.
+_Remembrance_ plays off the contrast between drab locale and high-concept sci-fi elements to great effect. We have comprehensive school girls possessed by machine ghosts. _Grange Hill_ teachers working as a secret Dalek quislings. Floating weapons of mass destruction hiding in old lockups. And racist mums.
 
-The Daleks fight each other as much through their human proxies as they do directly, which lends an air of quiet desperation. Men, women and children (and I'm counting the Doctor's allies in this) drafted into horrifying alien agendas they can't possibly satisfy.
+The Daleks fight each other as much through their human proxies as they do directly, which lends an air of quiet desperation. Men, women and children (and I'm counting the Doctor's allies in this) conscripted into horrifying alien agendas they can't possibly satisfy.
 
 It all works to ground the high concept elements. I'm not going to say it makes it any more believable but, for the author of this article, it certainly offers some interesting alternatives to the aspirational elements of contemporary science fiction, in setting, tone and characters.
 
-But what I recalled most was a distinctly British brand of science fiction, dubious and workmanlike, mostly forgotten, populated with toffs, chancers, thugs and other, grubby sorts.

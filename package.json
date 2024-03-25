@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.11.6",
+  "version": "3.11.7",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
