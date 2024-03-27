@@ -7,7 +7,7 @@ date: 2024-03-12
 layout: layouts/post.njk
 image: /blog/on-remembrance-of-the-daleks/special-weapons-dalek.png
 ---
-I don't really understand why they didn't do this before but the BBC have put the entire 50 year [*Doctor Who* back catalogue](https://www.bbc.co.uk/iplayer/episodes/p0ggwr8l/doctor-who-19631996) on *iPlayer* (UK only). Feels like we (the British public, that is) already paid for it and should have been able to watch it whenever we want but, whatever, I took the bait and looked up some of my favourite episodes.
+I don't really understand why they didn't do this before, but the BBC have put the entire 50 year [*Doctor Who* back catalogue](https://www.bbc.co.uk/iplayer/episodes/p0ggwr8l/doctor-who-19631996) on *iPlayer* (UK only). Feels like we (the British public, that is) already paid for it and should have been able to watch it whenever we wanted but, whatever, I took the bait and looked up some of my favourite episodes.
 
 [_Remembrance of the Daleks_](https://www.bbc.co.uk/iplayer/episode/p00v91lj/doctor-who-19631996-season-25-remembrance-of-the-daleks-part-1) was the three episode capstone of the 7th Doctor's stint. Everyone has their Doctor and mine was, for all his faults, Sylvester McCoy. He's probably not well liked in fan circles, what with the show being cancelled under his watch, but I'll always have a fondness for his soft brogue and mischievous smile.
 
@@ -39,7 +39,7 @@ It's space fascists rolling around the east-end.
 
 ## Don’t Mention the War
 
-It always comes back to Coal Hill School. Every _Doctor Who_ showrunner ends up polishing the brass on that sacred touchstone. And why not? If the show's to stay relevant, it needs to be reinvented every now and then.
+It always comes back to Coal Hill School. Every _Doctor Who_ showrunner ends up polishing the brass on that sacred touchstone. And why not? If the show's to stay relevant, it needs to be reinvented now and then.
 
 So we’re back in 60s East London, haunting ground of the First Doctor but, this time, we’re addressing the elephant in the room: resurgent British Nationalism.
 
@@ -59,7 +59,7 @@ I mean, even *Loki* addressed this, and that's coming from within the confines o
 
 </aside>
 
-You see, we’re always told messing about with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups. Just as with the neoliberal consensus, better things are not possible. Interfering with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler. Ah well, nevertheless and so on.
+You see, we’re always told messing about with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups. Just as with the neoliberal consensus, better things are not possible. Interfering with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler. Ah well, nevertheless, and so on.
 
 ![Screencap of the Hand of Omega from Remembrance of the Daleks](./content/blog/on-remembrance-of-the-daleks/hand-of-omega.png "The Hand of Omega")
 
