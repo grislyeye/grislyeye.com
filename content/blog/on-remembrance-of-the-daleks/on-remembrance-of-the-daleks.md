@@ -85,9 +85,9 @@ I don’t think the Hand is ever referenced again in the Doctor Who TV canon, wh
 
 ## Special Weapons
 
-Teenage Ric lost his shit when they rolled out the special weapons Dalek, in all its post-industrial glory. Probably old hat these days but, at the time, the form and function of Daleks hadn’t changed much. Now, every season reinvents the Daleks, but back then it was noteworthy.
+Teenage Ric lost his shit when they rolled out the special weapons Dalek, in all its post-industrial glory. Probably old hat these days but, at the time, the form and function of Daleks hadn’t changed much. Now, every season reinvents the Daleks but, back then, it was noteworthy.
 
-You see, it hints at more: if there’s a special weapons Dalek, what other special types of Dalek might there be? Have we merely glimpsed the start of a new (brow sweats) list of special Daleks, of which the special weapons _might not even be the coolest?_
+You see, it hints at more: if there’s a special weapons Dalek what other special types of Dalek might there be? Have we merely glimpsed the start of a new (brow sweats) list of special Daleks, of which the special weapons _might not even be the coolest?_
 
 <aside>
 
