@@ -107,5 +107,12 @@ _Remembrance_ plays off the contrast between drab locale and high-concept sci-fi
 
 The Daleks fight each other as much through their human proxies as they do directly, which lends an air of quiet desperation. Men, women and children (and I'm counting the Doctor's allies in this) conscripted into horrifying, alien agendas they can't possibly satisfy.
 
-It all works to ground the high concept elements. I'm not going to say it makes it any more believable but, for the author of this article, it certainly offers some interesting alternatives to the aspirational elements of contemporary science fiction, in terms of setting, tone and characters.
+It all works to ground the high concept elements. I'm not going to say it makes it any more believable but, for the author of this article, it certainly offers some interesting alternatives to the aspirational elements of contemporary science fiction, in terms of setting, tone and characters:
 
+1. We can de-emphasise the more aspirational elements of science fiction in favour of ones that reflect social realism (for example, colonisation missions vs commercial salvage) to ground the high concepts, and perhaps create more relatable and believable futures.
+
+2. The characters in _Remembrance_ aren't astronauts or space marines. They're headmasters, squaddies and the like. They're all too human. Flawed, small and defenceless in the face of an uncaring universe filled with gods and monsters. That's the real horror and wonder of _Remembrance_: that the gods could lift us up or, more likely, that we shall be struck down by monsters. For that to work, you need to give characters jobs, not roles. We're thrilled when a cashier jumps into a time machine for a life of adventure. We shudder when a salvage crew are picked off, one by one.
+
+3. Let us harken back to forgotten futures. The retro-70s cathode-ray tube tech of _Alien: Isolation_.
+
+But most of all, let us remember the victims of the Shoreditch Incident.
