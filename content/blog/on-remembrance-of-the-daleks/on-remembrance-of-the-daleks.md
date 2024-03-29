@@ -7,6 +7,12 @@ date: 2024-03-12
 layout: layouts/post.njk
 image: /blog/on-remembrance-of-the-daleks/special-weapons-dalek.png
 ---
+<aside>
+
+**Caution** this article contains **spoilers**.
+
+</aside>
+
 I don't really understand why they didn't do this before, but the BBC have put the entire 50 year [*Doctor Who* back catalogue](https://www.bbc.co.uk/iplayer/episodes/p0ggwr8l/doctor-who-19631996) on *iPlayer* (UK only). Feels like we (the British public, that is) already paid for it and should have been able to watch it whenever we wanted but, whatever, I took the bait and looked up some of my favourite episodes.
 
 [_Remembrance of the Daleks_](https://www.bbc.co.uk/iplayer/episode/p00v91lj/doctor-who-19631996-season-25-remembrance-of-the-daleks-part-1) was the three episode capstone of the 7th Doctor's stint. Everyone has their Doctor and mine was, for all his faults, Sylvester McCoy. He's probably not well liked in fan circles, what with the show being cancelled under his watch, but I'll always have a fondness for his soft brogue and mischievous smile.
