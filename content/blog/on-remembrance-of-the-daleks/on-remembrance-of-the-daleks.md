@@ -2,22 +2,21 @@
 title: On Remembrance of the Daleks
 tags:
   - posts
-  - drafts
-date: 2024-03-12
+date: 2024-04-02
 layout: layouts/post.njk
 image: /blog/on-remembrance-of-the-daleks/special-weapons-dalek.png
 ---
 <aside>
 
-**Caution** this article contains **spoilers**.
+**Caution** this post contains **spoilers**.
 
 </aside>
 
-I don't really understand why they didn't do this before, but the BBC have put the entire 50 year [*Doctor Who* back catalogue](https://www.bbc.co.uk/iplayer/episodes/p0ggwr8l/doctor-who-19631996) on *iPlayer* (UK only). Feels like we (the British public, that is) already paid for it and should have been able to watch it whenever we wanted but, whatever, I took the bait and looked up some of my favourite episodes.
+The BBC have put the entire, 50 year [back catalogue of *Doctor Who*](https://www.bbc.co.uk/iplayer/episodes/p0ggwr8l/doctor-who-19631996) on *iPlayer* (UK only). I don't understand why they didn't do this before. Feels like we (the British public, that is) already paid for it and should have been able to watch it whenever we wanted but, whatever, I took the bait and looked up some of my favourite episodes.
 
-[_Remembrance of the Daleks_](https://www.bbc.co.uk/iplayer/episode/p00v91lj/doctor-who-19631996-season-25-remembrance-of-the-daleks-part-1) was the three episode capstone of the 7th Doctor's stint. Everyone has their Doctor and mine was, for all his faults, Sylvester McCoy. He's probably not well liked in fan circles, what with the show being cancelled under his watch, but I'll always have a fondness for his soft brogue and mischievous smile.
+[_Remembrance of the Daleks_](https://www.bbc.co.uk/iplayer/episode/p00v91lj/doctor-who-19631996-season-25-remembrance-of-the-daleks-part-1) was the three episode capstone of the 7th Doctor's stint. Everyone has their favourite Doctor and mine was, for all his faults, Sylvester McCoy. He's probably not well liked in fan circles, what with the show being cancelled under his watch, but I'll always have a fondness for his soft brogue and mischievous smile.
 
-And, it goes without saying, each generation of the Doctor gets at least one Dalek chapter, and _Remembrance_ hits hard for a number of reasons I'll outline below.
+And, it goes without saying, each generation of the Doctor gets at least one Dalek chapter, and _Remembrance_ hits hard for a number of reasons.
 
 <iframe class="youtube video embed" src="https://www.youtube.com/embed/d0r27kOw2rw?si=n_i7rqxfgnqGCpID&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -35,7 +34,7 @@ It seems strange to think about late-80s _Doctor Who_ as cool. We're talking abo
 
 My eye is drawn to that royal blue bar with custard yellow text, dividing the episode title from the writer credit. It features in the end credits as well. Supersaturated colours with some 8-bit dithering, like cheap-and-cheerful plastic mouldings or screeching ZX Spectrum graphics.
 
-I think it's the same font they used for end credits and props on _Red Dwarf_ (Eurostile Extended Bold, FYI). Reminiscent of high visibility industrial safety warnings.
+I think it's the same font they used for the end credits and props on _Red Dwarf_ (Eurostile Extended Bold, FYI). Reminiscent of high visibility industrial safety warnings.
 
 It hints at a forgotten future, a more achievable future we could reach with a bit of BP engineering or Sinclair ingenuity. A future where space is a job, not an aspiration. All the bits were there, it was just a matter of firing a North Sea oil rig into space.
 
@@ -43,7 +42,7 @@ It's the _Nostromo_. It's a chicken vindaloo vending machine.
 
 It's space fascists rolling around the east-end.
 
-## Don’t Mention the War
+## Don’t mention the war
 
 It always comes back to Coal Hill School. Every _Doctor Who_ showrunner ends up polishing the brass on that sacred touchstone. And why not? If the show's to stay relevant, it needs to be reinvented now and then.
 
@@ -55,9 +54,9 @@ But, if the Imperial Daleks are the flip side to the Renegade Daleks, who is the
 
 On an unrelated note, the Doctor is seen gadding about with the post-colonialist forces of a nascent UNIT. A military force seemingly happy to wave guns around a heavily populated residential area. The Doctor never picks up a weapon himself, of course, but he’s quite happy for others to do the shooting for him.
 
-## It's a *Police* Box
+## Police Box
 
-I’ve said it before, and I’ll say it again, the Doctor is a cop. We get a hint of this (unintentionally) in _Remembrance_ when the Doctor notes that even Daleks wouldn’t dare interfere with the time stream. Do we detect a note of grudging respect?
+I’ve said it before, and I’ll say it again, the Doctor is a cop. We get a hint of this (unintentionally) in _Remembrance_ when the Doctor notes that even the Daleks wouldn’t dare interfere with the time stream. Do we detect a note of grudging respect?
 
 <aside>
 
@@ -65,7 +64,7 @@ I mean, even *Loki* addressed this, and that's coming from within the confines o
 
 </aside>
 
-You see, we’re always told messing about with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups. Just as with the neoliberal consensus, better things are not possible. Interfering with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler. Ah well, nevertheless, and so on.
+You see, we’re always told messing about with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups. Just as with the neoliberal consensus, better things are not possible. Interfering with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler.
 
 ![Screencap of the Hand of Omega from Remembrance of the Daleks](./content/blog/on-remembrance-of-the-daleks/hand-of-omega.png "The Hand of Omega")
 
@@ -99,7 +98,7 @@ This article was research for [CONT/EXT](https://grislyeye.com/products/context)
 
 ## Learnings
 
-_Remembrance of the Daleks_ ends with the total genocide of the Dalek home world. Gone in a not unpleasant special effect. The Doctor has eliminated the Dalek threat (and presumably the lives of billions of other inhabitants of Skaro) without getting his hands dirty. He did warn them, after all, and everyone disappears into the TARDIS for a nice cup of tea. Ah well, nevertheless.
+_Remembrance of the Daleks_ ends with the total genocide of the Dalek home world. Gone in a not unpleasant special effect. The Doctor has eliminated the Dalek threat (and presumably the lives of billions of other inhabitants of Skaro) without getting his hands dirty. He did warn them, after all, and everyone disappears into the TARDIS for a nice cup of tea.
 
 What did we learn? Well, I cringed at some of the special effects and dubious acting, but was thrilled to see Daleks blasting at each other across familiar London streets.
 
