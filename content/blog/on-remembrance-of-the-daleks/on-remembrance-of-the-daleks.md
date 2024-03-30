@@ -23,9 +23,9 @@ And, it goes without saying, each generation of the Doctor gets at least one Dal
 
 ## Credits
 
-For me, the _Doctor Who_ credits are a critical part of the show, and they took a sharp turn with the 7th Doctor. Gone were the prog rock synth and 70s special effects. The new theme music is distinctly techno, the effects cutting-edge (for the time) CGI. Gone are the psychedelic discos lights. In with a brooding palette of police blue and angry, violet emissions, all set over a pitch backdrop.
+For me, the _Doctor Who_ credits are a critical part of the show, and they took a sharp turn with the 7th Doctor. Gone were the prog rock synth and 70s special effects. The new theme music was distinctly techno, the effects cutting-edge (for the time) CGI. Gone were the psychedelic discos lights. In with a brooding palette of police blue and angry, violet emissions, all set over a pitch backdrop.
 
-This is not your dad's _Doctor Who_.
+This was not your dad's _Doctor Who_.
 
 It seems strange to think about late-80s _Doctor Who_ as cool. We're talking about a (by that time) obscure British science fiction series with a distinctly middle-class audience. (Look no further than Ace's _Blue Peter_ badges). You have to understand, it was a less cynical time trying hard to be cynical. The endless cycle of gritty reboots had only just got started, and it seemed they'd never get stale. It felt like a fresh start for _Doctor Who_, but it turned out to spell its end.
 
