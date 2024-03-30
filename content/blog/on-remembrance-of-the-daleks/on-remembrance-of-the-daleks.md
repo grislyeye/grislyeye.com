@@ -27,7 +27,7 @@ For me, the _Doctor Who_ credits are a critical part of the show, and they took 
 
 This was not your dad's _Doctor Who_.
 
-It seems strange to think about late-80s _Doctor Who_ as cool. We're talking about a (by that time) obscure British science fiction series with a distinctly middle-class audience. (Look no further than Ace's _Blue Peter_ badges). You have to understand, it was a less cynical time trying hard to be cynical. The endless cycle of gritty reboots had only just got started, and it seemed they'd never get stale. It felt like a fresh start for _Doctor Who_, but it turned out to spell its end.
+It seems strange to think about late-80s _Doctor Who_ as cool. We're talking about a (by that time) obscure British science fiction series with a distinctly middle-class audience. (Look no further than Ace's _Blue Peter_ badges.) You have to understand, it was a less cynical time trying hard to be cynical. The endless cycle of gritty reboots had only just got started, and it seemed they'd never get stale. It felt like a fresh start for _Doctor Who_, but it turned out to spell its end.
 
 ![Title screen for Remembrance of the Daleks by Ben Aaronovitch](./content/blog/on-remembrance-of-the-daleks/remembrance-of-the-daleks-title.png "Remembrance of the Daleks")
 
