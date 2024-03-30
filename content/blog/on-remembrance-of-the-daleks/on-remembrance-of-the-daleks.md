@@ -115,4 +115,4 @@ It all works to ground the high concept elements. I'm not going to say it makes 
 
 3. Let us harken back to forgotten futures. The retro-70s cathode-ray tube tech of _Alien: Isolation_.
 
-But most of all, let us remember the victims of the Shoreditch Incident.
+But, most of all, let us remember the victims of the Shoreditch Incident.
