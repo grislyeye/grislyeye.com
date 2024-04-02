@@ -78,7 +78,7 @@ It also shares a lot in common with the TARDIS. A semi-intelligent box that hide
 
 ### Chaos Daleks
 
-I don’t think the Hand is ever referenced again in the Doctor Who TV canon, which is a shame. A piece of grimdark worldbuilding erased by Russell T. Davies’ shiny, new “Whoniverse”. The Americans already have enough glossy sci-fi, why couldn't we draw from the rich tradition of distinctively grubby British dystopia, instead? And I can’t think of a better vehicle for that than Doctor Who. Certainly, the 7th Doctor was heading in that direction before it got cancelled.
+I don’t think the Hand is ever referenced again in the _Doctor Who_ TV canon, which is a shame. A piece of grimdark worldbuilding erased by Russell T. Davies’ shiny, new “Whoniverse”. The Americans already have enough glossy sci-fi, why couldn't we draw from the rich tradition of distinctively grubby British dystopia, instead? And I can’t think of a better vehicle for that than _Doctor Who_. Certainly, the 7th Doctor was heading in that direction before it got cancelled.
 
 ![Still of the special weapons Dalek from Episode 4 of Remembrance of the Daleks](./content/blog/on-remembrance-of-the-daleks/special-weapons-dalek.png "Special Weapons Dalek")
 
