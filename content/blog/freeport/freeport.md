@@ -1,5 +1,5 @@
 ---
-title: Low skinning Freeport City of Adventure
+title: Low Skinning Freeport
 tags:
   - posts
   - drafts
