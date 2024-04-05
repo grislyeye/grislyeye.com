@@ -4,7 +4,7 @@ const getDay = (new Date()).getDate();
 
 module.exports = {
 	helpers: {
-		date: () => `${getYear}-${getMonth}-${getDay.toString().padStart(2, '0')}`,
+		date: () => `${getYear}-${getMonth.toString().padStart(2, '0')}-${getDay.toString().padStart(2, '0')}`,
     slug: (str) => str.replace(/[\W_]/g, '-').toLowerCase()
 	}
 }
