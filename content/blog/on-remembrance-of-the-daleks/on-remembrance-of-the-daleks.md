@@ -64,7 +64,7 @@ I mean, even *Loki* addressed this, and that's coming from within the confines o
 
 </aside>
 
-You see, we’re always told messing about with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups. Just as with the neoliberal consensus, better things are not possible. Interfering with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler.
+You see, we’re always told interfering with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups. Just as with the neoliberal consensus, better things are not possible. Interfering with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler.
 
 ![Screencap of the Hand of Omega from Remembrance of the Daleks](./content/blog/on-remembrance-of-the-daleks/hand-of-omega.png "The Hand of Omega")
 
