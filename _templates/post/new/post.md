@@ -1,5 +1,5 @@
 ---
-to: content/blog/<%= h.slug(title) %>/<%= h.slug(title) %>.html
+to: content/blog/<%= h.slug(title) %>/<%= h.slug(title) %>.md
 ---
 ---
 title: <%= title %>
