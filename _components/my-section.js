@@ -64,7 +64,7 @@ class MySection extends LitElement {
     return html`
       <section>
         <div class="subtitle">
-          ${ this.subtitle }
+          <slot name="subtitle"></slot>
         </div>
         <div class="content">
           <slot></slot>

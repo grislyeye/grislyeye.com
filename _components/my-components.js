@@ -7,3 +7,4 @@ import './my-product.js';
 import './my-section.js';
 import './my-mentions.js';
 import './my-mention.js';
+import './my-shares.js';

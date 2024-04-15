@@ -2,7 +2,11 @@
 layout: layouts/base.njk
 ---
 <article class="post content">
-  <my-page id="post" title="{{ title }}" subtitle="{{ page.date | readableDate }}">
+  <my-page id="post" title="{{ title }}">
+    <div slot="subtitle">
+      {{ page.date | readableDate }}
+      <my-shares href="{{ metadata.url }}{{ page.url }}" title="{{ title }}"></my-shares>
+    </div>
 
     {{ content | safe }}
 

@@ -77,7 +77,8 @@ class MyMentions extends LitElement {
 
   static renderMentions(mentions) {
     return html`
-      <my-section subtitle="mentions">
+      <my-section>
+        <div slot="subtitle">mentions</div>
         <div id="mentions">
           ${ mentions.map(MyMentions.renderMention) }
         </div>

@@ -27,14 +27,11 @@ class MyHeroHeader extends LitElement {
     }
   `;
 
-  static properties = {
-    subtitle: { attribute: 'subtitle' }
-  };
-
   render() {
     return html`
       <h1><slot name="title">Hero Header Title</slot></h1>
-      <my-section subtitle="${ this.subtitle }">
+      <my-section>
+        <div slot="subtitle">${ this.subtitle }</div>
         <p class="description"><slot name="description">Hero header description</slot></p>
       </my-section>
     `;
