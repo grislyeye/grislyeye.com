@@ -9,6 +9,7 @@ class MyShares extends LitElement {
   static styles = css`
     :host {
       display: inline;
+      cursor: pointer;
     }
 
     :host([native]) .shares {
