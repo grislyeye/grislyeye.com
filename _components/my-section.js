@@ -56,10 +56,7 @@ class MySection extends LitElement {
     }
   `;
 
-  static properties = {
-    subtitle: { attribute: 'subtitle' }
-  };
-
+  // eslint-disable-next-line class-methods-use-this
   render() {
     return html`
       <section>

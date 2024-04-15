@@ -1,4 +1,9 @@
-import { LitElement, html, css, isServer } from 'lit';
+import {
+  LitElement,
+  html,
+  css,
+  isServer
+} from 'lit';
 
 class MyShares extends LitElement {
   static styles = css`
