@@ -30,8 +30,7 @@ class MyPage extends LitElement {
   `;
 
   static properties = {
-    title: { attribute: 'title' },
-    subtitle: { attribute: 'subtitle' }
+    title: { attribute: 'title' }
   };
 
   render() {
@@ -39,7 +38,8 @@ class MyPage extends LitElement {
       <h1 class="title">
         ${ this.renderTitle() }
       </h1>
-      <my-section subtitle="${ this.subtitle }">
+      <my-section>
+        <div slot="subtitle"><slot name="subtitle"></slot></div>
         <slot></slot>
       </my-section>
     `;

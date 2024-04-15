@@ -35,7 +35,7 @@ class MySection extends LitElement {
       text-transform: lowercase;
     }
 
-    @media(max-width: 890px) {
+    @media(width < 970px) {
       :host {
         margin-left: 0;
       }
@@ -56,15 +56,12 @@ class MySection extends LitElement {
     }
   `;
 
-  static properties = {
-    subtitle: { attribute: 'subtitle' }
-  };
-
+  // eslint-disable-next-line class-methods-use-this
   render() {
     return html`
       <section>
         <div class="subtitle">
-          ${ this.subtitle }
+          <slot name="subtitle"></slot>
         </div>
         <div class="content">
           <slot></slot>
