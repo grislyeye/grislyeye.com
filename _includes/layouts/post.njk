@@ -3,8 +3,8 @@ layout: layouts/base.njk
 ---
 <article class="post content">
   <my-page id="post" title="{{ title }}">
-    <div slot="subtitle">
-      {{ page.date | readableDate }}
+    <div class="page-subtitle" slot="subtitle">
+      <span>{{ page.date | readableDate }}</span>
       <my-shares href="{{ metadata.url }}{{ page.url }}" title="{{ title }}"></my-shares>
     </div>
 

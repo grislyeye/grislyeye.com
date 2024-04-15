@@ -35,7 +35,7 @@ class MySection extends LitElement {
       text-transform: lowercase;
     }
 
-    @media(max-width: 890px) {
+    @media(width < 970px) {
       :host {
         margin-left: 0;
       }

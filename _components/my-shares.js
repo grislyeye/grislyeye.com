@@ -8,8 +8,7 @@ import {
 class MyShares extends LitElement {
   static styles = css`
     :host {
-      display: block;
-      padding-top: 0.2em;
+      display: inline;
     }
 
     :host([native]) .shares {
@@ -38,7 +37,8 @@ class MyShares extends LitElement {
     }
 
     img.icon {
-      height: 1em;
+      padding-top: 0.2em;
+      height: 0.8rem;
       filter: brightness(0) invert(1);
     }
   `;
@@ -70,7 +70,10 @@ class MyShares extends LitElement {
 
   render() {
     return html`
-      <span class="share-button">Share</span>
+      <span class="share-button">
+        <img src="/images/share.svg" class="icon" alt="Share">
+      </span>
+
       <div class="shares">
         <a
           class="share"

@@ -48,7 +48,7 @@ main {
   margin: 0 auto 7rem;
 }
 
-main :first-child {
+main > :first-child {
   margin-top: 0;
 }
 
@@ -219,4 +219,22 @@ span.product {
 span.title {
   color: red;
   font-variant: small-caps;
+}
+
+.page-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+@media(width < 970px) {
+  .page-subtitle {
+    flex-direction: row;
+    padding-bottom: 0.3em;
+  }
+
+  .page-subtitle > * + * {
+    border-left: 1px solid;
+    padding-left: 0.5em;
+  }
 }
