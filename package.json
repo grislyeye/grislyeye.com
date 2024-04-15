@@ -42,7 +42,7 @@
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-lit": "^1.11.0",
-    "eslint-plugin-wc": "^2.0.4",
+    "eslint-plugin-wc": "^2.1.0",
     "hygen": "^6.2.11",
     "linkinator": "^6.0.4",
     "luxon": "^3.4.4",
