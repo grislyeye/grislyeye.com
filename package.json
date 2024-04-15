@@ -3,10 +3,9 @@
   "version": "3.12.2",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
     "start": "npx @11ty/eleventy --serve --quiet",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
-    "debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+    "debug:start": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "test": "npm run test:lint && npm run test:links",
     "test:lint": "eslint --ext .js . && stylelint public/css/*.css",
