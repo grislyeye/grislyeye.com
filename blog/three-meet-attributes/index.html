@@ -84,7 +84,7 @@ main {
   margin: 0 auto 7rem;
 }
 
-main :first-child {
+main > :first-child {
   margin-top: 0;
 }
 
@@ -255,6 +255,24 @@ span.product {
 span.title {
   color: red;
   font-variant: small-caps;
+}
+
+.page-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+@media(width < 970px) {
+  .page-subtitle {
+    flex-direction: row;
+    padding-bottom: 0.3em;
+  }
+
+  .page-subtitle > * + * {
+    border-left: 1px solid;
+    padding-left: 0.5em;
+  }
 }</style>
 
     <link rel="stylesheet" href="/bundle/gQVHNUixTy.css">
@@ -902,7 +920,7 @@ span.title {
 
     <main>
       <article class="post content">
-  <my-page    id="post" title="The Pond Skater" subtitle="19 May 2021"><template shadowroot="open" shadowrootmode="open"><style>
+  <my-page   id="post" title="The Pond Skater"><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: block;
     }
@@ -927,11 +945,11 @@ span.title {
         font-size: 3rem;
       }
     }
-  </style><!--lit-part MOCCVJ+aMIM=-->
+  </style><!--lit-part coWevo0zuOw=-->
       <h1 class="title">
         <!--lit-part GS+GCwuChgs=--><!--lit-part-->The<!--/lit-part--> <br> <!--lit-part-->Pond Skater<!--/lit-part--><?><!--/lit-part-->
       </h1>
-      <!--lit-node 2--><my-section  subtitle="19 May 2021" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+      <!--lit-node 2--><my-section defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: block;
       margin-left: calc(var(--content-subtitle-max-width) * -1);
@@ -965,7 +983,7 @@ span.title {
       text-transform: lowercase;
     }
 
-    @media(max-width: 890px) {
+    @media(width < 970px) {
       :host {
         margin-left: 0;
       }
@@ -984,19 +1002,101 @@ span.title {
     ::slotted(p) {
       margin-top: 0;
     }
-  </style><!--lit-part yzr3+WwKTzA=-->
+  </style><!--lit-part cfdBU0cIpvY=-->
       <section>
         <div class="subtitle">
-          <!--lit-part-->19 May 2021<!--/lit-part-->
+          <slot name="subtitle"></slot>
         </div>
         <div class="content">
           <slot></slot>
         </div>
       </section>
     <!--/lit-part--></template>
+        <div slot="subtitle"><slot name="subtitle"></slot></div>
         <slot></slot>
       </my-section>
     <!--/lit-part--></template>
+    <div class="page-subtitle" slot="subtitle">
+      <span>19 May 2021</span>
+      <my-shares   href="https://grislyeye.com/blog/three-meet-attributes/" title="The Pond Skater"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline;
+      cursor: pointer;
+    }
+
+    :host([native]) .shares {
+      display: none;
+    }
+
+    .share-button {
+      display: none;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    :host([native]) .share-button {
+      display: inline;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+      cursor: inherit;
+    }
+
+    .share {
+      padding-left: 0.1em;
+      padding-right: 0.1em;
+    }
+
+    img.icon {
+      padding-top: 0.2em;
+      height: 0.8rem;
+      filter: brightness(0) invert(1);
+    }
+  </style><!--lit-part 993MGCSoG6c=-->
+      <span class="share-button">
+        <img src="/images/share.svg" class="icon" alt="Share">
+      </span>
+
+      <div class="shares">
+        <!--lit-node 3--><a
+          class="share"
+          title="Share via Email"
+          href="mailto:?subject=The Pond Skater&amp;body=https://grislyeye.com/blog/three-meet-attributes/"
+        >
+          <img src="/images/email.svg" class="icon" alt="Email icon">
+        </a>
+
+        <!--lit-node 5--><a
+          class="share"
+          title="Share on Twitter"
+          href="https://twitter.com/intent/tweet/?url=https://grislyeye.com/blog/three-meet-attributes/&amp;text=The Pond Skater&amp;via=grislyeye"
+          target="_blank"
+        >
+          <img src="/images/twitter.svg" class="icon" alt="Twitter icon">
+        </a>
+
+        <!--lit-node 7--><a
+          class="share"
+          title="Share on Facebook"
+          href="https://facebook.com/sharer/sharer.php?u=https://grislyeye.com/blog/three-meet-attributes/"
+          target="_blank"
+        >
+          <img src="/images/facebook.svg" class="icon" alt="Facebook icon">
+        </a>
+
+        <!--lit-node 9--><a
+          class="share"
+          title="Share on Tumblr"
+          href="https://tumblr.com/widgets/share/tool?canonicalUrl=https://grislyeye.com/blog/three-meet-attributes/&amp;tags=&amp;caption=The Pond Skater"
+          target="_blank"
+        >
+          <img src="/images/tumblr.svg" class="icon" alt="Tumblr icon">
+        </a>
+      </div>
+    <!--/lit-part--></template></my-shares>
+    </div>
 
     <figure class="large outlined illustration">
   <picture><source type="image/avif" srcset="/img/OsCGJ_5cSn-400.avif 400w"><source type="image/webp" srcset="/img/OsCGJ_5cSn-400.webp 400w"><img alt="Illustration of a commong kingfisher" loading="lazy" decoding="async" title="Illustration of a commong kingfisher" src="/img/OsCGJ_5cSn-400.png" width="400" height="584"></picture>
@@ -1064,7 +1164,7 @@ span.title {
 
     <footer>
       <p class="legal">
-        Website version 3.12.1 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+        Website version 3.13.0 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
       </p>
     </footer>
 

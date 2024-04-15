@@ -84,7 +84,7 @@ main {
   margin: 0 auto 7rem;
 }
 
-main :first-child {
+main > :first-child {
   margin-top: 0;
 }
 
@@ -255,6 +255,24 @@ span.product {
 span.title {
   color: red;
   font-variant: small-caps;
+}
+
+.page-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+@media(width < 970px) {
+  .page-subtitle {
+    flex-direction: row;
+    padding-bottom: 0.3em;
+  }
+
+  .page-subtitle > * + * {
+    border-left: 1px solid;
+    padding-left: 0.5em;
+  }
 }</style>
 
     <link rel="stylesheet" href="/bundle/gQVHNUixTy.css">
@@ -902,7 +920,7 @@ span.title {
 
     <main>
       <article class="post content">
-  <my-page    id="post" title="On Remembrance of the Daleks" subtitle="02 April 2024"><template shadowroot="open" shadowrootmode="open"><style>
+  <my-page   id="post" title="On Remembrance of the Daleks"><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: block;
     }
@@ -927,11 +945,11 @@ span.title {
         font-size: 3rem;
       }
     }
-  </style><!--lit-part MOCCVJ+aMIM=-->
+  </style><!--lit-part coWevo0zuOw=-->
       <h1 class="title">
         <!--lit-part GS+GCwuChgs=--><!--lit-part-->On<!--/lit-part--> <br> <!--lit-part-->Remembrance of the Daleks<!--/lit-part--><?><!--/lit-part-->
       </h1>
-      <!--lit-node 2--><my-section  subtitle="02 April 2024" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+      <!--lit-node 2--><my-section defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: block;
       margin-left: calc(var(--content-subtitle-max-width) * -1);
@@ -965,7 +983,7 @@ span.title {
       text-transform: lowercase;
     }
 
-    @media(max-width: 890px) {
+    @media(width < 970px) {
       :host {
         margin-left: 0;
       }
@@ -984,19 +1002,101 @@ span.title {
     ::slotted(p) {
       margin-top: 0;
     }
-  </style><!--lit-part yzr3+WwKTzA=-->
+  </style><!--lit-part cfdBU0cIpvY=-->
       <section>
         <div class="subtitle">
-          <!--lit-part-->02 April 2024<!--/lit-part-->
+          <slot name="subtitle"></slot>
         </div>
         <div class="content">
           <slot></slot>
         </div>
       </section>
     <!--/lit-part--></template>
+        <div slot="subtitle"><slot name="subtitle"></slot></div>
         <slot></slot>
       </my-section>
     <!--/lit-part--></template>
+    <div class="page-subtitle" slot="subtitle">
+      <span>02 April 2024</span>
+      <my-shares   href="https://grislyeye.com/blog/on-remembrance-of-the-daleks/" title="On Remembrance of the Daleks"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline;
+      cursor: pointer;
+    }
+
+    :host([native]) .shares {
+      display: none;
+    }
+
+    .share-button {
+      display: none;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    :host([native]) .share-button {
+      display: inline;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+      cursor: inherit;
+    }
+
+    .share {
+      padding-left: 0.1em;
+      padding-right: 0.1em;
+    }
+
+    img.icon {
+      padding-top: 0.2em;
+      height: 0.8rem;
+      filter: brightness(0) invert(1);
+    }
+  </style><!--lit-part 993MGCSoG6c=-->
+      <span class="share-button">
+        <img src="/images/share.svg" class="icon" alt="Share">
+      </span>
+
+      <div class="shares">
+        <!--lit-node 3--><a
+          class="share"
+          title="Share via Email"
+          href="mailto:?subject=On Remembrance of the Daleks&amp;body=https://grislyeye.com/blog/on-remembrance-of-the-daleks/"
+        >
+          <img src="/images/email.svg" class="icon" alt="Email icon">
+        </a>
+
+        <!--lit-node 5--><a
+          class="share"
+          title="Share on Twitter"
+          href="https://twitter.com/intent/tweet/?url=https://grislyeye.com/blog/on-remembrance-of-the-daleks/&amp;text=On Remembrance of the Daleks&amp;via=grislyeye"
+          target="_blank"
+        >
+          <img src="/images/twitter.svg" class="icon" alt="Twitter icon">
+        </a>
+
+        <!--lit-node 7--><a
+          class="share"
+          title="Share on Facebook"
+          href="https://facebook.com/sharer/sharer.php?u=https://grislyeye.com/blog/on-remembrance-of-the-daleks/"
+          target="_blank"
+        >
+          <img src="/images/facebook.svg" class="icon" alt="Facebook icon">
+        </a>
+
+        <!--lit-node 9--><a
+          class="share"
+          title="Share on Tumblr"
+          href="https://tumblr.com/widgets/share/tool?canonicalUrl=https://grislyeye.com/blog/on-remembrance-of-the-daleks/&amp;tags=&amp;caption=On Remembrance of the Daleks"
+          target="_blank"
+        >
+          <img src="/images/tumblr.svg" class="icon" alt="Tumblr icon">
+        </a>
+      </div>
+    <!--/lit-part--></template></my-shares>
+    </div>
 
     <aside>
 <p><strong>Caution</strong> this post contains <strong>spoilers</strong>.</p>
@@ -1027,7 +1127,7 @@ span.title {
 <aside>
 <p>I mean, even <em>Loki</em> addressed this, and that's coming from within the confines of neutered Disney politics.</p>
 </aside>
-<p>You see, we’re always told messing about with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups. Just as with the neoliberal consensus, better things are not possible. Interfering with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler.</p>
+<p>You see, we’re always told interfering with the timeline is dangerous… unless it’s the Doctor doing it. In which case, it’s just sensible (temporal) politics. Leave it to the grown-ups. Just as with the neoliberal consensus, better things are not possible. Interfering with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler.</p>
 <p><picture><source type="image/avif" srcset="/img/9VJTXKemXF-720.avif 720w"><img alt="Screencap of the Hand of Omega from Remembrance of the Daleks" title="The Hand of Omega" src="/img/9VJTXKemXF-720.webp" width="720" height="546"></picture></p>
 <h2>Hand of Omega</h2>
 <p>What can I say about the Hand of Omega? Rewatching <em>Remembrance</em> reminds me how much it influenced me. A piece of <em>stellar</em> engineering. That is, something you make fucking stars with. All tidied away in a neat little box. A tool beyond any crude, human tool that has, if not agency, purpose. A tool of such flexibility it can destroy an entire solar system at one stroke, or gently brush a simple baseball bat with the tiniest sliver of its power and turn it into a Dalek-breaking sword.</p>
@@ -1046,9 +1146,9 @@ span.title {
 <h2>Learnings</h2>
 <p><em>Remembrance of the Daleks</em> ends with the total genocide of the Dalek home world. Gone in a not unpleasant special effect. The Doctor has eliminated the Dalek threat (and presumably the lives of billions of other inhabitants of Skaro) without getting his hands dirty. He did warn them, after all, and everyone disappears into the TARDIS for a nice cup of tea.</p>
 <p>What did we learn? Well, I cringed at some of the special effects and dubious acting, but was thrilled to see Daleks blasting at each other across familiar London streets.</p>
-<p><em>Remembrance</em> plays off the contrast between drab locale and high-concept sci-fi elements to great effect. We have comprehensive school girls possessed by machine ghosts. <em>Grange Hill</em> school teachers working as a secret Dalek quislings. Floating weapons of mass destruction hiding in old lockups. And racist mums.</p>
+<p><em>Remembrance</em> plays off the contrast between drab locale and high-concept sci-fi to great effect. We have comprehensive school girls possessed by machine ghosts. <em>Grange Hill</em> school teachers working as a secret Dalek quislings. Floating weapons of mass destruction hiding in old lockups. And racist mums.</p>
 <p>The Daleks fight each other as much through their human proxies as they do directly, which lends an air of quiet desperation. Men, women and children (and I'm counting the Doctor's allies in this) conscripted into horrifying, alien agendas they can't possibly satisfy.</p>
-<p>It all works to ground the high concept elements. I'm not going to say it makes it any more believable but, for the author of this article, it certainly offers some interesting alternatives to the aspirational elements of contemporary science fiction, in terms of setting, tone and characters.</p>
+<p>It all works to ground the high-concept elements. I'm not going to say it makes it any more believable but, for the author of this article, it certainly offers some interesting alternatives to the aspirational elements of contemporary science fiction, in terms of setting, tone and characters.</p>
 
 
   </my-page>
@@ -1060,7 +1160,7 @@ span.title {
 
     <footer>
       <p class="legal">
-        Website version 3.12.1 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+        Website version 3.13.0 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
       </p>
     </footer>
 
