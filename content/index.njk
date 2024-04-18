@@ -23,7 +23,7 @@ eleventyNavigation:
         {% else %}{% set url %}{{ post.url }}{% endset %}
         {% endif %}
 
-        <a href="{{ url }}" title="{{ post.data.title }}" hx-boost="true">
+        <a href="{{ url }}" title="{{ post.data.title }}">
 
           {% if loop.index % 3 == 1 %}
             {% set theme %} bloody {% endset %}
@@ -59,7 +59,7 @@ eleventyNavigation:
         {% else %}{% set url %}{{post.url}}{% endset %}
         {% endif %}
 
-        <a href="{{ url }}" title="{{ post.data.title }}" hx-boost="true">
+        <a href="{{ url }}" title="{{ post.data.title }}">
 
           {% if loop.index % 3 == 1 %}
             {% set theme %} bloody {% endset %}
