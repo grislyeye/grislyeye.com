@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.13.0",
+  "version": "3.13.1",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --quiet",
