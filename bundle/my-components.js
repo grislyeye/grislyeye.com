@@ -5,8 +5,8 @@
   var s = Symbol();
   var o = /* @__PURE__ */ new WeakMap();
   var n = class {
-    constructor(t3, e4, o5) {
-      if (this._$cssResult$ = true, o5 !== s)
+    constructor(t3, e4, o4) {
+      if (this._$cssResult$ = true, o4 !== s)
         throw Error("CSSResult is not constructable. Use `unsafeCSS` or `css` instead.");
       this.cssText = t3, this.t = e4;
     }
@@ -25,22 +25,22 @@
   };
   var r = (t3) => new n("string" == typeof t3 ? t3 : t3 + "", void 0, s);
   var i = (t3, ...e4) => {
-    const o5 = 1 === t3.length ? t3[0] : e4.reduce((e5, s5, o6) => e5 + ((t4) => {
+    const o4 = 1 === t3.length ? t3[0] : e4.reduce((e5, s5, o5) => e5 + ((t4) => {
       if (true === t4._$cssResult$)
         return t4.cssText;
       if ("number" == typeof t4)
         return t4;
       throw Error("Value passed to 'css' function must be a 'css' function result: " + t4 + ". Use 'unsafeCSS' to pass non-literal values, but take care to ensure page security.");
-    })(s5) + t3[o6 + 1], t3[0]);
-    return new n(o5, t3, s);
+    })(s5) + t3[o5 + 1], t3[0]);
+    return new n(o4, t3, s);
   };
-  var S = (s5, o5) => {
+  var S = (s5, o4) => {
     if (e)
-      s5.adoptedStyleSheets = o5.map((t3) => t3 instanceof CSSStyleSheet ? t3 : t3.styleSheet);
+      s5.adoptedStyleSheets = o4.map((t3) => t3 instanceof CSSStyleSheet ? t3 : t3.styleSheet);
     else
-      for (const e4 of o5) {
-        const o6 = document.createElement("style"), n4 = t.litNonce;
-        void 0 !== n4 && o6.setAttribute("nonce", n4), o6.textContent = e4.cssText, s5.appendChild(o6);
+      for (const e4 of o4) {
+        const o5 = document.createElement("style"), n4 = t.litNonce;
+        void 0 !== n4 && o5.setAttribute("nonce", n4), o5.textContent = e4.cssText, s5.appendChild(o5);
       }
   };
   var c = e ? (t3) => t3 : (t3) => t3 instanceof CSSStyleSheet ? ((t4) => {
@@ -316,7 +316,7 @@
     return void 0 !== s2 ? s2.createHTML(i5) : i5;
   }
   var P = (t3, i5) => {
-    const s5 = t3.length - 1, o5 = [];
+    const s5 = t3.length - 1, o4 = [];
     let r6, l3 = 2 === i5 ? "<svg>" : "", c4 = f2;
     for (let i6 = 0; i6 < s5; i6++) {
       const s6 = t3[i6];
@@ -324,9 +324,9 @@
       for (; y3 < s6.length && (c4.lastIndex = y3, u3 = c4.exec(s6), null !== u3); )
         y3 = c4.lastIndex, c4 === f2 ? "!--" === u3[1] ? c4 = v : void 0 !== u3[1] ? c4 = _ : void 0 !== u3[2] ? ($.test(u3[2]) && (r6 = RegExp("</" + u3[2], "g")), c4 = m) : void 0 !== u3[3] && (c4 = m) : c4 === m ? ">" === u3[0] ? (c4 = r6 ?? f2, d3 = -1) : void 0 === u3[1] ? d3 = -2 : (d3 = c4.lastIndex - u3[2].length, a3 = u3[1], c4 = void 0 === u3[3] ? m : '"' === u3[3] ? g : p2) : c4 === g || c4 === p2 ? c4 = m : c4 === v || c4 === _ ? c4 = f2 : (c4 = m, r6 = void 0);
       const x2 = c4 === m && t3[i6 + 1].startsWith("/>") ? " " : "";
-      l3 += c4 === f2 ? s6 + n3 : d3 >= 0 ? (o5.push(a3), s6.slice(0, d3) + e3 + s6.slice(d3) + h2 + x2) : s6 + h2 + (-2 === d3 ? i6 : x2);
+      l3 += c4 === f2 ? s6 + n3 : d3 >= 0 ? (o4.push(a3), s6.slice(0, d3) + e3 + s6.slice(d3) + h2 + x2) : s6 + h2 + (-2 === d3 ? i6 : x2);
     }
-    return [C(t3, l3 + (t3[s5] || "<?>") + (2 === i5 ? "</svg>" : "")), o5];
+    return [C(t3, l3 + (t3[s5] || "<?>") + (2 === i5 ? "</svg>" : "")), o4];
   };
   var V = class _V {
     constructor({ strings: t3, _$litType$: s5 }, n4) {
@@ -376,8 +376,8 @@
     if (i5 === w)
       return i5;
     let h4 = void 0 !== e4 ? s5._$Co?.[e4] : s5._$Cl;
-    const o5 = c3(i5) ? void 0 : i5._$litDirective$;
-    return h4?.constructor !== o5 && (h4?._$AO?.(false), void 0 === o5 ? h4 = void 0 : (h4 = new o5(t3), h4._$AT(t3, s5, e4)), void 0 !== e4 ? (s5._$Co ??= [])[e4] = h4 : s5._$Cl = h4), void 0 !== h4 && (i5 = N(t3, h4._$AS(t3, i5.values), h4, e4)), i5;
+    const o4 = c3(i5) ? void 0 : i5._$litDirective$;
+    return h4?.constructor !== o4 && (h4?._$AO?.(false), void 0 === o4 ? h4 = void 0 : (h4 = new o4(t3), h4._$AT(t3, s5, e4)), void 0 !== e4 ? (s5._$Co ??= [])[e4] = h4 : s5._$Cl = h4), void 0 !== h4 && (i5 = N(t3, h4._$AS(t3, i5.values), h4, e4)), i5;
   }
   var S2 = class {
     constructor(t3, i5) {
@@ -392,13 +392,13 @@
     u(t3) {
       const { el: { content: i5 }, parts: s5 } = this._$AD, e4 = (t3?.creationScope ?? r3).importNode(i5, true);
       E.currentNode = e4;
-      let h4 = E.nextNode(), o5 = 0, n4 = 0, l3 = s5[0];
+      let h4 = E.nextNode(), o4 = 0, n4 = 0, l3 = s5[0];
       for (; void 0 !== l3; ) {
-        if (o5 === l3.index) {
+        if (o4 === l3.index) {
           let i6;
           2 === l3.type ? i6 = new M(h4, h4.nextSibling, this, t3) : 1 === l3.type ? i6 = new l3.ctor(h4, l3.name, l3.strings, this, t3) : 6 === l3.type && (i6 = new L(h4, this, t3)), this._$AV.push(i6), l3 = s5[++n4];
         }
-        o5 !== l3?.index && (h4 = E.nextNode(), o5++);
+        o4 !== l3?.index && (h4 = E.nextNode(), o4++);
       }
       return E.currentNode = r3, e4;
     }
@@ -481,16 +481,16 @@
     }
     _$AI(t3, i5 = this, s5, e4) {
       const h4 = this.strings;
-      let o5 = false;
+      let o4 = false;
       if (void 0 === h4)
-        t3 = N(this, t3, i5, 0), o5 = !c3(t3) || t3 !== this._$AH && t3 !== w, o5 && (this._$AH = t3);
+        t3 = N(this, t3, i5, 0), o4 = !c3(t3) || t3 !== this._$AH && t3 !== w, o4 && (this._$AH = t3);
       else {
         const e5 = t3;
         let n4, r6;
         for (t3 = h4[0], n4 = 0; n4 < h4.length - 1; n4++)
-          r6 = N(this, e5[s5 + n4], i5, n4), r6 === w && (r6 = this._$AH[n4]), o5 ||= !c3(r6) || r6 !== this._$AH[n4], r6 === T ? t3 = T : t3 !== T && (t3 += (r6 ?? "") + h4[n4 + 1]), this._$AH[n4] = r6;
+          r6 = N(this, e5[s5 + n4], i5, n4), r6 === w && (r6 = this._$AH[n4]), o4 ||= !c3(r6) || r6 !== this._$AH[n4], r6 === T ? t3 = T : t3 !== T && (t3 += (r6 ?? "") + h4[n4 + 1]), this._$AH[n4] = r6;
       }
-      o5 && !e4 && this.j(t3);
+      o4 && !e4 && this.j(t3);
     }
     j(t3) {
       t3 === T ? this.element.removeAttribute(this.name) : this.element.setAttribute(this.name, t3 ?? "");
@@ -576,9 +576,6 @@
   var r4 = globalThis.litElementPolyfillSupport;
   r4?.({ LitElement: s3 });
   (globalThis.litElementVersions ??= []).push("4.0.4");
-
-  // node_modules/lit-html/is-server.js
-  var o4 = false;
 
   // _components/my-button.js
   var MyButton = class _MyButton extends s3 {
@@ -1465,7 +1462,7 @@
   customElements.define("my-mention", MyMention);
 
   // _components/my-shares.js
-  var MyShares = class _MyShares extends s3 {
+  var MyShares = class extends s3 {
     static styles = i`
     :host {
       display: inline;
@@ -1507,28 +1504,8 @@
       title: { attribute: "title" },
       href: { attribute: "href" }
     };
-    static nativeSharingAvailable() {
-      return !o4 && window && window.navigator.share;
-    }
-    connectedCallback() {
-      super.connectedCallback();
-      if (_MyShares.nativeSharingAvailable()) {
-        this.setAttribute("native", "");
-        this.addEventListener("click", this.share);
-      }
-    }
-    share() {
-      window.navigator.share({
-        title: this.title,
-        url: this.href
-      });
-    }
     render() {
       return x`
-      <span class="share-button">
-        <img src="/images/share.svg" class="icon" alt="Share">
-      </span>
-
       <div class="shares">
         <a
           class="share"

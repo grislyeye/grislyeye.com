@@ -302,6 +302,40 @@ span.title {
 
     
 
+    
+      <style>
+        share-button:not(:defined) button,
+        share-button:defined a {
+          display: none;
+        }
+
+        share-button:not(:defined) a + a {
+          margin-inline-start: 1ch;
+        }
+
+        share-button:defined my-shares {
+          display: none;
+        }
+
+        #post share-button button {
+          background: none!important;
+          border: none;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+
+         #post share-button img.icon {
+            height: 1rem;
+            border: none;
+            margin: 0;
+            padding: 0;
+            padding-top: 0.2em;
+            filter: brightness(0) invert(1);
+          }
+      </style>
+      <script type="module" src="/vendor/@daviddarnes/share-button/share-button.js"></script>
+    
+
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://www.google-analytics.com">
 
@@ -807,6 +841,7 @@ span.title {
   </head>
 
   <body dsd-pending>
+
     <script>
       if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
         document.body.removeAttribute("dsd-pending");
@@ -1018,7 +1053,11 @@ span.title {
     <!--/lit-part--></template>
     <div class="page-subtitle" slot="subtitle">
       <span>15 April 2020</span>
-      <my-shares   href="https://grislyeye.com/blog/flawed-magic-items-preview-2.html" title="Flawed Magic Items (Part II)"><template shadowroot="open" shadowrootmode="open"><style>
+      <share-button>
+        <button>
+          <img src="/images/share.svg" class="icon" alt="Share">
+        </button>
+        <my-shares   href="https://grislyeye.com/blog/flawed-magic-items-preview-2.html" title="Flawed Magic Items (Part II)"><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline;
       cursor: pointer;
@@ -1054,13 +1093,9 @@ span.title {
       height: 0.8rem;
       filter: brightness(0) invert(1);
     }
-  </style><!--lit-part 993MGCSoG6c=-->
-      <span class="share-button">
-        <img src="/images/share.svg" class="icon" alt="Share">
-      </span>
-
+  </style><!--lit-part gzT9wwCvcjM=-->
       <div class="shares">
-        <!--lit-node 3--><a
+        <!--lit-node 1--><a
           class="share"
           title="Share via Email"
           href="mailto:?subject=Flawed Magic Items (Part II)&amp;body=https://grislyeye.com/blog/flawed-magic-items-preview-2.html"
@@ -1068,7 +1103,7 @@ span.title {
           <img src="/images/email.svg" class="icon" alt="Email icon">
         </a>
 
-        <!--lit-node 5--><a
+        <!--lit-node 3--><a
           class="share"
           title="Share on Twitter"
           href="https://twitter.com/intent/tweet/?url=https://grislyeye.com/blog/flawed-magic-items-preview-2.html&amp;text=Flawed Magic Items (Part II)&amp;via=grislyeye"
@@ -1077,7 +1112,7 @@ span.title {
           <img src="/images/twitter.svg" class="icon" alt="Twitter icon">
         </a>
 
-        <!--lit-node 7--><a
+        <!--lit-node 5--><a
           class="share"
           title="Share on Facebook"
           href="https://facebook.com/sharer/sharer.php?u=https://grislyeye.com/blog/flawed-magic-items-preview-2.html"
@@ -1086,7 +1121,7 @@ span.title {
           <img src="/images/facebook.svg" class="icon" alt="Facebook icon">
         </a>
 
-        <!--lit-node 9--><a
+        <!--lit-node 7--><a
           class="share"
           title="Share on Tumblr"
           href="https://tumblr.com/widgets/share/tool?canonicalUrl=https://grislyeye.com/blog/flawed-magic-items-preview-2.html&amp;tags=&amp;caption=Flawed Magic Items (Part II)"
@@ -1096,6 +1131,7 @@ span.title {
         </a>
       </div>
     <!--/lit-part--></template></my-shares>
+      </share-button>
     </div>
 
     <p class="preview">This is a follow-up to my <a href="/blog/flawed-magic-items-preview-1.html">preview of Flawed Magic Items</a> and includes two, new flawed magic items: <em>The Head of St. Eras</em> and <em>blood brew</em>.</p>
@@ -1159,7 +1195,7 @@ span.title {
 
     <footer>
       <p class="legal">
-        Website version 3.13.0 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+        Website version 3.13.1 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
       </p>
     </footer>
 
