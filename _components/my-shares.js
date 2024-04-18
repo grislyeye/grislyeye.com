@@ -1,9 +1,4 @@
-import {
-  LitElement,
-  html,
-  css,
-  isServer
-} from 'lit';
+import { LitElement, html, css } from 'lit';
 
 class MyShares extends LitElement {
   static styles = css`
@@ -49,32 +44,8 @@ class MyShares extends LitElement {
     href: { attribute: 'href' }
   };
 
-  static nativeSharingAvailable() {
-    return !isServer && window && window.navigator.share;
-  }
-
-  connectedCallback() {
-    super.connectedCallback();
-
-    if (MyShares.nativeSharingAvailable()) {
-      this.setAttribute('native', '');
-      this.addEventListener('click', this.share);
-    }
-  }
-
-  share() {
-    window.navigator.share({
-      title: this.title,
-      url: this.href
-    });
-  }
-
   render() {
     return html`
-      <span class="share-button">
-        <img src="/images/share.svg" class="icon" alt="Share">
-      </span>
-
       <div class="shares">
         <a
           class="share"

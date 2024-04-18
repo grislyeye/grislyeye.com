@@ -65,6 +65,40 @@
       <script type="module" src="/vendor/vellum-monster/dist/vellum-monster.js"></script>
     {% endif %}
 
+    {% if shareable %}
+      <style>
+        share-button:not(:defined) button,
+        share-button:defined a {
+          display: none;
+        }
+
+        share-button:not(:defined) a + a {
+          margin-inline-start: 1ch;
+        }
+
+        share-button:defined my-shares {
+          display: none;
+        }
+
+        #post share-button button {
+          background: none!important;
+          border: none;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+
+         #post share-button img.icon {
+            height: 1rem;
+            border: none;
+            margin: 0;
+            padding: 0;
+            padding-top: 0.2em;
+            filter: brightness(0) invert(1);
+          }
+      </style>
+      <script type="module" src="/vendor/@daviddarnes/share-button/share-button.js"></script>
+    {% endif %}
+
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://www.google-analytics.com">
 
@@ -75,6 +109,7 @@
   </head>
 
   <body dsd-pending>
+
     <script>
       if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
         document.body.removeAttribute("dsd-pending");
