@@ -714,7 +714,7 @@
       }
     }
 
-    ::slotted(p) {
+    ::slotted(*) {
       margin-top: 0;
     }
   `;
