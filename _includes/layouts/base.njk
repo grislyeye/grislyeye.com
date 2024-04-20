@@ -97,9 +97,6 @@
       <script type="module" src="/vendor/@daviddarnes/share-button/share-button.js"></script>
     {% endif %}
 
-    <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link rel="preconnect" href="https://www.google-analytics.com">
-
     {% eleventyGoogleFonts 'https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap' %}
 
     <link href="mailto:ric@grislyeye.com" rel="me">
@@ -133,7 +130,7 @@
 
     <footer>
       <p class="legal">
-        Website version {{ pkg.version }} &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik. Grisly Eye Games collects data to continually improve the site.
+        Website version {{ pkg.version }} &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik.
       </p>
     </footer>
 
@@ -155,16 +152,6 @@
 
         import('/bundle/my-components.js');
       })();
-    </script>
-
-    <!-- Google tag (gtag.js) -->
-    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-8S4KL203M4"></script>
-    <script defer>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-8S4KL203M4');
     </script>
 
     <!-- Current page: {{ page.url | htmlBaseUrl }} -->
