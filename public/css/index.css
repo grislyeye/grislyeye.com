@@ -11,7 +11,7 @@
   --text-color-link-visited: rgb(255, 41, 87);
 
   --content-max-width: 740px;
-  --content-subtitle-max-width: 150px;
+  --content-subtitle-max-width: 200px;
 
   --fluid-gap: clamp(0.75rem, 3vw, 1.5rem)
 }

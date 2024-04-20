@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.13.4",
+  "version": "3.13.5",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "clean": "rimraf _site",
