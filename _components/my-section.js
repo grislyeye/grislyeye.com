@@ -51,7 +51,7 @@ class MySection extends LitElement {
       }
     }
 
-    ::slotted(p) {
+    ::slotted(*) {
       margin-top: 0;
     }
   `;
