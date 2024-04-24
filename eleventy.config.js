@@ -88,7 +88,7 @@ module.exports = (eleventyConfig) => {
       'node_modules/lit-html': 'vendor/lit-html',
       'node_modules/vellum-monster': 'vendor/vellum-monster',
       'node_modules/@daviddarnes/share-button': 'vendor/@daviddarnes/share-button',
-      'node_modules/@justinribeiro/share-to-mastodon': 'vendor/@justinribeiro/share-to-mastodon'
+      'node_modules/@micahilbery/share-on-mastodon': 'vendor/@micahilbery/share-on-mastodon'
     }
   );
 
