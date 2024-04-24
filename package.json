@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.13.7",
+  "version": "3.14.0",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "clean": "rimraf _site",
@@ -34,6 +34,7 @@
     "@11ty/eleventy-img": "^4.0.2",
     "@11ty/eleventy-plugin-bundle": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@justinribeiro/share-to-mastodon": "^2.0.2",
     "@lit-labs/eleventy-plugin-lit": "^1.0.3",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "@webcomponents/template-shadowroot": "^0.2.1",

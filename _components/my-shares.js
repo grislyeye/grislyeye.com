@@ -37,6 +37,10 @@ class MyShares extends LitElement {
       height: 0.8rem;
       filter: brightness(0) invert(1);
     }
+
+    share-to-mastodon {
+      --wc-stm-font-family: var(--font-family)  ;
+    }
   `;
 
   static properties = {
@@ -46,6 +50,7 @@ class MyShares extends LitElement {
 
   render() {
     return html`
+      <script type="module" src="/vendor/@justinribeiro/share-to-mastodon/share-to-mastodon.js"></script>
       <div class="shares">
         <a
           class="share"
@@ -81,6 +86,10 @@ class MyShares extends LitElement {
         >
           <img src="/images/tumblr.svg" class="icon" alt="Tumblr icon">
         </a>
+
+        <share-to-mastodon message="${ this.title }" url="${ this.href }">
+          <img src="/images/mastodon.svg" class="icon" alt="Mastodon icon">
+        </share-to-mastodon>
       </div>
     `;
   }
