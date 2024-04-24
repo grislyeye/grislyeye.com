@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.14.0",
+  "version": "3.14.1",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "clean": "rimraf _site",
@@ -10,7 +10,7 @@
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "test": "npm run test:lint && npm run test:links",
     "test:lint": "eslint --ext .js . && stylelint public/css/*.css",
-    "test:links": "npx linkinator ./_site --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)|(imgur\\.com)|(.*\\.imgur\\.com)|(thealexandrian\\.net)|(.*\\.thealexandrian\\.net)' --verbosity error",
+    "test:links": "npx linkinator ./_site --concurrency 1 --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(twitter\\.com)|(grislyeye\\.com)|(.*\\.dmsguild\\.com)|(.*\\.drivethrurpg\\.com)|(drivethrurpg\\.com)|(apple\\.com)|(.*\\.apple\\.com)|(imgur\\.com)|(.*\\.imgur\\.com)|(thealexandrian\\.net)|(.*\\.thealexandrian\\.net)' --verbosity error",
     "post:new": "hygen post new"
   },
   "author": {
