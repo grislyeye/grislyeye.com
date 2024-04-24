@@ -37,6 +37,11 @@ class MyShares extends LitElement {
       height: 0.8rem;
       filter: brightness(0) invert(1);
     }
+
+    share-on-mastodon {
+      text-align: left;
+      text-transform: none;
+    }
   `;
 
   static properties = {
@@ -46,6 +51,7 @@ class MyShares extends LitElement {
 
   render() {
     return html`
+      <script type="module" src="/vendor/@micahilbery/share-on-mastodon/share-on-mastodon.js"></script>
       <div class="shares">
         <a
           class="share"
@@ -81,6 +87,13 @@ class MyShares extends LitElement {
         >
           <img src="/images/tumblr.svg" class="icon" alt="Tumblr icon">
         </a>
+
+        <share-on-mastodon
+          data-share-title="${ this.title }"
+          data-author="@grislyeye@indieweb.social"
+        >
+          <img slot="button" src="/images/mastodon.svg" class="icon" alt="Mastodon icon">
+        </share-on-mastodon>
       </div>
     `;
   }
