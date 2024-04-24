@@ -1,0 +1,25 @@
+{
+  "name": "@micahilbery/share-on-mastodon",
+  "version": "1.2.0",
+  "description": "A web component to add a customizeable \"Share on Mastodon\" button to your pages.",
+  "main": "share-on-mastodon.js",
+  "module": "share-on-mastodon.js",
+  "files": [
+    "share-on-mastodon.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micahilbery/share-on-mastodon.git"
+  },
+  "keywords": [
+    "web component",
+    "mastodon",
+    "share"
+  ],
+  "author": "Micah Illbery <micah@ilbery.co> (https://micah.ilbery.co/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/micahilbery/share-on-mastodon/issues"
+  },
+  "homepage": "https://github.com/micahilbery/share-on-mastodon#readme"
+}

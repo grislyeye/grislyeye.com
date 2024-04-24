@@ -1,4 +1,8 @@
 (() => {
+  var __freeze = Object.freeze;
+  var __defProp = Object.defineProperty;
+  var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(raw || cooked.slice()) }));
+
   // node_modules/@lit/reactive-element/css-tag.js
   var t = globalThis;
   var e = t.ShadowRoot && (void 0 === t.ShadyCSS || t.ShadyCSS.nativeShadow) && "adoptedStyleSheets" in Document.prototype && "replace" in CSSStyleSheet.prototype;
@@ -1462,6 +1466,7 @@
   customElements.define("my-mention", MyMention);
 
   // _components/my-shares.js
+  var _a;
   var MyShares = class extends s3 {
     static styles = i`
     :host {
@@ -1499,50 +1504,18 @@
       height: 0.8rem;
       filter: brightness(0) invert(1);
     }
+
+    share-on-mastodon {
+      text-align: left;
+      text-transform: none;
+    }
   `;
     static properties = {
       title: { attribute: "title" },
       href: { attribute: "href" }
     };
     render() {
-      return x`
-      <div class="shares">
-        <a
-          class="share"
-          title="Share via Email"
-          href="mailto:?subject=${this.title}&amp;body=${this.href}"
-        >
-          <img src="/images/email.svg" class="icon" alt="Email icon">
-        </a>
-
-        <a
-          class="share"
-          title="Share on Twitter"
-          href="https://twitter.com/intent/tweet/?url=${this.href}&text=${this.title}&via=grislyeye"
-          target="_blank"
-        >
-          <img src="/images/twitter.svg" class="icon" alt="Twitter icon">
-        </a>
-
-        <a
-          class="share"
-          title="Share on Facebook"
-          href="https://facebook.com/sharer/sharer.php?u=${this.href}"
-          target="_blank"
-        >
-          <img src="/images/facebook.svg" class="icon" alt="Facebook icon">
-        </a>
-
-        <a
-          class="share"
-          title="Share on Tumblr"
-          href="https://tumblr.com/widgets/share/tool?canonicalUrl=${this.href}&amp;tags=&amp;caption=${this.title}"
-          target="_blank"
-        >
-          <img src="/images/tumblr.svg" class="icon" alt="Tumblr icon">
-        </a>
-      </div>
-    `;
+      return x(_a || (_a = __template(['\n      <script type="module" src="/vendor/@micahilbery/share-on-mastodon/share-on-mastodon.js"><\/script>\n      <div class="shares">\n        <a\n          class="share"\n          title="Share via Email"\n          href="mailto:?subject=', "&amp;body=", '"\n        >\n          <img src="/images/email.svg" class="icon" alt="Email icon">\n        </a>\n\n        <a\n          class="share"\n          title="Share on Twitter"\n          href="https://twitter.com/intent/tweet/?url=', "&text=", '&via=grislyeye"\n          target="_blank"\n        >\n          <img src="/images/twitter.svg" class="icon" alt="Twitter icon">\n        </a>\n\n        <a\n          class="share"\n          title="Share on Facebook"\n          href="https://facebook.com/sharer/sharer.php?u=', '"\n          target="_blank"\n        >\n          <img src="/images/facebook.svg" class="icon" alt="Facebook icon">\n        </a>\n\n        <a\n          class="share"\n          title="Share on Tumblr"\n          href="https://tumblr.com/widgets/share/tool?canonicalUrl=', "&amp;tags=&amp;caption=", '"\n          target="_blank"\n        >\n          <img src="/images/tumblr.svg" class="icon" alt="Tumblr icon">\n        </a>\n\n        <share-on-mastodon\n          data-share-title="', '"\n          data-author="@grislyeye@indieweb.social"\n        >\n          <img slot="button" src="/images/mastodon.svg" class="icon" alt="Mastodon icon">\n        </share-on-mastodon>\n      </div>\n    '])), this.title, this.href, this.href, this.title, this.href, this.href, this.title, this.title);
     }
   };
   customElements.define("my-shares", MyShares);
