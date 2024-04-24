@@ -24,13 +24,13 @@
   text-indent: 2em;
 }
 
-#post blockquote + ul li:before {
+#post blockquote + ul li::before {
   content: '- ';
 }
 
+#post blockquote + ul,
 #post blockquote ol:last-child,
-#post blockquote ul:last-child,
-#post blockquote + ul {
+#post blockquote ul:last-child {
   list-style: none;
 	padding: 0;
 }
