@@ -1,5 +1,5 @@
 ---
-title: CONT/EXT and the Britishness of Instituions
+title: CONT/EXT as British Institution
 tags:
   - posts
   - drafts
