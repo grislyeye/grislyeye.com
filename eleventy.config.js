@@ -60,7 +60,7 @@ module.exports = (eleventyConfig) => {
     url: metadata.url,
     author: metadata.author.name,
     twitter: 'grislyeye',
-    image: `${ metadata.url }/images/logo.svg`,
+    image: '/images/logo.svg',
     options: {
       imageWithBaseUrl: true
     }
