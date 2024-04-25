@@ -10,7 +10,7 @@
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "test": "npm run test:lint && npm run test:links",
     "test:lint": "eslint --ext .js . && stylelint public/css/*.css",
-    "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --verbosity error",
+    "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --verbosity error --skip '(.*\\.reddit\\.com)'",
     "post:new": "hygen post new"
   },
   "author": {
