@@ -11,16 +11,6 @@ class MyShares extends LitElement {
       display: none;
     }
 
-    .share-button {
-      display: none;
-      cursor: pointer;
-      text-decoration: underline;
-    }
-
-    :host([native]) .share-button {
-      display: inline;
-    }
-
     a {
       color: inherit;
       text-decoration: inherit;
