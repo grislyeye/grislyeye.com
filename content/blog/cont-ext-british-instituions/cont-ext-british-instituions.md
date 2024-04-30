@@ -1,5 +1,5 @@
 ---
-title: CONT/EXT as British Institution
+title: The Shiftless Horror of Mothership
 tags:
   - posts
   - drafts
@@ -8,7 +8,7 @@ layout: layouts/post.njk
 ---
 >The PCs have been recruited by a secretive organisation called Continued Existence (CONT/EXT for short). CONT/EXT’s mission is to ensure humanity can survive an Outside Context Event (OCE), such as a catastrophic solar event. Or, in this case, an encounter with a hostile alien threat.
 
-- Ric Wood, [CONT/EXT](https://grislyeye.com/products/context/).
+- Me, [CONT/EXT](https://grislyeye.com/products/context/).
 
 <aside>
 
@@ -32,7 +32,7 @@ Examples of notable, fictional institutions from British science fiction that co
 
 <aside>
 
-You might note that _Tinker Tailer Soldier Spy_ and _James Bond_ aren't strictly science fiction. I won't do a deep dive into what is and isn't science fiction, except to note that there is some crossover with spy fiction and science fiction, especially when it comes to _James Bond_.
+You might note that _Tinker Tailor Soldier Spy_ and _James Bond_ aren't strictly science fiction. I won't do a deep dive into what is and isn't science fiction, except to note that there is some crossover with spy fiction and science fiction, especially when it comes to _James Bond_.
 
 </aside>
 
