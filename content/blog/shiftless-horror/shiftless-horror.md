@@ -81,7 +81,7 @@ And CONT/EXT is part of that horror: it's inhuman ruthlessness. The existential 
 
 <aside>
 
-You might note that _Tinker Tailor Soldier Spy_ and _James Bond_ aren't strictly science fiction. I won't do a deep dive into what is and isn't science fiction, except to note that there is some crossover with spy fiction and science fiction, especially when it comes to _James Bond_.
+You might note that _Tinker Tailor Soldier Spy_ and _James Bond_ aren't strictly sci-fi. I won't do a deep dive into what is and isn't science fiction, except to note that there is some crossover with spy fiction.
 
 </aside>
 
