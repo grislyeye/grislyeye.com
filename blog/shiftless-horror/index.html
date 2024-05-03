@@ -1,0 +1,1272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Shiftless Horror of Mothership - The Grisly Eye</title>
+
+<meta name="description" content="Ric Wood is an indie game designer and forever DM.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Ric Wood">
+
+<link rel="canonical" href="https://grislyeye.com/blog/shiftless-horror/">
+
+<meta property="og:title" content="The Shiftless Horror of Mothership - The Grisly Eye">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://grislyeye.com/blog/shiftless-horror/">
+<meta property="og:description" content="Ric Wood is an indie game designer and forever DM.">
+<meta property="og:image" content="https://grislyeye.com/images/logo.svg">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@grislyeye">
+<meta name="twitter:url" content="https://grislyeye.com/blog/shiftless-horror/">
+<meta name="twitter:title" content="The Shiftless Horror of Mothership - The Grisly Eye">
+<meta name="twitter:description" content="Ric Wood is an indie game designer and forever DM.">
+<meta name="twitter:image" content="https://grislyeye.com/images/logo.svg">
+
+
+
+    <meta name="description" content="Ric Wood is an indie game designer and forever DM.">
+
+    <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="The Grisly Eye">
+
+    <style>:root {
+  --font-family: 'Alegreya', serif;
+  --title-font-family: 'Andada Pro', serif;
+  --subtitle-font-family: 'Alegreya Sans', sans;
+
+  --background-color: black;
+
+  --text-color: white;
+  --text-color-link: rgb(255, 82, 119);
+  --text-color-link-active: rgb(255, 41, 87);
+  --text-color-link-visited: rgb(255, 41, 87);
+
+  --content-max-width: 740px;
+  --content-subtitle-max-width: 200px;
+
+  --fluid-gap: clamp(0.75rem, 3vw, 1.5rem)
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  margin: 0;
+  background-image: url("/images/background.webp");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: var(--background-color);
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  font-size: 13pt;
+  color: var(--text-color);
+  line-height: 1;
+}
+
+body {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+main {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin: 0 auto 7rem;
+}
+
+main > :first-child {
+  margin-top: 0;
+}
+
+nav,
+footer {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+main > header {
+  margin-bottom: 7rem;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 5rem;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  color: gray;
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+
+h1 {
+  font-family: var(--title-font-family);
+  line-height: 1;
+}
+
+h2,
+h3,
+h4 {
+  font-family: var(--title-font-family);
+}
+
+p {
+  line-height: 1;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a[href] {
+  color: var(--text-color-link);
+}
+
+a[href]:visited {
+  color: var(--text-color-link-visited);
+}
+
+a[href]:hover,
+a[href]:active {
+  color: var(--text-color-link-active);
+}
+
+main > my-hero,
+main > my-section {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+}
+
+.previews {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-auto-rows: minmax(160px, 1fr);
+  gap: var(--fluid-gap);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 7rem;
+}
+
+ul.previews {
+  list-style: none;
+}
+
+.previews a,
+.previews li {
+  margin: 0;
+  padding: 0;
+}
+
+my-preview {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
+}
+
+section.small.page {
+  font-size: 1.5rem;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+input {
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+
+.content input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+#flawed-potion-illustration.illustration {
+  max-width: 150px;
+}
+
+#magi-illustration.illustration {
+  max-width: 200px;
+}
+
+#bailiff-illustration.illustration {
+  max-width: 350px;
+}
+
+#fey-exile-illustration.illustration,
+#grim-folk-illustration.illustration,
+#fey-illustration.illustration,
+#nights-watchmen-illustration.illustration,
+#example-npc-block.illustration,
+#inspiration-illustration.illustration {
+  max-width: 300px;
+}
+
+.content #city-illustration.illustration {
+  max-width: 300px;
+}
+
+img[src*="infantry.png"].background,
+img[src*="grim-folk.jpg"].background {
+  height: 640px;
+  width: auto;
+}
+
+img[src*="npc-block-v4.png"] {
+  max-width: 300px;
+}
+
+img[src*="npc-block-v4-header.png"],
+img[src*="npc-block-v4-description.png"],
+img[src*="npc-block-v4-characteristics.png"],
+img[src*="npc-block-v4-secrets.png"],
+img[src*="npc-block-v4-activities.png"],
+img.medium {
+  max-width: 400px;
+}
+
+#mailing-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+span.product {
+  font-style: italic;
+  color: red;
+}
+
+span.title {
+  color: red;
+  font-variant: small-caps;
+}
+
+.page-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+@media(width < 970px) {
+  .page-subtitle {
+    flex-direction: row;
+    padding-bottom: 0.3em;
+  }
+
+  .page-subtitle > * + * {
+    border-left: 1px solid;
+    padding-left: 0.5em;
+  }
+}</style>
+
+    <link rel="stylesheet" href="/bundle/R4unXLJ5Um.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+    
+
+    
+
+    
+      <style>
+        share-button:not(:defined) button,
+        share-button:defined a {
+          display: none;
+        }
+
+        share-button:not(:defined) a + a {
+          margin-inline-start: 1ch;
+        }
+
+        share-button:defined my-shares {
+          display: none;
+        }
+
+        #post share-button button {
+          background: none!important;
+          border: none;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+
+        #post share-button img.icon {
+          width: 1rem;
+          height: 1rem;
+          border: none;
+          margin: 0;
+          padding: 0;
+          padding-top: 0.2em;
+          filter: brightness(0) invert(1);
+        }
+      </style>
+      <script type="module" src="/vendor/@daviddarnes/share-button/share-button.js"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"><link data-href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap" rel="stylesheet"><style data-href='https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap'>/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v35/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VdtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7V5tvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VZtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VltvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VVtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VRtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v24/5aUz9_-1phKLFgshYDvh6Vwt7VptvWdUhm8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v20/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+    <link href="mailto:ric@grislyeye.com" rel="me">
+  </head>
+
+  <body dsd-pending>
+
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
+
+    <nav>
+      <my-nav
+        
+        
+        
+        
+        
+       twitter="https://twitter.com/grislyeye" email="/mailing-list/" mastodon="https://indieweb.social/@grislyeye" rss="/rss.xml" location="London"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--subtitle-font-family);
+      font-size: 12pt;
+    }
+
+    @media (width < 650px) {
+      :host {
+        align-items: flex-start;
+      }
+    }
+
+    a {
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+      gap: 0.5em;
+    }
+
+    .main img.logo {
+      height: 30px;
+    }
+
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      text-transform: lowercase;
+      gap: 0.5em 1.5em;
+    }
+
+    .social a {
+      display: flex;
+      align-items: center;
+      gap: 0.2em;
+    }
+
+    .social img.icon {
+      height: 1em;
+    }
+  </style><!--lit-part VCJCij29hm4=-->
+      <div class="main">
+        <a href="/"><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"></a>
+        <span>
+          <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+        </span>
+      </div>
+
+      <div class="socials">
+        <div class="social">
+            <img src="/images/location.svg" class="icon" alt="Location icon"> <span id="location"><!--lit-part-->London<!--/lit-part--></span>
+        </div>
+
+        <div class="social">
+          <!--lit-node 14--><a href="/mailing-list/" title="Mailing List">
+            <img src="/images/email.svg" class="icon" alt="Email icon">
+            Mailing List
+          </a>
+        </div>
+
+        <div class="social">
+          <!--lit-node 17--><a rel="me" href="https://twitter.com/grislyeye" title="Twitter">
+            <img src="/images/twitter.svg" class="icon" alt="Twitter icon">
+            Twitter
+          </a>
+        </div>
+
+        <div class="social">
+          <!--lit-node 20--><a rel="me" href="https://indieweb.social/@grislyeye" title="Mastodon">
+            <img src="/images/mastodon.svg" class="icon" alt="Mastodon icon">
+            Mastodon
+          </a>
+        </div>
+
+        <div class="social">
+          <!--lit-node 23--><a href="/rss.xml" title="RSS">
+            <img src="/images/rss.svg" class="icon" alt="RSS icon">
+            RSS
+          </a>
+        </div>
+      </div>
+    <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
+
+    <main>
+      <article class="post content">
+  <my-page   id="post" title="The Shiftless Horror of Mothership"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
+
+    h1.title {
+      font-size: 5rem;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-bottom: 10px;
+      margin: 0;
+      word-wrap:break-word;
+    }
+
+    @media(max-width: 500px) {
+      h1.title {
+        font-size: 4rem;
+      }
+    }
+
+    @media(max-width: 400px) {
+      h1.title {
+        font-size: 3rem;
+      }
+    }
+  </style><!--lit-part coWevo0zuOw=-->
+      <h1 class="title">
+        <!--lit-part GS+GCwuChgs=--><!--lit-part-->The<!--/lit-part--> <br> <!--lit-part-->Shiftless Horror of Mothership<!--/lit-part--><?><!--/lit-part-->
+      </h1>
+      <!--lit-node 2--><my-section defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: lowercase;
+    }
+
+    @media(width < 970px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+      }
+    }
+
+    ::slotted(*) {
+      margin-top: 0;
+    }
+  </style><!--lit-part cfdBU0cIpvY=-->
+      <section>
+        <div class="subtitle">
+          <slot name="subtitle"></slot>
+        </div>
+        <div class="content">
+          <slot></slot>
+        </div>
+      </section>
+    <!--/lit-part--></template>
+        <div slot="subtitle"><slot name="subtitle"></slot></div>
+        <slot></slot>
+      </my-section>
+    <!--/lit-part--></template>
+    <div class="page-subtitle" slot="subtitle">
+      <span>07 May 2024</span>
+      <share-button>
+        <button>
+          <img src="/images/share.svg" class="icon" alt="Share">
+        </button>
+        <my-shares   href="https://grislyeye.com/blog/shiftless-horror/" title="The Shiftless Horror of Mothership"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline;
+      cursor: pointer;
+    }
+
+    :host([native]) .shares {
+      display: none;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+      cursor: inherit;
+    }
+
+    .share {
+      padding-left: 0.1em;
+      padding-right: 0.1em;
+    }
+
+    img.icon {
+      padding-top: 0.2em;
+      height: 0.8rem;
+      filter: brightness(0) invert(1);
+    }
+
+    share-on-mastodon {
+      text-align: left;
+      text-transform: none;
+    }
+  </style><!--lit-part dA8JDOHN/70=-->
+      <script type="module" src="/vendor/@micahilbery/share-on-mastodon/share-on-mastodon.js"></script>
+      <div class="shares">
+        <!--lit-node 2--><a
+          class="share"
+          title="Share via Email"
+          href="mailto:?subject=The Shiftless Horror of Mothership&amp;body=https://grislyeye.com/blog/shiftless-horror/"
+        >
+          <img src="/images/email.svg" class="icon" alt="Email icon">
+        </a>
+
+        <!--lit-node 4--><a
+          class="share"
+          title="Share on Twitter"
+          href="https://twitter.com/intent/tweet/?url=https://grislyeye.com/blog/shiftless-horror/&amp;text=The Shiftless Horror of Mothership&amp;via=grislyeye"
+          target="_blank"
+        >
+          <img src="/images/twitter.svg" class="icon" alt="Twitter icon">
+        </a>
+
+        <!--lit-node 6--><a
+          class="share"
+          title="Share on Facebook"
+          href="https://facebook.com/sharer/sharer.php?u=https://grislyeye.com/blog/shiftless-horror/"
+          target="_blank"
+        >
+          <img src="/images/facebook.svg" class="icon" alt="Facebook icon">
+        </a>
+
+        <!--lit-node 8--><a
+          class="share"
+          title="Share on Tumblr"
+          href="https://tumblr.com/widgets/share/tool?canonicalUrl=https://grislyeye.com/blog/shiftless-horror/&amp;tags=&amp;caption=The Shiftless Horror of Mothership"
+          target="_blank"
+        >
+          <img src="/images/tumblr.svg" class="icon" alt="Tumblr icon">
+        </a>
+
+        <!--lit-node 10--><share-on-mastodon
+          data-share-title="The Shiftless Horror of Mothership"
+          data-author="@grislyeye@indieweb.social"
+        >
+          <img slot="button" src="/images/mastodon.svg" class="icon" alt="Mastodon icon">
+        </share-on-mastodon>
+      </div>
+    <!--/lit-part--></template></my-shares>
+      </share-button>
+    </div>
+
+    <blockquote>
+<p>The PCs have been recruited by a secretive organisation called Continued Existence (CONT/EXT for short). CONT/EXT’s mission is to ensure humanity can survive an Outside Context Event (OCE), such as a catastrophic solar event. Or, in this case, an encounter with a hostile alien threat.</p>
+</blockquote>
+<ul>
+<li><em>CONT/EXT</em>, by me.</li>
+</ul>
+<aside>
+<p>This post evolved out of a <a href="https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/">self-essay</a> I wrote while developing <a href="https://grislyeye.com/products/context/">CONT/EXT</a>. It turned up some interesting ideas on world design, so I present my (incomplete) thoughts here.</p>
+</aside>
+<p>At the edges of <em>CONT/EXT</em> is the institution after which the module is named. What kind of organisation is CONT/EXT? And what is its place in a game like <em>Mothership</em>?</p>
+<p>So began a personal interrogation on the nature of intelligence agencies, conspiracy theories and British institutionalisation. British, because I'm writing <em>CONT/EXT</em> from a British perspective. For that reason, I feel it's necessary to interrogate my unconscious American assumptions. CONT/EXT is a secret society in the tradition of American paranoid politics, but are conspiracy theories uniquely American? And what are the differences between American and British institutions?</p>
+<p><picture><source type="image/avif" srcset="/img/mMb1bqrPwR-720.avif 720w"><img alt="Still for title screen of Alien (1979)" title="Commercial towing vehicle 'The Nostromo'" src="/img/mMb1bqrPwR-720.webp" width="720" height="245"></picture></p>
+<h2>Shiftless</h2>
+<p>In <em>Alien</em> (1979) the protagonists are not scientists or explorers, they are workers on what is, effectively, a giant piece of industrial machinery, employed as precarious contractors, apathetic to the wonders of space, resentful and perhaps a little bit bored, and who only reluctantly respond to that fateful distress signal.</p>
+<aside>
+<p><picture><source type="image/avif" srcset="/img/YpRRAZ1Fp3-720.avif 720w"><img alt="Cast picture from Alien (1979)" title="Cast of Alien (1979)" src="/img/YpRRAZ1Fp3-720.webp" width="720" height="405"></picture></p>
+<p>In my mind the characters from <em>Alien</em> seemed working class but, looking through the cast list, actually a lot of them are officers, of one form or another. Distinctly middle-class occupations.</p>
+</aside>
+<p><em>Alien</em> is, of course, the foundational work of <em>Mothership</em>, but it is also a uniquely British vision. Produce by Twentieth Century-Fox’s British production subsidiary, filmed in England and the directorial product of Tyneside son, Ridley Scott. Clearly inspired by Scott's early life growing up in the industrial North.</p>
+<p>We see the beginning of a distinctly British strain of &quot;shiftless&quot; or &quot;grubby&quot; science fiction I've <a href="/blog/on-remembrance-of-the-daleks/">discussed before</a>, that focuses on the less aspirational elements of the genre. Space is not a vista for exploration, it's a job, and a dangerous, boring one at that. Research, exploration: these are luxuries of the upper classes. In <em>Mothership</em> we have teamsters and marines, not Jedi knights or astronauts. Our crews begin in debt and primarily motivated by the need to pay off these dues.</p>
+<p>By playing off the elements of high-concept science fiction against the grubby lives of its protagonists, shiftless sci-fi lends an air of social realism and grittiness more suitable to the gloomy outlook of rainy islands sitting at the edge of the grey waters of the Atlantic.</p>
+<p>Elements of this &quot;shiftless&quot; or &quot;grubby&quot; science fiction include:</p>
+<ul>
+<li><strong>Oppressive.</strong> A shiftless universe is full of alien agendas, inhuman forces and the uncaring physical, laws of the universe. Characters are generally victims or proxies of these elements.</li>
+<li><strong>Working class.</strong> Protagonists tend to be workers, or struggling middle-class at best.</li>
+<li><strong>Exploitation.</strong> Billionaires dream of reaching space: a limitless void free from physical restrictions and the social forces that bind the rich and protect the vulnerable. The shiftless always keep a cynical eye on such endeavours.</li>
+<li><strong>Institutional.</strong> All of the above combine into shiftless science fictions most common motif: the oppressive institution.</li>
+</ul>
+<p><picture><source type="image/avif" srcset="/img/Ykqtya_g7J-720.avif 720w"><img alt="Still of Jessica Hyde from Utopia (2013)" title="Jessica Hyde" src="/img/Ykqtya_g7J-720.webp" width="720" height="300"></picture></p>
+<h2>The Inevitable Horror of British Institutions</h2>
+<blockquote>
+<p>You know the person who had the greatest positive impact on the environment of this planet? Genghis Khan, because he massacred 40 million people. There was no one to farm the land, forests grew back, carbon was dragged out of the atmosphere. And had this monster not existed, there'd be another billion of us today, jostling for space on this dying planet.</p>
+</blockquote>
+<ul>
+<li><em>Utopia</em>, 2013</li>
+</ul>
+<p>The inhumanity of institutions is a running theme in <em>Mothership</em>. In this case, the inhuman horror of the faceless corporation, which can be as terrifying as the hostile aliens themselves (<em>&quot;You don't see them fucking each other over for a goddamn percentage.&quot;</em>). They are terrible for their inevitable, implacable qualities. Weyland-Yutani exists because, well, <em>someone</em> has to monopolise space. Its immensity is too vast for one person to encompass, it can only be controlled by an entity that lives beyond any human span and that can bear the weight of that responsibility regardless of the costs.</p>
+<p>In other words, an institution.</p>
+<p>We can see hints of implied institutions in the mechanics of <em>Mothership</em>. The marine class implies an interstellar military force of some kind, and a military force of that size implies a larger institution whose interests need protecting by force.</p>
+<p>Similarly, the working-class teamster implies that our stratified social structure has migrated to space. If teamsters are organised into a profession, who is doing the organising? Who is writing those contracts? Who is holding those debts?</p>
+<p>In sci-fi horror, the threat of an institution is threefold:</p>
+<ul>
+<li><strong>Inevitable.</strong> The true power of institutions is that something like it <em>must</em> exist. It's function, whether mining spice or managing colonies, is too vital, too complicated or too long-term for any individual to perform, and so there stands the institution, bearing that load.</li>
+<li><strong>Implacable.</strong> Stemming from its inevitability is its implacability: it cannot be denied. Its needs and wants eclipse any individual, and all must yield.</li>
+<li><strong>Utilitarian.</strong> It is inhuman. As alien as any parasitic bioweapon. As unfathomable as the vastness of space.</li>
+</ul>
+<p>In many ways, these institutions mirror the forces of the universe itself. Their structures map onto the vast distances between worlds. Its constraints are the speed of light, the Newtonian limits of mass and acceleration, and the distribution of elements and molecules in the universe, as determined by the physics of star formation. These &quot;cold equations&quot; are a running theme in British sci-fi horror, from the ecofascism of <em>Utopia</em> (2013) to the cosmic threat of nuclear annihilation that hangs over Cold War techno-thrillers.</p>
+<p>Because the real horror of the institution is not what it will do to us, the horror is what will it make us do.</p>
+<p>And CONT/EXT is part of that horror: it's inhuman ruthlessness. The existential threats to humanity are terrifying, but so are the strategies for survival. Agents of CONT/EXT expose themselves to bizarre alien infections, sacrifice their lives, just to learn something, anything that might give humanity a slim chance to survive impending annihilation. For what? So they might be the last to die? So that their loved ones might have a chance aboard whatever fateful lifeboat CONT/EXT might scramble together?</p>
+<p><picture><source type="image/avif" srcset="/img/Oxd1u4wFVy-720.avif 720w"><img alt="Still of George Smiley and Control from Tinker Tailor Soldier Spy (2011)" title="George Smiley and Control" src="/img/Oxd1u4wFVy-720.webp" width="720" height="405"></picture></p>
+<h3>A survey of fictional British institutions</h3>
+<aside>
+<p>You might note that <em>Tinker Tailor Soldier Spy</em> and <em>James Bond</em> aren't strictly science fiction. I won't do a deep dive into what is and isn't science fiction, except to note that there is some crossover with spy fiction and science fiction, especially when it comes to <em>James Bond</em>.</p>
+</aside>
+<p>Examples of notable, fictional institutions from British science fiction that come to mind include:</p>
+<ul>
+<li>The Village from <em>The Prisoner</em>.</li>
+<li>The Circus (MI6) from <em>Tinker Tailor Soldier Spy</em>.</li>
+<li>UNIT from <em>Doctor Who</em>.</li>
+<li>The British Experimental Rocket Group from Quatermass.</li>
+<li>MI6 from <em>James Bond</em>.</li>
+<li>Special Circumstances from the <em>Culture</em> Novels.</li>
+</ul>
+<p>We can see they share the following elements:</p>
+<ul>
+<li><strong>Eccentricity.</strong> A notable tolerance of peculiarity.</li>
+<li><strong>Unorthodox.</strong> They reward unconventional thinking.</li>
+<li><strong>Privileged.</strong> In the public school, classically educated sense (evidenced by the ubiquity of characters speaking in cut-glass, English accents).</li>
+<li><strong>Exclusive.</strong> Secret organisations are selective by their nature but, of course, British organisations are selective on class.</li>
+<li><strong>Secretive.</strong> As opposed to secret (more on this below).</li>
+<li><strong>Post-War.</strong> WW2 seemed to have been an incubator for intelligence organisations and new sciences, and many of the above organisations are all products of war.</li>
+</ul>
+<p>Then, there are these qualities, which are common but not ubiquitous.</p>
+<ul>
+<li><strong>Military.</strong></li>
+<li><strong>Ex-Colonial.</strong> Military personnel tend to be remnants of demobbed colonial postings.</li>
+<li><strong>Science-led.</strong> The institutions tend to post scientists in prominent roles.</li>
+<li><strong>Comfortable.</strong> Of course, anything related to the British upper-class prioritises comfort, whether that is tea ladies or the luxurious, wood-panelled interiors of gentlemen's clubs.</li>
+<li><strong>Parsimonious.</strong> Conversely, British institutions often run under tight budgets, especially in the post-war period.</li>
+<li><strong>State-sponsored.</strong> From chartered companies like the East India Company to British Petroleum, private institutions are often proxies for state interests.</li>
+</ul>
+<h3>Colonialism</h3>
+<p>Of course, British sci-fi and <em>Mothership</em> horror is threaded with colonialism. Look no further than the Weyland-Yutani Corporation, or &quot;The Company&quot; as it's called in <em>Alien</em> (1979). Its ubiquity and orientalism is reminiscent of chartered companies from the &quot;Age of Exploration,&quot; such as the East Indian Company. It seems unchallenged in space, a monolith that is at once government <em>and</em> business endeavour, just like the company states that ravaged &quot;the colonies&quot;.</p>
+<h3>Secretive</h3>
+<p>British institutions seem to be secretive rather than actually secret (in the conspiracy sense). Their presence is felt, but they abhor scrutiny. This oppressive quality of presence felt but unobserved or untouched - inaccessible to those without privilege - is what characterises them.</p>
+<p>It's very different from a secret society, which abhors observation altogether. A secretive British institution doesn't need to be secret itself. Its privileged position isolates it from the disadvantages exposed secret organisations might face.</p>
+<p>Perhaps this explains the preponderance of secret societies across the Atlantic: discovery would make them vulnerable to the will of USA democratic checks and balances, so better to remain unseen. No privilege to protect them there, so the thinking goes.</p>
+<h2>Learnings</h2>
+<aside>
+<p><a href="https://grislyeye.com/products/context"><picture><source type="image/avif" srcset="/img/8TMa3O6kyQ-630.avif 630w"><img alt="Cover image from CONT/EXT" title="CONT/EXT" src="/img/8TMa3O6kyQ-630.webp" width="630" height="500"></picture></a></p>
+<p>This article was research for <a href="https://grislyeye.com/products/context">CONT/EXT</a>, my upcoming britpunk one-shot for Mothership. Please follow or <a href="/mailing-list/">subscribe</a> for updates.</p>
+</aside>
+<p>What have we learned and what can we apply to <em>CONT/EXT</em> and, more broadly, to a more British interpretation of <em>Mothership</em>?</p>
+<p>Some thoughts:</p>
+<ul>
+<li><strong>Secretive.</strong> CONT/EXT is a conspiracy, but why would it need to operate in secrecy? Total secrecy implies a lot about the setting: primarily that publicity could hamper its operations, which in turn implies that there are public institutions that could do something to stop it. But why would there be? Perhaps CONT/EXT is better as a more oppressive organisation that works in public, perhaps a proxy to state control.</li>
+<li><strong>Shiftless.</strong> The adventure is set on The Lachesis, a deep space research station studying an alien superstructure, but, as we discussed above, scientific research is a bit too aspirational for our tone. I might consider changing the setting to something more workmanlike, perhaps an installation extracting material from the superstructure.</li>
+<li><strong>Post-Crisis.</strong> If many British organisations are products of the war, perhaps CONT/EXT is a product of some prior catastrophe? It would make sense. Our establishments are reactionary, and might only collaborate in the aftermath of some near brush with extinction.</li>
+<li><strong>Parsimonious.</strong> <em>CONT/EXT</em> already has a cheap and cheerful flavour, with its 80s blue and orange colour palette and lo-fi tech. Working for humanity's survival, but on a tight budget. It's already on-theme.</li>
+<li><strong>Eccentricity</strong> is a key part of British fiction, but we need to treat it carefully here in case it undercuts the horror.</li>
+</ul>
+<p>I've got some thinking to do and some edits to make.</p>
+
+
+  </my-page>
+</article>
+
+    </main>
+
+    <footer>
+      <p class="legal">
+        Website version 3.15.4 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik.
+      </p>
+    </footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/bundle/my-components.js');
+      })();
+    </script>
+
+    <!-- Current page: /blog/shiftless-horror/ -->
+  </body>
+</html>

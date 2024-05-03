@@ -8,15 +8,27 @@
 #post blockquote p {
   margin: 0;
   margin-bottom: 0.5em;
-  line-height: 1;
+  line-height: 1.5;
 }
 
-.content blockquote cite {
+.content blockquote cite,
+#post blockquote + ul {
   display: block;
   font-style: normal;
   text-indent: 1em;
 }
 
+#post blockquote + ul {
+  margin-top: -1.4em;
+  border-left: 1px solid white;
+  text-indent: 2em;
+}
+
+#post blockquote + ul li::before {
+  content: '- ';
+}
+
+#post blockquote + ul,
 #post blockquote ol:last-child,
 #post blockquote ul:last-child {
   list-style: none;
