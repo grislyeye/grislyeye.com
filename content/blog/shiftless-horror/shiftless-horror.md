@@ -77,13 +77,13 @@ And CONT/EXT is part of that horror: it's inhuman ruthlessness. The existential 
 
 ![Still of George Smiley and Control from Tinker Tailor Soldier Spy (2011)](./content/blog/shiftless-horror/tinker-tailor-soldier-spy.jpg "George Smiley and Control")
 
+### A survey of fictional British institutions
+
 <aside>
 
 You might note that _Tinker Tailor Soldier Spy_ and _James Bond_ aren't strictly science fiction. I won't do a deep dive into what is and isn't science fiction, except to note that there is some crossover with spy fiction and science fiction, especially when it comes to _James Bond_.
 
 </aside>
-
-### A survey of fictional British institutions
 
 Examples of notable, fictional institutions from British science fiction that come to mind include:
 
@@ -124,6 +124,8 @@ It's very different from a secret society, which abhors observation altogether. 
 
 Perhaps this explains the preponderance of secret societies across the Atlantic: discovery would make them vulnerable to the will of USA democratic checks and balances, so better to remain unseen. No privilege to protect them there, so the thinking goes.
 
+## Learnings
+
 <aside>
 
 [![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](https://grislyeye.com/products/context)
@@ -131,8 +133,6 @@ Perhaps this explains the preponderance of secret societies across the Atlantic:
 This article was research for [CONT/EXT](https://grislyeye.com/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 
 </aside>
-
-## Learnings
 
 What have we learned and what can we apply to _CONT/EXT_ and, more broadly, to a more British interpretation of _Mothership_?
 
