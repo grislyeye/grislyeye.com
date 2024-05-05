@@ -1,5 +1,5 @@
 .content blockquote {
-  margin-left: 0;
+  margin: 0;
   padding-left: 1em;
   border-left: 1px solid white;
   font-style: italic;
@@ -8,7 +8,6 @@
 #post blockquote p {
   margin: 0;
   margin-bottom: 0.5em;
-  line-height: 1.5;
 }
 
 .content blockquote cite,
@@ -20,6 +19,7 @@
 
 #post blockquote + ul {
   margin-top: -1.4em;
+  padding-top: 0.3em;
   border-left: 1px solid white;
   text-indent: 2em;
 }
@@ -28,11 +28,15 @@
   content: '- ';
 }
 
+#post blockquote + ul li em {
+  color: red;
+}
+
 #post blockquote + ul,
 #post blockquote ol:last-child,
 #post blockquote ul:last-child {
+  padding-left: 0;
   list-style: none;
-	padding: 0;
 }
 
 #post blockquote ol:last-child li,
