@@ -45,14 +45,6 @@ class MyShares extends LitElement {
       <div class="shares">
         <a
           class="share"
-          title="Share via Email"
-          href="mailto:?subject=${ this.title }&amp;body=${ this.href }"
-        >
-          <img src="/images/email.svg" class="icon" alt="Email icon">
-        </a>
-
-        <a
-          class="share"
           title="Share on Twitter"
           href="https://twitter.com/intent/tweet/?url=${ this.href }&text=${ this.title }&via=grislyeye"
           target="_blank"
