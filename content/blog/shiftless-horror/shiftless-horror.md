@@ -8,7 +8,7 @@ image: /blog/shiftless-horror/alien-cast.jpg
 ---
 <aside>
 
-This post evolved out of a [self-essay](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote while developing [CONT/EXT](https://grislyeye.com/products/context/). It turned up some interesting ideas on world design, horror, institutions and British sci-fi, so I present my (incomplete) thoughts here._
+This post evolved out of a [self-essay](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote while developing [CONT/EXT](https://grislyeye.com/products/context/). It turned up some interesting ideas on world design, horror, institutions and British sci-fi, so I present my (incomplete) thoughts here.
 
 </aside>
 
