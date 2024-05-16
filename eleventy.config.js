@@ -38,6 +38,15 @@ module.exports = (eleventyConfig) => {
       '_components/my-shares.js'
     ]
   });
+
+  eleventyConfig.on('afterBuild', () => {
+    return esbuild.build({
+      entryPoints: ['node_modules/@lit-labs/ssr-client/lit-element-hydrate-support.js'],
+      bundle: true,
+      outfile: '_site/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+    });
+  });
+
   eleventyConfig.on('afterBuild', () => {
     return esbuild.build({
       entryPoints: ['_components/my-components.js'],
@@ -45,6 +54,7 @@ module.exports = (eleventyConfig) => {
       outfile: '_site/bundle/my-components.js'
     });
   });
+
   eleventyConfig.addWatchTarget('_components/**/*.js');
 
   eleventyConfig.addPlugin(pluginSitemap, {
@@ -81,7 +91,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy(
     {
       'node_modules/@webcomponents/template-shadowroot': 'vendor/@webcomponents/template-shadowroot',
-      'node_modules/@lit-labs/ssr-client': 'vendor/@lit-labs/ssr-client',
       'node_modules/lit': 'vendor/lit',
       'node_modules/@lit': 'vendor/@lit',
       'node_modules/lit-element': 'vendor/lit-element',

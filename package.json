@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.16.1",
+  "version": "3.16.2",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "clean": "rimraf _site",
@@ -40,8 +40,8 @@
     "@webcomponents/template-shadowroot": "^0.2.1",
     "eleventy-plugin-gen-favicons": "^1.1.2",
     "eleventy-plugin-seo": "^0.5.2",
+    "esbuild": "^0.21.3",
     "eslint": "^8.57.0",
-    "esbuild": "^0.21.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-lit": "^1.12.0",
     "eslint-plugin-wc": "^2.1.0",
