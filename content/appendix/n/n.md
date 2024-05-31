@@ -43,8 +43,9 @@ If you don't know, [slash pages](https://slashpages.net/) are common pages with 
   - _Changeling: The Dreaming_ (1995)
   - _City of Thieves_ (1983) by Ian Livingstone
   - *Dungeons & Dragons Basic Set* (1983) by Frank Mentzer
-  - _Planescape_ (1994) by David Cook
   - _Mage: The Ascension_ (1993) by Phil Brucato
+  - _Planescape_ (1994) by David Cook
+  - *Rifts* (1990) by Kevin Siembieda
   - _Vampire: The Masquerade_ (1991) by Mark Rein-Hagen
   - _Warhammer Fantasy Roleplay_ (1995)
   - _Werewolf: The Apocalypse_ (1992)
