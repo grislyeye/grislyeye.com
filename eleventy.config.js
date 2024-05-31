@@ -119,6 +119,8 @@ module.exports = (eleventyConfig) => {
     return path.dirname(page.filePathStem);
   });
 
+  eleventyConfig.addPassthroughCopy({ './robots.txt': './robots.txt' });
+
   return {
     templateFormats: [
       'md',
