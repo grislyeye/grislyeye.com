@@ -1,7 +1,7 @@
 .content code {
   white-space: normal;
-  background: black;
+  background: #313131;
   border: none;
   font-size: 10pt;
-  padding: 0;
+  padding: 4px;
 }
