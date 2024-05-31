@@ -7,7 +7,7 @@ date: 2024-05-30
 image: /appendix/n/appendix-n.png
 layout: layouts/post.njk
 ---
-This is my `/appendix/n` slash page which collect my influences and inspirations, or at least those that come to mind.
+This is my `/appendix/n` slash page which collects my influences and inspirations, or at least those that come to mind.
 
 If you don't know, [slash pages](https://slashpages.net/) are common pages with well-known urls, like `/now` or `/about`.  An `/appendix/n` slash page is for your own, personal [Appendix N](https://dungeonsdragons.fandom.com/wiki/Appendix_N).
 
