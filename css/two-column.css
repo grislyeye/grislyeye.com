@@ -11,3 +11,7 @@
 .content section.two-column section.small {
   break-inside: avoid-column;
 }
+
+#post section.two-column > *:first-child {
+  margin-top: 0;
+}

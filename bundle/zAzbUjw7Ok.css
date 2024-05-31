@@ -278,10 +278,10 @@ span.strike {
 
       .content code {
   white-space: normal;
-  background: black;
+  background: #313131;
   border: none;
   font-size: 10pt;
-  padding: 0;
+  padding: 4px;
 }
 
       .youtube.video.embed {
@@ -563,6 +563,10 @@ vellum-monster h2 {
 
 .content section.two-column section.small {
   break-inside: avoid-column;
+}
+
+#post section.two-column > *:first-child {
+  margin-top: 0;
 }
 
       .content dl dt {
