@@ -167,7 +167,11 @@ class MyPreview extends LitElement {
 
   renderBackgroundStyle() {
     if (this.preload) {
-      return `background-image: ${ this.backgroundImage }; background-color: ${ this.backgroundColour }; background-blend-mode: ${ this.backgroundBlendMode };`;
+      return `
+        background-image: ${ this.backgroundImage };
+        background-color: ${ this.backgroundColour };
+        background-blend-mode: ${ this.backgroundBlendMode };
+      `;
     }
     return '';
   }
