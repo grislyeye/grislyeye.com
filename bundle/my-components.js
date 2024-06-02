@@ -919,6 +919,7 @@
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -1053,7 +1054,11 @@
     }
     renderBackgroundStyle() {
       if (this.preload) {
-        return `background-image: ${this.backgroundImage}; background-color: ${this.backgroundColour}; background-blend-mode: ${this.backgroundBlendMode};`;
+        return `
+        background-image: ${this.backgroundImage};
+        background-color: ${this.backgroundColour};
+        background-blend-mode: ${this.backgroundBlendMode};
+      `;
       }
       return "";
     }

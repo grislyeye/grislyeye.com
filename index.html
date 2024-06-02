@@ -1065,7 +1065,7 @@ span.title {
         
         
 
-        <a href="https://grislyeye.itch.io/wargod" title="Buy Wargod!">
+        <a href="/appendix/n/" title="My Appendix N">
 
           
             
@@ -1078,7 +1078,7 @@ span.title {
               
             
             
-           class="products posts featured  bloody  featured" background="/img/-IurKA_xtZ-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
+           class="featured  bloody  featured" background="/img/3Lmvr_I8wP-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -1094,6 +1094,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -1160,7 +1161,128 @@ span.title {
       color: white;
     }
   </style><!--lit-part VocstF1JzSY=-->
-      <!--lit-node 0--><div class="container" style="background-image: url(&#39;/img/-IurKA_xtZ-300.webp&#39;); background-color: none; background-blend-mode: none;">
+      <!--lit-node 0--><div class="container" style="
+        background-image: url(&#39;/img/3Lmvr_I8wP-300.webp&#39;);
+        background-color: red;
+        background-blend-mode: darken;
+      ">
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part--><!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+            <span slot="title">My Appendix N</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        
+        
+
+        <a href="https://grislyeye.itch.io/wargod" title="Buy Wargod!">
+
+          
+            
+          
+
+          <my-preview
+            
+            
+              
+              
+            
+            
+           class="products posts featured  dark  featured" background="/img/-IurKA_xtZ-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstF1JzSY=-->
+      <!--lit-node 0--><div class="container" style="
+        background-image: url(&#39;/img/-IurKA_xtZ-300.webp&#39;);
+        background-color: none;
+        background-blend-mode: none;
+      ">
         <header>
           <h1><slot name='title'>Preview Title</slot></h1>
           <p><!--lit-part-->book<!--/lit-part--></p>
@@ -1190,7 +1312,7 @@ span.title {
               
             
             
-           class="products posts wip featured  dark  featured" background="/img/8TMa3O6kyQ-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
+           class="products posts wip featured  light  featured" background="/img/8TMa3O6kyQ-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -1206,6 +1328,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -1272,7 +1395,11 @@ span.title {
       color: white;
     }
   </style><!--lit-part VocstF1JzSY=-->
-      <!--lit-node 0--><div class="container" style="background-image: url(&#39;/img/8TMa3O6kyQ-300.webp&#39;); background-color: none; background-blend-mode: none;">
+      <!--lit-node 0--><div class="container" style="
+        background-image: url(&#39;/img/8TMa3O6kyQ-300.webp&#39;);
+        background-color: none;
+        background-blend-mode: none;
+      ">
         <header>
           <h1><slot name='title'>Preview Title</slot></h1>
           <p><!--lit-part-->book<!--/lit-part--></p>
@@ -1302,7 +1429,7 @@ span.title {
               
             
             
-           class="posts featured  light  featured" background="/img/fCk2I068G9-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
+           class="posts featured  bloody  featured" background="/img/fCk2I068G9-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -1318,6 +1445,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -1384,7 +1512,11 @@ span.title {
       color: white;
     }
   </style><!--lit-part VocstF1JzSY=-->
-      <!--lit-node 0--><div class="container" style="background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(&#39;/img/fCk2I068G9-300.webp&#39;); background-color: white; background-blend-mode: lighten, difference;">
+      <!--lit-node 0--><div class="container" style="
+        background-image: url(&#39;/img/fCk2I068G9-300.webp&#39;);
+        background-color: red;
+        background-blend-mode: darken;
+      ">
         <header>
           <h1><slot name='title'>Preview Title</slot></h1>
           <p><!--lit-part-->article<!--/lit-part--></p>
@@ -1392,118 +1524,6 @@ span.title {
       </div>
     <!--/lit-part--></template>
             <span slot="title">Cities in Cities</span>
-          </my-preview>
-
-        </a>
-      </li>
-    
-      <li class="preview">
-        
-        
-
-        <a href="/blog/npc-block-v4.html" title="NPC Block (Version 4)">
-
-          
-            
-          
-
-          <my-preview
-            
-            
-              
-              
-            
-            
-           class="posts featured  bloody  featured" background="/img/q1WYjW02nH-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
-    :host {
-      display: inline-block;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-
-    .container {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-
-      background-size: cover;
-      background-position: top;
-    }
-
-    header {
-      display: flex;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    header h1 {
-      font-size: 1.6rem;
-      overflow: hidden;
-      overflow-wrap: break-word;
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;
-      margin: 10px 10px 0 10px;
-      padding: 0 0 5px 0;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      font-weight: bold;
-      text-transform: capitalize;
-      margin: 10px;
-      padding: 0;
-    }
-
-    /* products mode */
-    :host(.products[background]) {
-      --text-shadow-color: white;
-      color: black;
-      text-shadow:
-        1px 1px 0 var(--text-shadow-color),
-        -1px 1px 0 var(--text-shadow-color),
-        -1px -1px 0 var(--text-shadow-color),
-        1px -1px 0 var(--text-shadow-color);
-    }
-
-    :host(.products[background]) header h1 {
-      visibility: hidden;
-    }
-
-    /* empty background mode */
-    :host(:not([background])) {
-      background-color: grey;
-      color: white;
-    }
-
-    /* bloody theme */
-    :host(.bloody[background]:not(.products)) header {
-      color: white;
-    }
-
-    /* light theme */
-    :host(.light[background]:not(.products)) h1 {
-      color: black;
-    }
-
-    /* dark theme */
-    :host(.dark[background]:not(.products)) {
-      color: white;
-    }
-  </style><!--lit-part VocstF1JzSY=-->
-      <!--lit-node 0--><div class="container" style="background-image: url(&#39;/img/q1WYjW02nH-300.webp&#39;); background-color: red; background-blend-mode: darken;">
-        <header>
-          <h1><slot name='title'>Preview Title</slot></h1>
-          <p><!--lit-part-->article<!--/lit-part--></p>
-        </header>
-      </div>
-    <!--/lit-part--></template>
-            <span slot="title">NPC Block (Version 4)</span>
           </my-preview>
 
         </a>
@@ -1610,6 +1630,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -1721,6 +1742,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -1832,6 +1854,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -1943,6 +1966,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -2054,6 +2078,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -2162,6 +2187,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -2273,6 +2299,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -2384,6 +2411,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -2495,6 +2523,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -2606,6 +2635,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -2717,6 +2747,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -2828,6 +2859,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -2939,6 +2971,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -3050,6 +3083,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -3161,6 +3195,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -3272,6 +3307,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -3383,6 +3419,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -3494,6 +3531,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -3605,6 +3643,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -3716,6 +3755,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -3827,6 +3867,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -3938,6 +3979,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -4049,6 +4091,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -4160,6 +4203,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -4271,6 +4315,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -4382,6 +4427,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -4493,6 +4539,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -4604,6 +4651,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -4715,6 +4763,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -4826,6 +4875,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -4937,6 +4987,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -5048,6 +5099,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -5159,6 +5211,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -5270,6 +5323,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -5381,6 +5435,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -5492,6 +5547,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -5575,7 +5631,7 @@ span.title {
         
         
 
-        <a href="/blog/black-griffin-session-34.html" title="Black Griffin Campaign Diary (Session 34)">
+        <a href="/blog/npc-block-v4.html" title="NPC Block (Version 4)">
 
           
             
@@ -5587,7 +5643,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/q1WYjW02nH-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5603,6 +5659,119 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstF1JzSY=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+            <span slot="title">NPC Block (Version 4)</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        
+        
+
+        <a href="/blog/black-griffin-session-34.html" title="Black Griffin Campaign Diary (Session 34)">
+
+          
+            
+          
+
+          <my-preview
+            
+              
+              
+            
+            
+           background="/img/idIHQFknw3-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -5698,7 +5867,7 @@ span.title {
               
             
             
-           background="/img/f-9Btzguqs-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/f-9Btzguqs-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5714,6 +5883,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -5809,7 +5979,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5825,6 +5995,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -5920,7 +6091,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5936,6 +6107,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -6031,7 +6203,7 @@ span.title {
               
             
             
-           background="/img/NiAmcYR2YG-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/NiAmcYR2YG-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6047,6 +6219,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -6142,7 +6315,7 @@ span.title {
               
             
             
-           background="/img/iCM855e8H1-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/iCM855e8H1-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6158,6 +6331,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -6253,7 +6427,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6269,6 +6443,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -6364,7 +6539,7 @@ span.title {
               
             
             
-           background="/img/9ad9tctELs-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/9ad9tctELs-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6380,6 +6555,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -6475,7 +6651,7 @@ span.title {
               
             
             
-           background="/img/k9_gflSFg9-226.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/k9_gflSFg9-226.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6491,6 +6667,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -6586,7 +6763,7 @@ span.title {
               
             
             
-           background="/img/1EZyswqMJQ-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/1EZyswqMJQ-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6602,6 +6779,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -6697,7 +6875,7 @@ span.title {
               
             
             
-           background="/img/FGkC1AJ5n7-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/FGkC1AJ5n7-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6713,6 +6891,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -6808,7 +6987,7 @@ span.title {
               
             
             
-           background="/img/7-dd76TlYq-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/7-dd76TlYq-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6824,6 +7003,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -6919,7 +7099,7 @@ span.title {
               
             
             
-           background="/img/4wLQ357-_H-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/4wLQ357-_H-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6935,6 +7115,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -7030,7 +7211,7 @@ span.title {
               
             
             
-           background="/img/Rf51hbo7f--250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/Rf51hbo7f--250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -7046,6 +7227,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -7141,7 +7323,7 @@ span.title {
               
             
             
-           background="/img/WY4WqboMfN-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/WY4WqboMfN-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -7157,6 +7339,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -7252,7 +7435,7 @@ span.title {
               
             
             
-           background="/img/lf_wPzvwGj-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/lf_wPzvwGj-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -7268,6 +7451,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -7363,7 +7547,7 @@ span.title {
               
             
             
-           background="/img/EZmh0rwPUf-236.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/EZmh0rwPUf-236.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -7379,6 +7563,7 @@ span.title {
 
       background-size: cover;
       background-position: top;
+      border-radius: 6px;
     }
 
     header {
@@ -7466,7 +7651,7 @@ span.title {
 
     <footer>
       <p class="legal">
-        Website version 3.16.3 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik.
+        Website version 3.17.0 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik.
       </p>
     </footer>
 
