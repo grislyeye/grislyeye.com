@@ -6,6 +6,8 @@
 
     {% if tags and not 'drafts' in tags %}
       {% seo "" %}
+    {% elif not tags %}
+      {% seo "" %}
     {% endif %}
 
     <meta name="description" content="{{ description or metadata.description }}">
