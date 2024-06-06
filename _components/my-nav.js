@@ -50,7 +50,7 @@ class MyNavigationBar extends LitElement {
     }
 
     .social img.icon {
-      height: 1em;
+      height: 0.8em;
     }
   `;
 
