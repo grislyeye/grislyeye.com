@@ -52,6 +52,14 @@ class MyNavigationBar extends LitElement {
     .social img.icon {
       height: 0.8em;
     }
+
+    @media (width < 650px) {
+      .socials {
+        padding-top: 0.7em;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+    }
   `;
 
   static properties = {
