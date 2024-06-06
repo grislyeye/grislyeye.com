@@ -8,9 +8,9 @@ Requirements:
 
 To set-up your environment execute:
 
-    $ npm install
+    $ npm i
 
-To build execute:
+To build:
 
     $ npm run build
 
