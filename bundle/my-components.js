@@ -792,7 +792,15 @@
     }
 
     .social img.icon {
-      height: 1em;
+      height: 0.8em;
+    }
+
+    @media (width < 650px) {
+      .socials {
+        padding-top: 0.7em;
+        flex-direction: column;
+        align-items: flex-end;
+      }
     }
   `;
     static properties = {
