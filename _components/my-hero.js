@@ -31,7 +31,6 @@ class MyHeroHeader extends LitElement {
     return html`
       <h1><slot name="title">Hero Header Title</slot></h1>
       <my-section>
-        <div slot="subtitle">${ this.subtitle }</div>
         <p class="description"><slot name="description">Hero header description</slot></p>
       </my-section>
     `;
