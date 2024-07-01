@@ -271,7 +271,7 @@
   var i3 = t2.trustedTypes;
   var s2 = i3 ? i3.createPolicy("lit-html", { createHTML: (t3) => t3 }) : void 0;
   var e3 = "$lit$";
-  var h2 = `lit$${(Math.random() + "").slice(9)}$`;
+  var h2 = `lit$${Math.random().toFixed(9).slice(2)}$`;
   var o3 = "?" + h2;
   var n3 = `<${o3}>`;
   var r3 = document;
@@ -507,7 +507,7 @@
     }
   };
   var Z = t2.litHtmlPolyfillSupport;
-  Z?.(V, M), (t2.litHtmlVersions ??= []).push("3.1.2");
+  Z?.(V, M), (t2.litHtmlVersions ??= []).push("3.1.4");
   var j = (t3, i4, s4) => {
     const e4 = s4?.renderBefore ?? i4;
     let h3 = e4._$litPart$;
@@ -544,7 +544,7 @@
   s3._$litElement$ = true, s3["finalized", "finalized"] = true, globalThis.litElementHydrateSupport?.({ LitElement: s3 });
   var r4 = globalThis.litElementPolyfillSupport;
   r4?.({ LitElement: s3 });
-  (globalThis.litElementVersions ??= []).push("4.0.4");
+  (globalThis.litElementVersions ??= []).push("4.0.6");
 
   // _components/my-button.js
   var MyButton = class _MyButton extends s3 {
@@ -729,11 +729,11 @@
       }
     }
   `;
+    // eslint-disable-next-line class-methods-use-this
     render() {
       return x`
       <h1><slot name="title">Hero Header Title</slot></h1>
       <my-section>
-        <div slot="subtitle">${this.subtitle}</div>
         <p class="description"><slot name="description">Hero header description</slot></p>
       </my-section>
     `;

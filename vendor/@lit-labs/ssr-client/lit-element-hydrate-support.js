@@ -4,7 +4,7 @@
   var i = t.trustedTypes;
   var s = i ? i.createPolicy("lit-html", { createHTML: (t4) => t4 }) : void 0;
   var e = "$lit$";
-  var h = `lit$${(Math.random() + "").slice(9)}$`;
+  var h = `lit$${Math.random().toFixed(9).slice(2)}$`;
   var o = "?" + h;
   var n = `<${o}>`;
   var r = document;
@@ -241,7 +241,7 @@
   };
   var z = { P: e, A: h, C: o, M: 1, L: P, R: S, D: u, V: N, I: M, H: R, N: H, U: I, B: k, F: L };
   var Z = t.litHtmlPolyfillSupport;
-  Z?.(V, M), (t.litHtmlVersions ??= []).push("3.1.2");
+  Z?.(V, M), (t.litHtmlVersions ??= []).push("3.1.4");
   var j = (t4, i4, s3) => {
     const e3 = s3?.renderBefore ?? i4;
     let h3 = e3._$litPart$;

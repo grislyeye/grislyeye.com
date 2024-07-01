@@ -5,6 +5,8 @@ import { html as html$1, svg as svg$1 } from './lit-html.js';
  * Copyright 2020 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
+// Any new exports need to be added to the export statement in
+// `packages/lit/src/index.all.ts`.
 /**
  * Prevents JSON injection attacks.
  *
