@@ -35,7 +35,7 @@
 #post blockquote + ul,
 #post blockquote ol:last-child,
 #post blockquote ul:last-child {
-  padding-left: 0;
+  padding-left: 1em;
   list-style: none;
 }
 
