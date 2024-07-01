@@ -41,9 +41,9 @@ So, I propose a new category: Aliens as outside context entity, or the alien as 
 ### Xenobiological universalism
 
 >Alien life, however, does not have to respect the educational difficulties posed by naked apes with oversized brains, and can exploit any autocatalytic system to generate complex 'lifeforms' if the environment permits. And the range of environments - and autocatalytic systems - is huge.
-- _What Does a Martian Look Like?: The Science of Extraterrestrial Life_ by Jack Cohen and Ian Stewart, 2004
+- _What Does a Martian Look Like?_ by Jack Cohen and Ian Stewart, 2004
 
-Xenobiological universalism (called xenoscience by its proponents, although I question its scientific basis) is another powerful concept, one that has influenced science fiction authors like Philip K. Dick and Greg Bear. At it's heart is the idea that the complex, self-replicating systems that lead to life are not just unique to this planet, but are, in fact, a fundamental property of nature.
+Xenobiological universalism (called xenoscience by its proponents, although I'd question its scientific basis) is another powerful concept, one that has influenced science fiction authors like Philip K. Dick and Greg Bear. At it's heart is the idea that the complex, self-replicating systems that lead to life are not just unique to this planet, but are, in fact, a fundamental property of nature.
 
 In scientific circles, the general consensus is that conditions for biological life on Earth are so narrow, delicate and improbable, it's unlikely they occur elsewhere in the universe. Certainly, there's no physical evidence for alien life, and the prospect is an unlikely one, and *intelligent* alien life an even unlikelier one.
 
@@ -61,7 +61,7 @@ Autocatalysts - molecules that can create themselves without being used up - don
 
 Examples of xenoscientific fiction include:
 
- - *Diaspora* by Greg Egan, 1997
+ - *Diaspora* by Greg Egan, 1997 (a personal favourite)
  - _Dragon's Egg_ by Robert L. Forward, 1980
  - _Mission of Gravity_ by Hal Clement, 1951
  - _Ring_ by Stephen Baxter, 1994
