@@ -16,13 +16,13 @@ I continue to unpick the intestinal knot in our cultural psyche that is _Alien_ 
 
 Let me start with this: by definition, aliens should be uncategorisable. In the comfort of Skerple's categories, aliens can only replicate the earthbound horrors of slasher flicks and supernatural thrillers. It's a trap to imagine aliens as comprehensible in any conventional sense.
 
-So, how do we go about imagining incomprehensible aliens?
+But, how exactly do you go about imagining incomprehensible aliens?
 
 ### Star Trek Futurism
 
 ![Still of Captain Kirk look shocked from Star Trek](./content/blog/natural-laws-of-mothership/captain-kirk.jpg "Captain Kirk")
 
-Firstly, in order to question our basic assumptions about alien life you need to understand Star Trek futurism. Star Trek futurism is the (often unconscious) bias that the future will be like eponymous (and often nonsense) TV show. It is an optimistic vision of the future as it ought to be, against the evidence otherwise. That is, a high-science future with faster-than-light travel and (most relevant here) contact with ubiquitous, intelligent and human-like alien life.
+Firstly, in order to question our basic assumptions about alien life you need to understand Star Trek futurism. Star Trek futurism is the (often unconscious) bias that the future will be like eponymous (and often nonsense) TV show. It is an optimistic vision of the future as it ought to be, such as with faster-than-light travel and (most relevant here) contact with ubiquitous, intelligent and human-like alien life.
 
 It's a powerful vision, so thoroughly internalised that it colours everything we understand about science, technology and science fiction. If you've ever wondered why earnest young men consistently keep faith with Elon Musk's increasingly unlikely plans to colonise Mars, it's because Star Trek futurism demands someone, anyone must make this first step.
 
@@ -41,6 +41,7 @@ So, I propose a new category: Aliens as outside context entity, or the alien as 
 ### Xenobiological universalism
 
 >Alien life, however, does not have to respect the educational difficulties posed by naked apes with oversized brains, and can exploit any autocatalytic system to generate complex 'lifeforms' if the environment permits. And the range of environments - and autocatalytic systems - is huge.
+
 - _What Does a Martian Look Like?_ by Jack Cohen and Ian Stewart, 2004
 
 Xenobiological universalism (called xenoscience by its proponents, although I'd question its scientific basis) is another powerful concept, one that has influenced science fiction authors like Philip K. Dick and Greg Bear. At it's heart is the idea that the complex, self-replicating systems that lead to life are not just unique to this planet, but are, in fact, a fundamental property of nature.
@@ -102,8 +103,10 @@ This article was research for [CONT/EXT](https://grislyeye.com/products/context)
 
 </aside>
 
-I tried to make the hostile alien "xenostoma" from *CONT/EXT* as inexplicable as possible. It doesn't have any sensory organs, no obvious front or back. It has a form of locomotion that has no earthly equivalent, seemingly designed for space. There's little context for the player's to latch onto, especially as I kept its full form hidden during playtests. It's a hackneyed trick, but the player's imaginations can fill in the gaps with things far more frightening than I could write.
+I tried to make the alien "xenostoma" from *CONT/EXT* as inexplicable as possible. It doesn't have any sensory organs, no obvious front or back. It has a form of locomotion that has no earthly equivalent, seemingly designed for space.
+
+There's little context for the player's to latch onto, especially as I kept its full form hidden during playtests. It's a hackneyed trick, but the player's imaginations can fill in the gaps with things far more frightening than anything I could write.
 
 The elegance of *Mothership* allows us to portray complex creatures using the light touch of character stats.
 
-Next week, I'll look at the psychological and semantic implications of aliens as outside context entity.
+But, the truly inexplicable thing about *CONT/EXT* is the Thread. Next week, I'll look at the psychological and semantic implications of aliens as outside context entity.
