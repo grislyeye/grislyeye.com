@@ -6,13 +6,7 @@ module.exports = async () => {
     type: 'text'
   });
 
-  const ais = await EleventyFetch('https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/ai.txt', {
-    duration: '1d',
-    type: 'text'
-  });
-
   return {
-    robots,
-    ais
+    robots
   };
 };
