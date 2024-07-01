@@ -27,6 +27,7 @@ class MyHeroHeader extends LitElement {
     }
   `;
 
+  // eslint-disable-next-line class-methods-use-this
   render() {
     return html`
       <h1><slot name="title">Hero Header Title</slot></h1>
