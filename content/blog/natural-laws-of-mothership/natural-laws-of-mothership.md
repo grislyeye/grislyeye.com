@@ -5,13 +5,11 @@ tags:
   - drafts
 date: 2024-07-01
 layout: layouts/post.njk
-
+image: /blog/natural-laws-of-mothership/sundiver.jpg
 ---
-
 <aside>
 
-
-This post evolved out of a series of [self-essays](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote while developing [CONT/EXT](https://grislyeye.com/products/context/). I present these (incomplete) thoughts here.
+This post evolved out of a series of [self-essays](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote on the subject of _Mothership_  while developing [CONT/EXT](https://grislyeye.com/products/context/). I present these (incomplete) thoughts here. See my previous article on [institutional horror](/blog/shiftless-horror/).
 
 </aside>
 
@@ -25,7 +23,7 @@ But, how exactly do you go about imagining incomprehensible aliens?
 
 ![Still of Captain Kirk look shocked from Star Trek](./content/blog/natural-laws-of-mothership/captain-kirk.jpg "Captain Kirk")
 
-Firstly, in order to question our basic assumptions about alien life, you need to understand Star Trek futurism. Star Trek futurism is the (often unconscious) bias that the future will be like eponymous (and often nonsense) TV show. It is an optimistic vision of the future as it ought to be, such as with faster-than-light travel and (most relevant here) contact with ubiquitous, intelligent and human-like alien life.
+Firstly, in order to question our basic assumptions about alien life, you need to understand Star Trek futurism. Star Trek futurism is the (often unconscious) bias that the future will be like the eponymous (and often nonsense) TV show. It is an optimistic vision of the future as it ought to be, with faster-than-light travel and (most relevant here) contact with ubiquitous, intelligent and human-like alien life.
 
 It's a powerful vision, so thoroughly internalised that it colours everything we understand about science, technology and science fiction. If you've ever wondered why earnest young men consistently keep faith with Elon Musk's increasingly unlikely plans to colonise Mars, it's because Star Trek futurism demands someone, anyone must make this first step.
 
@@ -37,9 +35,9 @@ But these creatures can never be terrifying because they are too like us. We mus
 
 ## The outside context
 
-![Cover of Sundiver by David Brin](./content/blog/natural-laws-of-mothership/sundiver.jpg "Sundivers")
+So, I propose a new category: Aliens as outside context entities, or the alien as fundamental physiological, psychological, categorical and semantic break with our parochial assumptions of what alien life might look like.
 
-So, I propose a new category: Aliens as outside context entity, or the alien as fundamental physiological, psychological, categorical and semantic break with our parochial expectations of what intelligent alien life might look like.
+![Cover of Sundiver by David Brin](./content/blog/natural-laws-of-mothership/sundiver.jpg "Sundivers")
 
 ### Xenobiological universalism
 
@@ -47,17 +45,26 @@ So, I propose a new category: Aliens as outside context entity, or the alien as 
 
 - _What Does a Martian Look Like?_ by Jack Cohen and Ian Stewart, 2004
 
-Xenobiological universalism (called xenoscience by its proponents, although I'd question its scientific basis) is another powerful concept, one that has influenced science fiction authors like Philip K. Dick and Greg Bear. At its heart is the idea that the complex, self-replicating systems that lead to life are not just unique to this planet, but are, in fact, a fundamental property of nature.
 
-In scientific circles, the general consensus is that conditions for biological life on Earth are so narrow, delicate and improbable, it's unlikely they occur elsewhere in the universe. Certainly, there's no physical evidence for alien life, and the prospect is an unlikely one, and *intelligent* alien life even unlikelier.
+Xenobiological universalism is another powerful concept, one that has influenced science fiction authors like Philip K. Dick and Greg Bear. At its heart is the idea that the complex, self-replicating systems that lead to life are not just unique to this planet, but are, in fact, a fundamental property of nature.
+
+In scientific circles, the general consensus is that conditions for biological life on Earth are so narrow, delicate and improbable, it's unlikely they occur elsewhere in the universe (the [Rare Earth hypothesis](https://en.wikipedia.org/wiki/Rare_Earth_hypothesis)). Certainly, there's no physical evidence for alien life, and the prospect is an unlikely one.
+
+<aside>
+
+Xenobiological universalism is called "xenoscience" by its proponents, but I'd question its scientific basis.
+
+</aside>
 
 This is, of course, absurd. Open hailing frequencies!
 
-Universalism rejects this hidebound, parochial outlook. Just as the [the pond skater](https://grislyeye.com/blog/three-meet-attributes/) can't imagine existence beyond the two dimensions of its pool, our earthbound perspectives prejudice our definition of life. So, universalism seeks to widen our understanding of what life is, and the conditions under which it might evolve.
+Universalism rejects this hidebound, parochial outlook. Just as the [the pond skater](https://grislyeye.com/blog/three-meet-attributes/) can't imagine existence beyond the two dimensions of its pool, our earthbound perspectives prejudice our definition of life.
 
-In particular, it aims its sights on the possible origins of life on Earth, so-called "autocatalytic systems." Quick science lesson, bear with me: [catalysts](https://www.britannica.com/science/catalyst) are molecules that promote the formation of other molecules, without being used up themselves. For example, enzymes are naturally occurring catalysts, and catalytic converters turn carbon dioxide into carbon monoxide indefinitely.
+Universalism seeks to widen our understanding of what life is, and the conditions under which it might evolve. In particular, it focuses on one of the possible origins of life on Earth, so-called "autocatalytic systems."
 
-Autocatalysts - molecules that can create themselves without being used up - don't really exist, but collections of chemical reactions that, taken as a whole, can be autocatalytic. DNA and its various helpers are an example of an autocatalytic system, which are capable of self-replication, a key element that allows complexity to defy the second law of thermodynamics, and persist, grow and, hypothetically, evolve into more complex forms.
+Quick science lesson, bear with me: [catalysts](https://www.britannica.com/science/catalyst) are molecules that promote the formation of other molecules, without being used up themselves. For example, enzymes are naturally occurring catalysts, and catalytic converters can turn carbon monoxide into carbon dioxide indefinitely.
+
+Autocatalysts - molecules that can create themselves without being used up - don't really exist, but collections of chemical reactions, taken as a whole, can be autocatalytic. DNA and its various helpers are an example of an autocatalytic system, which are capable of self-replication, a key element that allows complexity to defy the second law of thermodynamics, and persist, grow and, hypothetically, evolve into more complex forms.
 
 <aside>
 
@@ -76,25 +83,29 @@ Examples of xenoscientific fiction include:
 
 Universalism takes this further, imagining that DNA is just one possible example of an autocatalytic system, and that similar kinds of processes could occur under radically different circumstances. If self-replicating DNA could originate from the basic building blocks of organic chemistry, could not other, self-replicating systems form in the complex interactions in, say, silicon-based chemistry, magnetic fields, and so on?
 
-These are "analogous autocatalytic systems," and they're a tool for imagining radically different forms of alien life, from the sun-ghosts of David Brin's _Sun Diver_, who evolved in the magnetic fields of the Sun's chromosphere, to the microscopic cheela from Robert L. Forward's _Dragon's Egg_, who evolved on the surface of a neutron star.
+These are "analogous autocatalytic systems," that mirror organic enzymes and DNA, but with radically different mechanics. They're a tool for imagining truly exotic forms of alien life, from the sun-ghosts of David Brin's _Sundiver_, who evolved in the magnetic fields of the Sun's chromosphere, to the microscopic cheela from Robert L. Forward's _Dragon's Egg_, who evolved on the surface of a neutron star.
 
-All that is needed is that spark of self-replicating complexity, whether that is exotic, nucleic "molecules" formed by the strong nuclear force, or organic-like, silicon-based chemistries, or, in one particularly colourful example, squids living in machine-like simulations, running off Wang tile mathematics, formed by the interaction of super-large carbohydrate molecules floating on an alien ocean.
+All that is needed is that spark of self-replicating complexity, whether that is exotic, nucleic "molecules" formed by the strong nuclear force, or organic-like, silicon-based chemistries.
+
+Or - in one particularly colourful example - squids living in machine-like simulations, running off Wang tile mathematics, formed by the interaction of [super-large carbohydrate molecules](https://aliens.fandom.com/wiki/Wang%27s_Carpet) floating on an alien ocean.
 
 Most importantly, xenobiological universalism allows us to imagine aliens that defy categorisation, that exist in contexts completely outside human experience.
 
 Creatures we can truly fear.
 
-### Fateful intersection
+### Fearful intersection
 
-The problem with a lot of these analogous autocatalytic systems is that they propose forms of life so alien to us, it's difficult to understand how we might interact with them. From the perspective of *Mothership*, our interest is in those potential points of contact, where exotic alien biologies unhappily intersect with our own. With xenobiological universalism in mind, horrors can lurch out of the darkness from some very unexpected places. We must imagine (or steal from science fiction) new forms of life that somehow hunger for ours.
+The problem with a lot of these analogous autocatalytic systems is that they propose forms of life so alien to us, it's difficult to understand how we might interact with them. From the perspective of *Mothership*, our interest is in those potential points of contact, where exotic alien biologies unhappily intersect with our own. With xenobiological universalism in mind, horrors can lurch out of the darkness from some very unexpected places. So, we must imagine (or steal from science fiction) new forms of life that somehow hunger for ours.
 
-### Appalling logic
+### Fearful symmetry
 
 >...it was a perfectly, perfectly reasonable, it seemed to me, that... that some organism should incubate within the warmth of another being.
 
 - John Hurt speaking in *[The Beast Within: The Making of Alien](https://www.youtube.com/watch?v=F4G1Jg1oJt8)*, 2023
 
-While we stretch the definition of life, we must take care to stretch it only so far. The xenomorph, for example, is horrifying because it is incomprehensible, but also because it speaks to uncomfortable and undeniable truths about biology. It follows a set of rules that make it feel palpable. When creating improbable biologies, there must be some hook that we can grab hold of to at least make a little sense of the situation.
+While we stretch the definition of life, we must take care to stretch it only so far. The xenomorph, for example, is horrifying because it is incomprehensible, but also because it speaks to uncomfortable and undeniable truths about biology. It follows a set of rules that make it feel palpable.
+
+When creating improbable biologies, there must be some hook our players can grab onto, so they can at least realise how doomed they really are.
 
 ## Learnings
 
@@ -114,4 +125,4 @@ There's little context for the player's to latch onto, especially as I kept its 
 
 The elegance of *Mothership* allows us to portray complex creatures using the light touch of the rules. Our outside context entities only need the fateful intersection with Wounds and Instinct. The fiction of the invented biology can inform the rest.
 
-But, the truly inexplicable thing about *CONT/EXT* is **The Thread**. Next week, I'll look at the psychological and semantic implications of aliens as outside context entity.
+But, the truly inexplicable thing about *CONT/EXT* is **The Thread**. Next week, I'll look at the psychological and semantic implications of the alien as outside context entity.
