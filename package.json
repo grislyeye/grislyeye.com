@@ -46,7 +46,7 @@
     "eslint-plugin-lit": "^1.14.0",
     "eslint-plugin-wc": "^2.1.0",
     "hygen": "^6.2.11",
-    "linkinator": "^6.0.6",
+    "linkinator": "^6.1.0",
     "luxon": "^3.4.4",
     "markdown-it-eleventy-img": "^0.10.2",
     "stylelint": "^16.6.1",
