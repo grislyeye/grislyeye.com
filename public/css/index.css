@@ -62,11 +62,23 @@ main > header {
   margin-bottom: 7rem;
 }
 
+@media(width < 550px) {
+  main > header {
+    margin-bottom: 3rem;
+  }
+}
+
 nav {
   margin-top: 20px;
   margin-bottom: 5rem;
   padding: 0;
   list-style: none;
+}
+
+@media(width < 550px) {
+  nav {
+    margin-bottom: 3rem;
+  }
 }
 
 footer {
