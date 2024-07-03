@@ -1,4 +1,5 @@
 form button {
+  font-family: var(--font-family);
   height: 38px;
   padding: 0 30px;
   color: white;
