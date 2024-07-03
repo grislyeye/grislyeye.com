@@ -115,6 +115,8 @@ module.exports = (eleventyConfig) => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
   });
 
+  eleventyConfig.addNunjucksFilter('limit', (arr, limit) => arr.slice(0, limit));
+
   eleventyConfig.addShortcode('backwardSupportPermalinkStem', (page) => {
     return path.dirname(page.filePathStem);
   });

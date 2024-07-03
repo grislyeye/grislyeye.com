@@ -13,11 +13,11 @@ eleventyNavigation:
   </my-hero>
 </header>
 
-<my-section subtitle="featured">
-  <div slot="subtitle">featured</div>
+<my-section>
+  <div slot="subtitle">my work</div>
 
-  <ul id="featured" class="previews">
-    {% for post in collections.featured | excludeTags([ "drafts" ]) | reverse %}
+  <ul id="products" class="previews">
+    {% for post in collections.products | excludeTags([ "drafts" ]) | reverse | limit(4) %}
       <li class="preview">
         {% if (post.data.redirectTo) %}{% set url %}{{ post.data.redirectTo }}{% endset %}
         {% else %}{% set url %}{{ post.url }}{% endset %}
@@ -50,8 +50,8 @@ eleventyNavigation:
   </ul>
 </my-section>
 
-<my-section subtitle="more">
-  <div slot="subtitle">more</div>
+<my-section>
+  <div slot="subtitle">blog</div>
   <ul id="more" class="previews">
     {% for post in collections.posts | excludeTags([ "drafts", "featured" ]) | reverse %}
       <li class="preview">
