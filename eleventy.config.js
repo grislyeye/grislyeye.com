@@ -34,7 +34,6 @@ module.exports = (eleventyConfig) => {
       '_components/my-section.js',
       '_components/my-page.js',
       '_components/my-product.js',
-      '_components/my-button.js',
       '_components/my-shares.js'
     ]
   });

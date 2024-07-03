@@ -1,4 +1,3 @@
-import './my-button.js';
 import './my-hero.js';
 import './my-nav.js';
 import './my-page.js';
