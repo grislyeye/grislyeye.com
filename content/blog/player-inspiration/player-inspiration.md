@@ -11,7 +11,7 @@ permalink: "{% backwardSupportPermalinkStem page %}.html"
   <p class="caption"><a href="https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck#/media/File:RWS_Tarot_17_Star.jpg">The Star</a> tarot card from the <a href="https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck">Rider-Waite deck</a>. Public domain image.</p>
 </div>
 
-I really love the <a href="https://www.dndbeyond.com/compendium/rules/basic-rules/personality-and-background#Inspiration">inspiration rules</a> but they suffer from a number of issues during play. Dungeon masters must remember personality characteristics for an entire party. Most simply forget to award it. Player's forget they have inspiration, or hold it in reserve and never spend it. And, personally, the subjective criteria often makes me feel uncomfortable awarding it to just one character at a time.
+I really love the <a href="https://www.dndbeyond.com/sources/basic-rules/personality-and-background#Inspiration">inspiration rules</a> but they suffer from a number of issues during play. Dungeon masters must remember personality characteristics for an entire party. Most simply forget to award it. Player's forget they have inspiration, or hold it in reserve and never spend it. And, personally, the subjective criteria often makes me feel uncomfortable awarding it to just one character at a time.
 
 Rather than rely on the dungeon master to award inspiration, this variant relies on the players asking for inspiration:
 
