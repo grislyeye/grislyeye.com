@@ -22,7 +22,7 @@ But, how do you go about portraying incomprehensible aliens?
 
 ![Still of Captain Kirk look shocked from Star Trek](./content/blog/natural-laws-of-mothership/captain-kirk.jpg "Captain Kirk")
 
-Firstly, in order to question our basic assumptions about alien life, you need to understand Star Trek futurism. Star Trek futurism is the (often unconscious) bias that the future will be like the eponymous (and often nonsense) TV show. It is an optimistic vision of the future as it ought to be, with faster-than-light travel and (most relevant here) contact with ubiquitous, intelligent and human-like alien life.
+Firstly, in order to question our assumptions about alien life, you need to understand Star Trek futurism. Star Trek futurism is the (often unconscious) bias that the future will be like the eponymous (and often nonsense) TV show. It's an optimistic vision of the future as it ought to be, with faster-than-light travel and (most relevant here) contact with ubiquitous, intelligent and human-like alien life.
 
 It's a powerful vision, so thoroughly internalised that it colours everything we understand about science and technology. If you've ever wondered why earnest young men consistently keep faith with Elon Musk's increasingly unlikely plans to colonise Mars, it's because Star Trek futurism demands someone, anyone must make this first step.
 
