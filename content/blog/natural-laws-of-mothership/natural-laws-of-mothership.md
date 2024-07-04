@@ -4,7 +4,7 @@ tags:
   - posts
 date: 2024-07-01
 layout: layouts/post.njk
-image: /blog/natural-laws-of-mothership/sundiver.jpg
+image: /blog/natural-laws-of-mothership/captain-kirk.jpg
 ---
 <aside>
 
