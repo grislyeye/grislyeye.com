@@ -98,11 +98,23 @@ main > header {
   margin-bottom: 7rem;
 }
 
+@media(width < 550px) {
+  main > header {
+    margin-bottom: 3rem;
+  }
+}
+
 nav {
   margin-top: 20px;
   margin-bottom: 5rem;
   padding: 0;
   list-style: none;
+}
+
+@media(width < 550px) {
+  nav {
+    margin-bottom: 3rem;
+  }
 }
 
 footer {
@@ -275,7 +287,7 @@ span.title {
   }
 }</style>
 
-    <link rel="stylesheet" href="/bundle/QLY2E6qbmI.css">
+    <link rel="stylesheet" href="/bundle/J7bzone226.css">
 
     <script type="importmap">
       {
@@ -982,7 +994,6 @@ span.title {
 
       font-family: var(--subtitle-font-family);
       font-size: 1rem;
-      font-weight: bold;
       text-transform: lowercase;
     }
 
@@ -1020,12 +1031,12 @@ span.title {
     <!--/lit-part--></template>
     <span slot="title">The <br> Grisly Eye</span>
     <span slot="description">
-      Ric Wood is an indie game designer and forever DM. You can buy my books below, or follow/contact me via my socials above.
+      Ric Wood is an indie game designer and forever DM.
     </span>
   </my-hero>
 </header>
 
-<my-section  subtitle="featured"><template shadowroot="open" shadowrootmode="open"><style>
+<my-section><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: block;
       margin-left: calc(var(--content-subtitle-max-width) * -1);
@@ -1055,7 +1066,6 @@ span.title {
 
       font-family: var(--subtitle-font-family);
       font-size: 1rem;
-      font-weight: bold;
       text-transform: lowercase;
     }
 
@@ -1088,15 +1098,15 @@ span.title {
         </div>
       </section>
     <!--/lit-part--></template>
-  <div slot="subtitle">featured</div>
+  <div slot="subtitle">my work</div>
 
-  <ul id="featured" class="previews">
+  <ul id="products" class="previews">
     
       <li class="preview">
         
         
 
-        <a href="/appendix/n/" title="My Appendix N">
+        <a href="https://www.drivethrurpg.com/product/458483/Witchcraft?affiliate_id=1765521" title="Witchcraft now available">
 
           
             
@@ -1109,7 +1119,7 @@ span.title {
               
             
             
-           class="featured  bloody  featured" background="/img/3Lmvr_I8wP-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
+           class="products posts  bloody  featured" background="/img/sTrU-KQ9q1-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -1193,17 +1203,17 @@ span.title {
     }
   </style><!--lit-part VocstF1JzSY=-->
       <!--lit-node 0--><div class="container" style="
-        background-image: url(&#39;/img/3Lmvr_I8wP-300.webp&#39;);
-        background-color: red;
-        background-blend-mode: darken;
+        background-image: url(&#39;/img/sTrU-KQ9q1-300.webp&#39;);
+        background-color: none;
+        background-blend-mode: none;
       ">
         <header>
           <h1><slot name='title'>Preview Title</slot></h1>
-          <p><!--lit-part--><!--/lit-part--></p>
+          <p><!--lit-part-->book<!--/lit-part--></p>
         </header>
       </div>
     <!--/lit-part--></template>
-            <span slot="title">My Appendix N</span>
+            <span slot="title">Witchcraft now available</span>
           </my-preview>
 
         </a>
@@ -1330,6 +1340,120 @@ span.title {
         
         
 
+        <a href="/products/shift/" title="Shift">
+
+          
+            
+          
+
+          <my-preview
+            
+            
+            
+           class="products posts wip  light  featured" preload><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1 {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstF1JzSY=-->
+      <!--lit-node 0--><div class="container" style="
+        background-image: url(&#39;undefined&#39;);
+        background-color: none;
+        background-blend-mode: none;
+      ">
+        <header>
+          <h1><slot name='title'>Preview Title</slot></h1>
+          <p><!--lit-part-->book<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+            <span slot="title">Shift</span>
+          </my-preview>
+
+        </a>
+      </li>
+    
+      <li class="preview">
+        
+        
+
         <a href="https://grislyeye.itch.io/context" title="CONT/EXT">
 
           
@@ -1343,7 +1467,7 @@ span.title {
               
             
             
-           class="products posts wip featured  light  featured" background="/img/8TMa3O6kyQ-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
+           class="products posts wip featured  bloody  featured" background="/img/8TMa3O6kyQ-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -1443,11 +1567,79 @@ span.title {
         </a>
       </li>
     
+  </ul>
+</my-section>
+
+<my-section><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      text-transform: lowercase;
+    }
+
+    @media(width < 970px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+      }
+    }
+
+    ::slotted(*) {
+      margin-top: 0;
+    }
+  </style><!--lit-part cfdBU0cIpvY=-->
+      <section>
+        <div class="subtitle">
+          <slot name="subtitle"></slot>
+        </div>
+        <div class="content">
+          <slot></slot>
+        </div>
+      </section>
+    <!--/lit-part--></template>
+  <div slot="subtitle">blog</div>
+  <ul id="more" class="previews">
+    
       <li class="preview">
         
         
 
-        <a href="/blog/cities-in-cities.html" title="Cities in Cities">
+        <a href="/blog/natural-laws-of-mothership/" title="Natural Laws of Mothership">
 
           
             
@@ -1455,12 +1647,11 @@ span.title {
 
           <my-preview
             
-            
               
               
             
             
-           class="posts featured  bloody  featured" background="/img/fCk2I068G9-300.webp" preload><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/-VLhra2t84-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -1543,91 +1734,18 @@ span.title {
       color: white;
     }
   </style><!--lit-part VocstF1JzSY=-->
-      <!--lit-node 0--><div class="container" style="
-        background-image: url(&#39;/img/fCk2I068G9-300.webp&#39;);
-        background-color: red;
-        background-blend-mode: darken;
-      ">
+      <!--lit-node 0--><div class="container" style="">
         <header>
           <h1><slot name='title'>Preview Title</slot></h1>
           <p><!--lit-part-->article<!--/lit-part--></p>
         </header>
       </div>
     <!--/lit-part--></template>
-            <span slot="title">Cities in Cities</span>
+            <span slot="title">Natural Laws of Mothership</span>
           </my-preview>
 
         </a>
       </li>
-    
-  </ul>
-</my-section>
-
-<my-section  subtitle="more"><template shadowroot="open" shadowrootmode="open"><style>
-    :host {
-      display: block;
-      margin-left: calc(var(--content-subtitle-max-width) * -1);
-    }
-
-    :host * {
-      box-sizing: border-box;
-    }
-
-    :host > section {
-      display: flex;
-      width: 100%;
-    }
-
-    .content {
-      max-width: var(--content-max-width);
-      width: 100%;
-    }
-
-    .subtitle {
-      min-width: var(--content-subtitle-max-width);
-      max-width: var(--content-subtitle-max-width);
-      margin-top: 0.2rem;
-      margin-bottom: 0.2rem;
-      padding-right: 1em;
-      text-align: right;
-
-      font-family: var(--subtitle-font-family);
-      font-size: 1rem;
-      font-weight: bold;
-      text-transform: lowercase;
-    }
-
-    @media(width < 970px) {
-      :host {
-        margin-left: 0;
-      }
-
-      :host > section {
-        display: block;
-      }
-
-      .subtitle {
-        min-width: unset;
-        max-width: unset;
-        text-align: left;
-      }
-    }
-
-    ::slotted(*) {
-      margin-top: 0;
-    }
-  </style><!--lit-part cfdBU0cIpvY=-->
-      <section>
-        <div class="subtitle">
-          <slot name="subtitle"></slot>
-        </div>
-        <div class="content">
-          <slot></slot>
-        </div>
-      </section>
-    <!--/lit-part--></template>
-  <div slot="subtitle">more</div>
-  <ul id="more" class="previews">
     
       <li class="preview">
         
@@ -1645,7 +1763,7 @@ span.title {
               
             
             
-           background="/img/6Z18nl_cNs-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/6Z18nl_cNs-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -1757,7 +1875,7 @@ span.title {
               
             
             
-           background="/img/NeUb2brW67-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/NeUb2brW67-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -1869,7 +1987,7 @@ span.title {
               
             
             
-           background="/img/QdRJssn8ih-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/QdRJssn8ih-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -1981,7 +2099,7 @@ span.title {
               
             
             
-           background="/img/sTrU-KQ9q1-250.webp" class="products posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/sTrU-KQ9q1-250.webp" class="products posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2093,7 +2211,7 @@ span.title {
               
             
             
-           background="/img/-NN9ZN7dri-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/-NN9ZN7dri-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2202,7 +2320,7 @@ span.title {
           <my-preview
             
             
-           class="products posts wip  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           class="products posts wip  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2314,7 +2432,7 @@ span.title {
               
             
             
-           background="/img/RYBRZCygrh-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/RYBRZCygrh-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2426,7 +2544,7 @@ span.title {
               
             
             
-           background="/img/ySkyN0ki-j-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/ySkyN0ki-j-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2538,7 +2656,7 @@ span.title {
               
             
             
-           background="/img/9cazakpotl-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/9cazakpotl-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2650,7 +2768,7 @@ span.title {
               
             
             
-           background="/img/fCk2I068G9-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/fCk2I068G9-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2762,7 +2880,7 @@ span.title {
               
             
             
-           background="/img/yial0Qu6rY-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/yial0Qu6rY-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2874,7 +2992,7 @@ span.title {
               
             
             
-           background="/img/0l0ydY64fL-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/0l0ydY64fL-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2986,7 +3104,7 @@ span.title {
               
             
             
-           background="/img/OsCGJ_5cSn-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/OsCGJ_5cSn-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -3098,7 +3216,7 @@ span.title {
               
             
             
-           background="/img/tjFDnKHD1H-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/tjFDnKHD1H-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -3210,7 +3328,7 @@ span.title {
               
             
             
-           background="/img/leJDpC9x7n-250.webp" class="products posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/leJDpC9x7n-250.webp" class="products posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -3322,7 +3440,7 @@ span.title {
               
             
             
-           background="/img/WvtwrjkNYg-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/WvtwrjkNYg-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -3434,7 +3552,7 @@ span.title {
               
             
             
-           background="/img/CA1WTDw6jt-250.webp" class="products posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/CA1WTDw6jt-250.webp" class="products posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -3546,7 +3664,7 @@ span.title {
               
             
             
-           background="/img/SX4XQDF8Xl-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/SX4XQDF8Xl-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -3658,7 +3776,7 @@ span.title {
               
             
             
-           background="/img/LvP5xC0TxQ-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/LvP5xC0TxQ-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -3770,7 +3888,7 @@ span.title {
               
             
             
-           background="/img/ld74hBqBFh-200.webp" class="products posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/ld74hBqBFh-200.webp" class="products posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -3882,7 +4000,7 @@ span.title {
               
             
             
-           background="/img/y2ZrpO9vCv-193.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/y2ZrpO9vCv-193.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -3994,7 +4112,7 @@ span.title {
               
             
             
-           background="/img/xJyMpeC-AZ-250.webp" class="products posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/xJyMpeC-AZ-250.webp" class="products posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -4106,7 +4224,7 @@ span.title {
               
             
             
-           background="/img/nqQcuWJ4nT-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/nqQcuWJ4nT-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -4218,7 +4336,7 @@ span.title {
               
             
             
-           background="/img/KY4CkRbyt_-250.webp" class="products posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/KY4CkRbyt_-250.webp" class="products posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -4330,7 +4448,7 @@ span.title {
               
             
             
-           background="/img/W-F4f2YZi0-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/W-F4f2YZi0-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -4442,7 +4560,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -4554,7 +4672,7 @@ span.title {
               
             
             
-           background="/img/sIDOCBZtO0-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/sIDOCBZtO0-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -4666,7 +4784,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -4778,7 +4896,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -4890,7 +5008,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5002,7 +5120,7 @@ span.title {
               
             
             
-           background="/img/fO6reDcRv6-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/fO6reDcRv6-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5114,7 +5232,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5226,7 +5344,7 @@ span.title {
               
             
             
-           background="/img/toHlOxFdFM-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/toHlOxFdFM-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5338,7 +5456,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5450,7 +5568,7 @@ span.title {
               
             
             
-           background="/img/nqQcuWJ4nT-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/nqQcuWJ4nT-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5562,7 +5680,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5674,7 +5792,7 @@ span.title {
               
             
             
-           background="/img/q1WYjW02nH-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/q1WYjW02nH-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5786,7 +5904,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -5898,7 +6016,7 @@ span.title {
               
             
             
-           background="/img/f-9Btzguqs-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/f-9Btzguqs-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6010,7 +6128,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6122,7 +6240,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6234,7 +6352,7 @@ span.title {
               
             
             
-           background="/img/NiAmcYR2YG-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/NiAmcYR2YG-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6346,7 +6464,7 @@ span.title {
               
             
             
-           background="/img/iCM855e8H1-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/iCM855e8H1-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6458,7 +6576,7 @@ span.title {
               
             
             
-           background="/img/idIHQFknw3-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/idIHQFknw3-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6570,7 +6688,7 @@ span.title {
               
             
             
-           background="/img/9ad9tctELs-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/9ad9tctELs-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6682,7 +6800,7 @@ span.title {
               
             
             
-           background="/img/k9_gflSFg9-226.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/k9_gflSFg9-226.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6794,7 +6912,7 @@ span.title {
               
             
             
-           background="/img/1EZyswqMJQ-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/1EZyswqMJQ-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -6906,7 +7024,7 @@ span.title {
               
             
             
-           background="/img/FGkC1AJ5n7-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/FGkC1AJ5n7-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -7018,7 +7136,7 @@ span.title {
               
             
             
-           background="/img/7-dd76TlYq-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/7-dd76TlYq-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -7130,7 +7248,7 @@ span.title {
               
             
             
-           background="/img/4wLQ357-_H-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/4wLQ357-_H-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -7242,7 +7360,7 @@ span.title {
               
             
             
-           background="/img/Rf51hbo7f--250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/Rf51hbo7f--250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -7354,7 +7472,7 @@ span.title {
               
             
             
-           background="/img/WY4WqboMfN-250.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/WY4WqboMfN-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -7466,7 +7584,7 @@ span.title {
               
             
             
-           background="/img/lf_wPzvwGj-250.webp" class="posts  light "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/lf_wPzvwGj-250.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -7578,7 +7696,7 @@ span.title {
               
             
             
-           background="/img/EZmh0rwPUf-236.webp" class="posts  dark "><template shadowroot="open" shadowrootmode="open"><style>
+           background="/img/EZmh0rwPUf-236.webp" class="posts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -7682,7 +7800,7 @@ span.title {
 
     <footer>
       <p class="legal">
-        Website version 3.17.4 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik.
+        Website version 3.18.0 &copy; 2016-2024 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik.
       </p>
     </footer>
 

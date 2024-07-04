@@ -546,91 +546,6 @@
   r4?.({ LitElement: s3 });
   (globalThis.litElementVersions ??= []).push("4.0.6");
 
-  // _components/my-button.js
-  var MyButton = class _MyButton extends s3 {
-    static formAssociated = true;
-    static styles = i`
-    :host {
-      display: inline-block;
-    }
-
-    .button {
-      height: 38px;
-      padding: 0 30px;
-      color: white;
-      background-color: red;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: bold;
-      border-radius: 4px;
-      border: 1px solid #bbb;
-      cursor: pointer;
-      box-sizing: border-box;
-      line-height: 38px;
-      text-transform: uppercase;
-      text-decoration: none;
-      white-space: nowrap;
-      text-align: center;
-    }
-
-    .button a {
-      color: inherit;
-      text-decoration: inherit;
-      cursor: inherit;
-    }
-
-    .button:hover {
-      color: #2f3237;
-    }
-
-    :host([disabled="true"]) .button {
-      opacity: 0.6;
-      cursor: not-allowed;
-    }
-
-    :host([disabled="true"]) .button a {
-      pointer-events: none;
-      cursor: not-allowed;
-      opacity: 0.6;
-    }
-  `;
-    static properties = {
-      src: {
-        attribute: "src",
-        type: String
-      },
-      title: {
-        attribute: "title",
-        type: String
-      },
-      type: {
-        attribute: "type",
-        type: String
-      }
-    };
-    static Type = {
-      Submit: "submit"
-    };
-    connectedCallback() {
-      super.connectedCallback();
-      if (this.type === _MyButton.Type.Submit) {
-        const internals = this.attachInternals();
-        this.addEventListener("click", () => {
-          const submit = new CustomEvent("submit");
-          internals.form.dispatchEvent(submit);
-        });
-      }
-    }
-    render() {
-      return x`
-      <div class="button">
-        ${this.type !== _MyButton.Type.Submit ? x`<a href="${this.src}">${this.title}</a>` : x`${this.title}`}
-      </div>
-    `;
-    }
-  };
-  customElements.define("my-button", MyButton);
-
   // _components/my-section.js
   var MySection = class extends s3 {
     static styles = i`
@@ -663,7 +578,6 @@
 
       font-family: var(--subtitle-font-family);
       font-size: 1rem;
-      font-weight: bold;
       text-transform: lowercase;
     }
 
@@ -1171,7 +1085,9 @@
         ${this.notes ? this.renderNotes() : x``}
 
         <div class="call button">
-          <my-button title="${this.call}" src="${this.src}" disabled="${this.disabled}"></my-button>
+          <a href="${this.src}">
+            <button src="${this.src}" disabled="${this.disabled}">${this.call}</button>
+          </a>
         </div>
       </div>
     `;

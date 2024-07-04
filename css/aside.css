@@ -33,3 +33,8 @@
 #post aside img {
   border: none;
 }
+
+.content aside ul,
+.content aside ol {
+  padding-left: 1em;
+}
