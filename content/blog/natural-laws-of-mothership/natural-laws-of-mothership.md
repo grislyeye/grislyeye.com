@@ -2,7 +2,7 @@
 title: Natural Laws of Mothership
 tags:
   - posts
-date: 2024-07-01
+date: 2024-07-04
 layout: layouts/post.njk
 image: /blog/natural-laws-of-mothership/captain-kirk.jpg
 ---
