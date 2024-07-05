@@ -1,6 +1,7 @@
 const { DateTime } = require('luxon');
 const esbuild = require('esbuild');
 
+const markdownItAnchor = require('markdown-it-anchor');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginBundle = require('@11ty/eleventy-plugin-bundle');
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
@@ -17,6 +18,14 @@ const pluginImages = require('./eleventy.config.images.js');
 const metadata = require('./_data/metadata.js');
 
 module.exports = (eleventyConfig) => {
+  eleventyConfig.amendLibrary('md', (mdLib) => {
+    mdLib.use(markdownItAnchor, {
+      permalink: markdownItAnchor.permalink.headerLink(),
+      level: [1, 2, 3, 4],
+      slugify: eleventyConfig.getFilter('slugify')
+    });
+  });
+
   eleventyConfig.addPassthroughCopy({
     './public/': '/'
   });

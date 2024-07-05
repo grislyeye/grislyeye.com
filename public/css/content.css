@@ -12,7 +12,7 @@ span.strike {
 .content h3,
 .content h4,
 .content h5 {
-  font-family: "Andada SC", serif;
+  font-family: var(--title-font-family);
   color: red;
 }
 
@@ -21,7 +21,7 @@ span.strike {
 .content h3 a,
 .content h4 a,
 .content h5 a {
-  font-family: "Andada SC", serif;
+  font-family: var(--title-font-family);
   color: red;
   text-decoration: none;
 }
