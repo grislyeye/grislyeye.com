@@ -56,7 +56,7 @@ module.exports = (eleventyConfig) => {
         imgOptions: {
           widths: [720],
           outputDir: path.join('_site', 'img'),
-          formats: ['avif', 'webp']
+          formats: ['jpeg', 'png']
         }
       }));
 };
