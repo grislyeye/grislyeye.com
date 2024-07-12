@@ -32,6 +32,10 @@
   color: red;
 }
 
+#post blockquote + ul li a {
+  color: red;
+}
+
 #post blockquote + ul,
 #post blockquote ol:last-child,
 #post blockquote ul:last-child {
@@ -47,6 +51,11 @@
 
 #post blockquote ol:last-child li em,
 #post blockquote ul:last-child li em {
+  color: red;
+}
+
+#post blockquote ol:last-child li a,
+#post blockquote ul:last-child li a {
   color: red;
 }
 
