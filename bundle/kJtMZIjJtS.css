@@ -124,6 +124,10 @@
   color: red;
 }
 
+#post blockquote + ul li a {
+  color: red;
+}
+
 #post blockquote + ul,
 #post blockquote ol:last-child,
 #post blockquote ul:last-child {
@@ -139,6 +143,11 @@
 
 #post blockquote ol:last-child li em,
 #post blockquote ul:last-child li em {
+  color: red;
+}
+
+#post blockquote ol:last-child li a,
+#post blockquote ul:last-child li a {
   color: red;
 }
 
@@ -572,6 +581,44 @@ vellum-monster h2 {
 
 #post section.two-column > *:first-child {
   margin-top: 0;
+}
+
+      #post a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-image:
+    linear-gradient(
+      to top,
+      #4b4b4b 0%,
+      #4b4b4b 20%,
+      transparent 80%,
+      transparent 100%
+    );
+}
+
+#post h1 a,
+#post h2 a,
+#post h3 a,
+#post h4 a {
+  color: red;
+  text-decoration: none;
+  background-image: none;
+  background-color: transparent;
+}
+
+#post a:hover {
+  background-color: #4b4b4b;
+}
+
+#post h1 a:hover,
+#post h2 a:hover,
+#post h3 a:hover,
+#post h4 a:hover {
+  color: red;
+  text-decoration: none;
+  background-image: none;
+  background-color: transparent;
 }
 
       .content dl dt {
