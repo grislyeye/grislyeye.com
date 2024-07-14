@@ -899,7 +899,8 @@
     }
 
     /* light theme */
-    :host(.light[background]:not(.products)) h1 {
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
       color: black;
     }
 
