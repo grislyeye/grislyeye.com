@@ -30,7 +30,7 @@ class MyPage extends LitElement {
   `;
 
   static properties = {
-    title: { attribute: 'title' }
+    name: { attribute: 'name' }
   };
 
   render() {
@@ -46,11 +46,11 @@ class MyPage extends LitElement {
   }
 
   renderTitle() {
-    const [first, ...tail] = this.title.split(' ');
+    const [first, ...tail] = this.name.split(' ');
     if (first && tail) {
       return html`${ first } <br> ${ tail.join(' ') }`;
     }
-    return this.title;
+    return this.name;
   }
 }
 

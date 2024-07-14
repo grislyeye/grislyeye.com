@@ -3,7 +3,7 @@ layout: layouts/base.njk
 shareable: true
 ---
 <article class="post content">
-  <my-page id="post" title="{{ title }}">
+  <my-page id="post" name="{{ title }}">
     <div class="page-subtitle" slot="subtitle">
       <span>{{ page.date | readableDate }}</span>
       <share-button>
