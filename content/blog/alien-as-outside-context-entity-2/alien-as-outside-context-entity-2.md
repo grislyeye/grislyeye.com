@@ -2,10 +2,11 @@
 title: Alien as outside context entity part 2
 tags:
   - posts
-  - drafts
-date: 2024-07-05
+date: 2024-07-16
 layout: layouts/post.njk
+image: /blog/alien-as-outside-context-entity-2/jonesy.png
 ---
+There's another essay here on the politics of alien psychology.
 
 <aside>
 
@@ -14,14 +15,6 @@ This post is part 2 of a two-part [self-essay](https://rolltodoubt.wordpress.com
 **Note:** you should definitely read [part 1](/blog/alien-as-outside-context-entity) first.
 
 </aside>
-
-> It was a beautiful drive. The locals called this route the Pride of Accord, and the Royal Family had never dared complain. This was the height of a summer. The forest was fully thirty years old, about as old as trees could ever get. They reached straight and high and green, and grew right up to the edge of the highway. The scent of flowers and forest resin drifted cool past his perch on the auto.
-
-- _A Deepness in the Sky_ by Vernor Vinge, 1999
-
-In _A Deepness in the Sky_, Vernor Vinge convincingly describes a species of intelligent, spider-like aliens, but undercuts this completely by having one of these creatures go for a nice drive through the countryside.
-
-What happened?
 
 ![Still from Annihilation, 2018](./content/blog/alien-as-outside-context-entity-2/annihilation.webp "The Lighthouse")
 
@@ -90,9 +83,9 @@ The xenomorph is not an animal, but it also lacks personhood. It acts with inten
 
 Is it intelligent? It's unclear. It seems on the cusp of intelligence. You get the sense humans are just in the way of whatever is motivating it. It's only intersection with us is the bothersome matter of flesh, and that feels like a stopping over point for its true intent, whatever that is.
 
-More than all of that, however, the true masterstroke of _Alien_ is that we do not understand the xenomorph, and it *makes sense* at the same time. Its eerily familiar biology is something we can grasp. It follows a kind of logic, as John Hurt eloquently put it, a sort of symmetry with us, which somehow makes it even more incomprehensible.
+More than all of that, however, the true masterstroke of _Alien_ is that we do not understand the xenomorph, and it *makes sense* at the same time. The eerie familiarity of its biology is something we can grasp. It follows a kind of logic, as John Hurt eloquently put it. It has a sort of symmetry with us, which somehow makes it even more incomprehensible.
 
-We understand what the xenomorph does, but not understanding the *why* is what makes us scream.
+We understand what the xenomorph does, but the unanswered *why* is what makes us scream.
 
 ## End Thoughts
 
