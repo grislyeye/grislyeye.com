@@ -11,7 +11,7 @@ image: /blog/alien-as-outside-context-entity-2/jonesy.png
 
 This post is the second part of a two-part [self-essay](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote on how to portray aliens for games like _Mothership_.
 
-**Note:** you should definitely read [part 1](/blog/alien-as-outside-context-entity) first.
+**Note:** you should definitely read [part 1](/blog/alien-as-outside-context-entity) first. There are some mild **spoilers**.
 
 </aside>
 
@@ -50,11 +50,11 @@ That would be something truly fearful.
 >If a lion could speak, we could not understand him.
 - _Philosophical Investigations_ by Ludwig Wittgenstein, 1953
 
-According to Wittgenstein, language is fundamental to consciousness. It is inseparably connected to our experiences, understandings, values, and perceptions, and that understanding is only possible with a shared context. And it's a narrow context, informed by our very limited, human perceptions of the world around us.
+According to Wittgenstein, language is fundamental to consciousness. It is inseparably connected to our experiences, understandings, values and perceptions, and that understanding is only possible within a shared context. And it's a narrow context, informed by our very limited, human perceptions of the world around us.
 
-In other words, the aliens are already here with us, on Earth. If the conceptual gulf between us and lions is so vast then there's no hope of meaningful communication, then what hope is there for communication with hypothetical alien intelligences?
+In other words, the aliens are already here on Earth. If the conceptual gulf between us and lions is so vast then there's no hope of meaningful communication, then what hope is there for communication with hypothetical alien intelligences?
 
-There are so many ways we might differ psychologically with aliens. Our values would likely be at odds. We would perceive different things, and if our perceptions are different, our experiences certainly would be. No language could bridge that gap, or so Wittgenstein would have it.
+There are so many ways we might differ psychologically from aliens. Our values would likely be at odds. We would perceive different things, and if our perceptions are different, our experiences certainly would be. No language could bridge that gap, or so Wittgenstein would have it.
 
 If an alien could speak, why would it? Would we even know it was talking? Would we even recognise it as intelligent?
 
@@ -72,7 +72,7 @@ All very philosophical, but the point is that language is the crux of portraying
 <aside>
 
 
-The subsequent revelations about the artificial origins of the xenomorphs (in *Prometheus* and its sequels) offer little comfort. In this new narrative, androids and xenomorphs are cousins, artificial creations of humans and Engineers. The act of creation dooms us both, and our children promptly go "peculiar," as Ridley Scott put it, and turn on us.
+The subsequent revelations about the artificial origins of the xenomorphs (in *Prometheus* and its sequels) offer little comfort. In this new narrative, androids and xenomorphs are cousins, artificial creations of humans and Engineers. Our children promptly go "peculiar," as Ridley Scott put it, and turn on us. The act of creation has doomed us both.
 
 In the case of the android, the call is coming from inside the building. The alien is of our own creation, all the more alien for its uncanny familiarity. In *Mothership*, androids have all the physical failings of humans, but that is no comfort. Their "cold inhumanity" is baked into the rules. ("Fear saves made by close friendly players are at disadvantage.")
 
@@ -88,7 +88,7 @@ And the creature is not just physically uncategorisable, it portrays truly alien
 
 The xenomorph is not an animal, but it also lacks personhood. It acts with intent, can even outwit the crew of the *Nostromo*, but appears to lack any other imperative than to kill or breed. Certainly, if it spoke we could not understand it, any more than the lion, but I know which I'd rather be stuck on a ship with. We're relatively safe from the lion as long as it is satiated, but the xenomorph clearly transcends any mere predator. It always hungers, always acts with immediate and deadly hostility. Does it hate us? Hate doesn't seem to fit, feels too much like transference, but it's clearly going beyond any survival instinct we would understand. 
 
-Is it intelligent? It's unclear. It seems on the cusp of intelligence. You get the sense humans are just in the way of whatever is motivating it. It's only intersection with us is the bothersome matter of flesh, and that feels like a stopping over point for its true intent, whatever that is.
+Is it intelligent? It's unclear. It seems on the cusp of intelligence. You get the sense humans are just in the way of whatever is motivating it. It's only intersection with us is the bothersome matter of flesh, and that feels like a stopover for its true intent, whatever that is.
 
 More than all of that, however, the true masterstroke of _Alien_ is that we do not understand the xenomorph, and it *makes sense* at the same time. The eerie familiarity of its biology is something we can grasp. It follows a kind of logic, as John Hurt eloquently put it. It has a sort of symmetry with us, which somehow makes it even more incomprehensible.
 
@@ -106,8 +106,8 @@ This article was research for [CONT/EXT](https://grislyeye.com/products/context)
 
 It's difficult to give clear advice on how to portray outside context entities for your games. The examples above demonstrate it's possible, with differing levels of success. (The strange entities from Jeff Vandermeer's _Annihilation_ stray too far into surrealism to be convincing, for my taste.) It requires imagination. It requires an understanding of scifi. Reading scientific periodicals like _New Scientist_ can expand your grasp of what is possible, but too much science can betray your imagination.
 
-The key thing I believe is the symmetry I mentioned above: creating incomprehensible entities that make a *kind* of sense.
+The key thing is the symmetry I mentioned above: creating incomprehensible entities that make a *kind* of sense.
 
 In _CONT/EXT_ the outside context entity is the mysterious super-structure referred to as "The Thread."  The Thread is a cable-like structure that hangs in deep space, 30 km wide, and indefinitely long: a terminus cannot be observed. To exist it must be made of an impossible material but, for our players, the question of why it exists matters more.
 
-I give some hints to the GM about what the Thread is, but players cannot understand what they're looking at when they see it. I'm not even sure I know what it is, exactly. Just like the xenomorphs, it makes a kind of sense, even if we cannot understand it. Running a cable through space is something we would do if we could. Why would something else do that? Well, buy the adventure and find out.
+I give some hints to the GM about what the Thread is, but players cannot understand what they're looking at when they see it. I'm not even sure I know what it is, exactly. Just like the xenomorph, it makes a kind of sense, even if we cannot understand it. Running a giant cable through space is something we would do if we could. Why would something else do that? Well, buy the adventure and find out.
