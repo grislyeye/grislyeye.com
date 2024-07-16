@@ -800,7 +800,7 @@
     }
   `;
     static properties = {
-      title: { attribute: "title" }
+      name: { attribute: "name" }
     };
     render() {
       return x`
@@ -814,11 +814,11 @@
     `;
     }
     renderTitle() {
-      const [first, ...tail] = this.title.split(" ");
+      const [first, ...tail] = this.name.split(" ");
       if (first && tail) {
         return x`${first} <br> ${tail.join(" ")}`;
       }
-      return this.title;
+      return this.name;
     }
   };
   customElements.define("my-page", MyPage);
