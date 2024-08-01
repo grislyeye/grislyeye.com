@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.21.0",
+  "version": "3.21.1",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "clean": "rimraf _site",
@@ -50,7 +50,7 @@
     "luxon": "^3.4.4",
     "markdown-it-anchor": "^9.0.1",
     "markdown-it-eleventy-img": "^0.10.2",
-    "stylelint": "^16.6.1",
+    "stylelint": "^16.8.1",
     "stylelint-config-standard": "^36.0.1"
   }
 }
