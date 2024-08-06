@@ -11,7 +11,9 @@ image: /blog/alien-as-outside-context-entity-2/jonesy.png
 
 This post is the second part of a two-part [self-essay](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote on how to portray aliens for games like _Mothership_.
 
-**Note:** you should definitely read [part 1](/blog/alien-as-outside-context-entity) first. There are some mild **spoilers**.
+Includes some mild **spoilers**.
+
+**Note:** you should definitely read [part 1](/blog/alien-as-outside-context-entity) first.
 
 </aside>
 
