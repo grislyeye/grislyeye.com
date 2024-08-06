@@ -2,7 +2,7 @@ module.exports = {
   title: 'The Grisly Eye',
   url: 'https://grislyeye.com',
   language: 'en',
-  description: 'Ric Wood is an indie game designer and forever DM.',
+  description: '...is Ric Wood, indie game designer and forever GM.',
   author: {
     name: 'Ric Wood',
     email: 'rig@grislyeye.com',
