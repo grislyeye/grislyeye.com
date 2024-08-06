@@ -20,6 +20,7 @@ export const isPrimitive = (value) => value === null || (typeof value != 'object
 export const TemplateResultType = {
     HTML: 1,
     SVG: 2,
+    MATHML: 3,
 };
 /**
  * Tests if a value is a TemplateResult or a CompiledTemplateResult.
