@@ -41,7 +41,7 @@ If you don't know, [slash pages](https://slashpages.net/) are common pages with 
 ### Roleplaying Games
 
   - *Advanced Dungeons & Dragons 2nd Edition* (1989, 1st printing) by David Cook
-  - *Amber Dice's Role-Playing* (1991) by Erick Wujcik
+  - *Amber Diceless Role-Playing* (1991) by Erick Wujcik
   - *Ars Magica 3rd Edition* (1992)
   - _Changeling: The Dreaming_ (1995)
   - _City of Thieves_ (1983) by Ian Livingstone
