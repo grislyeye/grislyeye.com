@@ -69,7 +69,7 @@ All very philosophical, but the point is that language is the crux of portraying
 
 >...it was a perfectly, perfectly reasonable, it seemed to me, that... that some organism should incubate within the warmth of another being.
 
-- John Hurt speaking in *[The Beast Within: The Making of Alien](https://www.youtube.com/watch?v=F4G1Jg1oJt8)*, 2023
+- John Hurt speaking in *[The Beast Within: The Making of Alien](https://www.youtube.com/watch?v=F4G1Jg1oJt8)*, 2003
 
 <aside>
 

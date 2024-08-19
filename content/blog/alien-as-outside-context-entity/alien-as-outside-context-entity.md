@@ -100,7 +100,7 @@ The problem with analogous autocatalytic systems is that they propose forms of l
 
 >...it was a perfectly, perfectly reasonable, it seemed to me, that... that some organism should incubate within the warmth of another being.
 
-- John Hurt speaking in *[The Beast Within: The Making of Alien](https://www.youtube.com/watch?v=F4G1Jg1oJt8)*, 2023
+- John Hurt speaking in *[The Beast Within: The Making of Alien](https://www.youtube.com/watch?v=F4G1Jg1oJt8)*, 2003
 
 While we stretch the definition of life, we must take care to stretch it only so far. The xenomorph, for example, is horrifying because it is incomprehensible, but also because it speaks to uncomfortable and undeniable truths about biology. It follows a set of rules that make it feel palpable.
 
