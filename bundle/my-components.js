@@ -921,10 +921,13 @@
       return this.renderRoot.querySelector(".container").style;
     }
     get backgroundImage() {
-      if (this.class.includes("light") && this.type !== _MyPreview.Book) {
-        return `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('${this.backgroundSrc}')`;
+      if (this.backgroundSrc) {
+        if (this.class.includes("light") && this.type !== _MyPreview.Book) {
+          return `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('${this.backgroundSrc}')`;
+        }
+        return `url('${this.backgroundSrc}')`;
       }
-      return `url('${this.backgroundSrc}')`;
+      return "";
     }
     get backgroundBlendMode() {
       if (this.type === _MyPreview.Book) return "none";
