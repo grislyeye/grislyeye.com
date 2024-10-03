@@ -151,4 +151,4 @@ export default async (eleventyConfig) => {
 
     pathPrefix: '/'
   };
-}
+};
