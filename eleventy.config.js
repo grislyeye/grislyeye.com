@@ -1,23 +1,23 @@
-const { DateTime } = require('luxon');
-const esbuild = require('esbuild');
+import { DateTime } from 'luxon';
+import esbuild from 'esbuild';
 
-const markdownItAnchor = require('markdown-it-anchor');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const pluginBundle = require('@11ty/eleventy-plugin-bundle');
-const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
+import markdownItAnchor from 'markdown-it-anchor';
+import pluginRss from '@11ty/eleventy-plugin-rss';
+import pluginBundle from '@11ty/eleventy-plugin-bundle';
+import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
 
-const pluginSitemap = require('@quasibit/eleventy-plugin-sitemap');
-const pluginLit = require('@lit-labs/eleventy-plugin-lit');
-const pluginFavicons = require('eleventy-plugin-gen-favicons');
-const pluginSEO = require('eleventy-plugin-seo');
-const pluginGoogleFonts = require('eleventy-google-fonts');
+import pluginSitemap from '@quasibit/eleventy-plugin-sitemap';
+import pluginLit from '@lit-labs/eleventy-plugin-lit';
+import pluginFavicons from 'eleventy-plugin-gen-favicons';
+import pluginSEO from 'eleventy-plugin-seo';
+import pluginGoogleFonts from 'eleventy-google-fonts';
 
-const path = require('path');
+import path from 'path';
 
-const pluginImages = require('./eleventy.config.images.js');
-const metadata = require('./_data/metadata.js');
+import pluginImages from './eleventy.config.images.js';
+import metadata from './_data/metadata.js';
 
-module.exports = (eleventyConfig) => {
+export default async (eleventyConfig) => {
   eleventyConfig.amendLibrary('md', (mdLib) => {
     mdLib.use(markdownItAnchor, {
       permalink: markdownItAnchor.permalink.headerLink(),
@@ -151,4 +151,4 @@ module.exports = (eleventyConfig) => {
 
     pathPrefix: '/'
   };
-};
+}

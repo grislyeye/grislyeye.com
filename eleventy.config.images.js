@@ -1,9 +1,9 @@
-const path = require('path');
-const eleventyImage = require('@11ty/eleventy-img');
-const markdownIt = require('markdown-it');
-const markdownItEleventyImg = require('markdown-it-eleventy-img');
+import path from 'path';
+import eleventyImage from '@11ty/eleventy-img';
+import markdownIt from 'markdown-it';
+import markdownItEleventyImg from 'markdown-it-eleventy-img';
 
-module.exports = (eleventyConfig) => {
+export default async (eleventyConfig) => {
   function relativeToInputPath(inputPath, relativeFilePath) {
     if (relativeFilePath.startsWith('/')) {
       return `./content${ relativeFilePath }`;

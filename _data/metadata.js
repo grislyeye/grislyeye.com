@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   title: 'The Grisly Eye',
   url: 'https://grislyeye.com',
   language: 'en',
