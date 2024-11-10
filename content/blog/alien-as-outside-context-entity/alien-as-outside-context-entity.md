@@ -2,6 +2,7 @@
 title: Alien as outside context entity
 tags:
   - posts
+  - context
 date: 2024-07-04
 layout: layouts/post.njk
 image: /blog/alien-as-outside-context-entity/captain-kirk.jpg

@@ -1,4 +1,5 @@
 import { LitElement, html, css } from 'lit';
+import './my-button.js';
 
 class MyProduct extends LitElement {
   static styles = css`
@@ -106,7 +107,9 @@ class MyProduct extends LitElement {
 
         <div class="call button">
           <a href="${ this.src }">
-            <button src="${ this.src }" disabled="${ this.disabled }">${ this.call }</button>
+            <my-button>
+              <button src="${ this.src }" ?disabled="${ this.disabled }">${ this.call }</button>
+            </my-button>
           </a>
         </div>
       </div>

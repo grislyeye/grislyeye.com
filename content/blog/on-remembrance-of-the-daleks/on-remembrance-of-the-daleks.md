@@ -2,6 +2,7 @@
 title: On Remembrance of the Daleks
 tags:
   - posts
+  - context
 date: 2024-04-02
 layout: layouts/post.njk
 image: /blog/on-remembrance-of-the-daleks/special-weapons-dalek.png
@@ -107,4 +108,3 @@ _Remembrance_ plays off the contrast between drab locale and high-concept sci-fi
 The Daleks fight each other as much through their human proxies as they do directly, which lends an air of quiet desperation. Men, women and children (and I'm counting the Doctor's allies in this) conscripted into horrifying, alien agendas they can't possibly satisfy.
 
 It all works to ground the high-concept elements. I'm not going to say it makes it any more believable but, for the author of this article, it certainly offers some interesting alternatives to the aspirational elements of contemporary science fiction, in terms of setting, tone and characters.
-
