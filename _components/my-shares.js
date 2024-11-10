@@ -72,7 +72,7 @@ class MyShares extends LitElement {
 
         <share-on-mastodon
           data-share-title="${ this.title }"
-          data-author="@grislyeye@indieweb.social"
+          data-author="@grislyeye@c.im"
         >
           <img slot="button" src="/images/mastodon.svg" class="icon" alt="Mastodon icon">
         </share-on-mastodon>
