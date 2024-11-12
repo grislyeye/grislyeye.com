@@ -20,12 +20,21 @@ class MyButton extends LitElement {
       text-decoration: none;
       white-space: nowrap;
       text-align: center;
+    }
+
+    .disabled.button ::slotted(button) {
+      pointer-events: none;
+      background-color: grey;
+      color: lightgrey;
     }`;
 
-  // eslint-disable-next-line class-methods-use-this
+  static properties = {
+    disabled: { attribute: 'disabled', type: Boolean }
+  };
+
   render() {
     return html`
-      <div class="button">
+      <div class="button ${ this.disabled ? 'disabled' : '' }">
         <slot></slot>
       </div>`;
   }

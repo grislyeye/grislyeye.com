@@ -12,7 +12,7 @@ image: /products/context/context.png
 <aside class="purchase">
 
   <my-product
-    id="print"
+    id="print-intl"
     class="product"
     product="CONT/EXT"
     call="Buy Print + PDF"
@@ -25,8 +25,18 @@ image: /products/context/context.png
 
   <hr>
 
-  <my-product id="print" class="product" product="CONT/EXT" call="Buy Print + PDF" currency="£" price="8"
-    src="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo" notes='["+£2 postage.", "UK only."]' image="{% rawImageUrl page, "./context-print.png", 200 %}">
+  <my-product
+    id="print-uk"
+    class="product"
+    product="CONT/EXT"
+    call="Buy Print + PDF"
+    currency="£"
+    price="8"
+    src="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo"
+    notes='["+£2 postage.", "UK only."]'
+    image="{% rawImageUrl page, "./context-print.png", 200 %}"
+    timezones='["Europe/London"]'
+  >
   </my-product>
 
   <hr>
@@ -68,7 +78,7 @@ image: /products/context/context.png
 <p>As part of my work writing <span class="product">CONT/EXT</span> I put together some blog posts that dive into the
   conceptual underpinnings of the module. You can read them here:</p>
 
-<ul id="products" class="previews">
+<ul class="previews">
   {% for post in collections.context | reverse | limit(4) %}
   <li class="preview">
     {% if (post.data.redirectTo) %}{% set url %}{{ post.data.redirectTo }}{% endset %}
@@ -100,17 +110,3 @@ image: /products/context/context.png
   Games. This product is published under license. MOTHERSHIP® is a registered trademark of Tuesday Knight Games. All
   rights reserved. For additional information, visit www.tuesdayknightgames.com or contact
   contact@tuesdayknightgames.com.</p>
-
-<script>
-  const timezone =
-    Intl.DateTimeFormat()
-      .resolvedOptions()
-      .timeZone
-
-  const shipping = timezone && timezone === "Europe/Londons"
-  const buyPrintButton = document.getElementById("buy-print")
-
-  if (!shipping && buyPrintButton) {
-    buyPrintButton.classList.add("disabled")
-  }
-</script>

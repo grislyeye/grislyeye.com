@@ -7,6 +7,10 @@ class MyProduct extends LitElement {
       display: block;
     }
 
+    :host(.disabled .button button) {
+      background-color: green;
+    }
+
     :slotted(.picture) {
       width: 200px;
       height: auto;
@@ -62,32 +66,21 @@ class MyProduct extends LitElement {
 
   static properties = {
     product: { attribute: 'product', type: String },
-    title: { attribute: 'title', type: String },
     call: { attribute: 'call', type: String },
     currency: { attribute: 'currency', type: String },
     price: { attribute: 'price', type: String },
     src: { attribute: 'src', type: String },
     notes: { attribute: 'notes', type: Array },
     image: { attribute: 'image', type: String },
-    timezones: { attribute: 'timezones', type: Array },
-    disabled: { attribute: 'disabled', type: Boolean }
+    timezones: { attribute: 'timezones', type: Array }
   };
 
-  connectedCallback() {
-    super.connectedCallback();
+  get shipping() {
+    const timezone = Intl.DateTimeFormat()
+      .resolvedOptions()
+      .timeZone;
 
-    if (this.timezones) {
-      const timezone = Intl.DateTimeFormat()
-        .resolvedOptions()
-        .timeZone;
-
-      const shipping = timezone && this.timezones.includes(timezone);
-      const callButton = this.shadowRoot.querySelector('my-button');
-
-      if (!shipping && callButton) {
-        callButton.setAttribute('disabled', 'true');
-      }
-    }
+    return !this.timezones || this.timezones.length === 0 || this.timezones.includes(timezone);
   }
 
   render() {
@@ -106,11 +99,9 @@ class MyProduct extends LitElement {
         ${ this.notes ? this.renderNotes() : html`` }
 
         <div class="call button">
-          <a href="${ this.src }">
-            <my-button>
-              <button src="${ this.src }" ?disabled="${ this.disabled }">${ this.call }</button>
-            </my-button>
-          </a>
+          <my-button ?disabled=${ !this.shipping }>
+            <button src="${ this.src }">${ this.call }</button>
+          </my-button>
         </div>
       </div>
     `;
