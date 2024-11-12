@@ -54,6 +54,11 @@ class MyProduct extends LitElement {
       margin-top: 0.6rem;
     }
 
+    .disabled a {
+      pointer-events: none;
+      cursor: default;
+    }
+
     @media (max-width: 500px) {
       :host {
         width: 100%;
@@ -98,10 +103,12 @@ class MyProduct extends LitElement {
 
         ${ this.notes ? this.renderNotes() : html`` }
 
-        <div class="call button">
-          <my-button ?disabled=${ !this.shipping }>
-            <button src="${ this.src }">${ this.call }</button>
-          </my-button>
+        <div class="call button ${ this.shipping ? '' : 'disabled' }">
+          <a href="${ this.src }">
+            <my-button ?disabled=${ !this.shipping }>
+              <button>${ this.call }</button>
+            </my-button>
+          </a>
         </div>
       </div>
     `;
