@@ -9,7 +9,7 @@ image: /blog/alien-as-outside-context-entity/captain-kirk.jpg
 ---
 <aside>
 
-This post evolved out of a series of [self-essays](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote on the subject of _Mothership_  while developing [CONT/EXT](https://grislyeye.com/products/context/). I present these (incomplete) thoughts here. Please see my previous article on [institutional horror](/blog/shiftless-horror/).
+This post evolved out of a series of [self-essays](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote on the subject of _Mothership_  while developing [CONT/EXT](/products/context/). I present these (incomplete) thoughts here. Please see my previous article on [institutional horror](/blog/shiftless-horror/).
 
 </aside>
 
@@ -113,9 +113,9 @@ When creating improbable biologies, there must be some hook our players can grab
 <aside>
 
 
-[![Cover image from CONT/EXT](./content/products/context/preview.png "CONT/EXT")](https://grislyeye.com/products/context)
+[![Cover image from CONT/EXT](./content/products/context/preview.png "CONT/EXT")](/products/context)
 
-This article was research for [CONT/EXT](https://grislyeye.com/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
+This article was research for [CONT/EXT](/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 
 </aside>
 
