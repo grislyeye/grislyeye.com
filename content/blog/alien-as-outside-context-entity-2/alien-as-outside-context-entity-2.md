@@ -101,7 +101,7 @@ We understand what the xenomorph does, but the unanswered *why* is what makes us
 
 <aside>
 
-[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](https://grislyeye.com/products/context)
+[![Cover image from CONT/EXT](./content/products/context/preview.png "CONT/EXT")](https://grislyeye.com/products/context)
 
 This article was research for [CONT/EXT](https://grislyeye.com/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 

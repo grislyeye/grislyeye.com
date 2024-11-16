@@ -22,6 +22,11 @@ class MyButton extends LitElement {
       text-align: center;
     }
 
+    :host(.small) ::slotted(button) {
+      font-size: 10pt;
+      padding: 0 15px;
+    }
+
     .disabled.button ::slotted(button) {
       pointer-events: none;
       background-color: grey;

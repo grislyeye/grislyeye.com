@@ -7,47 +7,11 @@ tags:
 - featured
 date: 2023-01-23
 layout: layouts/post.njk
-image: /products/context/context.png
+image: /products/context/preview.png
 ---
-<aside class="purchase">
-
-  <my-product
-    id="print-intl"
-    class="product"
-    product="CONT/EXT"
-    call="Buy Print + PDF"
-    currency="$"
-    price="8"
-    src="https://www.tuesdayknightgames.com/collections/mothership-featured-modules/products/context"
-    notes='["International shipping."]'
-    image="{% rawImageUrl page, "./context-print.png", 200 %}">
-  </my-product>
-
-  <hr>
-
-  <my-product
-    id="print-uk"
-    class="product"
-    product="CONT/EXT"
-    call="Buy Print + PDF"
-    currency="£"
-    price="8"
-    src="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo"
-    notes='["+£2 postage.", "UK only."]'
-    image="{% rawImageUrl page, "./context-print.png", 200 %}"
-    timezones='["Europe/London"]'
-  >
-  </my-product>
-
-  <hr>
-
-  <my-product id="digital" class="product" product="CONT/EXT" call="Buy PDF (Only)" currency="£" price="3"
-    src="https://grislyeye.itch.io/context/purchase" image="{% rawImageUrl page, "./context-digital.png", 200 %}">
-  </my-product>
-</aside>
-
 <figure class="illustration">
-  {% image "./mothership-compat-logo.png", "This product is based on the Mothership® Sci-Fi Horror Role Playing Game", [ "200px" ]  %}
+  {% image "./cover.png", "Cover of CONT/EXT", [ "300px" ]  %}
+  {% image "./mothership-compat-logo.png", "This product is based on the Mothership® Sci-Fi Horror Role Playing Game", [ "300px" ]  %}
 </figure>
 
 <p><span class="product">CONT/EXT</span> is a one-shot of cosmic horror for use with <span
@@ -72,6 +36,39 @@ image: /products/context/context.png
   <li>printable player map for table-top</li>
   <li>colour player map and character tokens for VTT</li>
 </ul>
+
+<h3 id="purchase">Purchase</h3>
+
+<my-product
+  class="product"
+  call="Buy Print"
+  currency="$"
+  price="8"
+  src="https://www.tuesdayknightgames.com/collections/mothership-featured-modules/products/context"
+  notes='["International shipping"]'
+>
+</my-product>
+
+<my-product
+  class="product"
+  call="Buy Print"
+  currency="£"
+  price="8"
+  src="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo"
+  notes='["+£2 postage", "UK only"]'
+  timezones='["Europe/London"]'
+>
+</my-product>
+
+<my-product
+  class="product"
+  call="Buy PDF"
+  currency="£"
+  price="3"
+  src="https://grislyeye.itch.io/context/purchase"
+  notes='["Digital only"]'
+>
+</my-product>
 
 <h3>Concepts</h3>
 

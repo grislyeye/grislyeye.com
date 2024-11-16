@@ -5,78 +5,41 @@ class MyProduct extends LitElement {
   static styles = css`
     :host {
       display: block;
-    }
-
-    :host(.disabled .button button) {
-      background-color: green;
-    }
-
-    :slotted(.picture) {
-      width: 200px;
-      height: auto;
+      padding-bottom: 1em;
     }
 
     .call.box {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: space-around;
-    }
-
-    ul.notes {
-      padding: 0;
-      margin: 0;
-      max-width: 50%;
-    }
-
-    .notes li {
-      color: white;
-      font-size: 1rem;
-      font-style: normal;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
+      gap: 0.5em;
     }
 
     .price {
-      float: left;
       margin: 0;
       padding: 0;
-      font-size: 3rem;
       font-style: normal;
-      font-weight: normal;
+      font-weight: bold;
       color: white;
       line-height: 1;
     }
 
-    .button {
-      text-align: center;
-      margin-top: 0.6rem;
+    .notes {
+      font-style: italic;
     }
 
     .disabled a {
       pointer-events: none;
       cursor: default;
     }
-
-    @media (max-width: 500px) {
-      :host {
-        width: 100%;
-        float: unset;
-        display: block;
-        margin-bottom: 2em;
-      }
-    }
   `;
 
   static properties = {
-    product: { attribute: 'product', type: String },
     call: { attribute: 'call', type: String },
     currency: { attribute: 'currency', type: String },
     price: { attribute: 'price', type: String },
     src: { attribute: 'src', type: String },
     notes: { attribute: 'notes', type: Array },
-    image: { attribute: 'image', type: String },
     timezones: { attribute: 'timezones', type: Array }
   };
 
@@ -90,36 +53,24 @@ class MyProduct extends LitElement {
 
   render() {
     return html`
-      <img
-        class="product image"
-        alt="${ this.product } Cover"
-        loading="lazy"
-        decoding="async"
-        src="${ this.image }"
-      >
-
       <div class="call box">
-        <h2 class="price">${ this.currency }${ this.price }</h2>
-
-        ${ this.notes ? this.renderNotes() : html`` }
-
         <div class="call button ${ this.shipping ? '' : 'disabled' }">
           <a href="${ this.src }">
-            <my-button ?disabled=${ !this.shipping }>
+            <my-button class="small" ?disabled=${ !this.shipping }>
               <button>${ this.call }</button>
             </my-button>
           </a>
         </div>
+
+        <span class="price">${ this.currency }${ this.price }</span>
+
+        <span class="notes">${ this.notes ? this.renderNotes() : html`` }</span>
       </div>
     `;
   }
 
   renderNotes() {
-    return html`
-      <ul class="notes">
-        ${ this.notes.map((note) => html`<li>${ note }</li>`) }
-      </ul>
-    `;
+    return html`(${ this.notes.join(', ') })`;
   }
 }
 

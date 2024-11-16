@@ -91,7 +91,7 @@ You see, it hints at more: if there’s a special weapons Dalek what other speci
 
 <aside>
 
-[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](https://grislyeye.com/products/context)
+[![Cover image from CONT/EXT](./content/products/context/preview.png "CONT/EXT")](https://grislyeye.com/products/context)
 
 This article was research for [CONT/EXT](https://grislyeye.com/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 
