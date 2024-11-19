@@ -66,9 +66,20 @@ class MyNavigationBar extends LitElement {
     email: { attribute: 'email' },
     twitter: { attribute: 'twitter' },
     mastodon: { attribute: 'mastodon' },
+    bluesky: { attribute: 'bluesky' },
     rss: { attribute: 'rss' },
     location: { attribute: 'location' }
   };
+
+  static renderSocial(type, link, label) {
+    return html`
+      <div class="social">
+        <a href="${ link }" title="RSS">
+          <img src="/images/${ type }.svg" class="icon" alt="${ type } label">
+          ${ label }
+        </a>
+      </div>`;
+  }
 
   render() {
     return html`
@@ -84,33 +95,15 @@ class MyNavigationBar extends LitElement {
             <img src="/images/location.svg" class="icon" alt="Location icon"> <span id="location">${ this.location }</span>
         </div>
 
-        <div class="social">
-          <a href="${ this.email }" title="Mailing List">
-            <img src="/images/email.svg" class="icon" alt="Email icon">
-            Mailing List
-          </a>
-        </div>
+        ${ this.email ? MyNavigationBar.renderSocial('email', this.email, 'Mailing Lis') : html`` }
 
-        <div class="social">
-          <a rel="me" href="${ this.twitter }" title="Twitter">
-            <img src="/images/twitter.svg" class="icon" alt="Twitter icon">
-            Twitter
-          </a>
-        </div>
+        ${ this.twitter ? MyNavigationBar.renderSocial('twitter', this.twitter, 'Twitter') : html`` }
 
-        <div class="social">
-          <a rel="me" href="${ this.mastodon }" title="Mastodon">
-            <img src="/images/mastodon.svg" class="icon" alt="Mastodon icon">
-            Mastodon
-          </a>
-        </div>
+        ${ this.bluesky ? MyNavigationBar.renderSocial('bluesky', this.bluesky, 'Bluesky') : html`` }
 
-        <div class="social">
-          <a href="${ this.rss }" title="RSS">
-            <img src="/images/rss.svg" class="icon" alt="RSS icon">
-            RSS
-          </a>
-        </div>
+        ${ this.mastodon ? MyNavigationBar.renderSocial('mastodon', this.mastodon, 'Mastodon') : html`` }
+
+        ${ this.rss ? MyNavigationBar.renderSocial('rss', this.rss, 'RSS') : html`` }
       </div>
     `;
   }
