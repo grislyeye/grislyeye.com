@@ -18,6 +18,8 @@ class MyPreview extends LitElement {
       background-size: cover;
       background-position: top;
       border-radius: 6px;
+
+      line-height: 1;
     }
 
     header {
