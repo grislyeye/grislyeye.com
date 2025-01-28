@@ -133,7 +133,7 @@ export default async (eleventyConfig) => {
 
   eleventyConfig.addShortcode('renderChatLog', (page, file) => {
     const fullPath = path.join(path.dirname(page.inputPath), file);
-    return parseChat(x);
+    return parseChat(fullPath);
   });
 
   eleventyConfig.addPassthroughCopy({ './robots.txt': './robots.txt' });
