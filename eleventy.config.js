@@ -14,6 +14,8 @@ import pluginGoogleFonts from 'eleventy-google-fonts';
 
 import path from 'path';
 
+import parseChat from './_lib/chat.js';
+
 import pluginImages from './eleventy.config.images.js';
 import metadata from './_data/metadata.js';
 
@@ -127,6 +129,11 @@ export default async (eleventyConfig) => {
 
   eleventyConfig.addShortcode('backwardSupportPermalinkStem', (page) => {
     return path.dirname(page.filePathStem);
+  });
+
+  eleventyConfig.addShortcode('renderChatLog', (page, file) => {
+    const fullPath = path.join(path.dirname(page.inputPath), file);
+    return parseChat(x);
   });
 
   eleventyConfig.addPassthroughCopy({ './robots.txt': './robots.txt' });
