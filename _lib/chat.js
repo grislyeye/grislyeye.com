@@ -14,6 +14,20 @@ const playedBy = {
   Red: 'Kat'
 };
 
+function renderGmMessages(message) {
+  switch (message.type) {
+    case 'grouped': return renderGmMessages;
+    default: return `\n<p>\n${ message.message }</p>\n`;
+  }
+}
+
+function renderGmMessage(message) {
+  switch (message.type) {
+    case 'grouped': return `</dl>\n\n${ message.messages.map(renderGmMessages).join('\n') }\n\n<dl>`;
+    default: return `</dl>\n\n<p>\n${ message.message }</p>\n\n<dl>`;
+  }
+}
+
 function renderNestedMessage(message) {
   switch (message.type) {
     case 'does': return `\n<p class="action">${ message.message }</p>\n`;
@@ -34,7 +48,7 @@ function renderGroupMessages(message) {
   }
 }
 
-function renderPlayerMessage(message) {
+function renderIcMessage(message) {
   switch (message.type) {
     case 'does': return `\n<dt>${ message.actor }</dt>\n<dd class="action">${ message.message }</dd>\n`;
     case 'says': return `\n<dt>${ message.actor }</dt>\n<dd>${ message.message }</dd>\n`;
@@ -47,9 +61,11 @@ function renderRoll(roll) {
 }
 
 function renderMessage(message) {
+  if (message.actor === 'GM') return renderGmMessage(message);
+
   switch (message.type) {
-    case 'says': return renderPlayerMessage(message);
-    case 'does': return renderPlayerMessage(message);
+    case 'says': return renderIcMessage(message);
+    case 'does': return renderIcMessage(message);
     case 'rolls': return `</dl>\n\n<aside>\n${ renderRoll(message) }</aside>\n\n<dl>`;
     case 'grouped': return renderGroupMessages(message);
     default: return '';

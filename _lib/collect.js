@@ -5,14 +5,11 @@ const flattenPlayerMessage = (messages) => {
   if (messages.length === 1) return baseMessage;
 
   if (baseMessage.chat === 'ic') {
-    const events = messages
-      .filter((m) => m.chat === 'ic');
-
     return {
       actor: baseMessage.actor,
       type: 'grouped',
       chat: 'ic',
-      messages: events
+      messages
     };
   }
 
@@ -28,14 +25,11 @@ const flattenAsides = (messages) => {
   if (messages.length === 1) return baseMessage;
 
   if (baseMessage.chat === 'ooc') {
-    const events = messages
-      .filter((m) => m.chat === 'ooc');
-
     return {
       actor: baseMessage.actor,
       type: 'grouped',
       chat: 'ooc',
-      messages: events
+      messages
     };
   }
 
@@ -43,7 +37,7 @@ const flattenAsides = (messages) => {
 };
 
 const consecutiveOocMessages = (pre, cur) => {
-  return pre.type === cur.actor && cur.actor === 'ooc';
+  return pre.chat === cur.chat && cur.chat === 'ooc';
 };
 
 const collectOocMessages = (messages) => {
