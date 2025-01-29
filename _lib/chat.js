@@ -1,5 +1,6 @@
 import * as fs from 'fs';
 import Papa from 'papaparse';
+import collectMessages from './collect.js';
 
 const playedBy = {
   'Ba\' Raknul': 'Liam',
@@ -12,6 +13,26 @@ const playedBy = {
   Lia: 'Hope',
   Red: 'Kat'
 };
+
+function renderNestedMessage(message) {
+  switch (message.type) {
+    case 'does': return `\n<p class="action">${ message.message }</p>\n`;
+    case 'says': return `\n<p>${ message.message }</p>\n`;
+    default: return '';
+  }
+}
+
+function renderAside(message) {
+  return `\n<p>${ message.actor } says "${ message.message }"</p>\n`;
+}
+
+function renderGroupMessages(message) {
+  switch (message.chat) {
+    case 'ic': return `\n<dt>${ message.actor }</dt>\n<dd>${ message.messages.map(renderNestedMessage).join('\n') }</dd>\n`;
+    case 'ooc': return `</dl>\n\n<aside>\n${ message.messages.map(renderAside).join('\n') }</aside>\n\n<dl>`;
+    default: return '';
+  }
+}
 
 function renderPlayerMessage(message) {
   switch (message.type) {
@@ -30,11 +51,12 @@ function renderMessage(message) {
     case 'says': return renderPlayerMessage(message);
     case 'does': return renderPlayerMessage(message);
     case 'rolls': return `</dl>\n\n<aside>\n${ renderRoll(message) }</aside>\n\n<dl>`;
+    case 'grouped': return renderGroupMessages(message);
     default: return '';
   }
 }
 
-function toMarkdown(messages) {
+function toHtml(messages) {
   const preamble = `
     <section class="chat">
 
@@ -53,7 +75,8 @@ function toMarkdown(messages) {
 function parseChat(file) {
   const csv = fs.readFileSync(file, { encoding: 'utf8' });
   const messages = Papa.parse(csv, { header: true });
-  return toMarkdown(messages.data);
+  const collected = collectMessages(messages.data);
+  return toHtml(collected);
 }
 
 export default parseChat;
