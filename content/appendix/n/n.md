@@ -95,6 +95,7 @@ If you don't know, [slash pages](https://slashpages.net/) are common pages with 
   - *The Incredibles* (2004)
   - *Indiana Jones and the Last Crusade* (1989)
   - *Interview with the Vampire* (1994)
+  - *Jackie Brown* (1997)
   - *Gentleman Broncos* (2009)
   - *The Grudge* (2002)
   - *Jurassic Park* (1993)
