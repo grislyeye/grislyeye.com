@@ -1,21 +1,110 @@
 ---
 title: CONT/EXT
 tags:
-  - products
-  - posts
-  - wip
-  - featured
+- products
+- posts
+- wip
+- featured
 date: 2023-01-23
 layout: layouts/post.njk
 image: /products/context/context.png
-redirectTo: "https://grislyeye.itch.io/context"
 ---
 <figure class="illustration">
-  {% image "./context.png", "CONT/EXT Cover", [ "250px" ]  %}
+  {% image "./cover.png", "Cover of CONT/EXT", [ "300px" ]  %}
+  {% image "./mothership-compat-logo.png", "This product is based on the Mothership® Sci-Fi Horror Role Playing Game", [ "300px" ]  %}
 </figure>
 
-<p><span class="product">CONT/EXT</span> is a <span class="title">Mothership</span> one-shot of existential horror. A britpunk nightmare set on the Lachesis: a failing, deep-space research station.</p>
+<p><span class="product">CONT/EXT</span> is a one-shot of cosmic horror for use with <span
+    class="title">Mothership</span>&#174;. A britpunk nightmare set aboard a failing research station.</p>
 
-<p>The Lachesis has gone radio silent, and it's up to your crew to investigate why, and recover as much valuable research as possible. (Rescue optional).</p>
+<p>You have been recruited by <span class="title">Continued Existence</span> (CONT/EXT for short). CONT/EXT&apos;s mission is
+  to ensure humanity can
+  survive extinction-level threats, such as gamma radiation bursts or advanced, hostile aliens.</p>
 
-<p><strong>Current Status:</strong> In playtest. Cover and writing are done, and I've started on some preliminary design and layout work.</p>
+<h3>Rescue is optional</h3>
+
+<p>You've been sent to investigate the deep-space research station, the <span class="title">Lachesis</span>. The station
+  has been reporting system malfunctions and the crew have gone radio silent. It's up to you to retrieve the valuable
+  research stored there. </p>
+
+<p class="legal"><em><strong>Content Warnings:</strong> Claustrophobia, suicide, gore, mild references to pornography and drugs.</em></p>
+
+<h3 id="purchase">Purchase</h3>
+
+<my-product
+  class="product"
+  call="Buy Print + PDF"
+  currency="$"
+  price="8"
+  src="https://www.tuesdayknightgames.com/products/cont-ext"
+  notes='["US/International shipping"]'
+>
+</my-product>
+
+<my-product
+  class="product"
+  call="Buy Print + PDF (UK)"
+  currency="£"
+  price="6"
+  src="https://buy.stripe.com/6oE8AqbBs3u60pi7sv"
+  notes='["+£2 postage", "UK only"]'
+  timezones='["Europe/London"]'
+>
+</my-product>
+
+<my-product
+  class="product"
+  call="Buy PDF"
+  currency="£"
+  price="4"
+  src="https://grislyeye.itch.io/context/purchase"
+  notes='["Digital only"]'
+>
+</my-product>
+
+<p>Includes:</p>
+
+<ul>
+  <li>12 pages of pure cosmic horror</li>
+  <li>a horrifying new threat</li>
+  <li>research station schematics</li>
+  <li>printable player map for table-top</li>
+  <li>colour player map for VTT</li>
+</ul>
+
+<h3>Concepts</h3>
+
+<p>As part of my work on <span class="product">CONT/EXT</span>, I put together some blog posts that dive into the conceptual underpinnings of the module. You can read them here:</p>
+
+<ul class="previews">
+  {% for post in collections.context | reverse | limit(4) %}
+  <li class="preview">
+    {% if (post.data.redirectTo) %}{% set url %}{{ post.data.redirectTo }}{% endset %}
+    {% else %}{% set url %}{{ post.url }}{% endset %}
+    {% endif %}
+
+    <a href="{{ url }}" title="{{ post.data.title }}">
+
+      {% if loop.index % 3 == 1 %}
+      {% set theme %} bloody {% endset %}
+      {% elif loop.index % 2 == 1 %}
+      {% set theme %} light {% endset %}
+      {% else %}
+      {% set theme %} dark {% endset %}
+      {% endif %}
+
+      <my-preview class="{{ post.data.tags.join(' ') }} {{ theme }} featured" {% if post.data.image %} {% set
+        imagePath %}.{{ post.inputPath }}/{{ post.data.image }}{% endset %}
+        background="{% rawImageUrl post, post.data.image, 300 %}" {% endif %} preload>
+        <span slot="title">{{ post.data.title }}</span>
+      </my-preview>
+
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+<p class="legal">This product is based on the Mothership® Sci-Fi Horror Role Playing Game, published by Tuesday Knight
+  Games. This product is published under license. MOTHERSHIP® is a registered trademark of Tuesday Knight Games. All
+  rights reserved. For additional information, visit www.tuesdayknightgames.com or contact
+  contact@tuesdayknightgames.com.</p>

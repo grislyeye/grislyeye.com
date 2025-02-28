@@ -2,6 +2,7 @@
 title: Alien as outside context entity Part 2
 tags:
   - posts
+  - context
 date: 2024-07-16
 layout: layouts/post.njk
 image: /blog/alien-as-outside-context-entity-2/jonesy.png
@@ -88,7 +89,7 @@ Instead, we have to see it through the eyes of those first cinemagoers in 1979, 
 
 And the creature is not just physically uncategorisable, it portrays truly alien intelligence as well.
 
-The xenomorph is not an animal, but it also lacks personhood. It acts with intent, can even outwit the crew of the *Nostromo*, but appears to lack any other imperative than to kill or breed. Certainly, if it spoke we could not understand it, any more than the lion, but I know which I'd rather be stuck on a ship with. We're relatively safe from the lion as long as it is satiated, but the xenomorph clearly transcends any mere predator. It always hungers, always acts with immediate and deadly hostility. Does it hate us? Hate doesn't seem to fit, feels too much like transference, but it's clearly going beyond any survival instinct we would understand. 
+The xenomorph is not an animal, but it also lacks personhood. It acts with intent, can even outwit the crew of the *Nostromo*, but appears to lack any other imperative than to kill or breed. Certainly, if it spoke we could not understand it, any more than the lion, but I know which I'd rather be stuck on a ship with. We're relatively safe from the lion as long as it is satiated, but the xenomorph clearly transcends any mere predator. It always hungers, always acts with immediate and deadly hostility. Does it hate us? Hate doesn't seem to fit, feels too much like transference, but it's clearly going beyond any survival instinct we would understand.
 
 Is it intelligent? It's unclear. It seems on the cusp of intelligence. You get the sense humans are just in the way of whatever is motivating it. It's only intersection with us is the bothersome matter of flesh, and that feels like a stopover for its true intent, whatever that is.
 
@@ -100,9 +101,9 @@ We understand what the xenomorph does, but the unanswered *why* is what makes us
 
 <aside>
 
-[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](https://grislyeye.com/products/context)
+[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](/products/context)
 
-This article was research for [CONT/EXT](https://grislyeye.com/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
+This article was research for [CONT/EXT](/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 
 </aside>
 

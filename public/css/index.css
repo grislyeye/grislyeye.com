@@ -128,6 +128,14 @@ ul.previews {
   padding: 0;
 }
 
+#post .previews a {
+  background-image: none;
+}
+
+#post .previews a:hover {
+  background-color: transparent;
+}
+
 my-preview {
   display: inline-block;
   width: 100%;

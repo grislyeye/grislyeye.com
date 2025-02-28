@@ -2,13 +2,14 @@
 title: The Shiftless Horror of Mothership
 tags:
   - posts
+  - context
 date: 2024-05-07
 layout: layouts/post.njk
 image: /blog/shiftless-horror/alien-cast.jpg
 ---
 <aside>
 
-This post evolved out of a [self-essay](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote while developing [CONT/EXT](https://grislyeye.com/products/context/). It turned up some interesting ideas on world design, horror, institutions and British sci-fi, so I present my (incomplete) thoughts here.
+This post evolved out of a [self-essay](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote while developing [CONT/EXT](/products/context/). It turned up some interesting ideas on world design, horror, institutions and British sci-fi, so I present my (incomplete) thoughts here.
 
 </aside>
 
@@ -16,7 +17,7 @@ This post evolved out of a [self-essay](https://rolltodoubt.wordpress.com/2023/1
 
 - _CONT/EXT_, by me.
 
-At the edges of [CONT/EXT](https://grislyeye.com/products/context/) is the institution after which the module is named. What kind of organisation is CONT/EXT, and what is its place in a game like *Mothership*?
+At the edges of [CONT/EXT](/products/context/) is the institution after which the module is named. What kind of organisation is CONT/EXT, and what is its place in a game like *Mothership*?
 
 ![Still for title screen of Alien (1979)](./content/blog/shiftless-horror/nostromo.jpg "Commercial towing vehicle 'The Nostromo'")
 
@@ -129,9 +130,9 @@ Perhaps this explains the preponderance of secret societies across the Atlantic:
 
 <aside>
 
-[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](https://grislyeye.com/products/context)
+[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](/products/context)
 
-This article was research for [CONT/EXT](https://grislyeye.com/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
+This article was research for [CONT/EXT](/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 
 </aside>
 
