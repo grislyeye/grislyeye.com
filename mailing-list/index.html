@@ -165,6 +165,14 @@ ul.previews {
   padding: 0;
 }
 
+#post .previews a {
+  background-image: none;
+}
+
+#post .previews a:hover {
+  background-color: transparent;
+}
+
 my-preview {
   display: inline-block;
   width: 100%;
@@ -272,7 +280,7 @@ span.title {
   }
 }</style>
 
-    <link rel="stylesheet" href="/bundle/kJtMZIjJtS.css">
+    <link rel="stylesheet" href="/bundle/5RyBzgjif2.css">
 
     <script type="importmap">
       {
@@ -1087,7 +1095,40 @@ span.title {
     <!--/lit-part--></template>
   <form id="mailing-list" action="https://buttondown.email/api/emails/embed-subscribe/grislyeye" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/grislyeye', 'popupwindow')" class="embeddable-buttondown-form">
     <input type="text" name="email" id="tlemail" placeholder="Email">
-    <button type="submit">Subscribe</button>
+    <my-button><template shadowroot="open" shadowrootmode="open"><style>
+    ::slotted(button) {
+      font-family: var(--font-family);
+      height: 38px;
+      padding: 0 30px;
+      color: white;
+      background-color: red;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box;
+      line-height: 38px;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    :host(.small) ::slotted(button) {
+      font-size: 10pt;
+      padding: 0 15px;
+    }
+
+    .disabled.button ::slotted(button) {
+      pointer-events: none;
+      background-color: grey;
+      color: lightgrey;
+    }</style><!--lit-part bgCgYOHjM3s=-->
+      <!--lit-node 0--><div class="button ">
+        <slot></slot>
+      </div><!--/lit-part--></template><button type="submit">Subscribe</button></my-button>
   </form>
 </my-section>
 
@@ -1095,7 +1136,7 @@ span.title {
 
     <footer>
       <p class="legal">
-        Website version 3.22.3 &copy; 2016-2025 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
+        Website version 3.23.0 &copy; 2016-2025 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
       </p>
     </footer>
 

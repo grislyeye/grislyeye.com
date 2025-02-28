@@ -165,6 +165,14 @@ ul.previews {
   padding: 0;
 }
 
+#post .previews a {
+  background-image: none;
+}
+
+#post .previews a:hover {
+  background-color: transparent;
+}
+
 my-preview {
   display: inline-block;
   width: 100%;
@@ -272,7 +280,7 @@ span.title {
   }
 }</style>
 
-    <link rel="stylesheet" href="/bundle/kJtMZIjJtS.css">
+    <link rel="stylesheet" href="/bundle/5RyBzgjif2.css">
 
     <script type="importmap">
       {
@@ -1095,7 +1103,7 @@ span.title {
       text-align: left;
       text-transform: none;
     }
-  </style><!--lit-part cgqJJNusk1s=-->
+  </style><!--lit-part zyEvLOViAmI=-->
       <script type="module" src="/vendor/@micahilbery/share-on-mastodon/share-on-mastodon.js"></script>
       <div class="shares">
         <!--lit-node 2--><a
@@ -1127,7 +1135,7 @@ span.title {
 
         <!--lit-node 8--><share-on-mastodon
           data-share-title="Buy Wargod!"
-          data-author="@grislyeye@indieweb.social"
+          data-author="@grislyeye@c.im"
         >
           <img slot="button" src="/images/mastodon.svg" class="icon" alt="Mastodon icon">
         </share-on-mastodon>
@@ -1140,78 +1148,79 @@ span.title {
   <my-product         id="digital" class="product" product="Wargod!" call="Buy PDF" currency="£" price="5" src="https://grislyeye.itch.io/wargod" image="/img/hxJ8-ZUjZi-200.webp"><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: block;
-    }
-
-    :slotted(.picture) {
-      width: 200px;
-      height: auto;
+      padding-bottom: 1em;
     }
 
     .call.box {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: space-around;
-    }
-
-    ul.notes {
-      padding: 0;
-      margin: 0;
-      max-width: 50%;
-    }
-
-    .notes li {
-      color: white;
-      font-size: 1rem;
-      font-style: normal;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
+      gap: 0.5em;
     }
 
     .price {
-      float: left;
       margin: 0;
       padding: 0;
-      font-size: 3rem;
       font-style: normal;
-      font-weight: normal;
+      font-weight: bold;
       color: white;
       line-height: 1;
     }
 
-    .button {
-      text-align: center;
-      margin-top: 0.6rem;
+    .notes {
+      font-style: italic;
     }
 
-    @media (max-width: 500px) {
-      :host {
-        width: 100%;
-        float: unset;
-        display: block;
-        margin-bottom: 2em;
-      }
+    .disabled a {
+      pointer-events: none;
+      cursor: default;
     }
-  </style><!--lit-part Ml3hnfkjTZI=-->
-      <!--lit-node 0--><img
-        class="product image"
-        alt="Wargod! Cover"
-        loading="lazy"
-        decoding="async"
-        src="/img/hxJ8-ZUjZi-200.webp"
-      >
-
+  </style><!--lit-part 0AQackip1/4=-->
       <div class="call box">
-        <h2 class="price"><!--lit-part-->£<!--/lit-part--><!--lit-part-->5<!--/lit-part--></h2>
+        <!--lit-node 1--><div class="call button ">
+          <!--lit-node 2--><a href="https://grislyeye.itch.io/wargod">
+            <!--lit-node 3--><my-button   class="small" defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    ::slotted(button) {
+      font-family: var(--font-family);
+      height: 38px;
+      padding: 0 30px;
+      color: white;
+      background-color: red;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box;
+      line-height: 38px;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      text-align: center;
+    }
 
-        <!--lit-part BRUAAAUVAAA=--><?><!--/lit-part-->
+    :host(.small) ::slotted(button) {
+      font-size: 10pt;
+      padding: 0 15px;
+    }
 
-        <div class="call button">
-          <!--lit-node 7--><a href="https://grislyeye.itch.io/wargod">
-            <!--lit-node 8--><button src="https://grislyeye.itch.io/wargod" disabled=""><!--lit-part-->Buy PDF<!--/lit-part--></button>
+    .disabled.button ::slotted(button) {
+      pointer-events: none;
+      background-color: grey;
+      color: lightgrey;
+    }</style><!--lit-part bgCgYOHjM3s=-->
+      <!--lit-node 0--><div class="button ">
+        <slot></slot>
+      </div><!--/lit-part--></template>
+              <button><!--lit-part-->Buy PDF<!--/lit-part--></button>
+            </my-button>
           </a>
         </div>
+
+        <span class="price"><!--lit-part-->£<!--/lit-part--><!--lit-part-->5<!--/lit-part--></span>
+
+        <span class="notes"><!--lit-part BRUAAAUVAAA=--><?><!--/lit-part--></span>
       </div>
     <!--/lit-part--></template>
   </my-product>
@@ -1221,82 +1230,79 @@ span.title {
   <my-product            id="print" class="product" product="Wargod!" call="Out of Stock" currency="£" price="10" src="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo" notes="[&quot;+£2 postage.&quot;, &quot;Shipping to the UK only.&quot;]" image="/img/BRziQXILwI-200.webp" timezones="[&quot;Europe/London&quot;]" disabled><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: block;
-    }
-
-    :slotted(.picture) {
-      width: 200px;
-      height: auto;
+      padding-bottom: 1em;
     }
 
     .call.box {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: space-around;
-    }
-
-    ul.notes {
-      padding: 0;
-      margin: 0;
-      max-width: 50%;
-    }
-
-    .notes li {
-      color: white;
-      font-size: 1rem;
-      font-style: normal;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
+      gap: 0.5em;
     }
 
     .price {
-      float: left;
       margin: 0;
       padding: 0;
-      font-size: 3rem;
       font-style: normal;
-      font-weight: normal;
+      font-weight: bold;
       color: white;
       line-height: 1;
     }
 
-    .button {
-      text-align: center;
-      margin-top: 0.6rem;
+    .notes {
+      font-style: italic;
     }
 
-    @media (max-width: 500px) {
-      :host {
-        width: 100%;
-        float: unset;
-        display: block;
-        margin-bottom: 2em;
-      }
+    .disabled a {
+      pointer-events: none;
+      cursor: default;
     }
-  </style><!--lit-part Ml3hnfkjTZI=-->
-      <!--lit-node 0--><img
-        class="product image"
-        alt="Wargod! Cover"
-        loading="lazy"
-        decoding="async"
-        src="/img/BRziQXILwI-200.webp"
-      >
-
+  </style><!--lit-part 0AQackip1/4=-->
       <div class="call box">
-        <h2 class="price"><!--lit-part-->£<!--/lit-part--><!--lit-part-->10<!--/lit-part--></h2>
+        <!--lit-node 1--><div class="call button disabled">
+          <!--lit-node 2--><a href="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo">
+            <!--lit-node 3--><my-button   class="small" disabled defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    ::slotted(button) {
+      font-family: var(--font-family);
+      height: 38px;
+      padding: 0 30px;
+      color: white;
+      background-color: red;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box;
+      line-height: 38px;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      text-align: center;
+    }
 
-        <!--lit-part 7Cwc8LNqZH4=-->
-      <ul class="notes">
-        <!--lit-part--><!--lit-part PuAyB/F8cHw=--><li><!--lit-part-->+£2 postage.<!--/lit-part--></li><!--/lit-part--><!--lit-part PuAyB/F8cHw=--><li><!--lit-part-->Shipping to the UK only.<!--/lit-part--></li><!--/lit-part--><!--/lit-part-->
-      </ul>
-    <!--/lit-part-->
+    :host(.small) ::slotted(button) {
+      font-size: 10pt;
+      padding: 0 15px;
+    }
 
-        <div class="call button">
-          <!--lit-node 7--><a href="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo">
-            <!--lit-node 8--><button src="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo" disabled="true"><!--lit-part-->Out of Stock<!--/lit-part--></button>
+    .disabled.button ::slotted(button) {
+      pointer-events: none;
+      background-color: grey;
+      color: lightgrey;
+    }</style><!--lit-part bgCgYOHjM3s=-->
+      <!--lit-node 0--><div class="button disabled">
+        <slot></slot>
+      </div><!--/lit-part--></template>
+              <button><!--lit-part-->Out of Stock<!--/lit-part--></button>
+            </my-button>
           </a>
         </div>
+
+        <span class="price"><!--lit-part-->£<!--/lit-part--><!--lit-part-->10<!--/lit-part--></span>
+
+        <span class="notes"><!--lit-part BGdZAAUVAAA=-->(<!--lit-part-->+£2 postage., Shipping to the UK only.<!--/lit-part-->)<!--/lit-part--></span>
       </div>
     <!--/lit-part--></template>
   </my-product>
@@ -1342,7 +1348,7 @@ span.title {
 
     <footer>
       <p class="legal">
-        Website version 3.22.3 &copy; 2016-2025 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
+        Website version 3.23.0 &copy; 2016-2025 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
       </p>
     </footer>
 

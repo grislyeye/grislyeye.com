@@ -835,6 +835,8 @@
       background-size: cover;
       background-position: top;
       border-radius: 6px;
+
+      line-height: 1;
     }
 
     header {
@@ -984,117 +986,115 @@
   };
   customElements.define("my-preview", MyPreview);
 
+  // _components/my-button.js
+  var MyButton = class extends h3 {
+    static styles = i`
+    ::slotted(button) {
+      font-family: var(--font-family);
+      height: 38px;
+      padding: 0 30px;
+      color: white;
+      background-color: red;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box;
+      line-height: 38px;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    :host(.small) ::slotted(button) {
+      font-size: 10pt;
+      padding: 0 15px;
+    }
+
+    .disabled.button ::slotted(button) {
+      pointer-events: none;
+      background-color: grey;
+      color: lightgrey;
+    }`;
+    static properties = {
+      disabled: { attribute: "disabled", type: Boolean }
+    };
+    render() {
+      return ke`
+      <div class="button ${this.disabled ? "disabled" : ""}">
+        <slot></slot>
+      </div>`;
+    }
+  };
+  customElements.define("my-button", MyButton);
+
   // _components/my-product.js
   var MyProduct = class extends h3 {
     static styles = i`
     :host {
       display: block;
-    }
-
-    :slotted(.picture) {
-      width: 200px;
-      height: auto;
+      padding-bottom: 1em;
     }
 
     .call.box {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: space-around;
-    }
-
-    ul.notes {
-      padding: 0;
-      margin: 0;
-      max-width: 50%;
-    }
-
-    .notes li {
-      color: white;
-      font-size: 1rem;
-      font-style: normal;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
+      gap: 0.5em;
     }
 
     .price {
-      float: left;
       margin: 0;
       padding: 0;
-      font-size: 3rem;
       font-style: normal;
-      font-weight: normal;
+      font-weight: bold;
       color: white;
       line-height: 1;
     }
 
-    .button {
-      text-align: center;
-      margin-top: 0.6rem;
+    .notes {
+      font-style: italic;
     }
 
-    @media (max-width: 500px) {
-      :host {
-        width: 100%;
-        float: unset;
-        display: block;
-        margin-bottom: 2em;
-      }
+    .disabled a {
+      pointer-events: none;
+      cursor: default;
     }
   `;
     static properties = {
-      product: { attribute: "product", type: String },
-      title: { attribute: "title", type: String },
       call: { attribute: "call", type: String },
       currency: { attribute: "currency", type: String },
       price: { attribute: "price", type: String },
       src: { attribute: "src", type: String },
       notes: { attribute: "notes", type: Array },
-      image: { attribute: "image", type: String },
-      timezones: { attribute: "timezones", type: Array },
-      disabled: { attribute: "disabled", type: Boolean }
+      timezones: { attribute: "timezones", type: Array }
     };
-    connectedCallback() {
-      super.connectedCallback();
-      if (this.timezones) {
-        const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-        const shipping = timezone && this.timezones.includes(timezone);
-        const callButton = this.shadowRoot.querySelector("my-button");
-        if (!shipping && callButton) {
-          callButton.setAttribute("disabled", "true");
-        }
-      }
+    get shipping() {
+      const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      return !this.timezones || this.timezones.length === 0 || this.timezones.includes(timezone);
     }
     render() {
       return ke`
-      <img
-        class="product image"
-        alt="${this.product} Cover"
-        loading="lazy"
-        decoding="async"
-        src="${this.image}"
-      >
-
       <div class="call box">
-        <h2 class="price">${this.currency}${this.price}</h2>
-
-        ${this.notes ? this.renderNotes() : ke``}
-
-        <div class="call button">
+        <div class="call button ${this.shipping ? "" : "disabled"}">
           <a href="${this.src}">
-            <button src="${this.src}" disabled="${this.disabled}">${this.call}</button>
+            <my-button class="small" ?disabled=${!this.shipping}>
+              <button>${this.call}</button>
+            </my-button>
           </a>
         </div>
+
+        <span class="price">${this.currency}${this.price}</span>
+
+        <span class="notes">${this.notes ? this.renderNotes() : ke``}</span>
       </div>
     `;
     }
     renderNotes() {
-      return ke`
-      <ul class="notes">
-        ${this.notes.map((note) => ke`<li>${note}</li>`)}
-      </ul>
-    `;
+      return ke`(${this.notes.join(", ")})`;
     }
   };
   customElements.define("my-product", MyProduct);
@@ -1139,7 +1139,7 @@
       href: { attribute: "href" }
     };
     render() {
-      return ke(_a || (_a = __template(['\n      <script type="module" src="/vendor/@micahilbery/share-on-mastodon/share-on-mastodon.js"><\/script>\n      <div class="shares">\n        <a\n          class="share"\n          title="Share on Twitter"\n          href="https://twitter.com/intent/tweet/?url=', "&text=", '&via=grislyeye"\n          target="_blank"\n        >\n          <img src="/images/twitter.svg" class="icon" alt="Twitter icon">\n        </a>\n\n        <a\n          class="share"\n          title="Share on Facebook"\n          href="https://facebook.com/sharer/sharer.php?u=', '"\n          target="_blank"\n        >\n          <img src="/images/facebook.svg" class="icon" alt="Facebook icon">\n        </a>\n\n        <a\n          class="share"\n          title="Share on Tumblr"\n          href="https://tumblr.com/widgets/share/tool?canonicalUrl=', "&amp;tags=&amp;caption=", '"\n          target="_blank"\n        >\n          <img src="/images/tumblr.svg" class="icon" alt="Tumblr icon">\n        </a>\n\n        <share-on-mastodon\n          data-share-title="', '"\n          data-author="@grislyeye@indieweb.social"\n        >\n          <img slot="button" src="/images/mastodon.svg" class="icon" alt="Mastodon icon">\n        </share-on-mastodon>\n      </div>\n    '])), this.href, this.title, this.href, this.href, this.title, this.title);
+      return ke(_a || (_a = __template(['\n      <script type="module" src="/vendor/@micahilbery/share-on-mastodon/share-on-mastodon.js"><\/script>\n      <div class="shares">\n        <a\n          class="share"\n          title="Share on Twitter"\n          href="https://twitter.com/intent/tweet/?url=', "&text=", '&via=grislyeye"\n          target="_blank"\n        >\n          <img src="/images/twitter.svg" class="icon" alt="Twitter icon">\n        </a>\n\n        <a\n          class="share"\n          title="Share on Facebook"\n          href="https://facebook.com/sharer/sharer.php?u=', '"\n          target="_blank"\n        >\n          <img src="/images/facebook.svg" class="icon" alt="Facebook icon">\n        </a>\n\n        <a\n          class="share"\n          title="Share on Tumblr"\n          href="https://tumblr.com/widgets/share/tool?canonicalUrl=', "&amp;tags=&amp;caption=", '"\n          target="_blank"\n        >\n          <img src="/images/tumblr.svg" class="icon" alt="Tumblr icon">\n        </a>\n\n        <share-on-mastodon\n          data-share-title="', '"\n          data-author="@grislyeye@c.im"\n        >\n          <img slot="button" src="/images/mastodon.svg" class="icon" alt="Mastodon icon">\n        </share-on-mastodon>\n      </div>\n    '])), this.href, this.title, this.href, this.href, this.title, this.title);
     }
   };
   customElements.define("my-shares", MyShares);
