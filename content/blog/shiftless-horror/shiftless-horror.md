@@ -130,7 +130,7 @@ Perhaps this explains the preponderance of secret societies across the Atlantic:
 
 <aside>
 
-[![Cover image from CONT/EXT](./content/products/context/preview.png "CONT/EXT")](/products/context)
+[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](/products/context)
 
 This article was research for [CONT/EXT](/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 
