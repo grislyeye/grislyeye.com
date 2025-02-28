@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.23.0",
+  "version": "3.23.1",
   "type": "module",
   "scripts": {
     "build": "npx @11ty/eleventy",
@@ -12,7 +12,7 @@
     "test": "npm run test:lint && npm run test:links",
     "test:lint": "eslint --ext .js . && stylelint public/css/*.css",
     "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --verbosity error --skip '(.*\\.reddit\\.com)|(.*ccommandbot\\.com)|(.*facebook\\.com)'",
-    "post:new": "hygen post new"
+    "post:new": "plop post"
   },
   "author": {
     "name": "Ric Wood",
@@ -41,17 +41,17 @@
     "@webcomponents/template-shadowroot": "^0.2.1",
     "eleventy-plugin-gen-favicons": "^1.1.3",
     "eleventy-plugin-seo": "^0.5.2",
-    "eslint": "^8.57.0",
     "esbuild": "^0.25.0",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-lit": "^1.15.0",
     "eslint-plugin-wc": "^2.2.0",
-    "hygen": "^6.2.11",
     "linkinator": "^6.1.2",
     "luxon": "^3.5.0",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-eleventy-img": "^0.10.2",
     "papaparse": "^5.5.2",
+    "plop": "^4.0.1",
     "stylelint": "^16.14.1",
     "stylelint-config-standard": "^37.0.0"
   }
