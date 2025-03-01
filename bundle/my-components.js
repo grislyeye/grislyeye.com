@@ -1069,19 +1069,14 @@
       currency: { attribute: "currency", type: String },
       price: { attribute: "price", type: String },
       src: { attribute: "src", type: String },
-      notes: { attribute: "notes", type: Array },
-      timezones: { attribute: "timezones", type: Array }
+      notes: { attribute: "notes", type: Array }
     };
-    get shipping() {
-      const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-      return !this.timezones || this.timezones.length === 0 || this.timezones.includes(timezone);
-    }
     render() {
       return ke`
       <div class="call box">
-        <div class="call button ${this.shipping ? "" : "disabled"}">
+        <div class="call button">
           <a href="${this.src}">
-            <my-button class="small" ?disabled=${!this.shipping}>
+            <my-button class="small">
               <button>${this.call}</button>
             </my-button>
           </a>
