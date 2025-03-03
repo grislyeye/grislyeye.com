@@ -765,7 +765,7 @@
 &lt;my-product class=&quot;product&quot; call=&quot;Buy Print + PDF&quot; currency=&quot;$&quot; price=&quot;8&quot; src=&quot;https://www.tuesdayknightgames.com/products/cont-ext&quot; notes=&quot;[&amp;quot;US/International shipping&amp;quot;]&quot;&gt;
 &lt;/my-product&gt;
 
-&lt;my-product class=&quot;product&quot; call=&quot;Buy Print + PDF (UK)&quot; currency=&quot;£&quot; price=&quot;6&quot; src=&quot;https://buy.stripe.com/6oE8AqbBs3u60pi7sv&quot; notes=&quot;[&amp;quot;+£2 postage&amp;quot;, &amp;quot;UK only&amp;quot;]&quot;&gt;
+&lt;my-product class=&quot;product&quot; call=&quot;Buy Print + PDF (UK)&quot; currency=&quot;£&quot; price=&quot;7&quot; src=&quot;https://buy.stripe.com/9AQeYO34W1lY2xqfZ2&quot; notes=&quot;[&amp;quot;+£2 postage&amp;quot;, &amp;quot;UK only&amp;quot;]&quot;&gt;
 &lt;/my-product&gt;
 
 &lt;my-product class=&quot;product&quot; call=&quot;Buy PDF&quot; currency=&quot;£&quot; price=&quot;4&quot; src=&quot;https://grislyeye.itch.io/context/purchase&quot; notes=&quot;[&amp;quot;Digital only&amp;quot;]&quot;&gt;
