@@ -6,8 +6,8 @@ class MyButton extends LitElement {
       font-family: var(--font-family);
       height: 38px;
       padding: 0 30px;
-      color: white;
-      background-color: red;
+      color: black;
+      background-color: white;
       font-size: 14px;
       font-style: normal;
       font-weight: bold;
@@ -20,6 +20,10 @@ class MyButton extends LitElement {
       text-decoration: none;
       white-space: nowrap;
       text-align: center;
+    }
+
+    ::slotted(button:hover) {
+      background-color: lightgrey;
     }
 
     :host(.small) ::slotted(button) {
