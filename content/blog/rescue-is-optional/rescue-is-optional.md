@@ -2,6 +2,7 @@
 title: Rescue is Optional
 tags:
   - posts
+  - drafts
 date: 2025-02-28
 layout: layouts/post.njk
 ---
