@@ -1140,28 +1140,9 @@ span.title {
       </share-button>
     </div>
 
-    <figure class="illustration">
-  <picture><source type="image/avif" srcset="/img/TlXPvXfvMz-300.avif 300w"><source type="image/webp" srcset="/img/TlXPvXfvMz-300.webp 300w"><img src="/img/TlXPvXfvMz-300.png" alt="Cover of CONT/EXT" loading="lazy" decoding="async" title="Cover of CONT/EXT" width="300" height="463"></picture>
-  <picture><source type="image/avif" srcset="/img/-D5eSzWsFh-300.avif 300w"><source type="image/webp" srcset="/img/-D5eSzWsFh-300.webp 300w"><img src="/img/-D5eSzWsFh-300.png" alt="This product is based on the Mothership® Sci-Fi Horror Role Playing Game" loading="lazy" decoding="async" title="This product is based on the Mothership® Sci-Fi Horror Role Playing Game" width="300" height="72"></picture>
-</figure>
+    <p><span class="product">CONT/EXT</span> is a one-shot of cosmic horror for use with <span class="title">Mothership</span>&#174;. A britpunk nightmare set aboard a failing research station.</p>
 
-<p><span class="product">CONT/EXT</span> is a one-shot of cosmic horror for use with <span class="title">Mothership</span>&#174;. A britpunk nightmare set aboard a failing research station.</p>
-
-<p>You have been recruited by <span class="title">Continued Existence</span> (CONT/EXT for short). CONT/EXT&apos;s mission is
-  to ensure humanity can
-  survive extinction-level threats, such as gamma radiation bursts or advanced, hostile aliens.</p>
-
-<h3>Rescue is optional</h3>
-
-<p>You've been sent to investigate the deep-space research station, the <span class="title">Lachesis</span>. The station
-  has been reporting system malfunctions and the crew have gone radio silent. It's up to you to retrieve the valuable
-  research stored there. </p>
-
-<p class="legal"><em><strong>Content Warnings:</strong> Claustrophobia, suicide, gore, mild references to pornography and drugs.</em></p>
-
-<h3 id="purchase">Purchase</h3>
-
-<my-product       class="product" call="Buy Print + PDF" currency="$" price="8" src="https://www.tuesdayknightgames.com/products/cont-ext" notes="[&quot;US/International shipping&quot;]"><template shadowroot="open" shadowrootmode="open"><style>
+<my-product       class="product" call="Buy Print" currency="$" price="8" src="https://www.tuesdayknightgames.com/products/cont-ext" notes="[&quot;US/International shipping&quot;]"><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: block;
       padding-bottom: 1em;
@@ -1200,8 +1181,8 @@ span.title {
       font-family: var(--font-family);
       height: 38px;
       padding: 0 30px;
-      color: white;
-      background-color: red;
+      color: black;
+      background-color: white;
       font-size: 14px;
       font-style: normal;
       font-weight: bold;
@@ -1214,6 +1195,10 @@ span.title {
       text-decoration: none;
       white-space: nowrap;
       text-align: center;
+    }
+
+    ::slotted(button:hover) {
+      background-color: lightgrey;
     }
 
     :host(.small) ::slotted(button) {
@@ -1229,7 +1214,7 @@ span.title {
       <!--lit-node 0--><div class="button ">
         <slot></slot>
       </div><!--/lit-part--></template>
-              <button><!--lit-part-->Buy Print + PDF<!--/lit-part--></button>
+              <button><!--lit-part-->Buy Print<!--/lit-part--></button>
             </my-button>
           </a>
         </div>
@@ -1241,7 +1226,7 @@ span.title {
     <!--/lit-part--></template>
 </my-product>
 
-<my-product       class="product" call="Buy Print + PDF (UK)" currency="£" price="7" src="https://buy.stripe.com/9AQeYO34W1lY2xqfZ2" notes="[&quot;+£2 postage&quot;, &quot;UK only&quot;]"><template shadowroot="open" shadowrootmode="open"><style>
+<my-product       class="product" call="Buy Print (UK)" currency="£" price="7" src="https://buy.stripe.com/9AQeYO34W1lY2xqfZ2" notes="[&quot;+£2 postage&quot;, &quot;UK only&quot;]"><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: block;
       padding-bottom: 1em;
@@ -1280,8 +1265,8 @@ span.title {
       font-family: var(--font-family);
       height: 38px;
       padding: 0 30px;
-      color: white;
-      background-color: red;
+      color: black;
+      background-color: white;
       font-size: 14px;
       font-style: normal;
       font-weight: bold;
@@ -1294,6 +1279,10 @@ span.title {
       text-decoration: none;
       white-space: nowrap;
       text-align: center;
+    }
+
+    ::slotted(button:hover) {
+      background-color: lightgrey;
     }
 
     :host(.small) ::slotted(button) {
@@ -1309,7 +1298,7 @@ span.title {
       <!--lit-node 0--><div class="button ">
         <slot></slot>
       </div><!--/lit-part--></template>
-              <button><!--lit-part-->Buy Print + PDF (UK)<!--/lit-part--></button>
+              <button><!--lit-part-->Buy Print (UK)<!--/lit-part--></button>
             </my-button>
           </a>
         </div>
@@ -1321,7 +1310,7 @@ span.title {
     <!--/lit-part--></template>
 </my-product>
 
-<my-product       class="product" call="Buy PDF" currency="£" price="4" src="https://grislyeye.itch.io/context/purchase" notes="[&quot;Digital only&quot;]"><template shadowroot="open" shadowrootmode="open"><style>
+<my-product      class="product" call="Buy PDF Only" currency="£" price="4" src="https://grislyeye.itch.io/context/purchase"><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: block;
       padding-bottom: 1em;
@@ -1360,8 +1349,8 @@ span.title {
       font-family: var(--font-family);
       height: 38px;
       padding: 0 30px;
-      color: white;
-      background-color: red;
+      color: black;
+      background-color: white;
       font-size: 14px;
       font-style: normal;
       font-weight: bold;
@@ -1374,6 +1363,10 @@ span.title {
       text-decoration: none;
       white-space: nowrap;
       text-align: center;
+    }
+
+    ::slotted(button:hover) {
+      background-color: lightgrey;
     }
 
     :host(.small) ::slotted(button) {
@@ -1389,17 +1382,32 @@ span.title {
       <!--lit-node 0--><div class="button ">
         <slot></slot>
       </div><!--/lit-part--></template>
-              <button><!--lit-part-->Buy PDF<!--/lit-part--></button>
+              <button><!--lit-part-->Buy PDF Only<!--/lit-part--></button>
             </my-button>
           </a>
         </div>
 
         <span class="price"><!--lit-part-->£<!--/lit-part--><!--lit-part-->4<!--/lit-part--></span>
 
-        <span class="notes"><!--lit-part BGdZAAUVAAA=-->(<!--lit-part-->Digital only<!--/lit-part-->)<!--/lit-part--></span>
+        <span class="notes"><!--lit-part BRUAAAUVAAA=--><?><!--/lit-part--></span>
       </div>
     <!--/lit-part--></template>
 </my-product>
+
+<figure class="illustration">
+  <picture><source type="image/avif" srcset="/img/TlXPvXfvMz-300.avif 300w"><source type="image/webp" srcset="/img/TlXPvXfvMz-300.webp 300w"><img src="/img/TlXPvXfvMz-300.png" alt="Cover of CONT/EXT" loading="lazy" decoding="async" title="Cover of CONT/EXT" width="300" height="463"></picture>
+  <picture><source type="image/avif" srcset="/img/-D5eSzWsFh-300.avif 300w"><source type="image/webp" srcset="/img/-D5eSzWsFh-300.webp 300w"><img src="/img/-D5eSzWsFh-300.png" alt="This product is based on the Mothership® Sci-Fi Horror Role Playing Game" loading="lazy" decoding="async" title="This product is based on the Mothership® Sci-Fi Horror Role Playing Game" width="300" height="72"></picture>
+</figure>
+
+<p>You have been recruited by <span class="title">Continued Existence</span> (CONT/EXT for short). CONT/EXT&apos;s mission is to ensure humanity can survive extinction-level threats, such as gamma radiation bursts or advanced, hostile aliens.</p>
+
+<h3>Rescue is optional</h3>
+
+<p>You've been sent to investigate the deep-space research station, the <span class="title">Lachesis</span>. The station
+  has been reporting system malfunctions and the crew have gone radio silent. It's up to you to retrieve the valuable
+  research stored there. </p>
+
+<p class="legal"><em><strong>Content Warnings:</strong> Claustrophobia, suicide, gore, mild references to pornography and drugs.</em></p>
 
 <p>Includes:</p>
 
@@ -1884,7 +1892,7 @@ span.title {
 
     <footer>
       <p class="legal">
-        Website version 3.23.2 &copy; 2016-2025 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
+        Website version 3.23.3 &copy; 2016-2025 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
       </p>
     </footer>
 
