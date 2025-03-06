@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.23.3",
+  "version": "3.23.4",
   "type": "module",
   "scripts": {
     "build": "npx @11ty/eleventy",
@@ -12,7 +12,8 @@
     "test": "npm run test:lint && npm run test:links",
     "test:lint": "eslint --ext .js . && stylelint public/css/*.css",
     "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --verbosity error --skip '(.*\\.reddit\\.com)|(.*ccommandbot\\.com)|(.*facebook\\.com)'",
-    "post:new": "plop post"
+    "post:new": "plop post",
+    "product:new": "plop product"
   },
   "author": {
     "name": "Ric Wood",

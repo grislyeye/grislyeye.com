@@ -19,4 +19,18 @@ export default (plop) => {
       templateFile: '_templates/post.md.hbs'
     }]
   });
+
+  plop.setGenerator('product', {
+    description: 'Create a new product',
+    prompts: [{
+      type: 'input',
+      name: 'title',
+      message: 'What\'s the title of your product?'
+    }],
+    actions: [{
+      type: 'add',
+      path: 'content/products/{{slug title}}/{{slug title}}.md',
+      templateFile: '_templates/product.md.hbs'
+    }]
+  });
 };
