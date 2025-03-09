@@ -46,14 +46,14 @@
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-lit": "^1.15.0",
-    "eslint-plugin-wc": "^2.2.0",
+    "eslint-plugin-wc": "^2.2.1",
     "linkinator": "^6.1.2",
     "luxon": "^3.5.0",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-eleventy-img": "^0.10.2",
     "papaparse": "^5.5.2",
     "plop": "^4.0.1",
-    "stylelint": "^16.14.1",
+    "stylelint": "^16.15.0",
     "stylelint-config-standard": "^37.0.0"
   }
 }
