@@ -17,7 +17,7 @@ eleventyNavigation:
   <div slot="subtitle">my work</div>
 
   <ul id="products" class="previews">
-    {% for post in collections.products | excludeTags([ "drafts" ]) | reverse | limit(4) %}
+    {% for post in collections.products | excludeTags([ "drafts" ]) | featured | reverse | limit(4) %}
       <li class="preview">
         {% if (post.data.redirectTo) %}{% set url %}{{ post.data.redirectTo }}{% endset %}
         {% else %}{% set url %}{{ post.url }}{% endset %}
@@ -53,7 +53,7 @@ eleventyNavigation:
 <my-section>
   <div slot="subtitle">blog</div>
   <ul id="more" class="previews">
-    {% for post in collections.posts | excludeTags([ "drafts", "featured" ]) | reverse %}
+    {% for post in collections.posts | excludeTags([ "drafts" ]) | reverse | featured %}
       <li class="preview">
         {% if (post.data.redirectTo) %}{% set url %}{{post.data.redirectTo}}{% endset %}
         {% else %}{% set url %}{{post.url}}{% endset %}

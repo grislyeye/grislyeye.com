@@ -128,6 +128,20 @@ export default async (eleventyConfig) => {
 
   eleventyConfig.addNunjucksFilter('limit', (arr, limit) => arr.slice(0, limit));
 
+  function featuredFirst(a, b) {
+    if (!a.data.tags.includes('featured') && b.data.tags.includes('featured')) {
+      return -1;
+    }
+
+    if (a.data.tags.includes('featured') && !b.data.tags.includes('featured')) {
+      return 1;
+    }
+
+    return 0;
+  }
+
+  eleventyConfig.addNunjucksFilter('featured', (arr) => arr.sort(featuredFirst));
+
   eleventyConfig.addShortcode('backwardSupportPermalinkStem', (page) => {
     return path.dirname(page.filePathStem);
   });
