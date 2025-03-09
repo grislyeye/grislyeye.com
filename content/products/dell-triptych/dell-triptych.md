@@ -3,7 +3,6 @@ title: The Dell Triptych
 tags:
   - products
   - wip
-  - drafts
 date: 2025-03-06
 layout: layouts/post.njk
 ---
