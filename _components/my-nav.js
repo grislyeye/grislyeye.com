@@ -95,7 +95,7 @@ class MyNavigationBar extends LitElement {
             <img src="/images/location.svg" class="icon" alt="Location icon"> <span id="location">${ this.location }</span>
         </div>
 
-        ${ this.email ? MyNavigationBar.renderSocial('email', this.email, 'Mailing Lis') : html`` }
+        ${ this.email ? MyNavigationBar.renderSocial('email', this.email, 'Mailing List') : html`` }
 
         ${ this.twitter ? MyNavigationBar.renderSocial('twitter', this.twitter, 'Twitter') : html`` }
 
