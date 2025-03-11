@@ -749,7 +749,7 @@
             <img src="/images/location.svg" class="icon" alt="Location icon"> <span id="location">${this.location}</span>
         </div>
 
-        ${this.email ? _MyNavigationBar.renderSocial("email", this.email, "Mailing Lis") : ke``}
+        ${this.email ? _MyNavigationBar.renderSocial("email", this.email, "Mailing List") : ke``}
 
         ${this.twitter ? _MyNavigationBar.renderSocial("twitter", this.twitter, "Twitter") : ke``}
 
