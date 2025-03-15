@@ -73,6 +73,12 @@ export default async (eleventyConfig) => {
       hostname: metadata.url
     }
   });
+  eleventyConfig.addCollection('canonical', (collectionApi) => {
+    return collectionApi
+      .getAll()
+      .filter((page) => !page.data.tags || !page.data.tags.includes('drafts'))
+      .filter((page) => page.data.redirectTo === undefined);
+  });
 
   eleventyConfig.addPlugin(pluginFavicons);
   eleventyConfig.addPlugin(pluginSEO, {
