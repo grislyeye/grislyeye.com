@@ -242,7 +242,7 @@
   };
   var Z = { M: e, P: h, A: o, C: 1, L: V, R: M, D: u, V: S, I: R, H: k, N: I, U: L, B: H, F: z };
   var j = t.litHtmlPolyfillSupport;
-  j?.(N, R), (t.litHtmlVersions ??= []).push("3.2.1");
+  j?.(N, R), (t.litHtmlVersions ??= []).push("3.3.0");
   var B = (t4, i4, s3) => {
     const e3 = s3?.renderBefore ?? i4;
     let h3 = e3._$litPart$;
@@ -406,19 +406,6 @@
 /*! Bundled license information:
 
 lit-html/lit-html.js:
-  (**
-   * @license
-   * Copyright 2017 Google LLC
-   * SPDX-License-Identifier: BSD-3-Clause
-   *)
-
-lit-html/private-ssr-support.js:
-  (**
-   * @license
-   * Copyright 2019 Google LLC
-   * SPDX-License-Identifier: BSD-3-Clause
-   *)
-
 lit-html/directive.js:
   (**
    * @license
@@ -426,17 +413,18 @@ lit-html/directive.js:
    * SPDX-License-Identifier: BSD-3-Clause
    *)
 
-lit-html/directive-helpers.js:
-  (**
-   * @license
-   * Copyright 2020 Google LLC
-   * SPDX-License-Identifier: BSD-3-Clause
-   *)
-
+lit-html/private-ssr-support.js:
 @lit-labs/ssr-client/lib/hydrate-lit-html.js:
   (**
    * @license
    * Copyright 2019 Google LLC
+   * SPDX-License-Identifier: BSD-3-Clause
+   *)
+
+lit-html/directive-helpers.js:
+  (**
+   * @license
+   * Copyright 2020 Google LLC
    * SPDX-License-Identifier: BSD-3-Clause
    *)
 */
