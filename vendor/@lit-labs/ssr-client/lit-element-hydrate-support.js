@@ -166,7 +166,7 @@
       e3 < i4.length && (this._$AR(s3 && s3._$AB.nextSibling, e3), i4.length = e3);
     }
     _$AR(t4 = this._$AA.nextSibling, i4) {
-      for (this._$AP?.(false, true, i4); t4 && t4 !== this._$AB; ) {
+      for (this._$AP?.(false, true, i4); t4 !== this._$AB; ) {
         const i5 = t4.nextSibling;
         t4.remove(), t4 = i5;
       }
@@ -242,7 +242,7 @@
   };
   var Z = { M: e, P: h, A: o, C: 1, L: V, R: M, D: u, V: S, I: R, H: k, N: I, U: L, B: H, F: z };
   var j = t.litHtmlPolyfillSupport;
-  j?.(N, R), (t.litHtmlVersions ??= []).push("3.3.0");
+  j?.(N, R), (t.litHtmlVersions ??= []).push("3.3.1");
   var B = (t4, i4, s3) => {
     const e3 = s3?.renderBefore ?? i4;
     let h3 = e3._$litPart$;
@@ -260,7 +260,7 @@
       return t4(this, r3);
     }
   }, patchDirectiveResolve: (e3, t4) => {
-    if (e3.prototype._$AS !== t4) {
+    if (e3.prototype._$AS.name !== t4.name) {
       r2 ??= e3.prototype._$AS.name;
       for (let i4 = e3.prototype; i4 !== Object.prototype; i4 = Object.getPrototypeOf(i4)) if (i4.hasOwnProperty(r2)) return void (i4[r2] = t4);
       throw Error("Internal error: It is possible that both dev mode and production mode Lit was mixed together during SSR. Please comment on the issue: https://github.com/lit/lit/issues/4527");
