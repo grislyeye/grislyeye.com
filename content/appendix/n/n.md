@@ -27,7 +27,6 @@ If you don't know, [slash pages](https://slashpages.net/) are common pages with 
   - *Diaspora* (1997) by Greg Egan
   - *Excession* (1996) by Iain M. Banks
   - _Gargoyles and Rats_ (1990) by Mary Gentle
-  - *Good Omens* (1990) by Terry Pratchett and Neil Gaiman
   - _The Hobbit_ (1937) by J.R.R. Tolkien
   - _Jonathan Strange & Mr. Norrell_ (2004) by Susanna Clarke
   - *Labyrinths* (1957) by Jorge Luis Borges
@@ -66,7 +65,6 @@ If you don't know, [slash pages](https://slashpages.net/) are common pages with 
 
 ### Graphic Novels
 
-* *A Game of You* (1992) by Neil Gaiman
 * *The Books of Magic, Volume 1: Bindings* (1995) by John Key Reiber
 * *Ghost World* (1998) by Daniel Clowes
 * *Hellblazer* (from 1992)
