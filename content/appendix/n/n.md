@@ -32,6 +32,7 @@ If you don't know, [slash pages](https://slashpages.net/) are common pages with 
   - *Labyrinths* (1957) by Jorge Luis Borges
   - *The Man in the High Castle* (1962) by Philip K. Dick
   - *Nine Princes in Amber* (1970) by Roger Zelazny
+  - *Tales of the City* (1978) by Armistead Maupin
   - *A Tolkien Bestiary* (1978) by David Day
   - *Wuthering Heights* (1847)
   - _Wyrd Sisters_ (1988) by Terry Pratchett
