@@ -30,7 +30,9 @@
     "eleventy-google-fonts": "^0.1.0",
     "lit": "^3.3.1",
     "skeleton-css": "^2.0.4",
-    "vellum-monster": "^1.3.2"
+    "vellum-dice": "^0.2.1",
+    "vellum-monster": "^1.3.2",
+    "vellum-random-table": "^1.1.1"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",

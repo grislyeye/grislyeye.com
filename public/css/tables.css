@@ -2,6 +2,7 @@
   border-collapse: collapse;
   margin-left: 2em;
   text-align: left;
+  width: 100%;
 }
 
 .content table caption {
@@ -27,4 +28,16 @@
   padding-left: 1em;
   padding-right: 1em;
   text-align: center;
+}
+
+.three-column table {
+  thead {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  tbody {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
 }
