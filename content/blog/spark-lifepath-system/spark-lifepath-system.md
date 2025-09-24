@@ -52,9 +52,9 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 
 <vellum-random-table select="#result" preroll hideroll>
 
-| 1d12           | Locations                            |
-| -------------- | --------------------------------- |
-| 1              | The Marches                       |
+| 1d12           | Locations                     |
+| -------------- | ----------------------------- |
+| 1              | The Marches                   |
 | 2              | Dorshire                      |
 | 3              | Dismas                        |
 | 4              | Whiterock                     |
@@ -67,24 +67,28 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 | 11             | The Wash                      |
 | 12             | Roll on the Other Lands table. |
 
-<input id="result" type="text" />
+<div class="roller">
 
 <my-button class="small">
 <button>Roll</button>
 </my-button>
 
+<input id="result" type="text" />
+
+</div>
+
 </vellum-random-table>
 
 <vellum-random-table select="#result" preroll hideroll>
 
-| 1d15 | Other Lands                   |
-| -------------- | ---------------------- |
+| 1d15           | Other Lands        |
+| -------------- | ------------------ |
 | 1              | New Commonwealth   |
-| 2              | Ill North         |
+| 2              | Ill North          |
 | 3              | Shining Lands      |
 | 4              | Easterly Sea       |
 | 5              | Catcalls           |
-| 6              | Jinibia           |
+| 6              | Jinibia            |
 | 7              | Midlands           |
 | 8              | The Grey Woald     |
 | 9              | Kastenburg         |
@@ -95,17 +99,21 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 | 14             | Qua'lathia         |
 | 15             | Port Red Sand      |
 
-<input id="result" type="text" />
+<div class="roller">
 
 <my-button class="small">
 <button>Roll</button>
 </my-button>
 
+<input id="result" type="text" />
+
+</div>
+
 </vellum-random-table>
 
 <vellum-random-table select="#result" preroll hideroll>
 
-| 1d7 | Background  |
+| 1d7           | Background  |
 | ------------- | ----------- |
 | 1             | Farmer      |
 | 2             | Mercenary   |
@@ -113,19 +121,23 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 | 4             | Conscript   |
 | 5             | Fisherman   |
 | 6             | Miner       |
-| 7             | Servant            |
+| 7             | Servant     |
 
-<input id="result" type="text" />
+<div class="roller">
 
 <my-button class="small">
 <button>Roll</button>
 </my-button>
 
+<input id="result" type="text" />
+
+</div>
+
 </vellum-random-table>
 
 <vellum-random-table select="#result" preroll hideroll>
 
-| d36 | Spark 1                                          | Spark 2                                          |
+| d36           | Spark 1                                          | Spark 2                                          |
 | ------------- | ------------------------------------------------ | ------------------------------------------------ |
 | 1             | Dog                                              | Wary                                             |
 | 2             | Wail                                             | Scream                                           |
@@ -164,11 +176,15 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 | 35            | Mutter                                           | Caterwaul                                        |
 | 36            | Pox                                              | Grumble                                          |
 
-<input id="result" type="text" />
+<div class="roller">
 
 <my-button class="small">
 <button>Roll</button>
 </my-button>
+
+<input id="result" type="text" />
+
+</div>
 
 </vellum-random-table>
 
@@ -215,11 +231,13 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 |65|Watchmen|
 |66|Woodsman|
 
+<div class="roller">
+
 <my-button class="small">
 <button>Roll</button>
 </my-button>
 
-<div id="result">
+<input id="result" type="text" />
 
 </div>
 

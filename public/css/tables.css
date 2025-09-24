@@ -41,3 +41,14 @@
     grid-template-columns: repeat(3, auto);
   }
 }
+
+vellum-random-table .roller {
+  display: flex;
+  margin-left: 2em;
+  gap: 0.5em;
+  width: 100%;
+}
+
+vellum-random-table .roller input {
+  width: 100%;
+}
