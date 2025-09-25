@@ -152,6 +152,13 @@ ol {
   padding-left: 2em;
 }
 
+#post ol ol,
+#post ul ul,
+#post ul ol,
+#post ol ul {
+  margin-bottom: 0;
+}
+
 input {
   font-family: var(--font-family);
   font-size: 1.2rem;

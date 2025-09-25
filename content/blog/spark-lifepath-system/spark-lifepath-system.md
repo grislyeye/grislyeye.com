@@ -50,6 +50,8 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 
 <section class="two-column">
 
+### 1. Roll for homeland
+
 <vellum-random-table select="#result" preroll hideroll>
 
 | 1d12           | Locations                     |
@@ -111,6 +113,8 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 
 </vellum-random-table>
 
+### 2. Roll for background
+
 <vellum-random-table select="#result" preroll hideroll>
 
 | 1d7           | Background  |
@@ -134,6 +138,19 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 </div>
 
 </vellum-random-table>
+
+### 3. Roll for past event
+
+### 4. Roll for details
+
+Roll once on the spark table for each of the following:
+
+1. Personality
+2. Style of appearance
+3. Distinctive feature
+4. Core value
+6. Most valued possession
+7. Life goal
 
 <vellum-random-table select="#result" preroll hideroll>
 
@@ -189,6 +206,8 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 </vellum-random-table>
 
 </section>
+
+### 3. Roll for career
 
 <vellum-random-table class="three-column" select="#result" preroll hideroll>
 
