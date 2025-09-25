@@ -52,7 +52,9 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 
 ### 1. Roll for homeland
 
-<vellum-random-table select="#result" preroll hideroll>
+Roll for your homeland from the locations table below. If you roll a 12, roll on the Other Lands table below that for a more uncommon land of origin.
+
+<vellum-random-table select="#result" preroll hidecalc>
 
 | 1d12           | Locations                     |
 | -------------- | ----------------------------- |
@@ -81,7 +83,7 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 
 </vellum-random-table>
 
-<vellum-random-table select="#result" preroll hideroll>
+<vellum-random-table select="#result" preroll hidecalc>
 
 | 1d15           | Other Lands        |
 | -------------- | ------------------ |
@@ -113,19 +115,22 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 
 </vellum-random-table>
 
+<section class="small">
+
 ### 2. Roll for background
 
-<vellum-random-table select="#result" preroll hideroll>
+Roll on the table below for your background.
 
-| 1d7           | Background  |
+<vellum-random-table select="#result" preroll hidecalc>
+
+| 1d6           | Background  |
 | ------------- | ----------- |
 | 1             | Farmer      |
-| 2             | Mercenary   |
-| 3             | Witchfinder |
-| 4             | Conscript   |
-| 5             | Fisherman   |
-| 6             | Miner       |
-| 7             | Servant     |
+| 2             | Zealots     |
+| 3             | Conscript   |
+| 4             | Fisherman   |
+| 5             | Miner       |
+| 6             | Servant     |
 
 <div class="roller">
 
@@ -139,7 +144,40 @@ This is an example spark lifepath system I designed for my home campaign, [Disma
 
 </vellum-random-table>
 
+</section>
+
+<section class="small">
+
 ### 3. Roll for past event
+
+<vellum-random-table select="#result" preroll hidecalc>
+
+| Rumour                                                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| The Thieves' Council's plans to infiltrate North Dismas.                                                                                                                                                       |
+| The Thieves' Council's search for access to North Docks through the Deadside.                                                                                                                              |
+| The White Alchemist's obsession with Veronica Dan.                                                                                                                                                         |
+| The Thieves' Council's negotiations with Old Spit.                                                                                                                                                             |
+| The Thieves' Council's agreement with the New Commonwealth.                                                                                                                                                    |
+| The Wretched Parliament nest in The Embers.                                                                                                                                                                |
+| The Locksmith's Guild's negotiations with the Jinibian Concern to take control of Dismas.                                                                                                              |
+| The Merchant's letters to Droop.                                                                                                                                                                               |
+| Droop deal with Night Queen Creed to kill Mother Maude in exchange for a position for Cult of the Bastard on the 🗡 Dismas Remade/Thieves' Council\|Thieves' Council.                          |
+| The Shades lust for a permanent entrance into the mortal realm.                                                                                                                                                |
+
+<div class="roller">
+
+<my-button class="small">
+<button>Roll</button>
+</my-button>
+
+<input id="result" type="text" />
+
+</div>
+
+</vellum-random-table>
+
+</section>
 
 ### 4. Roll for details
 
@@ -152,7 +190,7 @@ Roll once on the spark table for each of the following:
 6. Most valued possession
 7. Life goal
 
-<vellum-random-table select="#result" preroll hideroll>
+<vellum-random-table select="#result" preroll hidecalc>
 
 | d36           | Spark 1                                          | Spark 2                                          |
 | ------------- | ------------------------------------------------ | ------------------------------------------------ |
@@ -207,9 +245,9 @@ Roll once on the spark table for each of the following:
 
 </section>
 
-### 3. Roll for career
+### 5. Roll for career
 
-<vellum-random-table class="three-column" select="#result" preroll hideroll>
+<vellum-random-table class="three-column" select="#result" preroll hidecalc>
 
 |d66|Career|
 |---|---|
@@ -261,3 +299,49 @@ Roll once on the spark table for each of the following:
 </div>
 
 </vellum-random-table>
+
+### Example character
+
+Let's create a sample character from the above lifepath system, as an example of how you can use the above to spark together a character. Here is an example of the rolls according to the process above:
+
+<dl>
+<dt>Homeland:</dt>
+<dd>Dismas</dd>
+
+<dt>Background:</dt>
+<dd>Zealots</dd>
+
+<dt>Career:</dt>
+<dd>Boatman</dd>
+
+<dt>Past event:</dt>
+<dd>The Thieves' Council's agreement with the New Commonwealth.</dd>
+
+<dt>Personality</dt>
+<dd>Slouch Maim</dd>
+
+<dt>Style:</dt>
+<dd>Cold Sausage</dd>
+
+<dt>Distinctive feature:</dt>
+<dd>Swat Craft</dd>
+
+<dt>Core value:</dt>
+<dd>Hunger Maim</dd>
+
+<dt>Prize possession:</dt>
+<dd>Followed Dung</dd>
+
+<dt>Life Goal:</dt>
+<dd>Perspiration Fanatic</dd>
+
+<dt>Friends:</dt>
+<dd>None</dd>
+
+<dt>Enemy:</dt>
+<dd>Notable NPC, Spark: Wail Mould, Resolution: Mutter Gawp</dd>
+</dl>
+
+Let's begin with the homeland and background first. Our character is from Dismas and grew up among zealots. In my setting, Dismas is surrounding lands are known as the Bishopric of Dismas. Recently, they were a source of a religious mania in which most of the inhabitants were swept away, effectively emptying the entire area. Our character is not such a zealot, but perhaps a child left behind in the fanatical crowd, an orphan of the Mad Bishop's crusade.
+
+

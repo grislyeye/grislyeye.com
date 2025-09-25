@@ -143,6 +143,10 @@ my-preview {
   aspect-ratio: 1;
 }
 
+section.small {
+  break-inside: avoid-column;
+}
+
 section.small.page {
   font-size: 1.5rem;
 }
