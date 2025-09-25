@@ -42,27 +42,27 @@
   }
 }
 
-vellum-random-table {
+.content vellum-random-table {
   margin-bottom: 2em;
   width: 100%;
   padding-left: 2em;
 }
 
-vellum-random-table table {
+.content vellum-random-table table {
   margin-left: 0;
 }
 
-vellum-random-table.three-column {
+.content vellum-random-table.three-column {
   width: 100%;
 }
 
-vellum-random-table .roller {
+.content vellum-random-table .roller {
   display: flex;
   gap: 0.5em;
   width: 100%;
 }
 
-vellum-random-table .roller input {
+.content vellum-random-table .roller input {
   width: 100%;
 }
 
