@@ -247,6 +247,8 @@ Roll once on the spark table for each of the following:
 
 ### 5. Roll for career
 
+Lastly, roll for a grubby career from the table (adapted from [Wargod!](/products/wargod/)) below:
+
 <vellum-random-table class="three-column" select="#result" preroll hidecalc>
 
 |d66|Career|
@@ -342,6 +344,7 @@ Let's create a sample character from the above lifepath system, as an example of
 <dd>Notable NPC, Spark: Wail Mould, Resolution: Mutter Gawp</dd>
 </dl>
 
-Let's begin with the homeland and background first. Our character is from Dismas and grew up among zealots. In my setting, Dismas is surrounding lands are known as the Bishopric of Dismas. Recently, they were a source of a religious mania in which most of the inhabitants were swept away, effectively emptying the entire area. Our character is not such a zealot, but perhaps a child left behind in the fanatical crowd, an orphan of the Mad Bishop's crusade.
+Let's begin with the homeland and background first. Our character is from Dismas and grew up among zealots. In my setting, the lands surrounding are are known as the "Bishopric of Dismas". Recently, a religious mania swept most of the inhabitants away, effectively emptying the entire area. Our character was perhaps a child left behind, an orphan of the Mad Bishop's crusade.
 
+We rolled his career as "boatman", so I'm going to interpret that as they had been taken in by the river people who travel up and down the River Hy, ferrying ore from Skar, and Woald lumber, to Dismas.
 
