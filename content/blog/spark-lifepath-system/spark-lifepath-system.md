@@ -5,19 +5,62 @@ tags:
   - drafts
 date: 2025-04-19
 layout: layouts/post.njk
-randomizers: true
+randomisers: true
 ---
 
-There's plenty of advice out there (such as *[On writing spark tables](https://noisesanssignal.blogspot.com/2025/01/on-writing-spark-tables.html)* or *[Build An Adventure Site ](https://cairnrpg.com/first-edition/tools/build-an-adventure-site/#create-spark-tables)*) so this won't be a tutorial on
+> Apophenia isn’t a disorder, it’s just the term for a general human trait. It’s not exactly the same as creativity — creativity involves generating novel and quality ideas, whereas apophenia creates patterns that might be creative, or that might, on the other hand, be completely wrong or useless.
+
+- *Tome of Adventure Design Revised* by Matt Finch, 2022
+
+Randomness plays an important part of my game prep.
+
+Always follow the principle that all die rolls should stand, and never ignore, pick or re-roll randomly results so as to maintain [[Randomness adds realism|a sense of realism]] and [[Randomness confound expectations|confound expectations]].
+
+Randomness in role-playing games confounds the expectations of the players by encouraging improvisation of strange new angles.
+
+Randomisation simulates depth by creating unexpected situations, implying a larger world.
+
+But, the simulation breaks down as random elements begin to repeat.
+
+Just as [[Random encounters can strain belief]], randomness can strain belief.
+
+Just as [[Apophenia is not creativity]], [[Randomised depth is shallow]] and randomness is not creativity.
+
+Just as you should [[Use apophenia to jumpstart creativity]], you should use randomness as a source of inspiration.
+
+Rather than lists things, **use tables for everything** to facilitate improvisation.
+
+## Spark Tables
+
+There's plenty of advice out there (such as *[On writing spark tables](https://noisesanssignal.blogspot.com/2025/01/on-writing-spark-tables.html)* or *[Build An Adventure Site ](https://cairnrpg.com/first-edition/tools/build-an-adventure-site/#create-spark-tables)*) so this won't be a tutorial on that.
+
+### Setting as tables
+
+Based on the principle of [[Tables for everything]], settings can be composed of tables, including typical tables such as encounter tables, [[Create spark tables to inspire|spark tables]] and rumour tables, but also tables of backgrounds, notable NPCs and locations. 
+
+Using the improvisation and [[Lazy prep]] technique, [[Tables for everything]], lore should be described in rumour table format for speed of use during play or prep. As always, find out in play whether these rumours are true or not.
+
+[[Describe setting as tables]] is a concise way to describe your world.
+
+<aside>
+
+If you like the live tables and dice rollers on this page, they are [re-usable widgets](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) you can use on your own pages. You can find them here:
+
+- [\<vellum-dice>](https://github.com/grislyeye/vellum-dice)
+- [\<vellum-random-table>](https://github.com/grislyeye/vellum-random-table)
+
+</aside>
+
+## Lifepath
 
 A plugin lifepath system that uses spark tables and describe setting as tables. To design your own lifepath system create:
 
-* Create general spark tables for your setting using its common themes and motifs
-* A rumour table (Random rumour tables as lore).
+To design your own lifepath system create:
+
+* Create spark tables for your setting, using its common themes and motifs.
+* A [[Random rumour tables as lore|rumour table]].
 * d66 tables for the locations, cultures, backgrounds, and careers from your setting.
 * A table of notable NPCs.
-
-## Setting as tables
 
 Player's can then follow this process to create their character:
 
@@ -40,7 +83,7 @@ Player's can then follow this process to create their character:
 	2. Otherwise, roll on the spark table for each.
 	3. Roll on the spark table for each to determine what the resolution might be.
 
-This method is heavily inspired by the system from *Cyberpunk RED*. Spark tables for this system will have to be quite large (d66 by d66 perhaps) to create unique outcomes for each player.
+This method is heavily inspired by the system from *Cyberpunk RED*. Spark tables for this system may have to be larger (d66 by d66 perhaps) to create unique outcomes for each player.
 
 This system requires large spark tables so as to avoid frequent duplications. You can roll 6-30 times on the same spark table (although this is unlikely), so at least three, d20 spark tables might be required.
 
@@ -162,7 +205,7 @@ Roll on the table below for your background.
 | The Wretched Parliament nest in The Embers.                                                                                                                                                                |
 | The Locksmith's Guild's negotiations with the Jinibian Concern to take control of Dismas.                                                                                                              |
 | The Merchant's letters to Droop.                                                                                                                                                                               |
-| Droop deal with Night Queen Creed to kill Mother Maude in exchange for a position for Cult of the Bastard on the 🗡 Dismas Remade/Thieves' Council\|Thieves' Council.                          |
+| Droop deal with Night Queen Creed to kill Mother Maude in exchange for a position for Cult of the Bastard on the Thieves' Council.                          |
 | The Shades lust for a permanent entrance into the mortal realm.                                                                                                                                                |
 
 <div class="roller">
@@ -346,5 +389,4 @@ Let's create a sample character from the above lifepath system, as an example of
 
 Let's begin with the homeland and background first. Our character is from Dismas and grew up among zealots. In my setting, the lands surrounding are are known as the "Bishopric of Dismas". Recently, a religious mania swept most of the inhabitants away, effectively emptying the entire area. Our character was perhaps a child left behind, an orphan of the Mad Bishop's crusade.
 
-We rolled his career as "boatman", so I'm going to interpret that as they had been taken in by the river people who travel up and down the River Hy, ferrying ore from Skar, and Woald lumber, to Dismas.
-
+We rolled his career as "boatman", so I'm going to interpret that as they had been taken in by the river folk who travel up and down the River Hy, ferrying ore from Skar, and Woald lumber, to Dismas. They probably made their way to Wookbridge after they were orphaned. It's a popular stop-over point for river folk.
