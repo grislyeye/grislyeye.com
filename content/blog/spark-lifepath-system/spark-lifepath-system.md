@@ -14,6 +14,8 @@ randomisers: true
 
 Randomness plays an important part of my game prep.
 
+Subverting expectations.
+
 Always follow the principle that all die rolls should stand, and never ignore, pick or re-roll randomly results so as to maintain [[Randomness adds realism|a sense of realism]] and [[Randomness confound expectations|confound expectations]].
 
 Randomness in role-playing games confounds the expectations of the players by encouraging improvisation of strange new angles.
