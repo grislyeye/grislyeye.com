@@ -38,7 +38,7 @@ There's plenty of advice out there (such as *[On writing spark tables](https://n
 
 ### Setting as tables
 
-Based on the principle of [[Tables for everything]], settings can be composed of tables, including typical tables such as encounter tables, [[Create spark tables to inspire|spark tables]] and rumour tables, but also tables of backgrounds, notable NPCs and locations. 
+Based on the principle of [[Tables for everything]], settings can be composed of tables, including typical tables such as encounter tables, [[Create spark tables to inspire|spark tables]] and rumour tables, but also tables of backgrounds, notable NPCs and locations.
 
 Using the improvisation and [[Lazy prep]] technique, [[Tables for everything]], lore should be described in rumour table format for speed of use during play or prep. As always, find out in play whether these rumours are true or not.
 
