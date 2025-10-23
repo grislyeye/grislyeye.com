@@ -12,7 +12,7 @@ randomisers: true
 >
 > - *Gloriana*, Michael Moorcock
 
-Glorius Chaos, which rolls in the livid heart of our games. It mutinies our best laid plans, admonishing us to extemporise, and finding ourselves in undiscovered lands. Finally, it begs us to ask, "what else might be?" The answer is with another roll of the dice.
+Glorius Chaos, which rolls in the livid heart of our games. It mutinies our best laid plans, admonishing us to extemporise, and we find ourselves in undiscovered lands. Finally, it begs us to ask, "what else might be?" The answer is with another roll of the dice.
 
 Which is to say randomness is an important part of many roleplaying games, and an especially important part of my prep. You see, randomness keeps me honest. When I prepare, nagging doubts linger. Is this too cliche? Too on-the-nose? Am I leading my players towards my conclusions, rather than their own?
 
