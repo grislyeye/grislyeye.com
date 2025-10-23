@@ -8,9 +8,11 @@ layout: layouts/post.njk
 randomisers: true
 ---
 
-> Apophenia isn’t a disorder, it’s just the term for a general human trait. It’s not exactly the same as creativity — creativity involves generating novel and quality ideas, whereas apophenia creates patterns that might be creative, or that might, on the other hand, be completely wrong or useless.
+> Do we impose this shape on Chaos, as a child imposes shapes upon a pond's weedy surface and is surprised when he returns to find that weed and water have joined together, mutable and never firm?
+>
+> - *Gloriana*, Michael Moorcock
 
-- *Tome of Adventure Design Revised* by Matt Finch, 2022
+Chaos writhes at the heart of our games.
 
 Randomness plays an important part of my game prep.
 
@@ -22,6 +24,10 @@ Randomness in role-playing games confounds the expectations of the players by en
 
 Randomisation simulates depth by creating unexpected situations, implying a larger world.
 
+When you [[Do not disregard random rolls]] you create a sense of realism by sharing in the feeling of discovery with your players.
+
+When you [[Do not disregard random rolls]], this can also save time during prep.
+
 But, the simulation breaks down as random elements begin to repeat.
 
 Just as [[Random encounters can strain belief]], randomness can strain belief.
@@ -30,6 +36,8 @@ Just as [[Apophenia is not creativity]], [[Randomised depth is shallow]] and ran
 
 Just as you should [[Use apophenia to jumpstart creativity]], you should use randomness as a source of inspiration.
 
+Embrace events beyond your control, the emergent story that develops from embracing random or unexpected events.
+
 Rather than lists things, **use tables for everything** to facilitate improvisation.
 
 ## Spark Tables
@@ -37,6 +45,8 @@ Rather than lists things, **use tables for everything** to facilitate improvisat
 There's plenty of advice out there (such as *[On writing spark tables](https://noisesanssignal.blogspot.com/2025/01/on-writing-spark-tables.html)* or *[Build An Adventure Site ](https://cairnrpg.com/first-edition/tools/build-an-adventure-site/#create-spark-tables)*) so this won't be a tutorial on that.
 
 ### Setting as tables
+
+Setting is more than just lore]] and every mechanic, random table, item of equipment can communicate setting.
 
 Based on the principle of [[Tables for everything]], settings can be composed of tables, including typical tables such as encounter tables, [[Create spark tables to inspire|spark tables]] and rumour tables, but also tables of backgrounds, notable NPCs and locations.
 
