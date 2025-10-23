@@ -63,6 +63,8 @@ If you like the live tables and dice rollers on this page, they are [re-usable w
 - [\<vellum-dice>](https://github.com/grislyeye/vellum-dice)
 - [\<vellum-random-table>](https://github.com/grislyeye/vellum-random-table)
 
+You can easily wack them into Markdown files or your Blogger.com HTML.
+
 </aside>
 
 ## Lifepath
