@@ -12,7 +12,7 @@ randomisers: true
 >
 > - *Gloriana*, Michael Moorcock
 
-Glorious Chaos, which writhes in the livid heart of our games. It mutinies our best laid plans, admonishing our predictability, impelling us towards undiscovered lands. Finally, it begs us to ask, "what else might be?" Endless worlds promised, just beyond the next roll of the dice.
+Glorious Chaos, which writhes in the livid heart of our games. It betrays our best laid plans, admonishes our predictability, directing us towards unexpected ends and promises endless worlds, just beyond the next roll of the dice.
 
 Which is to say randomness is a vital part of many roleplaying games, but also an important part of my prep. You see, randomness keeps me honest. While I prepare, nagging doubts linger. Is this cliché? Am I leading my players by the nose?
 
