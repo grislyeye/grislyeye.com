@@ -44,7 +44,7 @@ Rather than lists things, **use tables for everything** to facilitate improvisat
 
 ## Spark Tables
 
-There's plenty of advice out there (such as *[On writing spark tables](https://noisesanssignal.blogspot.com/2025/01/on-writing-spark-tables.html)* or *[Build An Adventure Site ](https://cairnrpg.com/first-edition/tools/build-an-adventure-site/#create-spark-tables)*) so this won't be a tutorial on that.
+I won't be writing a tutorial on spark tables because here's plenty of advice out there already (such as *[On writing spark tables](https://noisesanssignal.blogspot.com/2025/01/on-writing-spark-tables.html)* or *[Build An Adventure Site](https://cairnrpg.com/first-edition/tools/build-an-adventure-site/#create-spark-tables)*).
 
 ### Setting as tables
 
