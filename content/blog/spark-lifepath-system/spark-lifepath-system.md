@@ -8,13 +8,15 @@ layout: layouts/post.njk
 randomisers: true
 ---
 
-> Do we impose this shape on Chaos, as a child imposes shapes upon a pond's weedy surface and is surprised when he returns to find that weed and water have joined together, mutable and never firm?
+> Or do we frame a turbulent sky with our fingers and believe that, because we have narrowed our vision to that small sphere, we have captured and contained the elements?
 >
 > - *Gloriana*, Michael Moorcock
 
-Glorious Chaos, which writhes in the livid heart of our games. It betrays our best laid plans, admonishes the predictable, directing us towards unexpected ends, and promising endless worlds. All beyond the next roll of the dice.
+Glorious Chaos writhes in the livid heart of our games. Or, less obliquely, randomness is a vital part of many roleplaying games.
 
-Which is to say randomness is a vital part of many roleplaying games, but also an important part of my prep. You see, randomness keeps me honest. While I prepare, nagging doubts linger. Is this cliché? Am I leading my players by the nose?
+
+
+, but also an important part of my prep. You see, randomness keeps me honest. While I prepare, nagging doubts linger. Is this cliché? Am I leading my players by the nose?
 
 ~~Randomness plays an important part of my game prep.~~
 
