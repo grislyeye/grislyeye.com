@@ -12,51 +12,13 @@ randomisers: true
 >
 > - *Gloriana*, Michael Moorcock
 
-Glorious Chaos writhes in the livid heart of our games. Or, less obliquely, randomness is a vital part of many roleplaying games.
+One of the ideas I've been throwing about is "Tables For Everything," as an aid for improvisation, but also for naturalism. When I say tables for everything, I mean for all elements of my setting: rumours, locations, NPCs, etc. Every is tabulated so that it can be randomly selected, at a moments notice during a game, or more importantly (at least for me) for prep. Situations, characters and other details are interpreted from the roll of a dice.
 
+Another principle I'm chewing over is that "All Rolls Should Stand." When I choose to roll, I never ignore or re-roll results. It keeps my honest. I may reintepret results, but I always use the core concepts. I feel it maintains a sense of realism, a sense of depth, a sense of a larger world, and sends the action into strange, new angles.
 
+But it confounds expectations, which I feel is vital to entertainment.
 
-, but also an important part of my prep. You see, randomness keeps me honest. While I prepare, nagging doubts linger. Is this cliché? Am I leading my players by the nose?
-
-~~Randomness plays an important part of my game prep.~~
-
-~~Subverting expectations.~~
-
-Always follow the principle that all die rolls should stand, and never ignore, pick or re-roll randomly results so as to maintain [[Randomness adds realism|a sense of realism]] and [[Randomness confound expectations|confound expectations]].
-
-~~Randomness in role-playing games confounds the expectations of the players by encouraging improvisation of strange new angles.~~
-
-~~Randomisation simulates depth by creating unexpected situations, implying a larger world.~~
-
-When you [[Do not disregard random rolls]] you create a sense of realism by sharing in the feeling of discovery with your players.
-
-When you [[Do not disregard random rolls]], this can also save time during prep.
-
-But, the simulation breaks down as random elements begin to repeat.
-
-Just as [[Random encounters can strain belief]], randomness can strain belief.
-
-Just as [[Apophenia is not creativity]], [[Randomised depth is shallow]] and randomness is not creativity.
-
-Just as you should [[Use apophenia to jumpstart creativity]], you should use randomness as a source of inspiration.
-
-Embrace events beyond your control, the emergent story that develops from embracing random or unexpected events.
-
-Rather than lists things, **use tables for everything** to facilitate improvisation.
-
-## Spark Tables
-
-I won't be writing a tutorial on spark tables because here's plenty of advice out there already (such as *[On writing spark tables](https://noisesanssignal.blogspot.com/2025/01/on-writing-spark-tables.html)* or *[Build An Adventure Site](https://cairnrpg.com/first-edition/tools/build-an-adventure-site/#create-spark-tables)*).
-
-### Setting as tables
-
-Setting is more than just lore]] and every mechanic, random table, item of equipment can communicate setting.
-
-Based on the principle of [[Tables for everything]], settings can be composed of tables, including typical tables such as encounter tables, [[Create spark tables to inspire|spark tables]] and rumour tables, but also tables of backgrounds, notable NPCs and locations.
-
-Using the improvisation and [[Lazy prep]] technique, [[Tables for everything]], lore should be described in rumour table format for speed of use during play or prep. As always, find out in play whether these rumours are true or not.
-
-[[Describe setting as tables]] is a concise way to describe your world.
+Tables for Everything has many uses, but one in particular I've been messing around with is a lifepath system.
 
 <aside>
 
