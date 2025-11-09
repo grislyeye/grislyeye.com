@@ -65,6 +65,8 @@ Player's can then follow this procedure to create a rough outline of their new c
 
 This method is heavily inspired by the system from *Cyberpunk RED*. You can roll as much as 30 times on the same spark table for this system, so tables may have to be larger (d66 by d66, or 3 d20  perhaps) to create unique outcomes for each player.
 
+![Dismas](./content/blog/spark-lifepath-system/dismas.png "Dismas")
+
 ## Dismas Remade
 
 This is an example spark lifepath system I designed for my home campaign, [Dismas Remade](https://dismas.grislyeye.com), using the [random tables](#random-tables) from my notes.
@@ -90,8 +92,7 @@ The process is:
    2. Otherwise, roll on the spark table for each.
    3. Roll on the spark table for each to determine what the resolution might be.
 
-
-### Example character
+### Example character: Percy
 
 Let's create a sample character from the above lifepath system, as an example of how you can use the above to spark together a character. Here is an example of the rolls according to the process above:
 
@@ -131,6 +132,12 @@ Let's create a sample character from the above lifepath system, as an example of
 </dl>
 
 To get us started, we'll call our example PC "Percy". 
+
+<aside>
+
+![Cover of Gloriana](./content/blog/spark-lifepath-system/percy.png "Cover of Gloriana")
+
+</aside>
 
 #### Roll for homeland and background
 
