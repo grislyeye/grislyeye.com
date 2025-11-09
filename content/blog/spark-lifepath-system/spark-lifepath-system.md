@@ -141,11 +141,11 @@ To get us started, we'll call our example PC "Percy".
 
 #### Roll for homeland and background
 
-Percy grew up among zealots in Dismas. In my setting, the lands surrounding the city are known as the "Bishopric of Dismas". Recently, religious mania swept up most of the inhabitants driving them away on a ludicrous pilgrimage, and effectively emptying the entire area. Thinking around this, our character was perhaps a child left behind, an orphan of the Mad Bishop's crusade.
+Percy grew up among zealots in Dismas. In my setting, the lands surrounding the city are known as the "Bishopric of Dismas". Recently, religious mania swept up most of the inhabitants driving them away on a ludicrous pilgrimage, and effectively emptying the entire area. Thinking around this, our character was perhaps a child carelessly left behind, orphaned by the Mad Bishop's crusade.
 
 #### Roll for career
 
-We rolled his career as "boatman": our character had been taken in by the river folk who travel up and down the River Hy, ferrying ore from Skar and Woald lumber to Dismas. They probably made their way to Wookbridge after they were orphaned. It's a popular stop-over point for river folk.
+We rolled his career as "boater": our character had been taken in by the river-folk who travel up and down the River Hy, ferrying ore from Skar and Woald lumber to Dismas. They probably made their way to Wookbridge after they were orphaned. It's a popular stop-over point for river-folk.
 
 #### Roll for past event
 
