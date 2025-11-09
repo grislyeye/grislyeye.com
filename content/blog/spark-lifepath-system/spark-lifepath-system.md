@@ -162,7 +162,7 @@ Percy doesn't have any friends as yet, but he certainly has a notable enemy. The
 
 Percy is a person of interest to the Pond Guard, and if he's ever caught he'll be in trouble.
 
-### Random Tables
+### The Tables
 
 <section class="two-column">
 
