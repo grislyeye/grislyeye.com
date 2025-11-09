@@ -12,6 +12,8 @@ randomisers: true
 >
 > - *Gloriana*, Michael Moorcock
 
+![Cover of Gloriana](./content/blog/spark-lifepath-system/gloriana.png "Cover of Gloriana")
+
 One of the ideas I've been throwing about is "Tables For Everything," as an aid for improvisation, but also for naturalism. When I say tables for everything, I mean for all elements of my setting: rumours, locations, NPCs, etc. Every is tabulated so that it can be randomly selected, at a moments notice during a game, or more importantly (at least for me) for prep. Situations, characters and other details are interpreted from the roll of a dice.
 
 Another principle I'm chewing over is that "All Rolls Should Stand." When I choose to roll, I never ignore or re-roll results. It keeps my honest. I may reintepret results, but I always use the core concepts. I feel it maintains a sense of realism, a sense of depth, a sense of a larger world, and sends the action into strange, new angles.
@@ -33,20 +35,18 @@ You can easily wack them into Markdown files or your Blogger.com HTML.
 
 ## Lifepath
 
-A plugin lifepath system that uses spark tables and describe setting as tables. To design your own lifepath system create:
+A plugin lifepath system that uses spark tables and describe setting as tables. To create a lifepath system for your own campaign you'll need to plugin:
 
-To design your own lifepath system create:
-
-* Create spark tables for your setting, using its common themes and motifs.
-* A rumour table.
+* Spark tables for your setting, using its common themes and motifs.
+* A rumour table for your campaign.
 * d66 tables for the locations, cultures, backgrounds, and careers from your setting.
 * A table of notable NPCs.
 
-Player's can then follow this process to create their character:
+Player's can then follow this procedure to create a rough outline of their new character:
 
-1. Roll for your homeland from the locations table
-2. Roll for you culture and/or background
-3. Roll for you career
+1. Roll for your homeland from the locations table.
+2. Roll for you culture and/or background.
+3. Roll for you career.
 4. Roll once on the spark table for each of the following:
 	1. Personality
 	2. Style of appearance
@@ -56,20 +56,40 @@ Player's can then follow this process to create their character:
 	7. Life goal
 5. Roll on the rumour table for an important event in your past.
 6. You have <vellum-dice animation>1d10-7</vellum-dice> (ignore negatives) close friends or relationships:
-	1. There is a 2-in-6 chance each friend or relationship is a notable NPC, or related to one
+	1. There is a 2-in-6 chance each friend or relationship is a notable NPC, or related to one.
 	2. Otherwise, roll on the spark table for each.
 7. You have <vellum-dice animation>1d10-7</vellum-dice> (ignore negatives) enemies:
-	1. There is a 2-in-6 (<vellum-dice hidedice>1d6</vellum-dice>) chance each enemy is a notable NPC, or related to one.
+	1. There is a 2-in-6 (<vellum-dice animation hidedice>1d6</vellum-dice>) chance each enemy is a notable NPC, or related to one.
 	2. Otherwise, roll on the spark table for each.
 	3. Roll on the spark table for each to determine what the resolution might be.
 
-This method is heavily inspired by the system from *Cyberpunk RED*. Spark tables for this system may have to be larger (d66 by d66 perhaps) to create unique outcomes for each player.
-
-This system requires large spark tables so as to avoid frequent duplications. You can roll 6-30 times on the same spark table (although this is unlikely), so at least three, d20 spark tables might be required.
+This method is heavily inspired by the system from *Cyberpunk RED*. You can roll as much as 30 times on the same spark table for this system, so tables may have to be larger (d66 by d66, or 3 d20  perhaps) to create unique outcomes for each player.
 
 ## Dismas Remade
 
-This is an example spark lifepath system I designed for my home campaign, [Dismas Remade](https://dismas.grislyeye.com).
+This is an example spark lifepath system I designed for my home campaign, [Dismas Remade](https://dismas.grislyeye.com), using the [random tables](#random-tables) from my notes.
+
+The process is:
+
+1. [Roll for homeland](#1-roll-for-homeland).
+2. [Roll for background](#2-roll-for-background).
+3. [Roll for details](#4-roll-for-details):
+   1. Personality
+   2. Style of appearance
+   3. Distinctive feature
+   4. Core value
+   5. Most valued possession
+   6. Life goal
+4. [Roll for past event](#3-roll-for-past-event).
+5. [Roll for career](#5-roll-for-career).
+6. Roll <vellum-dice animation>1d10-7</vellum-dice> (ignore negatives) for close friends or relationships:
+   1. There is a 2-in-6 chance each friend or relationship is a notable NPC, or related to one.
+   2. Otherwise, roll on the spark table for each.
+7. Roll <vellum-dice animation>1d10-7</vellum-dice> (ignore negatives) for enemies:
+   1. There is a 2-in-6 (<vellum-dice animation hidedice>1d6</vellum-dice>) chance each enemy is a notable NPC, or related to one.
+   2. Otherwise, roll on the spark table for each.
+   3. Roll on the spark table for each to determine what the resolution might be.
+
 
 ### Example character
 
@@ -83,7 +103,7 @@ Let's create a sample character from the above lifepath system, as an example of
 <dd>Zealots</dd>
 
 <dt>Career:</dt>
-<dd>Boatman</dd>
+<dd>Boater</dd>
 
 <dt>Past event:</dt>
 <dd>The Thieves' Council's agreement with the New Commonwealth.</dd>
@@ -100,9 +120,6 @@ Let's create a sample character from the above lifepath system, as an example of
 <dt>Core value:</dt>
 <dd>Hunger Maim</dd>
 
-<dt>Prize possession:</dt>
-<dd>Followed Dung</dd>
-
 <dt>Life Goal:</dt>
 <dd>Perspiration Fanatic</dd>
 
@@ -113,13 +130,43 @@ Let's create a sample character from the above lifepath system, as an example of
 <dd>Notable NPC, Spark: Wail Mould, Resolution: Mutter Gawp</dd>
 </dl>
 
-Let's begin with the homeland and background first. Our character is from Dismas and grew up among zealots. In my setting, the lands surrounding are are known as the "Bishopric of Dismas". Recently, a religious mania swept most of the inhabitants away, effectively emptying the entire area. Our character was perhaps a child left behind, an orphan of the Mad Bishop's crusade.
+To get us started, we'll call our example PC "Percy". 
 
-We rolled his career as "boatman", so I'm going to interpret that as they had been taken in by the river folk who travel up and down the River Hy, ferrying ore from Skar, and Woald lumber, to Dismas. They probably made their way to Wookbridge after they were orphaned. It's a popular stop-over point for river folk.
+#### Roll for homeland and background
+
+Percy grew up among zealots in Dismas. In my setting, the lands surrounding the city are known as the "Bishopric of Dismas". Recently, religious mania swept up most of the inhabitants driving them away on a ludicrous pilgrimage, and effectively emptying the entire area. Thinking around this, our character was perhaps a child left behind, an orphan of the Mad Bishop's crusade.
+
+#### Roll for career
+
+We rolled his career as "boatman": our character had been taken in by the river folk who travel up and down the River Hy, ferrying ore from Skar and Woald lumber to Dismas. They probably made their way to Wookbridge after they were orphaned. It's a popular stop-over point for river folk.
+
+#### Roll for past event
+
+From our rumour table, our PC is somehow involved with the secretive agreement between the Dismas' thieves guild and the revolting peasants of the New Commonwealth. Interesting: I love the idea that Percy is caught between the two factions, ferrying missives between Commonwealth and Council under the nose of the Mandatory Forces.
+
+#### Roll for details
+
+For Percy's personality, we must begin to interpret our spark table prompts. We have to work with "slouch maim." It implies a profound character flaw ("maim") and idleness. Clearly, Percy is somewhat lazy to the point of addiction, used to a languid life on the river. We'll catch him napping throughout the campaign. Should be very annoying and drive a lot of delicious conflict.
+
+Next we have the prompt for Percy's style: cold sausage. I'm only going imagine that Percy suffers from a permanent feeling of cold (poor circulation?), and always wraps himself in a thick coat that smells vaguely of cooked meat.
+
+For distinctive feature we have "swat craft." I'm going to have some fun here, and suggest that Percy is always accompained by a number of midges, attracted from the river by his odorous coat. They are a constant irritation to those around him.
+
+His core value is "hunger maim:" after his orphan life Percy is violently adament he'll never go hungry again. He is always careful to have some food on hand, and if he begins to feel hungry he comes irritable and quick to temper.
+
+"Perspiration Fanatic" is the prompt for his life goal: pretty clearly to make his fanatical parents pay for their negligence. He uses his contacts in the shadowy underworld of Dismas to search for them.
+
+#### Enemy
+
+Percy doesn't have any friends as yet, but he certainly has a notable enemy. The spark for this NPC is "wail mould." This requires a lot of interpretation, but I'm going to use it to create a new faction, the Pond Guard (I feel "mould" is reminescent of pond scum) a guard force who keep the peace on the waters of the River Hy. They are known by their distinctive call. All boaters know to moor immediately and prepare to be boarded and searched. 
+
+Percy is a person of interest to the Pond Guard, and if he's ever caught he'll be in trouble.
+
+### Random Tables
 
 <section class="two-column">
 
-### 1. Roll for homeland
+#### 1. Roll for homeland
 
 Roll for your homeland from the locations table below. If you roll a 12, roll on the Other Lands table below that for a more uncommon land of origin.
 
@@ -186,7 +233,7 @@ Roll for your homeland from the locations table below. If you roll a 12, roll on
 
 <section class="small">
 
-### 2. Roll for background
+#### 2. Roll for background
 
 Roll on the table below for your background.
 
@@ -217,7 +264,7 @@ Roll on the table below for your background.
 
 <section class="small">
 
-### 3. Roll for past event
+#### 3. Roll for past event
 
 <vellum-random-table select="#result" preroll hidecalc>
 
@@ -248,7 +295,9 @@ Roll on the table below for your background.
 
 </section>
 
-### 4. Roll for details
+</section>
+
+#### 4. Roll for details
 
 Roll once on the spark table for each of the following:
 
@@ -259,7 +308,8 @@ Roll once on the spark table for each of the following:
 6. Most valued possession
 7. Life goal
 
-<vellum-random-table select="#result" preroll hidecalc>
+
+<vellum-random-table class="two-column" select="#result" preroll hidecalc>
 
 | d36           | Spark 1                                          | Spark 2                                          |
 | ------------- | ------------------------------------------------ | ------------------------------------------------ |
@@ -312,9 +362,7 @@ Roll once on the spark table for each of the following:
 
 </vellum-random-table>
 
-</section>
-
-### 5. Roll for career
+#### 5. Roll for career
 
 Lastly, roll for a grubby career from the table (adapted from [Wargod!](/products/wargod/)) below:
 
@@ -327,7 +375,7 @@ Lastly, roll for a grubby career from the table (adapted from [Wargod!](/product
 |13|Apprentice|
 |14|Artist|
 |15|Beggar|
-|16|Boatman|
+|16|Boater|
 |21|Bounty Hunter|
 |22|Burglar|
 |23|Clerk|
