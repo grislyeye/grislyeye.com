@@ -38,7 +38,7 @@ A plugin lifepath system that uses spark tables and describe setting as tables. 
 To design your own lifepath system create:
 
 * Create spark tables for your setting, using its common themes and motifs.
-* A [[Random rumour tables as lore|rumour table]].
+* A rumour table.
 * d66 tables for the locations, cultures, backgrounds, and careers from your setting.
 * A table of notable NPCs.
 
@@ -70,6 +70,52 @@ This system requires large spark tables so as to avoid frequent duplications. Yo
 ## Dismas Remade
 
 This is an example spark lifepath system I designed for my home campaign, [Dismas Remade](https://dismas.grislyeye.com).
+
+### Example character
+
+Let's create a sample character from the above lifepath system, as an example of how you can use the above to spark together a character. Here is an example of the rolls according to the process above:
+
+<dl>
+<dt>Homeland:</dt>
+<dd>Dismas</dd>
+
+<dt>Background:</dt>
+<dd>Zealots</dd>
+
+<dt>Career:</dt>
+<dd>Boatman</dd>
+
+<dt>Past event:</dt>
+<dd>The Thieves' Council's agreement with the New Commonwealth.</dd>
+
+<dt>Personality</dt>
+<dd>Slouch Maim</dd>
+
+<dt>Style:</dt>
+<dd>Cold Sausage</dd>
+
+<dt>Distinctive feature:</dt>
+<dd>Swat Craft</dd>
+
+<dt>Core value:</dt>
+<dd>Hunger Maim</dd>
+
+<dt>Prize possession:</dt>
+<dd>Followed Dung</dd>
+
+<dt>Life Goal:</dt>
+<dd>Perspiration Fanatic</dd>
+
+<dt>Friends:</dt>
+<dd>None</dd>
+
+<dt>Enemy:</dt>
+<dd>Notable NPC, Spark: Wail Mould, Resolution: Mutter Gawp</dd>
+</dl>
+
+Let's begin with the homeland and background first. Our character is from Dismas and grew up among zealots. In my setting, the lands surrounding are are known as the "Bishopric of Dismas". Recently, a religious mania swept most of the inhabitants away, effectively emptying the entire area. Our character was perhaps a child left behind, an orphan of the Mad Bishop's crusade.
+
+We rolled his career as "boatman", so I'm going to interpret that as they had been taken in by the river folk who travel up and down the River Hy, ferrying ore from Skar, and Woald lumber, to Dismas. They probably made their way to Wookbridge after they were orphaned. It's a popular stop-over point for river folk.
 
 <section class="two-column">
 
@@ -324,49 +370,3 @@ Lastly, roll for a grubby career from the table (adapted from [Wargod!](/product
 </div>
 
 </vellum-random-table>
-
-### Example character
-
-Let's create a sample character from the above lifepath system, as an example of how you can use the above to spark together a character. Here is an example of the rolls according to the process above:
-
-<dl>
-<dt>Homeland:</dt>
-<dd>Dismas</dd>
-
-<dt>Background:</dt>
-<dd>Zealots</dd>
-
-<dt>Career:</dt>
-<dd>Boatman</dd>
-
-<dt>Past event:</dt>
-<dd>The Thieves' Council's agreement with the New Commonwealth.</dd>
-
-<dt>Personality</dt>
-<dd>Slouch Maim</dd>
-
-<dt>Style:</dt>
-<dd>Cold Sausage</dd>
-
-<dt>Distinctive feature:</dt>
-<dd>Swat Craft</dd>
-
-<dt>Core value:</dt>
-<dd>Hunger Maim</dd>
-
-<dt>Prize possession:</dt>
-<dd>Followed Dung</dd>
-
-<dt>Life Goal:</dt>
-<dd>Perspiration Fanatic</dd>
-
-<dt>Friends:</dt>
-<dd>None</dd>
-
-<dt>Enemy:</dt>
-<dd>Notable NPC, Spark: Wail Mould, Resolution: Mutter Gawp</dd>
-</dl>
-
-Let's begin with the homeland and background first. Our character is from Dismas and grew up among zealots. In my setting, the lands surrounding are are known as the "Bishopric of Dismas". Recently, a religious mania swept most of the inhabitants away, effectively emptying the entire area. Our character was perhaps a child left behind, an orphan of the Mad Bishop's crusade.
-
-We rolled his career as "boatman", so I'm going to interpret that as they had been taken in by the river folk who travel up and down the River Hy, ferrying ore from Skar, and Woald lumber, to Dismas. They probably made their way to Wookbridge after they were orphaned. It's a popular stop-over point for river folk.
