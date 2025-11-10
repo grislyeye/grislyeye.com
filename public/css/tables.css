@@ -42,6 +42,18 @@
   }
 }
 
+@media(width < 970px) {
+  .three-column table {
+    thead {
+      display: block;
+    }
+
+    tbody {
+      display: block;
+    }
+  }
+}
+
 .content vellum-random-table {
   margin-bottom: 2em;
   width: 100%;

@@ -14,7 +14,9 @@ randomisers: true
 
 ![Cover of Gloriana](./content/blog/spark-lifepath-system/gloriana.png "Cover of Gloriana")
 
-One of the ideas I've been throwing about is "Tables For Everything," as an aid for improvisation, but also for naturalism. When I say tables for everything, I mean for all elements of my setting: rumours, locations, NPCs, etc. Every is tabulated so that it can be randomly selected, at a moments notice during a game, or more importantly (at least for me) for prep. Situations, characters and other details are interpreted from the roll of a dice.
+One of the ideas I've been throwing about is "Tables For Everything," as an aid for improvisation and naturalism. When I say tables for everything, I mean for all elements of my setting: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moments notice during play or prep.
+
+Situations, characters and other details are interpreted from the roll of a dice.
 
 Another principle I'm chewing over is that "All Rolls Should Stand." When I choose to roll, I never ignore or re-roll results. It keeps my honest. I may reintepret results, but I always use the core concepts. I feel it maintains a sense of realism, a sense of depth, a sense of a larger world, and sends the action into strange, new angles.
 
@@ -56,7 +58,7 @@ Player's can then follow this procedure to create a rough outline of their new c
 	7. Life goal
 5. Roll on the rumour table for an important event in your past.
 6. You have <vellum-dice animation>1d10-7</vellum-dice> (ignore negatives) close friends or relationships:
-	1. There is a 2-in-6 chance each friend or relationship is a notable NPC, or related to one.
+	1. There is a 2-in-6 (<vellum-dice animation hidedice>1d6</vellum-dice>) chance each friend or relationship is a notable NPC, or related to one.
 	2. Otherwise, roll on the spark table for each.
 7. You have <vellum-dice animation>1d10-7</vellum-dice> (ignore negatives) enemies:
 	1. There is a 2-in-6 (<vellum-dice animation hidedice>1d6</vellum-dice>) chance each enemy is a notable NPC, or related to one.
@@ -69,7 +71,7 @@ This method is heavily inspired by the system from *Cyberpunk RED*. You can roll
 
 ## Dismas Remade
 
-This is an example spark lifepath system I designed for my home campaign, [Dismas Remade](https://dismas.grislyeye.com), using the [random tables](#random-tables) from my notes.
+This is an example spark lifepath system I designed for my home campaign, [Dismas Remade](https://dismas.grislyeye.com), using the [random tables](#the-tables) from my notes.
 
 The process is:
 
@@ -85,7 +87,7 @@ The process is:
 4. [Roll for past event](#3-roll-for-past-event).
 5. [Roll for career](#5-roll-for-career).
 6. Roll <vellum-dice animation>1d10-7</vellum-dice> (ignore negatives) for close friends or relationships:
-   1. There is a 2-in-6 chance each friend or relationship is a notable NPC, or related to one.
+   1. There is a 2-in-6 (<vellum-dice animation hidedice>1d6</vellum-dice>) chance each friend or relationship is a notable NPC, or related to one.
    2. Otherwise, roll on the spark table for each.
 7. Roll <vellum-dice animation>1d10-7</vellum-dice> (ignore negatives) for enemies:
    1. There is a 2-in-6 (<vellum-dice animation hidedice>1d6</vellum-dice>) chance each enemy is a notable NPC, or related to one.
@@ -135,7 +137,7 @@ To get us started, we'll call our example PC "Percy".
 
 <aside>
 
-![Cover of Gloriana](./content/blog/spark-lifepath-system/percy.png "Cover of Gloriana")
+![Portrait of Percy](./content/blog/spark-lifepath-system/percy.png "Percy")
 
 </aside>
 
@@ -358,7 +360,6 @@ Roll once on the spark table for each of the following:
 | 36            | Pox                                              | Grumble                                          |
 
 <div class="roller">
-
 <my-button class="small">
 <button>Roll</button>
 </my-button>
