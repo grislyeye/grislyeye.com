@@ -14,15 +14,9 @@ randomisers: true
 
 ![Cover of Gloriana](./content/blog/spark-lifepath-system/gloriana.png "Cover of Gloriana")
 
-One of the ideas I've been throwing about is "Tables For Everything," as an aid for improvisation and naturalism. When I say tables for everything, I mean for all elements of my setting: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moments notice during play or prep.
+One of the ideas I've been throwing about is "Tables For Everything," or all elements of my setting: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moments notice during play or prep. It has a number of benefits. Firstly, it's an aid for improvisation and naturalism. Secondly, it's a really succinct way of describing your setting. With a few random tables and a [spark table](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), you can get a pretty clear expression of your world.
 
-Situations, characters and other details are interpreted from the roll of a dice.
-
-Another principle I'm chewing over is that "All Rolls Should Stand." When I choose to roll, I never ignore or re-roll results. It keeps my honest. I may reintepret results, but I always use the core concepts. I feel it maintains a sense of realism, a sense of depth, a sense of a larger world, and sends the action into strange, new angles.
-
-But it confounds expectations, which I feel is vital to entertainment.
-
-Tables for Everything has many uses, but one in particular I've been messing around with is a lifepath system.
+And, lastly, they can be used in other contexts. In this particular case, you can use them as a lifepath system. !!!!!!!!!!!WHY?!?!?
 
 <aside>
 
@@ -37,14 +31,14 @@ You can easily wack them into Markdown files or your Blogger.com HTML.
 
 ## Lifepath
 
-A plugin lifepath system that uses spark tables and describe setting as tables. To create a lifepath system for your own campaign you'll need to plugin:
+Here is a plugin lifepath system based on *Cyberpunk RED* that uses setting tables. Simply take the following tables:
 
 * Spark tables for your setting, using its common themes and motifs.
 * A rumour table for your campaign.
 * d66 tables for the locations, cultures, backgrounds, and careers from your setting.
 * A table of notable NPCs.
 
-Player's can then follow this procedure to create a rough outline of their new character:
+...and follow the procedure below to create a rough outline of their new character:
 
 1. Roll for your homeland from the locations table.
 2. Roll for you culture and/or background.
@@ -65,15 +59,17 @@ Player's can then follow this procedure to create a rough outline of their new c
 	2. Otherwise, roll on the spark table for each.
 	3. Roll on the spark table for each to determine what the resolution might be.
 
-This method is heavily inspired by the system from *Cyberpunk RED*. You can roll as much as 30 times on the same spark table for this system, so tables may have to be larger (d66 by d66, or 3 d20  perhaps) to create unique outcomes for each player.
+You can roll as much as 30 times on the same spark table for this system, so tables may have to be larger (d66 by d66, or 3 d20  perhaps) to create unique outcomes for each player.
+
+<aside>
 
 ![Dismas](./content/blog/spark-lifepath-system/dismas.png "Dismas")
 
+</aside>
+
 ## Dismas Remade
 
-This is an example spark lifepath system I designed for my home campaign, [Dismas Remade](https://dismas.grislyeye.com), using the [random tables](#the-tables) from my notes.
-
-The process is:
+This is an example of a lifepath system taken from my home campaign, [Dismas Remade](https://dismas.grislyeye.com), plugging in [random tables](#the-tables) from my notes:
 
 1. [Roll for homeland](#1-roll-for-homeland).
 2. [Roll for background](#2-roll-for-background).
@@ -96,7 +92,7 @@ The process is:
 
 ### Example character: Percy
 
-Let's create a sample character from the above lifepath system, as an example of how you can use the above to spark together a character. Here is an example of the rolls according to the process above:
+Let's create a sample character from the above lifepath system, as an example of how you can use the above to spark together a character. Here are a number of rolls generated using to the process above:
 
 <dl>
 <dt>Homeland:</dt>
@@ -147,11 +143,11 @@ Percy grew up among zealots in Dismas. In my setting, the lands surrounding the 
 
 #### Roll for career
 
-We rolled his career as "boater": our character had been taken in by the river-folk who travel up and down the River Hy, ferrying ore from Skar and Woald lumber to Dismas. They probably made their way to Wookbridge after they were orphaned. It's a popular stop-over point for river-folk.
+We rolled his career as "boater": our character had been taken in by the river-folk who travel up and down the River Hy, ferrying ore from Skar, and Woald lumber to Dismas. Percy probably made his way to Wookbridge after he was orphaned. It's a popular stop-over point for river-folk.
 
 #### Roll for past event
 
-From our rumour table, our PC is somehow involved with the secretive agreement between the Dismas' thieves guild and the revolting peasants of the New Commonwealth. Interesting: I love the idea that Percy is caught between the two factions, ferrying missives between Commonwealth and Council under the nose of the Mandatory Forces.
+From our rumour table, our PC is somehow involved with the secretive agreement between Dismas' thieves guild and the revolting peasants of the New Commonwealth. Interesting: I love the idea that Percy is caught between the two factions, ferrying missives between Commonwealth and Council under the nose of the Mandatory Forces.
 
 #### Roll for details
 
