@@ -18,7 +18,7 @@ I've been throwing around the idea of using tables for all elements of my settin
 
 It's also a succinct way of describing your setting. With a [spark table](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), and the random tables I mentioned, you can get a pretty clear expression of your world.
 
-I've found these random tables are flexible tools, and can be used in other contexts, like an impromptu lifepath system. !!!!!!!!!!!WHY?!?!?
+I've found these random tables are flexible tools, and can be used in other contexts, such as the following impromptu lifepath system. 
 
 <aside>
 
@@ -33,14 +33,16 @@ You can easily wack them into Markdown files or your Blogger.com HTML.
 
 ## Lifepath
 
-Here is a plugin lifepath system based on *Cyberpunk RED* that uses setting tables. Simply take the following tables:
+This is a lifepath system based on *Cyberpunk RED*. You can plug your own setting/campaign tables into it to quickly create a lifepath system customised to your setting. With a few rolls, you can create rich characters that are embedded into your campaign.
 
-* Spark tables for your setting, using its common themes and motifs.
+Create the following tables:
+
+* A spark table for the themes and motifs of your setting.
 * A rumour table for your campaign.
-* d66 tables for the locations, cultures, backgrounds, and careers from your setting.
+* d66 tables for locations, cultures, backgrounds, and careers from your setting.
 * A table of notable NPCs.
 
-...and follow the procedure below to create a rough outline of their new character:
+...and follow the procedure below to create a rough outline of a new character:
 
 1. Roll for your homeland from the locations table.
 2. Roll for you culture and/or background.
@@ -61,13 +63,13 @@ Here is a plugin lifepath system based on *Cyberpunk RED* that uses setting tabl
 	2. Otherwise, roll on the spark table for each.
 	3. Roll on the spark table for each to determine what the resolution might be.
 
-You can roll as much as 30 times on the same spark table for this system, so tables may have to be larger (d66 by d66, or 3 d20  perhaps) to create unique outcomes for each player.
+You can roll as much as 30 times on the same spark table for this system, so tables may have to be large (d66 by d66, or three d20 table perhaps) to create unique outcomes for each player.
 
 ![Dismas](./content/blog/spark-lifepath-system/dismas.png "Dismas")
 
 ## Dismas Remade
 
-This is an example of a lifepath system taken from my home campaign, [Dismas Remade](https://dismas.grislyeye.com), plugging in [random tables](#the-tables) from my notes:
+This is an example of a lifepath system taken from my home campaign, [Dismas Remade](https://dismas.grislyeye.com), plugging in [random tables](#the-tables) from my GM notes:
 
 1. [Roll for homeland](#1-roll-for-homeland).
 2. [Roll for background](#2-roll-for-background).
@@ -90,7 +92,7 @@ This is an example of a lifepath system taken from my home campaign, [Dismas Rem
 
 ### Example character: Percy
 
-Let's create a sample character from the above lifepath system, as an example of how you can use the above to spark together a character. Here are a number of rolls generated using to the process above:
+Let's create a sample character from the above lifepath system, as an example of how you can use it to spark together a character. Here are sample rolls generated using to the process above:
 
 <dl>
 <dt>Homeland:</dt>
@@ -141,27 +143,27 @@ Percy grew up among zealots in Dismas. In my setting, the lands surrounding the 
 
 #### Roll for career
 
-We rolled his career as "boater": our character had been taken in by the river-folk who travel up and down the River Hy, ferrying ore from Skar, and Woald lumber to Dismas. Percy probably made his way to Wookbridge after he was orphaned. It's a popular stop-over point for river-folk.
+We rolled his career as "boater": our character had been taken in by the river-folk who travel up and down the River Hy, ferrying ore from Skar and Woald lumber to Dismas. Percy probably made his way to Wookbridge after he was orphaned. It's a popular stop-over point for river-folk.
 
 #### Roll for past event
 
-From our rumour table, our PC is somehow involved with the secretive agreement between Dismas' thieves guild and the revolting peasants of the New Commonwealth. Interesting: I love the idea that Percy is caught between the two factions, ferrying missives between Commonwealth and Council under the nose of the Mandatory Forces.
+From our rumour table, we know Percy is somehow involved with the secretive agreement between Dismas' thieves guild and the revolting peasants of the New Commonwealth. Interesting: I love the idea that Percy is caught between the two factions, ferrying missives between Commonwealth and Council, under the nose of the Mandatory Forces.
 
 #### Roll for details
 
-For Percy's personality, we must begin to interpret our spark table prompts. We have to work with "slouch maim." It implies a profound character flaw ("maim") and idleness. Clearly, Percy is somewhat lazy to the point of addiction, used to a languid life on the river. We'll catch him napping throughout the campaign. Should be very annoying and drive a lot of delicious conflict.
+For Percy's personality, we must begin to interpret our spark table prompts. We have to work with "slouch maim." It implies a profound character flaw ("maim") and idleness. Clearly, Percy is somewhat lazy to the point of compulsion, used to a languid life on the river. We'll catch him napping throughout the campaign. Should be very annoying and drive a lot of delicious conflict.
 
-Next we have the prompt for Percy's style: cold sausage. I'm only going imagine that Percy suffers from a permanent feeling of cold (poor circulation?), and always wraps himself in a thick coat that smells vaguely of cooked meat.
+Next we have the prompt for Percy's style: cold sausage. I'm going imagine that Percy suffers from a permanent feeling of cold (poor circulation?) and always wraps himself in a thick coat that smells vaguely of cooked meat.
 
 For distinctive feature we have "swat craft." I'm going to have some fun here, and suggest that Percy is always accompained by a number of midges, attracted from the river by his odorous coat. They are a constant irritation to those around him.
 
-His core value is "hunger maim:" after his orphan life Percy is violently adament he'll never go hungry again. He is always careful to have some food on hand, and if he begins to feel hungry he comes irritable and quick to temper.
+His core value is "hunger maim:" after his orphan life, Percy is adament he'll never go hungry again. He is always careful to have some food on hand, and if he begins to feel hungry he comes irritable and quick to temper.
 
 "Perspiration Fanatic" is the prompt for his life goal: pretty clearly to make his fanatical parents pay for their negligence. He uses his contacts in the shadowy underworld of Dismas to search for them.
 
 #### Enemy
 
-Percy doesn't have any friends as yet, but he certainly has a notable enemy. The spark for this NPC is "wail mould." This requires a lot of interpretation, but I'm going to use it to create a new faction, the Pond Guard (I feel "mould" is reminescent of pond scum) a guard force who keep the peace on the waters of the River Hy. They are known by their distinctive call. All boaters know to moor immediately and prepare to be boarded and searched. 
+Percy doesn't have any friends as yet, but he certainly has a notable enemy. The spark for this NPC is "wail mould." This requires a lot of interpretation, but I'm going to use it to create a new faction: the Pond Guard (I feel "mould" is reminescent of pond scum), a watch force who keep the peace on the waters of the River Hy. They are known by their distinctive call. All boaters recognise this call and moor immediately and prepare to be boarded and searched. 
 
 Percy is a person of interest to the Pond Guard, and if he's ever caught he'll be in trouble.
 
@@ -311,47 +313,46 @@ Roll once on the spark table for each of the following:
 6. Most valued possession
 7. Life goal
 
-
 <vellum-random-table class="two-column" select="#result" preroll hidecalc>
 
-| d36           | Spark 1                                          | Spark 2                                          |
-| ------------- | ------------------------------------------------ | ------------------------------------------------ |
-| 1             | Dog                                              | Wary                                             |
-| 2             | Wail                                             | Scream                                           |
-| 3             | Gassy                                            | Broken                                           |
-| 4             | Waters                                           | Mended                                           |
-| 5             | Cobbles                                          | Gawp                                             |
-| 6             | Cart                                             | Beg                                              |
-| 7             | Coach                                            | Watching                                         |
-| 8             | Privy                                            | Busy                                             |
-| 9             | Crumbs                                           | Puce                                             |
-| 10            | Languid                                          | Grit                                             |
-| 11            | Disappeared                                      | Old                                              |
-| 12            | Incite                                           | Traitor                                          |
-| 13            | Slouch                                           | Mould                                            |
-| 14            | Skin                                             | Maim                                             |
-| 15            | Lash                                             | Wealth                                           |
-| 16            | Followed                                         | Fanatic                                          |
-| 17            | Miasma                                           | Patrol                                           |
-| 18            | Cold                                             | Craft                                            |
-| 19            | Hungry                                           | Merchant                                         |
-| 20            | Beggar                                           | Clerk                                            |
-| 21            | Puke                                             | Damp                                             |
-| 22            | Boil                                             | Burnt                                            |
-| 23            | Rash                                             | Gout                                             |
-| 24            | Miasma                                           | Rot                                              |
-| 25            | Flies                                            | Maggot                                           |
-| 26            | Nag                                              | Dung                                             |
-| 27            | Hunger                                           | Shrewd                                           |
-| 28            | Muck                                             | Venal                                            |
-| 29            | Brackish                                         | Sausage                                          |
-| 30            | Swat                                             | Irritated                                        |
-| 31            | Pewter                                           | Seamstress                                       |
-| 32            | Perspiration                                     | Pie                                              |
-| 33            | Ruddy                                            | Mob                                              |
-| 34            | Stray                                            | Bellow                                           |
-| 35            | Mutter                                           | Caterwaul                                        |
-| 36            | Pox                                              | Grumble                                          |
+| d66  | Spark 1      | Spark 2    |
+| ---- | ------------ | ---------- |
+| 11   | Dog          | Wary       |
+| 12   | Wail         | Scream     |
+| 13   | Gassy        | Broken     |
+| 14   | Waters       | Mended     |
+| 15   | Cobbles      | Gawp       |
+| 16   | Cart         | Beg        |
+| 21   | Coach        | Watching   |
+| 22   | Privy        | Busy       |
+| 23   | Crumbs       | Puce       |
+| 24   | Languid      | Grit       |
+| 25   | Disappeared  | Old        |
+| 26   | Incite       | Traitor    |
+| 31   | Slouch       | Mould      |
+| 32   | Skin         | Maim       |
+| 33   | Lash         | Wealth     |
+| 34   | Followed     | Fanatic    |
+| 35   | Miasma       | Patrol     |
+| 36   | Cold         | Craft      |
+| 41   | Hungry       | Merchant   |
+| 42   | Beggar       | Clerk      |
+| 43   | Puke         | Damp       |
+| 44   | Boil         | Burnt      |
+| 45   | Rash         | Gout       |
+| 46   | Miasma       | Rot        |
+| 51   | Flies        | Maggot     |
+| 52   | Nag          | Dung       |
+| 53   | Hunger       | Shrewd     |
+| 54   | Muck         | Venal      |
+| 55   | Brackish     | Sausage    |
+| 56   | Swat         | Irritated  |
+| 61   | Pewter       | Seamstress |
+| 62   | Perspiration | Pie        |
+| 63   | Ruddy        | Mob        |
+| 64   | Stray        | Bellow     |
+| 65   | Mutter       | Caterwaul  |
+| 66   | Pox          | Grumble    |
 
 <div class="roller">
 <my-button class="small">
