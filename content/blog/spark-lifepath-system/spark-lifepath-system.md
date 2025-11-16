@@ -14,9 +14,11 @@ randomisers: true
 
 ![Cover of Gloriana](./content/blog/spark-lifepath-system/gloriana.png "Cover of Gloriana")
 
-One of the ideas I've been throwing about is "Tables For Everything," or all elements of my setting: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moments notice during play or prep. It has a number of benefits. Firstly, it's an aid for improvisation and naturalism. And it's a really succinct way of describing your setting. With a [spark table](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), and the random tables I mentioned, you can get a pretty clear expression of your world.
+I've been throwing around the idea of using tables for all elements of my setting: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moments notice, during play or prep. It has a number of benefits. Firstly, it's an aid for improvisation and naturalism.
 
-They can be used in other contexts. In this particular case, you can use them as a lifepath system. !!!!!!!!!!!WHY?!?!?
+It's also a succinct way of describing your setting. With a [spark table](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), and the random tables I mentioned, you can get a pretty clear expression of your world.
+
+I've found these random tables are flexible tools, and can be used in other contexts, like an impromptu lifepath system. !!!!!!!!!!!WHY?!?!?
 
 <aside>
 
@@ -61,11 +63,7 @@ Here is a plugin lifepath system based on *Cyberpunk RED* that uses setting tabl
 
 You can roll as much as 30 times on the same spark table for this system, so tables may have to be larger (d66 by d66, or 3 d20  perhaps) to create unique outcomes for each player.
 
-<aside>
-
 ![Dismas](./content/blog/spark-lifepath-system/dismas.png "Dismas")
-
-</aside>
 
 ## Dismas Remade
 
