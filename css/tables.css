@@ -2,6 +2,7 @@
   border-collapse: collapse;
   margin-left: 2em;
   text-align: left;
+  width: 100%;
 }
 
 .content table caption {
@@ -27,4 +28,56 @@
   padding-left: 1em;
   padding-right: 1em;
   text-align: center;
+}
+
+.three-column table {
+  thead {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  tbody {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media(width < 970px) {
+  .three-column table {
+    thead {
+      display: block;
+    }
+
+    tbody {
+      display: block;
+    }
+  }
+}
+
+.content vellum-random-table {
+  margin-bottom: 2em;
+  width: 100%;
+  padding-left: 2em;
+}
+
+.content vellum-random-table table {
+  margin-left: 0;
+}
+
+.content vellum-random-table.three-column {
+  width: 100%;
+}
+
+.content vellum-random-table .roller {
+  display: flex;
+  gap: 0.5em;
+  width: 100%;
+}
+
+.content vellum-random-table .roller input {
+  width: 100%;
+}
+
+.content section.two-column vellum-random-table {
+  padding-left: 0;
 }

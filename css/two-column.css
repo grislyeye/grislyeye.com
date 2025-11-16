@@ -15,3 +15,7 @@
 #post section.two-column > *:first-child {
   margin-top: 0;
 }
+
+.content section.two-column table {
+  margin-left: 0;
+}

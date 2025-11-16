@@ -1,0 +1,2145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <meta name="description" content="...is Ric Wood, indie game designer and forever GM.">
+    <meta name="fediverse:creator" content="@grislyeye@c.im">
+
+    <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="The Grisly Eye">
+
+    <style>:root {
+  --font-family: 'Alegreya', serif;
+  --title-font-family: 'Andada Pro', serif;
+  --subtitle-font-family: 'Alegreya Sans', sans;
+
+  --background-color: black;
+
+  --text-color: white;
+
+  --content-max-width: 740px;
+  --content-subtitle-max-width: 200px;
+
+  --fluid-gap: clamp(0.75rem, 3vw, 1.5rem)
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  margin: 0;
+  background-image: url("/images/background.webp");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: var(--background-color);
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  font-size: 13pt;
+  color: var(--text-color);
+  line-height: 1;
+}
+
+body {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+main {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin: 0 auto 7rem;
+}
+
+main > :first-child {
+  margin-top: 0;
+}
+
+nav,
+footer {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+main > header {
+  margin-bottom: 7rem;
+}
+
+@media(width < 550px) {
+  main > header {
+    margin-bottom: 3rem;
+  }
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 5rem;
+  padding: 0;
+  list-style: none;
+}
+
+@media(width < 550px) {
+  nav {
+    margin-bottom: 3rem;
+  }
+}
+
+footer {
+  color: gray;
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+
+h1 {
+  font-family: var(--title-font-family);
+  line-height: 1;
+}
+
+h2,
+h3,
+h4 {
+  font-family: var(--title-font-family);
+}
+
+p {
+  line-height: 1;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+main > my-hero,
+main > my-section {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+}
+
+.previews {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-auto-rows: minmax(160px, 1fr);
+  gap: var(--fluid-gap);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 7rem;
+}
+
+ul.previews {
+  list-style: none;
+}
+
+.previews a,
+.previews li {
+  margin: 0;
+  padding: 0;
+}
+
+#post .previews a {
+  background-image: none;
+}
+
+#post .previews a:hover {
+  background-color: transparent;
+}
+
+my-preview {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
+}
+
+section.small {
+  break-inside: avoid-column;
+}
+
+section.small.page {
+  font-size: 1.5rem;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+#post ol ol,
+#post ul ul,
+#post ul ol,
+#post ol ul {
+  margin-bottom: 0;
+}
+
+input {
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+
+.content input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+#flawed-potion-illustration.illustration {
+  max-width: 150px;
+}
+
+#magi-illustration.illustration {
+  max-width: 200px;
+}
+
+#bailiff-illustration.illustration {
+  max-width: 350px;
+}
+
+#fey-exile-illustration.illustration,
+#grim-folk-illustration.illustration,
+#fey-illustration.illustration,
+#nights-watchmen-illustration.illustration,
+#example-npc-block.illustration,
+#inspiration-illustration.illustration {
+  max-width: 300px;
+}
+
+.content #city-illustration.illustration {
+  max-width: 300px;
+}
+
+img[src*="infantry.png"].background,
+img[src*="grim-folk.jpg"].background {
+  height: 640px;
+  width: auto;
+}
+
+img[src*="npc-block-v4.png"] {
+  max-width: 300px;
+}
+
+img[src*="npc-block-v4-header.png"],
+img[src*="npc-block-v4-description.png"],
+img[src*="npc-block-v4-characteristics.png"],
+img[src*="npc-block-v4-secrets.png"],
+img[src*="npc-block-v4-activities.png"],
+img.medium {
+  max-width: 400px;
+}
+
+#mailing-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+span.product {
+  font-style: italic;
+  color: red;
+}
+
+span.title {
+  color: red;
+  font-variant: small-caps;
+}
+
+.page-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+@media(width < 970px) {
+  .page-subtitle {
+    flex-direction: row;
+    padding-bottom: 0.3em;
+  }
+
+  .page-subtitle > * + * {
+    border-left: 1px solid;
+    padding-left: 0.5em;
+  }
+}</style>
+
+    <link rel="stylesheet" href="/bundle/EIwIC-V3j4.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+    <meta name="theme-color" content="#000000">
+
+    
+
+    
+
+    
+      <script type="module" src="/vendor/vellum-dice/vellum-dice.js"></script>
+      <script type="module" src="/vendor/vellum-random-table/vellum-random-table.js"></script>
+    
+
+    
+      <style>
+        share-button:not(:defined) button,
+        share-button:defined a {
+          display: none;
+        }
+
+        share-button:not(:defined) a + a {
+          margin-inline-start: 1ch;
+        }
+
+        share-button:defined my-shares {
+          display: none;
+        }
+
+        #post share-button button {
+          background: none!important;
+          border: none;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+
+        #post share-button img.icon {
+          width: 1rem;
+          height: 1rem;
+          border: none;
+          margin: 0;
+          padding: 0;
+          padding-top: 0.2em;
+          filter: brightness(0) invert(1);
+        }
+      </style>
+      <script type="module" src="/vendor/@daviddarnes/share-button/share-button.js"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"><style data-href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap">/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VdtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7V5tvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VZtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VltvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VVtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VRtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VptvWdUhm8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+    <link href="mailto:ric@grislyeye.com" rel="me">
+  </head>
+
+  <body dsd-pending="">
+
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
+
+    <nav>
+      <my-nav      bluesky="https://bsky.app/profile/grislyeye.com" email="/mailing-list/" mastodon="https://c.im/@grislyeye" rss="/rss.xml" location="London"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--subtitle-font-family);
+      font-size: 12pt;
+    }
+
+    @media (width < 650px) {
+      :host {
+        align-items: flex-start;
+      }
+    }
+
+    a {
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+      gap: 0.5em;
+    }
+
+    .main img.logo {
+      height: 30px;
+    }
+
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      text-transform: lowercase;
+      gap: 0.5em 1.5em;
+    }
+
+    .social a {
+      display: flex;
+      align-items: center;
+      gap: 0.2em;
+    }
+
+    .social img.icon {
+      height: 0.8em;
+    }
+
+    @media (width < 650px) {
+      .socials {
+        padding-top: 0.7em;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+    }
+  </style><!--lit-part B3E/NO4qAbc=-->
+      <div class="main">
+        <a href="/"><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"></a>
+        <span>
+          <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+        </span>
+      </div>
+
+      <div class="socials">
+        <div class="social">
+            <img src="/images/location.svg" class="icon" alt="Location icon"> <span id="location"><!--lit-part-->London<!--/lit-part--></span>
+        </div>
+
+        <!--lit-part XIHwO+MXO3w=-->
+      <div class="social">
+        <!--lit-node 1--><a href="/mailing-list/" title="RSS">
+          <!--lit-node 2--><img src="/images/email.svg" class="icon" alt="email label">
+          <!--lit-part-->Mailing List<!--/lit-part-->
+        </a>
+      </div><!--/lit-part-->
+
+        <!--lit-part BRUAAAUVAAA=--><?><!--/lit-part-->
+
+        <!--lit-part XIHwO+MXO3w=-->
+      <div class="social">
+        <!--lit-node 1--><a href="https://bsky.app/profile/grislyeye.com" title="RSS">
+          <!--lit-node 2--><img src="/images/bluesky.svg" class="icon" alt="bluesky label">
+          <!--lit-part-->Bluesky<!--/lit-part-->
+        </a>
+      </div><!--/lit-part-->
+
+        <!--lit-part XIHwO+MXO3w=-->
+      <div class="social">
+        <!--lit-node 1--><a href="https://c.im/@grislyeye" title="RSS">
+          <!--lit-node 2--><img src="/images/mastodon.svg" class="icon" alt="mastodon label">
+          <!--lit-part-->Mastodon<!--/lit-part-->
+        </a>
+      </div><!--/lit-part-->
+
+        <!--lit-part XIHwO+MXO3w=-->
+      <div class="social">
+        <!--lit-node 1--><a href="/rss.xml" title="RSS">
+          <!--lit-node 2--><img src="/images/rss.svg" class="icon" alt="rss label">
+          <!--lit-part-->RSS<!--/lit-part-->
+        </a>
+      </div><!--/lit-part-->
+      </div>
+    <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
+
+    <main>
+      <article class="post content">
+  <my-page   id="post" name="Spark lifepath system"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
+
+    h1.title {
+      font-size: 5rem;
+      text-transform: uppercase;
+      line-height: 1;
+      padding-bottom: 10px;
+      margin: 0;
+      word-wrap:break-word;
+    }
+
+    @media(max-width: 500px) {
+      h1.title {
+        font-size: 4rem;
+      }
+    }
+
+    @media(max-width: 400px) {
+      h1.title {
+        font-size: 3rem;
+      }
+    }
+  </style><!--lit-part coWevo0zuOw=-->
+      <h1 class="title">
+        <!--lit-part GS+GCwuChgs=--><!--lit-part-->Spark<!--/lit-part--> <br> <!--lit-part-->lifepath system<!--/lit-part--><?><!--/lit-part-->
+      </h1>
+      <!--lit-node 2--><my-section defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      text-transform: lowercase;
+    }
+
+    @media(width < 970px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+      }
+    }
+
+    ::slotted(*) {
+      margin-top: 0;
+    }
+  </style><!--lit-part cfdBU0cIpvY=-->
+      <section>
+        <div class="subtitle">
+          <slot name="subtitle"></slot>
+        </div>
+        <div class="content">
+          <slot></slot>
+        </div>
+      </section>
+    <!--/lit-part--></template>
+        <div slot="subtitle"><slot name="subtitle"></slot></div>
+        <slot></slot>
+      </my-section>
+    <!--/lit-part--></template>
+    <div class="page-subtitle" slot="subtitle">
+      <span>18 November 2025</span>
+      <share-button>
+        <button>
+          <img src="/images/share.svg" class="icon" alt="Share">
+        </button>
+        <my-shares   href="https://grislyeye.com/blog/spark-lifepath-system/" title="Spark lifepath system"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline;
+      cursor: pointer;
+    }
+
+    :host([native]) .shares {
+      display: none;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+      cursor: inherit;
+    }
+
+    .share {
+      padding-left: 0.1em;
+      padding-right: 0.1em;
+    }
+
+    img.icon {
+      padding-top: 0.2em;
+      height: 0.8rem;
+      filter: brightness(0) invert(1);
+    }
+
+    share-on-mastodon {
+      text-align: left;
+      text-transform: none;
+    }
+  </style><!--lit-part zyEvLOViAmI=-->
+      <script type="module" src="/vendor/@micahilbery/share-on-mastodon/share-on-mastodon.js"></script>
+      <div class="shares">
+        <!--lit-node 2--><a
+          class="share"
+          title="Share on Twitter"
+          href="https://twitter.com/intent/tweet/?url=https://grislyeye.com/blog/spark-lifepath-system/&amp;text=Spark lifepath system&amp;via=grislyeye"
+          target="_blank"
+        >
+          <img src="/images/twitter.svg" class="icon" alt="Twitter icon">
+        </a>
+
+        <!--lit-node 4--><a
+          class="share"
+          title="Share on Facebook"
+          href="https://facebook.com/sharer/sharer.php?u=https://grislyeye.com/blog/spark-lifepath-system/"
+          target="_blank"
+        >
+          <img src="/images/facebook.svg" class="icon" alt="Facebook icon">
+        </a>
+
+        <!--lit-node 6--><a
+          class="share"
+          title="Share on Tumblr"
+          href="https://tumblr.com/widgets/share/tool?canonicalUrl=https://grislyeye.com/blog/spark-lifepath-system/&amp;tags=&amp;caption=Spark lifepath system"
+          target="_blank"
+        >
+          <img src="/images/tumblr.svg" class="icon" alt="Tumblr icon">
+        </a>
+
+        <!--lit-node 8--><share-on-mastodon
+          data-share-title="Spark lifepath system"
+          data-author="@grislyeye@c.im"
+        >
+          <img slot="button" src="/images/mastodon.svg" class="icon" alt="Mastodon icon">
+        </share-on-mastodon>
+      </div>
+    <!--/lit-part--></template></my-shares>
+      </share-button>
+    </div>
+
+    <blockquote>
+<p>Or do we frame a turbulent sky with our fingers and believe that, because we have narrowed our vision to that small sphere, we have captured and contained the elements?</p>
+<ul>
+<li><em>Gloriana</em>, Michael Moorcock</li>
+</ul>
+</blockquote>
+<p><picture><source type="image/png" srcset="/img/Y_D2BZDG0x-720.png 720w"><img alt="Cover of Gloriana" title="Cover of Gloriana" src="/img/Y_D2BZDG0x-720.jpeg" width="720" height="117"></picture></p>
+<p>As part of my prep I've been using tables for all elements of my campaign: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moment's notice, during play or prep. It has a number of benefits. Firstly, it's an aid for improvisation and naturalism.</p>
+<p>It's also a succinct way of describing your setting. With a <a href="https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html">spark table</a>, and the random tables I mentioned before, you can get a pretty clear expression of your world.</p>
+<p>These random tables are also flexible tools and can be used in other contexts, such as the following impromptu lifepath system.</p>
+<aside>
+<p>If you like the rollable tables and dice on this page, they are <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements">re-usable widgets</a> you can put in your own pages. You can find them here:</p>
+<ul>
+<li><a href="https://github.com/grislyeye/vellum-dice">&lt;vellum-dice&gt;</a></li>
+<li><a href="https://github.com/grislyeye/vellum-random-table">&lt;vellum-random-table&gt;</a></li>
+</ul>
+<p>Paste them into Markdown files or your <a href="http://Blogger.com">Blogger.com</a> HTML.</p>
+</aside>
+<h2 id="lifepath" tabindex="-1"><a class="header-anchor" href="#lifepath">Lifepath</a></h2>
+<p>This is a customisable lifepath system based on the one from <em>Cyberpunk RED</em>. You can plug your own tables into it to quickly create a lifepath system customised to your setting. With a few rolls, you can create rich characters that are embedded within your campaign.</p>
+<p>Create the following tables:</p>
+<ul>
+<li>A spark table for the themes and motifs of your setting.</li>
+<li>A rumour table for your campaign.</li>
+<li>Tables for locations, cultures, backgrounds, and careers from your setting.</li>
+<li>A table of notable NPCs.</li>
+</ul>
+<p>...and follow the procedure below to create a rough outline for new characters:</p>
+<ol>
+<li>Roll for your homeland from the locations table.</li>
+<li>Roll for your culture and/or background.</li>
+<li>Roll for your career.</li>
+<li>Roll once on the spark table for each of the following:
+<ol>
+<li>Personality</li>
+<li>Style of appearance</li>
+<li>Distinctive feature</li>
+<li>Core value</li>
+<li>Most valued possession</li>
+<li>Life goal</li>
+</ol>
+</li>
+<li>Roll on the rumour table for an important event in your past.</li>
+<li>You have <vellum-dice animation="">1d10-7</vellum-dice> (ignore negatives) close friends or relationships:
+<ol>
+<li>There is a 2-in-6 (<vellum-dice animation="" hidedice="">1d6</vellum-dice>) chance each friend or relationship is a notable NPC, or related to one.</li>
+<li>Otherwise, roll on the spark table for each.</li>
+</ol>
+</li>
+<li>You have <vellum-dice animation="">1d10-7</vellum-dice> (ignore negatives) enemies:
+<ol>
+<li>There is a 2-in-6 (<vellum-dice animation="" hidedice="">1d6</vellum-dice>) chance each enemy is a notable NPC, or related to one.</li>
+<li>Otherwise, roll on the spark table for each.</li>
+<li>Roll on the spark table for each to determine what the resolution might be.</li>
+</ol>
+</li>
+</ol>
+<p>You can roll as many as 30 times on the same spark table for this system, so tables may have to be large (perhaps three d20 table) to create unique outcomes for each player.</p>
+<p><picture><source type="image/png" srcset="/img/E578DkZRXA-697.png 697w"><img alt="Dismas" title="Dismas" src="/img/E578DkZRXA-697.jpeg" width="697" height="116"></picture></p>
+<h2 id="dismas-remade" tabindex="-1"><a class="header-anchor" href="#dismas-remade">Dismas Remade</a></h2>
+<p>This is an example of a lifepath system taken from my home campaign, <a href="https://dismas.grislyeye.com">Dismas Remade</a>, plugging in <a href="#the-tables">random tables</a> from my GM notes:</p>
+<ol>
+<li><a href="#1-roll-for-homeland">Roll for homeland</a>.</li>
+<li><a href="#2-roll-for-background">Roll for background</a>.</li>
+<li><a href="#4-roll-for-details">Roll for details</a>:
+<ol>
+<li>Personality</li>
+<li>Style of appearance</li>
+<li>Distinctive feature</li>
+<li>Core value</li>
+<li>Most valued possession</li>
+<li>Life goal</li>
+</ol>
+</li>
+<li><a href="#3-roll-for-past-event">Roll for past event</a>.</li>
+<li><a href="#5-roll-for-career">Roll for career</a>.</li>
+<li>Roll <vellum-dice animation="">1d10-7</vellum-dice> (ignore negatives) for close friends or relationships:
+<ol>
+<li>There is a 2-in-6 (<vellum-dice animation="" hidedice="">1d6</vellum-dice>) chance each friend or relationship is a notable NPC, or related to one.</li>
+<li>Otherwise, roll on the spark table for each.</li>
+</ol>
+</li>
+<li>Roll <vellum-dice animation="">1d10-7</vellum-dice> (ignore negatives) for enemies:
+<ol>
+<li>There is a 2-in-6 (<vellum-dice animation="" hidedice="">1d6</vellum-dice>) chance each enemy is a notable NPC, or related to one.</li>
+<li>Otherwise, roll on the spark table for each.</li>
+<li>Roll on the spark table for each to determine what the resolution might be.</li>
+</ol>
+</li>
+</ol>
+<h3 id="example-character-percy" tabindex="-1"><a class="header-anchor" href="#example-character-percy">Example character: Percy</a></h3>
+<p>Let's create a sample character using the above lifepath system, as an example of how you can use it to spark together a character. Here are sample rolls generated using the process above:</p>
+<dl>
+<dt>Homeland:</dt>
+<dd>Dismas</dd>
+<dt>Background:</dt>
+<dd>Zealots</dd>
+<dt>Career:</dt>
+<dd>Boater</dd>
+<dt>Past event:</dt>
+<dd>The Thieves' Council's agreement with the New Commonwealth.</dd>
+<dt>Personality</dt>
+<dd>Slouch Maim</dd>
+<dt>Style:</dt>
+<dd>Cold Sausage</dd>
+<dt>Distinctive feature:</dt>
+<dd>Swat Craft</dd>
+<dt>Core value:</dt>
+<dd>Hunger Maim</dd>
+<dt>Life Goal:</dt>
+<dd>Perspiration Fanatic</dd>
+<dt>Friends:</dt>
+<dd>None</dd>
+<dt>Enemy:</dt>
+<dd>Notable NPC, Spark: Wail Mould, Resolution: Mutter Gawp</dd>
+</dl>
+<p>To get us started, we'll call our example PC &quot;Percy&quot;.</p>
+<aside>
+<p><picture><source type="image/png" srcset="/img/C9ziY2A2SW-720.png 720w"><img alt="Portrait of Percy" title="Percy" src="/img/C9ziY2A2SW-720.jpeg" width="720" height="907"></picture></p>
+</aside>
+<h4 id="roll-for-homeland-and-background" tabindex="-1"><a class="header-anchor" href="#roll-for-homeland-and-background">Roll for homeland and background</a></h4>
+<p>Percy grew up among zealots in Dismas. In my setting, the lands surrounding the city are known as the &quot;Bishopric of Dismas&quot;. Recently, religious mania swept up most of the inhabitants, driving them away on a ludicrous pilgrimage, and effectively emptying the entire area. Thinking around this, our character was perhaps a child carelessly left behind, orphaned by the Mad Bishop's crusade.</p>
+<h4 id="roll-for-career" tabindex="-1"><a class="header-anchor" href="#roll-for-career">Roll for career</a></h4>
+<p>We rolled Percy's career as &quot;boater&quot;: our character had been taken in by the river-folk who travel up and down the River Hy, ferrying ore from Skar and Woald lumber to Dismas. Percy probably made his way to Wookbridge after he was orphaned. It's a popular stop-over for river-folk.</p>
+<h4 id="roll-for-past-event" tabindex="-1"><a class="header-anchor" href="#roll-for-past-event">Roll for past event</a></h4>
+<p>From our rumour table, we know Percy is somehow involved with the secretive agreement between Dismas' thieves guild and the revolting peasants of the New Commonwealth. Interesting: I love the idea that Percy is caught between the two factions, ferrying missives between Commonwealth and Council, under the nose of the Mandatory Forces.</p>
+<h4 id="roll-for-details" tabindex="-1"><a class="header-anchor" href="#roll-for-details">Roll for details</a></h4>
+<p>For Percy's personality we interpret prompts from our spark table. We have to work with &quot;slouch maim.&quot; It implies a profound character flaw (&quot;maim&quot;) and idleness (&quot;slouch&quot;). Clearly, Percy is lazy to the point of compulsion, used to a languid life on the river. We'll catch him napping throughout the campaign. Should lead to a lot of delicious conflict.</p>
+<p>Next we have the prompt for Percy's style: &quot;cold sausage.&quot; I'm going to imagine that Percy suffers from a permanent feeling of cold (poor circulation?) and always wraps himself in a thick coat that smells vaguely of cooked meat.</p>
+<p>For distinctive feature, we have &quot;swat craft.&quot; It suggests that Percy is always accompanied by a number of midges, attracted from the river by his odorous coat. They are a constant irritation to those around him.</p>
+<p>His core value is &quot;hunger maim:&quot; after his orphan life, Percy is adamant he'll never go hungry again. He is always careful to have some food on hand, and if he begins to feel hungry he comes irritable and quick to temper.</p>
+<p>&quot;Perspiration Fanatic&quot; is the prompt for his life goal: to make his fanatical parents pay for their negligence. He uses his contacts in the shadowy underworld of Dismas to search for them.</p>
+<h4 id="enemy" tabindex="-1"><a class="header-anchor" href="#enemy">Enemy</a></h4>
+<p>Percy doesn't have any friends as yet, but he certainly has a notable enemy. The spark for this NPC is &quot;wail mould.&quot; This requires a lot of interpretation, but I'm going to use it to create a new faction: the Pond Guard (I feel &quot;mould&quot; is reminiscent of pond scum), a watch force who keeps the peace on the River Hy. They are known by their distinctive wail. All boaters recognise this call and moor immediately to prepare to be boarded and searched.</p>
+<p>Percy is a person of interest to the Pond Guard, and if he's ever caught he'll be in trouble.</p>
+<h3 id="the-tables" tabindex="-1"><a class="header-anchor" href="#the-tables">The Tables</a></h3>
+<section class="two-column">
+<h4 id="1-roll-for-homeland" tabindex="-1"><a class="header-anchor" href="#1-roll-for-homeland">1. Roll for homeland</a></h4>
+<p>Roll for your homeland from the locations table below. If you roll a 12, roll on the Other Lands table below that for a more uncommon land of origin.</p>
+<vellum-random-table select="#result" preroll="" hidecalc="">
+<table>
+<thead>
+<tr>
+<th>1d12</th>
+<th>Locations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>The Marches</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Dorshire</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Dismas</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Whiterock</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Skar</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Hywyck</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Nunstable</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Dismas Bishopric</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Wookbridge</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Freham</td>
+</tr>
+<tr>
+<td>11</td>
+<td>The Wash</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Roll on the Other Lands table.</td>
+</tr>
+</tbody>
+</table>
+<div class="roller">
+<my-button  class="small"><template shadowroot="open" shadowrootmode="open"><style>
+    ::slotted(button) {
+      font-family: var(--font-family);
+      height: 38px;
+      padding: 0 30px;
+      color: black;
+      background-color: white;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box;
+      line-height: 38px;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    ::slotted(button:hover) {
+      background-color: lightgrey;
+    }
+
+    :host(.small) ::slotted(button) {
+      font-size: 10pt;
+      padding: 0 15px;
+    }
+
+    .disabled.button ::slotted(button) {
+      pointer-events: none;
+      background-color: grey;
+      color: lightgrey;
+    }</style><!--lit-part bgCgYOHjM3s=-->
+      <!--lit-node 0--><div class="button ">
+        <slot></slot>
+      </div><!--/lit-part--></template>
+<button>Roll</button>
+</my-button>
+<input id="result" type="text">
+</div>
+</vellum-random-table>
+<vellum-random-table select="#result" preroll="" hidecalc="">
+<table>
+<thead>
+<tr>
+<th>1d15</th>
+<th>Other Lands</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>New Commonwealth</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ill North</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Shining Lands</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Easterly Sea</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Catcalls</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Jinibia</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Midlands</td>
+</tr>
+<tr>
+<td>8</td>
+<td>The Grey Woald</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Kastenburg</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Faro</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Duchy of Castantis</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Burgendorf Hills</td>
+</tr>
+<tr>
+<td>13</td>
+<td>The Crag</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Qua'lathia</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Port Red Sand</td>
+</tr>
+</tbody>
+</table>
+<div class="roller">
+<my-button  class="small"><template shadowroot="open" shadowrootmode="open"><style>
+    ::slotted(button) {
+      font-family: var(--font-family);
+      height: 38px;
+      padding: 0 30px;
+      color: black;
+      background-color: white;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box;
+      line-height: 38px;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    ::slotted(button:hover) {
+      background-color: lightgrey;
+    }
+
+    :host(.small) ::slotted(button) {
+      font-size: 10pt;
+      padding: 0 15px;
+    }
+
+    .disabled.button ::slotted(button) {
+      pointer-events: none;
+      background-color: grey;
+      color: lightgrey;
+    }</style><!--lit-part bgCgYOHjM3s=-->
+      <!--lit-node 0--><div class="button ">
+        <slot></slot>
+      </div><!--/lit-part--></template>
+<button>Roll</button>
+</my-button>
+<input id="result" type="text">
+</div>
+</vellum-random-table>
+<section class="small">
+<h4 id="2-roll-for-background" tabindex="-1"><a class="header-anchor" href="#2-roll-for-background">2. Roll for background</a></h4>
+<p>Roll on the table below for your background.</p>
+<vellum-random-table select="#result" preroll="" hidecalc="">
+<table>
+<thead>
+<tr>
+<th>1d6</th>
+<th>Background</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Farmer</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Zealots</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Conscript</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Fisherman</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Miner</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Servant</td>
+</tr>
+</tbody>
+</table>
+<div class="roller">
+<my-button  class="small"><template shadowroot="open" shadowrootmode="open"><style>
+    ::slotted(button) {
+      font-family: var(--font-family);
+      height: 38px;
+      padding: 0 30px;
+      color: black;
+      background-color: white;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box;
+      line-height: 38px;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    ::slotted(button:hover) {
+      background-color: lightgrey;
+    }
+
+    :host(.small) ::slotted(button) {
+      font-size: 10pt;
+      padding: 0 15px;
+    }
+
+    .disabled.button ::slotted(button) {
+      pointer-events: none;
+      background-color: grey;
+      color: lightgrey;
+    }</style><!--lit-part bgCgYOHjM3s=-->
+      <!--lit-node 0--><div class="button ">
+        <slot></slot>
+      </div><!--/lit-part--></template>
+<button>Roll</button>
+</my-button>
+<input id="result" type="text">
+</div>
+</vellum-random-table>
+</section>
+<section class="small">
+<h4 id="3-roll-for-past-event" tabindex="-1"><a class="header-anchor" href="#3-roll-for-past-event">3. Roll for past event</a></h4>
+<vellum-random-table select="#result" preroll="" hidecalc="">
+<table>
+<thead>
+<tr>
+<th>Rumour</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The Thieves' Council's plans to infiltrate North Dismas.</td>
+</tr>
+<tr>
+<td>The Thieves' Council's search for access to North Docks through the Deadside.</td>
+</tr>
+<tr>
+<td>The White Alchemist's obsession with Veronica Dan.</td>
+</tr>
+<tr>
+<td>The Thieves' Council's negotiations with Old Spit.</td>
+</tr>
+<tr>
+<td>The Thieves' Council's agreement with the New Commonwealth.</td>
+</tr>
+<tr>
+<td>The Wretched Parliament nest in The Embers.</td>
+</tr>
+<tr>
+<td>The Locksmith's Guild's negotiations with the Jinibian Concern to take control of Dismas.</td>
+</tr>
+<tr>
+<td>The Merchant's letters to Droop.</td>
+</tr>
+<tr>
+<td>Droop deal with Night Queen Creed to kill Mother Maude in exchange for a position for Cult of the Bastard on the Thieves' Council.</td>
+</tr>
+<tr>
+<td>The Shades lust for a permanent entrance into the mortal realm.</td>
+</tr>
+</tbody>
+</table>
+<div class="roller">
+<my-button  class="small"><template shadowroot="open" shadowrootmode="open"><style>
+    ::slotted(button) {
+      font-family: var(--font-family);
+      height: 38px;
+      padding: 0 30px;
+      color: black;
+      background-color: white;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box;
+      line-height: 38px;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    ::slotted(button:hover) {
+      background-color: lightgrey;
+    }
+
+    :host(.small) ::slotted(button) {
+      font-size: 10pt;
+      padding: 0 15px;
+    }
+
+    .disabled.button ::slotted(button) {
+      pointer-events: none;
+      background-color: grey;
+      color: lightgrey;
+    }</style><!--lit-part bgCgYOHjM3s=-->
+      <!--lit-node 0--><div class="button ">
+        <slot></slot>
+      </div><!--/lit-part--></template>
+<button>Roll</button>
+</my-button>
+<input id="result" type="text">
+</div>
+</vellum-random-table>
+</section>
+</section>
+<h4 id="4-roll-for-details" tabindex="-1"><a class="header-anchor" href="#4-roll-for-details">4. Roll for details</a></h4>
+<p>Roll once on the spark table for each of the following:</p>
+<ol>
+<li>Personality</li>
+<li>Style of appearance</li>
+<li>Distinctive feature</li>
+<li>Core value</li>
+<li>Most valued possession</li>
+<li>Life goal</li>
+</ol>
+<vellum-random-table class="two-column" select="#result" preroll="" hidecalc="">
+<table>
+<thead>
+<tr>
+<th>d66</th>
+<th>Spark 1</th>
+<th>Spark 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11</td>
+<td>Dog</td>
+<td>Wary</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Wail</td>
+<td>Scream</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Gassy</td>
+<td>Broken</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Waters</td>
+<td>Mended</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Cobbles</td>
+<td>Gawp</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Cart</td>
+<td>Beg</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Coach</td>
+<td>Watching</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Privy</td>
+<td>Busy</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Crumbs</td>
+<td>Puce</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Languid</td>
+<td>Grit</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Disappeared</td>
+<td>Old</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Incite</td>
+<td>Traitor</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Slouch</td>
+<td>Mould</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Skin</td>
+<td>Maim</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Lash</td>
+<td>Wealth</td>
+</tr>
+<tr>
+<td>34</td>
+<td>Followed</td>
+<td>Fanatic</td>
+</tr>
+<tr>
+<td>35</td>
+<td>Miasma</td>
+<td>Patrol</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Cold</td>
+<td>Craft</td>
+</tr>
+<tr>
+<td>41</td>
+<td>Hungry</td>
+<td>Merchant</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Beggar</td>
+<td>Clerk</td>
+</tr>
+<tr>
+<td>43</td>
+<td>Puke</td>
+<td>Damp</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Boil</td>
+<td>Burnt</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Rash</td>
+<td>Gout</td>
+</tr>
+<tr>
+<td>46</td>
+<td>Miasma</td>
+<td>Rot</td>
+</tr>
+<tr>
+<td>51</td>
+<td>Flies</td>
+<td>Maggot</td>
+</tr>
+<tr>
+<td>52</td>
+<td>Nag</td>
+<td>Dung</td>
+</tr>
+<tr>
+<td>53</td>
+<td>Hunger</td>
+<td>Shrewd</td>
+</tr>
+<tr>
+<td>54</td>
+<td>Muck</td>
+<td>Venal</td>
+</tr>
+<tr>
+<td>55</td>
+<td>Brackish</td>
+<td>Sausage</td>
+</tr>
+<tr>
+<td>56</td>
+<td>Swat</td>
+<td>Irritated</td>
+</tr>
+<tr>
+<td>61</td>
+<td>Pewter</td>
+<td>Seamstress</td>
+</tr>
+<tr>
+<td>62</td>
+<td>Perspiration</td>
+<td>Pie</td>
+</tr>
+<tr>
+<td>63</td>
+<td>Ruddy</td>
+<td>Mob</td>
+</tr>
+<tr>
+<td>64</td>
+<td>Stray</td>
+<td>Bellow</td>
+</tr>
+<tr>
+<td>65</td>
+<td>Mutter</td>
+<td>Caterwaul</td>
+</tr>
+<tr>
+<td>66</td>
+<td>Pox</td>
+<td>Grumble</td>
+</tr>
+</tbody>
+</table>
+<div class="roller">
+<my-button  class="small"><template shadowroot="open" shadowrootmode="open"><style>
+    ::slotted(button) {
+      font-family: var(--font-family);
+      height: 38px;
+      padding: 0 30px;
+      color: black;
+      background-color: white;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box;
+      line-height: 38px;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    ::slotted(button:hover) {
+      background-color: lightgrey;
+    }
+
+    :host(.small) ::slotted(button) {
+      font-size: 10pt;
+      padding: 0 15px;
+    }
+
+    .disabled.button ::slotted(button) {
+      pointer-events: none;
+      background-color: grey;
+      color: lightgrey;
+    }</style><!--lit-part bgCgYOHjM3s=-->
+      <!--lit-node 0--><div class="button ">
+        <slot></slot>
+      </div><!--/lit-part--></template>
+<button>Roll</button>
+</my-button>
+<input id="result" type="text">
+</div>
+</vellum-random-table>
+<h4 id="5-roll-for-career" tabindex="-1"><a class="header-anchor" href="#5-roll-for-career">5. Roll for career</a></h4>
+<p>Lastly, roll for a grubby career from the table (adapted from <a href="/products/wargod/">Wargod!</a>) below:</p>
+<vellum-random-table class="three-column" select="#result" preroll="" hidecalc="">
+<table>
+<thead>
+<tr>
+<th>d66</th>
+<th>Career</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11</td>
+<td>Agitator</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Apothecary</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Apprentice</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Artist</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Beggar</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Boater</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Bounty Hunter</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Burglar</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Clerk</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Entertainer</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Fanatic</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Fey Exile</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Footpad</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Gambler</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Grave Robber</td>
+</tr>
+<tr>
+<td>34</td>
+<td>Hermit</td>
+</tr>
+<tr>
+<td>35</td>
+<td>Hunter</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Initiate</td>
+</tr>
+<tr>
+<td>41</td>
+<td>Labourer</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Miner</td>
+</tr>
+<tr>
+<td>43</td>
+<td>Mercenary</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Mountebank</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Noble</td>
+</tr>
+<tr>
+<td>46</td>
+<td>Novitiate</td>
+</tr>
+<tr>
+<td>51</td>
+<td>Outlaw</td>
+</tr>
+<tr>
+<td>52</td>
+<td>Peddler</td>
+</tr>
+<tr>
+<td>53</td>
+<td>Rat-catcher</td>
+</tr>
+<tr>
+<td>54</td>
+<td>Ruffian</td>
+</tr>
+<tr>
+<td>55</td>
+<td>Sailor</td>
+</tr>
+<tr>
+<td>56</td>
+<td>Servant</td>
+</tr>
+<tr>
+<td>61</td>
+<td>Smuggler</td>
+</tr>
+<tr>
+<td>62</td>
+<td>Soldier</td>
+</tr>
+<tr>
+<td>63</td>
+<td>Squire</td>
+</tr>
+<tr>
+<td>64</td>
+<td>Traveller</td>
+</tr>
+<tr>
+<td>65</td>
+<td>Watchmen</td>
+</tr>
+<tr>
+<td>66</td>
+<td>Woodsman</td>
+</tr>
+</tbody>
+</table>
+<div class="roller">
+<my-button  class="small"><template shadowroot="open" shadowrootmode="open"><style>
+    ::slotted(button) {
+      font-family: var(--font-family);
+      height: 38px;
+      padding: 0 30px;
+      color: black;
+      background-color: white;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box;
+      line-height: 38px;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    ::slotted(button:hover) {
+      background-color: lightgrey;
+    }
+
+    :host(.small) ::slotted(button) {
+      font-size: 10pt;
+      padding: 0 15px;
+    }
+
+    .disabled.button ::slotted(button) {
+      pointer-events: none;
+      background-color: grey;
+      color: lightgrey;
+    }</style><!--lit-part bgCgYOHjM3s=-->
+      <!--lit-node 0--><div class="button ">
+        <slot></slot>
+      </div><!--/lit-part--></template>
+<button>Roll</button>
+</my-button>
+<input id="result" type="text">
+</div>
+</vellum-random-table>
+
+
+  </my-page>
+</article>
+
+    </main>
+
+    <footer>
+      <p class="legal">
+        Website version 3.24.6 &copy; 2016-2025 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
+      </p>
+    </footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/bundle/my-components.js');
+      })();
+    </script>
+
+    <!-- Current page: /blog/spark-lifepath-system/ -->
+  </body>
+</html>

@@ -1,0 +1,379 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "vellum-random-table.js",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "t"
+        },
+        {
+          "kind": "variable",
+          "name": "i",
+          "type": {
+            "text": "array"
+          },
+          "default": "[st(6),st(6)]"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "i",
+          "declaration": {
+            "name": "t",
+            "module": "vellum-random-table.js"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "i",
+          "declaration": {
+            "name": "t",
+            "module": "vellum-random-table.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/dice.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "Die",
+          "members": [
+            {
+              "kind": "method",
+              "name": "roll",
+              "return": {
+                "type": {
+                  "text": "Roll"
+                }
+              }
+            },
+            {
+              "kind": "method",
+              "name": "from",
+              "static": true,
+              "return": {
+                "type": {
+                  "text": "Die"
+                }
+              },
+              "parameters": [
+                {
+                  "name": "notation",
+                  "type": {
+                    "text": "string"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Die",
+          "declaration": {
+            "name": "Die",
+            "module": "src/dice.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/range.ts",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "parseRange",
+          "return": {
+            "type": {
+              "text": "Range | undefined"
+            }
+          },
+          "parameters": [
+            {
+              "name": "notation",
+              "type": {
+                "text": "string"
+              }
+            }
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "parseRange",
+          "declaration": {
+            "name": "parseRange",
+            "module": "src/range.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/vellum-random-table.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "VellumRandomTable",
+          "members": [
+            {
+              "kind": "field",
+              "name": "select",
+              "type": {
+                "text": "string | undefined"
+              },
+              "attribute": "select"
+            },
+            {
+              "kind": "field",
+              "name": "preroll",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "attribute": "preroll"
+            },
+            {
+              "kind": "field",
+              "name": "hideroll",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "attribute": "hideroll"
+            },
+            {
+              "kind": "field",
+              "name": "hidecalc",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "attribute": "hidecalc"
+            },
+            {
+              "kind": "field",
+              "name": "mode",
+              "type": {
+                "text": "TableMode"
+              },
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "button",
+              "type": {
+                "text": "HTMLButtonElement"
+              },
+              "privacy": "private",
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "table",
+              "type": {
+                "text": "HTMLTableElement"
+              },
+              "privacy": "private",
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "die",
+              "type": {
+                "text": "Die | undefined"
+              },
+              "privacy": "private",
+              "readonly": true
+            },
+            {
+              "kind": "method",
+              "name": "ranges",
+              "privacy": "private",
+              "return": {
+                "type": {
+                  "text": "Range[]"
+                }
+              },
+              "parameters": [
+                {
+                  "name": "column",
+                  "type": {
+                    "text": "number"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "selection",
+              "privacy": "private",
+              "return": {
+                "type": {
+                  "text": "HTMLElement[]"
+                }
+              },
+              "parameters": [
+                {
+                  "name": "column",
+                  "type": {
+                    "text": "number"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "resultColumns",
+              "privacy": "private",
+              "return": {
+                "type": {
+                  "text": "HTMLElement[][]"
+                }
+              }
+            },
+            {
+              "kind": "field",
+              "name": "resultTarget",
+              "type": {
+                "text": "HTMLElement | undefined"
+              },
+              "privacy": "private",
+              "readonly": true
+            },
+            {
+              "kind": "method",
+              "name": "roll",
+              "return": {
+                "type": {
+                  "text": "void"
+                }
+              }
+            },
+            {
+              "kind": "method",
+              "name": "display",
+              "privacy": "private",
+              "return": {
+                "type": {
+                  "text": "void"
+                }
+              },
+              "parameters": [
+                {
+                  "name": "result",
+                  "type": {
+                    "text": "HTMLElement"
+                  }
+                },
+                {
+                  "name": "details",
+                  "default": "undefined",
+                  "type": {
+                    "text": "string | undefined"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "displayAsString",
+              "privacy": "private",
+              "return": {
+                "type": {
+                  "text": "void"
+                }
+              },
+              "parameters": [
+                {
+                  "name": "result",
+                  "type": {
+                    "text": "string"
+                  }
+                },
+                {
+                  "name": "details",
+                  "default": "undefined",
+                  "type": {
+                    "text": "string | undefined"
+                  }
+                }
+              ]
+            }
+          ],
+          "attributes": [
+            {
+              "name": "select",
+              "type": {
+                "text": "string | undefined"
+              },
+              "fieldName": "select"
+            },
+            {
+              "name": "preroll",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "fieldName": "preroll"
+            },
+            {
+              "name": "hideroll",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "fieldName": "hideroll"
+            },
+            {
+              "name": "hidecalc",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false",
+              "fieldName": "hidecalc"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "vellum-random-table",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "VellumRandomTable",
+          "declaration": {
+            "name": "VellumRandomTable",
+            "module": "src/vellum-random-table.ts"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "vellum-random-table",
+          "declaration": {
+            "name": "VellumRandomTable",
+            "module": "src/vellum-random-table.ts"
+          }
+        }
+      ]
+    }
+  ]
+}
