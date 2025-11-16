@@ -3,9 +3,10 @@ title: Spark lifepath system
 tags:
   - posts
   - drafts
-date: 2025-04-19
+date: 2025-11-18
 layout: layouts/post.njk
 randomisers: true
+image: /blog/spark-lifepath-system/percy.png
 ---
 
 > Or do we frame a turbulent sky with our fingers and believe that, because we have narrowed our vision to that small sphere, we have captured and contained the elements?
