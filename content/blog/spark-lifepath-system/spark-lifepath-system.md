@@ -14,9 +14,9 @@ randomisers: true
 
 ![Cover of Gloriana](./content/blog/spark-lifepath-system/gloriana.png "Cover of Gloriana")
 
-One of the ideas I've been throwing about is "Tables For Everything," or all elements of my setting: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moments notice during play or prep. It has a number of benefits. Firstly, it's an aid for improvisation and naturalism. Secondly, it's a really succinct way of describing your setting. With a few random tables and a [spark table](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), you can get a pretty clear expression of your world.
+One of the ideas I've been throwing about is "Tables For Everything," or all elements of my setting: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moments notice during play or prep. It has a number of benefits. Firstly, it's an aid for improvisation and naturalism. And it's a really succinct way of describing your setting. With a [spark table](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), and the random tables I mentioned, you can get a pretty clear expression of your world.
 
-And, lastly, they can be used in other contexts. In this particular case, you can use them as a lifepath system. !!!!!!!!!!!WHY?!?!?
+They can be used in other contexts. In this particular case, you can use them as a lifepath system. !!!!!!!!!!!WHY?!?!?
 
 <aside>
 
