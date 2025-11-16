@@ -15,35 +15,35 @@ image: /blog/spark-lifepath-system/percy.png
 
 ![Cover of Gloriana](./content/blog/spark-lifepath-system/gloriana.png "Cover of Gloriana")
 
-I've been throwing around the idea of using tables for all elements of my setting: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moment's notice, during play or prep. It has a number of benefits. Firstly, it's an aid for improvisation and naturalism.
+As part of my prep I've been using tables for all elements of my campaign: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moment's notice, during play or prep. It has a number of benefits. Firstly, it's an aid for improvisation and naturalism.
 
-It's also a succinct way of describing your setting. With a [spark table](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), and the random tables I mentioned, you can get a pretty clear expression of your world.
+It's also a succinct way of describing your setting. With a [spark table](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), and the random tables I mentioned before, you can get a pretty clear expression of your world.
 
-I've found these random tables are flexible tools, and can be used in other contexts, such as the following impromptu lifepath system. 
+These random tables are also flexible tools and can be used in other contexts, such as the following impromptu lifepath system. 
 
 <aside>
 
-If you like the rollable tables and dice on this page, they are [re-usable widgets](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) you can use on your own pages. You can find them here:
+If you like the rollable tables and dice on this page, they are [re-usable widgets](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) you can put in your own pages. You can find them here:
 
 - [\<vellum-dice>](https://github.com/grislyeye/vellum-dice)
 - [\<vellum-random-table>](https://github.com/grislyeye/vellum-random-table)
 
-You can easily wack them into Markdown files or your Blogger.com HTML.
+Paste them into Markdown files or your Blogger.com HTML.
 
 </aside>
 
 ## Lifepath
 
-This is a lifepath system based on *Cyberpunk RED*. You can plug your own setting/campaign tables into it to quickly create a lifepath system customised to your setting. With a few rolls, you can create rich characters that are embedded into your campaign.
+This is a customisable lifepath system based on the one from *Cyberpunk RED*. You can plug your own tables into it to quickly create a lifepath system customised to your setting. With a few rolls, you can create rich characters that are embedded within your campaign.
 
 Create the following tables:
 
 * A spark table for the themes and motifs of your setting.
 * A rumour table for your campaign.
-* d66 tables for locations, cultures, backgrounds, and careers from your setting.
+* Tables for locations, cultures, backgrounds, and careers from your setting.
 * A table of notable NPCs.
 
-...and follow the procedure below to create a rough outline of a new character:
+...and follow the procedure below to create a rough outline for new characters:
 
 1. Roll for your homeland from the locations table.
 2. Roll for your culture and/or background.
@@ -64,7 +64,7 @@ Create the following tables:
 	2. Otherwise, roll on the spark table for each.
 	3. Roll on the spark table for each to determine what the resolution might be.
 
-You can roll as much as 30 times on the same spark table for this system, so tables may have to be large (d66 by d66, or three d20 table perhaps) to create unique outcomes for each player.
+You can roll as many as 30 times on the same spark table for this system, so tables may have to be large (perhaps three d20 table) to create unique outcomes for each player.
 
 ![Dismas](./content/blog/spark-lifepath-system/dismas.png "Dismas")
 
@@ -93,7 +93,7 @@ This is an example of a lifepath system taken from my home campaign, [Dismas Rem
 
 ### Example character: Percy
 
-Let's create a sample character from the above lifepath system, as an example of how you can use it to spark together a character. Here are sample rolls generated using the process above:
+Let's create a sample character using the above lifepath system, as an example of how you can use it to spark together a character. Here are sample rolls generated using the process above:
 
 <dl>
 <dt>Homeland:</dt>
@@ -144,7 +144,7 @@ Percy grew up among zealots in Dismas. In my setting, the lands surrounding the 
 
 #### Roll for career
 
-We rolled his career as "boater": our character had been taken in by the river-folk who travel up and down the River Hy, ferrying ore from Skar and Woald lumber to Dismas. Percy probably made his way to Wookbridge after he was orphaned. It's a popular stop-over point for river-folk.
+We rolled Percy's career as "boater": our character had been taken in by the river-folk who travel up and down the River Hy, ferrying ore from Skar and Woald lumber to Dismas. Percy probably made his way to Wookbridge after he was orphaned. It's a popular stop-over for river-folk.
 
 #### Roll for past event
 
@@ -152,19 +152,19 @@ From our rumour table, we know Percy is somehow involved with the secretive agre
 
 #### Roll for details
 
-For Percy's personality, we must begin to interpret our spark table prompts. We have to work with "slouch maim." It implies a profound character flaw ("maim") and idleness. Clearly, Percy is lazy to the point of compulsion, used to a languid life on the river. We'll catch him napping throughout the campaign. Should be very annoying and drive a lot of delicious conflict.
+For Percy's personality we interpret prompts from our spark table. We have to work with "slouch maim." It implies a profound character flaw ("maim") and idleness ("slouch"). Clearly, Percy is lazy to the point of compulsion, used to a languid life on the river. We'll catch him napping throughout the campaign. Should lead to a lot of delicious conflict.
 
-Next we have the prompt for Percy's style: cold sausage. I'm going to imagine that Percy suffers from a permanent feeling of cold (poor circulation?) and always wraps himself in a thick coat that smells vaguely of cooked meat.
+Next we have the prompt for Percy's style: "cold sausage." I'm going to imagine that Percy suffers from a permanent feeling of cold (poor circulation?) and always wraps himself in a thick coat that smells vaguely of cooked meat.
 
-For distinctive feature, we have "swat craft." I'm going to have some fun here, and suggest that Percy is always accompanied by a number of midges, attracted from the river by his odorous coat. They are a constant irritation to those around him.
+For distinctive feature, we have "swat craft." It suggests that Percy is always accompanied by a number of midges, attracted from the river by his odorous coat. They are a constant irritation to those around him.
 
 His core value is "hunger maim:" after his orphan life, Percy is adamant he'll never go hungry again. He is always careful to have some food on hand, and if he begins to feel hungry he comes irritable and quick to temper.
 
-"Perspiration Fanatic" is the prompt for his life goal: pretty clearly to make his fanatical parents pay for their negligence. He uses his contacts in the shadowy underworld of Dismas to search for them.
+"Perspiration Fanatic" is the prompt for his life goal: to make his fanatical parents pay for their negligence. He uses his contacts in the shadowy underworld of Dismas to search for them.
 
 #### Enemy
 
-Percy doesn't have any friends as yet, but he certainly has a notable enemy. The spark for this NPC is "wail mould." This requires a lot of interpretation, but I'm going to use it to create a new faction: the Pond Guard (I feel "mould" is reminiscent of pond scum), a watch force who keeps the peace on the waters of the River Hy. They are known by their distinctive call. All boaters recognise this call and moor immediately and prepare to be boarded and searched. 
+Percy doesn't have any friends as yet, but he certainly has a notable enemy. The spark for this NPC is "wail mould." This requires a lot of interpretation, but I'm going to use it to create a new faction: the Pond Guard (I feel "mould" is reminiscent of pond scum), a watch force who keeps the peace on the River Hy. They are known by their distinctive wail. All boaters recognise this call and moor immediately to prepare to be boarded and searched. 
 
 Percy is a person of interest to the Pond Guard, and if he's ever caught he'll be in trouble.
 
