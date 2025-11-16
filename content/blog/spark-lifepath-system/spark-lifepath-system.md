@@ -15,7 +15,7 @@ image: /blog/spark-lifepath-system/percy.png
 
 ![Cover of Gloriana](./content/blog/spark-lifepath-system/gloriana.png "Cover of Gloriana")
 
-I've been throwing around the idea of using tables for all elements of my setting: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moments notice, during play or prep. It has a number of benefits. Firstly, it's an aid for improvisation and naturalism.
+I've been throwing around the idea of using tables for all elements of my setting: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moment's notice, during play or prep. It has a number of benefits. Firstly, it's an aid for improvisation and naturalism.
 
 It's also a succinct way of describing your setting. With a [spark table](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), and the random tables I mentioned, you can get a pretty clear expression of your world.
 
@@ -23,7 +23,7 @@ I've found these random tables are flexible tools, and can be used in other cont
 
 <aside>
 
-If you like the live tables and dice rollers on this page, they are [re-usable widgets](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) you can use on your own pages. You can find them here:
+If you like the rollable tables and dice on this page, they are [re-usable widgets](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) you can use on your own pages. You can find them here:
 
 - [\<vellum-dice>](https://github.com/grislyeye/vellum-dice)
 - [\<vellum-random-table>](https://github.com/grislyeye/vellum-random-table)
@@ -46,8 +46,8 @@ Create the following tables:
 ...and follow the procedure below to create a rough outline of a new character:
 
 1. Roll for your homeland from the locations table.
-2. Roll for you culture and/or background.
-3. Roll for you career.
+2. Roll for your culture and/or background.
+3. Roll for your career.
 4. Roll once on the spark table for each of the following:
 	1. Personality
 	2. Style of appearance
@@ -93,7 +93,7 @@ This is an example of a lifepath system taken from my home campaign, [Dismas Rem
 
 ### Example character: Percy
 
-Let's create a sample character from the above lifepath system, as an example of how you can use it to spark together a character. Here are sample rolls generated using to the process above:
+Let's create a sample character from the above lifepath system, as an example of how you can use it to spark together a character. Here are sample rolls generated using the process above:
 
 <dl>
 <dt>Homeland:</dt>
@@ -140,7 +140,7 @@ To get us started, we'll call our example PC "Percy".
 
 #### Roll for homeland and background
 
-Percy grew up among zealots in Dismas. In my setting, the lands surrounding the city are known as the "Bishopric of Dismas". Recently, religious mania swept up most of the inhabitants driving them away on a ludicrous pilgrimage, and effectively emptying the entire area. Thinking around this, our character was perhaps a child carelessly left behind, orphaned by the Mad Bishop's crusade.
+Percy grew up among zealots in Dismas. In my setting, the lands surrounding the city are known as the "Bishopric of Dismas". Recently, religious mania swept up most of the inhabitants, driving them away on a ludicrous pilgrimage, and effectively emptying the entire area. Thinking around this, our character was perhaps a child carelessly left behind, orphaned by the Mad Bishop's crusade.
 
 #### Roll for career
 
@@ -152,19 +152,19 @@ From our rumour table, we know Percy is somehow involved with the secretive agre
 
 #### Roll for details
 
-For Percy's personality, we must begin to interpret our spark table prompts. We have to work with "slouch maim." It implies a profound character flaw ("maim") and idleness. Clearly, Percy is somewhat lazy to the point of compulsion, used to a languid life on the river. We'll catch him napping throughout the campaign. Should be very annoying and drive a lot of delicious conflict.
+For Percy's personality, we must begin to interpret our spark table prompts. We have to work with "slouch maim." It implies a profound character flaw ("maim") and idleness. Clearly, Percy is lazy to the point of compulsion, used to a languid life on the river. We'll catch him napping throughout the campaign. Should be very annoying and drive a lot of delicious conflict.
 
-Next we have the prompt for Percy's style: cold sausage. I'm going imagine that Percy suffers from a permanent feeling of cold (poor circulation?) and always wraps himself in a thick coat that smells vaguely of cooked meat.
+Next we have the prompt for Percy's style: cold sausage. I'm going to imagine that Percy suffers from a permanent feeling of cold (poor circulation?) and always wraps himself in a thick coat that smells vaguely of cooked meat.
 
-For distinctive feature we have "swat craft." I'm going to have some fun here, and suggest that Percy is always accompained by a number of midges, attracted from the river by his odorous coat. They are a constant irritation to those around him.
+For distinctive feature, we have "swat craft." I'm going to have some fun here, and suggest that Percy is always accompanied by a number of midges, attracted from the river by his odorous coat. They are a constant irritation to those around him.
 
-His core value is "hunger maim:" after his orphan life, Percy is adament he'll never go hungry again. He is always careful to have some food on hand, and if he begins to feel hungry he comes irritable and quick to temper.
+His core value is "hunger maim:" after his orphan life, Percy is adamant he'll never go hungry again. He is always careful to have some food on hand, and if he begins to feel hungry he comes irritable and quick to temper.
 
 "Perspiration Fanatic" is the prompt for his life goal: pretty clearly to make his fanatical parents pay for their negligence. He uses his contacts in the shadowy underworld of Dismas to search for them.
 
 #### Enemy
 
-Percy doesn't have any friends as yet, but he certainly has a notable enemy. The spark for this NPC is "wail mould." This requires a lot of interpretation, but I'm going to use it to create a new faction: the Pond Guard (I feel "mould" is reminescent of pond scum), a watch force who keep the peace on the waters of the River Hy. They are known by their distinctive call. All boaters recognise this call and moor immediately and prepare to be boarded and searched. 
+Percy doesn't have any friends as yet, but he certainly has a notable enemy. The spark for this NPC is "wail mould." This requires a lot of interpretation, but I'm going to use it to create a new faction: the Pond Guard (I feel "mould" is reminiscent of pond scum), a watch force who keeps the peace on the waters of the River Hy. They are known by their distinctive call. All boaters recognise this call and moor immediately and prepare to be boarded and searched. 
 
 Percy is a person of interest to the Pond Guard, and if he's ever caught he'll be in trouble.
 
@@ -359,7 +359,6 @@ Roll once on the spark table for each of the following:
 <my-button class="small">
 <button>Roll</button>
 </my-button>
-
 <input id="result" type="text" />
 
 </div>
@@ -399,7 +398,7 @@ Lastly, roll for a grubby career from the table (adapted from [Wargod!](/product
 |45|Noble|
 |46|Novitiate|
 |51|Outlaw|
-|52|Pedlar|
+|52|Peddler|
 |53|Rat-catcher|
 |54|Ruffian|
 |55|Sailor|
