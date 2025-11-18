@@ -20,9 +20,9 @@ The paperback I picked up was an attractive volume. The pages have a red coloure
 
 The pitch is zombies but punk. It's a noodly affair, switching between the perspectives of an ensemble of sketchy characters. We have gangsters, secret government programs, occultists and washed-up rock stars.
 
-Each of the characters are given a *past*, each revealed through secondary stories, little vignettes that are supposed to emphasise the themes of the book.
+Each of the characters are given a *past*, each revealed through secondary stories, little vignettes that are supposed to emphasise the themes of the book.
 
 Unfortunately, the characters weren't particularly interesting, so the constant reminiscing just gets in the way of the pacing. The second half of the book just rehashes a bunch of zombie clichés, leading to a somewhat anti-climactic apocalypse. The occult elements are a nice touch and the twist at the end is suitably dark, but the end result is a distinctly mid entry in a tired genre.
 
-Stars: ⭐️⭐️⭐️
+Rating: ⭐️⭐️⭐️
 
