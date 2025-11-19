@@ -2,7 +2,6 @@
 title: Spark lifepath system
 tags:
   - posts
-  - drafts
 date: 2025-11-18
 layout: layouts/post.njk
 randomisers: true
