@@ -18,7 +18,7 @@ image: /blog/fever-house/cover.jpg
 
 Has zombie horror reached market saturation? Apparently not. *[Fever House](https://www.goodreads.com/book/show/66087060-fever-house)* by Keith Posson is a new entry in the genre. 
 
-The paperback I picked up was an attractive volume. The pages have a red coloured edge, and the cover is a lurid picture of a hand, reminiscent of grind house or photocopied flyers. Metal. But inside?
+The paperback I picked up was an attractive volume. The pages have a red coloured edge, and the cover is a lurid picture of a hand, reminiscent of grind house or photocopied flyers. Very metal. But inside?
 
 The pitch is zombies but punk. It's a noodly affair, switching between the perspectives of an ensemble of sketchy characters. We have gangsters, secret government programs, occultists and washed-up rock stars.
 
