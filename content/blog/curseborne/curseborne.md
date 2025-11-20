@@ -16,7 +16,7 @@ image: /blog/curseborne/cover.png
 
 </aside>
 
-[Curseborne](https://www.curseborne.com/) has forced me to come face-to-face with my biases. I really love the original *World of Darkness* games. Are the games I cherished (and use as measure for these reviews) really as good as I remember? Or am I suffering from a surfeit of nostalgia? Have I become hidebound? Have I become everything I hate? Am I an awful grognard? Am I *uncool*?
+[Curseborne](https://www.curseborne.com/) has forced me to come face-to-face with my biases. I really love the original *World of Darkness* games. Are the games I cherished (and use as measure for these reviews) really as good as I remember? Or am I suffering from a surfeit of nostalgia? Have I become hidebound? Have I become everything I hate? Am I an awful grognard? Am I *uncool*?
 
 No, that can't be right. It must be those kids at *Onyx Publishing* who are wrong. Although, now I think about it, surely many of the people working the levers at OP are actually in my age cohort? What is *Onyx Publishing* but an act of nostalgia itself? An attempt to resurrect game lines that died with *White Wolf*. And who would've been playing and then republishing those original games? Why, the very same people I was playing with in the 90s.
 
@@ -30,4 +30,8 @@ Maybe. However, I have other reservations. Firstly, *Curseborne* is an attempt t
 
 My other concerns lie with *Onyx Publishing* themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out money on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) However, this leads to derivative and lengthy works, filled with tedious lore that lacks much of the inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. They rely on a lot of implicit knowledge, making them obscure and a bit crusty to new players. And urban horror must be, if anything, stylish and desirable and *new*.
 
-Can *Curseborne* escape this trap? Can *Onyx Publishing* be stylish and desirable and new? Let's see...
+Can *Curseborne* escape this trap? Can *Onyx Publishing* be stylish and desirable and new?
+
+It's a question that fills me with existential dread, because the lingering subtext here, the awful suspicion, is that can anyone in my cohort be stylish and desirable and new? Can I be stylish and desirable and new?
+
+Probably a question too big to answer in one blog post. As for *Curseborne*? Let's see...
