@@ -16,7 +16,7 @@ image: /blog/curseborne/cover.png
 
 </aside>
 
-[Curseborne](https://www.curseborne.com/) has forced me to come face-to-face with my biases. Are the games I cherished (and use as measure for these reviews) really as good as I remember? Or am I suffering from a surfeit of nostalgia? Have I become hidebound? Have I become everything I hate? Am I an awful grognard? Am I *uncool*?
+[Curseborne](https://www.curseborne.com/) has forced me to come face-to-face with my biases. I really love the original *World of Darkness* games. Are the games I cherished (and use as measure for these reviews) really as good as I remember? Or am I suffering from a surfeit of nostalgia? Have I become hidebound? Have I become everything I hate? Am I an awful grognard? Am I *uncool*?
 
 No, that can't be right. It must be those kids at *Onyx Publishing* who are wrong. Although, now I think about it, surely many of the people working the levers at OP are actually in my age cohort? What is *Onyx Publishing* but an act of nostalgia itself? An attempt to resurrect game lines that died with *White Wolf*. And who would've been playing and then republishing those original games? Why, the very same people I was playing with in the 90s.
 
