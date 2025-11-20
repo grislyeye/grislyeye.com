@@ -32,6 +32,6 @@ My other concerns lie with *Onyx Publishing* themselves. Their audience seems to
 
 Can *Curseborne* escape this trap? Can *Onyx Publishing* be stylish and desirable and new?
 
-It's a question that fills me with existential dread, because the lingering subtext here, the awful suspicion, is that can anyone in my cohort be stylish and desirable and new? Can I be stylish and desirable and new?
+It's a question that fills me with existential dread, because the lingering subtext here, the awful suspicion, is that can *anyone* in my cohort be stylish and desirable and new? Can I still be stylish and desirable and new?
 
 Probably a question too big to answer in one blog post. As for *Curseborne*? Let's see...
