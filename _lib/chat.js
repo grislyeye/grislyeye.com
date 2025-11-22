@@ -57,7 +57,7 @@ function renderIcMessage(message) {
 }
 
 function renderRoll(roll) {
-  return `  <p>${ playedBy[roll.actor] } rolled a ${ roll.message }.</p>\n`;
+  return `  <p>${ playedBy[roll.actor] } rolled ${ roll.message }.</p>\n`;
 }
 
 function renderMessage(message) {
