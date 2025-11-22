@@ -266,7 +266,7 @@ timestamp,actor,type,chat,message
 "Thu, 30 May 2019 20:19:00 GMT",GM,says,ic,A couple more figures join the fire.
 "Thu, 30 May 2019 20:19:00 GMT",GM,says,ic,"And then another figure arrives, taller than the others. This one does not appear to be nervous at all, and the rest all look as they appear."
 "Thu, 30 May 2019 20:19:00 GMT",GM,says,ic,"This hooded figure strides up, sits down with a flourish of their cloak."
-"Thu, 30 May 2019 20:20:00 GMT",The stranger,says,ic,Shall we play?
+"Thu, 30 May 2019 20:20:00 GMT",Stranger,says,ic,Shall we play?
 "Thu, 30 May 2019 20:20:00 GMT",GM,says,ic,"A hoarse voice, croaky but clearly a woman's."
 "Thu, 30 May 2019 20:20:00 GMT",GM,says,ic,Around the campfire the figures draw their cards and clearly show the distinctive back design of a flock of birds.
 "Thu, 30 May 2019 20:20:00 GMT",Ba'Raknul,does,ic,"nods towards the fire, nervously playing with his bow, whispering."
@@ -281,65 +281,65 @@ timestamp,actor,type,chat,message
 "Thu, 30 May 2019 20:22:00 GMT",GM,says,ic,"And so on, until it gets to Orin's turn."
 "Thu, 30 May 2019 20:22:00 GMT",Orin,does,ic,shows the Five of Coins.
 "Thu, 30 May 2019 20:22:00 GMT",Orin,does,ic,lets the 'burnt' hand linger over the card before retracting it.
-"Thu, 30 May 2019 20:22:00 GMT",The stranger,does,ic,"nods, hesitates a moment, then moves around the circle."
+"Thu, 30 May 2019 20:22:00 GMT",Stranger,does,ic,"nods, hesitates a moment, then moves around the circle."
 "Thu, 30 May 2019 20:22:00 GMT",Liam,says,ooc,Interestingly we could pick up some cards here.
 "Thu, 30 May 2019 20:23:00 GMT",Chris,says,ooc,"So how many people are there in total, excluding Orin?"
 "Thu, 30 May 2019 20:23:00 GMT",Ric,says,ooc,8 now.
 "Thu, 30 May 2019 20:24:00 GMT",GM,says,ic,"The rotation is complete. There is a moments silence, then..."
-"Thu, 30 May 2019 20:24:00 GMT",The stranger,says,ic,Five of Coins! What happened to your hand?
+"Thu, 30 May 2019 20:24:00 GMT",Stranger,says,ic,Five of Coins! What happened to your hand?
 "Thu, 30 May 2019 20:24:00 GMT",Orin,does,ic,doing their best imitation of Eggard's voice:
 "Thu, 30 May 2019 20:25:00 GMT",Orin,says,ic,It's nothing. Just a gift from a sergeant.
 "Thu, 30 May 2019 20:25:00 GMT",Orin,does,ic,pulls the hand back into their sleeve.
-"Thu, 30 May 2019 20:25:00 GMT",The stranger,does,ic,nods.
-"Thu, 30 May 2019 20:25:00 GMT",The stranger,says,ic,They can be cruel.
-"Thu, 30 May 2019 20:25:00 GMT",The stranger,does,ic,sighs.
-"Thu, 30 May 2019 20:26:00 GMT",The stranger,says,ic,I have news! The inquisition put six women to the flame in Witch County.
+"Thu, 30 May 2019 20:25:00 GMT",Stranger,does,ic,nods.
+"Thu, 30 May 2019 20:25:00 GMT",Stranger,says,ic,They can be cruel.
+"Thu, 30 May 2019 20:25:00 GMT",Stranger,does,ic,sighs.
+"Thu, 30 May 2019 20:26:00 GMT",Stranger,says,ic,I have news! The inquisition put six women to the flame in Witch County.
 "Thu, 30 May 2019 20:26:00 GMT",GM,says,ic,"The Three Bastards are keen to show piety and are currying favour with the Church, so innocent women burn to shore up their support south of the border."
 "Thu, 30 May 2019 20:27:00 GMT",GM,says,ic,The cloaked men and women murmur in hushed and worried tones.
 "Thu, 30 May 2019 20:27:00 GMT",Orin,does,ic,makes genuine distressed noises.
-"Thu, 30 May 2019 20:29:00 GMT",The stranger,says,ic,Do not believe the superstitious nonsense that these woman folk are witches. They merely objected too loudly to their sons and daughters being sent to a pointless war.
+"Thu, 30 May 2019 20:29:00 GMT",Stranger,says,ic,Do not believe the superstitious nonsense that these woman folk are witches. They merely objected too loudly to their sons and daughters being sent to a pointless war.
 "Thu, 30 May 2019 20:29:00 GMT",,says,ic,"Now, do any of you have anything for me this night?"
 "Thu, 30 May 2019 20:29:00 GMT",Quinn,does,ic,"casually nocks an arrow and looks out beyond the walls of the camp, leaning on one of tower posts, looking down on the game."
 "Thu, 30 May 2019 20:29:00 GMT",Orin,does,ic,waits to see what the others do.
 "Thu, 30 May 2019 20:30:00 GMT",GM,says,ic,"The Prince of Flowers speaks first, relating a shockingly detailed report of the provisions in the commissary, including weapons and armour."
 "Thu, 30 May 2019 20:30:00 GMT",GM,says,ic,"The stranger seems very pleased at this. The Nine of Cups speaks about raiding the tent of the foreign fetch, the one with scars ""like you asked""."
 "Thu, 30 May 2019 20:30:00 GMT",GM,says,ic,But she has nothing else of importance to relate as nothing of interested was found.
-"Thu, 30 May 2019 20:32:00 GMT",The stranger,says,ic,Anyone else?
+"Thu, 30 May 2019 20:32:00 GMT",Stranger,says,ic,Anyone else?
 "Thu, 30 May 2019 20:32:00 GMT",Orin,does,ic,shakes their head.
-"Thu, 30 May 2019 20:32:00 GMT",The stranger,says,ic,Very well.
+"Thu, 30 May 2019 20:32:00 GMT",Stranger,says,ic,Very well.
 "Thu, 30 May 2019 20:32:00 GMT",GM,says,ic,I see we are missing the Three of Flowers and the Nine of Swords tonight.
 "Thu, 30 May 2019 20:32:00 GMT",GM,says,ic,"Five of Coins, you were sent with them."
 "Thu, 30 May 2019 20:32:00 GMT",GM,says,ic,What happened to them?
 "Thu, 30 May 2019 20:32:00 GMT",Biron,does,ic,finishes his food and stretches.
 "Thu, 30 May 2019 20:34:00 GMT",Orin,says,ic,I'm sorry. We failed. I only just got away.
-"Thu, 30 May 2019 20:34:00 GMT",The stranger,does,ic,nods.
+"Thu, 30 May 2019 20:34:00 GMT",Stranger,does,ic,nods.
 "Thu, 30 May 2019 20:34:00 GMT",Ric,says,ooc,"Here we go, make the Deception check, no disadvantage due to your wound."
 "Thu, 30 May 2019 20:34:00 GMT",Ric,says,ooc,DC 13
 "Thu, 30 May 2019 20:44:00 GMT",Orin,Says,ooc,I rolled 16 for Deception.
 "Thu, 30 May 2019 20:34:00 GMT",Chris,says,ooc,Boom.
-"Thu, 30 May 2019 20:35:00 GMT",The stranger,says,ic,I heard they were sent with the bailiffs. They sacrificed their lives so that the folk might live free.
+"Thu, 30 May 2019 20:35:00 GMT",Stranger,says,ic,I heard they were sent with the bailiffs. They sacrificed their lives so that the folk might live free.
 "Thu, 30 May 2019 20:35:00 GMT",GM,says,ic,"Murmurs of ""For the Folk"" whisper around the campfire."
-"Thu, 30 May 2019 20:35:00 GMT",The stranger,says,ic,For the Folk!
+"Thu, 30 May 2019 20:35:00 GMT",Stranger,says,ic,For the Folk!
 "Thu, 30 May 2019 20:36:00 GMT",Orin,says,ic,For the Folk!
-"Thu, 30 May 2019 20:36:00 GMT",The stranger,says,ic,"Prince of Flowers, I need you to ingratiate yourself with Sly Ben. We need to know where he's getting his liquor from, can you do that?"
+"Thu, 30 May 2019 20:36:00 GMT",Stranger,says,ic,"Prince of Flowers, I need you to ingratiate yourself with Sly Ben. We need to know where he's getting his liquor from, can you do that?"
 "Thu, 30 May 2019 20:36:00 GMT",GM,says,ic,The hooded man nods.
 "Thu, 30 May 2019 20:36:00 GMT",GM,says,ic,"The stranger gives out several missions to the hooded figures about, mostly double-checking the daily routines of senior officers and patrols."
 "Thu, 30 May 2019 20:36:00 GMT",GM,says,ic,Until she comes to Orin.
-"Thu, 30 May 2019 20:38:00 GMT",The stranger,says,ic,"Five of Coins, I have a special task for you. Unpleasant, but it needs to be done. I need you to kill a member of the night watch. The Northerner, I'm sure you know the one."
+"Thu, 30 May 2019 20:38:00 GMT",Stranger,says,ic,"Five of Coins, I have a special task for you. Unpleasant, but it needs to be done. I need you to kill a member of the night watch. The Northerner, I'm sure you know the one."
 "Thu, 30 May 2019 20:38:00 GMT",,says,ic,Can you do this?
 "Thu, 30 May 2019 20:38:00 GMT",Orin,does,ic,nods.
-"Thu, 30 May 2019 20:38:00 GMT",The stranger,does,ic,nods.
-"Thu, 30 May 2019 20:39:00 GMT",The stranger,says,ic,"The Sparrow will hear of your courage, all of you. There's a special place for you in the Commonwealth once we win the war."
+"Thu, 30 May 2019 20:38:00 GMT",Stranger,does,ic,nods.
+"Thu, 30 May 2019 20:39:00 GMT",Stranger,says,ic,"The Sparrow will hear of your courage, all of you. There's a special place for you in the Commonwealth once we win the war."
 "Thu, 30 May 2019 20:39:00 GMT",,says,ic,For the Folk!
 "Thu, 30 May 2019 20:40:00 GMT",GM,says,ic,"The rest of the group murmur the Commonwealth motto, before starting to get up and leave."
 "Thu, 30 May 2019 20:40:00 GMT",Orin,does,ic,"waits for the others to go, but follows the stranger."
 "Thu, 30 May 2019 20:40:00 GMT",Quinn,does,ic,keeps an eye on a hooded figure to see which tent he or she heads to.
 "Thu, 30 May 2019 20:40:00 GMT",Orin,says,ic,Ma'am.
 "Thu, 30 May 2019 20:40:00 GMT",Ba'Raknul,does,ic,watches for any coming close to the tower.
-"Thu, 30 May 2019 20:40:00 GMT",The stranger,does,ic,"turns, looks sharply at Orin and hesitates for a moment. Still visible at the edge of the campfire, if she moves another five feet or so she'll disappear into the darkness beyond."
+"Thu, 30 May 2019 20:40:00 GMT",Stranger,does,ic,"turns, looks sharply at Orin and hesitates for a moment. Still visible at the edge of the campfire, if she moves another five feet or so she'll disappear into the darkness beyond."
 "Thu, 30 May 2019 20:42:00 GMT",Orin,does,ic,three... I saw them kill good people. They're tough.
 "Thu, 30 May 2019 20:43:00 GMT",Orin,does,ic,looks nervously around and takes a few steps toward the tower.
-"Thu, 30 May 2019 20:43:00 GMT",The stranger,does,ic,smiles at Orin. They see the sharp point of her chin and the thin lips of her wry smile.
-"Thu, 30 May 2019 20:44:00 GMT",The stranger,does,ic,whispers.
-"Thu, 30 May 2019 20:44:00 GMT",The stranger,says,ic,Traitor!
-"Thu, 30 May 2019 20:44:00 GMT",Ric,says,ooc,Roll initiative everone.
+"Thu, 30 May 2019 20:43:00 GMT",Stranger,does,ic,smiles at Orin. They see the sharp point of her chin and the thin lips of her wry smile.
+"Thu, 30 May 2019 20:44:00 GMT",Stranger,does,ic,whispers.
+"Thu, 30 May 2019 20:44:00 GMT",Stranger,says,ic,Traitor!
+"Thu, 30 May 2019 20:44:00 GMT",Ric,says,ooc,Roll initiative everyone.
