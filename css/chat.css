@@ -51,10 +51,6 @@
   margin-bottom: 0;
 }
 
-.content .chat dd p + p {
-  margin-top: 0.5em;
-}
-
 .content .chat .action p,
 .content .chat p.action,
 .content .chat span.action,
@@ -97,4 +93,12 @@
 
 .content .chat .navigation a {
   font-style: italic;
+}
+
+#post .chat dd p:first-child {
+  margin-top: 0;
+}
+
+#post .chat dd p:last-child {
+  margin-bottom: 0;
 }
