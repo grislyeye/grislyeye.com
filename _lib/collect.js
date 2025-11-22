@@ -16,10 +16,6 @@ const flattenPlayerMessage = (messages) => {
   return baseMessage;
 };
 
-const consecutiveSameActors = (pre, cur) => {
-  return pre.actor === cur.actor || cur.actor === '';
-};
-
 const flattenAsides = (messages) => {
   const baseMessage = messages[0];
   if (messages.length === 1) return baseMessage;
@@ -42,6 +38,10 @@ const consecutiveOocMessages = (pre, cur) => {
 
 const collectOocMessages = (messages) => {
   return groupAdjacent(messages, consecutiveOocMessages).map(flattenAsides);
+};
+
+const consecutiveSameActors = (pre, cur) => {
+  return cur.chat !== 'ooc' && (pre.actor === cur.actor || cur.actor === '');
 };
 
 const collectIcMessages = (messages) => {
