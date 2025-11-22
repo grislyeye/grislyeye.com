@@ -33,6 +33,7 @@ export default async (eleventyConfig) => {
   });
 
   eleventyConfig.addWatchTarget('content/**/*.{svg,webp,png,jpeg}');
+  eleventyConfig.addWatchTarget('content/**/*.csv');
 
   // App plugins
   eleventyConfig.addPlugin(pluginImages);
