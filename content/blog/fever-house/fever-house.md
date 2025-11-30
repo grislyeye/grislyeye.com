@@ -16,9 +16,13 @@ image: /blog/fever-house/cover.jpg
 
 </aside>
 
-Has zombie horror reached market saturation? Apparently not. *[Fever House](https://www.goodreads.com/book/show/66087060-fever-house)* by Keith Posson is a new entry in the genre. 
+Have we reached peak zombie? Apparently not. *[Fever House](https://www.goodreads.com/book/show/66087060-fever-house)* (2023) by Keith Posson is a new entry in the genre.
 
-The paperback I picked up was an attractive volume. The pages have red edges and the cover is a lurid picture of a hand, reminiscent of grind house or photocopied flyers. Very metal. But inside?
+Truth be told, I'm pretty sick of zombie horror. It feels like we've exhausted all its permutations, reaching a hopeless loop where the same movie gets made every few years. Can *Fever House* bring something new to the table?
 
-The pitch is zombies but punk, a promising premise. Unfortunately, lacklustre characters and poor pacing let things down. The second half of the book rehashes a bunch of zombie clichés, leading to a somewhat derivative apocalypse. The writing is competent, the occult elements are a nice touch and the twist at the end is suitably dark, but the end result is a distinctly mid entry in a tired genre.
+The paperback edition I picked up was an attractive volume. The pages have red edges and the cover is a lurid picture of a hand, reminiscent of grindhouse or photocopied flyers. Very punk. But inside?
+
+Unfortunately, the first half is let down by lacklustre characters and poor pacing. The second half of the book rehashes a bunch of zombie clichés, leading to an apocalypse that is somehow derivative. The writing is competent, the occult elements are a nice touch and the twist at the end is suitably dark, but the end result is a distinctly middling entry in a tired genre.
+
+Will I pick up the [second volume](https://www.goodreads.com/book/show/202102065-the-devil-by-name)? Probably, if only to find out what happens, which I suppose means I liked something about it.
 
