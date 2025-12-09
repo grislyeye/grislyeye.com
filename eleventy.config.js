@@ -85,7 +85,7 @@ export default async (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginSEO, {
     title: metadata.title,
     description: metadata.description,
-    url: metadata.url,
+    url: '',
     author: metadata.author.name,
     twitter: 'grislyeye',
     image: '/images/logo.svg',
