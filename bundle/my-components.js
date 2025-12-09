@@ -1,12 +1,8 @@
 (() => {
-  var __freeze = Object.freeze;
-  var __defProp = Object.defineProperty;
-  var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(raw || cooked.slice()) }));
-
   // node_modules/@lit/reactive-element/css-tag.js
   var t = globalThis;
   var e = t.ShadowRoot && (void 0 === t.ShadyCSS || t.ShadyCSS.nativeShadow) && "adoptedStyleSheets" in Document.prototype && "replace" in CSSStyleSheet.prototype;
-  var s = Symbol();
+  var s = /* @__PURE__ */ Symbol();
   var o = /* @__PURE__ */ new WeakMap();
   var n = class {
     constructor(t3, e4, o5) {
@@ -86,7 +82,7 @@
   } };
   var f = (t3, s4) => !i2(t3, s4);
   var b = { attribute: true, type: String, converter: u, reflect: false, useDefault: false, hasChanged: f };
-  Symbol.metadata ??= Symbol("metadata"), a.litPropertyMetadata ??= /* @__PURE__ */ new WeakMap();
+  Symbol.metadata ??= /* @__PURE__ */ Symbol("metadata"), a.litPropertyMetadata ??= /* @__PURE__ */ new WeakMap();
   var y = class extends HTMLElement {
     static addInitializer(t3) {
       this._$Ei(), (this.l ??= []).push(t3);
@@ -96,7 +92,7 @@
     }
     static createProperty(t3, s4 = b) {
       if (s4.state && (s4.attribute = false), this._$Ei(), this.prototype.hasOwnProperty(t3) && ((s4 = Object.create(s4)).wrapped = true), this.elementProperties.set(t3, s4), !s4.noAccessor) {
-        const i5 = Symbol(), h3 = this.getPropertyDescriptor(t3, i5, s4);
+        const i5 = /* @__PURE__ */ Symbol(), h3 = this.getPropertyDescriptor(t3, i5, s4);
         void 0 !== h3 && e2(this.prototype, t3, h3);
       }
     }
@@ -296,8 +292,8 @@
   var x = y2(1);
   var b2 = y2(2);
   var w = y2(3);
-  var T = Symbol.for("lit-noChange");
-  var E = Symbol.for("lit-nothing");
+  var T = /* @__PURE__ */ Symbol.for("lit-noChange");
+  var E = /* @__PURE__ */ Symbol.for("lit-nothing");
   var A = /* @__PURE__ */ new WeakMap();
   var C = r3.createTreeWalker(r3, 129);
   function P(t3, i5) {
@@ -1102,51 +1098,6 @@
     }
   };
   customElements.define("my-product", MyProduct);
-
-  // _components/my-shares.js
-  var _a;
-  var MyShares = class extends i4 {
-    static styles = i`
-    :host {
-      display: inline;
-      cursor: pointer;
-    }
-
-    :host([native]) .shares {
-      display: none;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: inherit;
-      cursor: inherit;
-    }
-
-    .share {
-      padding-left: 0.1em;
-      padding-right: 0.1em;
-    }
-
-    img.icon {
-      padding-top: 0.2em;
-      height: 0.8rem;
-      filter: brightness(0) invert(1);
-    }
-
-    share-on-mastodon {
-      text-align: left;
-      text-transform: none;
-    }
-  `;
-    static properties = {
-      title: { attribute: "title" },
-      href: { attribute: "href" }
-    };
-    render() {
-      return x(_a || (_a = __template(['\n      <script type="module" src="/vendor/@micahilbery/share-on-mastodon/share-on-mastodon.js"><\/script>\n      <div class="shares">\n        <a\n          class="share"\n          title="Share on Twitter"\n          href="https://twitter.com/intent/tweet/?url=', "&text=", '&via=grislyeye"\n          target="_blank"\n        >\n          <img src="/images/twitter.svg" class="icon" alt="Twitter icon">\n        </a>\n\n        <a\n          class="share"\n          title="Share on Facebook"\n          href="https://facebook.com/sharer/sharer.php?u=', '"\n          target="_blank"\n        >\n          <img src="/images/facebook.svg" class="icon" alt="Facebook icon">\n        </a>\n\n        <a\n          class="share"\n          title="Share on Tumblr"\n          href="https://tumblr.com/widgets/share/tool?canonicalUrl=', "&amp;tags=&amp;caption=", '"\n          target="_blank"\n        >\n          <img src="/images/tumblr.svg" class="icon" alt="Tumblr icon">\n        </a>\n\n        <share-on-mastodon\n          data-share-title="', '"\n          data-author="@grislyeye@c.im"\n        >\n          <img slot="button" src="/images/mastodon.svg" class="icon" alt="Mastodon icon">\n        </share-on-mastodon>\n      </div>\n    '])), this.href, this.title, this.href, this.href, this.title, this.title);
-    }
-  };
-  customElements.define("my-shares", MyShares);
 })();
 /*! Bundled license information:
 

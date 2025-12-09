@@ -25,8 +25,8 @@
   var x = y(1);
   var b = y(2);
   var w = y(3);
-  var T = Symbol.for("lit-noChange");
-  var E = Symbol.for("lit-nothing");
+  var T = /* @__PURE__ */ Symbol.for("lit-noChange");
+  var E = /* @__PURE__ */ Symbol.for("lit-nothing");
   var A = /* @__PURE__ */ new WeakMap();
   var C = r.createTreeWalker(r, 129);
   function P(t4, i4) {
