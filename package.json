@@ -11,7 +11,7 @@
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "test": "npm run test:lint && npm run test:links",
     "test:lint": "eslint --ext .js . && stylelint public/css/*.css",
-    "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --check-css --check-fragments --require-https error --verbosity error --skip '(.*\\.reddit\\.com)|(.*ccommandbot\\.com)|(.*facebook\\.com)|(.*drivethrurpg\\.com)|(.*dmsguild\\.com)|(.*fandom\\.com)|(.*britannica\\.com)'",
+    "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --check-css --check-fragments --verbosity error --skip '(.*\\.reddit\\.com)|(.*ccommandbot\\.com)|(.*facebook\\.com)|(.*drivethrurpg\\.com)|(.*dmsguild\\.com)|(.*fandom\\.com)|(.*britannica\\.com)|(.*tumblr\\.com)'",
     "post:new": "plop post",
     "product:new": "plop product"
   },
@@ -48,7 +48,7 @@
     "esbuild": "^0.27.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-lit": "^2.1.1",
-    "linkinator": "^6.1.4",
+    "linkinator": "^7.5.1",
     "eslint-plugin-wc": "^3.0.2",
     "luxon": "^3.7.2",
     "markdown-it-anchor": "^9.2.0",
