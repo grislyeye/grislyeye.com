@@ -1,17 +1,10 @@
 ---
 layout: layouts/base.njk
-shareable: true
 ---
 <article class="post content">
   <my-page id="post" name="{{ title }}">
     <div class="page-subtitle" slot="subtitle">
       <span>{{ page.date | readableDate }}</span>
-      <share-button>
-        <button>
-          <img src="/images/share.svg" class="icon" alt="Share">
-        </button>
-        <my-shares href="{{ metadata.url }}{{ page.url }}" title="{{ title }}"></my-shares>
-      </share-button>
     </div>
 
     {{ content | safe }}
