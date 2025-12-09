@@ -19,6 +19,6 @@ image: /blog/linghun/cover.png
 
 (There was some debate amongst us as to whether *Linghun* was horror or fantasy. I was thought it was horror, but I was in the minority.)
 
-*Linghun* is set in the mysterious town of HOME, where the houses can bring the dead back to their loved ones. Obviously, this makes properties highly desirable, which creates a sickening property market where prospective buyers sit outside houses, homeless, grieving and avidly waiting for the current inhabitants to vacate.
+In the mysterious town of HOME, the houses can bring the dead back to their loved ones, bringing sickening social problems with the, Obviously, properties are highly desirable, which creates a property market where prospective buyers sit outside houses, homeless, grieving and avidly waiting for the current inhabitants to vacate.
 
 I felt - and this was the general consensus - that *Linghun* sat awkwardly as a novella. It's either too short or too long, and might've worked better either as a short story or a more elaborate novel. As it is, the ending is rushed and makes a somewhat jarring tone shift.
