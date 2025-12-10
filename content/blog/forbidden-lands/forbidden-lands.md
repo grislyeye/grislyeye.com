@@ -67,6 +67,8 @@ This sort of thing borders on the aesthetics of the work (see below for more on 
 ## 2. Aesthetics
 
 
+
+
 ---
 
 This week things went wrong with the two games I run, on Thursday and Tuesday evenings. On Tuesday my party had a hard choice to make but the rules of *Forbidden Lands* (in this case the XP mechanic) would more or less punish them for taking a particular decision.
@@ -123,7 +125,7 @@ Things I dislike:
 
 All of this has been a fairly abstract discussion about the mechanics of the game, but its physical representation is as much, or even more, important. The player's and game master's guides are both beautiful works, but they have one fatal flaw: poor organisation,
 
-Why, for example, does Symbolism come before Stone Song in the Magical Disciplines section? Whatever, that doesn't matter, what matters it that I've now internalised this arbitrary ordering just so I can navigate the book. I'm sure there's a good reason, but that doesn't matter because it's non-intuitive and get's in the way of reading the damn book.
+Why, for example, does Symbolism come before Stone Song in the Magical Disciplines section? Whatever, it doesn't matter. What matters is that I've internalised this arbitrary ordering just so I can navigate the book. I'm sure there's a good reason, but that doesn't matter because it's non-intuitive and get's in the way of reading the damn book.
 
 ## Summary
 
