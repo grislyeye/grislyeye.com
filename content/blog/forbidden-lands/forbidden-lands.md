@@ -2,8 +2,7 @@
 title: Forbidden Lands
 tags:
   - posts
-  - drafts
-date: 2025-12-06
+date: 2026-01-01
 layout: layouts/post.njk
 image: /blog/forbidden-lands/cover.png
 ---
