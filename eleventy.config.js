@@ -33,6 +33,7 @@ export default async (eleventyConfig) => {
   });
 
   eleventyConfig.addWatchTarget('content/**/*.{svg,webp,png,jpeg}');
+  eleventyConfig.addWatchTarget('content/**/*.csv');
 
   // App plugins
   eleventyConfig.addPlugin(pluginImages);
@@ -45,7 +46,6 @@ export default async (eleventyConfig) => {
       '_components/my-section.js',
       '_components/my-page.js',
       '_components/my-product.js',
-      '_components/my-shares.js',
       '_components/my-button.js'
     ]
   });
@@ -84,7 +84,7 @@ export default async (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginSEO, {
     title: metadata.title,
     description: metadata.description,
-    url: metadata.url,
+    url: '',
     author: metadata.author.name,
     twitter: 'grislyeye',
     image: '/images/logo.svg',
@@ -114,9 +114,7 @@ export default async (eleventyConfig) => {
       'node_modules/lit-html': 'vendor/lit-html',
       'node_modules/vellum-dice': 'vendor/vellum-dice',
       'node_modules/vellum-monster': 'vendor/vellum-monster',
-      'node_modules/vellum-random-table': 'vendor/vellum-random-table',
-      'node_modules/@daviddarnes/share-button': 'vendor/@daviddarnes/share-button',
-      'node_modules/@micahilbery/share-on-mastodon': 'vendor/@micahilbery/share-on-mastodon'
+      'node_modules/vellum-random-table': 'vendor/vellum-random-table'
     }
   );
 
