@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.27.0",
+  "version": "3.28.0",
   "type": "module",
   "scripts": {
     "build": "npx @11ty/eleventy",
