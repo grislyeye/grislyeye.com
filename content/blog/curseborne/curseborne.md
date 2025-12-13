@@ -39,4 +39,28 @@ It's a question that fills me with existential dread, because the lingering subt
 
 Unlike the CoD, there aren't any core social splats, like the vampire Covenants. Families work as both social and inherent factions, of which there are many. 30 in total, which seems like a lot. This is where we can see *Onyx Publishing*'s verboseness coming out. The original WoD books kept splats to a minimum, no more than 13 in a single book. This is because splats are supposed to simplify the character creation process. You pick the splat first, and worry about the details later.
 
-*Curseborne* seems to be doing the opposite of this. Each lineage is really a flat splat, with its own set of rules specific to its archetype. Once you've figured out what you want to play, only then can you start to choose a family. It's a daunting choice, and probably a meaningless one for new players. The families have subtle themes that require a bit of reading between the lines. It's not obvious, for example, that the Munificients are supposed to be djinn analogues, and families are a mix of archetypal (like the Chimerae) and original, setting-specific groups (like the ZEDs).
+*Curseborne* seems to be doing the opposite of this. Each lineage is really a flat splat, with its own set of rules specific to its archetype. Once you've figured out what you want to play, only then can you start to choose a family. It's a daunting choice, and probably a meaningless one for new players. The families have subtle themes that require a bit of reading between the lines. It's not obvious, for example, that the Munificients are supposed to be djinn analogues, and families are a mix of archetypal (like the Chimerae) and original, setting-specific groups (like the ZEDs).
+
+To add to the complexity, this chapter heavily references complex mechanics from later chapters.
+
+**Chapter 3: The Accursed.** 
+
+**Chapter 4: Storypath Ultra System.** The joy of the original Storyteller system was its flexibility. With the simple mechanic of combining Attribute + Ability vs Difficulty allowed you to come up with small systems on the fly. Or rulings, as we like to call them now. Sure, there were systems (or maybe procedures?) for combat and social conflict, but they could be hand-waved away in a moment and replaced with a simple roll.
+
+The Storypath Ultra System (which sounds like a paramilitary group) elaborates on that core. Not only do you have Skill, Attributes and Difficulties, there are also Tricks, Complications, Momentum, Status Effects, Areas and curse die. That's a lot, and it gives the game a lot narrative richness but its showing *Onyx Path*'s propensity for crunch.
+
+**Chapter 4: Making an Accursed.** I suppose it makes sense this chapter comes after the rules chapter but, as we saw from the lineages' chapter, . Again, conventional wisdom is that you should lead with the character creation rules because, well, that's the order in which you play the game: you create characters first and then learn the specific rules later. Reversing this only adds to the inaccessibility of the game.
+
+**Chapter 5: Accursed Magic.** I miss the simplicity of disciplines from *Vampire: the Masquerade* or gifts from *Werewolf: the Apocalypse*. You either could or couldn't do an effect.
+
+Again, complexity rears its ugly head. All Accursed can cast spells. Each spell has a number of "extras" you can buy so they become more powerful and flexible. Spells are grouped by Practices. Lineages can only access certain practices. However, some spells can be used by other lineages.
+
+What's more, Accursed can also have other powers called Edges.
+
+**Chapter 6: Storyguiding.** 
+
+**Chapter 6: Storyguiding.** 
+
+**Chapter 6: Adversaries.** Second only to the splats chapter, the adversaries define urban horror games.
+
+- [ ] No core conflict.  
