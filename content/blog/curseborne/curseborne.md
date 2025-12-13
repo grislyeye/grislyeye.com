@@ -31,4 +31,12 @@ Can *Curseborne* escape this trap? Can *Onyx Publishing* be stylish and desirabl
 
 It's a question that fills me with existential dread, because the lingering subtext here, the awful suspicion, is: can *anyone* my age  create something stylish and desirable and new?
 
-I won't go describe *Curseborne* is, I'm sure you can find that information online.
+**Chapter 1: The World.** The book starts off with a description of the setting, and we are introduced to the concept of the cursed world. Every bad thing in the world is the . Ever "our world but darker" trope 
+
+**Chapter 2: Lineages.** Here it is, the heart of the matter. Urban horror TTRPGs live or die by their splats. They introduce the aesthetic, core concepts, themes and motifs
+
+*Curseborne* splats see  to be adapted from the *Chronicles of Darkness*/*New World of Darkness* convention. There are a fixed set of inherent splats (like the clans from *Vampire: the Requiem*) and an expansive list of secondary splats, that refine the main concept into more specific character types (like *Vampire: the Requiem* bloodlines). We have the lineages which represent the main urban horror archetypes: your vampires, werewolves, etc. And each lineage then has 5-6 secondary splats, called families
+
+Unlike the CoD, there aren't any core social splats, like the vampire Covenants. Families work as both social and inherent factions, of which there are many. 30 in total, which seems like a lot. This is where we can see *Onyx Publishing*'s verboseness coming out. The original WoD books kept splats to a minimum, no more than 13 in a single book. This is because splats are supposed to simplify the character creation process. You pick the splat first, and worry about the details later.
+
+*Curseborne* seems to be doing the opposite of this. Each lineage is really a flat splat, with its own set of rules specific to its archetype. Once you've figured out what you want to play, only then can you start to choose a family. It's a daunting choice, and probably a meaningless one for new players. The families have subtle themes that require a bit of reading between the lines. It's not obvious, for example, that the Munificients are supposed to be djinn analogues, and families are a mix of archetypal (like the Chimerae) and original, setting-specific groups (like the ZEDs).
