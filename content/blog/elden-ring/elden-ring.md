@@ -13,14 +13,12 @@ image: /blog/elden-ring/cover.jpg
 
 </aside>
 
-A little while ago the Discourse focussed on the OSR credentials of AAA game, *Elden Ring*. In particular, people admired the minimalist elements of the worldbuilding. As Jesse Gerroir [summarised](https://twilightdreams.substack.com/p/an-osr-analysis-of-elden-ring):
+A little while ago, the Discourse focussed on the OSR credentials of AAA game, *Elden Ring*. In particular, people admired the minimalist elements of its worldbuilding. As Jesse Gerroir [noted](https://twilightdreams.substack.com/p/an-osr-analysis-of-elden-ring):
 
 > Elden Ring really does show how the only thing you really need to run an interesting RPG is a bunch of weird locations for the players to muck  around in. You don’t really need a strong story or clearly defined NPC  characters with complex psychological personalities and backstories.  You’re not writing a novel. 
 
-As GMs, we're constantly berated for worldbuilding. We shouldn't expand on setting elements that characters aren't going to interact with. It's time wasted, unnecessary, and *Elden Ring's* huge success is a vindication of this idea.
+As GMs, we're constantly berated for our worldbuilding. It's time wasted and *Elden Ring's* huge success is a vindication of this idea, so the argument goes.
 
-This is all very confusing. Sure, all you need is some "weird locations" and *years and years of development, and famously elaborate worldbuilder George R.R. Martin doing your story design*. Simple really.
+Yet, if *Elden Ring* is anything, it is an example of the merits of elaborate worldbuilding. It's a product of years of development and George R.R. Martin's elaborate story design. Those weird locations work because of the depth of the setting, not despite it. 
 
-If *Elden Ring* is anything, it is an example of the merits of elaborate worldbuilding. Those weird locations work because of the depth of the setting, not despite it. Without that depth, they are shallow and lack a consistent tone. Players will notice.
-
-In other words, depth is good, so don't sweat your worldbuilding, and embrace that depth.
+Don't sweat your worldbuilding and embrace depth.
