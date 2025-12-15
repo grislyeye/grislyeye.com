@@ -27,11 +27,13 @@ Of course, authenticity is subjective which is why I held out hope for *Cursebor
 
 Maybe. However, I have reservations with *Onyx Publishing* themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) However, this leads to derivative and lengthy works, filled with tedious lore that lacks much of the inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. These works are impenetrable, obscure and, well, a bit crusty. They aren't really addressing new players. And urban horror must be, if it is anything, stylish and desirable and *new*.
 
+*White Wolf's* real product was cool. The appeal of the games were that they were designed and illustrated by people cooler than you. Whether that's actually true or not, that was the impression left, and that's why people played them: to get a taste of that cool.
+
 Can *Curseborne* escape this trap? Can *Onyx Publishing* be stylish and desirable and new?
 
 It's a question that fills me with existential dread, because the lingering subtext here, the awful suspicion, is: can *anyone* my age  create something stylish and desirable and new?
 
-Good question but, more importantly, why is *Curseborne* important? Well, *Onyx Path Publishing* has its own, particular style of urban horror. I might find it a bit busy but it has lots of interesting qualities, and I think it contributes to ???. And *Curseborne* is make-or-break for *Onyx Path*. I just hope they can survive the conversion to their own IP, because I'm fascinated to see where they go with this.
+Good question but, more importantly, why is *Curseborne* important? Well, *Onyx Path Publishing* has its own, particular style of urban horror. I might find it a bit busy but it has lots of interesting qualities, and I think it contributes to ???. And *Curseborne* is make-or-break for *Onyx Path*. I just hope they can survive the conversion to their own IP, because I'm fascinated to see where they go with this.
 
 **Chapter 1: The World.** The book starts off with a description of the setting, and we are introduced to the concept of the cursed world. Every bad thing in the world is the . Clever reimagining "our world but darker" trope 
 
@@ -41,7 +43,11 @@ Good question but, more importantly, why is *Curseborne* important? Well, *Onyx 
 
 Unlike the CoD, there aren't any core, social splats, like the vampire Covenants. Families work as both social and inherent factions, of which there are many. Around 30, which seems like a lot. This is where we can see *Onyx Publishing*'s verboseness coming out. The original WoD books kept splats to a minimum, no more than 13 in a the core books. This is because splats are supposed to simplify the character creation process. You pick the splat first, and worry about the details later.
 
+There is a reason *White Wolf* had almost completely separate settings for each of their splats, each only tangentially linked to the others and often with contradictory lore, cosmology and play styles. I think this might be the secret ingredient of the original *World of Darkness*: instead of trying to streamline all the monster legends into one mythos and blandifying them, *White Wolf* instead realised that each of the legends has their own core themes and motifs that would be best served by each splat having its own aesthetic and mythos, and not worrying about the contradictions.
+
 *Curseborne* seems to be doing the opposite of this. Each lineage is really a flat splat, with its own set of rules specific to its archetype. Once you've figured out what you want to play, only then can you start to choose a family. It's a daunting choice, and probably a meaningless one for new players. The families have subtle themes that require a bit of reading between the lines. It's not obvious, for example, that the Munificients are supposed to be djinn analogues, and families are a mix of archetypal (like the Chimerae) and original, setting-specific groups (like the ZEDs).
+
+*Curseborne* falls into the trap of trying to do everything at once, and doing nothing well and creating a series of bland splats that work well together, but are otherwise insipid and unoriginal.
 
 To add to the complexity, this chapter heavily references complex mechanics from later chapters.
 
