@@ -15,6 +15,8 @@ image: /blog/curseborne/cover.png
 
 </aside>
 
+> Curseborne is a game about being unapologetic is a game about being unapologetic monsters in a world where being monstrous is the monsters in a world where being monstrous is the least of your worries.
+
 *Onyx Path's* new urban horror game [Curseborne](https://www.curseborne.com/) has brought me to crisis. I'm asking myself questions I don't really want to answer. Like: have I become everything I hate? Am I an awful grognard? Am I *uncool*?
 
 No, that can't be right. It must be those kids at *Onyx Path Publishing* who are wrong. Although, now I think about it, surely many of the people working the levers at OP are in my age cohort? What is *Onyx Path* but an act of nostalgia itself? An attempt to resurrect game lines that died with *White Wolf*. And who would've been playing and then later republishing those original games? Why, the very same sort of Gen Xers I was playing with in the 90s.
@@ -33,11 +35,11 @@ Can *Curseborne* escape this trap? Can *Onyx Publishing* be stylish and desirabl
 
 It's a question that fills me with existential dread, because the lingering subtext here, the awful suspicion, is: can *anyone* my age  create something stylish and desirable and new?
 
-Good question but, more importantly, why is *Curseborne* important? Well, *Onyx Path Publishing* has its own, particular style of urban horror. I might find it a bit busy but it has lots of interesting qualities, and I think it contributes to ???. And *Curseborne* is make-or-break for *Onyx Path*. I just hope they can survive the conversion to their own IP, because I'm fascinated to see where they go with this.
+It occurs to me that I'm really asking "what is it about the World of Darkness that really appealed to me?" *Curseborne* is the comparison, which is a bit unfair, but its the vehicle by which I'll be exploring this.
 
-**Chapter 1: The World.** The book starts off with a description of the setting, and we are introduced to the concept of the cursed world. Every bad thing in the world is the . Clever reimagining "our world but darker" trope 
+**Chapter 1: The World.** The book starts off with a description of the setting, and we are introduced to the concept of the cursed world. In *Curseborne*, the world itself is cursed, an intricate network of curses that feed off each other. It's a nice conceit that gives a good rational for the "our world but darker" trope of urban fantasy.
 
-**Chapter 2: Lineages.** Here it is, the heart of the matter. Urban horror TTRPGs live or die by their [splats](https://whitewolf.fandom.com/wiki/Splat#Fatsplats,_secondary_splats,_and_tiers). They introduce the aesthetic, core concepts, themes and motifs.
+**Chapter 2: Lineages.** Here is the heart of the matter. Urban horror TTRPGs live or die by their [splats](https://whitewolf.fandom.com/wiki/Splat#Fatsplats,_secondary_splats,_and_tiers). They introduce the aesthetic, core concepts, themes and motifs.
 
 *Curseborne* splats seem to be adapted from the *Chronicles of Darkness*/*New World of Darkness* convention. There are a fixed set of inherent splats (like the clans from *Vampire: the Requiem*) and an expansive list of secondary splats, that refine the main concepts into more specific character types (like *Vampire: the Requiem* bloodlines). We have the lineages which represent the main urban horror archetypes: your vampires, werewolves, etc. And each lineage then has 5-6 secondary splats, called families
 
@@ -46,6 +48,8 @@ Unlike the CoD, there aren't any core, social splats, like the vampire Covenants
 There is a reason *White Wolf* had almost completely separate settings for each of their splats, each only tangentially linked to the others and often with contradictory lore, cosmology and play styles. I think this might be the secret ingredient of the original *World of Darkness*: instead of trying to streamline all the monster legends into one mythos and blandifying them, *White Wolf* instead realised that each of the legends has their own core themes and motifs that would be best served by each splat having its own aesthetic and mythos, and not worrying about the contradictions.
 
 *Curseborne* seems to be doing the opposite of this. Each lineage is really a flat splat, with its own set of rules specific to its archetype. Once you've figured out what you want to play, only then can you start to choose a family. It's a daunting choice, and probably a meaningless one for new players. The families have subtle themes that require a bit of reading between the lines. It's not obvious, for example, that the Munificients are supposed to be djinn analogues, and families are a mix of archetypal (like the Chimerae) and original, setting-specific groups (like the ZEDs).
+
+Now, geeks love lists of lore. Yet lore should be doled out sparingly.
 
 *Curseborne* falls into the trap of trying to do everything at once, and doing nothing well and creating a series of bland splats that work well together, but are otherwise insipid and unoriginal.
 
