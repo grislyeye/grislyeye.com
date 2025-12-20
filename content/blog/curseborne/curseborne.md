@@ -15,7 +15,7 @@ image: /blog/curseborne/cover.png
 
 </aside>
 
-> Curseborne is a game about being unapologetic is a game about being unapologetic monsters in a world where being monstrous is the monsters in a world where being monstrous is the least of your worries.
+> Curseborne is a game about being unapologetic monsters in a world where being monstrous is the least of your worries.
 
 *Onyx Path's* new urban horror game [Curseborne](https://www.curseborne.com/) has brought me to crisis. I'm asking myself questions I don't really want to answer. Like: have I become everything I hate? Am I an awful grognard? Am I *uncool*?
 
@@ -23,27 +23,31 @@ No, that can't be right. It must be those kids at *Onyx Path Publishing* who are
 
 Why has *Curseborne* brought me to this crisis? Well, let me first explain what *Curseborne* is. Now that *Paradox* - the rights holders of the *World of Darkness* - are publishing new material, the licenses that allowed OP to publish their own WoD products have expired. This leaves the nice people at OP without an *ahem* IP for their specialist genre; urban horror. So, *Curseborne* is an attempt to replace that IP with an original setting of their own.
 
-Which is why *Curseborne* fills me with apprehension: it is game haunted, if you will, by *Vampire: the Masquerade*, *Mage: the Ascension* and others. It is, essentially, a product of pure nostalgia. A game written with the dubious premise "like the World of Darkness but different." Not that it's an unrealistic objective, but it comes from a place of practicality rather than creativity. *Curseborne* doesn't start with a need and follow through with a game. It starts with a game in the hope it will become a need. It's not cynical, but maybe it's not entirely authentic either.
+Which is why *Curseborne* fills me with apprehension: it is game haunted, if you will, by *Vampire: the Masquerade*, *Mage: the Ascension* and others. It is, essentially, a product of pure nostalgia. A game written with the dubious premise "like the World of Darkness but different." Not that it's an unreasonable objective, but it comes from a place of practicality rather than creativity. *Curseborne* doesn't start with a need and follow through with a game. It starts with a game in the hope it will become a need. It's not cynical, but maybe it's not entirely authentic either.
 
-Of course, authenticity is subjective which is why I held out hope for *Curseborne*. Can OP thread the needle here? Can lightening strike twice? Can *Curseborne* give the *World of Darkness* a run for its money? Or, better yet, could it be something entirely different; compelling for WoD fans, but bringing its own unique vision to the table?
+Of course, authenticity itself is subjective, which is why I hold out hope for *Curseborne*. Can OP thread the needle here? Can lightening strike twice? Can *Curseborne* give the *World of Darkness* a run for its money? Or, better yet, could it be something entirely different; compelling for WoD fans, but bringing its own unique vision to the table?
 
-Maybe. However, I have reservations with *Onyx Publishing* themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) However, this leads to derivative and lengthy works, filled with tedious lore that lacks much of the inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. These works are impenetrable, obscure and, well, a bit crusty. They aren't really addressing new players. And urban horror must be, if it is anything, stylish and desirable and *new*.
+<aside>
 
-*White Wolf's* real product was cool. The appeal of the games were that they were designed and illustrated by people cooler than you. Whether that's actually true or not, that was the impression left, and that's why people played them: to get a taste of that cool.
+It occurs to me that this isn't really a review of *Curseborne*, it's a retrospective on the original *World of Darkness* and my complicated feelings about it. That's a little unfair to *Onyx Path* but, you could argue, they put themselves in my sights by setting out to create a New-New World of Darkness, so let's have at it.
 
-Can *Curseborne* escape this trap? Can *Onyx Publishing* be stylish and desirable and new?
+</aside>
 
-It's a question that fills me with existential dread, because the lingering subtext here, the awful suspicion, is: can *anyone* my age  create something stylish and desirable and new?
+Maybe, but I have some reservations with *Onyx Publishing* themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) However, this can lead to derivative and lengthy works filled with tedious lore that lacks much of the inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty. 
 
-It occurs to me that I'm really asking "what is it about the World of Darkness that really appealed to me?" *Curseborne* is the comparison, which is a bit unfair, but its the vehicle by which I'll be exploring this.
+*White Wolf's* real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban horror must be, if it is anything, stylish and desirable and *new* and, if it isn't, then you're not really addressing new players.
+
+So, can *Curseborne* be stylish and desirable and *new*?
+
+It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can *anyone* my age  create something stylish and desirable and new?
 
 **Chapter 1: The World.** The book starts off with a description of the setting, and we are introduced to the concept of the cursed world. In *Curseborne*, the world itself is cursed, an intricate network of curses that feed off each other. It's a nice conceit that gives a good rational for the "our world but darker" trope of urban fantasy.
 
 **Chapter 2: Lineages.** Here is the heart of the matter. Urban horror TTRPGs live or die by their [splats](https://whitewolf.fandom.com/wiki/Splat#Fatsplats,_secondary_splats,_and_tiers). They introduce the aesthetic, core concepts, themes and motifs.
 
-*Curseborne* splats seem to be adapted from the *Chronicles of Darkness*/*New World of Darkness* convention. There are a fixed set of inherent splats (like the clans from *Vampire: the Requiem*) and an expansive list of secondary splats, that refine the main concepts into more specific character types (like *Vampire: the Requiem* bloodlines). We have the lineages which represent the main urban horror archetypes: your vampires, werewolves, etc. And each lineage then has 5-6 secondary splats, called families
+*Curseborne* splats seem to be adapted from the *Chronicles of Darkness*/*New World of Darkness* convention. There are a fixed set of inherent splats (like the clans from *Vampire: the Requiem*) and an expansive list of secondary splats, that refine the main concepts into more specific character types (like *Vampire: the Requiem* bloodlines). We have the lineages which represent the core, urban horror archetypes: your vampires, werewolves, etc. And each lineage then has 5-6 secondary splats, called "families".
 
-Unlike the CoD, there aren't any core, social splats, like the vampire Covenants. Families work as both social and inherent factions, of which there are many. Around 30, which seems like a lot. This is where we can see *Onyx Publishing*'s verboseness coming out. The original WoD books kept splats to a minimum, no more than 13 in a the core books. This is because splats are supposed to simplify the character creation process. You pick the splat first, and worry about the details later.
+These families work as both social and inherent factions, and there are around 30 of them, which seems like a lot. This is where we can see *Onyx Publishing*'s verboseness coming out. The original WoD books kept splats to a minimum, usually no more than 13 in a core book. This is because splats are supposed to simplify the character creation process. You pick the splat first, and worry about the details later.
 
 There is a reason *White Wolf* had almost completely separate settings for each of their splats, each only tangentially linked to the others and often with contradictory lore, cosmology and play styles. I think this might be the secret ingredient of the original *World of Darkness*: instead of trying to streamline all the monster legends into one mythos and blandifying them, *White Wolf* instead realised that each of the legends has their own core themes and motifs that would be best served by each splat having its own aesthetic and mythos, and not worrying about the contradictions.
 
@@ -71,8 +75,11 @@ What's more, Accursed can also have other powers called Edges.
 
 **Chapter 6: Storyguiding.** 
 
-**Chapter 6: Storyguiding.** 
-
 **Chapter 6: Adversaries.** Second only to the splats chapter, the adversaries define urban horror games.
 
 - [ ] No core conflict.  
+
+
+
+
+
