@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.28.0",
+  "version": "3.28.1",
   "type": "module",
   "scripts": {
     "build": "npx @11ty/eleventy",
@@ -11,7 +11,7 @@
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "test": "npm run test:lint && npm run test:links",
     "test:lint": "eslint --ext .js . && stylelint public/css/*.css",
-    "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --check-css --check-fragments --verbosity error --skip '(.*\\.reddit\\.com)|(.*ccommandbot\\.com)|(.*facebook\\.com)|(.*drivethrurpg\\.com)|(.*dmsguild\\.com)|(.*fandom\\.com)|(.*britannica\\.com)'",
+    "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --check-css --check-fragments --verbosity error --skip '(.*\\.reddit\\.com)|(.*ccommandbot\\.com)|(.*facebook\\.com)|(.*drivethrurpg\\.com)|(.*dmsguild\\.com)|(.*fandom\\.com)|(.*britannica\\.com)|(.*github\\.com)'",
     "post:new": "plop post",
     "product:new": "plop product"
   },
