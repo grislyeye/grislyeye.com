@@ -42,13 +42,6 @@
   content: "❧";
 }
 
-.content .chat dt {
-  margin-left: 0;
-  width: 5em;
-  text-align: right;
-  font-style: normal;
-}
-
 #post .chat dl {
   display: flex;
   flex-wrap: wrap;
@@ -60,6 +53,13 @@
   padding-left: 0.5em;
   width: calc(100% - 6em);
   border-left: solid thin red;
+}
+
+.content .chat dt {
+  margin-left: 0;
+  width: 5em;
+  text-align: right;
+  font-style: normal;
 }
 
 .content .chat .action p::before,
