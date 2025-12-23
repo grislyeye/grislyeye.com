@@ -48,24 +48,25 @@ function renderGroupMessages(message) {
   }
 }
 
-function renderIcMessage(message) {
-  switch (message.type) {
-    case 'does': return `\n<dt>${ message.actor }</dt>\n<dd class="action">${ message.message }</dd>\n`;
-    case 'says': return `\n<dt>${ message.actor }</dt>\n<dd>${ message.message }</dd>\n`;
+function renderUngroupedMessage(message) {
+  switch (`${ message.type }|${ message.chat }`) {
+    case 'does|ic': return `\n<dt>${ message.actor }</dt>\n<dd class="action">${ message.message }</dd>\n`;
+    case 'says|ic': return `\n<dt>${ message.actor }</dt>\n<dd>${ message.message }</dd>\n`;
+    case 'says|ooc': return `</dl>\n\n<aside>\n${ renderAside(message) }</aside>\n\n<dl>`;
     default: return '';
   }
 }
 
 function renderRoll(roll) {
-  return `  <p>${ playedBy[roll.actor] } rolled ${ roll.message }.</p>\n`;
+  return `  <p>${ playedBy[roll.actor] } rolls ${ roll.message } for ${ roll.actor }.</p>\n`;
 }
 
 function renderMessage(message) {
   if (message.actor === 'GM') return renderGmMessage(message);
 
   switch (message.type) {
-    case 'says': return renderIcMessage(message);
-    case 'does': return renderIcMessage(message);
+    case 'says':
+    case 'does': return renderUngroupedMessage(message);
     case 'rolls': return `</dl>\n\n<aside>\n${ renderRoll(message) }</aside>\n\n<dl>`;
     case 'grouped': return renderGroupMessages(message);
     default: return '';
