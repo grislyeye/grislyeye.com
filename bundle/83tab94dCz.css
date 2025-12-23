@@ -199,12 +199,27 @@ span.strike {
   border: thin solid white;
 }
 
+.content .chat .action p,
+.content .chat p.action,
+.content .chat span.action,
+.content .chat dd.action {
+  font-style: italic;
+}
+
+#post .chat dd p {
+  margin-bottom: 0;
+}
+
 .content .chat aside {
   float: right;
   width: 30%;
   padding-left: 1em;
   font-size: 0.8em;
   color: #a8a8a8;
+}
+
+#post .chat aside p {
+  margin-top: 0;
 }
 
 .content .chat aside p.break {
@@ -218,14 +233,7 @@ span.strike {
   content: "❧";
 }
 
-.content .chat dt {
-  margin-left: 0;
-  width: 5em;
-  text-align: right;
-  font-style: normal;
-}
-
-.content .chat dl {
+#post .chat dl {
   display: flex;
   flex-wrap: wrap;
   margin-top: 0;
@@ -238,15 +246,11 @@ span.strike {
   border-left: solid thin red;
 }
 
-.content .chat dd p {
-  margin-bottom: 0;
-}
-
-.content .chat .action p,
-.content .chat p.action,
-.content .chat span.action,
-.content .chat dd.action {
-  font-style: italic;
+.content .chat dt {
+  margin-left: 0;
+  width: 5em;
+  text-align: right;
+  font-style: normal;
 }
 
 .content .chat .action p::before,
