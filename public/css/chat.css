@@ -8,7 +8,14 @@
   border: thin solid white;
 }
 
-.content .chat dd p {
+.content .chat .action p,
+.content .chat p.action,
+.content .chat span.action,
+.content .chat dd.action {
+  font-style: italic;
+}
+
+#post .chat dd p {
   margin-bottom: 0;
 }
 
@@ -18,13 +25,6 @@
   padding-left: 1em;
   font-size: 0.8em;
   color: #a8a8a8;
-}
-
-.content .chat .action p,
-.content .chat p.action,
-.content .chat span.action,
-.content .chat dd.action {
-  font-style: italic;
 }
 
 #post .chat aside p {
