@@ -21,7 +21,7 @@ I obtained a print-on-demand copy with an attractively haunting cover. Usually, 
 
 There was also some debate as to whether *Linghun* was horror or fantasy. I was in the horror camp, but I was in the minority as well.
 
-In the mysterious town of HOME the houses can bring the dead back to their loved ones. However, the ghosts bring social problems with them. In HOME, properties are highly desirable, and a grotesque housing market has grown around them, where prospective buyers sit outside houses, homeless, grieving and avidly waiting for the current inhabitants to vacate.
+In the mysterious town of HOME the houses can bring the dead back to their loved ones. However, the ghosts bring social problems with them. For obvious reasons, properties are highly desirable, and a grotesque housing market has grown around them, where prospective buyers sit outside houses, homeless, grieving and avidly waiting for the current inhabitants to vacate.
 
 And HOME is a ghost town in more than one way. The addictive qualities of the homes have sucked the life out of its schools and infrastructure. Parents will do anything to see their dead children again, even if it means neglecting their living ones.
 
