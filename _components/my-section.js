@@ -55,7 +55,6 @@ class MySection extends LitElement {
     }
   `;
 
-  // eslint-disable-next-line class-methods-use-this
   render() {
     return html`
       <section>
