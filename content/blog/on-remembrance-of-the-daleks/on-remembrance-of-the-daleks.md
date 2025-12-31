@@ -7,13 +7,14 @@ date: 2024-04-02
 layout: layouts/post.njk
 image: /blog/on-remembrance-of-the-daleks/special-weapons-dalek.png
 ---
+
 <aside>
 
 **Caution** this post contains **spoilers**.
 
 </aside>
 
-The BBC have put the entire, 50 year [back catalogue of *Doctor Who*](https://www.bbc.co.uk/iplayer/episodes/p0ggwr8l/doctor-who-19631996) on *iPlayer* (UK only). I don't understand why they didn't do this before. Feels like we (the British public, that is) already paid for it and should have been able to watch it whenever we wanted but, whatever, I took the bait and looked up some of my favourite episodes.
+The BBC have put the entire, 50 year [back catalogue of _Doctor Who_](https://www.bbc.co.uk/iplayer/episodes/p0ggwr8l/doctor-who-19631996) on _iPlayer_ (UK only). I don't understand why they didn't do this before. Feels like we (the British public, that is) already paid for it and should have been able to watch it whenever we wanted but, whatever, I took the bait and looked up some of my favourite episodes.
 
 [_Remembrance of the Daleks_](https://www.bbc.co.uk/iplayer/episode/p00v91lj/doctor-who-19631996-season-25-remembrance-of-the-daleks-part-1) was the three episode capstone of the 7th Doctor's stint. Everyone has their favourite Doctor and mine was, for all his faults, Sylvester McCoy. He's probably not well liked in fan circles, what with the show being cancelled under his watch, but I'll always have a fondness for his soft brogue and mischievous smile.
 
@@ -61,7 +62,7 @@ I’ve said it before, and I’ll say it again, the Doctor is a cop. We get a hi
 
 <aside>
 
-I mean, even *Loki* addressed this, and that's coming from within the confines of neutered Disney politics.
+I mean, even _Loki_ addressed this, and that's coming from within the confines of neutered Disney politics.
 
 </aside>
 
@@ -71,7 +72,7 @@ You see, we’re always told interfering with history is dangerous… unless it�
 
 ## Hand of Omega
 
-What can I say about the Hand of Omega? Rewatching *Remembrance* reminds me how much it influenced me. A piece of _stellar_ engineering. That is, something you make fucking stars with. All tidied away in a neat little box. A tool beyond any crude, human tool that has, if not agency, purpose. A tool of such flexibility it can destroy an entire solar system at one stroke, or gently brush a simple baseball bat with the tiniest sliver of its power and turn it into a Dalek-breaking sword.
+What can I say about the Hand of Omega? Rewatching _Remembrance_ reminds me how much it influenced me. A piece of _stellar_ engineering. That is, something you make fucking stars with. All tidied away in a neat little box. A tool beyond any crude, human tool that has, if not agency, purpose. A tool of such flexibility it can destroy an entire solar system at one stroke, or gently brush a simple baseball bat with the tiniest sliver of its power and turn it into a Dalek-breaking sword.
 
 A great, metal sarcophagus (who or what is interred within?). It floats on command, clearly only making a pretence of gravity to save the blushes of the mere humans around it.
 

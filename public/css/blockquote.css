@@ -25,7 +25,7 @@
 }
 
 #post blockquote + ul li::before {
-  content: '- ';
+  content: "- ";
 }
 
 #post blockquote + ul li em {
