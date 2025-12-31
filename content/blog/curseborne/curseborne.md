@@ -73,7 +73,7 @@ What's more, Accursed can also have other powers called Edges.
 
 **Chapter 6: Adversaries.** Second only to the splats chapter, the adversaries define urban horror games.
 
-- [ ] No core conflict.  
+But there is no core conflict here! Merely a lot of smaller ones, that don't seem to represent any significant threat to the splats.
 
 
 
