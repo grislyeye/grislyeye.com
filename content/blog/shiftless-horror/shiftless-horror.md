@@ -7,17 +7,18 @@ date: 2024-05-07
 layout: layouts/post.njk
 image: /blog/shiftless-horror/alien-cast.jpg
 ---
+
 <aside>
 
 This post evolved out of a [self-essay](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote while developing [CONT/EXT](/products/context/). It turned up some interesting ideas on world design, horror, institutions and British sci-fi, so I present my (incomplete) thoughts here.
 
 </aside>
 
->The PCs have been recruited by a secretive organisation called Continued Existence (CONT/EXT for short). CONT/EXT’s mission is to ensure humanity can survive an Outside Context Event (OCE), such as a catastrophic solar event. Or, in this case, an encounter with a hostile alien threat.
+> The PCs have been recruited by a secretive organisation called Continued Existence (CONT/EXT for short). CONT/EXT’s mission is to ensure humanity can survive an Outside Context Event (OCE), such as a catastrophic solar event. Or, in this case, an encounter with a hostile alien threat.
 
 - _CONT/EXT_, by me.
 
-At the edges of [CONT/EXT](/products/context/) is the institution after which the module is named. What kind of organisation is CONT/EXT, and what is its place in a game like *Mothership*?
+At the edges of [CONT/EXT](/products/context/) is the institution after which the module is named. What kind of organisation is CONT/EXT, and what is its place in a game like _Mothership_?
 
 ![Still for title screen of Alien (1979)](./content/blog/shiftless-horror/nostromo.jpg "Commercial towing vehicle 'The Nostromo'")
 
@@ -52,7 +53,7 @@ Elements of this "shiftless" or "grubby" science fiction include:
 
 ## The Inevitable Horror of British Institutions
 
->You know the person who had the greatest positive impact on the environment of this planet? Genghis Khan, because he massacred 40 million people. There was no one to farm the land, forests grew back, carbon was dragged out of the atmosphere. And had this monster not existed, there'd be another billion of us today, jostling for space on this dying planet.
+> You know the person who had the greatest positive impact on the environment of this planet? Genghis Khan, because he massacred 40 million people. There was no one to farm the land, forests grew back, carbon was dragged out of the atmosphere. And had this monster not existed, there'd be another billion of us today, jostling for space on this dying planet.
 
 - _Utopia_, 2013
 
@@ -66,7 +67,7 @@ Similarly, the working-class teamster implies that our stratified social structu
 
 In sci-fi horror, the threat of an institution is threefold:
 
-- **Inevitable.** The true power of institutions is that something like it *must* exist. Its function, whether mining spice or managing colonies, is too vital, too complicated or too long-term for any individual to perform, and so there stands the institution, bearing that load.
+- **Inevitable.** The true power of institutions is that something like it _must_ exist. Its function, whether mining spice or managing colonies, is too vital, too complicated or too long-term for any individual to perform, and so there stands the institution, bearing that load.
 - **Utilitarian.** It is ruthless in the pursuit of its goals, unconcerned about the human cost. As alien as any parasitic bioweapon. As unfathomable as the vastness of space.
 - **Implacable.** Stemming from its inevitability and ruthlessness is its implacability: it cannot be denied. Its needs and wants eclipse any individual, and all must yield.
 
@@ -93,7 +94,7 @@ Examples of notable, fictional institutions from British science fiction that co
 - UNIT from _Doctor Who_.
 - The British Experimental Rocket Group from _Quatermass_.
 - MI6 from _James Bond_.
-- Special Circumstances from the *Culture* Novels.
+- Special Circumstances from the _Culture_ Novels.
 
 We can see they share the following elements:
 
@@ -140,10 +141,10 @@ What have we learned and what can we apply to _CONT/EXT_ and, more broadly, to a
 
 Some closing thoughts:
 
-* **Secretive.** CONT/EXT is a conspiracy, but why would it need to operate in secrecy? Total secrecy implies a lot about the setting: primarily that publicity could hamper its operations, which in turn implies that there are public institutions that could do something to stop it. But why would there be? Perhaps CONT/EXT is better as a more oppressive organisation that works in public, perhaps a proxy to state control.
-* **Shiftless.** The adventure is set on _The Lachesis_, a deep space research station studying an alien superstructure but, as we discussed above, scientific research is a bit too aspirational for our tone. I might consider changing the setting to something more workmanlike, perhaps an installation extracting material from the superstructure.
-* **Post-Crisis.** If many British organisations are products of the war, perhaps CONT/EXT is a product of some prior catastrophe? It would make sense. Our establishments are reactionary, and might only collaborate in the aftermath of some near brush with extinction.
-* **Parsimonious.** *CONT/EXT* already has a cheap and cheerful flavour, with its 80s blue and orange colour palette, and lo-fi tech. Working for humanity's survival, but on a tight budget. It's already on-theme.
-* **Eccentricity** is a key part of British fiction, but we need to treat it carefully here in case it undercuts the horror.
+- **Secretive.** CONT/EXT is a conspiracy, but why would it need to operate in secrecy? Total secrecy implies a lot about the setting: primarily that publicity could hamper its operations, which in turn implies that there are public institutions that could do something to stop it. But why would there be? Perhaps CONT/EXT is better as a more oppressive organisation that works in public, perhaps a proxy to state control.
+- **Shiftless.** The adventure is set on _The Lachesis_, a deep space research station studying an alien superstructure but, as we discussed above, scientific research is a bit too aspirational for our tone. I might consider changing the setting to something more workmanlike, perhaps an installation extracting material from the superstructure.
+- **Post-Crisis.** If many British organisations are products of the war, perhaps CONT/EXT is a product of some prior catastrophe? It would make sense. Our establishments are reactionary, and might only collaborate in the aftermath of some near brush with extinction.
+- **Parsimonious.** _CONT/EXT_ already has a cheap and cheerful flavour, with its 80s blue and orange colour palette, and lo-fi tech. Working for humanity's survival, but on a tight budget. It's already on-theme.
+- **Eccentricity** is a key part of British fiction, but we need to treat it carefully here in case it undercuts the horror.
 
 I've got some thinking to do and some edits to make.

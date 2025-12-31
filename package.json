@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.28.2",
+  "version": "3.28.3",
   "type": "module",
   "scripts": {
     "build": "npx @11ty/eleventy",
@@ -10,7 +10,7 @@
     "debug:start": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "test": "npm run test:lint && npm run test:links",
-    "test:lint": "eslint --ext .js . && stylelint public/css/*.css",
+    "test:lint": "prettier . --check && eslint --ext .js . && stylelint public/css/*.css",
     "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --check-css --check-fragments --verbosity error --skip '(.*\\.reddit\\.com)|(.*ccommandbot\\.com)|(.*facebook\\.com)|(.*drivethrurpg\\.com)|(.*dmsguild\\.com)|(.*fandom\\.com)|(.*britannica\\.com)|(.*github\\.com)'",
     "post:new": "plop post",
     "product:new": "plop product"
@@ -44,8 +44,7 @@
     "eleventy-plugin-gen-favicons": "^1.1.3",
     "eleventy-plugin-seo": "^0.5.2",
     "esbuild": "^0.27.2",
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint": "^9.39.2",
     "eslint-plugin-lit": "^2.1.1",
     "eslint-plugin-wc": "^3.0.2",
     "linkinator": "^7.5.3",
@@ -54,6 +53,7 @@
     "markdown-it-eleventy-img": "^0.10.2",
     "papaparse": "^5.5.3",
     "plop": "^4.0.4",
+    "prettier": "3.7.4",
     "stylelint": "^16.26.1",
     "stylelint-config-standard": "^39.0.1",
     "undici-types": "^7.16.0"
