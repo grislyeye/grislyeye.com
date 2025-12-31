@@ -27,19 +27,15 @@ Which is why *Curseborne* fills me with apprehension: it is game haunted, if you
 
 Of course, authenticity itself is subjective, which is why I hold out hope for *Curseborne*. Can OP thread the needle here? Can lightening strike twice? Can *Curseborne* give the *World of Darkness* a run for its money? Or, better yet, could it be something entirely different; compelling for WoD fans, but bringing its own unique vision to the table?
 
-<aside>
-
-It occurs to me that this isn't really a review of *Curseborne*, it's a retrospective on the original *World of Darkness* and my complicated feelings about it. That's a little unfair to *Onyx Path* but, you could argue, they put themselves in my sights by setting out to create a New-New World of Darkness, so let's have at it.
-
-</aside>
-
-Maybe, but I have some reservations with *Onyx Publishing* themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) However, this can lead to derivative and lengthy works filled with tedious lore that lacks much of the inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty. 
+Maybe, but I also have some reservations with *Onyx Path Publishing* themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) However, this can lead to derivative and lengthy works filled with tedious lore that lacks much of the inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty. 
 
 *White Wolf's* real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban horror must be, if it is anything, stylish and desirable and *new* and, if it isn't, then you're not really addressing new players.
 
-So, can *Curseborne* be stylish and desirable and *new*?
+So, can *Curseborne* be stylish and desirable and *new*?
 
 It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can *anyone* my age  create something stylish and desirable and new?
+
+It occurs to me, then, that this isn't really a review of *Curseborne* (apologies *Onyx Path*). It's more of an inquiry into my complicated feelings about the original *World of Darkness*. *Curseborne* is the focus, but it's also the mirror I'm using to interrogate my biases. Is the appeal of 90s WoD just nostalgia? Is oWoD better than any of the contemporary urban horror settings?
 
 **Chapter 1: The World.** The book starts off with a description of the setting, and we are introduced to the concept of the cursed world. In *Curseborne*, the world itself is cursed, an intricate network of curses that feed off each other. It's a nice conceit that gives a good rational for the "our world but darker" trope of urban fantasy.
 
