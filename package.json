@@ -11,6 +11,7 @@
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "test": "npm run test:lint && npm run test:links",
     "test:lint": "prettier . --check && eslint --ext .js . && stylelint public/css/*.css",
+    "test:lint:fix": "prettier . --write",
     "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --check-css --check-fragments --verbosity error --skip '(.*\\.reddit\\.com)|(.*ccommandbot\\.com)|(.*facebook\\.com)|(.*drivethrurpg\\.com)|(.*dmsguild\\.com)|(.*fandom\\.com)|(.*britannica\\.com)|(.*github\\.com)'",
     "post:new": "plop post",
     "product:new": "plop product"
