@@ -1,6 +1,6 @@
 import groupAdjacent from './group-adjacent.js';
 
-const flattenPlayerMessage = (messages) => {
+const flattenCharacterMessages = (messages) => {
   const baseMessage = messages[0];
   if (messages.length === 1) return baseMessage;
 
@@ -16,7 +16,7 @@ const flattenPlayerMessage = (messages) => {
   return baseMessage;
 };
 
-const flattenAsides = (messages) => {
+const flattenPlayersMessages = (messages) => {
   const baseMessage = messages[0];
   if (messages.length === 1) return baseMessage;
 
@@ -37,15 +37,15 @@ const consecutiveOocMessages = (pre, cur) => {
 };
 
 const collectOocMessages = (messages) => {
-  return groupAdjacent(messages, consecutiveOocMessages).map(flattenAsides);
+  return groupAdjacent(messages, consecutiveOocMessages).map(flattenPlayersMessages);
 };
 
 const consecutiveSameActors = (pre, cur) => {
-  return cur.chat !== 'ooc' && (pre.actor === cur.actor || cur.actor === '');
+  return (pre.actor === cur.actor || cur.actor === '') && pre.chat === cur.chat && cur.chat === 'ic';
 };
 
 const collectIcMessages = (messages) => {
-  return groupAdjacent(messages, consecutiveSameActors).map(flattenPlayerMessage);
+  return groupAdjacent(messages, consecutiveSameActors).map(flattenCharacterMessages);
 };
 
 const collectMessages = (messages) => {
