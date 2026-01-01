@@ -6,6 +6,7 @@ layout: layouts/post.njk
 image: /blog/player-inspiration/the-star.jpg
 permalink: "{% backwardSupportPermalinkStem page %}.html"
 ---
+
 <div id="inspiration-illustration" class="illustration">
   {% image "the-star.jpg", "Inspiration Illustration", ["400"] %}
   <p class="caption"><a href="https://commons.wikimedia.org/wiki/File:RWS_Tarot_17_Star.jpg">The Star</a> tarot card from the <a href="https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck">Rider-Waite deck</a>. Public domain image.</p>

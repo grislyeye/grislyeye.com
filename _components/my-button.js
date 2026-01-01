@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css } from "lit";
 
 class MyButton extends LitElement {
   static styles = css`
@@ -35,18 +35,18 @@ class MyButton extends LitElement {
       pointer-events: none;
       background-color: grey;
       color: lightgrey;
-    }`;
+    }
+  `;
 
   static properties = {
-    disabled: { attribute: 'disabled', type: Boolean }
+    disabled: { attribute: "disabled", type: Boolean }
   };
 
   render() {
-    return html`
-      <div class="button ${ this.disabled ? 'disabled' : '' }">
-        <slot></slot>
-      </div>`;
+    return html` <div class="button ${this.disabled ? "disabled" : ""}">
+      <slot></slot>
+    </div>`;
   }
 }
 
-customElements.define('my-button', MyButton);
+customElements.define("my-button", MyButton);
