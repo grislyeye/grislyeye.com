@@ -21,9 +21,6 @@
     "email": "ric@grislyeye.com",
     "url": "https://grislyeye.com/"
   },
-  "engines": {
-    "node": ">=14"
-  },
   "dependencies": {
     "@11ty/eleventy-fetch": "^5.1.1",
     "eleventy-google-fonts": "^0.1.0",
