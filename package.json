@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.28.3",
+  "version": "3.29.0",
   "type": "module",
   "scripts": {
     "build": "npx @11ty/eleventy",
@@ -12,7 +12,7 @@
     "test": "npm run test:lint && npm run test:links",
     "test:lint": "prettier . --check && eslint --ext .js . && stylelint public/css/*.css",
     "test:lint:fix": "prettier . --write",
-    "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --check-css --check-fragments --verbosity error --skip '(.*\\.reddit\\.com)|(.*ccommandbot\\.com)|(.*facebook\\.com)|(.*drivethrurpg\\.com)|(.*dmsguild\\.com)|(.*fandom\\.com)|(.*britannica\\.com)|(.*github\\.com)'",
+    "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --check-css --check-fragments --verbosity error --skip '(.*\\.reddit\\.com)'",
     "post:new": "plop post",
     "product:new": "plop product"
   },
@@ -20,9 +20,6 @@
     "name": "Ric Wood",
     "email": "ric@grislyeye.com",
     "url": "https://grislyeye.com/"
-  },
-  "engines": {
-    "node": ">=14"
   },
   "dependencies": {
     "@11ty/eleventy-fetch": "^5.1.1",
@@ -56,7 +53,6 @@
     "plop": "^4.0.4",
     "prettier": "3.7.4",
     "stylelint": "^16.26.1",
-    "stylelint-config-standard": "^39.0.1",
-    "undici-types": "^7.16.0"
+    "stylelint-config-standard": "^39.0.1"
   }
 }
