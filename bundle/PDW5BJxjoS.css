@@ -117,7 +117,7 @@
 }
 
 #post blockquote + ul li::before {
-  content: '- ';
+  content: "- ";
 }
 
 #post blockquote + ul li em {
@@ -445,7 +445,7 @@ figure.illustration.outlined img {
   height: auto;
 }
 
-#post img:nth-child(odd){
+#post img:nth-child(odd) {
   margin-right: 0;
   float: right;
 }
@@ -455,10 +455,10 @@ figure.illustration.outlined img {
   float: left;
 }
 
-@media(width < 400px) {
+@media (width < 400px) {
   #post img {
     float: none;
-    width: 100%
+    width: 100%;
   }
 }
 
@@ -599,14 +599,13 @@ vellum-monster h2 {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  background-image:
-    linear-gradient(
-      to top,
-      #4b4b4b 0%,
-      #4b4b4b 20%,
-      transparent 80%,
-      transparent 100%
-    );
+  background-image: linear-gradient(
+    to top,
+    #4b4b4b 0%,
+    #4b4b4b 20%,
+    transparent 80%,
+    transparent 100%
+  );
 }
 
 #post h1 a,
@@ -710,7 +709,7 @@ vellum-monster h2 {
   }
 }
 
-@media(width < 970px) {
+@media (width < 970px) {
   .three-column table {
     thead {
       display: block;

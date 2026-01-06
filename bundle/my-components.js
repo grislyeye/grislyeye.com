@@ -584,7 +584,7 @@
       text-transform: lowercase;
     }
 
-    @media(width < 970px) {
+    @media (width < 970px) {
       :host {
         margin-left: 0;
       }
@@ -604,7 +604,6 @@
       margin-top: 0;
     }
   `;
-    // eslint-disable-next-line class-methods-use-this
     render() {
       return b2`
       <section>
@@ -640,18 +639,19 @@
       margin: 0;
     }
 
-    @media(max-width: 500px) {
+    @media (max-width: 500px) {
       h1 {
         font-size: 4rem;
       }
     }
   `;
-    // eslint-disable-next-line class-methods-use-this
     render() {
       return b2`
       <h1><slot name="title">Hero Header Title</slot></h1>
       <my-section>
-        <p class="description"><slot name="description">Hero header description</slot></p>
+        <p class="description">
+          <slot name="description">Hero header description</slot>
+        </p>
       </my-section>
     `;
     }
@@ -729,36 +729,35 @@
       location: { attribute: "location" }
     };
     static renderSocial(type, link, label) {
-      return b2`
-      <div class="social">
-        <a href="${link}" title="RSS">
-          <img src="/images/${type}.svg" class="icon" alt="${type} label">
-          ${label}
-        </a>
-      </div>`;
+      return b2` <div class="social">
+      <a href="${link}" title="RSS">
+        <img src="/images/${type}.svg" class="icon" alt="${type} label" />
+        ${label}
+      </a>
+    </div>`;
     }
     render() {
       return b2`
       <div class="main">
-        <a href="/"><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"></a>
+        <a href="/"
+          ><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"
+        /></a>
         <span>
-          <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+          <a href="/"><slot name="name"></slot></a> |
+          <a href="/"><slot name="title"></slot></a>
         </span>
       </div>
 
       <div class="socials">
         <div class="social">
-            <img src="/images/location.svg" class="icon" alt="Location icon"> <span id="location">${this.location}</span>
+          <img src="/images/location.svg" class="icon" alt="Location icon" />
+          <span id="location">${this.location}</span>
         </div>
 
         ${this.email ? _MyNavigationBar.renderSocial("email", this.email, "Mailing List") : b2``}
-
         ${this.twitter ? _MyNavigationBar.renderSocial("twitter", this.twitter, "Twitter") : b2``}
-
         ${this.bluesky ? _MyNavigationBar.renderSocial("bluesky", this.bluesky, "Bluesky") : b2``}
-
         ${this.mastodon ? _MyNavigationBar.renderSocial("mastodon", this.mastodon, "Mastodon") : b2``}
-
         ${this.rss ? _MyNavigationBar.renderSocial("rss", this.rss, "RSS") : b2``}
       </div>
     `;
@@ -779,16 +778,16 @@
       line-height: 1;
       padding-bottom: 10px;
       margin: 0;
-      word-wrap:break-word;
+      word-wrap: break-word;
     }
 
-    @media(max-width: 500px) {
+    @media (max-width: 500px) {
       h1.title {
         font-size: 4rem;
       }
     }
 
-    @media(max-width: 400px) {
+    @media (max-width: 400px) {
       h1.title {
         font-size: 3rem;
       }
@@ -799,9 +798,7 @@
     };
     render() {
       return b2`
-      <h1 class="title">
-        ${this.renderTitle()}
-      </h1>
+      <h1 class="title">${this.renderTitle()}</h1>
       <my-section>
         <div slot="subtitle"><slot name="subtitle"></slot></div>
         <slot></slot>
@@ -811,7 +808,8 @@
     renderTitle() {
       const [first, ...tail] = this.name.split(" ");
       if (first && tail) {
-        return b2`${first} <br> ${tail.join(" ")}`;
+        return b2`${first} <br />
+        ${tail.join(" ")}`;
       }
       return this.name;
     }
@@ -969,7 +967,7 @@
       return b2`
       <div class="container" style="${this.renderBackgroundStyle()}">
         <header>
-          <h1><slot name='title'>Preview Title</slot></h1>
+          <h1><slot name="title">Preview Title</slot></h1>
           <p>${this.type}</p>
         </header>
       </div>
@@ -1024,15 +1022,15 @@
       pointer-events: none;
       background-color: grey;
       color: lightgrey;
-    }`;
+    }
+  `;
     static properties = {
       disabled: { attribute: "disabled", type: Boolean }
     };
     render() {
-      return b2`
-      <div class="button ${this.disabled ? "disabled" : ""}">
-        <slot></slot>
-      </div>`;
+      return b2` <div class="button ${this.disabled ? "disabled" : ""}">
+      <slot></slot>
+    </div>`;
     }
   };
   customElements.define("my-button", MyButton);

@@ -42,7 +42,7 @@
   }
 }
 
-@media(width < 970px) {
+@media (width < 970px) {
   .three-column table {
     thead {
       display: block;
