@@ -17,8 +17,12 @@ _Image from "Book of Wisdom" of Francysk Skaryna 1518_
 
 > An example of the use of wisdom can be given by noting that while the intelligent character will know that smoking is harmful to him, he may well lack the wisdom to stop (this writer may well fall into this category).
 
-- Gary Gygax, Dungeon Master's Guide, AD&D 1st Edition
+- *Dungeon Master's Guide* by Gary Gygax, 1979
 
-Are you foolish for smoking? Or merely naive? Can you be considered clever if you’ll stand in the rain until you catch pneumonia? Do you have the faith to realise that you just _don’t_ put tomatoes in a fruit salad?
+Are you foolish for smoking? Or merely naive? Can you be considered intelligent if you’ll stand in the rain until you catch pneumonia? Do you have the faith to realise that you just _don’t_ put tomatoes in fruit salad?
 
-Wisdom and Intelligence. Such are the philosophical contortions required to distinguish them. But, does the difference actually matter? They’re widely considered to be synonyms, so let's treat them that way and merge them together.
+Such are the philosophical contortions required to distinguish Wisdom from Intelligence in *Dungeons & Dragons*, and its various clones. But, does the difference actually matter?
+
+If you look at the old-school ability scores from the perspective of class, then Intelligence is the wizard attribute and Wisdom is the cleric attribute. The higher your Wisdom, the more “clericy” you are.
+
+But that's an artefact of those systems, not a universal definition. The terms are widely defined as synonyms, so I say let's treat them that way and ignore this arbitrary distinction for new games.
