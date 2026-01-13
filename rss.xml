@@ -4,12 +4,34 @@
   <subtitle>R.G. Wood</subtitle>
   <link href="https://grislyeye.com/rss.xml" rel="self"/>
   <link href="https://grislyeye.com/"/>
-  <updated>2026-01-06T00:00:00Z</updated>
+  <updated>2026-01-13T00:00:00Z</updated>
   <id>https://grislyeye.com/</id>
   <author>
     <name>R.G. Wood</name>
     <email>ric@grislyeye.com</email>
   </author>
+  
+  <entry>
+    <title>The Wisdom of Synonyms</title>
+    <link href="https://grislyeye.com/blog/wisdom/"/>
+    <updated>2026-01-13T00:00:00Z</updated>
+    <id>https://grislyeye.com/blog/wisdom/</id>
+    <content type="html">&lt;aside&gt;
+&lt;p&gt;&lt;a href=&quot;https://grislyeye.com/products/context&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/png&quot; srcset=&quot;https://grislyeye.com/img/sB_ogrhdwo-439.png 439w&quot; /&gt;&lt;img alt=&quot;Image from &amp;quot;Book of Wisdom&amp;quot; of Francysk Skaryna 1518&quot; title=&quot;Book of Wisdom&quot; src=&quot;https://grislyeye.com/img/sB_ogrhdwo-439.jpeg&quot; width=&quot;439&quot; height=&quot;700&quot; /&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Image from &amp;quot;Book of Wisdom&amp;quot; of Francysk Skaryna 1518&lt;/em&gt;&lt;/p&gt;
+&lt;/aside&gt;
+&lt;blockquote&gt;
+&lt;p&gt;An example of the use of wisdom can be given by noting that while the intelligent character will know that smoking is harmful to him, he may well lack the wisdom to stop (this writer may well fall into this category).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Dungeon Master&#39;s Guide&lt;/em&gt; by Gary Gygax, 1979&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Are you foolish for smoking? Or merely naive? Can you be considered intelligent if you’ll stand in the rain until you catch pneumonia? Do you have the faith to realise that you just &lt;em&gt;don’t&lt;/em&gt; put tomatoes in fruit salad?&lt;/p&gt;
+&lt;p&gt;Such are the philosophical contortions required to distinguish Wisdom from Intelligence in &lt;em&gt;Dungeons &amp;amp; Dragons&lt;/em&gt;, and its various clones. But, does the difference actually matter?&lt;/p&gt;
+&lt;p&gt;If you look at the old-school ability scores from the perspective of class, then Intelligence is the wizard attribute and Wisdom is the cleric attribute. The higher your Wisdom, the more “clericy” you are.&lt;/p&gt;
+&lt;p&gt;But that&#39;s an artefact of those systems, not a universal definition. The terms are widely defined as synonyms, so I say let&#39;s treat them that way and ignore this arbitrary distinction for new games.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>2025</title>
@@ -13621,7 +13643,7 @@ predators&quot; class=&quot;small&quot; width=&quot;300&quot; height=&quot;495&q
 &lt;p&gt;
   Writing an adventure around these various threads seemed tricky, but it got me
   thinking about the agenda design I&#39;ve been doing with
-  &lt;a href=&quot;https://imgur.com/a/ehRrxxO?&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;NPC stat blocks&lt;/a&gt;. Taking that I came up with an agenda-based adventure designed. Basically
+  &lt;a href=&quot;https://grislyeye.com/blog/npc-block/npc-stat-block-version-3.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;NPC stat blocks&lt;/a&gt;. Taking that I came up with an agenda-based adventure designed. Basically
   it&#39;s like an event-based adventure (from the &lt;em&gt;Dungeon Master’s Guide&lt;/em&gt;)
   but for multiple threats.
 &lt;/p&gt;
@@ -16619,9 +16641,8 @@ cards&quot; width=&quot;700&quot; height=&quot;525&quot; /&gt;&lt;/picture&gt;
   This is an update as I continue to iterate on my design for a non-player
   character stat block format for. As
   &lt;a href=&quot;https://grislyeye.com/blog/npc-block.html&quot;&gt;previously&lt;/a&gt;
-  &lt;a href=&quot;https://imgur.com/AAq1F66&quot;&gt;discussed&lt;/a&gt;
-  &lt;a href=&quot;https://imgur.com/a/ehRrxxO?&quot;&gt;a few times&lt;/a&gt;. Here we have Lyrum,
-  stated up in version 4 of my NPC stat block:
+  &lt;a href=&quot;https://grislyeye.com/blog/npc-block/npc-stat-block-version-3.png&quot;&gt;discussed&lt;/a&gt;
+  &lt;a href=&quot;https://grislyeye.com/blog/npc-block/proof-of-concept-stat-block-npcs.png&quot;&gt;a few times&lt;/a&gt;. Here we have Lyrum, stated up in version 4 of my NPC stat block:
 &lt;/p&gt;
 
 &lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://grislyeye.com/img/q1WYjW02nH-400.avif 400w&quot; /&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://grislyeye.com/img/q1WYjW02nH-400.webp 400w&quot; /&gt;&lt;img src=&quot;https://grislyeye.com/img/q1WYjW02nH-400.png&quot; alt=&quot;Example NPC block version 4.0&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; title=&quot;Example NPC block version 4.0&quot; width=&quot;400&quot; height=&quot;766&quot; /&gt;&lt;/picture&gt;
@@ -16767,10 +16788,9 @@ version 4.0&quot; width=&quot;400&quot; height=&quot;229&quot; /&gt;&lt;/picture
 &lt;p&gt;
   This is the section I&#39;m least sure about. You could argue personality traits
   would cover this. It&#39;s a remnant of the &lt;q&gt;agenda&lt;/q&gt; section from the
-  &lt;a href=&quot;https://imgur.com/a/ehRrxxO&quot;&gt;version 3 stat block&lt;/a&gt;. Long-term
-  agendas didn&#39;t really work for individual NPCs. In 5E a lone NPC can be
-  resolved with a single combat or ability check, so I moved them to a new
-  concept called &lt;q&gt;fronts&lt;/q&gt; (more on that later).
+  &lt;a href=&quot;https://grislyeye.com/blog/npc-block/npc-stat-block-version-3.png&quot;&gt;version 3 stat block&lt;/a&gt;. Long-term agendas didn&#39;t really work for individual NPCs. In 5E a lone NPC
+  can be resolved with a single combat or ability check, so I moved them to a
+  new concept called &lt;q&gt;fronts&lt;/q&gt; (more on that later).
 &lt;/p&gt;
 
 &lt;h4&gt;Summary&lt;/h4&gt;
