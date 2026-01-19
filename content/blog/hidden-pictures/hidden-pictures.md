@@ -2,7 +2,7 @@
 title: Hidden Pictures
 tags:
   - posts
-date: 2025-12-16
+date: 2026-01-20
 layout: layouts/post.njk
 image: /blog/hidden-pictures/cover.jpg
 ---
@@ -15,10 +15,10 @@ image: /blog/hidden-pictures/cover.jpg
 
 </aside>
 
-Do you ever read books that seem to be written with a film adaptation in mind? The prose is just descriptive enough you could imagine it in a script. The dialogue is punchy but bland. The characters are so everyday that you could shop around a bit for casting. Good for you, but I'm not sure I want to read your book if it's just a stepping stone towards an inevitable adaptation. If your focus isn't the book, then surely it doesn't deserve the reader's attention? 
+Do you ever read books that seem to be written with a film adaptation in mind? Skeletal, script-like prose. Dialogue punchy but bland. Characters so everyday you could shop around for casting.
 
-*[Hidden Pictures](https://www.goodreads.com/book/show/58724923-hidden-pictures)* by Jason Rekulak is one such book. I'm not even sure it would make a particularly good film. Maybe an OK one. Perhaps a Netflix thriller with a script saved by a good cast. With, like, Sarah Catherine Hook in the lead. She'd make a great last girl, and Sarah's probably up for a suitable vehicle after *The White Lotus*.
+_[Hidden Pictures](https://www.goodreads.com/book/show/58724923-hidden-pictures)_ by Jason Rekulak is one such book. I'm not even sure it would make a particularly good film. Maybe an OK one. Perhaps a Netflix thriller with a script saved by a good cast. But I'm not sure I want to read your book if it's just a stepping stone towards an inevitable adaptation. If your focus isn't the book, then surely it doesn't deserve the reader's attention?
 
-Otherwise, the book is instantly forgettable. I read it three months ago and I barely remember anything about it. The twist was silly, the characters were dreary and it wasn't particularly, you know, horrifying for a horror.
+Regardless, _Hidden Pictures_ is instantly forgettable. I read it three months ago and I barely remember anything about it. The twist was silly, the characters were dreary and it wasn't particularly, you know, horrifying for a horror.
 
-I gave this three stars. These days, if a book is at least readable, that's a three right there. You'd think basic writing would be standard but, ah well, but I might downgrade it to a two.
+I gave this two stars just because it's at least readable.
