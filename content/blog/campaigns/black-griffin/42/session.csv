@@ -1,5 +1,5 @@
 timestamp,actor,type,chat,message,Kat,Hope,Morgan,Ric
-"Thu, 30 May 2019 18:23:00 GMT",GM,says,ic,"Outside, the night air is cool, and a strong breeze. About the camp, mercenaries start to light their night fires, flames wax as the sun wanes and night falls.",,,,
+"Thu, 30 May 2019 18:23:00 GMT",GM,says,ic,"Outside, the night air is cool, and a strong breeze blows through the camp. Company mercenaries start to light their night fires, flames waxing as the sun wanes and night falls.",,,,
 "Thu, 30 May 2019 18:23:00 GMT",Orin,does,ic,"snores loudly from their tent, one hand still clutching their wineskin.",,,,
 "Thu, 30 May 2019 18:25:00 GMT",Biron,does,ic,steps out of his tent and holds himself upright.,,,,
 "Thu, 30 May 2019 18:25:00 GMT",Biron,does,ic,looks around the camp.,,Repeats previous line - delete? ✅,,
@@ -280,8 +280,7 @@ timestamp,actor,type,chat,message,Kat,Hope,Morgan,Ric
 "Thu, 30 May 2019 20:25:00 GMT",Orin,says,ic,It's nothing. Just a gift from a sergeant.,,,,
 "Thu, 30 May 2019 20:25:00 GMT",Orin,does,ic,pulls the hand back into their sleeve.,,,,
 "Thu, 30 May 2019 20:25:00 GMT",Stranger,does,ic,nods.,,,,
-"Thu, 30 May 2019 20:25:00 GMT","Stranger
-",says,ic,They can be cruel.,,,,
+"Thu, 30 May 2019 20:25:00 GMT",Stranger,says,ic,They can be cruel.,,,,
 "Thu, 30 May 2019 20:25:00 GMT",Stranger,does,ic,sighs.,,,,
 "Thu, 30 May 2019 20:26:00 GMT",Stranger,says,ic,I have news! The inquisition put six women to the flame in Witch County.,,,,
 "Thu, 30 May 2019 20:26:00 GMT",Stranger,says,ic,"The Three Bastards are keen to show piety and are currying favour with the Church, so innocent women burn to shore up their support south of the border.",,,,
@@ -327,7 +326,7 @@ timestamp,actor,type,chat,message,Kat,Hope,Morgan,Ric
 "Thu, 30 May 2019 20:40:00 GMT",Ba'Raknul,does,ic,watches for any coming close to the tower.,,,,
 "Thu, 30 May 2019 20:40:00 GMT",Stranger,does,ic,"turns, looks sharply at Orin and hesitates for a moment. Still visible at the edge of the campfire, if she moves another five feet or so she'll disappear into the darkness beyond.",,,,
 "Thu, 30 May 2019 20:43:00 GMT",Orin,does,ic,looks nervously around and takes a few steps toward the tower.,,,,
-"Thu, 30 May 2019 20:43:00 GMT",Stranger,does,ic,smiles at Orin. They see the sharp point of her chin and the thin lips of her wry smile.,,,,
 "Thu, 30 May 2019 20:44:00 GMT",Ric,says,ooc,Roll initiative everyone.,,,,
+"Thu, 30 May 2019 20:43:00 GMT",Stranger,does,ic,smiles at Orin. They see the sharp point of her chin and the thin lips of her wry smile.,,,,
 "Thu, 30 May 2019 20:44:00 GMT",Stranger,does,ic,whispers.,,,"don't understand this line, but definitely shouldn't be an action?",
 "Thu, 30 May 2019 20:44:00 GMT",Stranger,says,ic,Traitor!,,,,
