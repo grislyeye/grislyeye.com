@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css } from "lit";
 
 class MySection extends LitElement {
   static styles = css`
@@ -34,7 +34,7 @@ class MySection extends LitElement {
       text-transform: lowercase;
     }
 
-    @media(width < 970px) {
+    @media (width < 970px) {
       :host {
         margin-left: 0;
       }
@@ -55,7 +55,6 @@ class MySection extends LitElement {
     }
   `;
 
-  // eslint-disable-next-line class-methods-use-this
   render() {
     return html`
       <section>
@@ -70,4 +69,4 @@ class MySection extends LitElement {
   }
 }
 
-customElements.define('my-section', MySection);
+customElements.define("my-section", MySection);

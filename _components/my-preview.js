@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css } from "lit";
 
 class MyPreview extends LitElement {
   static styles = css`
@@ -89,42 +89,42 @@ class MyPreview extends LitElement {
   `;
 
   static properties = {
-    class: { attribute: 'class' },
-    backgroundSrc: { attribute: 'background' },
-    preload: { attribute: 'preload', type: Boolean }
+    class: { attribute: "class" },
+    backgroundSrc: { attribute: "background" },
+    preload: { attribute: "preload", type: Boolean }
   };
 
-  static Book = 'book';
+  static Book = "book";
 
-  static Article = 'article';
+  static Article = "article";
 
   get hostStyle() {
-    return this.renderRoot.querySelector('.container').style;
+    return this.renderRoot.querySelector(".container").style;
   }
 
   get backgroundImage() {
     if (this.backgroundSrc) {
-      if (this.class.includes('light') && this.type !== MyPreview.Book) {
-        return `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('${ this.backgroundSrc }')`;
+      if (this.class.includes("light") && this.type !== MyPreview.Book) {
+        return `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('${this.backgroundSrc}')`;
       }
 
-      return `url('${ this.backgroundSrc }')`;
+      return `url('${this.backgroundSrc}')`;
     }
-    return '';
+    return "";
   }
 
   get backgroundBlendMode() {
-    if (this.type === MyPreview.Book) return 'none';
-    if (this.class.includes('dark')) return 'darken, difference';
-    if (this.class.includes('light')) return 'lighten, difference';
-    return 'darken';
+    if (this.type === MyPreview.Book) return "none";
+    if (this.class.includes("dark")) return "darken, difference";
+    if (this.class.includes("light")) return "lighten, difference";
+    return "darken";
   }
 
   get backgroundColour() {
-    if (this.type === MyPreview.Book) return 'none';
-    if (this.class.includes('dark')) return 'grey';
-    if (this.class.includes('light')) return 'white';
-    return 'red';
+    if (this.type === MyPreview.Book) return "none";
+    if (this.class.includes("dark")) return "grey";
+    if (this.class.includes("light")) return "white";
+    return "red";
   }
 
   onVisible() {
@@ -155,17 +155,17 @@ class MyPreview extends LitElement {
   }
 
   get type() {
-    if (this.class.includes('product')) return MyPreview.Book;
-    if (this.class.includes('post')) return MyPreview.Article;
+    if (this.class.includes("product")) return MyPreview.Book;
+    if (this.class.includes("post")) return MyPreview.Article;
     return undefined;
   }
 
   render() {
     return html`
-      <div class="container" style="${ this.renderBackgroundStyle() }">
+      <div class="container" style="${this.renderBackgroundStyle()}">
         <header>
-          <h1><slot name='title'>Preview Title</slot></h1>
-          <p>${ this.type }</p>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p>${this.type}</p>
         </header>
       </div>
     `;
@@ -174,13 +174,13 @@ class MyPreview extends LitElement {
   renderBackgroundStyle() {
     if (this.preload) {
       return `
-        background-image: ${ this.backgroundImage };
-        background-color: ${ this.backgroundColour };
-        background-blend-mode: ${ this.backgroundBlendMode };
+        background-image: ${this.backgroundImage};
+        background-color: ${this.backgroundColour};
+        background-blend-mode: ${this.backgroundBlendMode};
       `;
     }
-    return '';
+    return "";
   }
 }
 
-customElements.define('my-preview', MyPreview);
+customElements.define("my-preview", MyPreview);

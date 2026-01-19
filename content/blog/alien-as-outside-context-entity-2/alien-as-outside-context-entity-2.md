@@ -7,8 +7,8 @@ date: 2024-07-16
 layout: layouts/post.njk
 image: /blog/alien-as-outside-context-entity-2/jonesy.png
 ---
-<aside>
 
+<aside>
 
 This post is the second part of a two-part [self-essay](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote on how to portray aliens for games like _Mothership_.
 
@@ -18,7 +18,7 @@ Includes some mild **spoilers**.
 
 </aside>
 
->After dinner, Steel drifted into the library. He relaxed around his reading desk. Two of him sipped brandy while another smoked southern herbs. This was pleasure but also calculation: Steel knew just what vices, applied to just which members, would raise his imagination to its keenest pitch.
+> After dinner, Steel drifted into the library. He relaxed around his reading desk. Two of him sipped brandy while another smoked southern herbs. This was pleasure but also calculation: Steel knew just what vices, applied to just which members, would raise his imagination to its keenest pitch.
 
 - _A Fire Upon the Deep_ by Vernor Vinge, 1992
 
@@ -30,7 +30,7 @@ Vernor then completely undercuts this by having one of these creatures sit down 
 
 ## Xenopsychological parochialism
 
-[Xenobiological universalism](/blog/alien-as-outside-context-entity/#xenobiological-universalism) is a powerful tool for imagining alternative forms of life, but it often ignores a key factor: psychology. [Star Trek futurism](/blog/alien-as-outside-context-entity/#star-trek-futurism) rears its ugly head once again. Science fiction imagines all kinds of exotic, intelligent aliens, but gives them very human-like concerns and motivations. By avoiding xenobiological parochialism we have stumbled into a new trap: *xenopsychological* parochialism, the naive idea that intelligent alien life would share some kind of psychological affinity with us. Just as it is unlikely that we'd share a common biology with aliens, it seems even more unlikely we'd share a psychology.
+[Xenobiological universalism](/blog/alien-as-outside-context-entity/#xenobiological-universalism) is a powerful tool for imagining alternative forms of life, but it often ignores a key factor: psychology. [Star Trek futurism](/blog/alien-as-outside-context-entity/#star-trek-futurism) rears its ugly head once again. Science fiction imagines all kinds of exotic, intelligent aliens, but gives them very human-like concerns and motivations. By avoiding xenobiological parochialism we have stumbled into a new trap: _xenopsychological_ parochialism, the naive idea that intelligent alien life would share some kind of psychological affinity with us. Just as it is unlikely that we'd share a common biology with aliens, it seems even more unlikely we'd share a psychology.
 
 <aside>
 
@@ -38,11 +38,10 @@ Vernor then completely undercuts this by having one of these creatures sit down 
 
 Here are some examples of xenopsychological science fiction:
 
-- *Annihilation* by Jeff Vandermeer, 2014
-- *Echopraxia* by Peter Watts, 2014
+- _Annihilation_ by Jeff Vandermeer, 2014
+- _Echopraxia_ by Peter Watts, 2014
 
 </aside>
-
 
 This is the hardest leap of all: to imagine entirely new forms of intelligent psychology, as distinct from human consciousness as the microscopic cheela from _Dragon's Egg_ are from human biology.
 
@@ -50,7 +49,8 @@ That would be something truly fearful.
 
 ### If Jonesy could speak
 
->If a lion could speak, we could not understand him.
+> If a lion could speak, we could not understand him.
+
 - _Philosophical Investigations_ by Ludwig Wittgenstein, 1953
 
 According to Wittgenstein, language is fundamental to consciousness. It is inseparably connected to our experiences, understandings, values and perceptions, and that understanding is only possible within a shared context. And it's a narrow context, informed by our very limited, human perceptions of the world around us.
@@ -65,19 +65,17 @@ All very philosophical, but the point is that language is the crux of portraying
 
 ![Still from Alien of Jonesy hissing at the xenomorph, 1979](./content/blog/alien-as-outside-context-entity-2/jonesy.png "Jonesy knows what's up")
 
-
 ## Alien (1979), a case study
 
->...it was a perfectly, perfectly reasonable, it seemed to me, that... that some organism should incubate within the warmth of another being.
+> ...it was a perfectly, perfectly reasonable, it seemed to me, that... that some organism should incubate within the warmth of another being.
 
-- John Hurt speaking in *[The Beast Within: The Making of Alien](https://www.youtube.com/watch?v=F4G1Jg1oJt8)*, 2003
+- John Hurt speaking in _[The Beast Within: The Making of Alien](https://www.youtube.com/watch?v=F4G1Jg1oJt8)_, 2003
 
 <aside>
 
+The subsequent revelations about the artificial origins of the xenomorphs (in _Prometheus_ and its sequels) offer little comfort. In this new narrative, androids and xenomorphs are cousins, artificial creations of humans and Engineers. Our children promptly go "peculiar," as Ridley Scott put it, and turn on us. The act of creation has doomed us both.
 
-The subsequent revelations about the artificial origins of the xenomorphs (in *Prometheus* and its sequels) offer little comfort. In this new narrative, androids and xenomorphs are cousins, artificial creations of humans and Engineers. Our children promptly go "peculiar," as Ridley Scott put it, and turn on us. The act of creation has doomed us both.
-
-In the case of the android, the call is coming from inside the building. The alien is of our own creation, all the more alien for its uncanny familiarity. In *Mothership*, androids have all the physical failings of humans, but that is no comfort. Their "cold inhumanity" is baked into the rules. ("Fear saves made by close friendly players are at disadvantage.")
+In the case of the android, the call is coming from inside the building. The alien is of our own creation, all the more alien for its uncanny familiarity. In _Mothership_, androids have all the physical failings of humans, but that is no comfort. Their "cold inhumanity" is baked into the rules. ("Fear saves made by close friendly players are at disadvantage.")
 
 </aside>
 
@@ -89,13 +87,13 @@ Instead, we have to see it through the eyes of those first cinemagoers in 1979, 
 
 And the creature is not just physically uncategorisable, it portrays truly alien intelligence as well.
 
-The xenomorph is not an animal, but it also lacks personhood. It acts with intent, can even outwit the crew of the *Nostromo*, but appears to lack any other imperative than to kill or breed. Certainly, if it spoke we could not understand it, any more than the lion, but I know which I'd rather be stuck on a ship with. We're relatively safe from the lion as long as it is satiated, but the xenomorph clearly transcends any mere predator. It always hungers, always acts with immediate and deadly hostility. Does it hate us? Hate doesn't seem to fit, feels too much like transference, but it's clearly going beyond any survival instinct we would understand.
+The xenomorph is not an animal, but it also lacks personhood. It acts with intent, can even outwit the crew of the _Nostromo_, but appears to lack any other imperative than to kill or breed. Certainly, if it spoke we could not understand it, any more than the lion, but I know which I'd rather be stuck on a ship with. We're relatively safe from the lion as long as it is satiated, but the xenomorph clearly transcends any mere predator. It always hungers, always acts with immediate and deadly hostility. Does it hate us? Hate doesn't seem to fit, feels too much like transference, but it's clearly going beyond any survival instinct we would understand.
 
 Is it intelligent? It's unclear. It seems on the cusp of intelligence. You get the sense humans are just in the way of whatever is motivating it. It's only intersection with us is the bothersome matter of flesh, and that feels like a stopover for its true intent, whatever that is.
 
-More than all of that, however, the true masterstroke of _Alien_ is that we do not understand the xenomorph, and it *makes sense* at the same time. The eerie familiarity of its biology is something we can grasp. It follows a kind of logic, as John Hurt eloquently put it. It has a sort of symmetry with us, which somehow makes it even more incomprehensible.
+More than all of that, however, the true masterstroke of _Alien_ is that we do not understand the xenomorph, and it _makes sense_ at the same time. The eerie familiarity of its biology is something we can grasp. It follows a kind of logic, as John Hurt eloquently put it. It has a sort of symmetry with us, which somehow makes it even more incomprehensible.
 
-We understand what the xenomorph does, but the unanswered *why* is what makes us scream.
+We understand what the xenomorph does, but the unanswered _why_ is what makes us scream.
 
 ## End Thoughts
 
@@ -109,8 +107,8 @@ This article was research for [CONT/EXT](/products/context), my upcoming britpun
 
 It's difficult to give clear advice on how to portray outside context entities for your games. The examples above demonstrate it's possible, with differing levels of success. (The strange entities from Jeff Vandermeer's _Annihilation_ stray too far into surrealism to be convincing, for my taste.) It requires imagination. It requires an understanding of scifi. Reading scientific periodicals like _New Scientist_ can expand your grasp of what is possible, but too much science can betray your imagination.
 
-The key thing is the symmetry I mentioned above: creating incomprehensible entities that make a *kind* of sense.
+The key thing is the symmetry I mentioned above: creating incomprehensible entities that make a _kind_ of sense.
 
-In _CONT/EXT_ the outside context entity is the mysterious super-structure referred to as "The Thread."  The Thread is a cable-like structure that hangs in deep space, 30 km wide, and indefinitely long: a terminus cannot be observed. To exist it must be made of an impossible material but, for our players, the question of why it exists matters more.
+In _CONT/EXT_ the outside context entity is the mysterious super-structure referred to as "The Thread." The Thread is a cable-like structure that hangs in deep space, 30 km wide, and indefinitely long: a terminus cannot be observed. To exist it must be made of an impossible material but, for our players, the question of why it exists matters more.
 
 I give some hints to the GM about what the Thread is, but players cannot understand what they're looking at when they see it. I'm not even sure I know what it is, exactly. Just like the xenomorph, it makes a kind of sense, even if we cannot understand it. Running a giant cable through space is something we would do if we could. Why would something else do that? Well, buy the adventure and find out.

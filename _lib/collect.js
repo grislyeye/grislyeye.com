@@ -1,14 +1,14 @@
-import groupAdjacent from './group-adjacent.js';
+import groupAdjacent from "./group-adjacent.js";
 
-const flattenPlayerMessage = (messages) => {
+const flattenCharacterMessages = (messages) => {
   const baseMessage = messages[0];
   if (messages.length === 1) return baseMessage;
 
-  if (baseMessage.chat === 'ic') {
+  if (baseMessage.chat === "ic") {
     return {
       actor: baseMessage.actor,
-      type: 'grouped',
-      chat: 'ic',
+      type: "grouped",
+      chat: "ic",
       messages
     };
   }
@@ -16,15 +16,15 @@ const flattenPlayerMessage = (messages) => {
   return baseMessage;
 };
 
-const flattenAsides = (messages) => {
+const flattenPlayersMessages = (messages) => {
   const baseMessage = messages[0];
   if (messages.length === 1) return baseMessage;
 
-  if (baseMessage.chat === 'ooc') {
+  if (baseMessage.chat === "ooc") {
     return {
       actor: baseMessage.actor,
-      type: 'grouped',
-      chat: 'ooc',
+      type: "grouped",
+      chat: "ooc",
       messages
     };
   }
@@ -33,19 +33,27 @@ const flattenAsides = (messages) => {
 };
 
 const consecutiveOocMessages = (pre, cur) => {
-  return pre.chat === cur.chat && cur.chat === 'ooc';
+  return pre.chat === cur.chat && cur.chat === "ooc";
 };
 
 const collectOocMessages = (messages) => {
-  return groupAdjacent(messages, consecutiveOocMessages).map(flattenAsides);
+  return groupAdjacent(messages, consecutiveOocMessages).map(
+    flattenPlayersMessages
+  );
 };
 
 const consecutiveSameActors = (pre, cur) => {
-  return cur.chat !== 'ooc' && (pre.actor === cur.actor || cur.actor === '');
+  return (
+    (pre.actor === cur.actor || cur.actor === "") &&
+    pre.chat === cur.chat &&
+    cur.chat === "ic"
+  );
 };
 
 const collectIcMessages = (messages) => {
-  return groupAdjacent(messages, consecutiveSameActors).map(flattenPlayerMessage);
+  return groupAdjacent(messages, consecutiveSameActors).map(
+    flattenCharacterMessages
+  );
 };
 
 const collectMessages = (messages) => {
