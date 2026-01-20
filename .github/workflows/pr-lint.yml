@@ -1,4 +1,4 @@
-name: test-and-lint-pr
+name: lint-pr
 
 on:
   pull_request:
