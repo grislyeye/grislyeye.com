@@ -1,4 +1,4 @@
-name: checklinks-pr
+name: Check Links
 
 on:
   pull_request:
