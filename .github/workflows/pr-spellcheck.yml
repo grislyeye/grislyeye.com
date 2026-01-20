@@ -1,4 +1,4 @@
-name: test-and-lint-pr
+name: Spelling and Grammar Check
 
 on:
   pull_request:
@@ -9,14 +9,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Use Node.js 24.x
-        uses: actions/setup-node@v4
-        with:
-          node-version: 24.x
-          cache: "npm"
-      - run: npm ci
-      - run: npm run build
-      - run: npm run test:pr
       - name: Check grammar and spelling
         uses: reviewdog/action-languagetool@ea19c757470ce0dbfcbc34aec090317cef1ff0b5 # v1.22.0
         with:

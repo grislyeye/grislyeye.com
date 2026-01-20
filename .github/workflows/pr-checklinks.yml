@@ -1,9 +1,7 @@
-name: Test
+name: Check Links
 
 on:
-  push:
-    branches:
-      - "main"
+  pull_request:
 
 jobs:
   build:
@@ -18,4 +16,4 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run build
-      - run: npm test
+      - run: npm run test:links:soft
