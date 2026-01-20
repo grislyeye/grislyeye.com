@@ -1,4 +1,4 @@
-name: Lint
+name: Check Links
 
 on:
   push:
@@ -18,4 +18,4 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run build
-      - run: npm test:lint
+      - run: npm test:links
