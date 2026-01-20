@@ -16,10 +16,4 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run build
-      - run: npm run test:pr
-      - name: Check grammar and spelling
-        uses: reviewdog/action-languagetool@ea19c757470ce0dbfcbc34aec090317cef1ff0b5 # v1.22.0
-        with:
-          github_token: ${{ secrets.github_token }}
-          language: "en-GB"
-          level: "warning"
+      - run: npm run test:lint
