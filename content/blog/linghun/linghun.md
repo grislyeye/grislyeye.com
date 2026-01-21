@@ -3,17 +3,10 @@ title: Linghun
 tags:
   - posts
 date: 2025-12-09
-layout: layouts/post.njk
+layout: layouts/review.njk
 image: /blog/linghun/cover.png
+rating: 3
 ---
-
-<aside>
-
-![Cover of Linghun](./content/blog/linghun/cover.png "Linghun")
-
-**Rating:** ⭐️⭐️⭐️
-
-</aside>
 
 Last week, my roleplaying table's book club picked _[Linghun](https://www.goodreads.com/book/show/62109191-linghun)_ (2023) by Ai Jiang. It's a novella set in a haunted town, that explores themes of grief and home, and how they relate to the lived experiences of immigrants.
 

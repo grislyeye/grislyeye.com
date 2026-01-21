@@ -3,17 +3,10 @@ title: Hidden Pictures
 tags:
   - posts
 date: 2026-01-20
-layout: layouts/post.njk
+layout: layouts/review.njk
 image: /blog/hidden-pictures/cover.jpg
+rating: 2
 ---
-
-<aside>
-
-![Cover of Hidden Pictures](./content/blog/hidden-pictures/cover.jpg "Hidden Pictures")
-
-**Rating:** ⭐️⭐️
-
-</aside>
 
 Do you ever read books that seem to be written with a film adaptation in mind? Bare-bones, script-like prose. Dialogue punchy but bland. Characters so everyday you could shop around for casting.
 
