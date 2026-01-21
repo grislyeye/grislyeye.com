@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+---
+<article class="post content">
+  <my-page id="post" name="{{ title }}">
+    <div class="page-subtitle" slot="subtitle">
+      <span>{{ page.date | readableDate }}</span>
+    </div>
+
+    <aside>
+      <img src="{% rawImageUrl page, image, 300 %}" title=" {{ title }}" alt="Cover of {{ title }}">
+      <strong>Rating:</strong> {% for i in range(0, rating) -%}⭐️{%- endfor %}
+    </aside>
+
+    {{ content | safe }}
+
+  </my-page>
+</article>

@@ -3,17 +3,10 @@ title: Curseborne
 tags:
   - posts
 date: 2025-12-20
-layout: layouts/post.njk
+layout: layouts/review.njk
 image: /blog/curseborne/cover.png
+rating: 3
 ---
-
-<aside>
-
-![Cover of Curseborne](./content/blog/curseborne/cover.png "Curseborne")
-
-**Rating:** ⭐️⭐️⭐️
-
-</aside>
 
 > Curseborne is a game about being unapologetic monsters in a world where being monstrous is the least of your worries.
 
