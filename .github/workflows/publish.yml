@@ -1,4 +1,4 @@
-name: publish
+name: Publish release to Github Pages
 
 permissions:
   contents: write

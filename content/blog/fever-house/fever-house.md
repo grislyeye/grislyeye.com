@@ -3,17 +3,10 @@ title: Fever House
 tags:
   - posts
 date: 2025-12-02
-layout: layouts/post.njk
+layout: layouts/review.njk
 image: /blog/fever-house/cover.jpg
+rating: 3
 ---
-
-<aside>
-
-![Cover of Fever House](./content/blog/fever-house/cover.jpg "Fever House")
-
-**Rating:** ⭐️⭐️⭐️
-
-</aside>
 
 Have we reached peak zombie? Apparently not. _[Fever House](https://www.goodreads.com/book/show/66087060-fever-house)_ (2023) by Keith Posson is a new entry in the genre.
 

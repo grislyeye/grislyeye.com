@@ -92,10 +92,7 @@ function renderMessage(message) {
 }
 
 function toHtml(messages) {
-  const preamble = `
-    <section class="chat">
-
-    <dl>`;
+  const preamble = `<section class="chat">`;
 
   const postamble = `
     </dl>
@@ -111,7 +108,8 @@ function parseChat(file) {
   const csv = fs.readFileSync(file, { encoding: "utf8" });
   const messages = Papa.parse(csv, { header: true });
   const collected = collectMessages(messages.data);
-  return toHtml(collected);
+  const html = toHtml(collected);
+  return html;
 }
 
 export default parseChat;
