@@ -10,7 +10,7 @@ rating: 3
 
 > Curseborne is a game about being unapologetic monsters in a world where being monstrous is the least of your worries.
 
-_Onyx Path's_ new urban fantasy game [Curseborne](https://www.curseborne.com/) (Onyx Path Publishing, 2025) has brought me to crisis. I'm asking myself questions I don't really want the answers to. Like: have I become everything I hate? Am I an awful grognard? Am I _uncool_?
+_Onyx Path's_ new urban fantasy game [Curseborne](https://www.curseborne.com/) (Onyx Path Publishing, 2025) has brought me to a crisis. I'm asking myself questions I don't really want the answers to. Like: have I become everything I hate? Am I an awful grognard? Am I _uncool_?
 
 No, that can't be right. It must be those kids at _Onyx Path Publishing_ who are wrong. Although, now I think about it, surely many of the people working the levers at Onyx are in my age cohort? What is Onyx but an act of nostalgia itself? An attempt to resurrect game lines that died with _White Wolf_. And who would've been playing and then later republishing those original games? Why, the very same sort of Gen Xers I was playing with in the 90s.
 
@@ -30,11 +30,15 @@ It's a question that fills me with existential dread because the lingering subte
 
 It occurs to me, then, that this isn't really a review of _Curseborne_ (sorry Onyx). It's more of an inquiry into my complicated feelings about the original _World of Darkness_. _Curseborne_ is the focus, but it's also the mirror I'm using to interrogate my biases. Is the appeal of 90s WoD just nostalgia? Is oWoD better than any of the contemporary urban fantasy settings?
 
-**Chapter 1: The World.** The book starts off with an introduction to the setting, and we are introduced to the concept of the cursed world. In _Curseborne_, the world is filled with an intricate web of curses (a nice conceit) at the heart of which are the game's protagonists, the Accursed. Everyone is cursed, but the Accursed more so. They have inherited your standard spread of urban fantasy curses: lycanthropy, vampirism and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without powers.
+**Chapter 1: The World.** The book starts off with an introduction to the setting, and we are introduced to the concept of the cursed world. In _Curseborne_ the world is filled with an intricate web of curses (a nice conceit) at the heart of which are the game's protagonists, the Accursed. Everyone is cursed, but the Accursed more so. They have inherited your standard spread of urban fantasy curses: lycanthropy, vampirism and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without powers.
 
 Next, we understand why the Accursed haven't been hunted to death or broadcast on national TV. There's no Masquerade, no Technocracy, no grand conspiracy. Most people simply rationalise their experiences with supernatural away. They just don't care, which is at least an original sharp right-turn away from the angst of the WoD.
 
-But, most of the chapter is then dedicated to the cosmology of the setting, which revolve around "liminalities." Liminalities are folds in reality, small dimensions that are hidden away from the rest of world. Here, the Accursed can play out their dramas without fear of discovery. They are havens, adventure locations or
+But, most of the chapter is then dedicated to the cosmology of the setting, which revolve around "liminalities." Liminalities are folds in reality, small dimensions that are hidden away from the rest of world. Here, the Accursed can play out their dramas without fear of discovery. They are havens, adventure locations, plot devices, even NPCs or treasures.
+
+And they are, of course, liminal, not just places between magic and the mundane, but also liminal in the contemporary horror sense. I'm not going to get into a discussion on the subject of liminal horror in this post, it's too big a subject. However, it is fashionable.
+
+To be honest, so far so good. The components of the setting, liminalities, Accursed, etc., are inventive, sympathetic to the themes and
 
 **Chapter 2: Lineages.** Here is the heart of the matter. Urban fantasy TTRPGs live or die by their [splats](https://whitewolf.fandom.com/wiki/Splat#Fatsplats,_secondary_splats,_and_tiers). They introduce the aesthetic, core concepts, themes and motifs.
 
@@ -51,6 +55,8 @@ Now, geeks love lists of lore. Yet lore should be doled out sparingly.
 _Curseborne_ falls into the trap of trying to do everything at once, and doing nothing well and creating a series of bland splats that work well together, but are otherwise insipid and unoriginal.
 
 To add to the complexity, this chapter heavily references complex mechanics from later chapters.
+
+What's more, the Accursed are supposed to be tormented, damned, yet many of the lineages and families don't seem particularly tortured.
 
 **Chapter 3: The Accursed.**
 
