@@ -32,13 +32,13 @@ It occurs to me, then, that this isn't really a review of _Curseborne_ (sorry On
 
 **Chapter 1: The World.** The book starts off with an introduction to the setting, and we are introduced to the concept of the cursed world. In _Curseborne_ the world is filled with an intricate web of curses (a nice conceit) at the heart of which are the game's protagonists, the Accursed. Everyone is cursed, but the Accursed more so. They have inherited your standard spread of urban fantasy curses: lycanthropy, vampirism and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without powers.
 
-Next, we understand why the Accursed haven't been hunted to death or broadcast on national TV. There's no Masquerade, no Technocracy, no grand conspiracy. Most people simply rationalise their experiences with supernatural away. They just don't care, which is at least an original sharp right-turn away from the angst of the WoD.
+Next, we understand why the Accursed haven't been hunted to death or broadcast on national TV. There's no Masquerade, no Technocracy, no grand conspiracy. Most people simply rationalise their experiences with the supernatural away. They just don't care, which is at least an original sharp right-turn away from the angst of the WoD.
 
-But, most of the chapter is then dedicated to the cosmology of the setting, which revolve around "liminalities." Liminalities are folds in reality, small dimensions that are hidden away from the rest of world. Here, the Accursed can play out their dramas without fear of discovery. They are havens, adventure locations, plot devices, even NPCs or treasures.
+Most of the rest of the chapter is then dedicated to the cosmology of the setting, which revolves around "liminalities." Liminalities are folds in reality, small dimensions that are hidden away from the rest of world. Here, the Accursed can play out their dramas without fear of discovery. They are havens, adventure locations, plot devices, even NPCs or treasures. And they are, of course, liminal, not just places between magic and the mundane, but also liminal in the contemporary horror sense. I'm not going to get into a discussion on the subject of liminal horror in this post, it's too big a subject. However, it is fashionable.
 
-And they are, of course, liminal, not just places between magic and the mundane, but also liminal in the contemporary horror sense. I'm not going to get into a discussion on the subject of liminal horror in this post, it's too big a subject. However, it is fashionable.
+So far so good. The components of the setting, liminalities, Accursed, etc., are inventive, sympathetic to the themes and
 
-To be honest, so far so good. The components of the setting, liminalities, Accursed, etc., are inventive, sympathetic to the themes and
+Like the _Chronicles of Darkness_, *Curseborne* is less global, with less canon. It's more distributed and local. There is no overarching conflict. Unfortunately, this also leaves the setting a little... uninspiring? I'm don't immediately understand what player characters are supposed to do. I don't immediately identify with the Accursed. What stories are you I supposed to tell? Liminalities sound cool at first, but the execution is confusing and complicated. Most liminalities are places, but they can also be people and things.
 
 **Chapter 2: Lineages.** Here is the heart of the matter. Urban fantasy TTRPGs live or die by their [splats](https://whitewolf.fandom.com/wiki/Splat#Fatsplats,_secondary_splats,_and_tiers). They introduce the aesthetic, core concepts, themes and motifs.
 
@@ -77,3 +77,7 @@ What's more, Accursed can also have other powers called Edges.
 **Chapter 6: Adversaries.** Second only to the splats chapter, the adversaries define urban fantasy games.
 
 But there is no core conflict here! Merely a lot of smaller ones, that don't seem to represent any significant threat to the splats.
+
+To be honest, _Curseborne_ isn't bad. It has some nice elements and perhaps I shouldn't judge before it's had time to properly bed in. A few good supplements can turn a game line around, or elaborate on the original designers intentions to reveal a better game beneath.
+
+What it isn't is a beginner's game. I'm not sure new player's could properly consume it without the complicated historical context of the *World of Darkness* game lines that came before. Is *Curseborne* more complicated than _Dungeons & Dragons 5th Edition_? No. Could it easily be a lot simpler? Absolutely.
