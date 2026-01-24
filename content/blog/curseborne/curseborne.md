@@ -38,7 +38,7 @@ Most of the rest of the chapter is then dedicated to the cosmology of the settin
 
 So far so good. The setting elements - liminalities, Accursed, etc. - are inventive, sympathetic to the themes and give a creative arena of play. It's a little tepid, but the bones are solid
 
-Like the _Chronicles of Darkness_, *Curseborne* is less global, with less canon. It's more distributed and local. There is no overarching conflict. Unfortunately, this also leaves the setting a little... uninspiring? I'm don't immediately understand what player characters are supposed to do. I don't immediately identify with the Accursed. What stories are you I supposed to tell? Liminalities sound cool at first, but the execution is confusing and complicated. Most liminalities are places, but they can also be people and things.
+Like the _Chronicles of Darkness_, *Curseborne* is less global, with less canon. It's more distributed and local. There is no overarching conflict. Unfortunately, this also leaves the setting a little... uninspiring? I'm don't immediately understand what player characters are supposed to do. I don't immediately identify with the Accursed. What stories are you I supposed to tell? Liminalities sound cool at first, but the execution is confusing and complicated. Most liminalities are places, but they can also be people and things. They serve a variety of functions, some very specific, which hint at 
 
 **Chapter 2: Lineages.** Here is the heart of the matter. Urban fantasy TTRPGs live or die by their [splats](https://whitewolf.fandom.com/wiki/Splat#Fatsplats,_secondary_splats,_and_tiers). They introduce the aesthetic, core concepts, themes and motifs.
 
@@ -60,9 +60,9 @@ What's more, the Accursed are supposed to be tormented, damned, yet many of the 
 
 **Chapter 3: The Accursed.**
 
-**Chapter 4: Storypath Ultra System.** The joy of the original Storyteller system was its flexibility. With the simple mechanic of combining Attribute + Ability vs Difficulty, it allowed you to come up with small systems on the fly. Or rulings, as we like to call them now. Sure, there were systems (or maybe procedures?) for combat and social conflict, but they could be hand-waved away in a moment and replaced with a simple roll.
+**Chapter 4: Storypath Ultra System.** The joy of the original Storyteller system was its flexibility. With the simple mechanic of combining Attribute + Ability vs Difficulty, it allowed you to come up with small systems on the fly. Or rulings, as we like to call them now. Sure, there were systems (or maybe procedures?) for combat and social conflict, but they could be hand-waved with a single roll.
 
-The Storypath Ultra System (which sounds like a paramilitary group) is far more elaborate. Not only do you have Skills, Attributes and Difficulties, there are also Tricks, Complications, Momentum, Status Effects, Areas and curse die. That's a lot, and it gives the game narrative richness but it's showing _Onyx Path_'s propensity for crunch.
+The Storypath Ultra System (doesn't that sound just like a paramilitary group?) is far more elaborate. Not only do you have Skills, Attributes and Difficulties, there are also Tricks, Complications, Momentum, Status Effects, Areas and curse die. That's a lot. Perhaps it gives narrative richness, but it's showing _Onyx Path_'s propensity for complexity.
 
 **Chapter 4: Making an Accursed.** I suppose it makes sense this chapter comes after the rules chapter but, as we saw from the lineages' chapter, . Again, conventional wisdom is that you should lead with the character creation rules because, well, that's the order in which you play the game: you create characters first and then learn the specific rules later. Reversing this only adds to the inaccessibility of the game.
 
