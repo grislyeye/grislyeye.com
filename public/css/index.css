@@ -1,7 +1,7 @@
 :root {
-  --font-family: 'Alegreya', serif;
-  --title-font-family: 'Andada Pro', serif;
-  --subtitle-font-family: 'Alegreya Sans', sans;
+  --font-family: "Alegreya", serif;
+  --title-font-family: "Andada Pro", serif;
+  --subtitle-font-family: "Alegreya Sans", sans;
 
   --background-color: black;
 
@@ -10,7 +10,7 @@
   --content-max-width: 740px;
   --content-subtitle-max-width: 200px;
 
-  --fluid-gap: clamp(0.75rem, 3vw, 1.5rem)
+  --fluid-gap: clamp(0.75rem, 3vw, 1.5rem);
 }
 
 * {
@@ -59,7 +59,7 @@ main > header {
   margin-bottom: 7rem;
 }
 
-@media(width < 550px) {
+@media (width < 550px) {
   main > header {
     margin-bottom: 3rem;
   }
@@ -72,7 +72,7 @@ nav {
   list-style: none;
 }
 
-@media(width < 550px) {
+@media (width < 550px) {
   nav {
     margin-bottom: 3rem;
   }
@@ -242,7 +242,7 @@ span.title {
   gap: 0.5em;
 }
 
-@media(width < 970px) {
+@media (width < 970px) {
   .page-subtitle {
     flex-direction: row;
     padding-bottom: 0.3em;

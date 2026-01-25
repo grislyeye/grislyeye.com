@@ -1,345 +1,333 @@
-timestamp,actor,type,chat,message
-"Thu, 30 May 2019 18:23:00 GMT",GM,says,ic,"Outside, the night air is cool, and a strong breeze blows slightly wet. About the camp, mercenaries start to light their night fires, flames wax as the sun wanes and night falls."
-"Thu, 30 May 2019 18:23:00 GMT",Orin,does,ic,"snores loudly from their tent, one hand still clutching their wineskin."
-"Thu, 30 May 2019 18:25:00 GMT",Biron,does,ic,steps out of his tent and holds himself upright. He looks around the camp.
-"Thu, 30 May 2019 18:25:00 GMT",Biron,does,ic,looks around the camp.
-"Thu, 30 May 2019 18:25:00 GMT",Quinn,does,ic,sighs and heads out to the campfire to join the others.
-"Thu, 30 May 2019 18:26:00 GMT",Quinn,says,ic,"So, who's up for a game of cards? Knackered here but never too tired to earn a coin or two, if you take my means."
-"Thu, 30 May 2019 18:26:00 GMT",Quinn,does,ic,looks disappointed.
-"Thu, 30 May 2019 18:26:00 GMT",Quinn,says,ic,Surely we can 'ave a tiny flutter too right? Just not...
-"Thu, 30 May 2019 18:26:00 GMT",Quinn,says,ic,Playing the cards.
-"Thu, 30 May 2019 18:27:00 GMT",Quinn,says,ic,"Don't s'pose you be fancying a little game whilst we while away the hours, ser?"
-"Thu, 30 May 2019 18:27:00 GMT",Quinn,does,ic,rubs his hands together and grins.
-"Thu, 30 May 2019 18:27:00 GMT",Biron,does,ic,walks towards where the others are meeting.
-"Thu, 30 May 2019 18:27:00 GMT",Biron,does,ic,grunts as he appears near Bam but stays silent otherwise.
-"Thu, 30 May 2019 18:27:00 GMT",Biron,does,ic,looks around at anyone passing.
-"Thu, 30 May 2019 18:27:00 GMT",Ba'Raknul,does,ic,shrugs.
-"Thu, 30 May 2019 18:30:00 GMT",Ba'Raknul,says,ic,I cant promise I'll be focused.
-"Thu, 30 May 2019 18:30:00 GMT",Ba'Raknul,says,ic,And no gambling from me.
-"Thu, 30 May 2019 18:30:00 GMT",Ba'Raknul,does,ic,"looks around and heads towards Orins tent, stopping just outside."
-"Thu, 30 May 2019 18:30:00 GMT",Ba'Raknul,says,ic,Orin! Come on!
-"Thu, 30 May 2019 18:30:00 GMT",Quinn,does,ic,looks towards Orin's tent.
-"Thu, 30 May 2019 18:30:00 GMT",Quinn,says,ic,"Want me to wake 'em, ser?"
-"Thu, 30 May 2019 18:31:00 GMT",Ba'Raknul,says,ic,Give them a minute.
-"Thu, 30 May 2019 18:31:00 GMT",Orin,does,ic,"starts awake, nearly losing their wineskin. They fumble with it for a bit before catching it upside down. Luckily there's nothing in it."
-"Thu, 30 May 2019 18:32:00 GMT",Orin,does,ic,shouts:
-"Thu, 30 May 2019 18:33:00 GMT",Orin,says,ic,Burn it!
-"Thu, 30 May 2019 18:33:00 GMT",Orin,does,ic,"stumbles from their tent after another minute, but walks past the rest of the group to stop in front of a shady-looking merc hanging out in the shadows between tents."
-"Thu, 30 May 2019 18:33:00 GMT",Orin,does,ic,"finally heads for the group, now with a full wineskin in hand. As they sit down, they pull the cork out with their teeth and take a large swig."
-"Thu, 30 May 2019 18:33:00 GMT",Quinn,does,ic,looks to Orin.
-"Thu, 30 May 2019 18:33:00 GMT",Quinn,does,ic,raises an eyebrow.
-"Thu, 30 May 2019 18:33:00 GMT",Quinn,says,ic,"How goes it my friend? Holding up well enough, if ya takes my meaning some?"
-"Thu, 30 May 2019 18:33:00 GMT",Orin,does,ic,shrugs.
-"Thu, 30 May 2019 18:37:00 GMT",GM,says,ic,"As the party gathers around the fire, night falls fast. The wind picks up, dark clouds racing across the sky, carrying campfire embers to who knows where."
-"Thu, 30 May 2019 18:37:00 GMT",Biron,does,ic,remains standing tall and silent. An unmoving dark silhouette.
-"Thu, 30 May 2019 18:39:00 GMT",Ba'Raknul,says,ic,We should get into position soon.
-"Thu, 30 May 2019 18:39:00 GMT",,says,ic,I'll be getting into the tower a bit earlier.
-"Thu, 30 May 2019 18:39:00 GMT",Quinn,does,ic,nods.
-"Thu, 30 May 2019 18:39:00 GMT",Quinn,says,ic,"Aye, and I'll be joining ya some."
-"Thu, 30 May 2019 18:39:00 GMT",Quinn,says,ic,"Orin, ya sure you ok for ya role in this? Ya hittins the drink pretty hard there, so you are."
-"Thu, 30 May 2019 18:39:00 GMT",Orin,does,ic,gestures with the wineskin.
-"Thu, 30 May 2019 18:41:00 GMT",Orin,says,ic,"I'll stay here a bit longer. Can't be seen loitering about, can I?"
-"Thu, 30 May 2019 18:41:00 GMT",Orin,does,ic,takes another swig.
-"Thu, 30 May 2019 18:41:00 GMT",Biron,does,ic,"looks slightly puzzled at Orin, but doesnt say anything and goes to walk off."
-"Thu, 30 May 2019 18:44:00 GMT",Quinn,says,ic,"Look Orin, ya don't need no more drink now but later, I promise ya, I'll buy you one meself - still owe ya for saving old Quinn's skin, if ya take my meaning."
-"Thu, 30 May 2019 18:44:00 GMT",Orin,does,ic,just stares into the fire.
-"Thu, 30 May 2019 18:46:00 GMT",Orin,says,ic,You had all better get a move on if you want this to work.
-"Thu, 30 May 2019 18:46:00 GMT",Quinn,does,ic,looks to the sky.
-"Thu, 30 May 2019 18:46:00 GMT",Quinn,says,ic,Reckons we got time some. Though don't like the smell of that air none... smells like storm to me.
-"Thu, 30 May 2019 18:46:00 GMT",Ba'Raknul,does,ic,grabs his things and begins wandering to the tower in question.
-"Thu, 30 May 2019 18:46:00 GMT",Biron,does,ic,looks to the night air and turns round and walks towards the mess to eat some food before the night continues.
-"Thu, 30 May 2019 18:54:00 GMT",Ba'Raknul,says,ic,"Do you think tonight is best? somethings clearly up with Orin, and I can barely pull my bow."
-"Thu, 30 May 2019 18:54:00 GMT",Biron,does,ic,"looks at Ba, then to Orin and then to the campsite."
-"Thu, 30 May 2019 18:54:00 GMT",Biron,does,ic,grunts.
-"Thu, 30 May 2019 18:54:00 GMT",Ba'Raknul,does,ic,looks worried.
-"Thu, 30 May 2019 18:55:00 GMT",Ba'Raknul,says,ic,We only have one chance and I dont want to blow it.
-"Thu, 30 May 2019 18:56:00 GMT",Biron,says,ic,"Tonight, tomorrow night. Another night."
-"Thu, 30 May 2019 18:56:00 GMT",,says,ic,The longer the wait the more uncertain of the group we go to.
-"Thu, 30 May 2019 18:56:00 GMT",Quinn,does,ic,sniffs.
-"Thu, 30 May 2019 18:56:00 GMT",Quinn,says,ic,"Ahh, by the mother - I ain't seeing Orin being up to this, not in their state. Either I play for em, and ya fill me in with what I'm to say and such like, or we leave it to another day. But I'm thinking Orin  'd be best at this..."
-"Thu, 30 May 2019 18:57:00 GMT",Biron,says,ic,"Pigs, rats, traitors. Theres always something to kill. If you want to change something. Do it."
-"Thu, 30 May 2019 18:57:00 GMT",,says,ic,"If not, we move."
-"Thu, 30 May 2019 18:57:00 GMT",Ba'Raknul,does,ic,sighs.
-"Thu, 30 May 2019 18:58:00 GMT",Ba'Raknul,says,ic,Let me talk to them. Alone. Get ready just in case.
-"Thu, 30 May 2019 18:58:00 GMT",Ba'Raknul,does,ic,heads over and sits next to Orin in silence for a moment.
-"Thu, 30 May 2019 18:58:00 GMT",Biron,does,ic,gives a low gutteral noise.
-"Thu, 30 May 2019 18:58:00 GMT",Quinn,does,ic,grins at Biron.
-"Thu, 30 May 2019 18:58:00 GMT",Quinn,says,ic,"Worry ya'self none laughing boy, y'all get to kill your traitors and pigs and the like sure enough, and no mistake."
-"Thu, 30 May 2019 19:01:00 GMT",Biron,does,ic,ignores Quinn.
-"Thu, 30 May 2019 18:58:00 GMT",Ba' Raknul,does,ic,"after a moment, quietly speaks."
-"Thu, 30 May 2019 18:58:00 GMT",Liam,says,ooc,I think that was an example of a check.
-"Thu, 30 May 2019 18:58:00 GMT",Liam,says,ooc,That you can take time on to not roll.
-"Thu, 30 May 2019 18:59:00 GMT",Ba'Raknul,says,ic,How are you Orin?
-"Thu, 30 May 2019 18:59:00 GMT",Orin,does,ic,shrugs.
-"Thu, 30 May 2019 18:59:00 GMT",Ba'Raknul,does,ic,looks at them for a moment.
-"Thu, 30 May 2019 19:01:00 GMT",Ba'Raknul,says,ic,"Its okay if your not okay. I know somethings up, you werent even like this when they first dragged you to this forsaken place."
-"Thu, 30 May 2019 19:04:00 GMT",Orin,says,ic,What is it to anybody what I think?
-"Thu, 30 May 2019 19:04:00 GMT",Ba'Raknul,does,ic,looks at Orin a little confused.
-"Thu, 30 May 2019 19:05:00 GMT",Ba'Raknul,says,ic,You think I could have been down in those sewers with your annoying ass without caring a little what you think?
-"Thu, 30 May 2019 19:06:00 GMT",Orin,says,ic,"No offense, Ba, but you don't matter. Either of us, no matter what we do, we end up here. With welts on our backs."
-"Thu, 30 May 2019 19:06:00 GMT",Biron,does,ic,looks up and takes a few steps away from the others and keeps looking out over the camp.
-"Thu, 30 May 2019 19:06:00 GMT",Ba'Raknul,does,ic,laughs softly.
-"Thu, 30 May 2019 19:07:00 GMT",Ba'Raknul,says,ic,We only dont matter to them.. its up to us to decide who matters to us.
-"Thu, 30 May 2019 19:07:00 GMT",,says,ic,"Ive decided you matter, Biron and the new guys and all."
-"Thu, 30 May 2019 19:07:00 GMT",,says,ic,In my world. The only things that are important are the things I decide are important. You are right.. when we die none of it matters... but in our next journey we may meet those we met here... then it might matter.
-"Thu, 30 May 2019 19:07:00 GMT",Ba'Raknul,does,ic,looks to the sky and smiles.
-"Thu, 30 May 2019 19:09:00 GMT",Ba'Raknul,says,ic,This world is shit... but it sculpts us and makes us ready for what lies after.
-"Thu, 30 May 2019 19:09:00 GMT",Orin,says,ic,"Hey, I'll play the game. It's enjoyable enough. But if Biron can't play nicely, how is anybody supposed to get anything out of anything?"
-"Thu, 30 May 2019 19:09:00 GMT",Ba'Raknul,does,ic,looks back at Orin with a determination in his eye.
-"Thu, 30 May 2019 19:11:00 GMT",Ba'Raknul,says,ic,If i can help more people survive this world and get to the next... I will!
-"Thu, 30 May 2019 19:11:00 GMT",Ba'Raknul,does,ic,sighs.
-"Thu, 30 May 2019 19:11:00 GMT",Ba'Raknul,says,ic,Biron is a hammer... it my fault for trying to use a hammer on glass. In the end we can only control what we do and how we act.
-"Thu, 30 May 2019 19:11:00 GMT",,says,ic,I wont tell you how to be... but if you need help. I am here.
-"Thu, 30 May 2019 19:11:00 GMT",Ba'Raknul,does,ic,falls into silence.
-"Thu, 30 May 2019 19:12:00 GMT",Orin,says,ic,"I never asked for any help. But if it's enthusiasm you're after, you're going to have to wait a while."
-"Thu, 30 May 2019 19:13:00 GMT",Ba'Raknul,says,ic,I did not offer because i think you need it. I offer because its who I am. I wont let this world change me.
-"Thu, 30 May 2019 19:13:00 GMT",Ba'Raknul,does,ic,"places a hand softly on their shoulder, trying to avoid possible scars and smiles before getting up and heading to the others."
-"Thu, 30 May 2019 19:14:00 GMT",Orin,says,ic,A couple of nights at least.
-"Thu, 30 May 2019 19:14:00 GMT",Orin,does,ic,chuckles.
-"Thu, 30 May 2019 19:14:00 GMT",Quinn,does,ic,looks concerned at Ba.
-"Thu, 30 May 2019 19:14:00 GMT",Quinn,says,ic,How they doin'?
-"Thu, 30 May 2019 19:14:00 GMT",Biron,does,ic,grunts.
-"Thu, 30 May 2019 19:15:00 GMT",Biron,says,ic,Are we off now.
-"Thu, 30 May 2019 19:15:00 GMT",Ba'Raknul,does,ic,nods to the others.
-"Thu, 30 May 2019 19:15:00 GMT",Ba'Raknul,says,ic,They will be fine. It's an adjustment.
-"Thu, 30 May 2019 19:15:00 GMT",Ba'Raknul,does,ic,looks over their shoulder to Orin once more.
-"Thu, 30 May 2019 19:15:00 GMT",Ba'Raknul,says,ic,I trust them.
-"Thu, 30 May 2019 19:15:00 GMT",Quinn,does,ic,forces a smile.
-"Thu, 30 May 2019 19:15:00 GMT",Quinn,says,ic,Well that's good enough and no mistake. Or as good as we gettin' anyway.
-"Thu, 30 May 2019 19:15:00 GMT",Ba'Raknul,does,ic,nods at Biron.
-"Thu, 30 May 2019 19:16:00 GMT",Ba'Raknul,says,ic,"Lets get into position, me and Quinn will have a fire arrow. For extreme emergencies. If you see it go up it's real bad."
-"Thu, 30 May 2019 19:16:00 GMT",Biron,does,ic,picks up his shield & axe. And looks at Quinn and Wilem.
-"Thu, 30 May 2019 19:16:00 GMT",Biron,says,ic,Which one of you are with me.
-"Thu, 30 May 2019 19:17:00 GMT",Ba'Raknul,says,ic,"Biron, if you see anything try and deal with it quietly. If it's unavoidable start singing your favourite tune, as loud as you can."
-"Thu, 30 May 2019 19:16:00 GMT",Orin,says,ic,Just one second.
-"Thu, 30 May 2019 19:16:00 GMT",,says,ic,I've got an idea.
-"Thu, 30 May 2019 19:17:00 GMT",Ba'Raknul,does,ic,looks to Orin.
-"Thu, 30 May 2019 19:17:00 GMT",Biron,does,ic,pauses a moment and looks at Orin.
-"Thu, 30 May 2019 19:17:00 GMT",Orin,says,ic,Anyone got any sort of skill in faking a wound?
-"Thu, 30 May 2019 19:17:00 GMT",Orin,says,ic,Is there anything around we could make that up with?
-"Thu, 30 May 2019 19:17:00 GMT",Ba'Raknul,says,ic,I am proficient with medicine?
-"Thu, 30 May 2019 19:18:00 GMT",Ba'Raknul,says,ic,But i dont know how to fake it.
-"Thu, 30 May 2019 19:17:00 GMT",Biron ,does,ic,bites his lip.
-"Thu, 30 May 2019 19:18:00 GMT",Orin,says,ic,"Something garish on a hand, like a fresh burn."
-"Thu, 30 May 2019 19:18:00 GMT",Biron,says,ic,I can do a minor wound that looks worse.
-"Thu, 30 May 2019 19:18:00 GMT",Ba'Raknul,says,ic,What you thinking?
-"Thu, 30 May 2019 19:18:00 GMT",Orin,says,ic,It's that or I actually stick a hand on the fire...
-"Thu, 30 May 2019 19:18:00 GMT",Quinn,does,ic,grins sheepishly.
-"Thu, 30 May 2019 19:18:00 GMT",Quinn,says,ic,"Well, see in my travels, did a bit of gamblin' ere and there. Sometimes for coin, othertimes for other things that people may have... I might 'ave some ladies make up stuff, that may look like a wound if applied that way, so to speak, if ya take my meaning."
-"Thu, 30 May 2019 19:18:00 GMT",Biron,does,ic,grunts.
-"Thu, 30 May 2019 19:18:00 GMT",Biron,says,ic,"Use a hot blade. Marks, flares up, but cauterises."
-"Thu, 30 May 2019 19:18:00 GMT",Orin,does,ic,looks at Biron.
-"Thu, 30 May 2019 19:20:00 GMT",Orin,says,ic,"I figure if I've got a great story about how the royalists tortured me for no good reason, they might go soft."
-"Thu, 30 May 2019 19:20:00 GMT",Quinn,does,ic,mutters and looks to Biron.
-"Thu, 30 May 2019 19:20:00 GMT",Quinn,says,ic,Sounds like it might hurt some too.
-"Thu, 30 May 2019 19:20:00 GMT",Ba'Raknul,says,ic,Could you not just use the flogging?
-"Thu, 30 May 2019 19:20:00 GMT",Orin,says,ic,They can't see it.
-"Thu, 30 May 2019 19:20:00 GMT",Ba'Raknul,says,ic,Quinn can add some extra marks.
-"Thu, 30 May 2019 19:20:00 GMT",Biron,does,ic,nods and grunts.
-"Thu, 30 May 2019 19:20:00 GMT",Orin,says,ic,Needs to be seen so they'll ask about it.
-"Thu, 30 May 2019 19:20:00 GMT",,says,ic,"Alright, Quinn... let's see what your makeup can do."
-"Thu, 30 May 2019 19:20:00 GMT",Quinn,does,ic,grins and starts digging through his rather unkempt looking backpack.
-"Thu, 30 May 2019 19:20:00 GMT",Ba'Raknul,does,ic,walks over and helps Quinn.
-"Thu, 30 May 2019 19:21:00 GMT",Mark,says,ooc,The flogging was public wasn't it?
-"Thu, 30 May 2019 19:21:00 GMT",Ric,says,ooc,Yes.
-"Thu, 30 May 2019 19:23:00 GMT",Ba'Raknul,says,ic,Make burn marks in lines on the fingers and hands... they dont burn it all at once for tortue.
-"Thu, 30 May 2019 19:23:00 GMT",Ba'Raknul,does,ic,states very matter of factly.
-"Thu, 30 May 2019 19:23:00 GMT",Ric,says,ooc,I love the Quinn stories. Always beg a couple of questions.
-"Thu, 30 May 2019 19:23:00 GMT",Quinn,does,ic,pulls his hand free with a small pot of some red looking paste.
-"Thu, 30 May 2019 19:23:00 GMT",Quinn,says,ic,"Ahh, 'ere we are. Won this off a lady of ill repute so to speak. Well, shouldn't speak poorly of the lass - her repute was better than her cards, if ya take my meaning."
-"Thu, 30 May 2019 19:23:00 GMT",Orin,does,ic,softly chortles.
-"Thu, 30 May 2019 19:24:00 GMT",Orin,says,ic,One day I might ask you to tell me that story.
-"Thu, 30 May 2019 19:24:00 GMT",Quinn,does,ic,clears his throat.
-"Thu, 30 May 2019 19:24:00 GMT",Quinn,says,ic,"Right, yeah, anyway... erm... see I'm be thinking we could apply it like, smear it some such like a wound. Bit less painful than a real wound..."
-"Thu, 30 May 2019 19:24:00 GMT",Ba'Raknul,does,ic,stands and helps Quinn with the disguise advising on how a real burn would look.
-"Thu, 30 May 2019 19:24:00 GMT",Ba'Raknul,says,ic,Make fake burns with the make up is what i meant.
-"Thu, 30 May 2019 19:24:00 GMT",,says,ic,Just do it in lines as if they burned then asked questions then burned.
-"Thu, 30 May 2019 19:24:00 GMT",,says,ic,And on.
-"Thu, 30 May 2019 19:24:00 GMT",Quinn,does,ic,dips one filthy finger in the pot.
-"Thu, 30 May 2019 19:24:00 GMT",Quinn,says,ic,"Don't mind if I... do ya Orin, old friend?"
-"Thu, 30 May 2019 19:24:00 GMT",Biron,does,ic,keeps quiet and remains as a look out to anyone passing.
-"Thu, 30 May 2019 19:24:00 GMT",Orin,does,ic,gives Quinn a perplexed look.
-"Thu, 30 May 2019 19:26:00 GMT",Orin,says,ic,You have a strange way of talking... friend...
-"Thu, 30 May 2019 19:26:00 GMT",Quinn,does,ic,"winks at Orin and starts to build up what starts to look like peeled red skin, stopping occasionally to survey his work and looking to Ba for confirmation."
-"Thu, 30 May 2019 19:26:00 GMT",Quinn,does,ic,grins.
-"Thu, 30 May 2019 19:26:00 GMT",Quinn,says,ic,Ya look gorgeous!
-"Thu, 30 May 2019 19:28:00 GMT",Orin,says,ic,"Get some dirt in there, if it helps."
-"Thu, 30 May 2019 19:28:00 GMT",,says,ic,And I've got some charcoal?
-"Thu, 30 May 2019 19:28:00 GMT",Quinn,does,ic,nods.
-"Thu, 30 May 2019 19:28:00 GMT",Quinn,says,ic,Perfect... ya will go to the ball!
-"Thu, 30 May 2019 19:29:00 GMT",GM,says,ic,"Orin looks suitably grisly, as though they had been put to the torturer only moments before."
-"Thu, 30 May 2019 19:29:00 GMT",Ba'Raknul,does,ic,looks impressed.
-"Thu, 30 May 2019 19:30:00 GMT",Ba'Raknul,says,ic,"Master Quinn, good job."
-"Thu, 30 May 2019 19:30:00 GMT",Quinn,does,ic,nods admiringly.
-"Thu, 30 May 2019 19:30:00 GMT",Quinn,says,ic,"Aye, that's 'andsome that - almost convinced meself, and no mistake."
-"Thu, 30 May 2019 19:30:00 GMT",Orin,says,ic,Right.
-"Thu, 30 May 2019 19:30:00 GMT",Orin,does,ic,looks to the sky.
-"Thu, 30 May 2019 19:30:00 GMT",Orin,says,ic,"How much time have we got, yet?"
-"Thu, 30 May 2019 19:30:00 GMT",Ba'Raknul,says,ic,Do you have a deck of cards aswell? all of them had their own so you might need one.
-"Thu, 30 May 2019 19:30:00 GMT",Orin,says,ic,"Who's got Eggard's deck? I think you stashed it away, Ba."
-"Thu, 30 May 2019 19:30:00 GMT",,says,ic,Needs to be the one deck.
-"Thu, 30 May 2019 19:30:00 GMT",Ba'Raknul,does,ic,clicks his fingers and runs to his tent to grab Eggard's deck.
-"Thu, 30 May 2019 19:30:00 GMT",Ba'Raknul,does,ic,returns a few moments later.
-"Thu, 30 May 2019 19:30:00 GMT",Ric,says,ooc,By now there is but an hour or so before midnight.
-"Thu, 30 May 2019 19:31:00 GMT",Ba'Raknul,says,ic,Okay... anything else we want to prepare before we get into position?
-"Thu, 30 May 2019 19:31:00 GMT",Ba'Raknul,does,ic,throws the deck to Orin.
-"Thu, 30 May 2019 19:31:00 GMT",Quinn,does,ic,shakes his head.
-"Thu, 30 May 2019 19:31:00 GMT",Quinn,says,ic,Not that I can be thinkin'.
-"Thu, 30 May 2019 19:31:00 GMT",Orin,does,ic,catches it in one hand. They look quixotically at the wineskin in the other hand before stuffing the deck in their shirt and tying the skin to their belt.
-"Thu, 30 May 2019 19:33:00 GMT",Biron,says,ic,We won't need to hide anything i assume?
-"Thu, 30 May 2019 19:33:00 GMT",Orin,does,ic,nods to Biron.
-"Thu, 30 May 2019 19:33:00 GMT",Orin,says,ic,"You had better take position soon and start looking the part, eh?"
-"Thu, 30 May 2019 19:33:00 GMT",Quinn,does,ic,nods.
-"Thu, 30 May 2019 19:33:00 GMT",Quinn,says,ic,Aye... and good luck Orin.
-"Thu, 30 May 2019 19:33:00 GMT",Ba'Raknul,does,ic,fishes a bottle of oil from their bag.
-"Thu, 30 May 2019 19:33:00 GMT",Ba'Raknul,says,ic,I dont know how useful but if you need to be out of there in a hurry you could chuck this in the fire. Small bang and flash.
-"Thu, 30 May 2019 19:33:00 GMT",Orin,does,ic,stops to think a minute. Then stares at Biron.
-"Thu, 30 May 2019 19:33:00 GMT",Biron,does,ic,grunts and nods. Looks at quinn.
-"Thu, 30 May 2019 19:33:00 GMT",Biron,says,ic,"You, come on."
-"Thu, 30 May 2019 19:33:00 GMT",Ba'Raknul,does,ic,extends the bottle to Orin.
-"Thu, 30 May 2019 19:35:00 GMT",Ba'Raknul,says,ic,No biron no need to hide.. Just drnk and grumble.. should be easy for you.
-"Thu, 30 May 2019 19:35:00 GMT",Orin,says,ic,Wait.
-"Thu, 30 May 2019 19:35:00 GMT",Biron,does,ic,stops.
-"Thu, 30 May 2019 19:35:00 GMT",Orin,does,ic,"removes their bow and quiver, holding it in open hands."
-"Thu, 30 May 2019 19:36:00 GMT",Orin,says,ic,Eggard wasn't an archer.
-"Thu, 30 May 2019 19:36:00 GMT",Biron,does,ic,grunts.
-"Thu, 30 May 2019 19:36:00 GMT",Orin,says,ic,Could you... hold them for me?
-"Thu, 30 May 2019 19:36:00 GMT",Orin,does,ic,gestures the items toward Biron.
-"Thu, 30 May 2019 19:37:00 GMT",Orin,says,ic,I'll need them nearby...
-"Thu, 30 May 2019 19:37:00 GMT",Biron,does,ic,grunts and nods.
-"Thu, 30 May 2019 19:37:00 GMT",Biron,does,ic,takes them.
-"Thu, 30 May 2019 19:37:00 GMT",Biron,says,ic,You'll get em back. Be ready to catch 'em if needed.
-"Thu, 30 May 2019 19:37:00 GMT",Orin,does,ic,nods.
-"Thu, 30 May 2019 19:37:00 GMT",GM,says,ic,"You make your way to your positions in the East Camp. As the rest of the camp slumbers, things are just getting started here as the youngest (and rowdiest) members of the camp light fires, play cards, drink and swap sordid tales."
-"Thu, 30 May 2019 19:37:00 GMT",GM,says,ic,"The rain is starting to fall more thickly, and the night sky has turned into a black blanket. Not that the dampness subdues the merry-making."
-"Thu, 30 May 2019 19:37:00 GMT",Ric,says,ooc,"Aw, an actual sweet moment between Orin and Biron!!"
-"Thu, 30 May 2019 19:37:00 GMT",Morgan,says,ooc,Orin is still contemplating poisoning him...
-"Thu, 30 May 2019 19:38:00 GMT",GM,says,ic,"You all feel vaguely unsettled though, as if the whole camp was about to break out into a riot. Shouts are louder, the men and women here have... strange looks on their faces. The foul weather is bringing out the worst in the mercenaries."
-"Thu, 30 May 2019 19:38:00 GMT",GM,says,ic,"You get into position, restless, hearts pounding, ready for the nights' work."
-"Thu, 30 May 2019 19:53:00 GMT",Ba'Raknul,does,ic,sits in the dark and the rain watching out to the east campfire.
-"Thu, 30 May 2019 19:53:00 GMT",Quinn,does,ic,"places a quiver of arrows on the floor before him, slowly pulling one arrow after another and checking its true."
-"Thu, 30 May 2019 19:53:00 GMT",Biron,does,ic,"sits, biting into a bit of meat in the bone, facing towards where Orin is, but not staring."
-"Thu, 30 May 2019 19:53:00 GMT",Biron,does,ic,slurps down his wineskin.
-"Thu, 30 May 2019 19:53:00 GMT",Quinn,does,ic,sighs as he looks down the length of one arrow.
-"Thu, 30 May 2019 19:53:00 GMT",Quinn,says,ic,"Wet weather like this is no good for me arrows. Almost feels wrong to put this in someone when its all warped like. Kinda insulting, if you take my meaning."
-"Thu, 30 May 2019 20:05:00 GMT",Ric,says,ooc,So I've put your icons on the map roughly where I thought you'd need them.
-"Thu, 30 May 2019 20:05:00 GMT",Ric,says,ooc,Feel free to reposition your characters.
-"Thu, 30 May 2019 20:05:00 GMT",Ric,says,ooc,Biron nearby pretending to be drunk.
-"Thu, 30 May 2019 20:06:00 GMT",Ric,says,ooc,Ba and Quinn in the tower.
-"Thu, 30 May 2019 20:06:00 GMT",Morgan,says,ooc,Orin is definitely going to want to make sure they're not followed before they head to the card game.
-"Thu, 30 May 2019 20:05:00 GMT",Liam,says,ooc,Did you need a Stealth roll?
-"Thu, 30 May 2019 20:05:00 GMT",Liam,says,ooc,And how high is the tower.
-"Thu, 30 May 2019 20:06:00 GMT",Ric,says,ooc,"No need to roll Stealth, you had plenty of time to make sure you weren't being watched or followed to go to the tower."
-"Thu, 30 May 2019 20:06:00 GMT",Morgan,says,ooc,"They'll look for followers, then hide in the tents before coming out somewhere else with their hood up."
-"Thu, 30 May 2019 20:06:00 GMT",Chris,says,ooc,Biron is just drinking out his wine skin and ripping into big chunks of meat.
-"Thu, 30 May 2019 20:06:00 GMT",Liam,says,ooc,And height of tower?
-"Thu, 30 May 2019 20:07:00 GMT",Ric,says,ooc,"Sorry, one sec."
-"Thu, 30 May 2019 20:08:00 GMT",Ric,says,ooc,The towers put you 20 feet above ground.
-"Thu, 30 May 2019 20:08:00 GMT",Ric,says,ooc,Including roof they're 30 feet high.
-"Thu, 30 May 2019 20:12:00 GMT",GM,says,ic,"Beneath the tower (which you share with a group of archers, who are happy to ignore you) the camp stretches out before you, pitch black and dotted with glowing fires."
-"Thu, 30 May 2019 20:12:00 GMT",Biron,does,ic,while scoffing and slurping his food and drink. Biron also plants one of his black strange metal javelins into the ground next to him.
-"Thu, 30 May 2019 20:12:00 GMT",Orin,does,ic,"pauses to pull the Five of Coins from their deck and slide it up a sleeve before checking the strange shortsword is loose in its scabbard. With a deep breath, they raise their hood and walk toward the card game."
-"Thu, 30 May 2019 20:14:00 GMT",GM,says,ic,"As Orin approaches the square of tents Eddard warned you about, they can see a few cloaked figures already here."
-"Thu, 30 May 2019 20:14:00 GMT",GM,says,ic,"There is plenty of space to sit around the flickering flames, tended by a hooded man."
-"Thu, 30 May 2019 20:14:00 GMT",Ba'Raknul,does,ic,mutters quietly as people gather.
-"Thu, 30 May 2019 20:15:00 GMT",Ba'Raknul,says,ic,Yeah this rain isnt great for shooting...If i need I might get closer... if that happens stay here and cover.
-"Thu, 30 May 2019 20:15:00 GMT",Quinn,does,ic,glances down over the card game and mutters under his breath.
-"Thu, 30 May 2019 20:15:00 GMT",Quinn,says,ic,"Lots of hooded folk down there Ba, lets hope we don't hit the wrong one none."
-"Thu, 30 May 2019 20:16:00 GMT",GM,says,ic,"The hooded figures nod at Orin as they sit down round the fire, careful to keep their faces concealed."
-"Thu, 30 May 2019 20:16:00 GMT",GM,says,ic,"A couple sit together and mutter to each other, but the rest sit apart."
-"Thu, 30 May 2019 20:16:00 GMT",Orin,does,ic,nods in return.
-"Thu, 30 May 2019 20:16:00 GMT",Quinn,does,ic,tries to keep an eye on the one he thinks is Orin.
-"Thu, 30 May 2019 20:16:00 GMT",Ba'Raknul,does,ic,nods.
-"Thu, 30 May 2019 20:17:00 GMT",Ba'Raknul,says,ic,If we need to be shooting its gone bad and it should be clear whos attacking who.
-"Thu, 30 May 2019 20:17:00 GMT",,says,ic,Hopefully this is an information gathering mission only.
-"Thu, 30 May 2019 20:17:00 GMT",Orin,does,ic,scans the other players for nervous behaviour.
-"Thu, 30 May 2019 20:17:00 GMT",Orin,rolls,ooc,Insight: 6
-"Thu, 30 May 2019 20:17:00 GMT",Biron,does,ic,"takes a chom, ripping off a chunk of meat, eyes up the hooded figures."
-,,does,ic,counts how many cloaked figures he sees. 
-,,does,ic,"also watchs to their movements, to see if anyone has a distinguishing walk or particular way they hold themselves."
-"Thu, 30 May 2019 20:17:00 GMT",Quinn,does,ic,nods almost imperceptibly.
-"Thu, 30 May 2019 20:17:00 GMT",Quinn,says,ic,Aye... let's hope you are right.
-"Thu, 30 May 2019 20:18:00 GMT",GM,says,ic,"You can clearly see the signs of impatience and fear, even though everyone is hooded. One figure taps their foot, another worries at the hem of their cloak."
-"Thu, 30 May 2019 20:18:00 GMT",GM,says,ic,You count five figures.
-"Thu, 30 May 2019 20:18:00 GMT",GM,says,ic,Not including Orin.
-"Thu, 30 May 2019 20:18:00 GMT",Orin,does,ic,mimics their nervousness.
-"Thu, 30 May 2019 20:19:00 GMT",GM,says,ic,A couple more figures join the fire.
-"Thu, 30 May 2019 20:19:00 GMT",GM,says,ic,"And then another figure arrives, taller than the others. This one does not appear to be nervous at all, and the rest all look as they appear."
-"Thu, 30 May 2019 20:19:00 GMT",GM,says,ic,"This hooded figure strides up, sits down with a flourish of their cloak."
-"Thu, 30 May 2019 20:20:00 GMT",The stranger,says,ic,Shall we play?
-"Thu, 30 May 2019 20:20:00 GMT",GM,says,ic,"A hoarse voice, croaky but clearly a woman's."
-"Thu, 30 May 2019 20:20:00 GMT",GM,says,ic,Around the campfire the figures draw their cards and clearly show the distinctive back design of a flock of birds.
-"Thu, 30 May 2019 20:20:00 GMT",Ba'Raknul,does,ic,"nods towards the fire, nervously playing with his bow, whispering."
-"Thu, 30 May 2019 20:21:00 GMT",Ba'Raknul,says,ic,Here we go.
-"Thu, 30 May 2019 20:21:00 GMT",Morgan,says,ooc,Hehe card pun.
-"Thu, 30 May 2019 20:21:00 GMT",Liam,says,ooc,Hahahaha.
-"Thu, 30 May 2019 20:22:00 GMT",Chris,says,ooc,Haha.
-"Thu, 30 May 2019 20:21:00 GMT",Orin,does,ic,follows suit.
-"Thu, 30 May 2019 20:21:00 GMT",Biron,does,ic,"looks around him as well to see if any one is sat watching him, or to see if lookouts are placed anywhere."
-"Thu, 30 May 2019 20:22:00 GMT",GM,says,ic,"The tall figure nods to her right, and the cloaked figure show a card: the Prince of Flowers."
-"Thu, 30 May 2019 20:22:00 GMT",GM,says,ic,Then to their right another card is shown: the Six of Sticks.
-"Thu, 30 May 2019 20:22:00 GMT",GM,says,ic,"And so on, until it gets to Orin's turn."
-"Thu, 30 May 2019 20:22:00 GMT",Orin,does,ic,shows the Five of Coins.
-"Thu, 30 May 2019 20:22:00 GMT",Orin,does,ic,lets the 'burnt' hand linger over the card before retracting it.
-"Thu, 30 May 2019 20:22:00 GMT",The stranger,does,ic,"nods, hesitates a moment, then moves around the circle."
-"Thu, 30 May 2019 20:22:00 GMT",Liam,says,ooc,Interestingly we could pick up some cards here.
-"Thu, 30 May 2019 20:23:00 GMT",Chris,says,ooc,"So how many people are there in total, excluding Orin?"
-"Thu, 30 May 2019 20:23:00 GMT",Ric,says,ooc,8 now.
-"Thu, 30 May 2019 20:24:00 GMT",GM,says,ic,"The rotation is complete. There is a moments silence, then..."
-"Thu, 30 May 2019 20:24:00 GMT",The stranger,says,ic,Five of Coins! What happened to your hand?
-"Thu, 30 May 2019 20:24:00 GMT",Orin,does,ic,doing their best imitation of Eggard's voice:
-"Thu, 30 May 2019 20:25:00 GMT",Orin,says,ic,It's nothing. Just a gift from a sergeant.
-"Thu, 30 May 2019 20:25:00 GMT",Orin,does,ic,pulls the hand back into their sleeve.
-"Thu, 30 May 2019 20:25:00 GMT",The stranger,does,ic,nods.
-"Thu, 30 May 2019 20:25:00 GMT",The stranger,says,ic,They can be cruel.
-"Thu, 30 May 2019 20:25:00 GMT",The stranger,does,ic,sighs.
-"Thu, 30 May 2019 20:26:00 GMT",The stranger,says,ic,I have news! The inquisition put six women to the flame in Witch County.
-"Thu, 30 May 2019 20:26:00 GMT",GM,says,ic,"The Three Bastards are keen to show piety and are currying favour with the Church, so innocent women burn to shore up their support south of the border."
-"Thu, 30 May 2019 20:27:00 GMT",GM,says,ic,The cloaked men and women murmur in hushed and worried tones.
-"Thu, 30 May 2019 20:27:00 GMT",Orin,does,ic,makes genuine distressed noises.
-"Thu, 30 May 2019 20:29:00 GMT",The stranger,says,ic,Do not believe the superstitious nonsense that these woman folk are witches. They merely objected too loudly to their sons and daughters being sent to a pointless war.
-"Thu, 30 May 2019 20:29:00 GMT",,says,ic,"Now, do any of you have anything for me this night?"
-"Thu, 30 May 2019 20:29:00 GMT",Quinn,does,ic,"casually nocks an arrow and looks out beyond the walls of the camp, leaning on one of tower posts, looking down on the game."
-"Thu, 30 May 2019 20:29:00 GMT",Orin,does,ic,waits to see what the others do.
-"Thu, 30 May 2019 20:30:00 GMT",GM,says,ic,"The Prince of Flowers speaks first, relating a shockingly detailed report of the provisions in the commissary, including weapons and armour."
-"Thu, 30 May 2019 20:30:00 GMT",GM,says,ic,"The stranger seems very pleased at this. The Nine of Cups speaks about raiding the tent of the foreign fetch, the one with scars ""like you asked""."
-"Thu, 30 May 2019 20:30:00 GMT",GM,says,ic,But she has nothing else of importance to relate as nothing of interested was found.
-"Thu, 30 May 2019 20:32:00 GMT",The stranger,says,ic,Anyone else?
-"Thu, 30 May 2019 20:32:00 GMT",Orin,does,ic,shakes their head.
-"Thu, 30 May 2019 20:32:00 GMT",The stranger,says,ic,Very well.
-"Thu, 30 May 2019 20:32:00 GMT",GM,says,ic,I see we are missing the Three of Flowers and the Nine of Swords tonight.
-"Thu, 30 May 2019 20:32:00 GMT",GM,says,ic,"Five of Coins, you were sent with them."
-"Thu, 30 May 2019 20:32:00 GMT",GM,says,ic,What happened to them?
-"Thu, 30 May 2019 20:32:00 GMT",Biron,does,ic,finishes his food and stretches.
-"Thu, 30 May 2019 20:34:00 GMT",Orin,says,ic,I'm sorry. We failed. I only just got away.
-"Thu, 30 May 2019 20:34:00 GMT",The stranger,does,ic,nods.
-"Thu, 30 May 2019 20:34:00 GMT",Ric,says,ooc,"Here we go, make the Deception check, no disadvantage due to your wound."
-"Thu, 30 May 2019 20:34:00 GMT",Ric,says,ooc,DC 13
-"Thu, 30 May 2019 20:44:00 GMT",Orin,Says,ooc,I rolled 16 for Deception.
-"Thu, 30 May 2019 20:34:00 GMT",Chris,says,ooc,Boom.
-"Thu, 30 May 2019 20:35:00 GMT",The stranger,says,ic,I heard they were sent with the bailiffs. They sacrificed their lives so that the folk might live free.
-"Thu, 30 May 2019 20:35:00 GMT",GM,says,ic,"Murmurs of ""For the Folk"" whisper around the campfire."
-"Thu, 30 May 2019 20:35:00 GMT",The stranger,says,ic,For the Folk!
-"Thu, 30 May 2019 20:36:00 GMT",Orin,says,ic,For the Folk!
-"Thu, 30 May 2019 20:36:00 GMT",The stranger,says,ic,"Prince of Flowers, I need you to ingratiate yourself with Sly Ben. We need to know where he's getting his liquor from, can you do that?"
-"Thu, 30 May 2019 20:36:00 GMT",GM,says,ic,The hooded man nods.
-"Thu, 30 May 2019 20:36:00 GMT",GM,says,ic,"The stranger gives out several missions to the hooded figures about, mostly double-checking the daily routines of senior officers and patrols."
-"Thu, 30 May 2019 20:36:00 GMT",GM,says,ic,Until she comes to Orin.
-"Thu, 30 May 2019 20:38:00 GMT",The stranger,says,ic,"Five of Coins, I have a special task for you. Unpleasant, but it needs to be done. I need you to kill a member of the night watch. The Northerner, I'm sure you know the one."
-"Thu, 30 May 2019 20:38:00 GMT",,says,ic,Can you do this?
-"Thu, 30 May 2019 20:38:00 GMT",Orin,does,ic,nods.
-"Thu, 30 May 2019 20:38:00 GMT",The stranger,does,ic,nods.
-"Thu, 30 May 2019 20:39:00 GMT",The stranger,says,ic,"The Sparrow will hear of your courage, all of you. There's a special place for you in the Commonwealth once we win the war."
-"Thu, 30 May 2019 20:39:00 GMT",,says,ic,For the Folk!
-"Thu, 30 May 2019 20:40:00 GMT",GM,says,ic,"The rest of the group murmur the Commonwealth motto, before starting to get up and leave."
-"Thu, 30 May 2019 20:40:00 GMT",Orin,does,ic,"waits for the others to go, but follows the stranger."
-"Thu, 30 May 2019 20:40:00 GMT",Quinn,does,ic,keeps an eye on a hooded figure to see which tent he or she heads to.
-"Thu, 30 May 2019 20:40:00 GMT",Orin,says,ic,Ma'am.
-"Thu, 30 May 2019 20:40:00 GMT",Ba'Raknul,does,ic,watches for any coming close to the tower.
-"Thu, 30 May 2019 20:40:00 GMT",The stranger,does,ic,"turns, looks sharply at Orin and hesitates for a moment. Still visible at the edge of the campfire, if she moves another five feet or so she'll disappear into the darkness beyond."
-"Thu, 30 May 2019 20:42:00 GMT",Orin,does,ic,three... I saw them kill good people. They're tough.
-"Thu, 30 May 2019 20:43:00 GMT",Orin,does,ic,looks nervously around and takes a few steps toward the tower.
-"Thu, 30 May 2019 20:43:00 GMT",The stranger,does,ic,smiles at Orin. They see the sharp point of her chin and the thin lips of her wry smile.
-"Thu, 30 May 2019 20:44:00 GMT",The stranger,does,ic,whispers.
-"Thu, 30 May 2019 20:44:00 GMT",The stranger,says,ic,Traitor!
-"Thu, 30 May 2019 20:44:00 GMT",Ric,says,ooc,Roll initiative everone.
+timestamp,actor,type,chat,message,Kat,Hope,Morgan,Ric
+"Thu, 30 May 2019 18:23:00 GMT",GM,says,ic,"Outside, the night air is cool, and a strong breeze. About the camp, mercenaries start to light their night fires, flames wax as the sun wanes and night falls.",,,,
+"Thu, 30 May 2019 18:23:00 GMT",Orin,does,ic,"snores loudly from their tent, one hand still clutching their wineskin.",,,,
+"Thu, 30 May 2019 18:25:00 GMT",Biron,does,ic,steps out of his tent and holds himself upright.,,,,
+"Thu, 30 May 2019 18:25:00 GMT",Biron,does,ic,looks around the camp.,,Repeats previous line - delete? ✅,,
+"Thu, 30 May 2019 18:25:00 GMT",Quinn,does,ic,sighs and heads out to the campfire to join the others.,,,,
+"Thu, 30 May 2019 18:26:00 GMT",Quinn,says,ic,"So, who's up for a game of cards? Knackered here but never too tired to earn a coin or two, if you take my means.",,,,
+,GM,says,ic,Nobody else seems particularly interested in playing cards so soon after waking.,,,,
+"Thu, 30 May 2019 18:26:00 GMT",Quinn,does,ic,looks disappointed.,,,,
+"Thu, 30 May 2019 18:26:00 GMT",Quinn,says,ic,Surely we can 'ave a tiny flutter too right? Just not... playing the cards.,"too, right?",,,
+"Thu, 30 May 2019 18:27:00 GMT",Biron,does,ic,walks towards where the others are meeting.,,,"Ba, not Bam? ✅",
+"Thu, 30 May 2019 18:27:00 GMT",Biron,does,ic,grunts as he appears near Ba but stays silent otherwise.,,,,
+"Thu, 30 May 2019 18:27:00 GMT",Biron,does,ic,looks around at anyone passing.,,,,
+"Thu, 30 May 2019 18:27:00 GMT",Ba'Raknul,does,ic,shrugs.,,,,
+"Thu, 30 May 2019 18:30:00 GMT",Ba'Raknul,says,ic,I can't promise I'll be focused.,can't ✅,,,
+"Thu, 30 May 2019 18:30:00 GMT",Ba'Raknul,says,ic,And no gambling from me.,,,,
+"Thu, 30 May 2019 18:30:00 GMT",Ba'Raknul,does,ic,"looks around and heads towards Orin's tent, stopping just outside.",,Orin's ✅,missing apostraphe ✅,
+"Thu, 30 May 2019 18:30:00 GMT",Ba'Raknul,says,ic,Orin! Come on!,,,,
+"Thu, 30 May 2019 18:30:00 GMT",Quinn,does,ic,looks towards Orin's tent.,,,,
+"Thu, 30 May 2019 18:30:00 GMT",Quinn,says,ic,"Want me to wake 'em, ser?",,,,
+"Thu, 30 May 2019 18:31:00 GMT",Ba'Raknul,says,ic,Give them a minute.,,,,
+"Thu, 30 May 2019 18:31:00 GMT",Orin,does,ic,"starts awake, nearly losing their wineskin. They fumble with it for a bit before catching it upside down. Luckily there's nothing in it.",,Should we maybe be capitalising these bits? Can't remember what's in the style guide or if it's adressed,,
+"Thu, 30 May 2019 18:32:00 GMT",Orin,does,ic,shouts.,formatting? ✅,,,
+"Thu, 30 May 2019 18:33:00 GMT",Orin,says,ic,Burn it!,,,,
+"Thu, 30 May 2019 18:33:00 GMT",Orin,does,ic,"stumbles from their tent after another minute, but walks past the rest of the group to stop in front of a shady-looking mercenary hanging out in the shadows between tents.","""merc"" informal for narration or ok? ✅",,,
+"Thu, 30 May 2019 18:33:00 GMT",Orin,does,ic,"finally heads for the group, now with a full wineskin in hand. As they sit down, they pull the cork out with their teeth and take a large swig.",,,,
+"Thu, 30 May 2019 18:33:00 GMT",Quinn,does,ic,looks to Orin.,,,,
+"Thu, 30 May 2019 18:33:00 GMT",Quinn,does,ic,raises an eyebrow.,,,,
+"Thu, 30 May 2019 18:33:00 GMT",Quinn,says,ic,"How goes it, my friend? Holding up well enough, if ya takes my meaning some?","goes it, my ✅",,,
+"Thu, 30 May 2019 18:33:00 GMT",Orin,does,ic,shrugs.,,,,
+"Thu, 30 May 2019 18:37:00 GMT",GM,says,ic,"As the party gathers around the fire night falls fast. The wind picks up, dark clouds racing across the sky, carrying campfire embers to who knows where.",,,,
+"Thu, 30 May 2019 18:37:00 GMT",Biron,does,ic,remains standing tall and silent. An unmoving dark silhouette.,,,,
+"Thu, 30 May 2019 18:39:00 GMT",Ba'Raknul,says,ic,We should get into position soon.,,,,
+"Thu, 30 May 2019 18:39:00 GMT",,says,ic,I'll be getting into the tower a bit earlier.,,,,
+"Thu, 30 May 2019 18:39:00 GMT",Quinn,does,ic,nods.,,,,
+"Thu, 30 May 2019 18:39:00 GMT",Quinn,says,ic,"Aye, and I'll be joining ya some.",,,,
+"Thu, 30 May 2019 18:39:00 GMT",Quinn,says,ic,"Orin, ya sure you ok for ya role in this? Ya hittins the drink pretty hard there, so you are.",,,,
+"Thu, 30 May 2019 18:39:00 GMT",Orin,does,ic,gestures with the wineskin.,,,,
+"Thu, 30 May 2019 18:41:00 GMT",Orin,says,ic,"I'll stay here a bit longer. Can't be seen loitering about, can I?",,,,
+"Thu, 30 May 2019 18:41:00 GMT",Orin,does,ic,takes another swig.,,,,
+"Thu, 30 May 2019 18:41:00 GMT",Biron,does,ic,"looks slightly puzzled at Orin, but doesn't say anything and goes to walk off.",doesn't✅,,,
+"Thu, 30 May 2019 18:44:00 GMT",Quinn,says,ic,"Look, Orin, ya don't need no more drink now but later, I promise ya, I'll buy you one meself - still owe ya for saving old Quinn's skin, if ya take my meaning.","Look, Orin, ✅",,,
+"Thu, 30 May 2019 18:44:00 GMT",Orin,does,ic,just stares into the fire.,,,,
+"Thu, 30 May 2019 18:46:00 GMT",Orin,says,ic,You had all better get a move on if you want this to work.,,,,
+"Thu, 30 May 2019 18:46:00 GMT",Quinn,does,ic,looks to the sky.,,,,
+"Thu, 30 May 2019 18:46:00 GMT",Quinn,says,ic,Reckons we got time some. Though don't like the smell of that air none... smells like storm to me.,,,,
+"Thu, 30 May 2019 18:46:00 GMT",Ba'Raknul,does,ic,grabs his things and begins wandering to the tower in question.,,,,
+"Thu, 30 May 2019 18:46:00 GMT",Biron,does,ic,looks to the night air and turns round and walks towards the mess to eat some food before the night continues.,,,,
+"Thu, 30 May 2019 18:54:00 GMT",Ba'Raknul,says,ic,"Do you think tonight is best? Something's clearly up with Orin, and I can barely pull my bow.",Somethings (capitalize) ✅,,,
+"Thu, 30 May 2019 18:54:00 GMT",Biron,does,ic,"looks at Ba, then to Orin and then to the campsite.",,,,
+"Thu, 30 May 2019 18:54:00 GMT",Biron,does,ic,grunts.,,,,
+"Thu, 30 May 2019 18:54:00 GMT",Ba'Raknul,does,ic,looks worried.,,,,
+"Thu, 30 May 2019 18:55:00 GMT",Ba'Raknul,says,ic,We only have one chance and I don't want to blow it.,don't✅,,missing apostrophe✅,
+"Thu, 30 May 2019 18:56:00 GMT",Biron,says,ic,"Tonight, tomorrow night. Another night.",,,,
+"Thu, 30 May 2019 18:56:00 GMT",,says,ic,The longer the wait the more uncertain of the group we go to.,,,,
+"Thu, 30 May 2019 18:56:00 GMT",Quinn,does,ic,sniffs.,,,,
+"Thu, 30 May 2019 18:56:00 GMT",Quinn,says,ic,"Ahh, by the Mother - I ain't seeing Orin being up to this, not in their state. Either I play for 'em, and ya fill me in with what I'm to say and such like, or we leave it to another day. But I'm thinking Orin'd be best at this...",Orin'd without the space (?) ✅,Either I play for 'em✅,,
+,Liam,says,ooc,I forgot about the pig men. We barely survived that last encounter.,,,,
+,Ric,says,ooc,"Yes, as a reminder, this is a reference to monstrous creatures that have been stalking the party on-and-off for a while now, described as 'men with the faces of pigs.'",,,,
+"Thu, 30 May 2019 18:57:00 GMT",Biron,says,ic,"Pigs, rats, traitors. There's always something to kill. If you want to change something, do it.",There's ✅,"If you want to change something, do it. ✅","First mention of ""pigs"" in new edition of diaries... may want to include an explanation of what this is referring to?✅",
+"Thu, 30 May 2019 18:57:00 GMT",,says,ic,"If not, we move.",,,,
+"Thu, 30 May 2019 18:57:00 GMT",Ba'Raknul,does,ic,sighs.,,,,
+"Thu, 30 May 2019 18:58:00 GMT",Ba'Raknul,says,ic,Let me talk to them. Alone. Get ready just in case.,,,,
+"Thu, 30 May 2019 18:58:00 GMT",Ba'Raknul,does,ic,heads over and sits next to Orin in silence for a moment.,,,,
+"Thu, 30 May 2019 18:58:00 GMT",Biron,does,ic,gives a low guttural noise.,,guttural✅,,
+"Thu, 30 May 2019 18:58:00 GMT",Quinn,does,ic,grins at Biron.,,,,
+"Thu, 30 May 2019 18:58:00 GMT",Quinn,says,ic,"Worry ya'self none laughing boy, y'all get to kill your traitors and pigs and the like sure enough, and no mistake.",,,,
+"Thu, 30 May 2019 19:01:00 GMT",Biron,does,ic,ignores Quinn.,,,,
+"Thu, 30 May 2019 18:58:00 GMT",Ba' Raknul,does,ic,"pauses a moment, then quietly speaks.",,Another moment with awkward formatting to discuss✅,,
+,,,,,,Would these moments where people are splitting up chat for effect on Discord be better off if we merged them into just one thing for clarity with how the formatting on the website looks?✅,Is this enough information? Not sure I understand what's going on here or what is meant to be shown with the annotation.✅,
+,,,,,,,,
+"Thu, 30 May 2019 18:59:00 GMT",Ba'Raknul,says,ic,"How are you, Orin?","are you, Orin",,,
+"Thu, 30 May 2019 18:59:00 GMT",Orin,does,ic,shrugs.,,,,
+"Thu, 30 May 2019 18:59:00 GMT",Ba'Raknul,does,ic,looks at them for a moment.,,,,
+"Thu, 30 May 2019 19:01:00 GMT",Ba'Raknul,says,ic,"It's okay if you're not okay. I know something's up, you weren't even like this when they first dragged you to this forsaken place.",,"It's, you're, something's, weren't✅",,
+"Thu, 30 May 2019 19:04:00 GMT",Orin,says,ic,What is it to anybody what I think?,,,,
+"Thu, 30 May 2019 19:04:00 GMT",Ba'Raknul,does,ic,looks at Orin a little confused.,,,,
+"Thu, 30 May 2019 19:05:00 GMT",Ba'Raknul,says,ic,You think I could have been down in those sewers with your annoying ass without caring a little what you think?,,,,
+"Thu, 30 May 2019 19:06:00 GMT",Orin,says,ic,"No offence, Ba, but you don't matter. Either of us, no matter what we do, we end up here. With welts on our backs.",,,,
+"Thu, 30 May 2019 19:06:00 GMT",Biron,does,ic,looks up and takes a few steps away from the others and keeps looking out over the camp.,,,,
+"Thu, 30 May 2019 19:06:00 GMT",Ba'Raknul,does,ic,laughs softly.,,,,
+"Thu, 30 May 2019 19:07:00 GMT",Ba'Raknul,says,ic,We only don't matter to them. It's up to us to decide who matters to us.,"dont', it's✅",,missing apostrophe✅,✅
+"Thu, 30 May 2019 19:07:00 GMT",,says,ic,"I've decided you matter, Biron and the new guys, and all.",,,missing apostrophe✅,
+"Thu, 30 May 2019 19:07:00 GMT",,says,ic,"In my world, the only things that are important are the things I decide are important. You are right.. when we die none of it matters... but in our next journey we may meet those we met here... then it might matter.",,,,
+"Thu, 30 May 2019 19:07:00 GMT",Ba'Raknul,does,ic,looks to the sky and smiles.,,,,
+"Thu, 30 May 2019 19:09:00 GMT",Ba'Raknul,says,ic,This world is shit... but it sculpts us and makes us ready for what lies after.,,,,
+"Thu, 30 May 2019 19:09:00 GMT",Orin,says,ic,"Hey, I'll play the game. It's enjoyable enough. But if Biron can't play nicely, how is anybody supposed to get anything out of anything?",,,,
+"Thu, 30 May 2019 19:09:00 GMT",Ba'Raknul,does,ic,looks back at Orin with a determination in his eye.,,,,
+"Thu, 30 May 2019 19:11:00 GMT",Ba'Raknul,says,ic,If I can help more people survive this world and get to the next... I will!,,I instead of i✅,,
+"Thu, 30 May 2019 19:11:00 GMT",Ba'Raknul,does,ic,sighs.,,,,
+"Thu, 30 May 2019 19:11:00 GMT",Ba'Raknul,says,ic,Biron is a hammer... it's my fault for trying to use a hammer on glass. In the end we can only control what we do and how we act.,,,it's✅,
+"Thu, 30 May 2019 19:11:00 GMT",,says,ic,I won't tell you how to be... but if you need help. I am here.,,,missing apostrophe✅,
+"Thu, 30 May 2019 19:11:00 GMT",Ba'Raknul,does,ic,falls into silence.,,,,
+"Thu, 30 May 2019 19:12:00 GMT",Orin,says,ic,"I never asked for any help. But if it's enthusiasm you're after, you're going to have to wait a while.",,,,
+"Thu, 30 May 2019 19:13:00 GMT",Ba'Raknul,says,ic,I did not offer because I think you need it. I offer because it's who I am. I won't let this world change me.,,,capital I -- missing apostrophes✅,
+"Thu, 30 May 2019 19:13:00 GMT",Ba'Raknul,does,ic,"places a hand softly on their shoulder, trying to avoid possible scars and smiles before getting up and heading to the others.",,,,
+"Thu, 30 May 2019 19:14:00 GMT",Orin,says,ic,A couple of nights at least.,,,"Maybe put these before Ba's action? So much distance between it and Orin's line before, it took me a minute to realise what it meant.",
+"Thu, 30 May 2019 19:14:00 GMT",Orin,does,ic,chuckles.,,,,
+"Thu, 30 May 2019 19:14:00 GMT",Quinn,does,ic,looks concerned at Ba.,,,,
+"Thu, 30 May 2019 19:14:00 GMT",Quinn,says,ic,How they doin'?,,,,
+"Thu, 30 May 2019 19:14:00 GMT",Biron,does,ic,grunts.,,,,
+"Thu, 30 May 2019 19:15:00 GMT",Biron,says,ic,Are we off now.,,,,
+"Thu, 30 May 2019 19:15:00 GMT",Ba'Raknul,does,ic,nods to the others.,,,,
+"Thu, 30 May 2019 19:15:00 GMT",Ba'Raknul,says,ic,They will be fine. It's an adjustment.,,,,
+"Thu, 30 May 2019 19:15:00 GMT",Ba'Raknul,does,ic,looks over their shoulder to Orin once more.,,,,
+"Thu, 30 May 2019 19:15:00 GMT",Ba'Raknul,says,ic,I trust them.,,,,
+"Thu, 30 May 2019 19:15:00 GMT",Quinn,does,ic,forces a smile.,,,,
+"Thu, 30 May 2019 19:15:00 GMT",Quinn,says,ic,Well that's good enough and no mistake. Or as good as we gettin' anyway.,,,,
+"Thu, 30 May 2019 19:15:00 GMT",Ba'Raknul,does,ic,nods at Biron.,,,,
+"Thu, 30 May 2019 19:16:00 GMT",Ba'Raknul,says,ic,"Let's get into position, me and Quinn will have a fire arrow. For extreme emergencies. If you see it go up it's real bad.",Let's✅,,,
+"Thu, 30 May 2019 19:16:00 GMT",Biron,does,ic,"picks up his shield and axe, and looks at Quinn.",,,,
+"Thu, 30 May 2019 19:16:00 GMT",Biron,says,ic,Which one of you are with me.,,,,
+"Thu, 30 May 2019 19:17:00 GMT",Ba'Raknul,says,ic,"Biron, if you see anything try and deal with it quietly. If it's unavoidable start singing your favourite tune, as loud as you can.",,,,
+"Thu, 30 May 2019 19:16:00 GMT",Orin,says,ic,Just one second.,,,,
+"Thu, 30 May 2019 19:16:00 GMT",,says,ic,I've got an idea.,,,,
+"Thu, 30 May 2019 19:17:00 GMT",Ba'Raknul,does,ic,looks to Orin.,,,,
+"Thu, 30 May 2019 19:17:00 GMT",Biron,does,ic,pauses a moment and looks at Orin.,,,,
+"Thu, 30 May 2019 19:17:00 GMT",Orin,says,ic,Anyone got any sort of skill in faking a wound?,,,,
+"Thu, 30 May 2019 19:17:00 GMT",Orin,says,ic,Is there anything around we could make that up with?,,,,
+"Thu, 30 May 2019 19:17:00 GMT",Ba'Raknul,says,ic,I am proficient with medicine?,,,,
+"Thu, 30 May 2019 19:18:00 GMT",Ba'Raknul,says,ic,But I don't know how to fake it.,don't✅,Capital I✅,,
+"Thu, 30 May 2019 19:17:00 GMT",Biron,does,ic,bites his lip.,,,,
+"Thu, 30 May 2019 19:18:00 GMT",Orin,says,ic,"Something garish on a hand, like a fresh burn.",,,,
+"Thu, 30 May 2019 19:18:00 GMT",Biron,says,ic,I can do a minor wound that looks worse.,,,,
+"Thu, 30 May 2019 19:18:00 GMT",Ba'Raknul,says,ic,What you thinking?,,,,
+"Thu, 30 May 2019 19:18:00 GMT",Orin,says,ic,It's that or I actually stick a hand on the fire...,,,,
+"Thu, 30 May 2019 19:18:00 GMT",Quinn,does,ic,grins sheepishly.,,,,
+"Thu, 30 May 2019 19:18:00 GMT",Quinn,says,ic,"Well, see in my travels, did a bit of gamblin' ere and there. Sometimes for coin, othertimes for other things that people may have... I might 'ave some ladies make up stuff, that may look like a wound if applied that way, so to speak, if ya take my meaning.",other times (?),,,
+"Thu, 30 May 2019 19:18:00 GMT",Biron,does,ic,grunts.,,,,
+"Thu, 30 May 2019 19:18:00 GMT",Biron,says,ic,"Use a hot blade. Marks, flares up, but cauterises.",,,,
+"Thu, 30 May 2019 19:18:00 GMT",Orin,does,ic,looks at Biron.,,,,
+"Thu, 30 May 2019 19:20:00 GMT",Orin,says,ic,"I figure if I've got a great story about how the royalists tortured me for no good reason, they might go soft.",,,,
+"Thu, 30 May 2019 19:20:00 GMT",Quinn,does,ic,mutters and looks to Biron.,,,,
+"Thu, 30 May 2019 19:21:00 GMT",Mark,says,ooc,The flogging was public wasn't it?,,,Move this up to where Orin remarks that the flogging welts can't be seen?✅,
+"Thu, 30 May 2019 19:21:00 GMT",Ric,says,ooc,Yes.,,,,
+"Thu, 30 May 2019 19:20:00 GMT",Orin,says,ic,They can't see it.,,,,
+"Thu, 30 May 2019 19:20:00 GMT",Ba'Raknul,says,ic,Quinn can add some extra marks.,,,,
+"Thu, 30 May 2019 19:20:00 GMT",Biron,does,ic,nods and grunts.,,,,
+"Thu, 30 May 2019 19:20:00 GMT",Orin,says,ic,Needs to be seen so they'll ask about it.,,,,
+"Thu, 30 May 2019 19:20:00 GMT",,says,ic,"Alright, Quinn... let's see what your makeup can do.",,,,
+"Thu, 30 May 2019 19:20:00 GMT",Quinn,does,ic,grins and starts digging through his rather unkempt looking backpack.,,,,
+"Thu, 30 May 2019 19:20:00 GMT",Ba'Raknul,does,ic,walks over and helps Quinn.,,,,
+"Thu, 30 May 2019 19:23:00 GMT",Ba'Raknul,says,ic,Make burn marks in lines on the fingers and hands... they don't burn it all at once for torture.,,,missing apostrophe✅,
+"Thu, 30 May 2019 19:23:00 GMT",Ba'Raknul,does,ic,states very matter-of-factly.,,,move this above the spoken line?,
+"Thu, 30 May 2019 19:23:00 GMT",Ric,says,ooc,I love the Quinn stories. Always beg a couple of questions.,,Is showing the same as ic dialogue on the web page - not sure if deliberate?,,
+"Thu, 30 May 2019 19:23:00 GMT",Quinn,does,ic,pulls his hand free with a small pot of some red looking paste.,,,,
+"Thu, 30 May 2019 19:23:00 GMT",Quinn,says,ic,"Ahh, 'ere we are. Won this off a lady of ill repute so to speak. Well, shouldn't speak poorly of the lass - her repute was better than her cards, if ya take my meaning.",,,,
+"Thu, 30 May 2019 19:23:00 GMT",Orin,does,ic,softly chortles.,,,,
+"Thu, 30 May 2019 19:24:00 GMT",Orin,says,ic,One day I might ask you to tell me that story.,,,,
+"Thu, 30 May 2019 19:24:00 GMT",Quinn,does,ic,clears his throat.,,,,
+"Thu, 30 May 2019 19:24:00 GMT",Quinn,says,ic,"Right, yeah, anyway... erm... see I'm be thinking we could apply it like, smear it some such like a wound. Bit less painful than a real wound...",,,,
+"Thu, 30 May 2019 19:24:00 GMT",Ba'Raknul,does,ic,"stands and helps Quinn with the disguise, advising on how a real burn would look.","disguise, advising✅",,,
+"Thu, 30 May 2019 19:24:00 GMT",Ba'Raknul,says,ic,Make fake burns with the makeup is what I meant.,what I ✅,,,
+"Thu, 30 May 2019 19:24:00 GMT",,says,ic,"Just do it in lines as if they burned, then asked questions, then burned.",,,,
+"Thu, 30 May 2019 19:24:00 GMT",,says,ic,And on.,,,,
+"Thu, 30 May 2019 19:24:00 GMT",Quinn,does,ic,dips one filthy finger in the pot.,,,,
+"Thu, 30 May 2019 19:24:00 GMT",Quinn,says,ic,"Don't mind if I... do ya Orin, old friend?",,,,
+"Thu, 30 May 2019 19:24:00 GMT",Biron,does,ic,keeps quiet and remains as a lookout to spy anyone passing.,,,,
+"Thu, 30 May 2019 19:24:00 GMT",Orin,does,ic,gives Quinn a perplexed look.,,,,
+"Thu, 30 May 2019 19:26:00 GMT",Orin,says,ic,You have a strange way of talking... friend...,,,,
+"Thu, 30 May 2019 19:26:00 GMT",Quinn,does,ic,"winks at Orin and starts to build up what starts to look like peeled red skin, stopping occasionally to survey his work and looking to Ba for confirmation.",,,,
+"Thu, 30 May 2019 19:26:00 GMT",Quinn,does,ic,grins.,,,,
+"Thu, 30 May 2019 19:26:00 GMT",Quinn,says,ic,Ya look gorgeous!,,,,
+"Thu, 30 May 2019 19:28:00 GMT",Orin,says,ic,"Get some dirt in there, if it helps.",,,,
+"Thu, 30 May 2019 19:28:00 GMT",,says,ic,And I've got some charcoal?,,,,
+"Thu, 30 May 2019 19:28:00 GMT",Quinn,does,ic,nods.,,,,
+"Thu, 30 May 2019 19:28:00 GMT",Quinn,says,ic,Perfect... ya will go to the ball!,,,,
+"Thu, 30 May 2019 19:29:00 GMT",GM,says,ic,"Orin looks suitably grisly, as though they had been put to the torturer only moments before.",,,,
+"Thu, 30 May 2019 19:29:00 GMT",Ba'Raknul,does,ic,looks impressed.,,,,
+"Thu, 30 May 2019 19:30:00 GMT",Ba'Raknul,says,ic,"Master Quinn, good job.",,,,
+"Thu, 30 May 2019 19:30:00 GMT",Quinn,does,ic,nods admiringly.,,,,
+"Thu, 30 May 2019 19:30:00 GMT",Quinn,says,ic,"Aye, that's 'andsome that - almost convinced meself, and no mistake.",,,,
+"Thu, 30 May 2019 19:30:00 GMT",Orin,says,ic,Right.,,,,
+"Thu, 30 May 2019 19:30:00 GMT",Orin,does,ic,looks to the sky.,,,,
+"Thu, 30 May 2019 19:30:00 GMT",Orin,says,ic,"How much time have we got, yet?",,,,
+"Thu, 30 May 2019 19:30:00 GMT",Ba'Raknul,says,ic,"Do you have a deck of cards as well? All of them had their own deck, so you might need one.",as well (?) + All of✅,,,
+"Thu, 30 May 2019 19:30:00 GMT",Orin,says,ic,"Who's got Eggard's deck? I think you stashed it away, Ba.",,,,
+"Thu, 30 May 2019 19:30:00 GMT",,says,ic,Needs to be the one deck.,,,,
+"Thu, 30 May 2019 19:30:00 GMT",Ba'Raknul,does,ic,clicks his fingers and runs to his tent to grab Eggard's deck.,,,,
+"Thu, 30 May 2019 19:30:00 GMT",Ba'Raknul,does,ic,returns a few moments later.,,,,
+"Thu, 30 May 2019 19:30:00 GMT",GM,says,ic,By now there is but an hour or so before midnight.,,,"IC line from ""Ric""? Is that meant to be how it's output?✅",
+"Thu, 30 May 2019 19:31:00 GMT",Ba'Raknul,says,ic,Okay... anything else we want to prepare before we get into position?,,,,
+"Thu, 30 May 2019 19:31:00 GMT",Ba'Raknul,does,ic,throws the deck to Orin.,,,,
+"Thu, 30 May 2019 19:31:00 GMT",Quinn,does,ic,shakes his head.,,,,
+"Thu, 30 May 2019 19:31:00 GMT",Quinn,says,ic,Not that I can be thinkin'.,,,,
+"Thu, 30 May 2019 19:31:00 GMT",Orin,does,ic,catches it in one hand. They look quixotically at the wineskin in the other hand before stuffing the deck in their shirt and tying the skin to their belt.,,,,
+"Thu, 30 May 2019 19:33:00 GMT",Biron,says,ic,We won't need to hide anything I assume?,I capitalize✅,,,
+"Thu, 30 May 2019 19:33:00 GMT",Orin,does,ic,nods to Biron.,,,,
+"Thu, 30 May 2019 19:33:00 GMT",Orin,says,ic,"You had better take position soon and start looking the part, eh?",,,,
+"Thu, 30 May 2019 19:33:00 GMT",Quinn,does,ic,nods.,,,,
+"Thu, 30 May 2019 19:33:00 GMT",Quinn,says,ic,Aye... and good luck Orin.,,,,
+"Thu, 30 May 2019 19:33:00 GMT",Ba'Raknul,does,ic,fishes a bottle of oil from their bag.,,,,
+"Thu, 30 May 2019 19:33:00 GMT",Ba'Raknul,says,ic,I don't know how useful but if you need to be out of there in a hurry you could chuck this in the fire. Small bang and flash.,don't✅,,,
+"Thu, 30 May 2019 19:33:00 GMT",Orin,does,ic,stops to think a minute. Then stares at Biron.,,,,
+"Thu, 30 May 2019 19:33:00 GMT",Biron,does,ic,grunts and nods. Looks at Quinn.,,Capitalisation - Quinn✅,,
+"Thu, 30 May 2019 19:33:00 GMT",Biron,says,ic,"You, come on.",,,,
+"Thu, 30 May 2019 19:33:00 GMT",Ba'Raknul,does,ic,extends the bottle to Orin.,,,,
+"Thu, 30 May 2019 19:35:00 GMT",Ba'Raknul,says,ic,"No, Biron, no need to hide... just drink and grumble... should be easy for you.",,"No Biron, no need to hide.. Just drink and grumble.✅",,
+"Thu, 30 May 2019 19:37:00 GMT",GM,says,ic,"The rain is starting to fall more thickly, and the night sky has turned into a black blanket. Not that the dampness subdues the merry-making.",,,,
+"Thu, 30 May 2019 19:35:00 GMT",Orin,says,ic,Wait.,,,,
+"Thu, 30 May 2019 19:35:00 GMT",Biron,does,ic,stops.,,,,
+"Thu, 30 May 2019 19:35:00 GMT",Orin,does,ic,"removes their bow and quiver, holding it in open hands.",,,,
+"Thu, 30 May 2019 19:36:00 GMT",Orin,says,ic,Eggard wasn't an archer.,,,,
+"Thu, 30 May 2019 19:36:00 GMT",Biron,does,ic,grunts.,,,,
+"Thu, 30 May 2019 19:37:00 GMT",Ric,says,ooc,"Aw, an actual sweet moment between Orin and Biron!!",,This is appearing next to the descriptive section -> maybe move it earlier so it appears next to the part it's talking about?✅,,
+"Thu, 30 May 2019 19:37:00 GMT",Morgan,says,ooc,Orin is still contemplating poisoning him...,,,,
+"Thu, 30 May 2019 19:36:00 GMT",Orin,says,ic,Could you... hold them for me?,,,,
+"Thu, 30 May 2019 19:36:00 GMT",Orin,does,ic,gestures the items toward Biron.,,,,
+"Thu, 30 May 2019 19:37:00 GMT",Orin,says,ic,I'll need them nearby...,,,,
+"Thu, 30 May 2019 19:37:00 GMT",Biron,does,ic,grunts and nods.,,,,
+"Thu, 30 May 2019 19:37:00 GMT",Biron,does,ic,takes them.,,,,
+"Thu, 30 May 2019 19:37:00 GMT",Biron,says,ic,You'll get 'em back. Be ready to catch 'em if needed.,,get 'em back✅,,
+"Thu, 30 May 2019 19:37:00 GMT",Orin,does,ic,nods.,,,,
+"Thu, 30 May 2019 20:05:00 GMT",Ric,says,ooc,"So I've put your tokens on the map roughly where I thought you'd need them. Feel free to reposition your characters. Biron is nearby pretending to be drunk. Ba and Quinn are in the tower.
+",I think some of the lines form the same person could be a joined together (less confusing)?,,Not sure this chunk of annotation is posititioned correctly✅,
+"Thu, 30 May 2019 20:06:00 GMT",Morgan,says,ooc,Orin is definitely going to want to make sure they're not followed before they head to the card game.,,,,
+"Thu, 30 May 2019 20:06:00 GMT",Morgan,says,ooc,"They'll look for followers, then hide in the tents before coming out somewhere else with their hood up.",,,,
+"Thu, 30 May 2019 20:05:00 GMT",Liam,says,ooc,Did you need a Stealth roll? And how high is the tower?,,,,
+"Thu, 30 May 2019 20:06:00 GMT",Ric,says,ooc,"No need to roll Stealth, you had plenty of time to make sure you weren't being watched or followed.",,,,
+"Thu, 30 May 2019 20:06:00 GMT",Chris,says,ooc,Biron is just drinking out his wine skin and ripping into big chunks of meat.,,,,
+"Thu, 30 May 2019 20:06:00 GMT",Liam,says,ooc,And the height of the tower?,,,,
+"Thu, 30 May 2019 20:07:00 GMT",Ric,says,ooc,"Sorry, one sec... The towers put you 20 feet above ground. Including roof they're 30 feet high.",,,,
+"Thu, 30 May 2019 19:37:00 GMT",GM,says,ic,"The party make their way to their positions in the East Camp. As the rest of the camp slumbers, things are just getting started here as the youngest (and rowdiest) members of the camp light fires, play cards, drink and swap sordid tales.",,,,
+"Thu, 30 May 2019 19:38:00 GMT",GM,says,ic,"There is a vague sense of uneasiness, as if the whole camp was about to break out into a riot. Shouts are louder, the men and women here have... strange looks on their faces. The foul weather is bringing out the worst in the mercenaries.",,,,
+"Thu, 30 May 2019 19:38:00 GMT",GM,says,ic,"The party get into position, restless, hearts pounding, ready for the nights' work.",,,,
+"Thu, 30 May 2019 19:53:00 GMT",Ba'Raknul,does,ic,"sits in the dark and the rain, watching out to the east campfire.","rain, watching✅",,,
+"Thu, 30 May 2019 19:53:00 GMT",Quinn,does,ic,"places a quiver of arrows on the floor before him, slowly pulling one arrow after another and checking it's true.",it's✅,,,
+"Thu, 30 May 2019 19:53:00 GMT",Biron,does,ic,"sits, biting into a bit of meat in the bone, facing towards where Orin is, but not staring.",,,,
+"Thu, 30 May 2019 19:53:00 GMT",Biron,does,ic,slurps down his wineskin.,,,,
+"Thu, 30 May 2019 19:53:00 GMT",Quinn,does,ic,sighs as he looks down the length of one arrow.,,,,
+"Thu, 30 May 2019 19:53:00 GMT",Quinn,says,ic,Wet weather like this is no good for me arrows. Almost feels wrong to put this in someone when it's all warped like. Kinda insulting if you take my meaning.,when it's✅,,,
+"Thu, 30 May 2019 20:12:00 GMT",GM,says,ic,"Beneath the tower the camp stretches out before you, pitch black and dotted with glowing fires.",,,,
+"Thu, 30 May 2019 20:12:00 GMT",Biron,does,ic,while scoffing and slurping his food and drink. Biron also plants one of his strange metal javelins into the ground next to him.,,,,
+"Thu, 30 May 2019 20:12:00 GMT",Orin,does,ic,"pauses to pull the Five of Coins from their deck and slide it up a sleeve before checking the strange shortsword is loose in its scabbard. With a deep breath, they raise their hood and walk toward the card game.",,,,
+"Thu, 30 May 2019 20:14:00 GMT",GM,says,ic,"As Orin approaches the square of tents Eddard warned about, they can see a few cloaked figures already here.",,,,
+"Thu, 30 May 2019 20:14:00 GMT",GM,says,ic,"There is plenty of space to sit around the flickering flames, tended by a hooded man.",,,,
+"Thu, 30 May 2019 20:14:00 GMT",Ba'Raknul,does,ic,mutters quietly as people gather.,,,,
+"Thu, 30 May 2019 20:15:00 GMT",Ba'Raknul,says,ic,Yeah this rain isn't great for shooting... if I need I might get closer... if that happens stay here and cover.,,,,
+"Thu, 30 May 2019 20:15:00 GMT",Quinn,does,ic,glances down over the card game and mutters under his breath.,,isn't✅,capital i✅,
+"Thu, 30 May 2019 20:15:00 GMT",Quinn,says,ic,"Lots of hooded folk down there, Ba, let's hope we don't hit the wrong one.",,,,
+"Thu, 30 May 2019 20:16:00 GMT",GM,says,ic,"The hooded figures nod at Orin as they sit down round the fire, careful to keep their faces concealed.",let's✅,,,
+"Thu, 30 May 2019 20:16:00 GMT",GM,says,ic,"A couple sit together and mutter to each other, but the rest sit apart.",,,,
+"Thu, 30 May 2019 20:16:00 GMT",Orin,does,ic,nods in return.,,,,
+"Thu, 30 May 2019 20:16:00 GMT",Quinn,does,ic,tries to keep an eye on the one he thinks is Orin.,,,,
+"Thu, 30 May 2019 20:16:00 GMT",Ba'Raknul,does,ic,nods.,,,,
+"Thu, 30 May 2019 20:17:00 GMT",Ba'Raknul,says,ic,If we need to be shooting it's gone bad and it should be clear who's attacking who.,,,,
+"Thu, 30 May 2019 20:17:00 GMT",,says,ic,Hopefully this is an information gathering mission only.,,,who's✅,
+"Thu, 30 May 2019 20:17:00 GMT",Orin,rolls,ooc,Insight 6,,,,
+"Thu, 30 May 2019 20:17:00 GMT",Orin,does,ic,scans the other players for nervous behaviour.,,,,
+"Thu, 30 May 2019 20:17:00 GMT",Biron,does,ic,"takes a chomp, ripping off a chunk of meat, eyes up the hooded figures.",,,needs to be one line up✅,
+,,does,ic,counts how many cloaked figures he sees.,,,chomp✅,
+,,does,ic,"also watches to their movements, to see if anyone has a distinguishing walk or particular way they hold themselves.",,,,
+"Thu, 30 May 2019 20:17:00 GMT",Quinn,does,ic,nods almost imperceptibly.,,,,
+"Thu, 30 May 2019 20:17:00 GMT",Quinn,says,ic,Aye... let's hope you are right.,,,,
+"Thu, 30 May 2019 20:18:00 GMT",GM,says,ic,"Orin can clearly see the signs of impatience and fear, even though everyone is hooded. One figure taps their foot, another worries at the hem of their cloak. Orin counts five figures, not including themselves.",,,,
+"Thu, 30 May 2019 20:18:00 GMT",Orin,does,ic,mimics their nervousness.,,,,
+"Thu, 30 May 2019 20:19:00 GMT",GM,says,ic,A couple more figures join the fire.,,,,
+"Thu, 30 May 2019 20:19:00 GMT",GM,says,ic,"And then another figure arrives, taller than the others. This one does not appear to be nervous at all, and the rest all look up as they draw near.",,,,
+"Thu, 30 May 2019 20:19:00 GMT",GM,says,ic,This stranger strides up and sits down with a flourish of their cloak.,,,,
+"Thu, 30 May 2019 20:20:00 GMT",Stranger,says,ic,Shall we play?,,,,
+"Thu, 30 May 2019 20:20:00 GMT",GM,says,ic,"A hoarse voice, croaky but clearly a woman's.",,,,
+"Thu, 30 May 2019 20:20:00 GMT",GM,says,ic,"Around the campfire the figures draw their cards, showing the distinctive back design of a flock of birds.",,,,
+"Thu, 30 May 2019 20:20:00 GMT",Ba'Raknul,does,ic,"nods towards the fire, nervously playing with his bow, whispering.",,,,
+"Thu, 30 May 2019 20:21:00 GMT",Ba'Raknul,says,ic,Here we go.,,,,
+"Thu, 30 May 2019 20:21:00 GMT",Morgan,says,ooc,He he card pun.,,,,
+"Thu, 30 May 2019 20:21:00 GMT",Liam,says,ooc,Hahahaha.,,,,
+"Thu, 30 May 2019 20:22:00 GMT",Chris,says,ooc,Haha.,,,,
+"Thu, 30 May 2019 20:21:00 GMT",Orin,does,ic,follows suit.,,,,
+"Thu, 30 May 2019 20:21:00 GMT",Biron,does,ic,"looks around him as well to see if any one is sat watching him, or to see if lookouts are placed anywhere.",,,,
+"Thu, 30 May 2019 20:22:00 GMT",GM,says,ic,"The tall figure nods to her right, and the cloaked figure shows a card: the Prince of Flowers. Then to their right another card is shown: the Six of Sticks.",,,,
+"Thu, 30 May 2019 20:22:00 GMT",GM,says,ic,"And so on, until it gets to Orin's turn.",,,,
+"Thu, 30 May 2019 20:22:00 GMT",Orin,does,ic,shows the Five of Coins.,,,,
+"Thu, 30 May 2019 20:22:00 GMT",Orin,does,ic,lets the 'burnt' hand linger over the card before retracting it.,,,,
+"Thu, 30 May 2019 20:22:00 GMT",Stranger,does,ic,"nods, hesitates a moment, then moves around the circle.",,,,
+"Thu, 30 May 2019 20:23:00 GMT",Chris,says,ooc,"So how many people are there in total, excluding Orin?",,,,
+"Thu, 30 May 2019 20:23:00 GMT",Ric,says,ooc,8 now.,,,,
+"Thu, 30 May 2019 20:24:00 GMT",GM,says,ic,"The rotation is complete. There is a moment's silence, then...",,,,
+"Thu, 30 May 2019 20:24:00 GMT",Stranger,says,ic,Five of Coins! What happened to your hand?,,,,
+"Thu, 30 May 2019 20:24:00 GMT",Orin,does,ic,doing their best imitation of Eggard's voice:,,,,
+"Thu, 30 May 2019 20:25:00 GMT",Orin,says,ic,It's nothing. Just a gift from a sergeant.,,,,
+"Thu, 30 May 2019 20:25:00 GMT",Orin,does,ic,pulls the hand back into their sleeve.,,,,
+"Thu, 30 May 2019 20:25:00 GMT",Stranger,does,ic,nods.,,,,
+"Thu, 30 May 2019 20:25:00 GMT","Stranger
+",says,ic,They can be cruel.,,,,
+"Thu, 30 May 2019 20:25:00 GMT",Stranger,does,ic,sighs.,,,,
+"Thu, 30 May 2019 20:26:00 GMT",Stranger,says,ic,I have news! The inquisition put six women to the flame in Witch County.,,,,
+"Thu, 30 May 2019 20:26:00 GMT",Stranger,says,ic,"The Three Bastards are keen to show piety and are currying favour with the Church, so innocent women burn to shore up their support south of the border.",,,,
+"Thu, 30 May 2019 20:27:00 GMT",GM,says,ic,The cloaked men and women murmur in hushed and worried tones.,,,should be from The Stranger✅,
+"Thu, 30 May 2019 20:27:00 GMT",Orin,does,ic,makes genuine distressed noises.,,,,
+"Thu, 30 May 2019 20:29:00 GMT",Stranger,says,ic,Do not believe the superstitious nonsense that these women folk are witches. They merely objected too loudly to their sons and daughters being sent to a pointless war.,,,,
+"Thu, 30 May 2019 20:29:00 GMT",,says,ic,"Now, do any of you have anything for me this night?",,,,
+"Thu, 30 May 2019 20:29:00 GMT",Quinn,does,ic,"casually nocks an arrow and looks out beyond the walls of the camp, leaning on one of tower posts, looking down on the game.",,,,
+"Thu, 30 May 2019 20:29:00 GMT",Orin,does,ic,waits to see what the others do.,,,,
+"Thu, 30 May 2019 20:30:00 GMT",GM,says,ic,"The Prince of Flowers speaks first, relating a shockingly detailed report of the provisions in the commissary, including weapons and armour.",,,,
+"Thu, 30 May 2019 20:30:00 GMT",GM,says,ic,"The stranger seems very pleased at this. The Nine of Cups speaks about raiding the tent of the foreign fetch, the one with scars ""like you asked"".",,,,
+"Thu, 30 May 2019 20:30:00 GMT",GM,says,ic,But she has nothing else of importance to relate as nothing of interested was found.,,,,
+"Thu, 30 May 2019 20:32:00 GMT",Stranger,says,ic,Anyone else?,,,,
+"Thu, 30 May 2019 20:32:00 GMT",Orin,does,ic,shakes their head.,,,,
+"Thu, 30 May 2019 20:32:00 GMT",Stranger,says,ic,Very well.,,,,
+"Thu, 30 May 2019 20:32:00 GMT",,says,ic,I see we are missing the Three of Flowers and the Nine of Swords tonight.,,,,
+"Thu, 30 May 2019 20:32:00 GMT",,says,ic,"Five of Coins, you were sent with them.",,,,
+"Thu, 30 May 2019 20:32:00 GMT",,says,ic,What happened to them?,,,,
+"Thu, 30 May 2019 20:32:00 GMT",Biron,does,ic,finishes his food and stretches.,,,,
+"Thu, 30 May 2019 20:34:00 GMT",Ric,says,ooc,"Here we go, make the Deception check, no disadvantage due to your wound. DC 13.",,,,
+"Thu, 30 May 2019 20:44:00 GMT",Morgan,rolls,ooc,Deception 16,,,,
+"Thu, 30 May 2019 20:34:00 GMT",Chris,says,ooc,Boom.,,,,
+"Thu, 30 May 2019 20:34:00 GMT",Orin,says,ic,I'm sorry. We failed. I only just got away.,,,,
+"Thu, 30 May 2019 20:34:00 GMT",Stranger,does,ic,nods.,,,,
+"Thu, 30 May 2019 20:35:00 GMT",Stranger,says,ic,I heard they were sent with the bailiffs. They sacrificed their lives so that the folk might live free.,,,,
+"Thu, 30 May 2019 20:35:00 GMT",GM,says,ic,"Murmurs of ""For the Folk"" whisper around the campfire.",,,"Morgan, not Orin✅",
+"Thu, 30 May 2019 20:35:00 GMT",Stranger,says,ic,For the Folk!,,,,
+"Thu, 30 May 2019 20:36:00 GMT",Orin,says,ic,For the Folk!,,,,
+"Thu, 30 May 2019 20:36:00 GMT",Stranger,says,ic,"Prince of Flowers, I need you to ingratiate yourself with Sly Ben. We need to know where he's getting his liquor from, can you do that?",,,,
+"Thu, 30 May 2019 20:36:00 GMT",Flowers,does,ic,nods.,,,,
+"Thu, 30 May 2019 20:36:00 GMT",GM,says,ic,"The stranger gives out several missions to the hooded figures about, mostly double-checking the daily routines of senior officers and patrols.",,,,
+"Thu, 30 May 2019 20:36:00 GMT",GM,says,ic,Until she comes to Orin.,,,,
+"Thu, 30 May 2019 20:38:00 GMT",Stranger,says,ic,"Five of Coins, I have a special task for you. Unpleasant, but it needs to be done. I need you to kill a member of the night watch. The Northerner, I'm sure you know the one.",,,,
+"Thu, 30 May 2019 20:38:00 GMT",,says,ic,Can you do this?,,,,
+"Thu, 30 May 2019 20:38:00 GMT",Orin,does,ic,nods.,,,,
+"Thu, 30 May 2019 20:38:00 GMT",Stranger,does,ic,nods.,,,,
+"Thu, 30 May 2019 20:39:00 GMT",Stranger,says,ic,"The Sparrow will hear of your courage, all of you. There's a special place for you in the Commonwealth once we win the war.",,,,
+"Thu, 30 May 2019 20:39:00 GMT",,says,ic,For the Folk!,,,,
+"Thu, 30 May 2019 20:40:00 GMT",GM,says,ic,"The rest of the group murmur the Commonwealth motto, before starting to get up and leave.",,,,
+"Thu, 30 May 2019 20:40:00 GMT",Orin,does,ic,"waits for the others to go, but follows the stranger.",,,,
+"Thu, 30 May 2019 20:40:00 GMT",Quinn,does,ic,keeps an eye on a hooded figure to see which tent he or she heads to.,,,,
+"Thu, 30 May 2019 20:40:00 GMT",Orin,says,ic,Ma'am.,,,,
+"Thu, 30 May 2019 20:40:00 GMT",Ba'Raknul,does,ic,watches for any coming close to the tower.,,,,
+"Thu, 30 May 2019 20:40:00 GMT",Stranger,does,ic,"turns, looks sharply at Orin and hesitates for a moment. Still visible at the edge of the campfire, if she moves another five feet or so she'll disappear into the darkness beyond.",,,,
+"Thu, 30 May 2019 20:43:00 GMT",Orin,does,ic,looks nervously around and takes a few steps toward the tower.,,,,
+"Thu, 30 May 2019 20:43:00 GMT",Stranger,does,ic,smiles at Orin. They see the sharp point of her chin and the thin lips of her wry smile.,,,,
+"Thu, 30 May 2019 20:44:00 GMT",Ric,says,ooc,Roll initiative everyone.,,,,
+"Thu, 30 May 2019 20:44:00 GMT",Stranger,does,ic,whispers.,,,"don't understand this line, but definitely shouldn't be an action?",
+"Thu, 30 May 2019 20:44:00 GMT",Stranger,says,ic,Traitor!,,,,

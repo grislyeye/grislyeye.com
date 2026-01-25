@@ -120,4 +120,3 @@ All hidlings are known to each by secret gestures and signs.
 On reflection the above is a little too idiosyncratic for its intended purpose. It certainly has legs but it's a bit fiddly and _outré_ for your standard fantasy roleplay game. It might work as a standalone setting, but then it suffers from some blandness. Which is a shame. It remains here to serve as either a lesson or conversational piece for further thought and discussion.
 
 Please telegraph your thoughts on your social media platform of choice.
-

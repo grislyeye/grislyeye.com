@@ -4,7 +4,7 @@ Static HTML site for Grisly Eye Games.
 
 Requirements:
 
-  * [Node.js](http://nodejs.org/).
+- [Node.js](http://nodejs.org/).
 
 To set-up your environment execute:
 

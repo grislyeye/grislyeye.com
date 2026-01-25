@@ -11,7 +11,7 @@
     {% endif %}
 
     <meta name="description" content="{{ description or metadata.description }}">
-    <meta name="fediverse:creator" content="@grislyeye@c.im">
+    <meta name="fediverse:creator" content="@grislyeye@dice.camp">
 
     <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="{{ metadata.title }}">
 
@@ -77,41 +77,6 @@
       <script type="module" src="/vendor/vellum-random-table/vellum-random-table.js"></script>
     {% endif %}
 
-    {% if shareable %}
-      <style>
-        share-button:not(:defined) button,
-        share-button:defined a {
-          display: none;
-        }
-
-        share-button:not(:defined) a + a {
-          margin-inline-start: 1ch;
-        }
-
-        share-button:defined my-shares {
-          display: none;
-        }
-
-        #post share-button button {
-          background: none!important;
-          border: none;
-          text-decoration: underline;
-          cursor: pointer;
-        }
-
-        #post share-button img.icon {
-          width: 1rem;
-          height: 1rem;
-          border: none;
-          margin: 0;
-          padding: 0;
-          padding-top: 0.2em;
-          filter: brightness(0) invert(1);
-        }
-      </style>
-      <script type="module" src="/vendor/@daviddarnes/share-button/share-button.js"></script>
-    {% endif %}
-
     {% eleventyGoogleFonts 'https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap' %}
 
     <link href="mailto:ric@grislyeye.com" rel="me">
@@ -129,7 +94,7 @@
       <my-nav
         bluesky="https://bsky.app/profile/grislyeye.com"
         email="/mailing-list/"
-        mastodon="https://c.im/@grislyeye"
+        mastodon="https://dice.camp/@grislyeye"
         rss="/rss.xml"
         location="London"
       >
@@ -144,7 +109,7 @@
 
     <footer>
       <p class="legal">
-        Website version {{ pkg.version }} &copy; 2016-2025 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
+        Website version {{ pkg.version }} &copy; 2016-2026 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
       </p>
     </footer>
 
