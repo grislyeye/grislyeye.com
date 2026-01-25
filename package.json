@@ -16,7 +16,8 @@
     "test:links": "npx linkinator ./_site --retry --concurrency 1 --recurse --check-css --check-fragments --verbosity error --skip '(.*\\.reddit\\.com)'",
     "test:links:soft": "npx linkinator ./_site --status-code '404:warn' --retry --concurrency 1 --recurse --check-css --check-fragments --verbosity error --skip '(.*\\.reddit\\.com)'",
     "post:new": "plop post",
-    "product:new": "plop product"
+    "product:new": "plop product",
+    "review:new": "plop review"
   },
   "author": {
     "name": "Ric Wood",

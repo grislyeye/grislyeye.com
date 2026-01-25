@@ -8,8 +8,11 @@ layout: layouts/base.njk
     </div>
 
     <aside>
-      <img src="{% rawImageUrl page, image, 300 %}" title=" {{ title }}" alt="Cover of {{ title }}">
+      {% if image %}
+        <img src="{% rawImageUrl page, image, 300 %}" title=" {{ title }}" alt="Cover of {{ title }}">
+      {% endif %}
       <strong>Rating:</strong> {% for i in range(0, rating) -%}⭐️{%- endfor %}
+
     </aside>
 
     {{ content | safe }}
