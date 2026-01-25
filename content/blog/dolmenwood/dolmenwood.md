@@ -12,8 +12,8 @@ _Dolmenwood_ (Necrotic Gnome, 2025) might be the apotheosis of the OSR. It reall
 
 And the whimsy. So much whimsy.
 
-The only problem _Dolmenwood_ might have it's too perfect. Such flawless execution could only be tainted by having player characters coarsely stumble through its woods
+The only problem _Dolmenwood_ might have is that it's too perfect. Such flawless execution could only be tainted by having player characters stumble through its woods.
 
-Or, maybe it's too complete. The OSR urge to DIY is confounded because, well, there is nothing left to do except play it, leaving the GM twiddling his thumbs between sessions.
+Or, maybe it's too complete. The urge to homebrew is confounded because, well, there is nothing left to do except play it, leaving the GM twiddling his thumbs between sessions.
 
 One might also ask, who is this for? Its steep price puts it out of reach of your casual player. It's for the fans, a product of the crowdfunding craze that puts lengthy books in the hands of diehards and collectors. No shade, this will sit on my shelves as testament to my lack of self-control. And why not? It's a work of art, something to be admired and inspired by.
