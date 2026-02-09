@@ -9,6 +9,7 @@ layout: layouts/post.njk
 image: /products/wargod/wargod.png
 redirectTo: "https://grislyeye.itch.io/wargod"
 ---
+
 <aside class="purchase">
   <my-product
     id="digital"
@@ -18,11 +19,11 @@ redirectTo: "https://grislyeye.itch.io/wargod"
     currency="£"
     price="5"
     src="https://grislyeye.itch.io/wargod"
-    image="{% rawImageUrl page, "./wargod-digital.png", 200 %}"
+    image="{% rawImageUrl page, './wargod-digital.png', 200 %}"
   >
   </my-product>
 
-  <hr>
+  <hr />
 
   <my-product
     id="print"
@@ -33,17 +34,29 @@ redirectTo: "https://grislyeye.itch.io/wargod"
     price="10"
     src="https://buy.stripe.com/6oE17YbBs7Km3Bu6oo"
     notes='["+£2 postage.", "Shipping to the UK only."]'
-    image="{% rawImageUrl page, "./wargod-print.png", 200 %}"
+    image="{% rawImageUrl page, './wargod-print.png', 200 %}"
     disabled
   >
   </my-product>
 </aside>
 
-<p class="preview"><strong>d66</strong> grim fantasy careers for <a href="https://www.troikarpg.com/">Troika!</a> that vibe off the BOSR (British old-school renaissance).</p>
+<p class="preview">
+  <strong>d66</strong> grim fantasy careers for
+  <a href="https://www.troikarpg.com/">Troika!</a> that vibe off the BOSR
+  (British old-school renaissance).
+</p>
 
-<p>Play grubby fools, scoundrels or commoners thrown into an implied setting of farce and endless war.</p>
+<p>
+  Play grubby fools, scoundrels or commoners thrown into an implied setting of
+  farce and endless war.
+</p>
 
-<p>Inspired by the original <span class="product">Warhammer Fantasy Roleplay</span>, you can use <span class="title">Wargod!</span> to run your old adventures or plunge into new worlds of dark fantasy.</p>
+<p>
+  Inspired by the original
+  <span class="product">Warhammer Fantasy Roleplay</span>, you can use
+  <span class="title">Wargod!</span> to run your old adventures or plunge into
+  new worlds of dark fantasy.
+</p>
 
 <h4>Old-school British hack</h4>
 
@@ -58,15 +71,12 @@ redirectTo: "https://grislyeye.itch.io/wargod"
 <p>Created as part of ZineMonth2023.</p>
 
 <script>
-  const timezone =
-    Intl.DateTimeFormat()
-      .resolvedOptions()
-      .timeZone
+  const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
-  const shipping       = timezone && timezone === "Europe/London"
-  const buyPrintButton = document.getElementById("buy-print")
+  const shipping = timezone && timezone === "Europe/London";
+  const buyPrintButton = document.getElementById("buy-print");
 
-  if(!shipping && buyPrintButton) {
-    buyPrintButton.classList.add("disabled")
+  if (!shipping && buyPrintButton) {
+    buyPrintButton.classList.add("disabled");
   }
 </script>

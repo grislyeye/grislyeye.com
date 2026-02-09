@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit';
-import './my-section.js';
+import { LitElement, html, css } from "lit";
+import "./my-section.js";
 
 class MyHeroHeader extends LitElement {
   static styles = css`
@@ -20,22 +20,23 @@ class MyHeroHeader extends LitElement {
       margin: 0;
     }
 
-    @media(max-width: 500px) {
+    @media (max-width: 500px) {
       h1 {
         font-size: 4rem;
       }
     }
   `;
 
-  // eslint-disable-next-line class-methods-use-this
   render() {
     return html`
       <h1><slot name="title">Hero Header Title</slot></h1>
       <my-section>
-        <p class="description"><slot name="description">Hero header description</slot></p>
+        <p class="description">
+          <slot name="description">Hero header description</slot>
+        </p>
       </my-section>
     `;
   }
 }
 
-customElements.define('my-hero', MyHeroHeader);
+customElements.define("my-hero", MyHeroHeader);
