@@ -32,7 +32,7 @@ Criteria:
 
 **1st-level characters with agency.**
 
-**Popular.** This is important to me for a number of reasons. I don't just play my games, I write and publish for them too. In particular, I want to write settings and adventures without getting bogged down writing my own games (there are already more than enough). Writing for more popular games ensures that I have an audience, and a wealth of supplementary material to draw from.ta
+**Popular.** This is important to me for a number of reasons. I don't just play my games, I write and publish for them too. In particular, I want to write settings and adventures without getting bogged down writing my own games (there are already more than enough). Writing for more popular games ensures that I have an audience, and a wealth of supplementary material to draw from.
 
 **Open Licence.** Following from the above, having an open licence
 
@@ -64,7 +64,7 @@ This week things went wrong with the two games I run, on Thursday and Tuesday ev
 
 Then on Thursday, a player uncovered a rapier which they, rightly so, wanted to wield themselves. This stumped me, because rapiers aren't stated out in the core rules, and feels like it would make a non-optimal weapon choice if I reskin a broadsword, but more expensive.
 
-The problem I'm facing is that _Forbidden Lands_ is geared towards an Swords and Sorcery exploration style of play, and I'm trying to use it as a more general, fantasy system. And, now that I've been running _Forbidden Lands_ for almost a year now, I think it's time to take stock of the system.
+The problem I'm facing is that _Forbidden Lands_ is geared towards a Swords and Sorcery exploration style of play, and I'm trying to use it as a more general, fantasy system. And, now that I've been running _Forbidden Lands_ for almost a year now, I think it's time to take stock of the system.
 
 Things I like about _Forbidden Lands_ are:
 
@@ -90,7 +90,7 @@ Things I like about _Forbidden Lands_ are:
 
 Things I dislike:
 
-- ~~The books are very disorganised.~~
+- ~~The books are very disorganized.~~
   - ~~A lot of the subjects are not ordered alphabetically.~~
   - You have to constantly flip between sections of the book.
 - There is a confusing overlap between Empathy and Wits.
@@ -112,12 +112,12 @@ Things I dislike:
 
 ## The Books Themselves
 
-All of this has been a fairly abstract discussion about the mechanics of the game, but its physical representation is as much, or even more, important. The player's and game master's guides are both beautiful works, but they have one fatal flaw: poor organisation,
+All of this has been a fairly abstract discussion about the mechanics of the game, but its physical representation is as much, or even more, important. The player's and game master's guides are both beautiful works, but they have one fatal flaw: poor organization,
 
-Why, for example, does Symbolism come before Stone Song in the Magical Disciplines section? Whatever, it doesn't matter. What matters is that I've internalised this arbitrary ordering just so I can navigate the book. I'm sure there's a good reason, but that doesn't matter because it's non-intuitive and get's in the way of reading the damn book.
+Why, for example, does Symbolism come before Stone Song in the Magical Disciplines section? Whatever, it doesn't matter. What matters is that I've internalized this arbitrary ordering just so I can navigate the book. I'm sure there's a good reason, but that doesn't matter because it's non-intuitive and get's in the way of reading the damn book.
 
 ## Summary
 
-_Forbidden Lands_ is a lot more complex than it seems on a first reading, hampered by disorganised text.
+_Forbidden Lands_ is a lot more complex than it seems on a first reading, hampered by disorganized text.
 
 Really, _Forbidden Lands_ is crying out for another revision, even a second edition. You could argue _Dragonbane_ fills that role.
