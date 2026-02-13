@@ -28,7 +28,7 @@ So, can _Curseborne_ be stylish and desirable and _new_?
 
 It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can _anyone_ my age create something stylish and desirable and new?
 
-It occurs to me, then, that this isn't really a review of _Curseborne_. It's a retrospective of original _World of Darkness_ and my complicated feelings about it. To get to the point: is the appeal of 90s WoD just nostalgia?
+It occurs to me, then, that this isn't really a review of _Curseborne_. It's a retrospective of original *World of Darkness* and my complicated feelings about it. To get to the point: is the appeal of 90s WoD just nostalgia?
 
 **Chapter 1: The World.** The book starts off with an high-level summary to the setting, and we are introduced to the concept of the cursed world. In _Curseborne_ the world is filled with curses. Everyone experiences a constant stream of these curses creating a permanent dismal atmosphere, but the Accursed are more cursed. So cursed they have They have inherited your standard spread of urban fantasy curses: lycanthropy, vampirism and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without powers.
 
