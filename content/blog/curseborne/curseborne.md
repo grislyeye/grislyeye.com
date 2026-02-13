@@ -10,11 +10,11 @@ rating: 3
 
 > Curseborne is a game about being unapologetic monsters in a world where being monstrous is the least of your worries.
 
-_Onyx Path's_ new urban fantasy game [Curseborne](https://www.curseborne.com/) (Onyx Path Publishing, 2025) has brought me to a crisis. I'm asking myself questions I don't really want the answers to. Like: have I become everything I hate? Am I an awful grognard? Am I _uncool_?
+_Onyx Path's_ new urban fantasy game [Curseborne](https://www.curseborne.com/) (Onyx Path Publishing, 2025) has brought me to a crisis. I'm asking myself questions I don't really want the answers to. Have I become everything I hate? Am I an awful grognard? Am I _uncool_?
 
-No, that can't be right. It must be those kids at _Onyx Path Publishing_ who are wrong. Although, now I think about it, surely many of the people working the levers at Onyx are in my age cohort? What is Onyx but an act of nostalgia itself? An attempt to resurrect game lines that died with _White Wolf_. And who would've been playing and then later republishing those original games? Why, the very same sort of Gen Xers I was playing with in the 90s.
+No, that can't be right. It must be those kids at _Onyx Path Publishing_ who are wrong. Although, now I think about it, surely many of the people working the levers at Onyx are in my age cohort? What is Onyx but an act of nostalgia itself? An attempt to resurrect game lines that died with the original _White Wolf_. And who would've been playing and then later republishing those original games? Why, the very same sort of Gen Xers I was playing with in the 90s.
 
-Why has _Curseborne_ brought me to this crisis? Well, let me first explain what _Curseborne_ is. Now that _Paradox_ - the rights holders of the _World of Darkness_ - are publishing new material, the licenses that allowed Onyx to publish their own WoD products have expired. This leaves them quite without an IP for their specialist genre; urban fantasy. So, _Curseborne_ is an attempt to replace Paradox IP with an original setting of their own.
+Why has _Curseborne_ brought me to this crisis? Well, let me first explain what _Curseborne_ is. Now that _Paradox_ - the rights holders of the _World of Darkness_ - are publishing new material, the licenses that allowed Onyx to publish their own WoD products have expired. This leaves them without an IP for their specialist genre; urban fantasy. In other words, _Curseborne_ is an attempt to replace Paradox IP with an original setting of their own.
 
 Which is why _Curseborne_ fills me with apprehension: it is game haunted, if you will, by _Vampire: the Masquerade_, _Mage: the Ascension_ and others. It is, essentially, a product of pure nostalgia. A game written with the dubious premise "like the World of Darkness but different." Not that it's an unreasonable objective, but it comes from a place of practicality rather than creativity. _Curseborne_ doesn't start with a need and follow through with a game. It starts with a game in the hope it will become a need. It's not cynical, but maybe it's not entirely authentic either.
 
@@ -22,13 +22,13 @@ Of course, authenticity itself is subjective, and the accusation is probably a l
 
 Maybe, but I also have some reservations with _Onyx Path Publishing_ themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) This can lead to derivative and lengthy works filled with tedious lore that lacks much of the inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty.
 
-_White Wolf's_ real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. urban fantasy must be, if it is anything, stylish and desirable and _new_ and, if it isn't, well, what are you doing?
+And that's bad because _White Wolf's_ real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and _new_ and, if it isn't, well, what are you doing?
 
 So, can _Curseborne_ be stylish and desirable and _new_?
 
 It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can _anyone_ my age create something stylish and desirable and new?
 
-It occurs to me, then, that this isn't really a review of _Curseborne_ (sorry Onyx). It's more of an inquiry into my complicated feelings about the original _World of Darkness_. _Curseborne_ is the focus, but it's also the mirror I'm using to interrogate my biases. Is the appeal of 90s WoD just nostalgia? Is oWoD better than any of the contemporary urban fantasy settings?
+It occurs to me, then, that this isn't really a review of _Curseborne_. It's a retrospective of original _World of Darkness_ and my complicated feelings about it. To get to the point: is the appeal of 90s WoD just nostalgia?
 
 **Chapter 1: The World.** The book starts off with an high-level summary to the setting, and we are introduced to the concept of the cursed world. In _Curseborne_ the world is filled with curses. Everyone experiences a constant stream of these curses creating a permanent dismal atmosphere, but the Accursed are more cursed. So cursed they have They have inherited your standard spread of urban fantasy curses: lycanthropy, vampirism and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without powers.
 
