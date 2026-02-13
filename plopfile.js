@@ -53,6 +53,11 @@ export default (plop) => {
         type: "input",
         name: "title",
         message: "What's the title of the book?"
+      },
+      {
+        type: "input",
+        name: "rating",
+        message: "What rating did you give this book?"
       }
     ],
     actions: [
