@@ -37,7 +37,7 @@ Every urban horror/fantasy setting needs to answer the following questions:
 3. What are the splats?
 4. What are the core conflicts?
 
-Well, *Curseborne* is set in something I'm calling the "Cursed World," but which doesn't actually have a name in the book. It's their equivalent of the World of Darkness: the world is literally cursed, crawling with curses. Everyone experiences a constant stream of them, creating a permanent, dismal atmosphere but the Accursed are more cursed.
+Well, _Curseborne_ is set in something I'm calling the "Cursed World," but which doesn't actually have a name in the book. It's their equivalent of the World of Darkness: the world is literally cursed, crawling with curses. Everyone experiences a constant stream of them, creating a permanent, dismal atmosphere but the Accursed are more cursed.
 
 **Chapter 1: The World.** The book starts off with an high-level summary to the setting, and we are introduced to the concept of the cursed world. In _Curseborne_ the world is filled with curses. Everyone experiences a constant stream of these curses creating a permanent dismal atmosphere, but the Accursed are more cursed. So cursed they have They have inherited your standard spread of urban fantasy curses: lycanthropy, vampirism and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without powers.
 
