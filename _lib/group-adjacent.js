@@ -1,4 +1,4 @@
-// algorithmn copied from https://rlaanemets.com/post/show/group-array-by-adjacent-elements-in-javascript
+// algorithm copied from https://rlaanemets.com/post/show/group-array-by-adjacent-elements-in-javascript
 function groupAdjacent(array, cb) {
   return array.reduce((prev, cur) => {
     if (prev.length > 0) {
