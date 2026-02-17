@@ -32,7 +32,7 @@ class MyHeroHeader extends LitElement {
       <h1><slot name="title">Hero Header Title</slot></h1>
       <my-section>
         <p class="description">
-          <slot name="description">Hero header description</slot>
+          <slot name="description"></slot>
         </p>
       </my-section>
     `;
