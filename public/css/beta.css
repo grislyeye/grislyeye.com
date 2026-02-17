@@ -8,6 +8,7 @@
   }
 }
 
-.beta .previews {
+.beta > my-hero,
+.beta > my-section {
   margin-bottom: 3rem;
 }

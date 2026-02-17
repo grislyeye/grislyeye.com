@@ -34,6 +34,17 @@ class MySection extends LitElement {
       text-transform: lowercase;
     }
 
+    .next {
+      text-align: right;
+    }
+
+    .next ::slotted(a),
+    .next ::slotted(a:hover),
+    .next ::slotted(a:active),
+    .next ::slotted(a:visited) {
+      color: white;
+    }
+
     @media (width < 970px) {
       :host {
         margin-left: 0;
@@ -65,6 +76,9 @@ class MySection extends LitElement {
           <slot></slot>
         </div>
       </section>
+      <div class="next">
+        <slot name="next"></slot>
+      </div>
     `;
   }
 }
