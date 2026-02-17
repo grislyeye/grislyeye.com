@@ -85,7 +85,7 @@ layout: layouts/home.njk
 <my-section>
   <div slot="subtitle">campaign diaries</div>
   <ul id="sessions" class="previews">
-    {% for diary in collections.diaries | excludeTags([ "drafts" ]) | reverse | limit(4) %}
+    {% for diary in collections.diaries | reverse | limit(4) %}
       <li class="preview">
         {% if (diary.data.redirectTo) %}{% set url %}{{diary.data.redirectTo}}{% endset %}
         {% else %}{% set url %}{{diary.url}}{% endset %}
