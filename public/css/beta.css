@@ -1,0 +1,13 @@
+.beta > header {
+  margin-bottom: 4rem;
+}
+
+@media (width < 550px) {
+  .beta > header {
+    margin-bottom: 3rem;
+  }
+}
+
+.beta .previews {
+  margin-bottom: 3rem;
+}
