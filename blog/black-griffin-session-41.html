@@ -143,6 +143,7 @@ p:last-child {
 main > my-hero,
 main > my-section {
   max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin-bottom: 7rem;
 }
 
 .previews {
@@ -152,7 +153,6 @@ main > my-section {
   gap: var(--fluid-gap);
   padding: 0;
   margin: 0;
-  margin-bottom: 7rem;
 }
 
 ul.previews {
@@ -291,7 +291,7 @@ span.title {
   }
 }</style>
 
-    <link rel="stylesheet" href="/bundle/PDW5BJxjoS.css">
+    <link rel="stylesheet" href="/bundle/wYWD0JijW8.css">
 
     <script type="importmap">
       {
@@ -907,26 +907,26 @@ span.title {
           <span id="location"><!--lit-part-->London<!--/lit-part--></span>
         </div>
 
-        <!--lit-part 2diTtsMgHLU=--> <div class="social">
-      <!--lit-node 1--><a href="/mailing-list/" title="RSS">
+        <!--lit-part 6nbyowI1Ri4=--> <div class="social">
+      <!--lit-node 1--><a href="/mailing-list/" title="Mailing List">
         <!--lit-node 2--><img src="/images/email.svg" class="icon" alt="email label" />
         <!--lit-part-->Mailing List<!--/lit-part-->
       </a>
     </div><!--/lit-part-->
         <!--lit-part BRUAAAUVAAA=--><?><!--/lit-part-->
-        <!--lit-part 2diTtsMgHLU=--> <div class="social">
-      <!--lit-node 1--><a href="https://bsky.app/profile/grislyeye.com" title="RSS">
+        <!--lit-part 6nbyowI1Ri4=--> <div class="social">
+      <!--lit-node 1--><a href="https://bsky.app/profile/grislyeye.com" title="Bluesky">
         <!--lit-node 2--><img src="/images/bluesky.svg" class="icon" alt="bluesky label" />
         <!--lit-part-->Bluesky<!--/lit-part-->
       </a>
     </div><!--/lit-part-->
-        <!--lit-part 2diTtsMgHLU=--> <div class="social">
-      <!--lit-node 1--><a href="https://dice.camp/@grislyeye" title="RSS">
+        <!--lit-part 6nbyowI1Ri4=--> <div class="social">
+      <!--lit-node 1--><a href="https://dice.camp/@grislyeye" title="Mastodon">
         <!--lit-node 2--><img src="/images/mastodon.svg" class="icon" alt="mastodon label" />
         <!--lit-part-->Mastodon<!--/lit-part-->
       </a>
     </div><!--/lit-part-->
-        <!--lit-part 2diTtsMgHLU=--> <div class="social">
+        <!--lit-part 6nbyowI1Ri4=--> <div class="social">
       <!--lit-node 1--><a href="/rss.xml" title="RSS">
         <!--lit-node 2--><img src="/images/rss.svg" class="icon" alt="rss label" />
         <!--lit-part-->RSS<!--/lit-part-->
@@ -1002,6 +1002,17 @@ span.title {
       text-transform: lowercase;
     }
 
+    .next {
+      text-align: right;
+    }
+
+    .next ::slotted(a),
+    .next ::slotted(a:hover),
+    .next ::slotted(a:active),
+    .next ::slotted(a:visited) {
+      color: white;
+    }
+
     @media (width < 970px) {
       :host {
         margin-left: 0;
@@ -1021,7 +1032,7 @@ span.title {
     ::slotted(*) {
       margin-top: 0;
     }
-  </style><!--lit-part cfdBU0cIpvY=-->
+  </style><!--lit-part K1jC4B449i4=-->
       <section>
         <div class="subtitle">
           <slot name="subtitle"></slot>
@@ -1030,6 +1041,9 @@ span.title {
           <slot></slot>
         </div>
       </section>
+      <div class="next">
+        <slot name="next"></slot>
+      </div>
     <!--/lit-part--></template>
         <div slot="subtitle"><slot name="subtitle"></slot></div>
         <slot></slot>
@@ -2431,7 +2445,7 @@ span.title {
 
     <footer>
       <p class="legal">
-        Website version 3.32.1 &copy; 2016-2026 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
+        Website version 3.32.2 &copy; 2016-2026 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
       </p>
     </footer>
 

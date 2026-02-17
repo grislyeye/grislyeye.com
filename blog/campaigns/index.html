@@ -1,0 +1,2585 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      <title>The Grisly Eye - Campaign Diaries - The Grisly Eye</title>
+
+<meta name="description" content="...is Ric Wood, indie game designer and forever GM.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="Ric Wood">
+
+<link rel="canonical" href="/blog/campaigns/">
+
+<meta property="og:title" content="The Grisly Eye - Campaign Diaries - The Grisly Eye">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="/blog/campaigns/">
+<meta property="og:description" content="...is Ric Wood, indie game designer and forever GM.">
+<meta property="og:image" content="/images/logo.svg">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@grislyeye">
+<meta name="twitter:url" content="/blog/campaigns/">
+<meta name="twitter:title" content="The Grisly Eye - Campaign Diaries - The Grisly Eye">
+<meta name="twitter:description" content="...is Ric Wood, indie game designer and forever GM.">
+<meta name="twitter:image" content="/images/logo.svg">
+
+
+    
+
+    <meta name="description" content="...is Ric Wood, indie game designer and forever GM.">
+    <meta name="fediverse:creator" content="@grislyeye@dice.camp">
+
+    <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="The Grisly Eye">
+
+    <style>:root {
+  --font-family: "Alegreya", serif;
+  --title-font-family: "Andada Pro", serif;
+  --subtitle-font-family: "Alegreya Sans", sans;
+
+  --background-color: black;
+
+  --text-color: white;
+
+  --content-max-width: 740px;
+  --content-subtitle-max-width: 200px;
+
+  --fluid-gap: clamp(0.75rem, 3vw, 1.5rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  margin: 0;
+  background-image: url("/images/background.webp");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: var(--background-color);
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  font-size: 13pt;
+  color: var(--text-color);
+  line-height: 1;
+}
+
+body {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+main {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin: 0 auto 7rem;
+}
+
+main > :first-child {
+  margin-top: 0;
+}
+
+nav,
+footer {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+main > header {
+  margin-bottom: 7rem;
+}
+
+@media (width < 550px) {
+  main > header {
+    margin-bottom: 3rem;
+  }
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 5rem;
+  padding: 0;
+  list-style: none;
+}
+
+@media (width < 550px) {
+  nav {
+    margin-bottom: 3rem;
+  }
+}
+
+footer {
+  color: gray;
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+
+h1 {
+  font-family: var(--title-font-family);
+  line-height: 1;
+}
+
+h2,
+h3,
+h4 {
+  font-family: var(--title-font-family);
+}
+
+p {
+  line-height: 1;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+main > my-hero,
+main > my-section {
+  max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin-bottom: 7rem;
+}
+
+.previews {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-auto-rows: minmax(160px, 1fr);
+  gap: var(--fluid-gap);
+  padding: 0;
+  margin: 0;
+}
+
+ul.previews {
+  list-style: none;
+}
+
+.previews a,
+.previews li {
+  margin: 0;
+  padding: 0;
+}
+
+#post .previews a {
+  background-image: none;
+}
+
+#post .previews a:hover {
+  background-color: transparent;
+}
+
+my-preview {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1;
+}
+
+section.small {
+  break-inside: avoid-column;
+}
+
+section.small.page {
+  font-size: 1.5rem;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+#post ol ol,
+#post ul ul,
+#post ul ol,
+#post ol ul {
+  margin-bottom: 0;
+}
+
+input {
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+
+.content input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+#flawed-potion-illustration.illustration {
+  max-width: 150px;
+}
+
+#magi-illustration.illustration {
+  max-width: 200px;
+}
+
+#bailiff-illustration.illustration {
+  max-width: 350px;
+}
+
+#fey-exile-illustration.illustration,
+#grim-folk-illustration.illustration,
+#fey-illustration.illustration,
+#nights-watchmen-illustration.illustration,
+#example-npc-block.illustration,
+#inspiration-illustration.illustration {
+  max-width: 300px;
+}
+
+.content #city-illustration.illustration {
+  max-width: 300px;
+}
+
+img[src*="infantry.png"].background,
+img[src*="grim-folk.jpg"].background {
+  height: 640px;
+  width: auto;
+}
+
+img[src*="npc-block-v4.png"] {
+  max-width: 300px;
+}
+
+img[src*="npc-block-v4-header.png"],
+img[src*="npc-block-v4-description.png"],
+img[src*="npc-block-v4-characteristics.png"],
+img[src*="npc-block-v4-secrets.png"],
+img[src*="npc-block-v4-activities.png"],
+img.medium {
+  max-width: 400px;
+}
+
+#mailing-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+span.product {
+  font-style: italic;
+  color: red;
+}
+
+span.title {
+  color: red;
+  font-variant: small-caps;
+}
+
+.page-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+@media (width < 970px) {
+  .page-subtitle {
+    flex-direction: row;
+    padding-bottom: 0.3em;
+  }
+
+  .page-subtitle > * + * {
+    border-left: 1px solid;
+    padding-left: 0.5em;
+  }
+}</style>
+
+    <link rel="stylesheet" href="/bundle/wYWD0JijW8.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/lit/index.js",
+          "lit/": "/vendor/lit/",
+          "@lit/reactive-element": "/vendor/@lit/reactive-element/reactive-element.js",
+          "@lit/reactive-element/": "/vendor/@lit/reactive-element/",
+          "lit-element/": "/vendor/lit-element/",
+          "lit-html": "/vendor/lit-html/lit-html.js",
+          "lit-html/": "/vendor/lit-html/"
+        }
+      }
+    </script>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+    <meta name="theme-color" content="#000000">
+
+    
+
+    
+
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"><style data-href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Andada+Pro:wght@400;700&display=swap">/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96fp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk967p57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96bp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96np57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Xp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96Tp57F2IwN-Pw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaHrEBBsBhlBjvfkSLk96rp57F2IwM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLsx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLlx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLtx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLix6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLux6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLvx6jj4JN0EwI.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreya/v39/4UaBrEBBsBhlBjvfkSLhx6jj4JN0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VdtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7V5tvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VZtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VltvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VVtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VRtvWdUhm97sg.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/alegreyasans/v26/5aUz9_-1phKLFgshYDvh6Vwt7VptvWdUhm8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIZqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIdqSJsL9_AN3Q.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Andada Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/andadapro/v24/HhyRU5Qi9-SuOEhPe4LtAIlqSJsL9_A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+    <link href="mailto:ric@grislyeye.com" rel="me">
+  </head>
+
+  <body dsd-pending="">
+
+    <script>
+      if (HTMLTemplateElement.prototype.hasOwnProperty("shadowRoot")) {
+        document.body.removeAttribute("dsd-pending");
+      }
+    </script>
+
+    <nav>
+      <my-nav      bluesky="https://bsky.app/profile/grislyeye.com" email="/mailing-list/" mastodon="https://dice.camp/@grislyeye" rss="/rss.xml" location="London"><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: var(--subtitle-font-family);
+      font-size: 12pt;
+    }
+
+    @media (width < 650px) {
+      :host {
+        align-items: flex-start;
+      }
+    }
+
+    a {
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      min-width: max-content;
+      gap: 0.5em;
+    }
+
+    .main img.logo {
+      height: 30px;
+    }
+
+    .socials {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      text-transform: lowercase;
+      gap: 0.5em 1.5em;
+    }
+
+    .social a {
+      display: flex;
+      align-items: center;
+      gap: 0.2em;
+    }
+
+    .social img.icon {
+      height: 0.8em;
+    }
+
+    @media (width < 650px) {
+      .socials {
+        padding-top: 0.7em;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+    }
+  </style><!--lit-part fVVZWDRA2mM=-->
+      <div class="main">
+        <a href="/"
+          ><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"
+        /></a>
+        <span>
+          <a href="/"><slot name="name"></slot></a> |
+          <a href="/"><slot name="title"></slot></a>
+        </span>
+      </div>
+
+      <div class="socials">
+        <div class="social">
+          <img src="/images/location.svg" class="icon" alt="Location icon" />
+          <span id="location"><!--lit-part-->London<!--/lit-part--></span>
+        </div>
+
+        <!--lit-part 6nbyowI1Ri4=--> <div class="social">
+      <!--lit-node 1--><a href="/mailing-list/" title="Mailing List">
+        <!--lit-node 2--><img src="/images/email.svg" class="icon" alt="email label" />
+        <!--lit-part-->Mailing List<!--/lit-part-->
+      </a>
+    </div><!--/lit-part-->
+        <!--lit-part BRUAAAUVAAA=--><?><!--/lit-part-->
+        <!--lit-part 6nbyowI1Ri4=--> <div class="social">
+      <!--lit-node 1--><a href="https://bsky.app/profile/grislyeye.com" title="Bluesky">
+        <!--lit-node 2--><img src="/images/bluesky.svg" class="icon" alt="bluesky label" />
+        <!--lit-part-->Bluesky<!--/lit-part-->
+      </a>
+    </div><!--/lit-part-->
+        <!--lit-part 6nbyowI1Ri4=--> <div class="social">
+      <!--lit-node 1--><a href="https://dice.camp/@grislyeye" title="Mastodon">
+        <!--lit-node 2--><img src="/images/mastodon.svg" class="icon" alt="mastodon label" />
+        <!--lit-part-->Mastodon<!--/lit-part-->
+      </a>
+    </div><!--/lit-part-->
+        <!--lit-part 6nbyowI1Ri4=--> <div class="social">
+      <!--lit-node 1--><a href="/rss.xml" title="RSS">
+        <!--lit-node 2--><img src="/images/rss.svg" class="icon" alt="rss label" />
+        <!--lit-part-->RSS<!--/lit-part-->
+      </a>
+    </div><!--/lit-part-->
+      </div>
+    <!--/lit-part--></template>
+        <span slot="name">Ric Wood</span>
+        <span slot="title">The Grisly Eye</span>
+      </my-nav>
+    </nav>
+
+    <main>
+      <section class="beta">
+  <header>
+    <my-hero><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+    }
+
+    h1 {
+      font-size: 5rem;
+      text-transform: uppercase;
+
+      padding-bottom: 10px;
+      margin: 0;
+    }
+
+    .description {
+      font-size: 1.6rem;
+      margin: 0;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  </style><!--lit-part jYIIp9RESLo=-->
+      <h1><slot name="title">Hero Header Title</slot></h1>
+      <!--lit-node 2--><my-section defer-hydration><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      text-transform: lowercase;
+    }
+
+    .next {
+      text-align: right;
+    }
+
+    .next ::slotted(a),
+    .next ::slotted(a:hover),
+    .next ::slotted(a:active),
+    .next ::slotted(a:visited) {
+      color: white;
+    }
+
+    @media (width < 970px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+      }
+    }
+
+    ::slotted(*) {
+      margin-top: 0;
+    }
+  </style><!--lit-part K1jC4B449i4=-->
+      <section>
+        <div class="subtitle">
+          <slot name="subtitle"></slot>
+        </div>
+        <div class="content">
+          <slot></slot>
+        </div>
+      </section>
+      <div class="next">
+        <slot name="next"></slot>
+      </div>
+    <!--/lit-part--></template>
+        <p class="description">
+          <slot name="description"></slot>
+        </p>
+      </my-section>
+    <!--/lit-part--></template>
+      <span slot="title">Campaign <br> diaries</span>=
+    </my-hero>
+  </header>
+
+  <my-section><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: block;
+      margin-left: calc(var(--content-subtitle-max-width) * -1);
+    }
+
+    :host * {
+      box-sizing: border-box;
+    }
+
+    :host > section {
+      display: flex;
+      width: 100%;
+    }
+
+    .content {
+      max-width: var(--content-max-width);
+      width: 100%;
+    }
+
+    .subtitle {
+      min-width: var(--content-subtitle-max-width);
+      max-width: var(--content-subtitle-max-width);
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding-right: 1em;
+      text-align: right;
+
+      font-family: var(--subtitle-font-family);
+      font-size: 1rem;
+      text-transform: lowercase;
+    }
+
+    .next {
+      text-align: right;
+    }
+
+    .next ::slotted(a),
+    .next ::slotted(a:hover),
+    .next ::slotted(a:active),
+    .next ::slotted(a:visited) {
+      color: white;
+    }
+
+    @media (width < 970px) {
+      :host {
+        margin-left: 0;
+      }
+
+      :host > section {
+        display: block;
+      }
+
+      .subtitle {
+        min-width: unset;
+        max-width: unset;
+        text-align: left;
+      }
+    }
+
+    ::slotted(*) {
+      margin-top: 0;
+    }
+  </style><!--lit-part K1jC4B449i4=-->
+      <section>
+        <div class="subtitle">
+          <slot name="subtitle"></slot>
+        </div>
+        <div class="content">
+          <slot></slot>
+        </div>
+      </section>
+      <div class="next">
+        <slot name="next"></slot>
+      </div>
+    <!--/lit-part--></template>
+    <ul id="sessions" class="previews">
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/campaigns/black-griffin/42.html" title="Black Griffin 42">
+
+            
+              
+            
+
+            <my-preview  class="posts diaries drafts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin 42</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-41.html" title="Black Griffin 41 - The Court Martial">
+
+            
+              
+            
+
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin 41 - The Court Martial</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-40.html" title="Black Griffin 40 - The Hand Over">
+
+            
+              
+            
+
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin 40 - The Hand Over</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-39.html" title="Black Griffin 39 - The Double Cross">
+
+            
+              
+            
+
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin 39 - The Double Cross</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-38.html" title="Black Griffin 38 - Quinn">
+
+            
+              
+            
+
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin 38 - Quinn</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-37.html" title="Black Griffin 37 - The Near Miss">
+
+            
+              
+            
+
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin 37 - The Near Miss</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-36.html" title="Black Griffin 36 - The Chasm Nearer">
+
+            
+              
+            
+
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin 36 - The Chasm Nearer</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-35.html" title="Black Griffin Campaign Diary (Session 35)">
+
+            
+              
+            
+
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin Campaign Diary (Session 35)</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-34.html" title="Black Griffin Campaign Diary (Session 34)">
+
+            
+              
+            
+
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin Campaign Diary (Session 34)</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-33.html" title="Black Griffin Campaign Diary (Session 33)">
+
+            
+              
+            
+
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin Campaign Diary (Session 33)</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-32.html" title="Black Griffin Campaign Diary (Session 32)">
+
+            
+              
+            
+
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  light "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin Campaign Diary (Session 32)</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-31.html" title="Black Griffin Campaign Diary (Session 31)">
+
+            
+              
+            
+
+            <my-preview   background="/img/NiAmcYR2YG-250.webp" class="posts diaries  dark "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin Campaign Diary (Session 31)</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/black-griffin-session-30.html" title="Black Griffin Campaign Diary (Session 30)">
+
+            
+              
+            
+
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin Campaign Diary (Session 30)</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+    </ul>
+  </my-section>
+</section>
+
+
+    </main>
+
+    <footer>
+      <p class="legal">
+        Website version 3.32.2 &copy; 2016-2026 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
+      </p>
+    </footer>
+
+    <script type="module">
+      (async () => {
+        const litHydrateSupportInstalled = import(
+          '/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js'
+        );
+
+        if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {
+          const {hydrateShadowRoots} = await import(
+            '/vendor/@webcomponents/template-shadowroot/template-shadowroot.js'
+          );
+          hydrateShadowRoots(document.body);
+          document.body.removeAttribute("dsd-pending");
+        }
+
+        await litHydrateSupportInstalled;
+
+        import('/bundle/my-components.js');
+      })();
+    </script>
+
+    <!-- Current page: /blog/campaigns/ -->
+  </body>
+</html>

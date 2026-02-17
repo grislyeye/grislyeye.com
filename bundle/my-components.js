@@ -584,6 +584,17 @@
       text-transform: lowercase;
     }
 
+    .next {
+      text-align: right;
+    }
+
+    .next ::slotted(a),
+    .next ::slotted(a:hover),
+    .next ::slotted(a:active),
+    .next ::slotted(a:visited) {
+      color: white;
+    }
+
     @media (width < 970px) {
       :host {
         margin-left: 0;
@@ -614,6 +625,9 @@
           <slot></slot>
         </div>
       </section>
+      <div class="next">
+        <slot name="next"></slot>
+      </div>
     `;
     }
   };
@@ -650,7 +664,7 @@
       <h1><slot name="title">Hero Header Title</slot></h1>
       <my-section>
         <p class="description">
-          <slot name="description">Hero header description</slot>
+          <slot name="description"></slot>
         </p>
       </my-section>
     `;
@@ -730,7 +744,7 @@
     };
     static renderSocial(type, link, label) {
       return b2` <div class="social">
-      <a href="${link}" title="RSS">
+      <a href="${link}" title="${label}">
         <img src="/images/${type}.svg" class="icon" alt="${type} label" />
         ${label}
       </a>

@@ -754,3 +754,18 @@ vellum-monster h2 {
   font-size: smaller;
   color: gray;
 }
+
+      .beta > header {
+  margin-bottom: 4rem;
+}
+
+@media (width < 550px) {
+  .beta > header {
+    margin-bottom: 3rem;
+  }
+}
+
+.beta > my-hero,
+.beta > my-section {
+  margin-bottom: 3rem;
+}
