@@ -36,19 +36,30 @@ Anyway, let's get on with the review. There are five defining elements of an urb
 4. Factions
 5. Conflict
 
+To a lesser extent there are other elements: cosmology, occultism.
+
+Core themes:
+
+- Angst
+- Occultism
+
 There are fictional and meta aspects for each of these elements. The fictional aspects add a degree of consistency and realism, they help explain how a world with monsters exists. The meta aspects support the fantasy of playing a monster.
 
-### Everything Sucks
+## Everything Sucks
 
-Let us say that the core axiom of urban fantasy/horror is that supernatural monsters are real. And the presence of these monsters implies the world that is more dangerous than our own. This is the Darker World. If real monsters lurk in the shadows we might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc. Or, the Darker World could help conceal monsters. After all, if worse things happen all the time, the terrible things monsters do would just be part of the background radiation.
+The core axiom of urban fantasy/horror is that supernatural monsters are real. And the presence of these monsters implies a world that is more dangerous than our own. This is the **Darker World**. If real monsters lurk in the shadows we might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc. Alternatively, the Darker World could help conceal monsters. After all, if worse things happen all the time, the terrible things monsters do would just be part of the background noise, allowing monsters to hide in plain sight.
 
-The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist in, only deviating from reality as much as allows for the existence of monsters.
+The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist, only deviating from reality as much as allows for the existence of monsters without breaking this assumption.
 
-If you want to play angst-ridden characters, you simply must have something to be angsty _about_.
+However, the Darker World also supports the core fantasy of urban horror. If you want to play angst-ridden characters, you simply must have something to be angsty _about_.
 
-Well, _Curseborne_ is set in something I'm calling the "Cursed World," but which doesn't actually have a name in the book. It's their equivalent of the World of Darkness: the world is literally cursed, crawling with curses. Everyone experiences a constant stream of them, creating a permanent, dismal atmosphere but the Accursed are more cursed.
+Well, _Curseborne_ is set in something I'm calling the "Cursed World," but which doesn't actually have a name in the book. It's their equivalent of the World of Darkness: the world is literally cursed, crawling with curses. Everyone experiences a constant stream of them, creating a permanent, dismal atmosphere, but the Accursed are more cursed.
 
 **Chapter 1: The World.** The book starts off with an high-level summary to the setting, and we are introduced to the concept of the cursed world. In _Curseborne_ the world is filled with curses. Everyone experiences a constant stream of these curses creating a permanent dismal atmosphere, but the Accursed are more cursed. So cursed they have They have inherited your standard spread of urban fantasy curses: lycanthropy, vampirism and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without powers.
+
+## Conspiracy
+
+[Wainscot Society - TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/WainscotSociety)
 
 My favourite part of any WoD setting is: why doesn't everyone know about the monsters? The fantasy WoD delivers is not just that you are a creature of darkness, but that you are also part of a hidden, parallel society with its own intrigues and conflicts. Over the years _White Wolf_ employed a number of devices to explain how monster stay hidden: Paradox, the Veil, the Delirium etc. In _Curseborne_ however there's no Masquerade, no Technocracy, no grand conspiracy. People just rationalise the supernatural away. The general populace just don't care, which is at least an original sharp turn from the angst of the WoD.
 
