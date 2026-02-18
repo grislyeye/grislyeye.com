@@ -22,20 +22,29 @@ Of course, authenticity itself is subjective, and, as you'll see, _Curseborne_ i
 
 Maybe, but I also have some reservations with _Onyx Path Publishing_ themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) This can lead to derivative and lengthy works filled with tedious lore that lacks much of the inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty.
 
-And that's bad because 90s _White Wolf's_ real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and _new_ and, if it isn't, well, what are you doing?
+And that's bad because 90s _White Wolf's_ real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable, and _new_ and, if it isn't, well, what are you doing?
 
 So, can _Curseborne_ be stylish and desirable and _new_?
 
-It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can _anyone_ my age create something stylish and desirable and new? This isn't just a review of _Curseborne_. It's also very much an examination of my relationship with the original _World of Darkness_.
+It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can _anyone_ my age create something stylish and desirable and new? This isn't just a review of _Curseborne_. It's also an examination of my youthful relationship with the original _World of Darkness_. The comparison might seem unfair, and it probably is, but I still believe better things are possible. I believe that, if we look at what made the OWoD work, we can create new urban settings just as good, if not better.
 
-So, the actual review...
+Anyway, let's get on with the review. There are five defining elements of an urban fantasy setting:
 
-Every urban horror/fantasy setting needs to answer the following questions:
+1. Monsters are real
+2. The Darker World
+3. The Conspiracy
+4. Factions
+5. Conflict
 
-1. Why is the world dark?
-2. How do most people remain ignorant of the horrors?
-3. What are the splats?
-4. What are the core conflicts?
+There are fictional and meta aspects for each of these elements. The fictional aspects add a degree of consistency and realism, they help explain how a world with monsters exists. The meta aspects support the fantasy of playing a monster.
+
+### Everything Sucks
+
+Let us say that the core axiom of urban fantasy/horror is that supernatural monsters are real. And the presence of these monsters implies the world that is more dangerous than our own. This is the Darker World. If real monsters lurk in the shadows we might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc. Or, the Darker World could help conceal monsters. After all, if worse things happen all the time, the terrible things monsters do would just be part of the background radiation.
+
+The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist in, only deviating from reality as much as allows for the existence of monsters.
+
+If you want to play angst-ridden characters, you simply must have something to be angsty _about_.
 
 Well, _Curseborne_ is set in something I'm calling the "Cursed World," but which doesn't actually have a name in the book. It's their equivalent of the World of Darkness: the world is literally cursed, crawling with curses. Everyone experiences a constant stream of them, creating a permanent, dismal atmosphere but the Accursed are more cursed.
 
