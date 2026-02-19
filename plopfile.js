@@ -45,4 +45,27 @@ export default (plop) => {
       }
     ]
   });
+
+  plop.setGenerator("review", {
+    description: "Create a new review",
+    prompts: [
+      {
+        type: "input",
+        name: "title",
+        message: "What's the title of the book?"
+      },
+      {
+        type: "input",
+        name: "rating",
+        message: "What rating did you give this book?"
+      }
+    ],
+    actions: [
+      {
+        type: "add",
+        path: "content/blog/{{slug title}}/{{slug title}}.md",
+        templateFile: "_templates/review.md.hbs"
+      }
+    ]
+  });
 };

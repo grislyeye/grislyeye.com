@@ -133,7 +133,7 @@ export default async (eleventyConfig) => {
     );
   });
 
-  eleventyConfig.addPassthroughCopy("content/**/*.{jpg,png}");
+  eleventyConfig.addPassthroughCopy("content/**/*.{jpg,png,webp}");
 
   eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
     return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(
