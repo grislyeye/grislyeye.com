@@ -25,7 +25,9 @@ Maybe, but I also have some reservations with _Onyx Path Publishing_ themselves.
 And that's bad because 90s _White Wolf's_ real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable, and _new_ and, if it isn't, well, what are you doing?
 
 > [!NOTE]
-> ![Illustration of a vampire by Josh Timbrook](./content/blog/curseborne/josh-timbrook.jpg) The iconic art of Josh Timbrook was at the heart of what made the *World of Darkness* desirable.
+> ![Illustration of a vampire by Josh Timbrook](./content/blog/curseborne/josh-timbrook.jpg) 
+>
+> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the *World of Darkness* desirable. His illustrations oozed 
 
 So, can _Curseborne_ be stylish and desirable and _new_?
 
