@@ -25,9 +25,9 @@ Maybe, but I also have some reservations with _Onyx Path Publishing_ themselves.
 And that's bad because 90s _White Wolf's_ real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable, and _new_ and, if it isn't, well, what are you doing?
 
 > [!NOTE]
-> ![Illustration of a vampire by Josh Timbrook](./content/blog/curseborne/josh-timbrook.jpg) 
+> ![Illustration of a vampire by Josh Timbrook](./content/blog/curseborne/josh-timbrook.jpg)
 >
-> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the *World of Darkness* desirable. His illustrations oozed 
+> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the _World of Darkness_ desirable. His illustrations oozed
 
 So, can _Curseborne_ be stylish and desirable and _new_?
 
@@ -58,7 +58,7 @@ The core axiom of urban fantasy/horror is that supernatural monsters are real. A
 
 The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist, only deviating from reality as much as allows for the existence of monsters without breaking this assumption.
 
-However, the Darker World also supports the core fantasy of urban horror. If you want to play angst-ridden characters, you simply must have something to be angsty *about*.
+However, the Darker World also supports the core fantasy of urban horror. If you want to play angst-ridden characters, you simply must have something to be angsty _about_.
 
 Well, _Curseborne_ is set in something I'm calling the "Cursed World," but which doesn't actually have a name in the book. It's their equivalent of the World of Darkness: the world is literally cursed, crawling with curses. Everyone experiences a constant stream of them, creating a permanent, dismal atmosphere, but the Accursed are more cursed.
 
