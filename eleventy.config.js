@@ -2,6 +2,7 @@ import { DateTime } from "luxon";
 import esbuild from "esbuild";
 
 import markdownItAnchor from "markdown-it-anchor";
+import { alert } from "@mdit/plugin-alert";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginBundle from "@11ty/eleventy-plugin-bundle";
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
@@ -25,6 +26,12 @@ export default async (eleventyConfig) => {
       permalink: markdownItAnchor.permalink.headerLink(),
       level: [1, 2, 3, 4],
       slugify: eleventyConfig.getFilter("slugify")
+    });
+
+    mdLib.use(alert, {
+      titleRender: () => "",
+      openRender: () => "<aside>",
+      closeRender: () => "</aside>"
     });
   });
 

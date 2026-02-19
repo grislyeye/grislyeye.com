@@ -41,6 +41,7 @@
     "@eslint/eslintrc": "^3.3.3",
     "@eslint/js": "^10.0.1",
     "@lit-labs/eleventy-plugin-lit": "^1.0.6",
+    "@mdit/plugin-alert": "^0.22.4",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "@types/node": "^25.2.3",
     "@webcomponents/template-shadowroot": "^0.2.1",
