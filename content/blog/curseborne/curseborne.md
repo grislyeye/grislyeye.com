@@ -24,9 +24,14 @@ Maybe, but I also have some reservations with _Onyx Path Publishing_ themselves.
 
 And that's bad because 90s _White Wolf's_ real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable, and _new_ and, if it isn't, well, what are you doing?
 
+> [!NOTE]
+> ![Illustration of a vampire by Josh Timbrook](./content/blog/curseborne/josh-timbrook.jpg) The iconic art of Josh Timbrook was at the heart of what made the *World of Darkness* desirable.
+
 So, can _Curseborne_ be stylish and desirable and _new_?
 
 It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can _anyone_ my age create something stylish and desirable and new? This isn't just a review of _Curseborne_. It's also an examination of my youthful relationship with the original _World of Darkness_. The comparison might seem unfair, and it probably is, but I still believe better things are possible. I believe that, if we look at what made the OWoD work, we can create new urban settings just as good, if not better.
+
+### The Review Itself
 
 Anyway, let's get on with the review. There are five defining elements of an urban fantasy setting:
 
@@ -45,19 +50,19 @@ Core themes:
 
 There are fictional and meta aspects for each of these elements. The fictional aspects add a degree of consistency and realism, they help explain how a world with monsters exists. The meta aspects support the fantasy of playing a monster.
 
-## Everything Sucks
+#### Everything Sucks
 
 The core axiom of urban fantasy/horror is that supernatural monsters are real. And the presence of these monsters implies a world that is more dangerous than our own. This is the **Darker World**. If real monsters lurk in the shadows we might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc. Alternatively, the Darker World could help conceal monsters. After all, if worse things happen all the time, the terrible things monsters do would just be part of the background noise, allowing monsters to hide in plain sight.
 
 The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist, only deviating from reality as much as allows for the existence of monsters without breaking this assumption.
 
-However, the Darker World also supports the core fantasy of urban horror. If you want to play angst-ridden characters, you simply must have something to be angsty _about_.
+However, the Darker World also supports the core fantasy of urban horror. If you want to play angst-ridden characters, you simply must have something to be angsty *about*.
 
 Well, _Curseborne_ is set in something I'm calling the "Cursed World," but which doesn't actually have a name in the book. It's their equivalent of the World of Darkness: the world is literally cursed, crawling with curses. Everyone experiences a constant stream of them, creating a permanent, dismal atmosphere, but the Accursed are more cursed.
 
 **Chapter 1: The World.** The book starts off with an high-level summary to the setting, and we are introduced to the concept of the cursed world. In _Curseborne_ the world is filled with curses. Everyone experiences a constant stream of these curses creating a permanent dismal atmosphere, but the Accursed are more cursed. So cursed they have They have inherited your standard spread of urban fantasy curses: lycanthropy, vampirism and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without powers.
 
-## Conspiracy
+#### The Conspiracy
 
 [Wainscot Society - TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/WainscotSociety)
 
