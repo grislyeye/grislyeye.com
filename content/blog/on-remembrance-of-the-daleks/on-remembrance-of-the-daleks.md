@@ -30,7 +30,7 @@ This was not your dad's _Doctor Who_.
 
 It seems strange to think about late-80s _Doctor Who_ as cool. We're talking about a (by that time) obscure British science fiction series with a distinctly middle-class audience. (Look no further than Ace's _Blue Peter_ badges.) You have to understand, it was a less cynical time trying hard to be cynical. The endless cycle of gritty reboots had only just got started, and it seemed they'd never get stale. It felt like a fresh start for _Doctor Who_, but it turned out to spell its end.
 
-![Title screen for Remembrance of the Daleks by Ben Aaronovitch](./content/blog/on-remembrance-of-the-daleks/remembrance-of-the-daleks-title.png "Remembrance of the Daleks")
+![Title screen for Remembrance of the Daleks by Ben Aaronovitch](remembrance-of-the-daleks-title.png "Remembrance of the Daleks")
 
 ### Hi Vis
 
@@ -68,7 +68,7 @@ I mean, even _Loki_ addressed this, and that's coming from within the confines o
 
 You see, we’re always told interfering with history is dangerous… unless it’s the Doctor doing it. In which case, it’s just the sensible politics of time travel. Leave it to the grown-ups. Just as with the neoliberal consensus, better things are not possible. Interfering with the status-quo could only lead to worse outcomes, just as meddling with time by, say, killing Hitler inevitably paves the way for a hypothetical Super Hitler.
 
-![Screencap of the Hand of Omega from Remembrance of the Daleks](./content/blog/on-remembrance-of-the-daleks/hand-of-omega.png "The Hand of Omega")
+![Screencap of the Hand of Omega from Remembrance of the Daleks](hand-of-omega.png "The Hand of Omega")
 
 ## Hand of Omega
 
@@ -82,7 +82,7 @@ It also shares a lot in common with the TARDIS. A semi-intelligent box that hide
 
 I don’t think the Hand is ever referenced again in the _Doctor Who_ TV canon, which is a shame. A piece of grimdark worldbuilding erased by Russell T. Davies’ shiny, new “Whoniverse”. The Americans already have enough glossy sci-fi, why couldn't we draw from the rich tradition of distinctively grubby British dystopia, instead? And I can’t think of a better vehicle for that than _Doctor Who_. Certainly, the 7th Doctor was heading in that direction before it got cancelled.
 
-![Still of the special weapons Dalek from Episode 4 of Remembrance of the Daleks](./content/blog/on-remembrance-of-the-daleks/special-weapons-dalek.png "Special Weapons Dalek")
+![Still of the special weapons Dalek from Episode 4 of Remembrance of the Daleks](special-weapons-dalek.png "Special Weapons Dalek")
 
 ## Special Weapons
 
@@ -92,7 +92,7 @@ You see, it hints at more: if there’s a special weapons Dalek what other speci
 
 <aside>
 
-[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](/products/context)
+[![Cover image from CONT/EXT](../../products/context/context.png "CONT/EXT")](/products/context)
 
 This article was research for [CONT/EXT](/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 

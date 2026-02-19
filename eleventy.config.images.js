@@ -1,7 +1,6 @@
 import path from "path";
 import eleventyImage from "@11ty/eleventy-img";
 import markdownIt from "markdown-it";
-import markdownItEleventyImg from "markdown-it-eleventy-img";
 
 export default async (eleventyConfig) => {
   function relativeToInputPath(inputPath, relativeFilePath) {
@@ -58,12 +57,6 @@ export default async (eleventyConfig) => {
       html: true,
       breaks: true,
       linkify: true
-    }).use(markdownItEleventyImg, {
-      imgOptions: {
-        widths: [720],
-        outputDir: path.join("_site", "img"),
-        formats: ["jpeg", "png"]
-      }
     })
   );
 };

@@ -26,7 +26,7 @@ In his classic space opera _A Fire Upon the Deep_, Vernor Vinge describes the ti
 
 Vernor then completely undercuts this by having one of these creatures sit down at a reading desk to sip brandy and smoke a cigar. What happened?
 
-![Still from Annihilation, 2018](./content/blog/alien-as-outside-context-entity-2/annihilation.webp "The Lighthouse")
+![Still from Annihilation, 2018](annihilation.webp "The Lighthouse")
 
 ## Xenopsychological parochialism
 
@@ -34,7 +34,7 @@ Vernor then completely undercuts this by having one of these creatures sit down 
 
 <aside>
 
-![Cover of Annihilation by Jeff Vandermeer](./content/blog/alien-as-outside-context-entity-2/annihilation.jpg "Annihilation")
+![Cover of Annihilation by Jeff Vandermeer](annihilation.jpg "Annihilation")
 
 Here are some examples of xenopsychological science fiction:
 
@@ -63,7 +63,7 @@ If an alien could speak, why would it? Would we even know it was talking? Would 
 
 All very philosophical, but the point is that language is the crux of portraying alien psychology. An encounter with aliens should not just be a categorisation problem ("stones that can think!?") but should be a fundamental language problem. When we see an alien, we should not be able to fully articulate what we're looking at.
 
-![Still from Alien of Jonesy hissing at the xenomorph, 1979](./content/blog/alien-as-outside-context-entity-2/jonesy.png "Jonesy knows what's up")
+![Still from Alien of Jonesy hissing at the xenomorph, 1979](jonesy.png "Jonesy knows what's up")
 
 ## Alien (1979), a case study
 
@@ -99,7 +99,7 @@ We understand what the xenomorph does, but the unanswered _why_ is what makes us
 
 <aside>
 
-[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](/products/context)
+[![Cover image from CONT/EXT](../../products/context/context.png "CONT/EXT")](/products/context)
 
 This article was research for [CONT/EXT](/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 

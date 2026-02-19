@@ -9,7 +9,7 @@ image: /blog/wisdom/book-of-wisdom.jpg
 
 <aside>
 
-[![Image from "Book of Wisdom" of Francysk Skaryna 1518](./content/blog/wisdom/book-of-wisdom.jpg "Book of Wisdom")](/products/context)
+[![Image from "Book of Wisdom" of Francysk Skaryna 1518](book-of-wisdom.jpg "Book of Wisdom")](/products/context)
 
 _Image from "Book of Wisdom" of Francysk Skaryna 1518_
 

@@ -22,7 +22,7 @@ But, how do you go about portraying incomprehensible aliens?
 
 ### Star Trek Futurism
 
-![Still of Captain Kirk look shocked from Star Trek](./content/blog/alien-as-outside-context-entity/captain-kirk.jpg "Captain Kirk")
+![Still of Captain Kirk look shocked from Star Trek](captain-kirk.jpg "Captain Kirk")
 
 Firstly, in order to question our assumptions about alien life, you need to understand Star Trek futurism. Star Trek futurism is the (often unconscious) bias that the future will be like the eponymous (and often nonsense) TV show. It's an optimistic vision of the future as it ought to be, with faster-than-light travel and (most relevant here) contact with ubiquitous, intelligent and human-like alien life.
 
@@ -38,7 +38,7 @@ But these creatures can never be terrifying because they are too like us. We mus
 
 I propose a new category: Aliens as outside context entities. The alien as fundamental physiological, psychological, categorical and semantic break with our parochial assumptions of what alien life might look like.
 
-![Cover of Sundiver by David Brin](./content/blog/alien-as-outside-context-entity/sundiver.jpg "Sundivers")
+![Cover of Sundiver by David Brin](sundiver.jpg "Sundivers")
 
 ### Xenobiological universalism
 
@@ -68,7 +68,7 @@ Autocatalysts - molecules that can create _themselves_ without being used up - d
 
 <aside>
 
-![Cover of Diaspora by Greg Egan](./content/blog/alien-as-outside-context-entity/diaspora.jpg "Diaspora")
+![Cover of Diaspora by Greg Egan](diaspora.jpg "Diaspora")
 
 Examples of xenoscientific fiction include:
 
@@ -110,7 +110,7 @@ When creating improbable biologies, there must be some hook our players can grab
 
 <aside>
 
-[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](/products/context)
+[![Cover image from CONT/EXT](../../products/context/context.png "CONT/EXT")](/products/context)
 
 This article was research for [CONT/EXT](/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 

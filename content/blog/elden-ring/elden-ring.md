@@ -9,7 +9,7 @@ image: /blog/elden-ring/cover.jpg
 
 <aside>
 
-![Cover of Fever House](./content/blog/elden-ring/cover.jpg "Fever House")
+![Cover of Fever House](cover.jpg "Fever House")
 
 </aside>
 
