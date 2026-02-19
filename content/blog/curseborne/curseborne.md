@@ -25,9 +25,9 @@ Maybe, but I also have some reservations with _Onyx Path Publishing_ themselves.
 And that's bad because 90s _White Wolf's_ real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable, and _new_ and, if it isn't, well, what are you doing?
 
 > [!NOTE]
-> ![Illustration of a vampire by Josh Timbrook](./content/blog/curseborne/josh-timbrook.jpg)
+> ![Illustration of a vampire by Josh Timbrook](josh-timbrook.jpg)
 >
-> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the _World of Darkness_ desirable. His illustrations oozed
+> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the _World of Darkness_ so desirable. His fashion-conscious illustrations oozed sex appeal, and set the bar (or should have) for all art in urban horror games.
 
 So, can _Curseborne_ be stylish and desirable and _new_?
 
@@ -35,22 +35,15 @@ It's a question that fills me with existential dread because the lingering subte
 
 ### The Review Itself
 
-Anyway, let's get on with the review. There are five defining elements of an urban fantasy setting:
+As I wrote this review I came to the conclusion that there are five core elements of urban fantasy roleplaying games:
 
-1. Monsters are real
+1. Monsters are real and hidden (goes without saying)
 2. The Darker World
 3. The Conspiracy
 4. Factions
 5. Conflict
 
-To a lesser extent there are other elements: cosmology, occultism.
-
-Core themes:
-
-- Angst
-- Occultism
-
-There are fictional and meta aspects for each of these elements. The fictional aspects add a degree of consistency and realism, they help explain how a world with monsters exists. The meta aspects support the fantasy of playing a monster.
+There are fictional and meta aspects for each of these elements, which I'll discuss below. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
 #### Everything Sucks
 
@@ -114,6 +107,6 @@ What's more, Accursed can also have other powers called Edges.
 
 But there is no core conflict here! Merely a lot of smaller ones, that don't seem to represent any significant threat to the splats.
 
-To be honest, _Curseborne_ isn't bad. It has some nice elements and perhaps I shouldn't judge before it's had time to properly bed in. A few good supplements can turn a game line around, or elaborate on the original designers intentions to reveal a better game beneath.
+To be honest, _Curseborne_ isn't bad. It has some nice elements and perhaps I should reserve judgement until it's had time to bed in. A few good supplements can turn a game line around, or elaborate on the original designers intentions to reveal a better game beneath.
 
 What it isn't is a beginner's game. I'm not sure new player's could properly consume it without the complicated historical context of the _World of Darkness_ game lines that came before. Is _Curseborne_ more complicated than _Dungeons & Dragons 5th Edition_? No. Could it easily be a lot simpler? Absolutely.
