@@ -54,7 +54,6 @@
     "linkinator": "^7.5.3",
     "luxon": "^3.7.2",
     "markdown-it-anchor": "^9.2.0",
-    "markdown-it-eleventy-img": "^0.10.2",
     "papaparse": "^5.5.3",
     "plop": "^4.0.5",
     "prettier": "3.8.1",

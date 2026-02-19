@@ -20,7 +20,7 @@ This post evolved out of a [self-essay](https://rolltodoubt.wordpress.com/2023/1
 
 At the edges of [CONT/EXT](/products/context/) is the institution after which the module is named. What kind of organisation is CONT/EXT, and what is its place in a game like _Mothership_?
 
-![Still for title screen of Alien (1979)](./content/blog/shiftless-horror/nostromo.jpg "Commercial towing vehicle 'The Nostromo'")
+![Still for title screen of Alien (1979)](nostromo.jpg "Commercial towing vehicle 'The Nostromo'")
 
 ## Shiftless
 
@@ -28,7 +28,7 @@ In _Alien_ (1979) the protagonists are not scientists or explorers, they are wor
 
 <aside>
 
-![Cast picture from Alien (1979)](./content/blog/shiftless-horror/alien-cast.jpg "Cast of Alien (1979)")
+![Cast picture from Alien (1979)](alien-cast.jpg "Cast of Alien (1979)")
 
 In my mind the characters from _Alien_ seemed working class but, looking through the cast list, actually a lot of them are officers, of one form or another. Distinctly middle-class occupations.
 
@@ -49,7 +49,7 @@ Elements of this "shiftless" or "grubby" science fiction include:
 - **Exploitation.** Billionaires dream of reaching space: a limitless void free from physical restrictions and the social forces that bind the rich and protect the vulnerable. The shiftless always keep a cynical eye on such endeavours.
 - **Institutional.** All of the above combine into shiftless sci-fi's most common motif: the oppressive institution.
 
-![Still of Jessica Hyde from Utopia (2013)](./content/blog/shiftless-horror/jessica-hyde.jpg "Jessica Hyde")
+![Still of Jessica Hyde from Utopia (2013)](jessica-hyde.jpg "Jessica Hyde")
 
 ## The Inevitable Horror of British Institutions
 
@@ -77,7 +77,7 @@ In many ways, these institutions mirror the forces of the universe itself. Their
 
 And CONT/EXT is part of that horror: it's inhuman ruthlessness. The existential threats to humanity are terrifying, but so are the strategies for survival. Agents of CONT/EXT expose themselves to bizarre alien infections, sacrifice their lives, just to learn something, anything that might give humanity a slim chance to survive impending annihilation. For what? So they might be the last to die? So that their loved ones might have a chance aboard whatever fateful lifeboat CONT/EXT might scramble together?
 
-![Still of George Smiley and Control from Tinker Tailor Soldier Spy (2011)](./content/blog/shiftless-horror/tinker-tailor-soldier-spy.jpg "George Smiley and Control")
+![Still of George Smiley and Control from Tinker Tailor Soldier Spy (2011)](tinker-tailor-soldier-spy.jpg "George Smiley and Control")
 
 ### A survey of fictional British institutions
 
@@ -131,7 +131,7 @@ Perhaps this explains the preponderance of secret societies across the Atlantic:
 
 <aside>
 
-[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](/products/context)
+[![Cover image from CONT/EXT](../../products/context/context.png "CONT/EXT")](/products/context)
 
 This article was research for [CONT/EXT](/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 

@@ -12,7 +12,7 @@ image: /blog/spark-lifepath-system/percy.png
 >
 > - _Gloriana_, Michael Moorcock
 
-![Cover of Gloriana](./content/blog/spark-lifepath-system/gloriana.png "Cover of Gloriana")
+![Cover of Gloriana](gloriana.png "Cover of Gloriana")
 
 As part of my prep I've been using tables for all elements of my campaign: rumours, locations, NPCs, etc. Everything is tabulated so that it can be randomly selected at a moment's notice, during play or prep. It has a number of benefits. Firstly, it's an aid for improvisation and naturalism.
 
@@ -65,7 +65,7 @@ Create the following tables:
 
 You can roll as many as 30 times on the same spark table for this system, so tables may have to be large (perhaps three d20 table) to create unique outcomes for each player.
 
-![Dismas](./content/blog/spark-lifepath-system/dismas.png "Dismas")
+![Dismas](dismas.png "Dismas")
 
 ## Dismas Remade
 
@@ -133,7 +133,7 @@ To get us started, we'll call our example PC "Percy".
 
 <aside>
 
-![Portrait of Percy](./content/blog/spark-lifepath-system/percy.png "Percy")
+![Portrait of Percy](percy.png "Percy")
 
 </aside>
 
