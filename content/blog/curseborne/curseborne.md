@@ -27,7 +27,7 @@ And that's bad because 90s _White Wolf's_ real product was always cool. They see
 > [!NOTE]
 > ![Illustration of a vampire by Josh Timbrook](josh-timbrook.jpg)
 >
-> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the _World of Darkness_ so desirable. His fashion-conscious illustrations oozed sex appeal, and set the bar (or should have) for all art in urban horror games. I'm not sure the *Curseborne* art lives up to his standard.
+> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the _World of Darkness_ so desirable. His fashion-conscious illustrations oozed sex appeal, and set the bar (or should have) for all art in urban horror games. I'm not sure the _Curseborne_ art lives up to his standard.
 
 So, can _Curseborne_ be stylish and desirable and _new_?
 
@@ -38,12 +38,16 @@ It's a question that fills me with existential dread because the lingering subte
 As I wrote this review I came to the conclusion that there are five core elements of urban fantasy roleplaying games:
 
 1. Monsters are real and hidden (goes without saying)
+
 2. The Darker World
+
 3. The Conspiracy
+
 4. Factions
+
 5. Conflict
 
-So it seemed a sensible idea to structure the review around them. There are fictional and meta aspects for each of these elements, and that seems like solid base on which to discuss _Curseborne_. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
+It seems sensible to structure the review around them. I'll be looking at the fictional and meta aspects of each of these elements. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
 #### 1. Monsters are Real
 
@@ -51,7 +55,7 @@ The book starts off with an high-level summary to the setting, and we are introd
 
 #### 2. The Darker World
 
-The core axiom of urban fantasy/horror is that supernatural monsters are real. And the presence of these monsters implies a world that is more dangerous than our own. This is the **Darker World**. If real monsters lurk in the shadows we might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc. Alternatively, the Darker World could help conceal monsters. After all, if worse things happen all the time, the terrible things monsters do would just be part of the background noise, allowing monsters to hide in plain sight.
+The core axiom of urban fantasy/horror is that supernatural monsters are real. And the presence of these monsters implies a world that is more dangerous than our own. This is the **Darker World**. If real monsters lurk in the shadows we might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc.
 
 The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist, only deviating from reality as much as allows for the existence of monsters without breaking this assumption.
 
