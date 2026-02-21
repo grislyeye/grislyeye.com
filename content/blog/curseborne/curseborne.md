@@ -2,7 +2,7 @@
 title: Curseborne
 tags:
   - posts
-date: 2026-01-27
+date: 2026-02-24
 layout: layouts/review.njk
 image: /blog/curseborne/cover.png
 rating: 3
@@ -13,6 +13,10 @@ rating: 3
 _Onyx Path's_ new urban fantasy game _[Curseborne](https://www.curseborne.com/)_ (Onyx Path Publishing, 2025) has brought me to a crisis. I'm asking myself questions I don't really want the answers to. Have I become everything I hate? Am I an awful grognard? Am I _uncool_?
 
 No, that can't be right. It must be those kids at _Onyx Path Publishing_ who are wrong. Although, now I think about it, surely many of the people working the levers at Onyx are in my age cohort? What is Onyx but an act of nostalgia itself? An attempt to resurrect game lines that died with the original _White Wolf_. And who would've been playing and then later republishing those original games? Why, the very same sort of Gen Xers I was playing with in the 90s.
+
+> [!NOTE]
+>
+> In this post use the terms urban fantasy and urban horror interchangeably. *Curseborne* describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, *Vampire: the Masquerade* is described as urban horror or fantasy equally often online.
 
 Why has _Curseborne_ brought me to this crisis? Well, let me first explain what _Curseborne_ is. Now that _Paradox_ - the rights holders of the _World of Darkness_ - are publishing new material, the licenses that allowed Onyx to publish their own WoD products have expired. This leaves them without an IP for their specialist genre; urban fantasy. In other words, _Curseborne_ is an attempt to replace Paradox IP with an original setting of their own.
 
@@ -33,23 +37,21 @@ So, can _Curseborne_ be stylish and desirable and _new_?
 
 It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can _anyone_ my age create something stylish and desirable and new? This isn't just a review of _Curseborne_. It's also an examination of my youthful relationship with the original _World of Darkness_. The comparison might seem unfair, and it probably is, but I still believe better things are possible. I believe that, if we look at what made the OWoD work, we can create new urban settings just as good, if not better.
 
-### The Review Itself
+As I wrote this review I came to the reckon that there are, obviously, five core elements to any urban fantasy roleplaying game:
 
-As I wrote this review I came to the conclusion that there are five core elements of urban fantasy roleplaying games:
-
-1. Monsters are real and hidden (goes without saying)
-2. The Darker World
-3. The Conspiracy
+1. Monsters are real
+2. The world is darker
+3. A conspiracy hides the monsters
 4. Factions
 5. Conflict
 
 It seems sensible to structure the review around them. I'll be looking at the fictional and meta aspects of each of these elements. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
-#### 1. Monsters are Real
+#### 1. The monsters are real
 
-The book starts off with an high-level summary to the setting, and we are introduced to the concept of the cursed world. In _Curseborne_ the world is filled with curses. Everyone experiences a constant stream of these curses creating a permanent dismal atmosphere, but the Accursed are more cursed. So cursed they have They have inherited your standard spread of urban fantasy curses: lycanthropy, vampirism and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
+That monsters are real is the core conceit of urban fantasy. The book starts off with an high-level summary to the setting, and we are introduced to the concept of the cursed world. In _Curseborne_ the world is filled with curses. Everyone experiences a constant stream of these curses creating a permanent dismal atmosphere, but the Accursed are more cursed. So cursed they have They have inherited your standard spread of urban fantasy curses: lycanthropy, vampirism and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
 
-#### 2. The Darker World
+#### 2. The world is darker
 
 The core axiom of urban fantasy/horror is that supernatural monsters are real. And the presence of these monsters implies a world that is more dangerous than our own. This is the **Darker World**. If real monsters lurk in the shadows we might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc.
 
