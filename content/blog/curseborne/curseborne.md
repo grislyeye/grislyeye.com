@@ -16,7 +16,7 @@ No, that can't be right. It must be those kids at _Onyx Path Publishing_ who are
 
 > [!NOTE]
 >
-> In this post use the terms urban fantasy and urban horror interchangeably. *Curseborne* describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, *Vampire: the Masquerade* is described as urban horror or fantasy equally often online.
+> In this post use the terms urban fantasy and urban horror interchangeably. _Curseborne_ describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, _Vampire: the Masquerade_ is described as urban horror or fantasy equally often online.
 
 Why has _Curseborne_ brought me to this crisis? Well, let me first explain what _Curseborne_ is. Now that _Paradox_ - the rights holders of the _World of Darkness_ - are publishing new material, the licenses that allowed Onyx to publish their own WoD products have expired. This leaves them without an IP for their specialist genre; urban fantasy. In other words, _Curseborne_ is an attempt to replace Paradox IP with an original setting of their own.
 
@@ -26,12 +26,12 @@ Of course, authenticity itself is subjective, and, as you'll see, _Curseborne_ i
 
 Maybe, but I also have some reservations with _Onyx Path Publishing_ themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) This can lead to derivative and lengthy works filled with tedious lore that lacks much of the inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty.
 
-And that's bad because 90s _White Wolf's_ real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable, and _new_ and, if it isn't, well, what are you doing?
+And that's bad because 90s _White Wolf's_ real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and _new_, and if it isn't, well, what are you doing?
 
 > [!NOTE]
 > ![Illustration of a vampire by Josh Timbrook](josh-timbrook.jpg)
 >
-> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the _World of Darkness_ so desirable. His fashion-conscious illustrations oozed sex appeal, and set the bar (or should have) for all art in urban horror games. I'm not sure the _Curseborne_ art lives up to his standard.
+> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the _World of Darkness_ so appealing. His fashion-conscious illustrations oozed sex appeal, and set the bar (or should have) for all art in urban horror games. I'm not sure the _Curseborne_ art lives up to his standard.
 
 So, can _Curseborne_ be stylish and desirable and _new_?
 
@@ -41,7 +41,7 @@ As I wrote this review I came to the reckon that there are, obviously, five core
 
 1. Monsters are real
 2. The world is darker
-3. A conspiracy hides the monsters
+3. Something hides the monsters
 4. Factions
 5. Conflict
 
@@ -49,15 +49,17 @@ It seems sensible to structure the review around them. I'll be looking at the fi
 
 #### 1. The monsters are real
 
-That monsters are real is the core conceit of urban fantasy. The book starts off with an high-level summary to the setting, and we are introduced to the concept of the cursed world. In _Curseborne_ the world is filled with curses. Everyone experiences a constant stream of these curses creating a permanent dismal atmosphere, but the Accursed are more cursed. So cursed they have They have inherited your standard spread of urban fantasy curses: lycanthropy, vampirism and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
+The core conceit of urban fantasy is, of course, that monsters are real. I won't elaborate further.
+
+In _Curseborne_, the monsters are the Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalised this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
 
 #### 2. The world is darker
 
-The core axiom of urban fantasy/horror is that supernatural monsters are real. And the presence of these monsters implies a world that is more dangerous than our own. This is the **Darker World**. If real monsters lurk in the shadows we might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc.
+If supernatural monsters are real, this implies a world bleaker than our own. We might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc.
 
 The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist, only deviating from reality as much as allows for the existence of monsters without breaking this assumption.
 
-However, the Darker World also supports the core fantasy of urban horror. If you want to play angst-ridden characters, you simply must have something to be angsty _about_.
+However, the Darker World also supports the core fantasy of urban horror. If you want to play angst-ridden characters, you simply must have something to be angsty _about_. Although, _Curseborne_ deviates here. It describes itself as hopepunk, as opposed to the gothic-punk of the WoD. Despite some research, I'm still not sure what that means, or what is particularly hopeful about the setting of _Curseborne_, but there you go.
 
 Well, _Curseborne_ is set in something I'm calling the "Cursed World," but which doesn't actually have a name in the book. It's their equivalent of the World of Darkness: the world is literally cursed, crawling with curses. Everyone experiences a constant stream of them, creating a permanent, dismal atmosphere, but the Accursed are more cursed.
 
