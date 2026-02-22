@@ -51,7 +51,7 @@ It seems sensible to structure the review around them. I'll be looking at the fi
 
 The core conceit of urban fantasy is, of course, that monsters are real. I won't elaborate further.
 
-In _Curseborne_, the monsters are the Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalised this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
+In _Curseborne_, the monsters are the Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalied this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
 
 #### 2. The world is darker
 
