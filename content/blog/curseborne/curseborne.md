@@ -37,21 +37,21 @@ So, can _Curseborne_ be stylish and desirable and _new_?
 
 It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can _anyone_ my age create something stylish and desirable and new? This isn't just a review of _Curseborne_. It's also an examination of my youthful relationship with the original _World of Darkness_. The comparison might seem unfair, and it probably is, but I still believe better things are possible. I believe that, if we look at what made the OWoD work, we can create new urban settings just as good, if not better.
 
-As I wrote this review I came to the reckon that there are, obviously, five core elements to any urban fantasy roleplaying game:
+As I wrote this review I came to the reckon that there are five core elements to any urban fantasy roleplaying game:
 
 1. Monsters are real
 2. The world is darker
 3. Something hides the monsters
-4. Factions
+4. The splats
 5. Conflict
 
 It seems sensible to structure the review around them. I'll be looking at the fictional and meta aspects of each of these elements. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
-#### 1. The monsters are real
+#### 1. Monsters are real
 
-The core conceit of urban fantasy is, of course, that monsters are real. I won't elaborate further.
+The core conceit of urban fantasy is, of course, that monsters are real. It's kinda obvious, so I won't elaborate on it further.
 
-In _Curseborne_, the monsters are the Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalised this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
+In _Curseborne_, the monsters are the Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalized this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
 
 #### 2. The world is darker
 
