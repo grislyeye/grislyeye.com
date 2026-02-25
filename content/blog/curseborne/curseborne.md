@@ -47,7 +47,7 @@ As I wrote this review I came to the reckon that there are five core elements to
 
 It seems sensible to structure the review around them. I'll be looking at the fictional and meta aspects of each of these elements. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
-#### 1. Monsters are real
+#### 1. The monsters are real
 
 The core conceit of urban fantasy is, of course, that monsters are real. It's kinda obvious, so I won't elaborate on it further.
 
