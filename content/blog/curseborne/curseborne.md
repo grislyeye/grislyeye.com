@@ -37,7 +37,7 @@ So, can _Curseborne_ be stylish and desirable and _new_?
 
 It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion is: can _anyone_ my age create something stylish and desirable and new? This isn't just a review of _Curseborne_. It's also an examination of my youthful relationship with the original _World of Darkness_. The comparison might seem unfair, and it probably is, but I still believe better things are possible. I believe that we can create new urban settings just as good if not better, if we look at what made the OWoD work.
 
-As I wrote this review I came to the reckon that there are five core elements to any urban fantasy roleplaying game:
+So, what *does* make an urban fantasy game work? I reckon there are five core elements to any urban fantasy roleplaying game:
 
 1. Monsters are real
 2. The world is darker
