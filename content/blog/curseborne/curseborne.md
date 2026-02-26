@@ -16,7 +16,7 @@ No, that can't be right. It must be those kids at _Onyx Path Publishing_ who are
 
 > [!NOTE]
 >
-> In this post use the terms urban fantasy and urban horror interchangeably. _Curseborne_ describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, _Vampire: the Masquerade_ is described as urban horror or fantasy equally often online.
+> In this post use the terms urban fantasy and urban horror interchangeably. _Curseborne_ describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, _Vampire: the Masquerade_ seems to be described equally as urban horror or fantasy.
 
 Why has _Curseborne_ brought me to this crisis? Well, let me first explain what _Curseborne_ is. Now that _Paradox_ - the rights holders of the _World of Darkness_ - are publishing new material, the licenses that allowed Onyx to publish their own WoD products have expired. This leaves them without an IP for their specialist genre; urban fantasy. In other words, _Curseborne_ is an attempt to replace Paradox IP with an original setting of their own.
 
@@ -35,7 +35,7 @@ And that's bad because 90s _White Wolf's_ real product was always cool. They see
 
 So, can _Curseborne_ be stylish and desirable and _new_?
 
-It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can _anyone_ my age create something stylish and desirable and new? This isn't just a review of _Curseborne_. It's also an examination of my youthful relationship with the original _World of Darkness_. The comparison might seem unfair, and it probably is, but I still believe better things are possible. I believe that, if we look at what made the OWoD work, we can create new urban settings just as good, if not better.
+It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion is: can _anyone_ my age create something stylish and desirable and new? This isn't just a review of _Curseborne_. It's also an examination of my youthful relationship with the original _World of Darkness_. The comparison might seem unfair, and it probably is, but I still believe better things are possible. I believe that we can create new urban settings just as good if not better, if we look at what made the OWoD work.
 
 As I wrote this review I came to the reckon that there are five core elements to any urban fantasy roleplaying game:
 
