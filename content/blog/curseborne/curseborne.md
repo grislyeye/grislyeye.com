@@ -49,7 +49,7 @@ It seems sensible to structure the review around them. I'll be looking at the fi
 
 #### 1. The monsters are real
 
-The core conceit of urban fantasy is, of course, that monsters are real. It's kinda obvious, so I won't elaborate on it further.
+Of course, the core conceit of urban fantasy is that monsters - vampires, werewolves, etc. - are real. It's kinda obvious, so I won't elaborate on it further.
 
 In _Curseborne_, the monsters are the Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalized this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
 
@@ -74,6 +74,10 @@ Most of the rest of the chapter is then dedicated to the cosmology of the settin
 So far so good. The setting elements - liminalities, Accursed, etc. - are inventive, sympathetic to the themes and give a creative arena of play. It's a little tepid, but the bones are solid
 
 Like the _Chronicles of Darkness_, _Curseborne_ is less global, with less canon. It's more distributed and local. There is no overarching conflict. Unfortunately, this also leaves the setting a little... uninspiring? I'm don't immediately understand what player characters are supposed to do. I don't immediately identify with the Accursed. What stories are you I supposed to tell? Liminalities sound cool at first, but the execution is confusing and complicated. Most liminalities are places, but they can also be people and things. They serve a variety of functions, some very specific, which hint at
+
+### 5. The splats of course
+
+Clear silhouettes
 
 **Chapter 2: Lineages.** Here is the heart of the matter. Urban fantasy TTRPGs live or die by their [splats](https://whitewolf.fandom.com/wiki/Splat#Fatsplats,_secondary_splats,_and_tiers). They introduce the aesthetic, core concepts, themes and motifs.
 
