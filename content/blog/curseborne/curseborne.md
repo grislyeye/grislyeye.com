@@ -49,7 +49,7 @@ It seems sensible to structure the review around them. I'll be looking at the fi
 
 #### 1. The monsters are real
 
-Of course, the core conceit of urban fantasy is that monsters - vampires, werewolves, etc. - are real. Not just real, they are also people, playable characters  It's kinda obvious, so I won't elaborate on it further.
+Of course, the core conceit of urban fantasy is that monsters - vampires, werewolves, etc. - are real. Not just real, they are also people, playable characters It's kinda obvious, so I won't elaborate on it further.
 
 In _Curseborne_, the monsters are the Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalized this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
 
