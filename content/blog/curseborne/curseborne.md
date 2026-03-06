@@ -39,11 +39,11 @@ It's a question that fills me with existential dread because the lingering subte
 
 So, what *does* make an urban fantasy game work? I reckon there are five core elements to any urban fantasy roleplaying game:
 
-1. Monsters are real
-2. The world is darker
-3. Something hides the monsters
-4. The splats
-5. Conflict
+1. Monsters
+2. Darker World
+3. Conspiracy
+4. Splats
+5. Conflicts
 
 It seems sensible to structure the review around them. I'll be looking at the fictional and meta aspects of each of these elements. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
@@ -55,7 +55,7 @@ In _Curseborne_, the monsters are the Accursed. The world is filled with curses,
 
 #### 2. The world is darker
 
-If supernatural monsters are real, this implies a world bleaker than our own. We might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc.
+If supernatural monsters are real, this implies a world bleaker than our own. We might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc. Conversely, if monsters can hide it means their atrocities are at least comparable to those of human's.
 
 The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist, only deviating from reality as much as allows for the existence of monsters without breaking this assumption.
 
