@@ -49,7 +49,7 @@ It seems sensible to structure the review around them. I'll be looking at the fi
 
 #### 1. The monsters are real
 
-Of course, the core conceit of urban fantasy is that monsters - vampires, werewolves, etc. - are real. It's kinda obvious, so I won't elaborate on it further.
+Of course, the core conceit of urban fantasy is that monsters - vampires, werewolves, etc. - are real. Not just real, they are also people, playable characters  It's kinda obvious, so I won't elaborate on it further.
 
 In _Curseborne_, the monsters are the Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalized this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
 
@@ -66,6 +66,8 @@ Well, _Curseborne_ is set in something I'm calling the "Cursed World," but which
 #### 3. The Conspiracy
 
 [Wainscot Society - TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/WainscotSociety)
+
+Monsters are not just, they are also people, playable creatures with their own problems, social and political.
 
 My favourite part of any WoD setting is: why doesn't everyone know about the monsters? The fantasy WoD delivers is not just that you are a creature of darkness, but that you are also part of a hidden, parallel society with its own intrigues and conflicts. Over the years _White Wolf_ employed a number of devices to explain how monster stay hidden: Paradox, the Veil, the Delirium etc. In _Curseborne_ however there's no Masquerade, no Technocracy, no grand conspiracy. People just rationalise the supernatural away. The general populace just don't care, which is at least an original sharp turn from the angst of the WoD.
 
