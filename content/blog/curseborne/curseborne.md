@@ -16,7 +16,7 @@ No, that can't be right. It must be those kids at _Onyx Path Publishing_ who are
 
 > [!NOTE]
 >
-> In this post use the terms urban fantasy and urban horror interchangeably. _Curseborne_ describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, _Vampire: the Masquerade_ seems to be described equally as urban horror or fantasy.
+> In this post use the terms urban fantasy and urban horror interchangeably. _Curseborne_ describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, _Vampire: the Masquerade_ is described as urban horror or fantasy equally often online.
 
 Why has _Curseborne_ brought me to this crisis? Well, let me first explain what _Curseborne_ is. Now that _Paradox_ - the rights holders of the _World of Darkness_ - are publishing new material, the licenses that allowed Onyx to publish their own WoD products have expired. This leaves them without an IP for their specialist genre; urban fantasy. In other words, _Curseborne_ is an attempt to replace Paradox IP with an original setting of their own.
 
@@ -31,16 +31,16 @@ And that's bad because 90s _White Wolf's_ real product was always cool. They see
 > [!NOTE]
 > ![Illustration of a vampire by Josh Timbrook](josh-timbrook.jpg)
 >
-> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the _World of Darkness_ so appealing. His fashion-conscious illustrations oozed sex appeal, and set the bar (or should have) for all art in urban horror games. I'm not sure the _Curseborne_ art lives up to his standard.
+> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the _World of Darkness_ so appealing. His fashion-conscious illustrations oozed sex appeal, and set the bar (or should have) for all art in urban horror games. I'm not sure the _Curseborne_ art lives up to his example.
 
 So, can _Curseborne_ be stylish and desirable and _new_?
 
-It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion is: can _anyone_ my age create something stylish and desirable and new? This isn't just a review of _Curseborne_. It's also an examination of my youthful relationship with the original _World of Darkness_. The comparison might seem unfair, and it probably is, but I still believe better things are possible. I believe that we can create new urban settings just as good if not better, if we look at what made the OWoD work.
+It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can _anyone_ my age create something stylish and desirable and new? Because this isn't just a review of _Curseborne_, it's an examination of my youthful relationship with the original _World of Darkness_. The comparison might seem unfair, and it probably is, but I still believe better things are possible. I believe that, if we look at what made the OWoD work, we can create new urban settings just as good, if not better.
 
-So, what *does* make an urban fantasy game work? I reckon there are five core elements to any urban fantasy roleplaying game:
+As I wrote this review I came to the reckon that there are, obviously, five core elements to any urban fantasy roleplaying game:
 
 1. Monsters
-2. Darker World
+2. Dark World
 3. Conspiracy
 4. Splats
 5. Conflicts
@@ -49,9 +49,9 @@ It seems sensible to structure the review around them. I'll be looking at the fi
 
 #### 1. The monsters are real
 
-Of course, the core conceit of urban fantasy is that monsters - vampires, werewolves, etc. - are real. Not just real, they are also people, playable characters It's kinda obvious, so I won't elaborate on it further.
+The core conceit of urban fantasy is, of course, that monsters are real. I won't elaborate further.
 
-In _Curseborne_, the monsters are the Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalized this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
+In _Curseborne_, the monsters are the Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalised this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
 
 #### 2. The world is darker
 
@@ -67,21 +67,19 @@ Well, _Curseborne_ is set in something I'm calling the "Cursed World," but which
 
 [Wainscot Society - TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/WainscotSociety)
 
-Monsters are not just, they are also people, playable creatures with their own problems, social and political.
-
 My favourite part of any WoD setting is: why doesn't everyone know about the monsters? The fantasy WoD delivers is not just that you are a creature of darkness, but that you are also part of a hidden, parallel society with its own intrigues and conflicts. Over the years _White Wolf_ employed a number of devices to explain how monster stay hidden: Paradox, the Veil, the Delirium etc. In _Curseborne_ however there's no Masquerade, no Technocracy, no grand conspiracy. People just rationalise the supernatural away. The general populace just don't care, which is at least an original sharp turn from the angst of the WoD.
 
-Most of the rest of the chapter is then dedicated to the cosmology of the setting, which revolves around "liminalities." Liminalities are folds in reality, small dimensions that are hidden away from the rest of world. Here, the Accursed can play out their dramas without fear of discovery. They are havens, adventure locations, plot devices, even NPCs or treasures. And they are, of course, liminal, not just places between magic and the mundane, but also liminal in the contemporary horror sense. I'm not going to get into a discussion on the subject of liminal horror in this post, it's too big a subject. However, it is fashionable.
+Most of the rest of the chapter is then dedicated to the cosmology of the setting, which revolves around "liminalities." Liminalities are folds in reality, small dimensions that are hidden away from the rest of world. Here, the Accursed can play out their dramas without fear of discovery. They are havens, adventure locations, plot devices, even NPCs or treasures. And they are, of course, liminal, not just places between magic and the mundane, but also liminal in the contemporary, horror sense. I'm not going to get into a discussion on the subject of liminal horror in this post, it's too big a subject. However, it is fashionable.
 
 So far so good. The setting elements - liminalities, Accursed, etc. - are inventive, sympathetic to the themes and give a creative arena of play. It's a little tepid, but the bones are solid
 
 Like the _Chronicles of Darkness_, _Curseborne_ is less global, with less canon. It's more distributed and local. There is no overarching conflict. Unfortunately, this also leaves the setting a little... uninspiring? I'm don't immediately understand what player characters are supposed to do. I don't immediately identify with the Accursed. What stories are you I supposed to tell? Liminalities sound cool at first, but the execution is confusing and complicated. Most liminalities are places, but they can also be people and things. They serve a variety of functions, some very specific, which hint at
 
-### 5. The splats of course
+### Splats of course
 
-Clear silhouettes
+- [ ] Silhouettes
 
-**Chapter 2: Lineages.** Here is the heart of the matter. Urban fantasy TTRPGs live or die by their [splats](https://whitewolf.fandom.com/wiki/Splat#Fatsplats,_secondary_splats,_and_tiers). They introduce the aesthetic, core concepts, themes and motifs.
+Here is the heart of the matter. Urban fantasy TTRPGs live or die by their [splats](https://whitewolf.fandom.com/wiki/Splat#Fatsplats,_secondary_splats,_and_tiers). They introduce the aesthetic, core concepts, themes and motifs.
 
 _Curseborne_ splats seem to be adapted from the _Chronicles of Darkness_/_New World of Darkness_ convention. There are a fixed set of inherent splats (like the clans from _Vampire: the Requiem_) and an expansive list of secondary splats, that refine the main concepts into more specific character types (like _Vampire: the Requiem_ bloodlines). We have the "lineages" which represent the core, urban fantasy archetypes: your vampires, werewolves, etc. And each lineage then has 5-6 secondary splats, called "families".
 
