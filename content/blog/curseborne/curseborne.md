@@ -43,7 +43,7 @@ As I wrote this review I came to the reckon that there are, obviously, five core
 2. Dark World
 3. Conspiracy
 4. Splats
-5. Conflicts
+5. Secret War
 
 It seems sensible to structure the review around them. I'll be looking at the fictional and meta aspects of each of these elements. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
