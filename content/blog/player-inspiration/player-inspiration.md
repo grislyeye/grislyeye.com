@@ -18,7 +18,7 @@ Rather than rely on the dungeon master to award inspiration, this variant relies
 
 You gain inspiration after a short rest. You cannot no longer spend inspiration at will. Instead, you can only spend inspiration on rolls appropriate to your personality characteristics. You may also regain inspiration by taking disadvantage on certain rolls.
 
-### Spending Inspiration
+## Spending Inspiration
 
 Before you make an attack roll, saving throw, or ability check you may declare your character is <strong>inspired</strong>. To be inspired, the roll must involve one of your personality characteristics in some way. You spend your inspiration and make your inspired roll with advantage.
 
