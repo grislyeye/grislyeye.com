@@ -43,7 +43,7 @@ As I wrote this review I came to the reckon that there are, obviously, five core
 2. Dark World
 3. Conspiracy
 4. Splats
-5. Secret War
+5. Secret Wars
 
 It seems sensible to structure the review around them. I'll be looking at the fictional and meta aspects of each of these elements. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
@@ -66,6 +66,8 @@ Well, _Curseborne_ is set in something I'm calling the "Cursed World," but which
 #### 3. The Conspiracy
 
 [Wainscot Society - TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/WainscotSociety)
+
+Monsters are not only real, some of them are people.
 
 My favourite part of any WoD setting is: why doesn't everyone know about the monsters? The fantasy WoD delivers is not just that you are a creature of darkness, but that you are also part of a hidden, parallel society with its own intrigues and conflicts. Over the years _White Wolf_ employed a number of devices to explain how monster stay hidden: Paradox, the Veil, the Delirium etc. In _Curseborne_ however there's no Masquerade, no Technocracy, no grand conspiracy. People just rationalise the supernatural away. The general populace just don't care, which is at least an original sharp turn from the angst of the WoD.
 
