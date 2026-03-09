@@ -39,6 +39,8 @@ It's a question that fills me with existential dread because the lingering subte
 
 As I wrote this review I came to the reckon that there are, obviously, five core elements to any urban fantasy roleplaying game:
 
+So, where to begin? _Curseborne_ is about 400 pages which is on the shorter length for an _Onyx Path_ core book, but it's dense, including five big splats, about thirty sub-splats and 3-4 magic systems. That's a lot, so divide and conquer: let us first ask, what is an urban fantasy
+
 1. Monsters
 2. Dark World
 3. Conspiracy
@@ -57,9 +59,9 @@ In _Curseborne_, the monsters are the Accursed. The world is filled with curses,
 
 If supernatural monsters are real, this implies a world bleaker than our own. We might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc. Conversely, if monsters can hide it means their atrocities are at least comparable to those of human's.
 
-The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist, only deviating from reality as much as allows for the existence of monsters without breaking this assumption.
+The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist, only deviating from reality as much as allows for the existence of monsters without breaking this assumption. In a way it is the opposite of traditional fantasy settings, whose appeal is that they offer a clear break from our reality.
 
-However, the Darker World also supports the core fantasy of urban horror. If you want to play angst-ridden characters, you simply must have something to be angsty _about_. Although, _Curseborne_ deviates here. It describes itself as hopepunk, as opposed to the gothic-punk of the WoD. Despite some research, I'm still not sure what that means, or what is particularly hopeful about the setting of _Curseborne_, but there you go.
+However, the Darker World also supports the core fantasy of urban horror. If you want to play angst-ridden characters, you simply must have something to be angsty _about_. _Curseborne_ deviates here. It describes itself as hopepunk, as opposed to the gothic-punk of the WoD. Despite some research, I'm still not sure what that means, or what is particularly hopeful about the setting of _Curseborne_, but there you go.
 
 Well, _Curseborne_ is set in something I'm calling the "Cursed World," but which doesn't actually have a name in the book. It's their equivalent of the World of Darkness: the world is literally cursed, crawling with curses. Everyone experiences a constant stream of them, creating a permanent, dismal atmosphere, but the Accursed are more cursed.
 
@@ -74,6 +76,8 @@ My favourite part of any WoD setting is: why doesn't everyone know about the mon
 Most of the rest of the chapter is then dedicated to the cosmology of the setting, which revolves around "liminalities." Liminalities are folds in reality, small dimensions that are hidden away from the rest of world. Here, the Accursed can play out their dramas without fear of discovery. They are havens, adventure locations, plot devices, even NPCs or treasures. And they are, of course, liminal, not just places between magic and the mundane, but also liminal in the contemporary, horror sense. I'm not going to get into a discussion on the subject of liminal horror in this post, it's too big a subject. However, it is fashionable.
 
 So far so good. The setting elements - liminalities, Accursed, etc. - are inventive, sympathetic to the themes and give a creative arena of play. It's a little tepid, but the bones are solid
+
+I think the thing I like least are loopholes: liminal break rooms, where Accursed powers don't work which act as safe spaces for them to socialise. It's a bit Hogwarts common room, a bit club treehouse, a bit twee. It's an element of the setting that serves a distinctly meta need without any good in-setting rationale.
 
 Like the _Chronicles of Darkness_, _Curseborne_ is less global, with less canon. It's more distributed and local. There is no overarching conflict. Unfortunately, this also leaves the setting a little... uninspiring? I'm don't immediately understand what player characters are supposed to do. I don't immediately identify with the Accursed. What stories are you I supposed to tell? Liminalities sound cool at first, but the execution is confusing and complicated. Most liminalities are places, but they can also be people and things. They serve a variety of functions, some very specific, which hint at
 
@@ -116,6 +120,8 @@ What's more, Accursed can also have other powers called Edges.
 **Chapter 6: Storyguiding.**
 
 **Chapter 6: Adversaries.** Second only to the splats chapter, the adversaries define urban fantasy games.
+
+It's dense, but only because it tries to cover so much ground, and the content we have is a little shallow. There's lots going on, but it feels like there is no unifying whole. The initial editions of the _World of Darkness_ games were a little sparse, but they were punchy, thematic and got the point. _Curseborne_ is lacking here.
 
 But there is no core conflict here! Merely a lot of smaller ones, that don't seem to represent any significant threat to the splats.
 
