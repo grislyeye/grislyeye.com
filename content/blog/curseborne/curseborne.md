@@ -37,11 +37,11 @@ So, can *Curseborne* be stylish and desirable and *new*?
 
 It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can *anyone* my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's an examination of my youthful relationship with the original *World of Darkness*. The comparison might seem unfair, and it probably is, but I still believe better things are possible. I believe that, if we look at what made the OWoD work, we can create new urban settings just as good, if not better.
 
-As I wrote this review I came to the reckon that there are, obviously, five core elements to any urban fantasy roleplaying game:
-
 ## The review itself
 
-So, where to begin? *Curseborne* is about 400 pages which is on the shorter length for an *Onyx Path* core book, but it's dense, including five big splats, about thirty sub-splats and 3-4 magic systems. That's a lot, so divide and conquer: let us first ask, what is an urban fantasy
+So, where to begin? *Curseborne* is about 400 pages, which is probably short for an *Onyx Path* core book. But it's dense, including five big splats, about thirty sub-splats and 3-4 magic systems. I've always found reviews that just go from page to page aren't particularly enlightening. Better to divide and conquer and address the core elements of the setting individually.
+
+But what are the core elements? Here is my reckon:
 
 1. Monsters
 2. Dark World
@@ -49,7 +49,7 @@ So, where to begin? *Curseborne* is about 400 pages which is on the shorter leng
 4. Splats
 5. Secret Wars
 
-It seems sensible to structure the review around them. I'll be looking at the fictional and meta aspects of each of these elements. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
+I'll be looking at the fictional and meta aspects of each of these elements. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
 ### 1. The monsters are real
 
