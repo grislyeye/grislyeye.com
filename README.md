@@ -8,22 +8,22 @@ Requirements:
 
 To set-up your environment execute:
 
-    $ npm i
+    npm i
 
 To build:
 
-    $ npm run build
+    npm run build
 
 To test:
 
-    $ npm test
+    npm test
 
 To run:
 
-    $ npm start
+    npm start
 
-And open http://localhost:8080 in your browser.
+And open <http://localhost:8080> in your browser.
 
 To start a new post:
 
-    $ npm run post:new
+    npm run post:new

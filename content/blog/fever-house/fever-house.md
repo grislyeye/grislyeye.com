@@ -8,9 +8,9 @@ image: /blog/fever-house/cover.jpg
 rating: 3
 ---
 
-Have we reached peak zombie? Apparently not. _[Fever House](https://www.goodreads.com/book/show/66087060-fever-house)_ (2023) by Keith Posson is a new entry in the genre.
+Have we reached peak zombie? Apparently not. *[Fever House](https://www.goodreads.com/book/show/66087060-fever-house)* (2023) by Keith Posson is a new entry in the genre.
 
-Truth be told, I'm pretty sick of zombie horror. It feels like we've exhausted all its permutations, reaching a hopeless loop where the same movie gets made every few years. Can _Fever House_ bring something new to the table?
+Truth be told, I'm pretty sick of zombie horror. It feels like we've exhausted all its permutations, reaching a hopeless loop where the same movie gets made every few years. Can *Fever House* bring something new to the table?
 
 The paperback edition I picked up was an attractive volume. The pages have red edges and the cover is a lurid picture of a hand, reminiscent of grindhouse or photocopied flyers. Very punk. But inside?
 

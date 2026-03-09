@@ -10,7 +10,7 @@ image: /blog/spark-lifepath-system/percy.png
 
 > Or do we frame a turbulent sky with our fingers and believe that, because we have narrowed our vision to that small sphere, we have captured and contained the elements?
 >
-> - _Gloriana_, Michael Moorcock
+> - *Gloriana*, Michael Moorcock
 
 ![Cover of Gloriana](gloriana.png "Cover of Gloriana")
 
@@ -33,7 +33,7 @@ Paste them into Markdown files or your Blogger.com HTML.
 
 ## Lifepath
 
-This is a customisable lifepath system based on the one from _Cyberpunk RED_. You can plug your own tables into it to quickly create a lifepath system customised to your setting. With a few rolls, you can create rich characters that are embedded within your campaign.
+This is a customisable lifepath system based on the one from *Cyberpunk RED*. You can plug your own tables into it to quickly create a lifepath system customised to your setting. With a few rolls, you can create rich characters that are embedded within your campaign.
 
 Create the following tables:
 
