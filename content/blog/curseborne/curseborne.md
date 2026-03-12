@@ -83,7 +83,7 @@ I think the thing I like least are loopholes: liminal break rooms, where Accurse
 
 Like the *Chronicles of Darkness*, *Curseborne* is less global, with less canon. It's more distributed and local. There is no overarching conflict. Unfortunately, this also leaves the setting a little... uninspiring? I'm don't immediately understand what player characters are supposed to do. I don't immediately identify with the Accursed. What stories are you I supposed to tell? Liminalities sound cool at first, but the execution is confusing and complicated. Most liminalities are places, but they can also be people and things. They serve a variety of functions, some very specific, which hint at
 
-### Splats of course
+### 4. Splats of course
 
 - [ ] Silhouettes
 
@@ -120,6 +120,12 @@ Again, complexity rears its ugly head. All Accursed can cast spells. Each spell 
 What's more, Accursed can also have other powers called Edges.
 
 **Chapter 6: Storyguiding.**
+
+### 5. The secret war
+
+> [!NOTE]
+>
+> Looking for more information on adversaries, I picked up the *Curseborne Tasty Bit Omnibus* (terrible name) for some insight. It's a collected volume of enemies that was published in the lead up to the release of *Curseborne*. Antagonists here seemed to include very few venators, and focused on more supernatural threats like corrupted Accursed, phantasms and Fae servants.
 
 **Chapter 6: Adversaries.** Second only to the splats chapter, the adversaries define urban fantasy games.
 
