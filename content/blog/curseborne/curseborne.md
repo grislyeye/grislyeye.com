@@ -26,7 +26,7 @@ Of course, authenticity itself is subjective, and, as you'll see, *Curseborne* i
 
 Maybe, but I also have some reservations with *Onyx Path Publishing* themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) This can lead to derivative and lengthy works filled with tedious lore that lacks much of the inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty.
 
-And that's bad because 90s *White Wolf's* real product was always cool. They seemed to be designed and illustrated by people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and *new*, and if it isn't, well, what are you doing?
+And that's bad because 90s *White Wolf's* real product wasn't really games, it was cool. The designers and illustrators seemed to be people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and *new*, and if it isn't, well, what are you doing?
 
 > [!NOTE]
 > ![Illustration of a vampire by Josh Timbrook](josh-timbrook.jpg)
