@@ -29,7 +29,7 @@ Examples of what is considered Neo-trad:
 - Pink Tiefling play style.
 
 > OC basically agrees with trad that the goal of the game is to tell a story, but it deprioritises the authority of the DM as the creator of that story and elevates the players' roles as contributors and creators. The DM becomes a curator and facilitator who primarily works with material derived from other sources - publishers and players, in practice. OC culture has a different sense of what a "story" is, one that focuses on player aspirations and interests and their realisation as the best way to produce "fun" for the players.
-> 
+>
 > The term "OC" means "original character" and comes from online freeform fandom roleplaying that was popular on Livejournal and similar platforms back in the early 2000s. "OC" is when you bring an original character into a roleplaying game set in the Harry Potter universe, rather than playing as Harold the Cop himself. Despite being "freeform" (meaning no die rolls and no Dungeon Master) these games often had extensive rulesets around the kinds of statements one could introduce to play, with players appealing to the ruleset itself against one another to settle disputes. For the younger generations of roleplayers, these kinds of games were often their introduction to the hobby.
 
 - Six Cultures of Play, 2021
@@ -85,7 +85,7 @@ A type of Nonmaterialistic player agency that focuses on the capacity of players
 Journey fantasy is a genre of fantasy where the journey itself is the focus, where mysterious elements are close at hand, rather than hidden with the distant wilderness.
 
 > Outside the epic tales that steals the headlines, Dragonlance represents a distinct and different kind of gaming fantasy than the rest of D&D - What I am here calling "Journey Fantasy".
-
+>
 > What I mean by this term is not the kind of exploration implied by hexcrawling, such as the West Marches, in the Lewis and Clark sense of charting an unknown frontier (usually because Here Be Dungeons). Rather, the kind of fantasy where journeys become ends in and of themselves. Distance here is not a necessary factor. Myth and magic can be so embedded in the local areas that the Unknown and Wondrous may lie just beyond the village, rather than something requiring an expedition to the Deep Wilds.
 
 - Journey Fantasy (or: Clarifying the Nebulous Pull of Dragonlance) by Anders H, 2023
