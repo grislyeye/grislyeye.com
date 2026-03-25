@@ -6,6 +6,10 @@ date: 2026-03-25
 layout: layouts/post.njk
 ---
 
+> He had spent a long time listening to his heart, and grown bored with that, and so he found his spectacles and sat up.
+
+\- *Little, Big* by John Crowley, 1981
+
 The history between the OSR (and many of the newer play styles, to be honest) and romantic fantasy roleplaying is a tortuous one. There is the forceful and vitriolic contempt for the infamous Dragonlance Series of adventures. A contempt that still burns fresh to this day. And let's not forget when the reactionary wing of the OSR started a crusade against the original Blue Rose.
 
 A Romantic fantasy Trad play style where the focus is on emotions, and where play is about significant relationships and emotional attachments (romance) between characters.
