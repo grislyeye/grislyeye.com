@@ -14,7 +14,7 @@ tags:
   </header>
 
   <my-section>
-    <div slot="subtitle">my work</div>
+    <div slot="subtitle">My Work</div>
 
     <ul id="products" class="previews">
       {% for post in collections.products | excludeTags([ "drafts" ]) | featured | reverse | limit(4) %}
@@ -53,7 +53,7 @@ tags:
   </my-section>
 
   <my-section>
-    <div slot="subtitle">blog</div>
+    <div slot="subtitle">Blog</div>
     <ul id="posts" class="previews">
       {% for post in collections.posts | excludeTags([ "drafts" ]) | reverse | featured | limit(4) %}
         <li class="preview">
@@ -89,7 +89,7 @@ tags:
   </my-section>
 
   <my-section>
-    <div slot="subtitle">campaign diaries</div>
+    <div slot="subtitle">Campaign Diaries</div>
     <ul id="sessions" class="previews">
       {% for diary in collections.diaries | reverse | limit(4) %}
         <li class="preview">

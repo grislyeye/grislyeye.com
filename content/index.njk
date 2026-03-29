@@ -14,7 +14,7 @@ eleventyNavigation:
 </header>
 
 <my-section>
-  <div slot="subtitle">my work</div>
+  <div slot="subtitle">Books</div>
 
   <ul id="products" class="previews">
     {% for post in collections.products | excludeTags([ "drafts" ]) | featured | reverse | limit(4) %}
@@ -51,7 +51,7 @@ eleventyNavigation:
 </my-section>
 
 <my-section>
-  <div slot="subtitle">blog</div>
+  <div slot="subtitle">Blog</div>
   <ul id="more" class="previews">
     {% for post in collections.posts | excludeTags([ "drafts" ]) | reverse | featured %}
       <li class="preview">

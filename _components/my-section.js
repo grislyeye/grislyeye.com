@@ -31,7 +31,7 @@ class MySection extends LitElement {
 
       font-family: var(--subtitle-font-family);
       font-size: 1rem;
-      text-transform: lowercase;
+      color: var(--muted-color);
     }
 
     .next {
