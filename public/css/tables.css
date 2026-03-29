@@ -8,7 +8,7 @@
 .content table caption {
   font-variant: small-caps;
   font-weight: bold;
-  color: red;
+  color: var(--accent-color);
   text-align: left;
   font-size: larger;
 }

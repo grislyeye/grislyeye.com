@@ -11,9 +11,9 @@ vellum-monster {
 
   --stat-width: 400px;
   --stat-block-background: black;
-  --stat-block-header-color: red;
+  --stat-block-header-color: var(--accent-color);
   --stat-block-heading-font-family: "Alegreya", serif;
-  --stat-block-divider-color: red;
+  --stat-block-divider-color: var(--accent-color);
   --stat-block-two-column-width: 19cm;
   --stat-block-two-column-column-width: 300px;
   --stat-block-bar-background: white;

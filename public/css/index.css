@@ -6,6 +6,8 @@
   --background-color: black;
 
   --text-color: white;
+  --accent-color: red;
+  --muted-color: #a8a8a8;
 
   --content-max-width: 740px;
   --content-subtitle-max-width: 200px;
@@ -79,7 +81,7 @@ nav {
 }
 
 footer {
-  color: gray;
+  color: var(--muted-color);
   text-align: center;
   margin-bottom: 3.5em;
 }
@@ -228,11 +230,11 @@ img.medium {
 
 span.product {
   font-style: italic;
-  color: red;
+  color: var(--accent-color);
 }
 
 span.title {
-  color: red;
+  color: var(--accent-color);
   font-variant: small-caps;
 }
 

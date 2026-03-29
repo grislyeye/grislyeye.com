@@ -29,11 +29,11 @@
 }
 
 #post blockquote + ul li em {
-  color: red;
+  color: var(--accent-color);
 }
 
 #post blockquote + ul li a {
-  color: red;
+  color: var(--accent-color);
 }
 
 #post blockquote + ul,
@@ -51,12 +51,12 @@
 
 #post blockquote ol:last-child li em,
 #post blockquote ul:last-child li em {
-  color: red;
+  color: var(--accent-color);
 }
 
 #post blockquote ol:last-child li a,
 #post blockquote ul:last-child li a {
-  color: red;
+  color: var(--accent-color);
 }
 
 .content blockquote cite::before,
