@@ -8,6 +8,7 @@ class MyNavigationBar extends LitElement {
       align-items: center;
       font-family: var(--subtitle-font-family);
       font-size: 12pt;
+      color: var(--muted-color);
     }
 
     @media (width < 650px) {
@@ -17,9 +18,13 @@ class MyNavigationBar extends LitElement {
     }
 
     a {
-      color: white;
+      color: var(--muted-color);
       padding: 0;
       margin: 0;
+    }
+
+    a:hover {
+      color: white;
     }
 
     .main {
@@ -52,11 +57,6 @@ class MyNavigationBar extends LitElement {
       display: flex;
       align-items: center;
       gap: 0.3em;
-      color: var(--muted-color);
-    }
-
-    .social a:hover {
-      color: white;
     }
 
     .social a:hover img.icon {
