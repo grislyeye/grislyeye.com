@@ -2,9 +2,6 @@ name: Check Links
 
 on:
   pull_request:
-  push:
-    branches:
-      - "main"
 
 jobs:
   check-links:
@@ -12,14 +9,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
-
-      - name: Use Node.js 25.x
-        uses: actions/setup-node@v6
-        with:
-          node-version: 25.x
-          cache: "npm"
-      - run: npm ci
-      - run: npm run build
 
       - name: Get changed files
         id: changed-files
@@ -32,8 +21,10 @@ jobs:
           for file in ${ALL_CHANGED_FILES}; do
             echo "$file was changed"
           done
-      # - name: Check links for changed files
-      #   id: check-links-changed-files
-      #   uses: lycheeverse/lychee-action@v2
-      #   env:
-      #     ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+
+      - name: Check links for changed files
+        id: check-links-changed-files
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --root-dir "$(pwd)" --verbose --no-progress ${{ join(steps.changed-files.outputs.all_changed_files, ' ') }}
+
