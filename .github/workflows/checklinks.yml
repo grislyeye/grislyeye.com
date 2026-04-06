@@ -26,5 +26,5 @@ jobs:
         id: check-links-changed-files
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --root-dir "$(pwd)" --no-progress --exclude-loopback --include-fragments ${{ join(steps.changed-files.outputs.all_changed_files, ' ') }}
+          args: --root-dir "$(pwd)" --verbose --no-progress --exclude-loopback --include-fragments ${{ join(steps.changed-files.outputs.all_changed_files, ' ') }}
           failIfEmpty: false
