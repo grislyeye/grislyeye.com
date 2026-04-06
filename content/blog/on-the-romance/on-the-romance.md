@@ -2,8 +2,7 @@
 title: On the Romance
 tags:
   - posts
-  - drafts
-date: 2026-03-31
+date: 2026-04-07
 layout: layouts/post.njk
 image: /blog/on-the-romance/saint-valentine.png
 ---
