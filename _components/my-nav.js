@@ -8,6 +8,7 @@ class MyNavigationBar extends LitElement {
       align-items: center;
       font-family: var(--subtitle-font-family);
       font-size: 12pt;
+      color: var(--muted-color);
     }
 
     @media (width < 650px) {
@@ -17,16 +18,20 @@ class MyNavigationBar extends LitElement {
     }
 
     a {
-      color: white;
+      color: var(--muted-color);
       padding: 0;
       margin: 0;
+    }
+
+    a:hover {
+      color: white;
     }
 
     .main {
       display: flex;
       align-items: center;
       min-width: max-content;
-      gap: 0.5em;
+      gap: 0.75em;
     }
 
     .main img.logo {
@@ -39,18 +44,28 @@ class MyNavigationBar extends LitElement {
       align-items: center;
       flex-wrap: wrap;
       justify-content: flex-end;
-      text-transform: lowercase;
-      gap: 0.5em 1.5em;
+      gap: 0.4em 0.5em;
+      color: var(--muted-color);
+    }
+
+    .social + .social {
+      border-left: 1px solid var(--muted-color);
+      padding-left: 0.5em;
     }
 
     .social a {
       display: flex;
       align-items: center;
-      gap: 0.2em;
+      gap: 0.3em;
+    }
+
+    .social a:hover img.icon {
+      opacity: 1;
     }
 
     .social img.icon {
       height: 0.8em;
+      opacity: 0.7;
     }
 
     @media (width < 650px) {
@@ -58,6 +73,11 @@ class MyNavigationBar extends LitElement {
         padding-top: 0.7em;
         flex-direction: column;
         align-items: flex-end;
+      }
+
+      .social + .social {
+        border-left: none;
+        padding-left: 0;
       }
     }
   `;

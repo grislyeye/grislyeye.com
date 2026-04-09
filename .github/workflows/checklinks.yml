@@ -1,21 +1,26 @@
 name: Check Links
 
 on:
-  push:
-    branches:
-      - "main"
+  pull_request:
 
 jobs:
-  build:
+  check-links:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js 25.x
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v47.0.5
         with:
-          node-version: 25.x
-          cache: "npm"
-      - run: npm ci
-      - run: npm run build
-      - run: npm run test:links
+          files: |
+            **/*.{html,md,css,njk,hbs}
+
+      - name: Check links for changed files
+        id: check-links-changed-files
+        if: toJSON(steps.changed-files.outputs.all_changed_files) != '[]'
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --root-dir "$(pwd)" --verbose --no-progress --exclude-loopback --include-fragments ${{ join(steps.changed-files.outputs.all_changed_files, ' ') }}
+          failIfEmpty: false
