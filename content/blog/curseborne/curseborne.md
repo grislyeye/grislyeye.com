@@ -2,7 +2,7 @@
 title: Curseborne
 tags:
   - posts
-date: 2026-02-24
+date: 2026-04-21
 layout: layouts/review.njk
 image: /blog/curseborne/cover.png
 rating: 3
@@ -10,9 +10,9 @@ rating: 3
 
 > Curseborne is a game about being unapologetic monsters in a world where being monstrous is the least of your worries.
 >
-> - *[Curseborne](https://www.curseborne.com/)* from Onyx Path Publishing, 2025
+> - *Curseborne* from *Onyx Path Publishing*, 2025
 
-*Curseborne* (*Onyx Path's* new urban fantasy TTRPG) has brought me to a crisis. I'm asking myself questions I don't really want the answers to. Like, have I become everything I hate? Am I an awful grognard? Am I *uncool*?
+*[Curseborne](https://www.curseborne.com/)* (*Onyx Path's* new urban fantasy TTRPG) has brought me to a crisis. I'm asking myself questions I don't really want the answers to. Like, have I become everything I hate? Am I an awful grognard? Am I *uncool*?
 
 No, that can't be right. It must be those kids at *Onyx Path Publishing* who are wrong. Although, now I think about it, surely many of the people working the levers at Onyx are in my age cohort? What is Onyx but an act of nostalgia itself? Its original purpose to resurrect game lines that died with the original *White Wolf*. And who would've been playing and then later republishing those original games? Why, the very same sort of Gen Xers I was playing with in the 90s.
 
@@ -20,20 +20,20 @@ No, that can't be right. It must be those kids at *Onyx Path Publishing* who are
 >
 > In this post use the terms urban fantasy and urban horror interchangeably. *Curseborne* describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, *Vampire: the Masquerade* is described as urban horror or fantasy equally often online.
 
-Why has *Curseborne* brought me to this crisis? Well, let me first explain what *Curseborne* is. Onyx have lost the license to punish *World of Darkness* material now that *Paradox* - the actual rights holders - are publishing new material. This leaves Onyx without an IP for their specialist genre: urban fantasy. In other words, *Curseborne* is an attempt to replace *Paradox's* IP with an original setting of their own.
+Why has *Curseborne* brought me to this crisis? Well, let me first explain what *Curseborne* is. Onyx have lost the license to publish *World of Darkness* material now that *Paradox* - the actual rights holders - are publishing new material. This leaves Onyx without an IP for their specialist genre: urban fantasy. In other words, *Curseborne* is an attempt to replace *Paradox's* IP with an original setting of their own.
 
 Which is why *Curseborne* fills me with apprehension: it is game haunted, if you will, by *Vampire: the Masquerade*, *Mage: the Ascension* and others. It is, essentially, a product of pure nostalgia. A game written with the dubious premise "like the World of Darkness but different." Not that it's an unreasonable objective, but it comes from a place of practicality rather than creativity. *Curseborne* doesn't start with a need and follow through with a game. It starts with a game in the hope it will become a need. It's not cynical, but maybe it's not entirely authentic either.
 
 Of course, authenticity itself is subjective, and, as you'll see, *Curseborne* is something of a love letter to the urban fantasy genre, which is why I hold out hope. Can Onyx thread the needle here? Can lightning strike twice? Can *Curseborne* give the *World of Darkness* a run for its money? Or, better yet, could it be something entirely different; compelling for WoD fans, but bringing its own, unique vision to the table?
 
-Maybe, but I also have some reservations with *Onyx Path Publishing* themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) This can lead to derivative and lengthy works filled with tedious lore that lacks much of the inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty.
+Maybe, but I also have some reservations with *Onyx Path Publishing* themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) This can lead to derivative and lengthy works filled with tedious lore that lacks much of the pathos and inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty.
 
-And that's bad because 90s *White Wolf's* real product wasn't really games, it was cool. The designers and illustrators seemed to be people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and *new*, and if it isn't, well, what are you doing?
+And that's bad because 90s *White Wolf's* real product wasn't really games; it was cool. The designers and illustrators always seemed to be people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and *new*, and if it isn't, well, what are you doing?
 
 > [!NOTE]
 > ![Illustration of a vampire by Josh Timbrook](josh-timbrook.jpg)
 >
-> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the *World of Darkness* so appealing. His fashion-conscious illustrations oozed sex appeal, and set the bar (or should have) for all art in urban horror games. I'm not sure the *Curseborne* art lives up to his example.
+> It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the *World of Darkness* so appealing. His fashion-conscious illustrations oozed sex appeal, and set the bar (or should have) for all art in urban horror games. I'm not sure *Curseborne* lives up to his example.
 
 So, can *Curseborne* be stylish and desirable and *new*?
 
@@ -43,9 +43,9 @@ The question is, did Onyx learn the right lessons?
 
 ## The review itself
 
-Where to begin? *Curseborne* is about 400 pages which is relatively short for an *Onyx Path* core book but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. Instead of going from page to page I'll address each of the core elements of an urban fantasy setting.
+Where to begin? *Curseborne* is about 400 pages which is relatively short for an *Onyx Path* core book, but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. That's a lot, and I'm not particularly interested in covering a lot of the material particularly the mechanics and sub-systems. I want to focus on the setting itself. Instead of going from page to page I'll address each of the core elements of an urban fantasy setting.
 
-But what are the core elements? Here is my reckon:
+But what are the pillars of urban fantasy roleplaying? Here is my reckon:
 
 1. Monsters
 2. Dark World
@@ -53,7 +53,7 @@ But what are the core elements? Here is my reckon:
 4. Splats
 5. Secret Wars
 
-I'll be looking at the fictional and meta aspects of each of these elements. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
+I'll be looking at the fictional and meta aspects of each of these pillars. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
 ### 1. The monsters are real
 
@@ -61,9 +61,9 @@ The core conceit of urban fantasy is, of course, that monsters are real, and in 
 
 ### 2. A darker world
 
-If supernatural monsters are real, this implies a world bleaker than our own. We might not notice them, but we would notice the consequences of their existence: corruption, missing persons, crime, etc. Conversely, if monsters can hide it means their atrocities are at least comparable to those of human's.
+If supernatural monsters are real, this implies a world bleaker than our own. We might not notice the monsters but we would notice the consequences of their existence: corruption, missing people, crime, etc. Conversely, if monsters can hide it means their atrocities are at least comparable to those of human's.
 
-The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist, only deviating from reality as much as allows for the existence of monsters without breaking this assumption. In a way it is the opposite of traditional fantasy settings, whose appeal is that they offer a clear break from our reality.
+The Darker World must be like the real world because familiarity is big part of the fantasy here. It has to be a world where the players could reasonably imagine themselves to exist, only deviating from reality as much as allows for the existence of monsters without breaking this assumption. In a way it is the opposite of traditional fantasy settings, whose appeal is that they offer a clean break from our reality.
 
 However, the Darker World also supports the core fantasy of urban horror. If you want to play angst-ridden characters, you simply must have something to be angsty *about*. *Curseborne* deviates here. It describes itself as hopepunk, as opposed to the gothic-punk of the WoD. Despite some research, I'm still not sure what that means, or what is particularly hopeful about the setting of *Curseborne*, but there you go.
 
@@ -95,9 +95,9 @@ Here is the heart of the matter. Urban fantasy TTRPGs live or die by their [spla
 
 These families work as both social and inherent factions, and there are around 30 of them, which seems like a lot. And here we come to my first, big objection to *Curseborne*. The original WoD books kept splats to a minimum, usually no more than 13 in a core book. This is because splats are supposed to simplify the character creation process. You pick the splat first, and worry about the details later.
 
-There is a reason *White Wolf* had almost completely separate settings for each of their splats, each only tangentially linked to the others and often with contradictory lore, cosmology and play styles. I think this might be the secret sauce of the original *World of Darkness*: instead of trying to streamline all the monster legends into one mythos and blandifying them, *White Wolf* instead realized that each of the legends has their own core themes and motifs that would be best served by each splat having its own aesthetic and mythos, and not worrying about the contradictions.
+There is a reason *White Wolf* had almost completely separate settings for each of their splats, each only tangentially linked to the others and often with contradictory lore, cosmology and play styles. I think this might be the secret sauce of the original *World of Darkness*: instead of trying to streamline all the monster legends into one mythos and blandifying them, *White Wolf* realized that each of the legends has their own core themes and motifs that would be best served by each splat having its own aesthetic and mythos, and not worrying about the contradictions.
 
-*Curseborne* seems to be doing the opposite of this. Each lineage is really a flat splat, with its own set of rules specific to its archetype. Once you've figured out what you want to play, only then can you start to choose a family. It's a daunting choice, and probably a meaningless one for new players. The families have subtle themes that require a bit of reading between the lines. It's not obvious, for example, that the Munificients are supposed to be djinn analogues, and families are a mix of archetypal (like the Chimerae) and original, setting-specific groups (like the ZEDs).
+*Curseborne* seems to be doing the opposite of this. Each lineage is really a fat splat, with its own set of rules specific to its archetype. Once you've figured out what you want to play, only then can you start to choose a family. It's a daunting choice, and probably a meaningless one for new players. The families have subtle themes that require a bit of reading between the lines. It's not obvious, for example, that the Munificients are supposed to be djinn analogues, and families are a mix of archetypal (like the Chimerae) and original, setting-specific groups (like the ZEDs).
 
 Now, geeks love lists of lore. Yet lore should be doled out sparingly.
 
@@ -131,15 +131,15 @@ What's more, Accursed can also have other powers called Edges.
 
 Well, maybe not always.
 
-The *World of Darkness* has some of the greatest villains in tabletop roleplaying. The Wyrm, the Technocracy, Oblivion and Banality. All horrifying in their own way, and they're not just iconic. They define the setting and themes as much as the splats do. What are the Garou with their war against the embodiment of ecological corruption?
+The *World of Darkness* has some of the greatest villains in tabletop roleplaying. The Wyrm, the Technocracy, Oblivion and Banality. All horrifying in their own way, and they're not just iconic. They define the setting and themes as much as the splats do. What are the Garou without their war against the embodiment of ecological corruption?
 
-Yet, in the 30 years since the OWoD, trends have moved away from monolithic settings. The chief complaint against the WoD was always the dreaded metaplot, a vast body of lore shaped by the monolithic entities in the setting: the Carmarilla, the Hierarchy, etc. It made it almost impossible for casual players to dip into the various game lines, and so White Wolf moved away from metaplot in subsequent game lines, such as *Vampire: the Requiem*.
+Yet, in the 30 years since the OWoD, trends have moved away from monolithic settings. The chief complaint against the WoD was always the dreaded metaplot, a vast body of lore shaped by the monolithic entities in the setting: the Carmarilla, the Traditions, etc. It made it almost impossible for casual players to dip into the various game lines, and so White Wolf moved away from metaplot in subsequent game lines, such as *Vampire: the Requiem*.
 
 **Chapter 6: Adversaries.** Second only to the splats chapter, the adversaries define urban fantasy games.
 
 ## Summary
 
-It's dense, but only because it tries to cover so much ground, and the content we have is a little shallow. There's lots going on, but it feels like there is no unifying whole. The initial editions of the *World of Darkness* games were a little sparse, but they were punchy, thematic and got the point. *Curseborne* is lacking here.
+*Curseborne* is dense, but only because it tries to cover so much ground, and the content we have is a little shallow. There's lots going on, but it feels like there is no unifying whole. The initial editions of the *World of Darkness* games were a little sparse, but they were punchy, thematic and got the point. *Curseborne* is lacking here.
 
 But there is no core conflict here! Merely a lot of smaller ones, that don't seem to represent any significant threat to the splats.
 
