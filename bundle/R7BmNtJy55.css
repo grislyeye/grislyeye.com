@@ -56,7 +56,7 @@
   padding-bottom: 1em;
   font-size: 0.9em;
   line-height: 1.4;
-  color: #a8a8a8;
+  color: var(--muted-color);
 }
 
 .content aside h1,
@@ -78,7 +78,7 @@
 }
 
 .content aside em {
-  color: red;
+  color: var(--accent-color);
 }
 
 #post aside img {
@@ -121,11 +121,11 @@
 }
 
 #post blockquote + ul li em {
-  color: red;
+  color: var(--accent-color);
 }
 
 #post blockquote + ul li a {
-  color: red;
+  color: var(--accent-color);
 }
 
 #post blockquote + ul,
@@ -143,12 +143,12 @@
 
 #post blockquote ol:last-child li em,
 #post blockquote ul:last-child li em {
-  color: red;
+  color: var(--accent-color);
 }
 
 #post blockquote ol:last-child li a,
 #post blockquote ul:last-child li a {
-  color: red;
+  color: var(--accent-color);
 }
 
 .content blockquote cite::before,
@@ -158,7 +158,7 @@
 }
 
       .content .title {
-  color: red;
+  color: var(--accent-color);
   font-variant: small-caps;
 }
 
@@ -172,7 +172,7 @@ span.strike {
 .content h4,
 .content h5 {
   font-family: var(--title-font-family);
-  color: red;
+  color: var(--accent-color);
 }
 
 .content h1 a,
@@ -181,12 +181,12 @@ span.strike {
 .content h4 a,
 .content h5 a {
   font-family: var(--title-font-family);
-  color: red;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
 .content strong {
-  color: red;
+  color: var(--accent-color);
 }
 
       .content section.chat > * {
@@ -496,9 +496,9 @@ figure.picture p.caption {
 
   --stat-width: 400px;
   --stat-block-background: black;
-  --stat-block-header-color: red;
+  --stat-block-header-color: var(--accent-color);
   --stat-block-heading-font-family: "Alegreya", serif;
-  --stat-block-divider-color: red;
+  --stat-block-divider-color: var(--accent-color);
   --stat-block-two-column-width: 19cm;
   --stat-block-two-column-column-width: 300px;
   --stat-block-bar-background: white;
@@ -612,7 +612,7 @@ vellum-monster h2 {
 #post h2 a,
 #post h3 a,
 #post h4 a {
-  color: red;
+  color: var(--accent-color);
   text-decoration: none;
   background-image: none;
   background-color: transparent;
@@ -626,7 +626,7 @@ vellum-monster h2 {
 #post h2 a:hover,
 #post h3 a:hover,
 #post h4 a:hover {
-  color: red;
+  color: var(--accent-color);
   text-decoration: none;
   background-image: none;
   background-color: transparent;
@@ -639,7 +639,7 @@ vellum-monster h2 {
   margin-right: 5px;
   font-weight: bold;
   font-style: italic;
-  color: red;
+  color: var(--accent-color);
 }
 
 .content dl dd {
@@ -675,7 +675,7 @@ vellum-monster h2 {
 .content table caption {
   font-variant: small-caps;
   font-weight: bold;
-  color: red;
+  color: var(--accent-color);
   text-align: left;
   font-size: larger;
 }
