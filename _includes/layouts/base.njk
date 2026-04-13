@@ -4,11 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {% if tags and not 'drafts' in tags %}
-      {% seo "" %}
-    {% elif not tags %}
-      {% seo "" %}
-    {% endif %}
+    {% seo "" %}
 
     <meta name="description" content="{{ description or metadata.description }}">
     <meta name="fediverse:creator" content="@grislyeye@dice.camp">
