@@ -50,7 +50,7 @@ class MySection extends LitElement {
       color: white;
     }
 
-    @media (width < 970px) {
+    @media (max-width: 970px) {
       :host {
         margin-left: 0;
       }
