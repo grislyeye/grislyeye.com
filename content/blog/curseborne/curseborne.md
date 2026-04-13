@@ -55,9 +55,11 @@ So what makes a great urban fantasy setting? In my opinion there are five, core 
 
 I'll be looking at the fictional and meta aspects of each of these pillars. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
-### 1. The monsters are real
+### 1. Monsters are people
 
-The core conceit of urban fantasy is, of course, that monsters are real, and in *Curseborne* these monsters are the capital-A Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalised this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
+The core conceit of urban fantasy is, of course, that monsters are not only real but they are also *people*. In particular, they are usually the protagonists of the game.
+
+In *Curseborne* these monsters are the capital-A Accursed. The world is filled with curses, but the Accursed are more cursed than most. So cursed they have internalised this power to become your standard spread of urban fantasy monsters: lycanthropes, vampires and others. And, of course, with their curses come supernatural powers and access to magic, because it's not urban fantasy without cool powers.
 
 ### 2. A darker world
 
