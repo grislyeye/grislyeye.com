@@ -43,9 +43,9 @@ The question is, did Onyx learn the right lessons?
 
 ## The Five Pillars of Urban Fantasy RPGs
 
-Where to begin? *Curseborne* is about 400 pages which is relatively short for an *Onyx Path* core book, but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. That's a lot, and I'm not particularly interested in covering a lot of the material particularly the mechanics and sub-systems. I want to focus on the setting itself.
+Where to begin? *Curseborne* is about 400 pages which is relatively short for an *Onyx Path* core book, but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. That's a lot, and I'm not particularly interested in covering the mechanics and sub-systems. What I want to do is focus on the setting itself.
 
-So what makes a great urban fantasy setting? In my opinion there are five, core pillars of urban fantasy roleplaying games that make a setting sublime. The elements that I feel made games like VtM great. They are as follows:
+So what makes an urban fantasy setting great? In my opinion, there are five pillars of urban fantasy roleplaying games that make a setting sublime. The elements that I feel made games like VtM great. They are as follows:
 
 1. Monsters
 2. Dark World
@@ -88,8 +88,6 @@ I think the thing I like least are loopholes: liminal break rooms, where Accurse
 Like the *Chronicles of Darkness*, *Curseborne* is less global, with less canon. It's more distributed and local. There is no overarching conflict. Unfortunately, this also leaves the setting a little... uninspiring? I'm don't immediately understand what player characters are supposed to do. I don't immediately identify with the Accursed. What stories are you I supposed to tell? Liminalities sound cool at first, but the execution is confusing and complicated. Most liminalities are places, but they can also be people and things. They serve a variety of functions, some very specific, which hint at
 
 ### 4. Splats of course
-
-- [ ] Silhouettes
 
 Here is the heart of the matter. Urban fantasy TTRPGs live or die by their [splats](https://whitewolf.fandom.com/wiki/Splat#Fatsplats,_secondary_splats,_and_tiers). They introduce the aesthetic, core concepts, themes and motifs.
 
