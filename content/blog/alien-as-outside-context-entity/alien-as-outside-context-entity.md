@@ -7,21 +7,22 @@ date: 2024-07-04
 layout: layouts/post.njk
 image: /blog/alien-as-outside-context-entity/captain-kirk.jpg
 ---
+
 <aside>
 
-This post evolved out of a series of [self-essays](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote on the subject of _Mothership_  while developing [CONT/EXT](/products/context/). I present these (incomplete) thoughts here. Please see my previous article on [institutional horror](/blog/shiftless-horror/).
+This post evolved out of a series of [self-essays](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote on the subject of *Mothership* while developing [CONT/EXT](/products/context/). I present these (incomplete) thoughts here. Please see my previous article on [institutional horror](/blog/shiftless-horror/).
 
 </aside>
 
-I continue to unpick the intestinal knot in our cultural psyche that is _Alien_ (1979). This article expands on Skerple's [Aliens and Alien Design](https://coinsandscrolls.blogspot.com/2017/10/aliens-and-alien-design.html) post, focussing on *Aliens as objects of fear* for games like _Mothership_.
+I continue to unpick the intestinal knot in our cultural psyche that is *Alien* (1979). This article expands on Skerple's [Aliens and Alien Design](https://coinsandscrolls.blogspot.com/2017/10/aliens-and-alien-design.html) post, focussing on *Aliens as objects of fear* for games like *Mothership*.
 
 Let me start with this: by definition, aliens should be uncategorisable. In the comfort of Skerple's categories, aliens can only replicate the earthbound horrors of slasher flicks and supernatural thrillers. It's a trap to imagine aliens as comprehensible in any conventional sense.
 
 But, how do you go about portraying incomprehensible aliens?
 
-### Star Trek Futurism
+## Star Trek Futurism
 
-![Still of Captain Kirk look shocked from Star Trek](./content/blog/alien-as-outside-context-entity/captain-kirk.jpg "Captain Kirk")
+![Still of Captain Kirk look shocked from Star Trek](captain-kirk.jpg "Captain Kirk")
 
 Firstly, in order to question our assumptions about alien life, you need to understand Star Trek futurism. Star Trek futurism is the (often unconscious) bias that the future will be like the eponymous (and often nonsense) TV show. It's an optimistic vision of the future as it ought to be, with faster-than-light travel and (most relevant here) contact with ubiquitous, intelligent and human-like alien life.
 
@@ -37,14 +38,13 @@ But these creatures can never be terrifying because they are too like us. We mus
 
 I propose a new category: Aliens as outside context entities. The alien as fundamental physiological, psychological, categorical and semantic break with our parochial assumptions of what alien life might look like.
 
-![Cover of Sundiver by David Brin](./content/blog/alien-as-outside-context-entity/sundiver.jpg "Sundivers")
+![Cover of Sundiver by David Brin](sundiver.jpg "Sundivers")
 
 ### Xenobiological universalism
 
->Alien life, however, does not have to respect the educational difficulties posed by naked apes with oversized brains, and can exploit any autocatalytic system to generate complex 'lifeforms' if the environment permits. And the range of environments - and autocatalytic systems - is huge.
+> Alien life, however, does not have to respect the educational difficulties posed by naked apes with oversized brains, and can exploit any autocatalytic system to generate complex 'lifeforms' if the environment permits. And the range of environments - and autocatalytic systems - is huge.
 
-- _What Does a Martian Look Like?_ by Jack Cohen and Ian Stewart, 2004
-
+- *What Does a Martian Look Like?* by Jack Cohen and Ian Stewart, 2004
 
 Xenobiological universalism is another powerful concept, one that has influenced science fiction authors like Philip K. Dick and Greg Bear. At its heart is the idea that the complex, self-replicating systems that lead to life are not just unique to this planet, but are, in fact, a fundamental property of nature.
 
@@ -68,22 +68,21 @@ Autocatalysts - molecules that can create *themselves* without being used up - d
 
 <aside>
 
-
-![Cover of Diaspora by Greg Egan](./content/blog/alien-as-outside-context-entity/diaspora.jpg "Diaspora")
+![Cover of Diaspora by Greg Egan](diaspora.jpg "Diaspora")
 
 Examples of xenoscientific fiction include:
 
- - *Diaspora* by Greg Egan, 1997 (a personal favourite)
- - _Dragon's Egg_ by Robert L. Forward, 1980
- - _Mission of Gravity_ by Hal Clement, 1951
- - _Ring_ by Stephen Baxter, 1994
- - *Sundiver* by David Brin, 1980
+- *Diaspora* by Greg Egan, 1997 (a personal favourite)
+- *Dragon's Egg* by Robert L. Forward, 1980
+- *Mission of Gravity* by Hal Clement, 1951
+- *Ring* by Stephen Baxter, 1994
+- *Sundiver* by David Brin, 1980
 
 </aside>
 
 Universalism takes this further, imagining that DNA is just one possible example of an autocatalytic system, and that similar kinds of processes could occur under radically different circumstances. If self-replicating DNA could originate from the building blocks of organic chemistry, could not other, self-replicating systems form in the complex interactions in, say, silicon-based chemistry, magnetic fields, and so on?
 
-These are "analogous autocatalytic systems," that mirror organic enzymes and DNA, but with radically different mechanics. They're a tool for imagining truly exotic forms of alien life, from the sun-ghosts of David Brin's _Sundiver_, who evolved in the magnetic fields of the Sun's chromosphere, to the microscopic cheela from Robert L. Forward's _Dragon's Egg_, who evolved on the surface of a neutron star.
+These are "analogous autocatalytic systems," that mirror organic enzymes and DNA, but with radically different mechanics. They're a tool for imagining truly exotic forms of alien life, from the sun-ghosts of David Brin's *Sundiver*, who evolved in the magnetic fields of the Sun's chromosphere, to the microscopic cheela from Robert L. Forward's *Dragon's Egg*, who evolved on the surface of a neutron star.
 
 All that is needed is that spark of self-replicating complexity, whether that is exotic, nucleic "molecules" formed by the strong nuclear force, or organic-like, silicon-based chemistries.
 
@@ -99,7 +98,7 @@ The problem with analogous autocatalytic systems is that they propose forms of l
 
 ### Fearful symmetry
 
->...it was a perfectly, perfectly reasonable, it seemed to me, that... that some organism should incubate within the warmth of another being.
+> ...it was a perfectly, perfectly reasonable, it seemed to me, that... that some organism should incubate within the warmth of another being.
 
 - John Hurt speaking in *[The Beast Within: The Making of Alien](https://www.youtube.com/watch?v=F4G1Jg1oJt8)*, 2003
 
@@ -109,11 +108,9 @@ When creating improbable biologies, there must be some hook our players can grab
 
 ## Learnings
 
-
 <aside>
 
-
-[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](/products/context)
+[![Cover image from CONT/EXT](../../products/context/context.png "CONT/EXT")](/products/context)
 
 This article was research for [CONT/EXT](/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 

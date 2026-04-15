@@ -1,0 +1,17 @@
+name: Spelling and Grammar Check
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check grammar and spelling
+        uses: reviewdog/action-languagetool@afd06e9b0f782c9562c92efffb66a49c09b2b4f4 # v1.23.0
+        with:
+          github_token: ${{ secrets.github_token }}
+          language: "en-GB"
+          level: "warning"

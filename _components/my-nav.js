@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css } from "lit";
 
 class MyNavigationBar extends LitElement {
   static styles = css`
@@ -8,6 +8,7 @@ class MyNavigationBar extends LitElement {
       align-items: center;
       font-family: var(--subtitle-font-family);
       font-size: 12pt;
+      color: var(--muted-color);
     }
 
     @media (width < 650px) {
@@ -17,16 +18,20 @@ class MyNavigationBar extends LitElement {
     }
 
     a {
-      color: white;
+      color: var(--muted-color);
       padding: 0;
       margin: 0;
+    }
+
+    a:hover {
+      color: white;
     }
 
     .main {
       display: flex;
       align-items: center;
       min-width: max-content;
-      gap: 0.5em;
+      gap: 0.75em;
     }
 
     .main img.logo {
@@ -39,18 +44,28 @@ class MyNavigationBar extends LitElement {
       align-items: center;
       flex-wrap: wrap;
       justify-content: flex-end;
-      text-transform: lowercase;
-      gap: 0.5em 1.5em;
+      gap: 0.4em 0.5em;
+      color: var(--muted-color);
+    }
+
+    .social + .social {
+      border-left: 1px solid var(--muted-color);
+      padding-left: 0.5em;
     }
 
     .social a {
       display: flex;
       align-items: center;
-      gap: 0.2em;
+      gap: 0.3em;
+    }
+
+    .social a:hover img.icon {
+      opacity: 1;
     }
 
     .social img.icon {
       height: 0.8em;
+      opacity: 0.7;
     }
 
     @media (width < 650px) {
@@ -59,54 +74,68 @@ class MyNavigationBar extends LitElement {
         flex-direction: column;
         align-items: flex-end;
       }
+
+      .social + .social {
+        border-left: none;
+        padding-left: 0;
+      }
     }
   `;
 
   static properties = {
-    email: { attribute: 'email' },
-    twitter: { attribute: 'twitter' },
-    mastodon: { attribute: 'mastodon' },
-    bluesky: { attribute: 'bluesky' },
-    rss: { attribute: 'rss' },
-    location: { attribute: 'location' }
+    email: { attribute: "email" },
+    twitter: { attribute: "twitter" },
+    mastodon: { attribute: "mastodon" },
+    bluesky: { attribute: "bluesky" },
+    rss: { attribute: "rss" },
+    location: { attribute: "location" }
   };
 
   static renderSocial(type, link, label) {
-    return html`
-      <div class="social">
-        <a href="${ link }" title="RSS">
-          <img src="/images/${ type }.svg" class="icon" alt="${ type } label">
-          ${ label }
-        </a>
-      </div>`;
+    return html` <div class="social">
+      <a href="${link}" title="${label}">
+        <img src="/images/${type}.svg" class="icon" alt="${type} label" />
+        ${label}
+      </a>
+    </div>`;
   }
 
   render() {
     return html`
       <div class="main">
-        <a href="/"><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"></a>
+        <a href="/"
+          ><img src="/images/logo.svg" class="logo" alt="Grisly Eye Games logo"
+        /></a>
         <span>
-          <a href="/"><slot name="name"></slot></a> | <a href="/"><slot name="title"></slot></a>
+          <a href="/"><slot name="name"></slot></a> |
+          <a href="/"><slot name="title"></slot></a>
         </span>
       </div>
 
       <div class="socials">
         <div class="social">
-            <img src="/images/location.svg" class="icon" alt="Location icon"> <span id="location">${ this.location }</span>
+          <img src="/images/location.svg" class="icon" alt="Location icon" />
+          <span id="location">${this.location}</span>
         </div>
 
-        ${ this.email ? MyNavigationBar.renderSocial('email', this.email, 'Mailing List') : html`` }
-
-        ${ this.twitter ? MyNavigationBar.renderSocial('twitter', this.twitter, 'Twitter') : html`` }
-
-        ${ this.bluesky ? MyNavigationBar.renderSocial('bluesky', this.bluesky, 'Bluesky') : html`` }
-
-        ${ this.mastodon ? MyNavigationBar.renderSocial('mastodon', this.mastodon, 'Mastodon') : html`` }
-
-        ${ this.rss ? MyNavigationBar.renderSocial('rss', this.rss, 'RSS') : html`` }
+        ${this.email
+          ? MyNavigationBar.renderSocial("email", this.email, "Mailing List")
+          : html``}
+        ${this.twitter
+          ? MyNavigationBar.renderSocial("twitter", this.twitter, "Twitter")
+          : html``}
+        ${this.bluesky
+          ? MyNavigationBar.renderSocial("bluesky", this.bluesky, "Bluesky")
+          : html``}
+        ${this.mastodon
+          ? MyNavigationBar.renderSocial("mastodon", this.mastodon, "Mastodon")
+          : html``}
+        ${this.rss
+          ? MyNavigationBar.renderSocial("rss", this.rss, "RSS")
+          : html``}
       </div>
     `;
   }
 }
 
-customElements.define('my-nav', MyNavigationBar);
+customElements.define("my-nav", MyNavigationBar);

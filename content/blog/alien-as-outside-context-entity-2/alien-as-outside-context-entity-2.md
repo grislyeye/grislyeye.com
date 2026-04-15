@@ -7,10 +7,10 @@ date: 2024-07-16
 layout: layouts/post.njk
 image: /blog/alien-as-outside-context-entity-2/jonesy.png
 ---
+
 <aside>
 
-
-This post is the second part of a two-part [self-essay](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote on how to portray aliens for games like _Mothership_.
+This post is the second part of a two-part [self-essay](https://rolltodoubt.wordpress.com/2023/12/23/on-creative-method/) I wrote on how to portray aliens for games like *Mothership*.
 
 Includes some mild **spoilers**.
 
@@ -18,15 +18,15 @@ Includes some mild **spoilers**.
 
 </aside>
 
->After dinner, Steel drifted into the library. He relaxed around his reading desk. Two of him sipped brandy while another smoked southern herbs. This was pleasure but also calculation: Steel knew just what vices, applied to just which members, would raise his imagination to its keenest pitch.
+> After dinner, Steel drifted into the library. He relaxed around his reading desk. Two of him sipped brandy while another smoked southern herbs. This was pleasure but also calculation: Steel knew just what vices, applied to just which members, would raise his imagination to its keenest pitch.
 
-- _A Fire Upon the Deep_ by Vernor Vinge, 1992
+- *A Fire Upon the Deep* by Vernor Vinge, 1992
 
-In his classic space opera _A Fire Upon the Deep_, Vernor Vinge describes the tines: a medieval-level civilisation of dog-like aliens. These creatures have an incredible form of gestalt consciousness. Each tine is actually a pack of individuals that communicate their thoughts via high-frequency sounds, so they can behave as a single entity. It's one of science fiction's most original alien physiologies.
+In his classic space opera *A Fire Upon the Deep*, Vernor Vinge describes the tines: a medieval-level civilisation of dog-like aliens. These creatures have an incredible form of gestalt consciousness. Each tine is actually a pack of individuals that communicate their thoughts via high-frequency sounds, so they can behave as a single entity. It's one of science fiction's most original alien physiologies.
 
 Vernor then completely undercuts this by having one of these creatures sit down at a reading desk to sip brandy and smoke a cigar. What happened?
 
-![Still from Annihilation, 2018](./content/blog/alien-as-outside-context-entity-2/annihilation.webp "The Lighthouse")
+![Still from Annihilation, 2018](annihilation.webp "The Lighthouse")
 
 ## Xenopsychological parochialism
 
@@ -34,7 +34,7 @@ Vernor then completely undercuts this by having one of these creatures sit down 
 
 <aside>
 
-![Cover of Annihilation by Jeff Vandermeer](./content/blog/alien-as-outside-context-entity-2/annihilation.jpg "Annihilation")
+![Cover of Annihilation by Jeff Vandermeer](annihilation.jpg "Annihilation")
 
 Here are some examples of xenopsychological science fiction:
 
@@ -43,15 +43,15 @@ Here are some examples of xenopsychological science fiction:
 
 </aside>
 
-
-This is the hardest leap of all: to imagine entirely new forms of intelligent psychology, as distinct from human consciousness as the microscopic cheela from _Dragon's Egg_ are from human biology.
+This is the hardest leap of all: to imagine entirely new forms of intelligent psychology, as distinct from human consciousness as the microscopic cheela from *Dragon's Egg* are from human biology.
 
 That would be something truly fearful.
 
 ### If Jonesy could speak
 
->If a lion could speak, we could not understand him.
-- _Philosophical Investigations_ by Ludwig Wittgenstein, 1953
+> If a lion could speak, we could not understand him.
+
+- *Philosophical Investigations* by Ludwig Wittgenstein, 1953
 
 According to Wittgenstein, language is fundamental to consciousness. It is inseparably connected to our experiences, understandings, values and perceptions, and that understanding is only possible within a shared context. And it's a narrow context, informed by our very limited, human perceptions of the world around us.
 
@@ -63,17 +63,15 @@ If an alien could speak, why would it? Would we even know it was talking? Would 
 
 All very philosophical, but the point is that language is the crux of portraying alien psychology. An encounter with aliens should not just be a categorisation problem ("stones that can think!?") but should be a fundamental language problem. When we see an alien, we should not be able to fully articulate what we're looking at.
 
-![Still from Alien of Jonesy hissing at the xenomorph, 1979](./content/blog/alien-as-outside-context-entity-2/jonesy.png "Jonesy knows what's up")
-
+![Still from Alien of Jonesy hissing at the xenomorph, 1979](jonesy.png "Jonesy knows what's up")
 
 ## Alien (1979), a case study
 
->...it was a perfectly, perfectly reasonable, it seemed to me, that... that some organism should incubate within the warmth of another being.
+> ...it was a perfectly, perfectly reasonable, it seemed to me, that... that some organism should incubate within the warmth of another being.
 
 - John Hurt speaking in *[The Beast Within: The Making of Alien](https://www.youtube.com/watch?v=F4G1Jg1oJt8)*, 2003
 
 <aside>
-
 
 The subsequent revelations about the artificial origins of the xenomorphs (in *Prometheus* and its sequels) offer little comfort. In this new narrative, androids and xenomorphs are cousins, artificial creations of humans and Engineers. Our children promptly go "peculiar," as Ridley Scott put it, and turn on us. The act of creation has doomed us both.
 
@@ -81,11 +79,11 @@ In the case of the android, the call is coming from inside the building. The ali
 
 </aside>
 
-Let's put this all together, and examine the quintessential outside context entity: the xenomorph from _Alien_ (1979).
+Let's put this all together, and examine the quintessential outside context entity: the xenomorph from *Alien* (1979).
 
 The media profile of the xenomorph is so ubiquitous, it's difficult to imagine it as something truly alien. Its various sequels defused much of the horror. Encountered in its multiplicity, the xenomorph becomes predictable. The introduction of the queen gives it a relatable motivation: procreation and survival.
 
-Instead, we have to see it through the eyes of those first cinemagoers in 1979, through the eyes of the _Nostromo_ crew because, to the uninitiated, you have no idea what you're looking at. The eggs, the face hugger, the chest burster and, finally, the xenomorph in all its brutal complexity. Each time you glimpse it, it has changed. The significance of each stage of its lifecycle is only obvious once it's too late. It's mercurial in a way that life on earth isn't, defying categorisation at each step.
+Instead, we have to see it through the eyes of those first cinemagoers in 1979, through the eyes of the *Nostromo* crew because, to the uninitiated, you have no idea what you're looking at. The eggs, the face hugger, the chest burster and, finally, the xenomorph in all its brutal complexity. Each time you glimpse it, it has changed. The significance of each stage of its lifecycle is only obvious once it's too late. It's mercurial in a way that life on earth isn't, defying categorisation at each step.
 
 And the creature is not just physically uncategorisable, it portrays truly alien intelligence as well.
 
@@ -93,7 +91,7 @@ The xenomorph is not an animal, but it also lacks personhood. It acts with inten
 
 Is it intelligent? It's unclear. It seems on the cusp of intelligence. You get the sense humans are just in the way of whatever is motivating it. It's only intersection with us is the bothersome matter of flesh, and that feels like a stopover for its true intent, whatever that is.
 
-More than all of that, however, the true masterstroke of _Alien_ is that we do not understand the xenomorph, and it *makes sense* at the same time. The eerie familiarity of its biology is something we can grasp. It follows a kind of logic, as John Hurt eloquently put it. It has a sort of symmetry with us, which somehow makes it even more incomprehensible.
+More than all of that, however, the true masterstroke of *Alien* is that we do not understand the xenomorph, and it *makes sense* at the same time. The eerie familiarity of its biology is something we can grasp. It follows a kind of logic, as John Hurt eloquently put it. It has a sort of symmetry with us, which somehow makes it even more incomprehensible.
 
 We understand what the xenomorph does, but the unanswered *why* is what makes us scream.
 
@@ -101,16 +99,16 @@ We understand what the xenomorph does, but the unanswered *why* is what makes us
 
 <aside>
 
-[![Cover image from CONT/EXT](./content/products/context/context.png "CONT/EXT")](/products/context)
+[![Cover image from CONT/EXT](../../products/context/context.png "CONT/EXT")](/products/context)
 
 This article was research for [CONT/EXT](/products/context), my upcoming britpunk one-shot for Mothership. Please follow or [subscribe](/mailing-list/) for updates.
 
 </aside>
 
-It's difficult to give clear advice on how to portray outside context entities for your games. The examples above demonstrate it's possible, with differing levels of success. (The strange entities from Jeff Vandermeer's _Annihilation_ stray too far into surrealism to be convincing, for my taste.) It requires imagination. It requires an understanding of scifi. Reading scientific periodicals like _New Scientist_ can expand your grasp of what is possible, but too much science can betray your imagination.
+It's difficult to give clear advice on how to portray outside context entities for your games. The examples above demonstrate it's possible, with differing levels of success. (The strange entities from Jeff Vandermeer's *Annihilation* stray too far into surrealism to be convincing, for my taste.) It requires imagination. It requires an understanding of scifi. Reading scientific periodicals like *New Scientist* can expand your grasp of what is possible, but too much science can betray your imagination.
 
 The key thing is the symmetry I mentioned above: creating incomprehensible entities that make a *kind* of sense.
 
-In _CONT/EXT_ the outside context entity is the mysterious super-structure referred to as "The Thread."  The Thread is a cable-like structure that hangs in deep space, 30 km wide, and indefinitely long: a terminus cannot be observed. To exist it must be made of an impossible material but, for our players, the question of why it exists matters more.
+In *CONT/EXT* the outside context entity is the mysterious super-structure referred to as "The Thread." The Thread is a cable-like structure that hangs in deep space, 30 km wide, and indefinitely long: a terminus cannot be observed. To exist it must be made of an impossible material but, for our players, the question of why it exists matters more.
 
 I give some hints to the GM about what the Thread is, but players cannot understand what they're looking at when they see it. I'm not even sure I know what it is, exactly. Just like the xenomorph, it makes a kind of sense, even if we cannot understand it. Running a giant cable through space is something we would do if we could. Why would something else do that? Well, buy the adventure and find out.

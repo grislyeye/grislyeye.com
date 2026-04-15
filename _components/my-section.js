@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css } from "lit";
 
 class MySection extends LitElement {
   static styles = css`
@@ -31,10 +31,26 @@ class MySection extends LitElement {
 
       font-family: var(--subtitle-font-family);
       font-size: 1rem;
-      text-transform: lowercase;
+      color: var(--muted-color);
     }
 
-    @media(width < 970px) {
+    .next {
+      text-align: right;
+      color: var(--muted-color);
+    }
+
+    .next ::slotted(a),
+    .next ::slotted(a:hover),
+    .next ::slotted(a:active),
+    .next ::slotted(a:visited) {
+      color: var(--muted-color);
+    }
+
+    .next ::slotted(a:hover) {
+      color: white;
+    }
+
+    @media (max-width: 970px) {
       :host {
         margin-left: 0;
       }
@@ -55,7 +71,6 @@ class MySection extends LitElement {
     }
   `;
 
-  // eslint-disable-next-line class-methods-use-this
   render() {
     return html`
       <section>
@@ -66,8 +81,11 @@ class MySection extends LitElement {
           <slot></slot>
         </div>
       </section>
+      <div class="next">
+        <slot name="next"></slot>
+      </div>
     `;
   }
 }
 
-customElements.define('my-section', MySection);
+customElements.define("my-section", MySection);

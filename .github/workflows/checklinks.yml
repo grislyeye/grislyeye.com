@@ -1,0 +1,26 @@
+name: Check Links
+
+on:
+  pull_request:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v47.0.5
+        with:
+          files: |
+            **/*.{html,md,css,njk,hbs}
+
+      - name: Check links for changed files
+        id: check-links-changed-files
+        if: toJSON(steps.changed-files.outputs.all_changed_files) != '[]'
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --root-dir "$(pwd)" --verbose --no-progress --exclude-loopback --include-fragments ${{ join(steps.changed-files.outputs.all_changed_files, ' ') }}
+          failIfEmpty: false

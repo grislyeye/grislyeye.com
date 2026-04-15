@@ -1,0 +1,49 @@
+---
+layout: layouts/home.njk
+title: The Grisly Eye - Sponser Me
+---
+<section class="beta">
+  <header>
+    <my-hero>
+      <span slot="title">My <br> products</span>
+      <span slot="description">
+        If you like my <em>pro bono</em> work, you could buy one of my books to show your appreciation. It'd make my day.
+      </span>
+    </my-hero>
+  </header>
+
+  <my-section>
+    <ul id="products" class="previews">
+      {% for post in collections.products | excludeTags([ "drafts" ]) | reverse %}
+        <li class="preview">
+          {% if (post.data.redirectTo) %}{% set url %}{{ post.data.redirectTo }}{% endset %}
+          {% else %}{% set url %}{{ post.url }}{% endset %}
+          {% endif %}
+
+          <a href="{{ url }}" title="{{ post.data.title }}">
+
+            {% if loop.index % 3 == 1 %}
+              {% set theme %} bloody {% endset %}
+            {% elif loop.index % 2 == 1 %}
+              {% set theme %} light {% endset %}
+            {% else %}
+              {% set theme %} dark {% endset %}
+            {% endif %}
+
+            <my-preview
+              class="{{ post.data.tags.join(' ') }} {{ theme }} featured"
+              {% if post.data.image %}
+                {% set imagePath %}.{{ post.inputPath }}/{{ post.data.image }}{% endset %}
+                background="{% rawImageUrl post, post.data.image, 300 %}"
+              {% endif %}
+              preload
+            >
+              <span slot="title">{{ post.data.title }}</span>
+            </my-preview>
+
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </my-section>
+</section>

@@ -1,0 +1,45 @@
+---
+layout: layouts/home.njk
+title: The Grisly Eye - Campaign Diaries
+---
+<section class="beta">
+  <header>
+    <my-hero>
+      <span slot="title">Campaign <br> diaries</span>=
+    </my-hero>
+  </header>
+
+  <my-section>
+    <ul id="sessions" class="previews">
+      {% for diary in collections.diaries | reverse %}
+        <li class="preview">
+          {% if (diary.data.redirectTo) %}{% set url %}{{diary.data.redirectTo}}{% endset %}
+          {% else %}{% set url %}{{diary.url}}{% endset %}
+          {% endif %}
+
+          <a href="{{ url }}" title="{{ diary.data.title }}">
+
+            {% if loop.index % 3 == 1 %}
+              {% set theme %} bloody {% endset %}
+            {% elif loop.index % 2 == 1 %}
+              {% set theme %} light {% endset %}
+            {% else %}
+              {% set theme %} dark {% endset %}
+            {% endif %}
+
+            <my-preview
+              {% if diary.data.image %}
+                {% set imagePath %}.{{ diary.url }}{{ diary.data.image }}{% endset %}
+                background="{% rawImageUrl diary, diary.data.image, 250 %}"
+              {% endif %}
+              class="{{ diary.data.tags.join(' ') }} {{ theme }}"
+            >
+              <span slot="title">{{ diary.data.title }}</span>
+            </my-preview>
+
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </my-section>
+</section>

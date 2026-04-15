@@ -4,14 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {% if tags and not 'drafts' in tags %}
-      {% seo "" %}
-    {% elif not tags %}
-      {% seo "" %}
-    {% endif %}
+    {% seo "" %}
 
     <meta name="description" content="{{ description or metadata.description }}">
-    <meta name="fediverse:creator" content="@grislyeye@c.im">
+    <meta name="fediverse:creator" content="@grislyeye@dice.camp">
 
     <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="{{ metadata.title }}">
 
@@ -40,6 +36,7 @@
       {% include "public/css/lists.css" %}
       {% include "public/css/tables.css" %}
       {% include "public/css/legal.css" %}
+      {% include "public/css/beta.css" %}
     {% endcss %}
 
     <link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
@@ -94,7 +91,7 @@
       <my-nav
         bluesky="https://bsky.app/profile/grislyeye.com"
         email="/mailing-list/"
-        mastodon="https://c.im/@grislyeye"
+        mastodon="https://dice.camp/@grislyeye"
         rss="/rss.xml"
         location="London"
       >
@@ -109,7 +106,7 @@
 
     <footer>
       <p class="legal">
-        Website version {{ pkg.version }} &copy; 2016-2025 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
+        Website version {{ pkg.version }} &copy; 2016-2026 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
       </p>
     </footer>
 

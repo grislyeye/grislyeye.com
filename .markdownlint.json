@@ -1,0 +1,9 @@
+{
+  "no-inline-html": false,
+  "line-length": false,
+  "no-emphasis-as-heading": false,
+  "first-line-h1": false,
+  "code-block-style": {
+    "style": "fenced"
+  }
+}

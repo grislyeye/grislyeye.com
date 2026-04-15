@@ -17,7 +17,7 @@ It outlines a nameless, implied setting where non-humans are the exception. Seve
 
 > The game features humankind for a reason. It is the most logical basis in an illogical game.
 >
-> - _Dungeon Master's Guide_ by Gary Gygax, 1979
+> - *Dungeon Master's Guide* by Gary Gygax, 1979
 
 Similarly, Gary sought to ground his fantasy in order to maintain a mostly logical setting and do so by limiting the non-human elements, in this case playable character races. Which begs the question: what does a mostly logical fantasy look like?
 
@@ -65,7 +65,7 @@ Descendants are reborn randomly, scattered among the common folk, isolated, weak
 
 It is said that three descendants have convened for a legendary Fourth Schooling in the city of Laggard. From across the lands sages and students flock, eager to learn at the side of the very Ancestors themselves or, failing that, grab whatever scraps might fall from their table.
 
-Yet, is all as it seems? Some mutter about fool's gold and wonder to themselves how one might tell a true descendant from a mere mummer. Is this actually a Fourth Schooling, or is it just a canny gambit to entrap the gullible and ensnare what arcane knowledge _they_ might have?
+Yet, is all as it seems? Some mutter about fool's gold and wonder to themselves how one might tell a true descendant from a mere mummer. Is this actually a Fourth Schooling, or is it just a canny gambit to entrap the gullible and ensnare what arcane knowledge *they* might have?
 
 ### Agra
 
@@ -117,7 +117,6 @@ All hidlings are known to each by secret gestures and signs.
 
 ## Summary
 
-On reflection the above is a little too idiosyncratic for its intended purpose. It certainly has legs but it's a bit fiddly and _outré_ for your standard fantasy roleplay game. It might work as a standalone setting, but then it suffers from some blandness. Which is a shame. It remains here to serve as either a lesson or conversational piece for further thought and discussion.
+On reflection the above is a little too idiosyncratic for its intended purpose. It certainly has legs but it's a bit fiddly and *outré* for your standard fantasy roleplay game. It might work as a standalone setting, but then it suffers from some blandness. Which is a shame. It remains here to serve as either a lesson or conversational piece for further thought and discussion.
 
 Please telegraph your thoughts on your social media platform of choice.
-

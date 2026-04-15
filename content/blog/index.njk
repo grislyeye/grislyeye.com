@@ -1,0 +1,46 @@
+---
+layout: layouts/home.njk
+title: The Grisly Eye - My Posts
+---
+<section class="beta">
+  <header>
+    <my-hero>
+      <span slot="title">My <br> posts</span>
+      <span slot="description">Blog post archive</span>
+    </my-hero>
+  </header>
+
+  <my-section>
+    <ul id="posts" class="previews">
+      {% for post in collections.posts | excludeTags([ "drafts" ]) | reverse | featured %}
+        <li class="preview">
+          {% if (post.data.redirectTo) %}{% set url %}{{post.data.redirectTo}}{% endset %}
+          {% else %}{% set url %}{{post.url}}{% endset %}
+          {% endif %}
+
+          <a href="{{ url }}" title="{{ post.data.title }}">
+
+            {% if loop.index % 3 == 1 %}
+              {% set theme %} bloody {% endset %}
+            {% elif loop.index % 2 == 1 %}
+              {% set theme %} light {% endset %}
+            {% else %}
+              {% set theme %} dark {% endset %}
+            {% endif %}
+
+            <my-preview
+              {% if post.data.image %}
+                {% set imagePath %}.{{ post.url }}{{ post.data.image }}{% endset %}
+                background="{% rawImageUrl post, post.data.image, 250 %}"
+              {% endif %}
+              class="{{ post.data.tags.join(' ') }} {{ theme }}"
+            >
+              <span slot="title">{{ post.data.title }}</span>
+            </my-preview>
+
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </my-section>
+</section>

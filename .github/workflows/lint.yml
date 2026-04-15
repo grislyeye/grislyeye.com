@@ -1,0 +1,22 @@
+name: Lint
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+      - name: Use Node.js 25.x
+        uses: actions/setup-node@v6
+        with:
+          node-version: 25.x
+          cache: "npm"
+      - run: npm ci
+      - run: npm run build
+      - run: npm run test:lint

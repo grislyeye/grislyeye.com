@@ -1,5 +1,5 @@
-import { LitElement, html, css } from 'lit';
-import './my-button.js';
+import { LitElement, html, css } from "lit";
+import "./my-button.js";
 
 class MyProduct extends LitElement {
   static styles = css`
@@ -35,34 +35,34 @@ class MyProduct extends LitElement {
   `;
 
   static properties = {
-    call: { attribute: 'call', type: String },
-    currency: { attribute: 'currency', type: String },
-    price: { attribute: 'price', type: String },
-    src: { attribute: 'src', type: String },
-    notes: { attribute: 'notes', type: Array }
+    call: { attribute: "call", type: String },
+    currency: { attribute: "currency", type: String },
+    price: { attribute: "price", type: String },
+    src: { attribute: "src", type: String },
+    notes: { attribute: "notes", type: Array }
   };
 
   render() {
     return html`
       <div class="call box">
         <div class="call button">
-          <a href="${ this.src }">
+          <a href="${this.src}">
             <my-button class="small">
-              <button>${ this.call }</button>
+              <button>${this.call}</button>
             </my-button>
           </a>
         </div>
 
-        <span class="price">${ this.currency }${ this.price }</span>
+        <span class="price">${this.currency}${this.price}</span>
 
-        <span class="notes">${ this.notes ? this.renderNotes() : html`` }</span>
+        <span class="notes">${this.notes ? this.renderNotes() : html``}</span>
       </div>
     `;
   }
 
   renderNotes() {
-    return html`(${ this.notes.join(', ') })`;
+    return html`(${this.notes.join(", ")})`;
   }
 }
 
-customElements.define('my-product', MyProduct);
+customElements.define("my-product", MyProduct);

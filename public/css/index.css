@@ -1,16 +1,18 @@
 :root {
-  --font-family: 'Alegreya', serif;
-  --title-font-family: 'Andada Pro', serif;
-  --subtitle-font-family: 'Alegreya Sans', sans;
+  --font-family: "Alegreya", serif;
+  --title-font-family: "Andada Pro", serif;
+  --subtitle-font-family: "Alegreya Sans", sans;
 
   --background-color: black;
 
   --text-color: white;
+  --accent-color: red;
+  --muted-color: #a8a8a8;
 
   --content-max-width: 740px;
   --content-subtitle-max-width: 200px;
 
-  --fluid-gap: clamp(0.75rem, 3vw, 1.5rem)
+  --fluid-gap: clamp(0.75rem, 3vw, 1.5rem);
 }
 
 * {
@@ -59,7 +61,7 @@ main > header {
   margin-bottom: 7rem;
 }
 
-@media(width < 550px) {
+@media (width < 550px) {
   main > header {
     margin-bottom: 3rem;
   }
@@ -72,14 +74,14 @@ nav {
   list-style: none;
 }
 
-@media(width < 550px) {
+@media (width < 550px) {
   nav {
     margin-bottom: 3rem;
   }
 }
 
 footer {
-  color: gray;
+  color: var(--muted-color);
   text-align: center;
   margin-bottom: 3.5em;
 }
@@ -106,6 +108,7 @@ p:last-child {
 main > my-hero,
 main > my-section {
   max-width: calc(var(--content-max-width) + var(--content-subtitle-max-width));
+  margin-bottom: 7rem;
 }
 
 .previews {
@@ -115,7 +118,6 @@ main > my-section {
   gap: var(--fluid-gap);
   padding: 0;
   margin: 0;
-  margin-bottom: 7rem;
 }
 
 ul.previews {
@@ -141,6 +143,15 @@ my-preview {
   width: 100%;
   height: 100%;
   aspect-ratio: 1;
+  transition:
+    filter 0.2s ease,
+    transform 0.2s ease;
+}
+
+.previews a:hover my-preview,
+.previews a:focus my-preview {
+  filter: brightness(1.15);
+  transform: scale(1.02);
 }
 
 section.small {
@@ -228,11 +239,11 @@ img.medium {
 
 span.product {
   font-style: italic;
-  color: red;
+  color: var(--accent-color);
 }
 
 span.title {
-  color: red;
+  color: var(--accent-color);
   font-variant: small-caps;
 }
 
@@ -242,7 +253,7 @@ span.title {
   gap: 0.5em;
 }
 
-@media(width < 970px) {
+@media (width < 970px) {
   .page-subtitle {
     flex-direction: row;
     padding-bottom: 0.3em;

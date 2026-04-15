@@ -7,19 +7,77 @@ image: /blog/many-preview-1/infantry.png
 statblocks: true
 permalink: "{% backwardSupportPermalinkStem page %}.html"
 ---
-<p>Halfway decent rules for mass combat is the holy grail for D&amp;D. Our upcoming monograph, <span class="product">The Many</span>, will use the rules for swarms from the <span class="product">Monster Manual</span> to simulate battles. This has several advantages over other mass combat systems:</p>
+
+<p>
+  Halfway decent rules for mass combat is the holy grail for D&amp;D. Our
+  upcoming monograph, <span class="product">The Many</span>, will use the rules
+  for swarms from the <span class="product">Monster Manual</span> to simulate
+  battles. This has several advantages over other mass combat systems:
+</p>
 
 <ul>
   <li><strong>Simplicity.</strong> Re-uses the familiar rules for combat.</li>
-  <li><strong>Agency.</strong> Individual characters can still affect the outcome of a battle.</li>
-  <li><strong>Awesomeness.</strong> Powerful characters can feel awesome by going toe-to-toe with whole armies.</li>
-  <li><strong>Mooks.</strong> Re-introduces the concept of minions from 4th Edition <em>Dungeons and Dragons</em>.</li>
+  <li>
+    <strong>Agency.</strong> Individual characters can still affect the outcome
+    of a battle.
+  </li>
+  <li>
+    <strong>Awesomeness.</strong> Powerful characters can feel awesome by going
+    toe-to-toe with whole armies.
+  </li>
+  <li>
+    <strong>Mooks.</strong> Re-introduces the concept of minions from 4th
+    Edition <em>Dungeons and Dragons</em>.
+  </li>
 </ul>
 
-<p><strong>The Many</strong> will introduce new stat blocks for humanoid <q>swarms</q>, or <em>units</em>. The party could face these units in battle, or command them against opposing forces.</p>
+<p>
+  <strong>The Many</strong> will introduce new stat blocks for humanoid
+  <q>swarms</q>, or <em>units</em>. The party could face these units in battle,
+  or command them against opposing forces.
+</p>
 
-<vellum-monster id="infantry-unit" name="Infantry Unit" size="Large" type="swarm of Medium humanoids (any race)" alignment="any" ac="14" armor="chain shirt" hit-die="6d8+6" speeds='["30 ft."]' str="13" dex="12" con="13" int="10 " wis="11" cha="10" senses='["passive Perception 10"]' condition-immunities='["charmed", "frightened", "paralyzed", "petrified", "prone", "restrained", "stunned"]' traits='[{"name":"Swarm","description":"The mob can occupy another creature&apos;s space and vice versa, and the mob can move through any opening large enough for a Medium humanoid. The mob can&apos;t regain hit points or gain temporary hit points.","damageAdjustment":"+7"},{"name":"Military Discipline","description":"While the unit has more than half of its hit points, it adds 2 to its AC against one melee attack that would hit it. To do so, the unit must see the attacker.","acAdjustment":"+1"}]' actions='[{"name":"Shortsword","type":"melee-attack","bonus":"+4","reach":"5ft.","target":"one target","damage":"6d6+6","damageType":"piercing","notes":", or 17 (3d6 + 3) piercing damage if the mob has half of its hit points or fewer"},{"name":"Shortbow","type":"ranged-attack","bonus":"+4","range":"60ft./180ft.","target":"one target","damage":"6d6+6","damageType":"piercing","notes":", or 17 (3d6 + 3) piercing damage if the mob has half of its hit points or fewer"}]'>
+<vellum-monster
+  id="infantry-unit"
+  name="Infantry Unit"
+  size="Large"
+  type="swarm of Medium humanoids (any race)"
+  alignment="any"
+  ac="14"
+  armor="chain shirt"
+  hit-die="6d8+6"
+  speeds='["30 ft."]'
+  str="13"
+  dex="12"
+  con="13"
+  int="10 "
+  wis="11"
+  cha="10"
+  senses='["passive Perception 10"]'
+  condition-immunities='["charmed", "frightened", "paralyzed", "petrified", "prone", "restrained", "stunned"]'
+  traits='[{"name":"Swarm","description":"The mob can occupy another creature&apos;s space and vice versa, and the mob can move through any opening large enough for a Medium humanoid. The mob can&apos;t regain hit points or gain temporary hit points.","damageAdjustment":"+7"},{"name":"Military Discipline","description":"While the unit has more than half of its hit points, it adds 2 to its AC against one melee attack that would hit it. To do so, the unit must see the attacker.","acAdjustment":"+1"}]'
+  actions='[{"name":"Shortsword","type":"melee-attack","bonus":"+4","reach":"5ft.","target":"one target","damage":"6d6+6","damageType":"piercing","notes":", or 17 (3d6 + 3) piercing damage if the mob has half of its hit points or fewer"},{"name":"Shortbow","type":"ranged-attack","bonus":"+4","range":"60ft./180ft.","target":"one target","damage":"6d6+6","damageType":"piercing","notes":", or 17 (3d6 + 3) piercing damage if the mob has half of its hit points or fewer"}]'
+>
 </vellum-monster>
 
-<vellum-monster id="commoner-mob" name="Commoner Mob" size="Large" type="swarm of Medium humanoids (any race)" alignment="any chaotic" ac="10" hit-die="10d8" speeds='["30 ft."]' str="15" dex="10" con="10" int="10 " wis="10" cha="10" senses='["passive Perception 10"]' condition-immunities='["charmed", "frightened", "paralyzed", "petrified", "prone", "restrained", "stunned"]' traits='[{"name":"Swarm","description":"The mob can occupy another creature&apos;s space and vice versa, and the mob can move through any opening large enough for a Medium humanoid. The mob can&apos;t regain hit points or gain temporary hit points.","damageAdjustment":"+7"},{"name":"Vandalism","description":"While the mob has more than half of its hit points, once per turn, it can deal an extra 7 (2d6) damage to an object it hits with a weapon attack.","damageAdjustment":"+7"}]' actions='[{"name":"Improvised Weapons","type":"melee-attack","bonus":"+4","reach":"5ft.","target":"one target","damage":"10d4","damageType":"bludgeoning","notes":", or 10 (4d4) bludgeoning damage if the mob has half of its hit points or fewer"}]'>
+<vellum-monster
+  id="commoner-mob"
+  name="Commoner Mob"
+  size="Large"
+  type="swarm of Medium humanoids (any race)"
+  alignment="any chaotic"
+  ac="10"
+  hit-die="10d8"
+  speeds='["30 ft."]'
+  str="15"
+  dex="10"
+  con="10"
+  int="10 "
+  wis="10"
+  cha="10"
+  senses='["passive Perception 10"]'
+  condition-immunities='["charmed", "frightened", "paralyzed", "petrified", "prone", "restrained", "stunned"]'
+  traits='[{"name":"Swarm","description":"The mob can occupy another creature&apos;s space and vice versa, and the mob can move through any opening large enough for a Medium humanoid. The mob can&apos;t regain hit points or gain temporary hit points.","damageAdjustment":"+7"},{"name":"Vandalism","description":"While the mob has more than half of its hit points, once per turn, it can deal an extra 7 (2d6) damage to an object it hits with a weapon attack.","damageAdjustment":"+7"}]'
+  actions='[{"name":"Improvised Weapons","type":"melee-attack","bonus":"+4","reach":"5ft.","target":"one target","damage":"10d4","damageType":"bludgeoning","notes":", or 10 (4d4) bludgeoning damage if the mob has half of its hit points or fewer"}]'
+>
 </vellum-monster>

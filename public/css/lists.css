@@ -5,7 +5,7 @@
   margin-right: 5px;
   font-weight: bold;
   font-style: italic;
-  color: red;
+  color: var(--accent-color);
 }
 
 .content dl dd {

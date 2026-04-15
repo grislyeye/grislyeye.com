@@ -1,4 +1,4 @@
-name: publish
+name: Publish release to Github Pages
 
 permissions:
   contents: write
@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
-        
-      - name: Use Node.js 24.x
-        uses: actions/setup-node@v4
+        uses: actions/checkout@v6
+
+      - name: Use Node.js 25.x
+        uses: actions/setup-node@v6
         with:
-          node-version: 24.x
-          cache: 'npm'
+          node-version: 25.x
+          cache: "npm"
 
       - name: Install and Build 🔧
         run: |
@@ -27,7 +27,7 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.5.0
+        uses: JamesIves/github-pages-deploy-action@v4.8.0
         with:
           branch: gh-pages
           folder: _site
