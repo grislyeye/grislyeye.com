@@ -8,7 +8,7 @@ image: /blog/little-big/cover.jpg
 rating: 5
 ---
 
-I first read [Little, Big](https://www.goodreads.com/book/show/90619.Little_Big) (John Crowley, 1981) in the nineties but didn't make it all the way through. As I recall, it was on the reading list for *Changeling: the Dreaming* (1st edition) but it was probably a bit too mature for me back then.
+I first read [Little, Big](https://en.wikipedia.org/wiki/Little,_Big) (John Crowley, 1981) in the nineties but didn't make it all the way through. As I recall, it was on the reading list for *Changeling: the Dreaming* (1st edition) but it was probably a bit too mature for me back then.
 
 I'm delighted to report that, a quarter of a century later, I have finally completed it and its virtues are many. Among them:
 
