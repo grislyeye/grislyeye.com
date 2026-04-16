@@ -24,11 +24,11 @@ Why has *Curseborne* brought me to this crisis? Well, let me first explain what 
 
 Which is why *Curseborne* fills me with apprehension: it is game haunted, if you will, by *Vampire: the Masquerade*, *Mage: the Ascension* and others. It is, essentially, a product of pure nostalgia. A game written with the dubious premise "like the World of Darkness but different." Not that it's an unreasonable objective, but it comes from a place of practicality rather than creativity. *Curseborne* doesn't start with a need and follow through with a game. It starts with a game in the hope it will become a need. It's not cynical, but maybe it's not entirely authentic either.
 
-Of course, authenticity itself is subjective, and, as you'll see, *Curseborne* is something of a love letter to the urban fantasy genre, which is why I hold out hope. Can Onyx thread the needle here? Can lightning strike twice? Can *Curseborne* give the *World of Darkness* a run for its money? Or, better yet, could it be something entirely different; compelling for WoD fans, but bringing its own, unique vision to the table?
+Of course, authenticity itself is subjective, and we should always be open to new games which is why I hold out hope. But can Onyx thread the needle here? Can they create something original? Something compelling for old WoD fans and new players.
 
 Maybe, but I also have some reservations with *Onyx Path Publishing* themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) This can lead to derivative and lengthy works filled with tedious lore that lacks much of the pathos and inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty.
 
-And that's bad because 90s *White Wolf's* real product wasn't really games; it was cool. The designers and illustrators always seemed to be people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and *new*, and if it isn't, well, what are you doing?
+And that's bad news because 90s *White Wolf's* product wasn't really games; it was cool. The designers and illustrators always seemed to be people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and *new*, and if it isn't, well, what are you doing?
 
 > [!NOTE]
 > ![Illustration of a vampire by Josh Timbrook](josh-timbrook.jpg)
