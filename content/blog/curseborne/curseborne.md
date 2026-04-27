@@ -43,7 +43,7 @@ The question is, did Onyx learn the right lessons?
 
 ## The Five Pillars of Urban Fantasy RPGs
 
-Where to begin? *Curseborne* is about 400 pages which is relatively short for an *Onyx Path* core book, but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. That's a lot, and I'm not particularly interested in covering the mechanics and sub-systems. What I want to do is focus on the setting itself.
+Where to begin? *Curseborne* is about 400 pages which is relatively short for an *Onyx Path* core book, but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. That's a lot, but I'm not particularly interested in covering the mechanics and sub-systems. What I do want to focus is the setting itself.
 
 So what makes an urban fantasy setting great? In my opinion, there are five pillars of urban fantasy roleplaying games that make a setting sublime. The elements that I feel made games like VtM great. They are as follows:
 
