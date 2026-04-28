@@ -89,7 +89,7 @@ Like the *Chronicles of Darkness*, *Curseborne* is less global, with less canon.
 
 ### 4. Splats of course
 
-Here is the heart of the matter. Urban fantasy TTRPGs live or die by their [splats](https://whitewolf.fandom.com/wiki/Splat#Fatsplats,_secondary_splats,_and_tiers). They introduce the aesthetic, core concepts, themes and motifs.
+Here is the heart of the matter. Urban fantasy TTRPGs live or die by their splats. They introduce the aesthetic, core concepts, themes and motifs.
 
 *Curseborne* splats seem to be adapted from the *Chronicles of Darkness*/*New World of Darkness* convention. There are a fixed set of inherent splats (like the clans from *Vampire: the Requiem*) and an expansive list of secondary splats, that refine the main concepts into more specific character types (like *Vampire: the Requiem* bloodlines). We have the "lineages" which represent the core, urban fantasy archetypes: your vampires, werewolves, etc. And each lineage then has 5-6 secondary splats, called "families".
 
