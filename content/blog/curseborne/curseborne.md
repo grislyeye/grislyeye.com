@@ -146,3 +146,5 @@ But there is no core conflict here! Merely a lot of smaller ones, that don't see
 To be honest, *Curseborne* isn't bad. It has some nice elements and perhaps I should reserve judgement until it's had time to bed in. A few good supplements can turn a game line around, or elaborate on the original designers intentions to reveal a better game beneath.
 
 What it isn't is a beginner's game. I'm not sure new player's could properly consume it without the complicated historical context of the *World of Darkness* game lines that came before. Is *Curseborne* more complicated than *Dungeons & Dragons 5th Edition*? No. Could it easily be a lot simpler? Absolutely.
+
+I'm sure I will (or have) become obsessed with *Curseborne* and scour every book they publish for more clues as to What My Deal Is with urban fantasy.
