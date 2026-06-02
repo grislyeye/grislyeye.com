@@ -173,6 +173,10 @@ export default async (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy({ "./robots.txt": "./robots.txt" });
 
+  eleventyConfig.setServerOptions({
+    domDiff: false
+  });
+
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
 
