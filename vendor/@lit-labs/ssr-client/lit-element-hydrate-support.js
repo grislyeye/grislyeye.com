@@ -243,7 +243,7 @@
   };
   var j = { M: h, P: o, A: n, C: 1, L: N, R, D: d, V: M, I: k, H, N: L, U: z, B: I, F: Z };
   var B = t.litHtmlPolyfillSupport;
-  B?.(S, k), (t.litHtmlVersions ??= []).push("3.3.2");
+  B?.(S, k), (t.litHtmlVersions ??= []).push("3.3.3");
   var D = (t4, i3, s3) => {
     const e2 = s3?.renderBefore ?? i3;
     let h3 = e2._$litPart$;

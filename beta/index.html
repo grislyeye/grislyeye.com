@@ -2243,13 +2243,122 @@ span.title {
           
           
 
-          <a href="/blog/campaigns/black-griffin/42.html" title="Black Griffin 42">
+          <a href="/blog/campaigns/black-griffin/45.html" title="Black Griffin 45">
 
             
               
             
 
             <my-preview  class="posts diaries drafts  bloody "><template shadowroot="open" shadowrootmode="open"><style>
+    :host {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      background-size: cover;
+      background-position: top;
+      border-radius: 6px;
+
+      line-height: 1;
+    }
+
+    header {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      margin: 10px 10px 0 10px;
+      padding: 0 0 5px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 10px;
+      padding: 0;
+    }
+
+    /* products mode */
+    :host(.products[background]) {
+      --text-shadow-color: white;
+      color: black;
+      text-shadow:
+        1px 1px 0 var(--text-shadow-color),
+        -1px 1px 0 var(--text-shadow-color),
+        -1px -1px 0 var(--text-shadow-color),
+        1px -1px 0 var(--text-shadow-color);
+    }
+
+    :host(.products[background]) header h1 {
+      visibility: hidden;
+    }
+
+    /* empty background mode */
+    :host(:not([background])) {
+      background-color: grey;
+      color: white;
+    }
+
+    /* bloody theme */
+    :host(.bloody[background]:not(.products)) header {
+      color: white;
+    }
+
+    /* light theme */
+    :host(.light[background]:not(.products)) h1,
+    :host(.light[background]:not(.products)) p {
+      color: black;
+    }
+
+    /* dark theme */
+    :host(.dark[background]:not(.products)) {
+      color: white;
+    }
+  </style><!--lit-part VocstL0DhvU=-->
+      <!--lit-node 0--><div class="container" style="">
+        <header>
+          <h1><slot name="title">Preview Title</slot></h1>
+          <p><!--lit-part-->article<!--/lit-part--></p>
+        </header>
+      </div>
+    <!--/lit-part--></template>
+              <span slot="title">Black Griffin 45</span>
+            </my-preview>
+
+          </a>
+        </li>
+      
+        <li class="preview">
+          
+          
+
+          <a href="/blog/campaigns/black-griffin/42.html" title="Black Griffin 42">
+
+            
+              
+            
+
+            <my-preview  class="posts diaries drafts  dark "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2358,7 +2467,7 @@ span.title {
               
             
 
-            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  dark "><template shadowroot="open" shadowrootmode="open"><style>
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  light "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2467,7 +2576,7 @@ span.title {
               
             
 
-            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  light "><template shadowroot="open" shadowrootmode="open"><style>
+            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  bloody "><template shadowroot="open" shadowrootmode="open"><style>
     :host {
       display: inline-block;
       margin: 0;
@@ -2566,115 +2675,6 @@ span.title {
           </a>
         </li>
       
-        <li class="preview">
-          
-          
-
-          <a href="/blog/black-griffin-session-39.html" title="Black Griffin 39 - The Double Cross">
-
-            
-              
-            
-
-            <my-preview   background="/img/idIHQFknw3-250.webp" class="posts diaries  bloody "><template shadowroot="open" shadowrootmode="open"><style>
-    :host {
-      display: inline-block;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-
-    .container {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-
-      background-size: cover;
-      background-position: top;
-      border-radius: 6px;
-
-      line-height: 1;
-    }
-
-    header {
-      display: flex;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    header h1 {
-      font-size: 1.6rem;
-      overflow: hidden;
-      overflow-wrap: break-word;
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;
-      margin: 10px 10px 0 10px;
-      padding: 0 0 5px 0;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      font-weight: bold;
-      text-transform: capitalize;
-      margin: 10px;
-      padding: 0;
-    }
-
-    /* products mode */
-    :host(.products[background]) {
-      --text-shadow-color: white;
-      color: black;
-      text-shadow:
-        1px 1px 0 var(--text-shadow-color),
-        -1px 1px 0 var(--text-shadow-color),
-        -1px -1px 0 var(--text-shadow-color),
-        1px -1px 0 var(--text-shadow-color);
-    }
-
-    :host(.products[background]) header h1 {
-      visibility: hidden;
-    }
-
-    /* empty background mode */
-    :host(:not([background])) {
-      background-color: grey;
-      color: white;
-    }
-
-    /* bloody theme */
-    :host(.bloody[background]:not(.products)) header {
-      color: white;
-    }
-
-    /* light theme */
-    :host(.light[background]:not(.products)) h1,
-    :host(.light[background]:not(.products)) p {
-      color: black;
-    }
-
-    /* dark theme */
-    :host(.dark[background]:not(.products)) {
-      color: white;
-    }
-  </style><!--lit-part VocstL0DhvU=-->
-      <!--lit-node 0--><div class="container" style="">
-        <header>
-          <h1><slot name="title">Preview Title</slot></h1>
-          <p><!--lit-part-->article<!--/lit-part--></p>
-        </header>
-      </div>
-    <!--/lit-part--></template>
-              <span slot="title">Black Griffin 39 - The Double Cross</span>
-            </my-preview>
-
-          </a>
-        </li>
-      
     </ul>
     <a slot="next" href="/blog/campaigns/">more...</a>
   </my-section>
@@ -2685,7 +2685,7 @@ span.title {
 
     <footer>
       <p class="legal">
-        Website version 3.34.0 &copy; 2016-2026 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
+        Website version 3.34.1 &copy; 2016-2026 Grisly Eye Games. The Grisly Eye symbol was designed by Freepik. Some links contain affiliate codes to help cover hosting costs and fund my work.
       </p>
     </footer>
 
