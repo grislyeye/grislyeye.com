@@ -118,21 +118,35 @@ class MyNavigationBar extends LitElement {
           <span id="location">${this.location}</span>
         </div>
 
-        ${this.email
-          ? MyNavigationBar.renderSocial("email", this.email, "Mailing List")
-          : html``}
-        ${this.twitter
-          ? MyNavigationBar.renderSocial("twitter", this.twitter, "Twitter")
-          : html``}
-        ${this.bluesky
-          ? MyNavigationBar.renderSocial("bluesky", this.bluesky, "Bluesky")
-          : html``}
-        ${this.mastodon
-          ? MyNavigationBar.renderSocial("mastodon", this.mastodon, "Mastodon")
-          : html``}
-        ${this.rss
-          ? MyNavigationBar.renderSocial("rss", this.rss, "RSS")
-          : html``}
+        ${
+          this.email
+            ? MyNavigationBar.renderSocial("email", this.email, "Mailing List")
+            : html``
+        }
+        ${
+          this.twitter
+            ? MyNavigationBar.renderSocial("twitter", this.twitter, "Twitter")
+            : html``
+        }
+        ${
+          this.bluesky
+            ? MyNavigationBar.renderSocial("bluesky", this.bluesky, "Bluesky")
+            : html``
+        }
+        ${
+          this.mastodon
+            ? MyNavigationBar.renderSocial(
+                "mastodon",
+                this.mastodon,
+                "Mastodon"
+              )
+            : html``
+        }
+        ${
+          this.rss
+            ? MyNavigationBar.renderSocial("rss", this.rss, "RSS")
+            : html``
+        }
       </div>
     `;
   }
