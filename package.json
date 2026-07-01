@@ -64,5 +64,10 @@
     "post:new": "plop post",
     "product:new": "plop product",
     "review:new": "plop review"
+  },
+  "allowScripts": {
+    "esbuild": false,
+    "fsevents": false,
+    "sharp": false
   }
 }
