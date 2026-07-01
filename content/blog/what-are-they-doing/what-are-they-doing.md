@@ -6,6 +6,6 @@ date: 2026-06-30
 layout: layouts/post.njk
 ---
 
-Good question. What are they doing? By "them" I mean non-player characters, and by "what" I mean what are they doing when the players encounter them. I've been told monsters and NPCs should be always [doing something](https://www.paperspencils.com/structuring-encounter-tables/)when encountered.
+As part of my eternal search on how to best represent NPCs in my game I've been told monsters and NPCs should be always be [doing stuff](https://www.paperspencils.com/structuring-encounter-tables/) when you encounter them. So what should they do?
 
 You can create activity tables for each monster or NPC. Spark tables are also great for this.
