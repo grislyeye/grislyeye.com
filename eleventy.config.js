@@ -14,6 +14,7 @@ import pluginSEO from "eleventy-plugin-seo";
 import pluginGoogleFonts from "eleventy-google-fonts";
 
 import path from "path";
+import { exec } from "node:child_process";
 
 import parseChat from "./_lib/chat.js";
 
@@ -42,16 +43,26 @@ export default async (eleventyConfig) => {
   eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
   eleventyConfig.addWatchTarget("content/**/*.csv");
 
-  eleventyConfig.on("afterBuild", () => {
-    return esbuild.build({
-      entryPoints: [
-        "node_modules/@lit-labs/ssr-client/lit-element-hydrate-support.js"
-      ],
-      bundle: true,
-      outfile:
-        "_site/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js"
+  eleventyConfig
+    .on("afterBuild", () => {
+      return esbuild.build({
+        entryPoints: [
+          "node_modules/@lit-labs/ssr-client/lit-element-hydrate-support.js"
+        ],
+        bundle: true,
+        outfile:
+          "_site/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js"
+      });
+    })
+    .on("eleventy.after", async () => {
+      await exec("npm run test:lint", (error, stdout, stderr) => {
+        console.log(stdout);
+        console.error(stderr);
+        if (error !== null) {
+          console.log("exec error: ", error);
+        }
+      });
     });
-  });
 
   eleventyConfig.on("afterBuild", () => {
     return esbuild.build({
