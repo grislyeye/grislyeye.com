@@ -6,7 +6,7 @@ date: 2026-07-06
 layout: layouts/post.njk
 image: /blog/bad-books/domesday-book.jpg
 ---
-![](first-public-library-in-poland.jpg)
+![Bookplate for the Załuski Library](first-public-library-in-poland.jpg)
 
 *A bookplate for the Załuski Library, designed by Jan Filipowicz.*
 
@@ -14,7 +14,7 @@ Life's too short for bad books. A long time ago I realised that reading for leis
 
 At its core my strategy is pretty straightforward:
 
->  **Only read books that have at least a four star rating on Goodreads.**
+> **Only read books that have at least a four star rating on Goodreads.**
 
 It's that simple.
 
