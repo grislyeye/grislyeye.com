@@ -63,3 +63,7 @@
 #post .previews a:hover {
   background-color: transparent;
 }
+
+#post > p:nth-of-type(1) img:first-child {
+  margin-top: 0;
+}
