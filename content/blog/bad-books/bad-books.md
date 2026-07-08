@@ -8,7 +8,7 @@ image: /blog/bad-books/domesday-book.jpg
 ---
 ![Bookplate for the Załuski Library](first-public-library-in-poland.jpg)
 
-*A bookplate for the Załuski Library, designed by Jan Filipowicz.*
+*Bookplate for the Załuski Library, designed by Jan Filipowicz.*
 
 Life's too short for bad books. A long time ago I realized that reading for leisure is supposed to be fun, not a punitive chore. You might feel obliged to finish a book even if you didn't enjoy it, but there's only so many books you can fit into the rapidly vanishing seconds of your time on earth. And there are so many books.
 
