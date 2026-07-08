@@ -58,9 +58,6 @@ export default async (eleventyConfig) => {
       await exec("npm run test:lint", (error, stdout, stderr) => {
         console.log(stdout);
         console.error(stderr);
-        if (error !== null) {
-          console.log("exec error: ", error);
-        }
       });
     });
 
