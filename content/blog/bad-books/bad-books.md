@@ -10,7 +10,7 @@ image: /blog/bad-books/domesday-book.jpg
 
 *A bookplate for the Załuski Library, designed by Jan Filipowicz.*
 
-Life's too short for bad books. A long time ago I realized that reading for leisure is supposed to be an enjoyable pastime and not a punitive chore. You might feel obliged to finish reading a book even if you don't enjoy it, but there's only so many books you can fit into the rapidly vanishing seconds of your time on earth.
+Life's too short for bad books. A long time ago I realized that reading for leisure is supposed to be fun, not a punitive chore. You might feel obliged to finish a book even if you didn't enjoy it, but there's only so many books you can fit into the rapidly vanishing seconds of your time on earth.
 
 So, over the years, I've come up with a strategy to minimise time wasted reading mid books. At its core it's pretty straightforward:
 
@@ -18,9 +18,7 @@ So, over the years, I've come up with a strategy to minimise time wasted reading
 
 Why Goodreads? Because book criticism is dead and the only way to get a semi-reliable review is through the network effects of a large sample size. And the only semi-reliable source for that information is, unfortunately, the aggregated book ratings on Goodreads. Unfortunate because Goodreads is owned by Amazon. Boo.
 
-Why four stars? Well, I've noticed that reviews lean heavily towards the positive, which shifts the scale. On Goodreads at least, a three-star rating is really a two-star. So a four-star rating is really about a three-star.
-
-Of course, there are caveats - which I'll go into below - but in my experience any book with a lower rating should be dismissed out of hand.
+Why four stars? Well, I've noticed that reviews lean heavily towards the positive, which shifts the scale. On Goodreads at least, a three-star rating is really a two-star. So a four-star rating is really about a three-star. Of course, there are caveats - which I'll go into below - but in my experience any book with a lower rating should be dismissed out of hand.
 
 Now, I can hear your objections to this system and I totally agree. I've read plenty of poorly-rated books that I absolutely loved, and even more top-rated books that were just awful. It's not supposed to be a perfect system, it's supposed to narrow the field. For example, I'll ignore a rating and pick up books based on personal recommendations. Authors I know well also get to skip the queue. Basically, use your judgement.
 
