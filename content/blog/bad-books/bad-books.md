@@ -2,6 +2,7 @@
 title: Too short for bad books
 tags:
   - posts
+  - drafts
 date: 2026-07-06
 layout: layouts/post.njk
 image: /blog/bad-books/domesday-book.jpg
