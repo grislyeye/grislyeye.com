@@ -36,16 +36,21 @@ class MySection extends LitElement {
 
     .next {
       text-align: right;
+      color: var(--muted-color);
     }
 
     .next ::slotted(a),
     .next ::slotted(a:hover),
     .next ::slotted(a:active),
     .next ::slotted(a:visited) {
+      color: var(--muted-color);
+    }
+
+    .next ::slotted(a:hover) {
       color: white;
     }
 
-    @media (width < 970px) {
+    @media (max-width: 970px) {
       :host {
         margin-left: 0;
       }

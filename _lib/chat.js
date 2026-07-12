@@ -97,8 +97,6 @@ function toHtml(messages) {
   const postamble = `
     </dl>
 
-    <p>To be continued...</p>
-
     </section>`;
 
   return preamble + messages.map(renderMessage).join("") + postamble;

@@ -48,3 +48,22 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+
+#post ol ol,
+#post ul ul,
+#post ul ol,
+#post ol ul {
+  margin-bottom: 0;
+}
+
+#post .previews a {
+  background-image: none;
+}
+
+#post .previews a:hover {
+  background-color: transparent;
+}
+
+#post > p:nth-of-type(1) img:first-child {
+  margin-top: 0;
+}

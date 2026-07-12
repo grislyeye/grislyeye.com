@@ -11,7 +11,7 @@ image: /blog/on-the-romance/saint-valentine.png
 
 *Engraving of St. Valentine, by Cibera, 1853*
 
-The history between the OSR and romantic fantasy roleplaying is a tortuous one. From the crusade against the *Blue Rose* roleplaying game to the censure of the old Dragonlance adventures, the play styles have often been cast in opposition. I think there are lots of reasons for this (perhaps not all of them pleasant), but mainly because romantic fantasy RPGs are heavily associated with railroading and the much maligned trad play style.
+The history between the OSR and romantic fantasy roleplaying is a tortuous one. From the crusade against the *Blue Rose* roleplaying game to the censure of the old *Dragonlance* adventures, the play styles have often been cast in opposition. I think there are lots of reasons for this (perhaps not all of them pleasant), but mainly because romantic fantasy RPGs are heavily associated with railroading and the much maligned trad play style.
 
 Like all good GMs, I've followed the Discourse and kept my games focussed on maintaining player agency. Yet something isn't quite right. When I talk to my players, they aren't particularly concerned about their agency so much as playing out the interpersonal consequences of their choices.
 

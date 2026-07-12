@@ -14,6 +14,7 @@ import pluginSEO from "eleventy-plugin-seo";
 import pluginGoogleFonts from "eleventy-google-fonts";
 
 import path from "path";
+import { exec } from "node:child_process";
 
 import parseChat from "./_lib/chat.js";
 
@@ -42,31 +43,23 @@ export default async (eleventyConfig) => {
   eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
   eleventyConfig.addWatchTarget("content/**/*.csv");
 
-  // App plugins
-  eleventyConfig.addPlugin(pluginImages);
-
-  eleventyConfig.addPlugin(pluginLit, {
-    componentModules: [
-      "_components/my-hero.js",
-      "_components/my-nav.js",
-      "_components/my-preview.js",
-      "_components/my-section.js",
-      "_components/my-page.js",
-      "_components/my-product.js",
-      "_components/my-button.js"
-    ]
-  });
-
-  eleventyConfig.on("afterBuild", () => {
-    return esbuild.build({
-      entryPoints: [
-        "node_modules/@lit-labs/ssr-client/lit-element-hydrate-support.js"
-      ],
-      bundle: true,
-      outfile:
-        "_site/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js"
+  eleventyConfig
+    .on("afterBuild", () => {
+      return esbuild.build({
+        entryPoints: [
+          "node_modules/@lit-labs/ssr-client/lit-element-hydrate-support.js"
+        ],
+        bundle: true,
+        outfile:
+          "_site/vendor/@lit-labs/ssr-client/lit-element-hydrate-support.js"
+      });
+    })
+    .on("eleventy.after", async () => {
+      await exec("npm run test:lint", (error, stdout, stderr) => {
+        console.log(stdout);
+        console.error(stderr);
+      });
     });
-  });
 
   eleventyConfig.on("afterBuild", () => {
     return esbuild.build({
@@ -78,18 +71,24 @@ export default async (eleventyConfig) => {
 
   eleventyConfig.addWatchTarget("_components/**/*.js");
 
+  // App plugins
+  eleventyConfig.addPlugin(pluginImages);
+  eleventyConfig.addPlugin(pluginLit, {
+    componentModules: [
+      "_components/my-hero.js",
+      "_components/my-nav.js",
+      "_components/my-preview.js",
+      "_components/my-section.js",
+      "_components/my-page.js",
+      "_components/my-product.js",
+      "_components/my-button.js"
+    ]
+  });
   eleventyConfig.addPlugin(pluginSitemap, {
     sitemap: {
       hostname: metadata.url
     }
   });
-  eleventyConfig.addCollection("canonical", (collectionApi) => {
-    return collectionApi
-      .getAll()
-      .filter((page) => !page.data.tags || !page.data.tags.includes("drafts"))
-      .filter((page) => page.data.redirectTo === undefined);
-  });
-
   eleventyConfig.addPlugin(pluginFavicons);
   eleventyConfig.addPlugin(pluginSEO, {
     title: metadata.title,
@@ -103,12 +102,18 @@ export default async (eleventyConfig) => {
     }
   });
   eleventyConfig.addPlugin(pluginGoogleFonts);
-
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addCollection("publishedPosts", (collectionApi) => {
     return collectionApi
       .getFilteredByTags("posts")
       .filter((post) => !post.data.tags.includes("drafts"));
+  });
+
+  eleventyConfig.addCollection("canonical", (collectionApi) => {
+    return collectionApi
+      .getAll()
+      .filter((page) => !page.data.tags || !page.data.tags.includes("drafts"))
+      .filter((page) => page.data.redirectTo === undefined);
   });
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -175,6 +180,10 @@ export default async (eleventyConfig) => {
   });
 
   eleventyConfig.addPassthroughCopy({ "./robots.txt": "./robots.txt" });
+
+  eleventyConfig.setServerOptions({
+    domDiff: false
+  });
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
