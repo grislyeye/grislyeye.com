@@ -49,6 +49,25 @@
   margin-bottom: 0;
 }
 
+#post ol ol,
+#post ul ul,
+#post ul ol,
+#post ol ul {
+  margin-bottom: 0;
+}
+
+#post .previews a {
+  background-image: none;
+}
+
+#post .previews a:hover {
+  background-color: transparent;
+}
+
+#post > p:nth-of-type(1) img:first-child {
+  margin-top: 0;
+}
+
       .content aside {
   float: right;
   width: 200px;
@@ -768,4 +787,58 @@ vellum-monster h2 {
 .beta > my-hero,
 .beta > my-section {
   margin-bottom: 3rem;
+}
+
+      #flawed-potion-illustration.illustration {
+  max-width: 150px;
+}
+
+#magi-illustration.illustration {
+  max-width: 200px;
+}
+
+#bailiff-illustration.illustration {
+  max-width: 350px;
+}
+
+#fey-exile-illustration.illustration,
+#grim-folk-illustration.illustration,
+#fey-illustration.illustration,
+#nights-watchmen-illustration.illustration,
+#example-npc-block.illustration,
+#inspiration-illustration.illustration {
+  max-width: 300px;
+}
+
+.content #city-illustration.illustration {
+  max-width: 300px;
+}
+
+img[src*="infantry.png"].background,
+img[src*="grim-folk.jpg"].background {
+  height: 640px;
+  width: auto;
+}
+
+img[src*="npc-block-v4.png"] {
+  max-width: 300px;
+}
+
+img[src*="npc-block-v4-header.png"],
+img[src*="npc-block-v4-description.png"],
+img[src*="npc-block-v4-characteristics.png"],
+img[src*="npc-block-v4-secrets.png"],
+img[src*="npc-block-v4-activities.png"],
+img.medium {
+  max-width: 400px;
+}
+
+#mailing-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
 }

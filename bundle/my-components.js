@@ -796,7 +796,11 @@
         ${this.email ? _MyNavigationBar.renderSocial("email", this.email, "Mailing List") : b2``}
         ${this.twitter ? _MyNavigationBar.renderSocial("twitter", this.twitter, "Twitter") : b2``}
         ${this.bluesky ? _MyNavigationBar.renderSocial("bluesky", this.bluesky, "Bluesky") : b2``}
-        ${this.mastodon ? _MyNavigationBar.renderSocial("mastodon", this.mastodon, "Mastodon") : b2``}
+        ${this.mastodon ? _MyNavigationBar.renderSocial(
+        "mastodon",
+        this.mastodon,
+        "Mastodon"
+      ) : b2``}
         ${this.rss ? _MyNavigationBar.renderSocial("rss", this.rss, "RSS") : b2``}
       </div>
     `;
