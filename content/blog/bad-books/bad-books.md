@@ -30,6 +30,6 @@ You also need to have a working understanding of the genre. It's no good just di
 
 There is one final trap here. Online ratings and reviews are notoriously unreliable and easy to game. Large numbers of ratings are harder to sway but it's not impossible. And a dangerous source of bias is review bombing. Everything is political, but reviews have become battlegrounds for right-wing propaganda. This sort of thing happens all the time in film and gaming, and we've seen it happen with books (remember [Sad Puppies](https://en.wikipedia.org/wiki/Sad_Puppies)?). It's always worth looking at the context within which a book is published (or any piece of culture) and try to understand the political climate surrounding it.
 
-**To summarise...**
+**To summarize...**
 
 Curating these books is a five-dimensional puzzle (literally: 1. rating, 2. review count, 3. genre, 4. personal preference and 5. political climate) and the above only partly solves the problem. The real solution is, of course, more humanities. In this case, professional critics who do all the above work, and more, for you. How we get that is beyond the scope of this post, but I hope you found this useful at least.
