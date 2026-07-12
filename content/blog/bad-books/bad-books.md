@@ -29,7 +29,7 @@ Also, look at the book's genres. Fans of (not picking on anyone in particular) Y
 
 You also need to have a working understanding of the genre. It's no good just diving into say horror and just pick up the first four-star book you come across. I know fantasy and science fiction well so I already know a rough lay of the land. On the other hand, genres I'm new to are more unknown and harder to curate.
 
-There is one final trap here. Online ratings and reviews are notoriously unreliable and easy to game. Large numbers of ratings are harder to sway but it's not impossible. And a dangerous source of bias is review bombing. Everything is political, but reviews have become battlegrounds for right-wing propaganda. This sort of thing happens all the time in film and gaming, and we've seen it happen with books (remember [Sad Puppies](https://en.wikipedia.org/wiki/Sad_Puppies)?). It's always worth looking at the context within which a book is published (or any piece of culture) and try to understand the political climate surrounding it.
+There is one final trap here. Online ratings and reviews are notoriously unreliable and easy to game. Large numbers of ratings are harder to sway but it's not impossible. And a dangerous source of bias is review bombing. Everything is political, but reviews have become battlegrounds for right-wing propaganda. This sort of thing happens all the time in film and gaming, and we've seen it happen with books (remember [Sad Puppies](https://en.wikipedia.org/wiki/Sad_Puppies)?). It's always worth looking at the context within which a book is published (or any piece of culture for that matter) and try to understand the political climate surrounding it.
 
 **To summarize...**
 
