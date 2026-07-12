@@ -10,7 +10,7 @@ image: /blog/bad-books/domesday-book.jpg
 
 *Bookplate for the Załuski Library, designed by Jan Filipowicz.*
 
-Life's too short for bad books. A long time ago I realized that reading for leisure is supposed to be fun, not a punitive chore. You might feel obliged to finish a book even if you didn't enjoy it, but there's only so many books you can fit into the rapidly vanishing seconds of your time on earth. And there are so many books, so many of them not worth your precious time.
+I realised a long time ago that life's too short for bad books. Reading for leisure is supposed to be fun, not a punitive chore. We feel obliged to finish a book even if we didn't enjoy it, but there's only so many books you can fit into the rapidly vanishing seconds of your time on earth. And there are so many books, so many of them not worth your precious time.
 
 So, over the years I've come up with a simple strategy:
 
@@ -32,4 +32,4 @@ There is one final trap here. Online ratings and reviews are notoriously unrelia
 
 **To summarise...**
 
-Curating books is a five-dimensional puzzle (literally: 1. rating, 2. review count, 3. genre, 4. personal preference and 5. political climate) and the above only partly solves the problem. The real solution is, of course, more humanities. In this case, professional critics who do all the above work, and more, for you. How we get that is beyond the scope of this post, but I hope you at least found this useful.
+Curating these books is a five-dimensional puzzle (literally: 1. rating, 2. review count, 3. genre, 4. personal preference and 5. political climate) and the above only partly solves the problem. The real solution is, of course, more humanities. In this case, professional critics who do all the above work, and more, for you. How we get that is beyond the scope of this post, but I hope you found this useful at least.
