@@ -2,6 +2,7 @@
 title: Curseborne
 tags:
   - posts
+  - drafts
 date: 2026-07-21
 layout: layouts/review.njk
 image: /blog/curseborne/cover.png
@@ -10,7 +11,7 @@ rating: 3
 
 > Curseborne is a game about being unapologetic monsters in a world where being monstrous is the least of your worries.
 >
-> - *Curseborne* from *Onyx Path Publishing*, 2025
+> - *Curseborne*, 2025
 
 *[Curseborne](https://www.curseborne.com/)* (*Onyx Path Publishing's* new urban fantasy TTRPG) has brought me to a crisis. I'm asking myself questions I don't really want the answers to. Like, have I become everything I hate? Am I an awful grognard? Am I *uncool*?
 
@@ -20,30 +21,28 @@ No, that can't be right. It must be those kids at *Onyx Path Publishing* who are
 >
 > In this post use the terms urban fantasy and urban horror interchangeably. *Curseborne* describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, *Vampire: the Masquerade* seems to be described as urban horror or fantasy equally often.
 
-Why has *Curseborne* brought me to this crisis? Well, let me first explain what *Curseborne* and *Onyx Path Publishing* are. Onyx was set up to continue publishing books for the various *White Wolf* game lines after WW ceased publishing. In particular, Onyx licensed the *World of Darkness* games from the rights holders, *Paradox*. However, Onyx lost the licenses when *Paradox* started publishing new WoD material. This leaves Onyx without an IP for their specialist genre, urban fantasy. In other words, *Curseborne* is an attempt to replace *Paradox's* IP with an original setting of their own.
+Why has *Curseborne* brought me to this crisis? Well, let me first explain what *Curseborne* and *Onyx Path Publishing* are. Onyx was set up to continue publishing books for the various *World of Darkness* game lines after *White Wolf* ceased publishing. In particular, Onyx licensed the *World of Darkness* games from the rights holders, *Paradox*. However, Onyx lost the licenses when *Paradox* started publishing new WoD material. This leaves Onyx without an intellectual property for their specialist genre, urban fantasy. In other words, *Curseborne* is an attempt to replace *Paradox's* IP with an original setting of their own.
 
 Which is why *Curseborne* fills me with apprehension: it is game haunted, if you will, by *Vampire: the Masquerade*, *Mage: the Ascension* and others. It is, essentially, a product of pure nostalgia. A game written with the dubious premise "like the World of Darkness but different." Not that it's an unreasonable objective, but it comes from a place of practicality rather than creativity. *Curseborne* doesn't start with a need and follow through with a game. It starts with a game in the hope it will become a need. I don't think it's cynical, but maybe it's not entirely authentic either.
 
 Of course, authenticity itself is subjective, and we should always be open to new games which is why I hold out hope. But can Onyx thread the needle here? Can they create something original? Something compelling for old WoD fans and new players. The comparison to the OWoD might seem unfair to Onyx but I still believe better things are possible. I believe that, if Onyx look hard at what made the OWoD work, they could create a new urban setting just as good, if not better.
 
-However, but I also have some reservations with *Onyx Path Publishing* themselves. Their core audience seemed to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) This led to derivative and lengthy works filled with tedious lore that lacked much of the pathos and inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty.
-
-And that's bad news because 90s *White Wolf's* real product was cool. The designers and illustrators always seemed to be people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and *new*, and if it isn't, well, what are you doing?
+However, I have some reservations with *Onyx Path Publishing* themselves. Their core audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) This leads to derivative and lengthy works filled with tedious lore that lacked much of the pathos and inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty.
 
 > [!NOTE]
 > ![Illustration of a vampire by Josh Timbrook](josh-timbrook.jpg)
 >
 > It's not controversial to say that the iconic art of Josh Timbrook was at the heart of what made the *World of Darkness* so appealing. His fashion-conscious illustrations oozed sex appeal, and set the bar (or should have) for all art in urban horror games. I'm not sure *Curseborne* lives up to his example.
 
+And that's bad news because 90s *White Wolf's* real product was cool. The designers and illustrators always seemed to be people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and *new*, and if it isn't, well, what are you doing?
+
 So, can *Curseborne* be stylish and desirable and *new*?
 
-It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's an examination of my youthful relationship with the original *World of Darkness*.
-
-But did *Onyx Path Publishing* ask themselves the right questions?
+It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's an examination of my personal relationship with the original *World of Darkness*.
 
 ## The Five Pillars of Urban Horror RPGs
 
-Where to begin? *Curseborne* is about 400 pages which is relatively short for an Onyx core book, but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. That's a lot, but I'm not particularly interested in covering the mechanics and sub-systems. I want to focus on the setting.
+As I strum my fingers on the attractive cover of my print-on-demand copy of *Curseborne*, I wonder where to begin. The book is about 400 pages. Relatively short for an Onyx core book (their notoriously lengthy 20th anniversary edition of *Mage: The Ascension* taps out at about 700 pages) but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. As I think on that it occurs to me that I don't particular care about the rules. When it comes to urban fantasy bad rules can be worked around, but it's setting that draws me in.
 
 So, how do you judge an urban fantasy setting?
 
