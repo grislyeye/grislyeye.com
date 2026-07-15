@@ -2,8 +2,7 @@
 title: Too short for bad books
 tags:
   - posts
-  - drafts
-date: 2026-07-06
+date: 2026-07-15
 layout: layouts/post.njk
 image: /blog/bad-books/domesday-book.jpg
 ---
@@ -11,13 +10,13 @@ image: /blog/bad-books/domesday-book.jpg
 
 *Bookplate for the Załuski Library, designed by Jan Filipowicz.*
 
-I realised a long time ago that life's too short for bad books. Reading for leisure is supposed to be fun, not a punitive chore, but somehow I've spent hours finishing books I hated. We feel obliged to finish a book even if we didn't enjoy it, but there's only so many books you can fit into the rapidly vanishing seconds of your time on earth but there are so many books not worth your precious time.
+I realised a long time ago that life's too short for bad books. Reading for leisure is supposed to be fun, not a punitive chore, but somehow I've spent hours finishing books I hated. We feel obliged to finish a book even if we didn't enjoy it, but there's only so many books you can fit into the rapidly vanishing seconds of your time on earth, but there are so many books not worth your precious time.
 
 So, over the years I've come up with a simple strategy:
 
 > **Only read books that have at least a four-star rating on Goodreads.**
 
-Why Goodreads? Because book criticism is dying and the only way to get a semi-reliable review is through the network effects of a large sample size. And the only semi-reliable source for that information is, unfortunately, the aggregated book ratings on Goodreads. Unfortunate because Goodreads is owned by Amazon. Boo.
+Why Goodreads? Because book criticism is dying and the network effects of a large sample size of ratings is the only alternative I've found. And the only semi-reliable source for that information is, unfortunately, the aggregated book ratings on Goodreads. Unfortunate because Goodreads is owned by Amazon. Boo.
 
 Why four stars? Well, I've noticed that reviews lean heavily towards the positive, which shifts the scale. On Goodreads, at least, a three-star rating is really a two-star. So a four-star rating is really about a three-star. Of course, there are caveats - which I'll go into below - but in my experience any book with a lower rating should be dismissed out of hand.
 
@@ -33,4 +32,4 @@ There is one final trap here. Online ratings and reviews are notoriously unrelia
 
 **To summarize...**
 
-Curating books is a five-dimensional puzzle (literally: 1. rating, 2. review count, 3. genre, 4. personal preference and 5. political climate) and the above only partly solves the problem. The real solution is, of course, more humanities. In this case, professional critics who do all the above work, and more, for you. Although how we get that is beyond the scope of this post, I hope this was at least helpful.
+Curating books is a five-dimensional puzzle (literally: 1. rating, 2. review count, 3. genre, 4. personal preference and 5. political climate) and the above only partly solves the problem. How we completely solve it is beyond the scope of this post, I hope this was at least helpful.
