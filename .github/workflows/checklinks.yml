@@ -19,7 +19,7 @@ jobs:
 
       - name: Check links for changed files
         id: check-links-changed-files
-        if: toJSON(steps.changed-files.outputs.all_changed_files) != '[]'
+        if: join(steps.changed-files.outputs.all_changed_files, '') != ''
         uses: lycheeverse/lychee-action@v2
         with:
           args: --root-dir "$(pwd)" --verbose --no-progress --exclude-loopback --include-fragments ${{ join(steps.changed-files.outputs.all_changed_files, ' ') }}
