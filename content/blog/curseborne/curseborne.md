@@ -2,7 +2,7 @@
 title: Curseborne
 tags:
   - posts
-date: 2026-04-21
+date: 2026-07-21
 layout: layouts/review.njk
 image: /blog/curseborne/cover.png
 rating: 3
@@ -12,23 +12,23 @@ rating: 3
 >
 > - *Curseborne* from *Onyx Path Publishing*, 2025
 
-*[Curseborne](https://www.curseborne.com/)* (*Onyx Path's* new urban fantasy TTRPG) has brought me to a crisis. I'm asking myself questions I don't really want the answers to. Like, have I become everything I hate? Am I an awful grognard? Am I *uncool*?
+*[Curseborne](https://www.curseborne.com/)* (*Onyx Path Publishing's* new urban fantasy TTRPG) has brought me to a crisis. I'm asking myself questions I don't really want the answers to. Like, have I become everything I hate? Am I an awful grognard? Am I *uncool*?
 
-No, that can't be right. It must be those kids at *Onyx Path Publishing* who are wrong. Although, now I think about it, surely many of the people working the levers at Onyx are in my age cohort? What is Onyx but an act of nostalgia itself? Its original purpose to resurrect game lines that died with the original *White Wolf*. And who would've been playing and then later republishing those original games? Why, the very same sort of Gen Xers I was playing with in the 90s.
+No, that can't be right. It must be those kids at *Onyx Path Publishing* who are wrong. Although, now I think about it, surely many of the people working the levers at Onyx are in my age cohort? What is Onyx but an act of nostalgia itself? Its original purpose to resurrect game lines that died with the original *White Wolf*. And who would be republishing those original games? Why, the very same sort of Gen Xers I was playing with in the 90s.
 
 > [!NOTE]
 >
-> In this post use the terms urban fantasy and urban horror interchangeably. *Curseborne* describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, *Vampire: the Masquerade* is described as urban horror or fantasy equally often online.
+> In this post use the terms urban fantasy and urban horror interchangeably. *Curseborne* describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, *Vampire: the Masquerade* seems to be described as urban horror or fantasy equally often.
 
-Why has *Curseborne* brought me to this crisis? Well, let me first explain what *Curseborne* is. Onyx have lost the licence to publish *World of Darkness* material now that *Paradox* - the actual rights holders - are publishing new material. This leaves Onyx without an IP for their specialist genre, urban fantasy. In other words, *Curseborne* is an attempt to replace *Paradox's* IP with an original setting of their own.
+Why has *Curseborne* brought me to this crisis? Well, let me first explain what *Curseborne* and *Onyx Path Publishing* are. Onyx was set up to continue publishing books for the various *White Wolf* game lines after WW ceased publishing. In particular, Onyx licensed the *World of Darkness* games from the rights holders, *Paradox*. However, Onyx lost the licenses when *Paradox* started publishing new WoD material. This leaves Onyx without an IP for their specialist genre, urban fantasy. In other words, *Curseborne* is an attempt to replace *Paradox's* IP with an original setting of their own.
 
-Which is why *Curseborne* fills me with apprehension: it is game haunted, if you will, by *Vampire: the Masquerade*, *Mage: the Ascension* and others. It is, essentially, a product of pure nostalgia. A game written with the dubious premise "like the World of Darkness but different." Not that it's an unreasonable objective, but it comes from a place of practicality rather than creativity. *Curseborne* doesn't start with a need and follow through with a game. It starts with a game in the hope it will become a need. It's not cynical, but maybe it's not entirely authentic either.
+Which is why *Curseborne* fills me with apprehension: it is game haunted, if you will, by *Vampire: the Masquerade*, *Mage: the Ascension* and others. It is, essentially, a product of pure nostalgia. A game written with the dubious premise "like the World of Darkness but different." Not that it's an unreasonable objective, but it comes from a place of practicality rather than creativity. *Curseborne* doesn't start with a need and follow through with a game. It starts with a game in the hope it will become a need. I don't think it's cynical, but maybe it's not entirely authentic either.
 
-Of course, authenticity itself is subjective, and we should always be open to new games which is why I hold out hope. But can Onyx thread the needle here? Can they create something original? Something compelling for old WoD fans and new players. The comparison to the OWoD might seem unfair to Onyx but I still believe better things are possible. I believe that if we look at what made the OWoD work, we can create new urban settings just as good, if not better.
+Of course, authenticity itself is subjective, and we should always be open to new games which is why I hold out hope. But can Onyx thread the needle here? Can they create something original? Something compelling for old WoD fans and new players. The comparison to the OWoD might seem unfair to Onyx but I still believe better things are possible. I believe that, if Onyx look hard at what made the OWoD work, they could create a new urban setting just as good, if not better.
 
-Maybe, but I also have some reservations with *Onyx Path Publishing* themselves. Their audience seems to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) This can lead to derivative and lengthy works filled with tedious lore that lacks much of the pathos and inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty.
+However, but I also have some reservations with *Onyx Path Publishing* themselves. Their core audience seemed to consist mostly of hardcore WoD fans who are willing to fork out cash on Kickstarters and expensive print-on-demand editions. (No shade here, I'm one of them.) This led to derivative and lengthy works filled with tedious lore that lacked much of the pathos and inventiveness of the original games, published to feed an insatiable hunger for nostalgic content regardless of quality. Many of these works are impenetrable, obscure and, well, a bit crusty.
 
-And that's bad news because 90s *White Wolf's* product wasn't really games; it was cool. The designers and illustrators always seemed to be people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and *new*, and if it isn't, well, what are you doing?
+And that's bad news because 90s *White Wolf's* real product was cool. The designers and illustrators always seemed to be people hipper than you and, whether or not that was actually true, that's what brought new players into the games. Urban fantasy must be, if it is anything, stylish and desirable and *new*, and if it isn't, well, what are you doing?
 
 > [!NOTE]
 > ![Illustration of a vampire by Josh Timbrook](josh-timbrook.jpg)
@@ -37,17 +37,17 @@ And that's bad news because 90s *White Wolf's* product wasn't really games; it w
 
 So, can *Curseborne* be stylish and desirable and *new*?
 
-It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can *anyone* my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's an examination of my youthful relationship with the original *World of Darkness*.
+It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion, is: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's an examination of my youthful relationship with the original *World of Darkness*.
 
 But did *Onyx Path Publishing* ask themselves the right questions?
 
-## The Five Pillars of Urban Fantasy RPGs
+## The Five Pillars of Urban Horror RPGs
 
-Where to begin? *Curseborne* is about 400 pages which is relatively short for an *Onyx Path* core book, but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. That's a lot, but I'm not particularly interested in covering the mechanics and sub-systems. What I do want to focus is the setting itself.
+Where to begin? *Curseborne* is about 400 pages which is relatively short for an Onyx core book, but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. That's a lot, but I'm not particularly interested in covering the mechanics and sub-systems. I want to focus on the setting.
 
-So, how am I judging this? What makes an urban fantasy setting great?
+So, how do you judge an urban fantasy setting?
 
-In my opinion, there are five pillars of urban fantasy roleplaying games that make a setting sublime, elements that I feel made games like VtM great. They are:
+In my opinion, there are five pillars of urban fantasy roleplaying games that made games like VtM great. They are:
 
 1. Monsters
 2. Dark World
@@ -93,7 +93,7 @@ Like the *Chronicles of Darkness*, *Curseborne* is less global, with less canon.
 
 Here is the heart of the matter. Urban fantasy TTRPGs live or die by their splats. They introduce the aesthetic, core concepts, themes and motifs.
 
-*Curseborne* splats seem to be adapted from the *Chronicles of Darkness*/*New World of Darkness* convention. There are a fixed set of inherent splats (like the clans from *Vampire: the Requiem*) and an expansive list of secondary splats, that refine the main concepts into more specific character types (like *Vampire: the Requiem* bloodlines). We have the "lineages" which represent the core, urban fantasy archetypes: your vampires, werewolves, etc. And each lineage then has 5-6 secondary splats, called "families".
+*Curseborne* splats seem to be adapted from the *Chronicles/New World of Darkness* convention. There are a fixed set of inherent splats (like the clans from *Vampire: the Requiem*) and an expansive list of secondary splats, that refine the main concepts into more specific character types (like *Vampire: the Requiem* bloodlines). We have the "lineages" which represent the core, urban fantasy archetypes: your vampires, werewolves, etc. And each lineage then has 5-6 secondary splats, called "families".
 
 These families work as both social and inherent factions, and there are around 30 of them, which seems like a lot. And here we come to my first, big objection to *Curseborne*. The original WoD books kept splats to a minimum, usually no more than 13 in a core book. This is because splats are supposed to simplify the character creation process. You pick the splat first, and worry about the details later.
 
