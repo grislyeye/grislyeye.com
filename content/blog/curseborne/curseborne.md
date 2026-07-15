@@ -44,15 +44,13 @@ It's a question that fills me with existential dread because the lingering subte
 
 As I strum my fingers on the attractive cover of my print-on-demand copy of *Curseborne*, I wonder where to begin. The book is about 400 pages. Relatively short for an Onyx core book (their notoriously lengthy 20th anniversary edition of *Mage: The Ascension* taps out at about 700 pages) but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. As I think on that it occurs to me that I don't particular care about the rules. When it comes to urban fantasy bad rules can be worked around, but it's setting that draws me in.
 
-So, how do you judge an urban fantasy setting?
+So, I've thought long and hard about it and arrived at five pillars that I believe made the *World of Darkness* games great. They are as follows:
 
-In my opinion, there are five pillars of urban fantasy roleplaying games that made games like VtM great. They are:
-
-1. Monsters
-2. Dark World
-3. Secret Society
-4. Splats
-5. Secret Wars
+1. Monsters are people
+2. The world is darker
+3. Secret societies lurk everywhere
+4. Good splats
+5. A secret war rages
 
 I'll be looking at the fictional and meta aspects of each of these pillars. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
 
