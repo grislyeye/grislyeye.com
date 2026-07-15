@@ -1,6 +1,6 @@
 {
   "name": "grislyeye.com",
-  "version": "3.35.0",
+  "version": "3.35.1",
   "type": "module",
   "author": {
     "name": "Ric Wood",
@@ -51,9 +51,9 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "clean": "rimraf _site",
-    "start": "npx @11ty/eleventy --serve --quiet",
+    "start": "npx @11ty/eleventy --serve --quiet --incremental",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
-    "debug:start": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+    "debug:start": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet --incremental",
     "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
     "test": "npm run test:lint && npm run test:links",
     "test:pr": "npm run test:lint && npm run test:links:soft",
