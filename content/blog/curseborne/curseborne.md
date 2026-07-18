@@ -38,7 +38,7 @@ And that's bad news because 90s *White Wolf's* real product was cool. The design
 
 So, can *Curseborne* be stylish and desirable and *new*?
 
-It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's a personal retrospective. Was the *World of Darkness* cool? Was I cool? Have I been captured by nostalgia? Am I incapable of enjoying any other urban fantasy?
+It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's a personal retrospective. Was the *World of Darkness* cool? Was I cool? Have I been captured by nostalgia? Am I capable of enjoying any other urban fantasy?
 
 ## The Five Pillars of Urban Horror RPGs
 
