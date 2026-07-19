@@ -38,13 +38,13 @@ And that's bad news because 90s *White Wolf's* real product was cool. The design
 
 So, can *Curseborne* be stylish and desirable and *new*?
 
-It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's a personal retrospective. Was the *World of Darkness* cool? Was I cool? Have I been captured by nostalgia? Am I capable of enjoying any other urban fantasy?
+It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's a personal retrospective. Was the *World of Darkness* cool? Have I been captured by nostalgia? Can *Curseborne* escape the shadow of the *World of Darkness*?
 
 ## The Five Pillars of Urban Horror RPGs
 
-As I strum the cover of my print-on-demand copy of *Curseborne*, I wonder where to begin. The book is about 400 pages with an attractive cover and full-colour within. It's relatively short for an Onyx core book (their notoriously lengthy 20th anniversary edition of *Mage: The Ascension* taps out at about 700 pages) but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. But, as I think on that, it occurs to me that I don't particular care about the rules. When it comes to urban fantasy bad rules can be worked around, but it's setting that draws me in.
+As I strum the cover of my print-on-demand copy of *Curseborne*, I wonder where to begin. The book is about 400 pages with an attractive cover and full-colour within. It's relatively short for an Onyx core book (their notoriously lengthy 20th anniversary edition of *Mage: The Ascension* taps out at about 700 pages) but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. But, as I think on that, it occurs to me that I don't particular care about the rules. When it comes to urban fantasy bad rules can be worked around, but it's setting that draws me in.
 
-So, I've thought long and hard about it and arrived at five pillars that I believe made the *World of Darkness* (that is, the setting itself) great. They are as follows:
+So, I've thought long and hard about it and arrived at five pillars that I believe made the *World of Darkness* (that is, the setting itself) great. They are as follows:
 
 1. The protagonists are monsters
 2. The world is darker
