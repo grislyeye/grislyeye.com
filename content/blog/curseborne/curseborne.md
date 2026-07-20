@@ -13,7 +13,7 @@ rating: 3
 >
 > - *Curseborne*, 2025
 
-*[Curseborne](https://www.curseborne.com/)* (*Onyx Path Publishing's* new urban fantasy TTRPG) has brought me to a crisis. I'm asking myself questions I don't really want the answers to. Like, have I become everything I hate? Am I an awful grognard? Am I *uncool*?
+[Curseborne](https://www.curseborne.com/) (*Onyx Path Publishing's* new urban fantasy TTRPG) has brought me to a crisis. I'm asking myself questions I don't really want the answers to. Like, have I become everything I hate? Am I an awful grognard? Am I *uncool*?
 
 No, that can't be right. It must be those kids at *Onyx Path Publishing* who are wrong. Although, now I think about it, surely many of the people working the levers at Onyx are in my age cohort? What is Onyx but an act of nostalgia itself? Its original purpose to resurrect game lines that died with the original *White Wolf*. And who would be republishing those original games? Why, the very same sort of Gen Xers I was playing with in the 90s.
 
