@@ -38,7 +38,7 @@ And that's bad news because 90s *White Wolf's* real product was cool. The design
 
 So, can *Curseborne* be stylish and desirable and *new*?
 
-It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's a personal retrospective. Was the *World of Darkness* cool? Have I been captured by nostalgia? Can *Curseborne* escape the shadow of the *World of Darkness*?
+It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's a personal retrospective. Was the *World of Darkness* cool? Have I been captured by nostalgia? Can I fairly judge *Curseborne* on its own merits or will it forever linger in the shadow of the *World of Darkness*?
 
 ## The Five Pillars of Urban Horror RPGs
 
@@ -53,6 +53,8 @@ So, I've thought long and hard about it and arrived at five pillars that I belie
 5. A secret war rages
 
 I'll be looking at the fictional and meta aspects of each of these pillars. The fiction adds a degree of consistency and realism that ground the setting, while the meta aspects support the fantasy of playing a monster.
+
+As in any good world design, the fictional and meta aspects of the setting elements reinforce each other.
 
 ### 1. Monsters are people
 
