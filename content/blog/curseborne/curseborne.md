@@ -38,7 +38,7 @@ And that's bad news because 90s *White Wolf's* real product was cool. The design
 
 So, can *Curseborne* be stylish and desirable and *new*?
 
-It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's a personal retrospective. Was the *World of Darkness* cool? Have I been captured by nostalgia? Can I fairly judge *Curseborne* on its own merits or will it forever linger in the shadow of the *World of Darkness*?
+It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's a personal retrospective. Was the *World of Darkness* cool? Have I been captured by nostalgia? Can I fairly judge *Curseborne* on its own merits or will it forever linger in the shadow of the *World of Darkness*?
 
 ## The Five Pillars of Urban Horror RPGs
 
@@ -73,6 +73,10 @@ However, the Darker World also supports the core fantasy of urban horror. If you
 Well, *Curseborne* is set in something I'm calling the "Cursed World," but which doesn't actually have a name in the book. It's their equivalent of the World of Darkness: the world is literally cursed, crawling with curses. Everyone experiences a constant stream of them, creating a permanent, dismal atmosphere, but the Accursed are more cursed.
 
 ### 3. A secret society
+
+> [!Note]
+>
+> It is worth noting that the *Curseborne* core book only covers the lower power tier of play. The forthcoming *Covenants* source book will cover higher tiers of play and delve into the conspiracies of the world of *Curseborne.*
 
 [Wainscot Society - TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/WainscotSociety)
 
