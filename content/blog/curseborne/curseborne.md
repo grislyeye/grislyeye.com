@@ -38,7 +38,7 @@ And that's bad news because 90s *White Wolf's* real product was cool. The design
 
 So, can *Curseborne* be stylish and desirable and *new*?
 
-It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's a personal retrospective. Was the *World of Darkness* cool? Have I been captured by nostalgia? Can I fairly judge *Curseborne* on its own merits or will it forever linger in the shadow of the *World of Darkness*?
+It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's a personal retrospective. Was the *World of Darkness* cool? Have I been captured by nostalgia? Can I fairly judge *Curseborne* on its own merits, or will it forever linger in the shadow of the *World of Darkness*?
 
 ## The Five Pillars of Urban Horror RPGs
 
@@ -76,7 +76,7 @@ Well, *Curseborne* is set in something I'm calling the "Cursed World," but which
 
 > [!Note]
 >
-> It is worth noting that the *Curseborne* core book only covers the lower power tier of play. The forthcoming *Covenants* source book will cover higher tiers of play and delve into the conspiracies of the world of *Curseborne.*
+> It is worth noting that the *Curseborne* core book only covers the lower power tier of play. The forthcoming *Covenants* source book will cover higher tiers of play and delve into the conspiracies of the world of *Curseborne.*
 
 [Wainscot Society - TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Main/WainscotSociety)
 
@@ -143,6 +143,8 @@ Yet, in the 30 years since the OWoD, trends have moved away from monolithic sett
 **Chapter 6: Adversaries.** Second only to the splats chapter, the adversaries define urban fantasy games.
 
 ## Summary
+
+Is *Curseborne* good? It's not bad. At least, not as bad as I thought it might be.
 
 *Curseborne* is dense, but only because it tries to cover so much ground, and the content we have is a little shallow. There's lots going on, but it feels like there is no unifying whole. The initial editions of the *World of Darkness* games were a little sparse, but they were punchy, thematic and got the point. *Curseborne* is lacking here.
 
