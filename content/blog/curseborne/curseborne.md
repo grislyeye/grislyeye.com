@@ -40,6 +40,12 @@ So, can *Curseborne* be stylish and desirable and *new*?
 
 It's a question that fills me with existential dread because the lingering subtext here, the awful suspicion: can anyone my age create something stylish and desirable and new? Because this isn't just a review of *Curseborne*, it's a personal retrospective. Was the *World of Darkness* cool? Have I been captured by nostalgia? Can I fairly judge *Curseborne* on its own merits, or will it forever linger in the shadow of the *World of Darkness*?
 
+## What is it about?
+
+Before I get into the meat of the review, I just want to address the game's confusing premise. *Curseborne* makes a lot about the fact it is "hopepunk" and not "gothic punk," like those dated *World of Darkness* games. Yet, I struggle to find anything hopeful about the setting. The lineages are all doomed in one way or another, the families are toxic and cruel and the setting doesn't really have any space for change or improvement. Where is the hope? Or, indeed, the punk.
+
+I've also been told that the PC party are supposed to be a sort of "found family" but, again, I can't see anything in the text that supports that claim[citation].
+
 ## The Five Pillars of Urban Horror RPGs
 
 Where to begin? The *Curseborne* core rulebook is about 400 pages with an attractive cover and full-colour within. It's relatively short for an Onyx core book (their notoriously lengthy 20th anniversary edition of *Mage: The Ascension* taps out at about 700 pages) but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. But, as I think on that, it occurs to me that I don't particular care about the rules. When it comes to urban fantasy bad rules can be worked around, but it's setting that draws me in.
