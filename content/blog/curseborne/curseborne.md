@@ -19,7 +19,7 @@ No, that can't be right. It must be those kids at *Onyx Path Publishing* who are
 
 > [!NOTE]
 >
-> In this post use the terms urban fantasy and urban horror interchangeably. *Curseborne* describes itself as urban fantasy, but I don't think that really does justice to the genre. For reference, *Vampire: the Masquerade* seems to be described as urban horror or fantasy equally often.
+> I'm using the terms urban fantasy and urban horror interchangeably. *Curseborne* describes itself as urban fantasy, but that really does justice to the genre. For reference, *Vampire: the Masquerade* seems to be described as urban horror or fantasy equally often.
 
 Why has *Curseborne* brought me to this crisis? Well, let me first explain what *Curseborne* and *Onyx Path Publishing* are. Onyx was set up to continue publishing books for the various *World of Darkness* game lines after *White Wolf* ceased publishing. In particular, Onyx licensed the *World of Darkness* games from the rights holders, *Paradox*. However, Onyx lost the licenses when *Paradox* started publishing new WoD material. This leaves Onyx without an intellectual property for their specialist genre, urban fantasy. In other words, *Curseborne* is an attempt to replace *Paradox's* IP with an original setting of their own.
 
@@ -42,7 +42,7 @@ It's a question that fills me with existential dread because the lingering subte
 
 ## The Five Pillars of Urban Horror RPGs
 
-As I strum the cover of my print-on-demand copy of *Curseborne*, I wonder where to begin. The book is about 400 pages with an attractive cover and full-colour within. It's relatively short for an Onyx core book (their notoriously lengthy 20th anniversary edition of *Mage: The Ascension* taps out at about 700 pages) but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. But, as I think on that, it occurs to me that I don't particular care about the rules. When it comes to urban fantasy bad rules can be worked around, but it's setting that draws me in.
+Where to begin? The *Curseborne* core rulebook is about 400 pages with an attractive cover and full-colour within. It's relatively short for an Onyx core book (their notoriously lengthy 20th anniversary edition of *Mage: The Ascension* taps out at about 700 pages) but it's dense, including five splats, about thirty sub-splats and at least 3 magic systems. But, as I think on that, it occurs to me that I don't particular care about the rules. When it comes to urban fantasy bad rules can be worked around, but it's setting that draws me in.
 
 So, I've thought long and hard about it and arrived at five pillars that I believe made the *World of Darkness* (that is, the setting itself) great. They are as follows:
 
