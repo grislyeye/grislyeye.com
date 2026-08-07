@@ -78,6 +78,8 @@ However, the Darker World also supports the core fantasy of urban horror. If you
 
 Well, *Curseborne* is set in something I'm calling the "Cursed World," but which doesn't actually have a name in the book. It's their equivalent of the World of Darkness: the world is literally cursed, crawling with curses. Everyone experiences a constant stream of them, creating a permanent, dismal atmosphere, but the Accursed are more cursed.
 
+what is missing is what? what does this mean? there is no support for a world crawling with curses, no idea what that looks like or how that is different to our real world will stop
+
 ### 3. A secret society
 
 > [!Note]
