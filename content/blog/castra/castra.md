@@ -42,7 +42,7 @@ The most notable location in the sector is, of course, [Castra](#castra). Other 
 
 ![castra](castra.png)
 
-[Castra](Castra) itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The [Strontium](#strontium) orbits the planet, and its menacing presence looms.
+[Castra](#castra) itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The [Strontium](#strontium) orbits the planet, and its menacing presence looms.
 
 Principles:
 
