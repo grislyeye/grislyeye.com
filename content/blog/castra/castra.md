@@ -7,7 +7,7 @@ layout: layouts/post.njk
 image: /blog/castra/castra.png
 ---
 
-Castra was a [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran, loosely based on *Andor*, set in the [Agilius Free Sector](#agilius-free-sector). It was my attempt to fit a Star Wars-like setting into the Starforged game, with a Ancient Roman theme.
+Castra was a [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran, loosely based on *Andor*, set in the [Agilius Free Sector](#agilius-free-sector). It was my attempt to fit a Star Wars-like setting into the Starforged game, with an Ancient Roman theme.
 
 The premise was as follows:
 
@@ -42,7 +42,7 @@ The most notable location in the sector is, of course, [Castra](#castra). Other 
 
 ![castra](castra.png)
 
-[Castra](#castra) itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The [Strontium](#strontium) orbits the planet, and its menacing presence looms.
+Castra itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The [Strontium](#strontium) orbits the planet, and its menacing presence looms.
 
 Principles:
 
