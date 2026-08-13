@@ -65,6 +65,10 @@ The most notable location in the sector is, of course, [Castra](#castra). Other 
 
 ![Map of Castra](castra.png "Map of Castra")
 
+> [!NOTE]
+>
+> These maps were created using *The Department of Unusual Observations'* excellent [Sector Grid](https://deptofunusual.itch.io/sector-grids) templates. They're free, the look crazy good and really pulled together the vibe of the campaign.
+
 Castra itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The Fifth Carbon Legion's capital ship, [The Strontium](#strontium) (■■■■■), orbits the planet, its menacing presence looming over the city.
 
 Principles:
