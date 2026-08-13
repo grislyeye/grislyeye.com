@@ -193,7 +193,7 @@ Striga are deployed by the Legions for precision ship-to-ship and land-to-air co
 
 ### Striga Flock ■■■
 
-Carriers can deploy hundreds of Striga, at a moments notice, swarming enemy craft with overwhelming force.
+Carriers can deploy hundreds of Striga at a moments notice, swarming enemy craft with overwhelming force.
 
 ### Striga Swarm ■■■■
 
