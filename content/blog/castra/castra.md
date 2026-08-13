@@ -8,9 +8,9 @@ image: /blog/castra/castra.png
 randomisers: true
 ---
 
-Castra was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran, loosely based on *Andor*. We were on a post-Season 2 and we had a spare slot, so I thought I'd give my players a little gift and run this for them.
+Castra was a guided [Starforged](https://tomkinpress.com/pages/ironsworn-starforged) campaign I ran loosely based on *Andor*. My group were on a post-Season 2 high and we had a spare slot, so I thought I'd give my players a little gift and run this for them.
 
-Castra was set in the [Agilius Free Sector](#agilius-free-sector): an attempt to hammer a Star Wars-like setting into the Starforged game. Of course, I'm not just going to run it in a vanilla Star Wars setting (why not? I don't know) so I did some original stuff. with an Ancient Roman theme, while keeping the iron-based theme of the *Ironforged* games.
+Castra was set in the [Agilius Free Sector](#agilius-free-sector): an attempt to hammer a Star Wars-like setting into the Starforged game. Of course, I wasn't just going to run it in a vanilla Star Wars setting so I had some fun with it. with an Ancient Roman theme, while keeping the iron-based theme of the *Ironforged* games.
 
 I'm posting it here because I don't think it's got enough meat on it to publish and it'll just be sitting on my hard drive, gathering dust.
 
@@ -49,7 +49,7 @@ The most notable location in the sector is, of course, [Castra](#castra). Other 
 
 ![Map of Castra](castra.png "Map of Castra")
 
-Castra itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The [Strontium](#strontium) orbits the planet, and its menacing presence looms.
+Castra itself is an occupied spaceport on the storm world of Agilius. The city has been demarcated as Fulcrum special economic zone. Because of its dubious legal status, it also operates as a diplomatic no-man's-land populated by profiteers, spies and political exiles. The Fifth Carbon Legion's capital ship, [The Strontium](#strontium) (■■■■■), orbits the planet, its menacing presence looming over the city.
 
 Principles:
 
@@ -103,95 +103,36 @@ Characters make an iron vow to the Insurgency, swearing to defeat the
 
 We shouldn't really call them [spark tables](https://www.bastionland.com/2017/11/electric-modernity-and-spark-tables.html), vibe tables are a way better term. Whatever, here is a random table to spark your imagination when you're stuck and want something thematic.
 
-<vellum-random-table select="#result" preroll hidecalc>
+<vellum-random-table select="#result" preroll hidecalc class="two-column">
 
-| Spark 1         | Spark 2      |
-| --------------- | ------------ |
-| Counter         | Insurgency   |
-| Imperial        | Espionage    |
-| Colonial        | Resistance   |
-| Guerrilla       | Warfare      |
-| Steady-state    | Camp         |
-| Orbital         | Fatigue      |
-| Training        | Relay        |
-| Insidious       | Collaborator |
-| Splinter        | Defector     |
-| Prison          | Camp         |
-| Slick           | Massacre     |
-| Power           | Traitor      |
-| Iron            | War          |
-| Carbon          | Tail         |
-| Separatist      | Tell         |
-| Slate           | Station      |
-| Cobalt          | Smelter      |
-| Mustard         | Schism       |
-| Turquoise       | Trace        |
-| Scuffed         | Trouble      |
-| Mushroom        | Project      |
-| Restricted      | Stress       |
-| Brutal          | Burn         |
-| Political       | Visa         |
-| Insurrectionist | Refinery     |
-| Partisan        | Factory      |
-| Emergency       | Mine         |
-| Confinement     | Works        |
-| Retailiate      | Seller       |
-| Code            | Buyer        |
-| Escort          | Fixer        |
-| Medtech         | Signal       |
-| Comms           | Message      |
-| Legion          | ID           |
-| Seething        | Facility     |
-| Diplomatic      | Cell         |
-| Militant        | Contingency  |
-| Nonviolent      | Centurion    |
-| Military        | Slaughter    |
-| Indiginous      | Legate       |
-| Private         | Lictor       |
-| Merchant        | Struggle     |
-| Rebel           | Convert      |
-| Vulnerable      | Prefect      |
-| Solitary        | Governor     |
-| Severe          | Broker       |
-| Disposable      | Ramp         |
-| Covert          | Gantry       |
-| Hope            | Position     |
-| Heavy           | Cache        |
-| High Density    | Vault        |
-| Naval           | Garrison     |
-| Discontent      | Sympathizer  |
-| Draconian       | Shitshow     |
-| Enterprise      | Bloc         |
-| Counter         | Base         |
-| Vital           | Reprisal     |
-| Loom            | Espionage    |
-| Backwater       | Trade        |
-| Space           | Victory      |
-| Docking         | Port         |
-| Occupied        | Consul       |
-| Derilict        | Bounty       |
-| Rust            | Disaster     |
-| Idealogical     | Contractor   |
-| Radical         | Deal         |
-| Heavy           | Commslink    |
-| Unstable        | Machinery    |
-| Violent         | Trap         |
-| Holy            | City         |
-| Dead            | Module       |
-| Rumble          | Backroom     |
-| Backstreet      | Government   |
-| Security        | Anvil        |
-| Follow          | Forge        |
-| Smelter         | Intelligence |
+| d20  | Spark 1         | Spark 2      |
+| ---- | --------------- | ------------ |
+| 1    | Counter         | Insurgency   |
+| 2    | Imperial        | Espionage    |
+| 3    | Colonial        | Resistance   |
+| 4    | Guerrilla       | Warfare      |
+| 5    | Steady-state    | Camp         |
+| 6    | Orbital         | Fatigue      |
+| 7    | Training        | Relay        |
+| 8    | Insidious       | Collaborator |
+| 9    | Splinter        | Defector     |
+| 10   | Prison          | Camp         |
+| 11   | Slick           | Massacre     |
+| 12   | Power           | Traitor      |
+| 13   | Iron            | War          |
+| 14   | Carbon          | Tail         |
+| 15   | Separatist      | Tell         |
+| 16   | Slate           | Station      |
+| 17   | Cobalt          | Smelter      |
+| 18   | Mustard         | Schism       |
+| 19   | Turquoise       | Trace        |
+| 20   | Scuffed         | Trouble      |
 
 <div class="roller">
-
 <my-button class="small">
 <button>Roll</button>
 </my-button>
-
 <input id="result" type="text" />
-
 </div>
 
 </vellum-random-table>
